@@ -3,19 +3,10 @@
  * Displays the last detected shot type with fade animation
  */
 
-import React, { useEffect } from 'react';
-import { Text, StyleSheet } from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withSequence,
-  withTiming,
-  withDelay,
-  Easing,
-} from 'react-native-reanimated';
-import { COLORS, ANIMATION, SHOT_THRESHOLDS, SHOT_TYPES } from '../constants/SwingConfig';
+import React, { useEffect, useRef } from 'react';
+import { Text, StyleSheet, Animated } from 'react-native';
+import { COLORS, ANIMATION, SHOT_TYPES } from '../constants/SwingConfig';
 
-// Get display info for each shot type
 const getShotInfo = (shotType) => {
   switch (shotType) {
     case SHOT_TYPES.DINK:
@@ -34,52 +25,71 @@ const getShotInfo = (shotType) => {
 };
 
 const ShotTypeIndicator = ({ shotType, isVisible }) => {
-  const opacity = useSharedValue(0);
-  const scale = useSharedValue(0.5);
-  const translateY = useSharedValue(20);
+  const opacityAnim = useRef(new Animated.Value(0)).current;
+  const scaleAnim = useRef(new Animated.Value(0.5)).current;
+  const translateYAnim = useRef(new Animated.Value(20)).current;
 
   useEffect(() => {
     if (isVisible && shotType) {
-      // Animate in
-      opacity.value = withSequence(
-        withTiming(1, { duration: 150, easing: Easing.out(Easing.quad) }),
-        withDelay(
-          ANIMATION.shotTypeFadeDuration - 500,
-          withTiming(0, { duration: 500, easing: Easing.in(Easing.quad) })
-        )
-      );
+      opacityAnim.setValue(0);
+      scaleAnim.setValue(0.5);
+      translateYAnim.setValue(20);
 
-      scale.value = withSequence(
-        withTiming(1.2, { duration: 150, easing: Easing.out(Easing.back) }),
-        withTiming(1, { duration: 100 }),
-        withDelay(
-          ANIMATION.shotTypeFadeDuration - 500,
-          withTiming(0.8, { duration: 500 })
-        )
-      );
-
-      translateY.value = withSequence(
-        withTiming(0, { duration: 150, easing: Easing.out(Easing.quad) }),
-        withDelay(
-          ANIMATION.shotTypeFadeDuration - 500,
-          withTiming(-20, { duration: 500 })
-        )
-      );
+      Animated.parallel([
+        Animated.sequence([
+          Animated.timing(opacityAnim, {
+            toValue: 1,
+            duration: 150,
+            useNativeDriver: true,
+          }),
+          Animated.delay(ANIMATION.shotTypeFadeDuration - 500),
+          Animated.timing(opacityAnim, {
+            toValue: 0,
+            duration: 500,
+            useNativeDriver: true,
+          }),
+        ]),
+        Animated.sequence([
+          Animated.spring(scaleAnim, {
+            toValue: 1,
+            friction: 4,
+            useNativeDriver: true,
+          }),
+          Animated.delay(ANIMATION.shotTypeFadeDuration - 500),
+          Animated.timing(scaleAnim, {
+            toValue: 0.8,
+            duration: 500,
+            useNativeDriver: true,
+          }),
+        ]),
+        Animated.sequence([
+          Animated.timing(translateYAnim, {
+            toValue: 0,
+            duration: 150,
+            useNativeDriver: true,
+          }),
+          Animated.delay(ANIMATION.shotTypeFadeDuration - 500),
+          Animated.timing(translateYAnim, {
+            toValue: -20,
+            duration: 500,
+            useNativeDriver: true,
+          }),
+        ]),
+      ]).start();
     }
-  }, [shotType, isVisible, opacity, scale, translateY]);
-
-  const animatedStyle = useAnimatedStyle(() => ({
-    opacity: opacity.value,
-    transform: [
-      { scale: scale.value },
-      { translateY: translateY.value },
-    ],
-  }));
+  }, [shotType, isVisible, opacityAnim, scaleAnim, translateYAnim]);
 
   const shotInfo = getShotInfo(shotType);
 
   return (
-    <Animated.View style={[styles.container, animatedStyle]}>
+    <Animated.View
+      style={[
+        styles.container,
+        {
+          opacity: opacityAnim,
+          transform: [{ scale: scaleAnim }, { translateY: translateYAnim }],
+        },
+      ]}>
       <Text style={styles.emoji}>{shotInfo.emoji}</Text>
       <Text style={[styles.text, { color: shotInfo.color }]}>
         {shotInfo.text}

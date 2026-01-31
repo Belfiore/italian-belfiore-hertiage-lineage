@@ -3,48 +3,45 @@
  * Large centered button to start/end game sessions
  */
 
-import React from 'react';
-import { TouchableOpacity, Text, StyleSheet } from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withSpring,
-} from 'react-native-reanimated';
+import React, { useRef } from 'react';
+import { TouchableOpacity, Text, StyleSheet, Animated } from 'react-native';
 import { COLORS } from '../constants/SwingConfig';
 
-const AnimatedTouchable = Animated.createAnimatedComponent(TouchableOpacity);
-
 const GameButton = ({ isPlaying, onPress }) => {
-  const scale = useSharedValue(1);
+  const scaleAnim = useRef(new Animated.Value(1)).current;
 
   const handlePressIn = () => {
-    scale.value = withSpring(0.95, { damping: 15, stiffness: 300 });
+    Animated.spring(scaleAnim, {
+      toValue: 0.95,
+      friction: 5,
+      useNativeDriver: true,
+    }).start();
   };
 
   const handlePressOut = () => {
-    scale.value = withSpring(1, { damping: 15, stiffness: 300 });
+    Animated.spring(scaleAnim, {
+      toValue: 1,
+      friction: 5,
+      useNativeDriver: true,
+    }).start();
   };
 
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: scale.value }],
-  }));
-
   return (
-    <AnimatedTouchable
-      style={[
-        styles.button,
-        isPlaying ? styles.buttonStop : styles.buttonStart,
-        animatedStyle,
-      ]}
-      onPress={onPress}
-      onPressIn={handlePressIn}
-      onPressOut={handlePressOut}
-      activeOpacity={0.9}
-    >
-      <Text style={styles.buttonText}>
-        {isPlaying ? '⏹ END GAME' : '▶️ START GAME'}
-      </Text>
-    </AnimatedTouchable>
+    <Animated.View style={{ transform: [{ scale: scaleAnim }] }}>
+      <TouchableOpacity
+        style={[
+          styles.button,
+          isPlaying ? styles.buttonStop : styles.buttonStart,
+        ]}
+        onPress={onPress}
+        onPressIn={handlePressIn}
+        onPressOut={handlePressOut}
+        activeOpacity={0.9}>
+        <Text style={styles.buttonText}>
+          {isPlaying ? '⏹ END GAME' : '▶️ START GAME'}
+        </Text>
+      </TouchableOpacity>
+    </Animated.View>
   );
 };
 

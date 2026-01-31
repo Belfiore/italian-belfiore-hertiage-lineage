@@ -3,75 +3,69 @@
  * Displays a visual power bar that shows swing intensity
  */
 
-import React, { useEffect } from 'react';
-import { View, StyleSheet } from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withTiming,
-  withSequence,
-  interpolateColor,
-  Easing,
-} from 'react-native-reanimated';
+import React, { useEffect, useRef } from 'react';
+import { View, StyleSheet, Animated } from 'react-native';
 import { COLORS, ANIMATION } from '../constants/SwingConfig';
 
 const PowerMeter = ({ powerLevel, isVisible }) => {
-  const width = useSharedValue(0);
-  const opacity = useSharedValue(0);
+  const widthAnim = useRef(new Animated.Value(0)).current;
+  const opacityAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     if (isVisible && powerLevel > 0) {
-      // Animate the power bar filling up
-      width.value = withSequence(
-        withTiming(powerLevel * 100, {
-          duration: 100,
-          easing: Easing.out(Easing.quad),
-        }),
-        // Hold for a moment
-        withTiming(powerLevel * 100, { duration: 500 }),
-        // Fade out
-        withTiming(0, {
-          duration: ANIMATION.powerBarFadeDuration / 2,
-          easing: Easing.in(Easing.quad),
-        })
-      );
+      widthAnim.setValue(0);
+      opacityAnim.setValue(0);
 
-      // Animate opacity
-      opacity.value = withSequence(
-        withTiming(1, { duration: 100 }),
-        withTiming(1, { duration: 500 }),
-        withTiming(0, { duration: ANIMATION.powerBarFadeDuration / 2 })
-      );
+      Animated.parallel([
+        Animated.sequence([
+          Animated.timing(widthAnim, {
+            toValue: powerLevel * 100,
+            duration: 100,
+            useNativeDriver: false,
+          }),
+          Animated.delay(500),
+          Animated.timing(widthAnim, {
+            toValue: 0,
+            duration: ANIMATION.powerBarFadeDuration / 2,
+            useNativeDriver: false,
+          }),
+        ]),
+        Animated.sequence([
+          Animated.timing(opacityAnim, {
+            toValue: 1,
+            duration: 100,
+            useNativeDriver: false,
+          }),
+          Animated.delay(500),
+          Animated.timing(opacityAnim, {
+            toValue: 0,
+            duration: ANIMATION.powerBarFadeDuration / 2,
+            useNativeDriver: false,
+          }),
+        ]),
+      ]).start();
     }
-  }, [powerLevel, isVisible, width, opacity]);
+  }, [powerLevel, isVisible, widthAnim, opacityAnim]);
 
-  const containerAnimatedStyle = useAnimatedStyle(() => ({
-    opacity: opacity.value,
-  }));
+  const barColor = widthAnim.interpolate({
+    inputRange: [0, 33, 66, 100],
+    outputRange: [COLORS.powerLow, COLORS.powerLow, COLORS.powerMedium, COLORS.powerHigh],
+  });
 
-  const barAnimatedStyle = useAnimatedStyle(() => {
-    // Determine color based on power level
-    const percentage = width.value / 100;
-    let backgroundColor;
-
-    if (percentage < 0.33) {
-      backgroundColor = COLORS.powerLow;
-    } else if (percentage < 0.66) {
-      backgroundColor = COLORS.powerMedium;
-    } else {
-      backgroundColor = COLORS.powerHigh;
-    }
-
-    return {
-      width: `${width.value}%`,
-      backgroundColor,
-    };
+  const widthPercent = widthAnim.interpolate({
+    inputRange: [0, 100],
+    outputRange: ['0%', '100%'],
   });
 
   return (
-    <Animated.View style={[styles.container, containerAnimatedStyle]}>
+    <Animated.View style={[styles.container, { opacity: opacityAnim }]}>
       <View style={styles.track}>
-        <Animated.View style={[styles.bar, barAnimatedStyle]} />
+        <Animated.View
+          style={[
+            styles.bar,
+            { width: widthPercent, backgroundColor: barColor },
+          ]}
+        />
       </View>
       <View style={styles.markers}>
         <View style={styles.marker} />

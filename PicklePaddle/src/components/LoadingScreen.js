@@ -3,63 +3,66 @@
  * Displays an animated loading screen when the app starts
  */
 
-import React, { useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withRepeat,
-  withSequence,
-  withTiming,
-  Easing,
-} from 'react-native-reanimated';
+import React, { useEffect, useRef } from 'react';
+import { View, Text, StyleSheet, Animated, Easing } from 'react-native';
 import { COLORS, ANIMATION } from '../constants/SwingConfig';
 
 const LoadingScreen = ({ onLoadingComplete }) => {
-  // Animation values
-  const bounceY = useSharedValue(0);
-  const scale = useSharedValue(1);
+  const bounceAnim = useRef(new Animated.Value(0)).current;
+  const scaleAnim = useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
-    // Start bouncing animation
-    bounceY.value = withRepeat(
-      withSequence(
-        withTiming(-30, { duration: 400, easing: Easing.out(Easing.quad) }),
-        withTiming(0, { duration: 400, easing: Easing.in(Easing.quad) })
-      ),
-      -1, // Infinite repeat
-      false
-    );
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(bounceAnim, {
+          toValue: -30,
+          duration: 400,
+          easing: Easing.out(Easing.quad),
+          useNativeDriver: true,
+        }),
+        Animated.timing(bounceAnim, {
+          toValue: 0,
+          duration: 400,
+          easing: Easing.in(Easing.quad),
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
 
-    // Pulse scale animation
-    scale.value = withRepeat(
-      withSequence(
-        withTiming(1.2, { duration: 400 }),
-        withTiming(1, { duration: 400 })
-      ),
-      -1,
-      false
-    );
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(scaleAnim, {
+          toValue: 1.2,
+          duration: 400,
+          useNativeDriver: true,
+        }),
+        Animated.timing(scaleAnim, {
+          toValue: 1,
+          duration: 400,
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
 
-    // Complete loading after specified duration
     const timer = setTimeout(() => {
       onLoadingComplete();
     }, ANIMATION.loadingDuration);
 
     return () => clearTimeout(timer);
-  }, [onLoadingComplete, bounceY, scale]);
-
-  // Animated styles
-  const ballAnimatedStyle = useAnimatedStyle(() => ({
-    transform: [
-      { translateY: bounceY.value },
-      { scale: scale.value },
-    ],
-  }));
+  }, [onLoadingComplete, bounceAnim, scaleAnim]);
 
   return (
     <View style={styles.container}>
-      <Animated.Text style={[styles.ball, ballAnimatedStyle]}>
+      <Animated.Text
+        style={[
+          styles.ball,
+          {
+            transform: [
+              { translateY: bounceAnim },
+              { scale: scaleAnim },
+            ],
+          },
+        ]}>
         🏓
       </Animated.Text>
       <Text style={styles.title}>PicklePaddle</Text>

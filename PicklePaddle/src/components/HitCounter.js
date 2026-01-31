@@ -3,46 +3,36 @@
  * Displays the current hit count with pulse animation on each hit
  */
 
-import React, { useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withSequence,
-  withTiming,
-  Easing,
-} from 'react-native-reanimated';
+import React, { useEffect, useRef } from 'react';
+import { View, Text, StyleSheet, Animated } from 'react-native';
 import { COLORS, ANIMATION } from '../constants/SwingConfig';
 
-const HitCounter = ({ count, shouldPulse }) => {
-  const scale = useSharedValue(1);
-  const lastCount = React.useRef(count);
+const HitCounter = ({ count }) => {
+  const scaleAnim = useRef(new Animated.Value(1)).current;
+  const lastCount = useRef(count);
 
   useEffect(() => {
-    // Only animate when count increases
     if (count > lastCount.current) {
-      scale.value = withSequence(
-        withTiming(1.3, {
+      Animated.sequence([
+        Animated.timing(scaleAnim, {
+          toValue: 1.3,
           duration: ANIMATION.hitPulseDuration / 2,
-          easing: Easing.out(Easing.quad),
+          useNativeDriver: true,
         }),
-        withTiming(1, {
+        Animated.timing(scaleAnim, {
+          toValue: 1,
           duration: ANIMATION.hitPulseDuration / 2,
-          easing: Easing.in(Easing.quad),
-        })
-      );
+          useNativeDriver: true,
+        }),
+      ]).start();
     }
     lastCount.current = count;
-  }, [count, scale]);
-
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: scale.value }],
-  }));
+  }, [count, scaleAnim]);
 
   return (
     <View style={styles.container}>
       <Text style={styles.label}>HITS</Text>
-      <Animated.View style={animatedStyle}>
+      <Animated.View style={{ transform: [{ scale: scaleAnim }] }}>
         <Text style={styles.count}>{count}</Text>
       </Animated.View>
     </View>
