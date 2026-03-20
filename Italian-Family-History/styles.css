@@ -815,66 +815,46 @@ body {
     margin-right: auto;
 }
 
-/* ===== PDF VIEWER ===== */
-.pdf-viewer {
-    margin: 1.5rem 0;
+/* ===== PDF VIEWER (always visible) ===== */
+.pdf-viewer-open {
+    margin: 2rem 0;
     background: var(--parchment);
     border: 1px solid var(--border);
     border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
-.pdf-viewer summary {
+.pdf-viewer-header {
+    padding: 1.2rem 1.5rem;
+    border-bottom: 2px solid var(--gold);
+    background: linear-gradient(135deg, var(--parchment), var(--cream));
+}
+.pdf-viewer-header h3 {
     font-family: var(--font-display);
-    font-size: 0.85rem;
-    letter-spacing: 1px;
+    font-size: 1.1rem;
     color: var(--ink);
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    transition: background 0.2s;
-    list-style: none;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.3rem;
 }
-.pdf-viewer summary::-webkit-details-marker { display: none; }
-.pdf-viewer summary::after {
-    content: 'View Document';
-    font-family: var(--font-display);
-    font-size: 0.65rem;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--gold-dark);
-    background: rgba(200, 169, 122, 0.15);
-    padding: 0.3rem 0.8rem;
-    border-radius: 3px;
-    border: 1px solid rgba(200, 169, 122, 0.3);
-    flex-shrink: 0;
-    transition: all 0.2s;
-}
-.pdf-viewer[open] summary::after {
-    content: 'Hide Document';
-}
-.pdf-viewer summary:hover {
-    background: rgba(200, 169, 122, 0.08);
-}
-.pdf-viewer summary:hover::after {
-    background: rgba(200, 169, 122, 0.25);
-    border-color: var(--gold);
+.pdf-viewer-header p {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--sepia);
+    font-style: italic;
+    line-height: 1.5;
 }
 .pdf-viewer-embed {
-    border-top: 1px solid var(--border);
     padding: 0;
     background: #525659;
 }
 .pdf-viewer-embed iframe {
     width: 100%;
-    height: 700px;
+    height: 750px;
     border: none;
     display: block;
 }
 .pdf-viewer-fallback {
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     background: var(--cream);
     border-top: 1px solid var(--border);
     text-align: center;
@@ -894,15 +874,48 @@ body {
     color: var(--rosso);
     border-color: var(--rosso);
 }
-.pdf-viewer-desc {
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    color: var(--sepia);
-    font-style: italic;
-    display: block;
-    margin-top: 0.2rem;
-    line-height: 1.5;
+
+/* ===== BIO SIDEBAR IMAGE & LINKS ===== */
+.bio-image {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
+.bio-links {
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(200, 169, 122, 0.2);
+}
+.bio-links h4 {
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+}
+.bio-link {
+    display: block;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(200, 169, 122, 0.1);
+    transition: color 0.2s;
+}
+.bio-link:hover {
+    color: var(--gold);
+}
+.bio-link-label {
+    font-family: var(--font-display);
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-right: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .pdf-viewer-embed iframe {
         height: 450px;

@@ -38,6 +38,12 @@ const personData = {
         name: "Michael Kirtus Belfiore",
         subtitle: "Michele Belfiore — Seb's Great-Grandfather, 'The Non-Golfing Brother'",
         tags: ["Great-Grandfather", "Direct Line", "Painter", "Italy-Born"],
+        image: "images/michael-kirtus-belfiore-registration-card.jpeg",
+        links: [
+            { label: "WWI Draft Card", url: "images/michael-kirtus-belfiore-registration-card.jpeg" },
+            { label: "WWII Draft Card", url: "images/Michael-Belfiore-WW2-Draft-Card.jpeg" },
+            { label: "1940 Census", url: "images/Michael-Belfiore-Census-1940-painter.jpeg" }
+        ],
         description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. The 1940 Census confirms his household at this time: Michael (head, age 55, painter), Frances (wife), Edward (son), and Joseph (son). His birth year discrepancy — 1885 on the 1918 draft card vs. 1883 on the 1942 draft card — is typical of the era; self-reported ages on government forms were often inconsistent. His death certificate was the document that started this entire research. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
         details: {
             "Born": "December 15, 1883 or 1885, Italy",
@@ -69,6 +75,13 @@ const personData = {
         name: "Sammy Belfiore",
         subtitle: "Born Christmas Day 1899 — PGA Tour Winner, Ridgeview CC & Seabreeze Pro",
         tags: ["Golfing Brother", "PGA Tour", "Ridgeview CC", "Seabreeze Club", "Daytona Beach"],
+        image: "images/samme-belfiore-golfer.jpeg",
+        links: [
+            { label: "Full Story", url: "golfing-brothers.html" },
+            { label: "Golfdom Article (PDF)", url: "pdfs/sammy-belfore-full-article.pdf" },
+            { label: "Making the Swing (PDF)", url: "pdfs/sammy-belfore-daytona-newspaper.pdf" },
+            { label: "Clinton Russell Bio (PDF)", url: "pdfs/blind-golfer.pdf" }
+        ],
         description: `Sammy Belfiore (later "Belfore") was born December 25, 1899 (Christmas Day) in New Rochelle, NY. He became one of the first native-born Americans of Italian descent to enter professional golf — described in his obituary as "the first of the native born trio to blossom forth." He served as golf professional at Ridgeview Country Club in Westchester for many years before moving to Florida. In the 1930s he won a PGA Tour event — confirmed by his PGA of America player profile, which lists one official PGA Tour win. He was also the personal golf instructor for Clinton Russell, a prominent blind golfer from New Rochelle whose remarkable story was covered by Time magazine. Sammy guided Russell in a famous exhibition match at Wykagyl Country Club in 1938 against Charley Oxenham, the English blind golf champion. In 1948, after 36 years of golf, he became head professional at Seabreeze Golf and Tennis Club in Daytona Beach, Florida. He wrote about the experience in Golfdom magazine (February 1948), describing how the club had been "shutdown for 5 years" during the war and the $4,600 reseeding effort. His brother Frank joined him at Seabreeze, running the pro shop — a photo in the Golfdom article shows them together behind the counter. He married Virginia Hupp, whose family was connected to the Hupp Motor Car Company of Detroit. He changed the spelling of his surname to "Belfore." He died in Daytona Beach around 1971–1972 at age 72 after a long illness. He was survived by son Samuel Alexander Belfore Jr. and daughter Patricia Hupp Fleming. His obituary in The Standard-Star is the single most important document in this research.`,
         details: {
             "Born": "December 25, 1899, New Rochelle, NY",
@@ -85,6 +98,11 @@ const personData = {
         name: "Frank Belfiore",
         subtitle: "Francesco Belfiore — Golf Pro, Seabreeze Club, Daytona Beach",
         tags: ["Golfing Brother", "Daytona Beach", "Seabreeze Club", "Golf Shop"],
+        image: "images/belfiore-golf-brothers.jpeg",
+        links: [
+            { label: "Full Story", url: "golfing-brothers.html" },
+            { label: "Golfdom Article (PDF)", url: "pdfs/sammy-belfore-full-article.pdf" }
+        ],
         description: `Frank Belfiore (Francesco) was born around November 1897 in New Rochelle, NY. His parents are confirmed as Antonio Belfiore and Maria D. Circelli via Ancestry indexed records. Like his brothers, he became a professional golfer. He followed Sammy to Florida and took over the golf shop at Seabreeze Golf and Tennis Club in Daytona Beach. A photograph in Sammy's February 1948 Golfdom magazine article shows both brothers together behind the counter of the Seabreeze pro shop. The two brothers worked together at the same Florida club for two decades. Frank died April 21, 1968, in Daytona Beach — three or four years before Sammy.`,
         details: {
             "Born": "~November 1897, New Rochelle, NY",
@@ -98,6 +116,10 @@ const personData = {
         name: "Joseph Belfiore (The Golfer)",
         subtitle: "Golf Pro at Grosse Pointe, Michigan — NOT Seb's Grandfather",
         tags: ["Golfing Brother", "Grosse Pointe", "Michigan"],
+        image: "images/belfiore-golf-brothers.jpeg",
+        links: [
+            { label: "Full Story", url: "golfing-brothers.html" }
+        ],
         description: `Joseph Belfiore was the third golfing brother. He became golf professional at Grosse Pointe, Michigan — one of the wealthiest suburbs in America, home to the auto industry executives of Detroit. He served there "for many years" according to Sammy's obituary. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. Joseph predeceased Sammy and is listed among the deceased brothers in the obituary (~pre-1971). CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
         details: {
             "Born": "Unknown, New Rochelle, NY",
@@ -237,7 +259,7 @@ const personData = {
     },
     william: {
         name: "William Belfiore",
-        subtitle: "Seb's Uncle — The Family Archivist",
+        subtitle: "Seb's Uncle",
         tags: ["Uncle", "New Rochelle", "Family Records"],
         description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and the brother of Robert (Seb's father). William adopted four children from Romania — Loredana, Ionel, Ramona, and Michaela — and has one US-born son, Aidan. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
         details: {
@@ -514,12 +536,28 @@ function showBio(id) {
         detailsHTML += '</div>';
     }
 
+    let imageHTML = '';
+    if (data.image) {
+        imageHTML = `<img class="bio-image" src="${data.image}" alt="${data.name}">`;
+    }
+
+    let linksHTML = '';
+    if (data.links && data.links.length > 0) {
+        linksHTML = '<div class="bio-links"><h4>Related Documents</h4>';
+        data.links.forEach(link => {
+            linksHTML += `<a class="bio-link" href="${link.url}" target="_blank"><span class="bio-link-label">${link.label}</span> &rarr;</a>`;
+        });
+        linksHTML += '</div>';
+    }
+
     bioContent.innerHTML = `
+        ${imageHTML}
         <h3 class="bio-name">${data.name}</h3>
         <p class="bio-subtitle">${data.subtitle}</p>
         <div class="bio-tags">${tagsHTML}</div>
         <p class="bio-description">${data.description}</p>
         ${detailsHTML}
+        ${linksHTML}
     `;
 
     // On mobile, open sidebar
