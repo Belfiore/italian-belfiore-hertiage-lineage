@@ -815,6 +815,100 @@ body {
     margin-right: auto;
 }
 
+/* ===== PDF VIEWER ===== */
+.pdf-viewer {
+    margin: 1.5rem 0;
+    background: var(--parchment);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.pdf-viewer summary {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    color: var(--ink);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: background 0.2s;
+    list-style: none;
+}
+.pdf-viewer summary::-webkit-details-marker { display: none; }
+.pdf-viewer summary::after {
+    content: 'View Document';
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    background: rgba(200, 169, 122, 0.15);
+    padding: 0.3rem 0.8rem;
+    border-radius: 3px;
+    border: 1px solid rgba(200, 169, 122, 0.3);
+    flex-shrink: 0;
+    transition: all 0.2s;
+}
+.pdf-viewer[open] summary::after {
+    content: 'Hide Document';
+}
+.pdf-viewer summary:hover {
+    background: rgba(200, 169, 122, 0.08);
+}
+.pdf-viewer summary:hover::after {
+    background: rgba(200, 169, 122, 0.25);
+    border-color: var(--gold);
+}
+.pdf-viewer-embed {
+    border-top: 1px solid var(--border);
+    padding: 0;
+    background: #525659;
+}
+.pdf-viewer-embed iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    display: block;
+}
+.pdf-viewer-fallback {
+    padding: 1rem 1.5rem;
+    background: var(--cream);
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 0.9rem;
+}
+.pdf-viewer-fallback a {
+    color: var(--gold-dark);
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 1px;
+}
+.pdf-viewer-fallback a:hover {
+    color: var(--rosso);
+    border-color: var(--rosso);
+}
+.pdf-viewer-desc {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--sepia);
+    font-style: italic;
+    display: block;
+    margin-top: 0.2rem;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .pdf-viewer-embed iframe {
+        height: 450px;
+    }
+}
+
 /* ===== FOOTER ===== */
 .site-footer {
     background: var(--ink);
