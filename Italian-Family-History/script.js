@@ -156,12 +156,12 @@ const personData = {
     },
     joseph_grandfather: {
         name: "Joseph Belfiore",
-        subtitle: "Seb's Grandfather — New Rochelle to Valrico, FL",
-        tags: ["Grandfather", "Direct Line", "Valrico FL"],
-        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Belfiore and Frances Towey. He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. His SSN (218-30-3629) was issued with a Maryland prefix, which is unusual if he grew up in New Rochelle — he may have applied while working in Maryland. He moved from New Rochelle to Florida and died around April 1986 in Valrico, FL 33595 — near Tampa, close to where Seb now lives. His sons were Robert (Seb's father) and William (Seb's uncle). There is a potential discrepancy on his birth year: SSDI shows January 1, 1908, but this may conflate him with a Joseph born 1908 who was Michael's brother, not his son. Seb's grandfather Joseph was likely born in the 1920s.`,
+        subtitle: "Seb's Grandfather — New Rochelle to West Babylon, NY",
+        tags: ["Grandfather", "Direct Line", "West Babylon"],
+        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Belfiore and Frances Towey. He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. His SSN (218-30-3629) was issued with a Maryland prefix, which is unusual if he grew up in New Rochelle — he may have applied while working in Maryland. He died in West Babylon, NY. His sons were Robert (Seb's father) and William (Seb's uncle). There is a potential discrepancy on his birth year: SSDI shows January 1, 1908, but this may conflate him with a Joseph born 1908 who was Michael's brother, not his son. Seb's grandfather Joseph was likely born in the 1920s.`,
         details: {
             "Born": "Unknown (likely 1920s, New Rochelle)",
-            "Died": "~April 1986, Valrico, FL 33595",
+            "Died": "West Babylon, NY",
             "SSN": "218-30-3629 (Maryland-issued)",
             "Father": "Michael Belfiore",
             "Mother": "Frances Towey",
@@ -176,7 +176,7 @@ const personData = {
         description: `Robert Belfiore is Seb's father, son of Joseph Belfiore. He was raised in the New Rochelle area. His brother William Belfiore provided the key documents — Michael's death certificate and Sammy's obituary — that started this entire genealogical research.`,
         details: {
             "Father": "Joseph Belfiore",
-            "Children": "Seb Belfiore",
+            "Children": "Seb Belfiore, Alexander Belfiore",
             "Residence": "New Rochelle area"
         }
     },
@@ -184,11 +184,11 @@ const personData = {
         name: "William Belfiore",
         subtitle: "Seb's Uncle — The Family Archivist",
         tags: ["Uncle", "New Rochelle", "Family Records"],
-        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and the brother of Robert (Seb's father). William named his son Anthony, following the Italian tradition of honouring the patriarch. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
+        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and the brother of Robert (Seb's father). William adopted four children from Romania — Loredana, Ionel, Ramona, and Michaela — and has one US-born son, Aidan. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
         details: {
             "Born": "~1950",
             "Father": "Joseph Belfiore",
-            "Son": "Anthony Belfiore (named after the patriarch)",
+            "Children": "Loredana (adopted, Romania), Ionel (adopted, Romania), Ramona (adopted, Romania), Michaela (adopted, Romania), Aidan (US)",
             "Role": "Provided death certificate & obituary that started the research"
         }
     },
@@ -249,14 +249,64 @@ const personData = {
             "Residence": "Birmingham, Michigan"
         }
     },
-    anthony_w: {
-        name: "Anthony Belfiore",
-        subtitle: "William's Son — Named After the Patriarch",
-        tags: ["Next Generation", "Naming Tradition"],
-        description: `Anthony Belfiore is the son of William Belfiore (Seb's uncle). He was named after the family patriarch, Anthony (Antonio) Belfiore, following the classic Italian tradition of naming children after grandparents and great-grandparents. The fact that William chose to name his son Anthony — over 60 years after the patriarch's death — shows how deeply the family connection persists.`,
+    loredana: {
+        name: "Loredana Belfiore",
+        subtitle: "William's Daughter — Adopted from Romania",
+        tags: ["Next Generation", "Adopted", "Romania"],
+        description: `Loredana Belfiore is one of William Belfiore's four children adopted from Romania.`,
         details: {
             "Father": "William Belfiore",
-            "Named After": "Anthony Belfiore (the patriarch, d. 1938)"
+            "Origin": "Romania (adopted)"
+        }
+    },
+    ionel: {
+        name: "Ionel Belfiore",
+        subtitle: "William's Son — Adopted from Romania",
+        tags: ["Next Generation", "Adopted", "Romania"],
+        description: `Ionel Belfiore is one of William Belfiore's four children adopted from Romania.`,
+        details: {
+            "Father": "William Belfiore",
+            "Origin": "Romania (adopted)"
+        }
+    },
+    ramona: {
+        name: "Ramona Belfiore",
+        subtitle: "William's Daughter — Adopted from Romania",
+        tags: ["Next Generation", "Adopted", "Romania"],
+        description: `Ramona Belfiore is one of William Belfiore's four children adopted from Romania.`,
+        details: {
+            "Father": "William Belfiore",
+            "Origin": "Romania (adopted)"
+        }
+    },
+    michaela: {
+        name: "Michaela Belfiore",
+        subtitle: "William's Daughter — Adopted from Romania",
+        tags: ["Next Generation", "Adopted", "Romania"],
+        description: `Michaela Belfiore is one of William Belfiore's four children adopted from Romania.`,
+        details: {
+            "Father": "William Belfiore",
+            "Origin": "Romania (adopted)"
+        }
+    },
+    aidan: {
+        name: "Aidan Belfiore",
+        subtitle: "William's Son — US Born",
+        tags: ["Next Generation", "US"],
+        description: `Aidan Belfiore is the US-born son of William Belfiore.`,
+        details: {
+            "Father": "William Belfiore",
+            "Origin": "United States"
+        }
+    },
+    alexander: {
+        name: "Alexander Belfiore",
+        subtitle: "Seb's Brother",
+        tags: ["Generation 5", "Robert's Son"],
+        description: `Alexander Belfiore is the son of Robert Belfiore and Seb's brother.`,
+        details: {
+            "Father": "Robert Belfiore",
+            "Sibling": "Seb Belfiore"
         }
     }
 };
