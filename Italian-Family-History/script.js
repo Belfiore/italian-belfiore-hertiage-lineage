@@ -5,60 +5,63 @@
 
 const personData = {
     anthony: {
-        name: "Anthony Belfiore",
-        subtitle: "Antonio Belfiore — The Patriarch, Immigrant from Italy",
-        tags: ["Immigrant", "Patriarch", "San Bartolomeo in Galdo"],
-        description: `Anthony Belfiore (Antonio Belfiore) emigrated from Italy — almost certainly from San Bartolomeo in Galdo, Province of Benevento, Campania — arriving in America around 1893–1894 with his young son Michael. He settled at 46 Mechanic Street, New Rochelle, New York, where the family would live for over half a century. He and his wife Maria had nine children: four sons and five sisters. Anthony died on July 11, 1938, in New Rochelle. His death certificate (#42184) has been identified but not yet obtained — it will reveal his exact Italian birthplace, parents' names, and birth year. He was likely buried at Holy Sepulchre Cemetery, New Rochelle. His grandson William named his own son Anthony, following the classic Italian naming tradition of honouring the patriarch.`,
+        name: "Leonardantonio Belfiore",
+        subtitle: "A Foundling — The Patriarch of the Belfiore Line",
+        tags: ["Foundling", "Patriarch", "San Bartolomeo in Galdo"],
+        description: `Leonardantonio Belfiore was born around 1860–1861 in the Province of Benevento, Campania. His marriage record reveals a remarkable origin: he was a foundling — the son of padre ignoto and madre ignota (both parents unknown). The surname "Belfiore" — bel fiore, beautiful flower — was not inherited. It was assigned by a foundling home, almost certainly the Ruota dei Proietti, the revolving door where unwanted infants were anonymously deposited. Italian authorities gave these children invented, often beautiful surnames. The Belfiore genealogical line terminates with Leonardantonio — there are no Belfiore ancestors to trace further back. He married Maria Donata Circelli on January 27, 1884, in San Bartolomeo in Galdo. Both were illiterate — they could not sign their own names. The evidence strongly suggests Leonardantonio died in Italy before 1896 — Maria traveled under her maiden name, and no immigration record for him has ever been found. An "Anthony Belfiore" died July 11, 1938, in New Rochelle (cert #42184), but whether this was Leonardantonio or another family member remains unresolved pending the 1900 census. American records shortened his name to "Anthony" or "Antonio."`,
         details: {
-            "Born": "Unknown, Italy (est. 1855–1865)",
-            "Died": "July 11, 1938, New Rochelle, NY",
-            "Death Cert": "#42184, New York State",
-            "Residence": "46 Mechanic Street, New Rochelle, NY",
-            "Buried": "Likely Holy Sepulchre Cemetery, New Rochelle",
-            "Children": "9 (4 sons, 5 daughters)"
+            "Real Name": "Leonardantonio Belfiore",
+            "Born": "~1860–1861, Province of Benevento, Italy",
+            "Origin": "Foundling (padre ignoto, madre ignota)",
+            "Married": "Maria Donata Circelli, Jan 27, 1884",
+            "Died": "Possibly July 11, 1938, New Rochelle (or in Italy before 1896)",
+            "Death Cert": "#42184 (if the 1938 record is him)",
+            "Children": "9 (4 sons, 5 daughters)",
+            "Key Fact": "\"Belfiore\" was assigned — not inherited"
         }
     },
     maria: {
-        name: "Maria Doreta Circelli",
-        subtitle: "The Matriarch — Arrived on the SS Oregon, 1896",
+        name: "Maria Donata Circelli",
+        subtitle: "The Matriarch — SS Oregon, December 2, 1896",
         tags: ["Immigrant", "Matriarch", "Ellis Island", "SS Oregon"],
-        description: `Maria Doreta Circelli was born around 1862 in San Bartolomeo in Galdo, Province of Benevento, Campania, Italy. She arrived in America in 1896 on the SS Oregon, age 34, traveling under her maiden name — standard practice for Italian women joining their husbands. The Ellis Island Foundation passenger database confirmed her record: "Circelli, Maria Doreta." The "D" middle initial found on multiple Ancestry census records is now explained: it stands for Doreta. She traveled from Naples, following the classic chain migration pattern — Anthony established himself first, then sent for his wife. The Circelli surname is extremely rare: all 52 indexed Circelli records on Italy's Antenati portal originate from a single town, San Bartolomeo in Galdo.`,
+        description: `Maria Donata Circelli (recorded as "Maria Doreta" on Ellis Island records) was born around 1856–1857 in San Bartolomeo in Galdo, Province of Benevento, Campania, Italy. Her parents were Giuseppe Circelli and Marianna Mita, both already deceased by the time of her 1884 marriage. She arrived in America on December 2, 1896, on the SS Oregon from Genoa and Naples, age 34. She traveled under her maiden name Circelli — not Belfiore. After 12 years of marriage, this strongly suggests she was traveling without her husband, likely as a widow relying on her Circelli relatives for the Atlantic crossing. Her Circelli brothers or cousins — Salvatore and Michele — followed her on the Alsatia in 1898, possibly to help support a widowed sister and her children. The Circelli surname is extremely rare: all 52 indexed records on Italy's Antenati portal originate from San Bartolomeo in Galdo.`,
         details: {
-            "Born": "~1862, San Bartolomeo in Galdo, Italy",
-            "Ship": "SS Oregon (1896)",
-            "Age at Arrival": "34",
+            "Born": "~1856–1857, San Bartolomeo in Galdo, Italy",
+            "Parents": "Giuseppe Circelli & Marianna Mita",
+            "Ship": "SS Oregon (December 2, 1896)",
+            "Port": "Genoa and Naples → New York (Ellis Island)",
             "Residence": "46 Mechanic Street, New Rochelle, NY",
-            "Buried": "Likely Holy Sepulchre Cemetery, New Rochelle",
             "Children": "9 (4 sons, 5 daughters)"
         }
     },
     michael: {
-        name: "Michael Belfiore",
+        name: "Michael Kirtus Belfiore",
         subtitle: "Michele Belfiore — Seb's Great-Grandfather, 'The Non-Golfing Brother'",
         tags: ["Great-Grandfather", "Direct Line", "Painter", "Italy-Born"],
-        description: `Michael Belfiore (Michele Belfiore) was born December 15, 1885, in Italy — likely San Bartolomeo in Galdo. He arrived in America as a child of eight or nine, traveling with his father Anthony around 1893–1894. He lived at 46 Mechanic Street, New Rochelle for 58 years. He worked as a painter (house painter) in the building trades — a very common occupation for Italian immigrants. He married Frances Towey, an Irish-American woman, in what was a somewhat uncommon interethnic Catholic union. He was described in Sammy's obituary as "their non-golfing brother" — the only one of the four brothers who didn't become a professional golfer. He died January 16, 1952, at New Rochelle Hospital, age 66, from arteriosclerotic heart disease. An autopsy was performed. He was buried at Holy Sepulchre Cemetery on January 19, 1952, by Geo. T. Davis, Inc. undertakers. His death certificate was the document that started this entire research.`,
+        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. His death certificate was the document that started this entire research. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
         details: {
-            "Born": "December 15, 1885, Italy",
+            "Born": "December 15, 1883 or 1885, Italy",
             "Died": "January 16, 1952, New Rochelle Hospital",
-            "Age at Death": "66 years, 1 month, 1 day",
+            "Middle Name": "Kirtus (unusual — likely Americanized)",
             "Occupation": "Painter (house painter)",
-            "SSN": "078-10-9940",
-            "Residence": "46 Mechanic Street, New Rochelle (58 years)",
+            "First Marriage": "Unknown wife → daughter Dorothy",
+            "Second Marriage": "Frances Towey → sons Edward, Joseph",
+            "Addresses": "114 Murray Ave → 48 Coligni Ave → 46 Mechanic St",
             "Buried": "Holy Sepulchre Cemetery, Jan 19, 1952",
-            "Cause of Death": "Arteriosclerotic heart disease"
+            "Citizenship": "Claimed via Father's Papers (1918 draft)"
         }
     },
     frances: {
         name: "Frances Towey",
-        subtitle: "Frances M. Towey — The Irish Connection",
+        subtitle: "Frances M. Towey — Michael's Second Wife, The Irish Connection",
         tags: ["Great-Grandmother", "Direct Line", "Irish-American", "Towey"],
-        description: `Frances M. Towey was born September 17, 1897, in New York — likely New Rochelle. She married Michael Belfiore, creating an Irish-Italian Catholic union in early 20th-century New Rochelle. The Towey surname is Irish, from Ó Toghdha ("descendant of the chosen one"), concentrated around Ballaghaderreen on the County Mayo/Roscommon border in western Ireland. Over 70% of Toweys in the 1901 Irish Census lived in parishes surrounding Ballaghaderreen. Frances's parents almost certainly emigrated from this region in the late 1880s or early 1890s. She lived at 46 Mechanic Street and was the informant on Michael's death certificate, listed as "Frances M. Belfiore." Her brother was John J. Towey (~1909, also New Rochelle). She died April 5, 1967, in New Rochelle, aged 69. Her death certificate has been ordered and will reveal her parents' names and birthplaces.`,
+        description: `Frances M. Towey was born September 17, 1897, in New York — likely New Rochelle. She was Michael's second wife — he had been previously married and had a daughter, Dorothy, before Frances. With Michael, Frances had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). The Towey surname is definitively Irish, deriving from the Gaelic Ó Tuathaigh. The Towey sept traces to County Mayo, concentrated around Ballaghaderreen on the Mayo/Roscommon border. Irish-Italian marriages were rare before World War II — a 1920s study found Irish New Yorkers were more likely to marry a German Jew than an Italian. Shared Catholic faith was the primary bridge. Frances lived at 46 Mechanic Street and was the informant on Michael's death certificate, listed as "Frances M. Belfiore." Her brother was John J. Towey (~1909, also New Rochelle). She died April 5, 1967, in New Rochelle, aged 69. Her death certificate has been ordered.`,
         details: {
             "Born": "September 17, 1897, New York",
             "Died": "April 5, 1967, New Rochelle, NY",
             "SSN": "120-26-7124",
+            "Children": "Edward (Eddie), Joseph (Seb's grandfather)",
             "Irish Origin": "Towey — County Mayo/Roscommon, Ballaghaderreen area",
-            "Brother": "John J. Towey (~1909, New Rochelle)",
             "Death Cert": "Ordered — pending receipt"
         }
     },
@@ -156,17 +159,65 @@ const personData = {
     },
     joseph_grandfather: {
         name: "Joseph Belfiore",
-        subtitle: "Seb's Grandfather — New Rochelle to West Babylon, NY",
+        subtitle: "Seb's Grandfather — Son of Michael & Frances",
         tags: ["Grandfather", "Direct Line", "West Babylon"],
-        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Belfiore and Frances Towey. He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. His SSN (218-30-3629) was issued with a Maryland prefix, which is unusual if he grew up in New Rochelle — he may have applied while working in Maryland. He died in West Babylon, NY. His sons were Robert (Seb's father) and William (Seb's uncle). There is a potential discrepancy on his birth year: SSDI shows January 1, 1908, but this may conflate him with a Joseph born 1908 who was Michael's brother, not his son. Seb's grandfather Joseph was likely born in the 1920s.`,
+        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Belfiore, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. His sons were Robert (Seb's father) and William (Seb's uncle).`,
         details: {
             "Born": "Unknown (likely 1920s, New Rochelle)",
             "Died": "West Babylon, NY",
             "SSN": "218-30-3629 (Maryland-issued)",
-            "Father": "Michael Belfiore",
+            "Father": "Michael Kirtus Belfiore",
             "Mother": "Frances Towey",
+            "Wife": "Dorothy Belfiore (Irish-American)",
             "Children": "Robert Belfiore, William Belfiore",
             "Named After": "Uncle Joseph (the golfer)"
+        }
+    },
+    first_wife: {
+        name: "First Wife (Unknown)",
+        subtitle: "Michael's First Wife — Name Unknown",
+        tags: ["First Wife", "Unknown"],
+        description: `Michael Kirtus Belfiore was married before Frances Towey. His first wife's name is not yet known. She gave him a daughter, Dorothy, who appears on his 1918 WWI draft registration card at 216 Hamilton Street, Bridgeport, Connecticut. The first wife likely died before Michael married Frances Towey circa 1920–1922.`,
+        details: {
+            "Name": "Unknown",
+            "Child": "Dorothy Belfiore",
+            "Husband": "Michael Kirtus Belfiore"
+        }
+    },
+    dorothy_daughter: {
+        name: "Dorothy Belfiore",
+        subtitle: "Michael's Daughter from First Marriage — Bridgeport, CT",
+        tags: ["Michael's Daughter", "First Marriage", "Bridgeport"],
+        description: `Dorothy Belfiore was Michael Kirtus Belfiore's daughter from his first marriage (before Frances Towey). She appears as "(Child) Dorothy Belfiore" on Michael's September 12, 1918, WWI draft registration card, listed at 216 Hamilton Street, Bridgeport, Fairfield County, Connecticut. Family memory confirms she was Michael's daughter — his aunt per the next generation. Not to be confused with Dorothy Belfiore who married Joseph (Seb's grandmother) — two different Dorothys in the family.`,
+        details: {
+            "Father": "Michael Kirtus Belfiore",
+            "Mother": "First wife (unknown)",
+            "1918 Address": "216 Hamilton St, Bridgeport, CT",
+            "Source": "1918 WWI Draft Registration Card"
+        }
+    },
+    edward: {
+        name: "Edward Belfiore",
+        subtitle: "Eddie — Son of Michael & Frances",
+        tags: ["Michael's Son", "Second Marriage", "New Rochelle"],
+        description: `Edward "Eddie" Belfiore was the son of Michael Kirtus Belfiore and Frances Towey. He was born around 1923 and appears in the 1940 census household. He would have been draft-age during WWII. He does not appear on the New York State WWII Honor List of Dead and Missing, indicating he likely survived the war if he served. The 1973 fire at the National Personnel Records Center destroyed nearly 80% of Army records from 1912–1960.`,
+        details: {
+            "Born": "~1923, New Rochelle, NY",
+            "Father": "Michael Kirtus Belfiore",
+            "Mother": "Frances Towey",
+            "Census": "1940 — appears in Michael's household"
+        }
+    },
+    dorothy_grandmother: {
+        name: "Dorothy Belfiore",
+        subtitle: "Seb's Grandmother — Joseph's Wife, Irish-American",
+        tags: ["Grandmother", "Direct Line", "Irish-American"],
+        description: `Dorothy Belfiore was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had two sons: Robert (Seb's father) and William.`,
+        details: {
+            "Husband": "Joseph Belfiore",
+            "Heritage": "Irish-American",
+            "Children": "Robert Belfiore, William Belfiore",
+            "Note": "Different person from Dorothy (Michael's daughter)"
         }
     },
     robert: {
