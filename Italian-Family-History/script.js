@@ -38,7 +38,7 @@ const personData = {
         name: "Michael Kirtus Belfiore",
         subtitle: "Michele Belfiore — Seb's Great-Grandfather, 'The Non-Golfing Brother'",
         tags: ["Great-Grandfather", "Direct Line", "Painter", "Italy-Born"],
-        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. His death certificate was the document that started this entire research. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
+        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. The 1940 Census confirms his household at this time: Michael (head, age 55, painter), Frances (wife), Edward (son), and Joseph (son). His birth year discrepancy — 1885 on the 1918 draft card vs. 1883 on the 1942 draft card — is typical of the era; self-reported ages on government forms were often inconsistent. His death certificate was the document that started this entire research. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
         details: {
             "Born": "December 15, 1883 or 1885, Italy",
             "Died": "January 16, 1952, New Rochelle Hospital",
@@ -67,40 +67,44 @@ const personData = {
     },
     sammy: {
         name: "Sammy Belfiore",
-        subtitle: "Born Christmas Day 1899 — Golf Pro, Daytona Beach",
-        tags: ["Golfing Brother", "Seabreeze Club", "Daytona Beach"],
-        description: `Sammy Belfiore was born December 25, 1899 (Christmas Day) in New Rochelle, NY. He became a professional golfer — first as assistant pro at Wykagyl Country Club in New Rochelle, then as golf pro at Seabreeze Golf and Tennis Club in Daytona Beach, Florida, from 1948. He had been golfing for 36 years before taking the Seabreeze position. His obituary in The Standard-Star described him as "the first of the native born trio to blossom forth" — among the first native-born Americans to enter professional golf, a field previously dominated by Scottish and foreign-born players. He changed the spelling of his surname from Belfiore to "Belfore." He died in Daytona Beach around 1971–1972 at age 72 after a long illness. He was survived by son Sammy Belfore Jr. (Daytona Beach), daughter Mrs. Patricia Fleming (Birmingham, Michigan), and three grandchildren. He was the last surviving golfing brother. His obituary is the single most important document in this research — it named every sibling and confirmed the complete family structure.`,
+        subtitle: "Born Christmas Day 1899 — PGA Tour Winner, Ridgeview CC & Seabreeze Pro",
+        tags: ["Golfing Brother", "PGA Tour", "Ridgeview CC", "Seabreeze Club", "Daytona Beach"],
+        description: `Sammy Belfiore (later "Belfore") was born December 25, 1899 (Christmas Day) in New Rochelle, NY. He became one of the first native-born Americans of Italian descent to enter professional golf — described in his obituary as "the first of the native born trio to blossom forth." He served as golf professional at Ridgeview Country Club in Westchester for many years before moving to Florida. In the 1930s he won a PGA Tour event — confirmed by his PGA of America player profile, which lists one official PGA Tour win. He was also the personal golf instructor for Clinton Russell, a prominent blind golfer from New Rochelle whose remarkable story was covered by Time magazine. Sammy guided Russell in a famous exhibition match at Wykagyl Country Club in 1938 against Charley Oxenham, the English blind golf champion. In 1948, after 36 years of golf, he became head professional at Seabreeze Golf and Tennis Club in Daytona Beach, Florida. He wrote about the experience in Golfdom magazine (February 1948), describing how the club had been "shutdown for 5 years" during the war and the $4,600 reseeding effort. His brother Frank joined him at Seabreeze, running the pro shop — a photo in the Golfdom article shows them together behind the counter. He married Virginia Hupp, whose family was connected to the Hupp Motor Car Company of Detroit. He changed the spelling of his surname to "Belfore." He died in Daytona Beach around 1971–1972 at age 72 after a long illness. He was survived by son Samuel Alexander Belfore Jr. and daughter Patricia Hupp Fleming. His obituary in The Standard-Star is the single most important document in this research.`,
         details: {
             "Born": "December 25, 1899, New Rochelle, NY",
             "Died": "~1971/1972, Daytona Beach, FL (age 72)",
-            "Career": "Golf pro — Wykagyl CC, then Seabreeze G&TC (1948)",
+            "Wife": "Virginia Hupp (Hupp Motor Car family)",
+            "Career": "Ridgeview CC → PGA Tour (1 win) → Seabreeze G&TC (1948)",
+            "Clinton Russell": "Personal golf instructor to the blind golfer",
             "Name Change": "Belfiore → Belfore",
-            "Children": "Sammy Jr., Patricia Fleming",
-            "Grandchildren": "Three"
+            "Children": "Samuel Alexander Belfore Jr., Patricia Hupp Fleming",
+            "Sources": "PGA of America profile, Golfdom magazine (Feb 1948), Standard-Star obituary"
         }
     },
     frank: {
         name: "Frank Belfiore",
-        subtitle: "Francesco Belfiore — Golf Pro, Daytona Beach",
-        tags: ["Golfing Brother", "Daytona Beach", "Golf Shop"],
-        description: `Frank Belfiore (Francesco) was born around November 1897 in New Rochelle, NY. His parents are confirmed as Antonio Belfiore and Maria D. Circelli via Ancestry indexed records. Like his brothers, he became a professional golfer. He took over the golf shop at the club in Daytona Beach, Florida. He died April 21, 1968, in Daytona Beach. Three of the four Belfiore brothers followed each other to Florida — Sammy and Frank to Daytona Beach, Joseph to Michigan, and Michael stayed in New Rochelle.`,
+        subtitle: "Francesco Belfiore — Golf Pro, Seabreeze Club, Daytona Beach",
+        tags: ["Golfing Brother", "Daytona Beach", "Seabreeze Club", "Golf Shop"],
+        description: `Frank Belfiore (Francesco) was born around November 1897 in New Rochelle, NY. His parents are confirmed as Antonio Belfiore and Maria D. Circelli via Ancestry indexed records. Like his brothers, he became a professional golfer. He followed Sammy to Florida and took over the golf shop at Seabreeze Golf and Tennis Club in Daytona Beach. A photograph in Sammy's February 1948 Golfdom magazine article shows both brothers together behind the counter of the Seabreeze pro shop. The two brothers worked together at the same Florida club for two decades. Frank died April 21, 1968, in Daytona Beach — three or four years before Sammy.`,
         details: {
             "Born": "~November 1897, New Rochelle, NY",
             "Died": "April 21, 1968, Daytona Beach, FL",
             "Parents": "Antonio Belfiore & Maria D. Circelli (confirmed)",
-            "Career": "Golf pro — ran golf shop at Daytona Beach club"
+            "Career": "Golf pro — Seabreeze G&TC pro shop, Daytona Beach",
+            "Source": "Golfdom magazine photo (Feb 1948), Standard-Star obituary"
         }
     },
     joseph_golfer: {
         name: "Joseph Belfiore (The Golfer)",
         subtitle: "Golf Pro at Grosse Pointe, Michigan — NOT Seb's Grandfather",
         tags: ["Golfing Brother", "Grosse Pointe", "Michigan"],
-        description: `Joseph Belfiore was the third golfing brother. He became golf pro at Grosse Pointe, Michigan, where he served "for many years" according to Sammy's obituary. He died before Sammy's obituary (~pre-1971). CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition. There are two Josephs in the family.`,
+        description: `Joseph Belfiore was the third golfing brother. He became golf professional at Grosse Pointe, Michigan — one of the wealthiest suburbs in America, home to the auto industry executives of Detroit. He served there "for many years" according to Sammy's obituary. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. Joseph predeceased Sammy and is listed among the deceased brothers in the obituary (~pre-1971). CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
         details: {
             "Born": "Unknown, New Rochelle, NY",
             "Died": "Before ~1971",
             "Career": "Golf pro at Grosse Pointe, Michigan",
-            "Note": "Michael's brother — NOT Seb's grandfather"
+            "Note": "Michael's brother — NOT Seb's grandfather",
+            "Detroit Connection": "Grosse Pointe near Detroit — possible link to Hupp Motor Car family"
         }
     },
     rose: {
@@ -281,23 +285,83 @@ const personData = {
         }
     },
     sammy_jr: {
-        name: "Sammy Belfore Jr.",
-        subtitle: "Son of Sammy — Daytona Beach",
-        tags: ["Next Generation", "Daytona Beach"],
-        description: `Sammy Belfore Jr. lived in Daytona Beach, Florida. He was the son of Sammy Belfiore (Belfore) and was listed as a survivor in his father's obituary. He carried the changed spelling "Belfore."`,
+        name: "Samuel Alexander Belfore Jr.",
+        subtitle: "Son of Sammy — Ormond Beach, Florida",
+        tags: ["Next Generation", "Ormond Beach", "Belfore"],
+        description: `Samuel Alexander Belfore Jr. was the son of Sammy Belfore Sr. and Virginia Hupp. He lived in Ormond Beach, Florida (adjacent to Daytona Beach), near the family's Seabreeze club connections. His middle name "Alexander" is notable. He married Julia Clair Belfore. He died approximately 2024–2025 in Ormond Beach. He carried the changed spelling "Belfore" that his father had adopted.`,
         details: {
-            "Father": "Sammy Belfiore/Belfore",
-            "Residence": "Daytona Beach, FL"
+            "Full Name": "Samuel Alexander Belfore Jr.",
+            "Father": "Sammy Belfore Sr.",
+            "Mother": "Virginia Hupp",
+            "Wife": "Julia Clair Belfore",
+            "Residence": "Ormond Beach, FL",
+            "Died": "~2024/2025, Ormond Beach, FL"
         }
     },
     patricia_fleming: {
-        name: "Mrs. Patricia Fleming",
-        subtitle: "Daughter of Sammy — Birmingham, Michigan",
-        tags: ["Next Generation", "Michigan"],
-        description: `Patricia Fleming (née Belfore) lived in Birmingham, Michigan. She was the daughter of Sammy Belfiore/Belfore and was listed as a survivor in his obituary.`,
+        name: "Patricia Hupp Fleming",
+        subtitle: "1933–2022 — Sammy's Daughter, Birmingham, Michigan",
+        tags: ["Next Generation", "Michigan", "Hupp Motor Car", "Birmingham"],
+        description: `Patricia Hupp Fleming (née Belfore) was born June 11, 1933, and died January 1, 2022, age 88, in Birmingham, Michigan. She was the daughter of Sammy Belfore Sr. and Virginia Hupp. Her middle name "Hupp" confirms the family connection to the Hupp Motor Car Company of Detroit, which manufactured the Hupmobile automobile from 1909 to 1940. She married John J. Fleming and had four children: Lisa Fleming, Chris Fleming, John Fleming Jr., and Geoff Fleming. She was buried at Cedar Hill Cemetery in Birmingham, Michigan — her Find a Grave memorial provides the key dates. Her father's obituary listed her as "Mrs. Patricia Fleming (Birmingham, Michigan)."`,
         details: {
-            "Father": "Sammy Belfiore/Belfore",
-            "Residence": "Birmingham, Michigan"
+            "Born": "June 11, 1933",
+            "Died": "January 1, 2022, Birmingham, MI (age 88)",
+            "Parents": "Sammy Belfore Sr. & Virginia Hupp",
+            "Husband": "John J. Fleming",
+            "Children": "Lisa, Chris, John Jr., Geoff Fleming",
+            "Buried": "Cedar Hill Cemetery, Birmingham, MI",
+            "Hupp Connection": "Middle name confirms link to Hupp Motor Car Co."
+        }
+    },
+    virginia_hupp: {
+        name: "Virginia Hupp",
+        subtitle: "Sammy's Wife — Hupp Motor Car Family",
+        tags: ["Spouse", "Hupp Motor Car", "Detroit"],
+        description: `Virginia Hupp was Sammy Belfore's wife. Her surname "Hupp" connects her to the Hupp Motor Car Company of Detroit, which manufactured the Hupmobile automobile from 1909 to 1940. The company was founded by Bobby Hupp in Detroit in 1908. The Grosse Pointe golf connection (where brother Joseph was pro) and the Hupp family's Detroit roots suggest the brothers' Michigan connections may have led to the match. Virginia's daughter Patricia carried the middle name "Hupp," preserving the family connection.`,
+        details: {
+            "Husband": "Sammy Belfore Sr.",
+            "Children": "Samuel Alexander Belfore Jr., Patricia Hupp Fleming",
+            "Family": "Connected to Hupp Motor Car Company (Detroit)"
+        }
+    },
+    lisa_fleming: {
+        name: "Lisa Fleming",
+        subtitle: "Daughter of Patricia & John Fleming",
+        tags: ["Sammy's Grandchild", "Fleming"],
+        description: `Lisa Fleming is the daughter of Patricia Hupp Fleming and John J. Fleming, and granddaughter of Sammy Belfore Sr. She is one of the "three grandchildren" mentioned in Sammy's obituary.`,
+        details: {
+            "Parents": "Patricia Hupp Fleming & John J. Fleming",
+            "Grandfather": "Sammy Belfore Sr."
+        }
+    },
+    chris_fleming: {
+        name: "Chris Fleming",
+        subtitle: "Son of Patricia & John Fleming",
+        tags: ["Sammy's Grandchild", "Fleming"],
+        description: `Chris Fleming is the son of Patricia Hupp Fleming and John J. Fleming, and grandson of Sammy Belfore Sr.`,
+        details: {
+            "Parents": "Patricia Hupp Fleming & John J. Fleming",
+            "Grandfather": "Sammy Belfore Sr."
+        }
+    },
+    john_fleming_jr: {
+        name: "John Fleming Jr.",
+        subtitle: "Son of Patricia & John Fleming",
+        tags: ["Sammy's Grandchild", "Fleming"],
+        description: `John Fleming Jr. is the son of Patricia Hupp Fleming and John J. Fleming, and grandson of Sammy Belfore Sr.`,
+        details: {
+            "Parents": "Patricia Hupp Fleming & John J. Fleming",
+            "Grandfather": "Sammy Belfore Sr."
+        }
+    },
+    geoff_fleming: {
+        name: "Geoff Fleming",
+        subtitle: "Son of Patricia & John Fleming",
+        tags: ["Sammy's Grandchild", "Fleming"],
+        description: `Geoff Fleming is the son of Patricia Hupp Fleming and John J. Fleming, and grandson of Sammy Belfore Sr.`,
+        details: {
+            "Parents": "Patricia Hupp Fleming & John J. Fleming",
+            "Grandfather": "Sammy Belfore Sr."
         }
     },
     loredana: {
