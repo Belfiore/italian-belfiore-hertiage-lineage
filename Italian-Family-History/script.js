@@ -187,15 +187,15 @@ const personData = {
         name: "Joseph Belfiore",
         subtitle: "Seb's Grandfather — Son of Michael & Frances",
         tags: ["Grandfather", "Direct Line", "West Babylon"],
-        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Belfiore, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. His sons were Robert (Seb's father) and William (Seb's uncle).`,
+        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Hennessey, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. Joseph and Dorothy had four children: Robert (Seb's father), William (Seb's uncle), Karen (later Carpenter), and Beth.`,
         details: {
             "Born": "Unknown (likely 1920s, New Rochelle)",
             "Died": "West Babylon, NY",
             "SSN": "218-30-3629 (Maryland-issued)",
             "Father": "Michael Kirtus Belfiore",
             "Mother": "Frances Towey",
-            "Wife": "Dorothy Belfiore (Irish-American)",
-            "Children": "Robert Belfiore, William Belfiore",
+            "Wife": "Dorothy Hennessey Belfiore (née Hennessey, Irish-American)",
+            "Children": "Robert Belfiore, William Belfiore, Karen Carpenter (née Belfiore), Beth Belfiore",
             "Named After": "Uncle Joseph (the golfer)"
         }
     },
@@ -235,14 +235,15 @@ const personData = {
         }
     },
     dorothy_grandmother: {
-        name: "Dorothy Belfiore",
-        subtitle: "Seb's Grandmother — Joseph's Wife, Irish-American",
-        tags: ["Grandmother", "Direct Line", "Irish-American"],
-        description: `Dorothy Belfiore was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had two sons: Robert (Seb's father) and William.`,
+        name: "Dorothy Hennessey Belfiore",
+        subtitle: "Seb's Grandmother — née Hennessey, Irish-American",
+        tags: ["Grandmother", "Direct Line", "Irish-American", "Hennessey"],
+        description: `Dorothy Hennessey Belfiore (née Hennessey) was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had four children: Robert (Seb's father), William (Seb's uncle), Karen (later Carpenter), and Beth.`,
         details: {
+            "Maiden Name": "Hennessey",
             "Husband": "Joseph Belfiore",
             "Heritage": "Irish-American",
-            "Children": "Robert Belfiore, William Belfiore",
+            "Children": "Robert Belfiore, William Belfiore, Karen Carpenter (née Belfiore), Beth Belfiore",
             "Note": "Different person from Dorothy (Michael's daughter)"
         }
     },
@@ -250,10 +251,12 @@ const personData = {
         name: "Robert Belfiore",
         subtitle: "Seb's Father",
         tags: ["Father", "Direct Line", "New Rochelle"],
-        description: `Robert Belfiore is Seb's father, son of Joseph Belfiore. He was raised in the New Rochelle area. His brother William Belfiore provided the key documents — Michael's death certificate and Sammy's obituary — that started this entire genealogical research.`,
+        description: `Robert Belfiore is Seb's father, son of Joseph Belfiore and Dorothy Hennessey Belfiore. He was raised in the New Rochelle area. His siblings are William, Karen (Carpenter), and Beth. His brother William Belfiore provided the key documents — Michael's death certificate and Sammy's obituary — that started this entire genealogical research.`,
         details: {
             "Father": "Joseph Belfiore",
+            "Mother": "Dorothy Hennessey Belfiore",
             "Children": "Seb Belfiore, Alexander Belfiore",
+            "Siblings": "William Belfiore, Karen Carpenter, Beth Belfiore",
             "Residence": "New Rochelle area"
         }
     },
@@ -261,11 +264,14 @@ const personData = {
         name: "William Belfiore",
         subtitle: "Seb's Uncle",
         tags: ["Uncle", "New Rochelle", "Family Records"],
-        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and the brother of Robert (Seb's father). William adopted four children from Romania — Loredana, Ionel, Ramona, and Michaela — and has one US-born son, Aidan. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
+        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and Dorothy Hennessey Belfiore, and the brother of Robert (Seb's father), Karen (Carpenter), and Beth. He married Susan. Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
         details: {
             "Born": "~1950",
             "Father": "Joseph Belfiore",
-            "Children": "Loredana (adopted, Romania), Ionel (adopted, Romania), Ramona (adopted, Romania), Michaela (adopted, Romania), Aidan (US)",
+            "Mother": "Dorothy Hennessey Belfiore",
+            "Wife": "Susan Belfiore",
+            "Children": "Loredana, Dani, Ionel, Ramona, Michaela, Aidan",
+            "Siblings": "Robert Belfiore, Karen Carpenter, Beth Belfiore",
             "Role": "Provided death certificate & obituary that started the research"
         }
     },
@@ -444,6 +450,50 @@ const personData = {
         details: {
             "Father": "Robert Belfiore",
             "Sibling": "Seb Belfiore"
+        }
+    },
+    karen: {
+        name: "Karen Carpenter",
+        subtitle: "née Belfiore — Joseph & Dorothy's Daughter",
+        tags: ["Joseph's Daughter", "Direct Line", "Carpenter"],
+        description: `Karen Carpenter (née Belfiore) is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Beth. She married into the Carpenter family.`,
+        details: {
+            "Maiden Name": "Belfiore",
+            "Married Name": "Carpenter",
+            "Father": "Joseph Belfiore",
+            "Mother": "Dorothy Hennessey Belfiore",
+            "Siblings": "Robert Belfiore, William Belfiore, Beth Belfiore"
+        }
+    },
+    beth: {
+        name: "Beth Belfiore",
+        subtitle: "Joseph & Dorothy's Daughter",
+        tags: ["Joseph's Daughter", "Direct Line"],
+        description: `Beth Belfiore is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Karen (Carpenter).`,
+        details: {
+            "Father": "Joseph Belfiore",
+            "Mother": "Dorothy Hennessey Belfiore",
+            "Siblings": "Robert Belfiore, William Belfiore, Karen Carpenter"
+        }
+    },
+    susan: {
+        name: "Susan Belfiore",
+        subtitle: "William's Wife",
+        tags: ["Spouse", "William's Wife"],
+        description: `Susan Belfiore is the wife of William Belfiore (Seb's uncle). Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.`,
+        details: {
+            "Husband": "William Belfiore",
+            "Children": "Loredana, Dani, Ionel, Ramona, Michaela, Aidan"
+        }
+    },
+    dani: {
+        name: "Dani Belfiore",
+        subtitle: "William & Susan's Child",
+        tags: ["Next Generation", "William's Child"],
+        description: `Dani Belfiore is the child of William and Susan Belfiore.`,
+        details: {
+            "Father": "William Belfiore",
+            "Mother": "Susan Belfiore"
         }
     }
 };
