@@ -610,10 +610,44 @@ function showBio(id) {
         ${linksHTML}
     `;
 
-    // On mobile, open sidebar
+    // On mobile, open sidebar drawer
     if (window.innerWidth <= 768 && sidebar) {
-        sidebar.classList.add('open');
+        sidebar.classList.add('has-bio');
+        // Small delay so the display:block takes effect before the transform transition
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                sidebar.classList.add('open');
+            });
+        });
+        const overlay = document.getElementById('sidebarOverlay');
+        if (overlay) overlay.classList.add('active');
     }
+}
+
+// Close mobile sidebar drawer
+function closeMobileSidebar() {
+    if (sidebar) {
+        sidebar.classList.remove('open');
+        const overlay = document.getElementById('sidebarOverlay');
+        if (overlay) overlay.classList.remove('active');
+        // Remove has-bio after transition ends to hide it
+        sidebar.addEventListener('transitionend', function handler() {
+            if (!sidebar.classList.contains('open')) {
+                sidebar.classList.remove('has-bio');
+                document.querySelectorAll('.tree-person').forEach(p => p.classList.remove('active'));
+            }
+            sidebar.removeEventListener('transitionend', handler);
+        });
+    }
+}
+
+const sidebarClose = document.getElementById('sidebarClose');
+if (sidebarClose) {
+    sidebarClose.addEventListener('click', closeMobileSidebar);
+}
+const sidebarOverlay = document.getElementById('sidebarOverlay');
+if (sidebarOverlay) {
+    sidebarOverlay.addEventListener('click', closeMobileSidebar);
 }
 
 document.querySelectorAll('.tree-person').forEach(person => {
