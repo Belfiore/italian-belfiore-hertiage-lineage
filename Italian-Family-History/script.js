@@ -44,7 +44,7 @@ const personData = {
             { label: "WWII Draft Card", url: "images/Michael-Belfiore-WW2-Draft-Card.jpeg" },
             { label: "1940 Census", url: "images/Michael-Belfiore-Census-1940-painter.jpeg" }
         ],
-        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. The 1940 Census confirms his household at this time: Michael (head, age 55, painter), Frances (wife), Edward (son), and Joseph (son). His birth year discrepancy — 1885 on the 1918 draft card vs. 1883 on the 1942 draft card — is typical of the era; self-reported ages on government forms were often inconsistent. His death certificate was the document that started this entire research. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
+        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. The 1940 Census confirms his household at this time: Michael (head, age 55, painter), Frances (wife), Edward (son), and Joseph (son). His birth year discrepancy — 1885 on the 1918 draft card vs. 1883 on the 1942 draft card — is typical of the era; self-reported ages on government forms were often inconsistent. His death certificate was later unearthed during the family's genealogical research, confirming his parents as Anthony Belfiore and Maria Circelli. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
         details: {
             "Born": "December 15, 1883 or 1885, Italy",
             "Died": "January 16, 1952, New Rochelle Hospital",
@@ -114,19 +114,23 @@ const personData = {
     },
     joseph_golfer: {
         name: "Joseph Belfiore (The Golfer)",
-        subtitle: "Golf Pro at Grosse Pointe, Michigan — NOT Seb's Grandfather",
-        tags: ["Golfing Brother", "Grosse Pointe", "Michigan"],
+        subtitle: "Head Golf Professional — Country Club of Detroit, Grosse Pointe Farms",
+        tags: ["Golfing Brother", "Country Club of Detroit", "Grosse Pointe", "Michigan"],
         image: "images/belfiore-golf-brothers.jpeg",
         links: [
             { label: "Full Story", url: "golfing-brothers.html" }
         ],
-        description: `Joseph Belfiore was the third golfing brother. He became golf professional at Grosse Pointe, Michigan — one of the wealthiest suburbs in America, home to the auto industry executives of Detroit. He served there "for many years" according to Sammy's obituary. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. Joseph predeceased Sammy and is listed among the deceased brothers in the obituary (~pre-1971). CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
+        description: `Joseph Belfiore — known as "Joe Belfore" — was the third golfing brother. He became head golf professional and ran the Golf Shop at the Country Club of Detroit in Grosse Pointe Farms, Michigan — one of the most prestigious private clubs in America, serving the auto industry elite of Detroit. He served there "for many years" according to Sammy's obituary. Joe died in 1963 after a long illness. The Country Club of Detroit's Board of Governors met on October 29, 1963, to discuss replacing him and settling his affairs. The board voted to pay $750 to his wife ("Mrs. Belfore") as a gift to assist with obligations from his long illness, and allowed her to continue running the Golf Shop through the Christmas season until January 2, 1964. Joe's assistant professional was Danny Bianco, whom the club paid $1,000 for services during the past season. The board also granted golfing privileges for two years to Joe's two sons — David Belfore and Joseph F. Belfore Jr. (nicknamed "Jeffery") — starting November 1, 1963. The sons could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to their families. The middle initial "F." in Joseph Jr.'s name may stand for "Frank" after Joe's brother, following Italian naming customs. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
         details: {
             "Born": "Unknown, New Rochelle, NY",
-            "Died": "Before ~1971",
-            "Career": "Golf pro at Grosse Pointe, Michigan",
+            "Died": "1963, after a long illness",
+            "Club": "Country Club of Detroit, Grosse Pointe Farms, MI",
+            "Role": "Head Golf Professional & Golf Shop operator",
+            "Wife": "Mrs. Belfore (first name unknown)",
+            "Sons": "David Belfore, Joseph F. 'Jeffery' Belfore Jr.",
+            "Assistant Pro": "Danny Bianco",
             "Note": "Michael's brother — NOT Seb's grandfather",
-            "Detroit Connection": "Grosse Pointe near Detroit — possible link to Hupp Motor Car family"
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
         }
     },
     rose: {
@@ -351,6 +355,43 @@ const personData = {
             "Children": "Lisa, Chris, John Jr., Geoff Fleming",
             "Buried": "Cedar Hill Cemetery, Birmingham, MI",
             "Hupp Connection": "Middle name confirms link to Hupp Motor Car Co."
+        }
+    },
+    mrs_belfore: {
+        name: "Mrs. Belfore",
+        subtitle: "Joe Belfore's Wife — Country Club of Detroit",
+        tags: ["Spouse", "Country Club of Detroit", "Grosse Pointe"],
+        description: `Mrs. Belfore (first name unknown) was the wife of Joe Belfore, head golf professional at the Country Club of Detroit. After Joe's death in 1963, she presented a letter of appreciation to the Board of Governors, handled the estate, and ran the Golf Shop. The board voted to pay her $750 as a gift to help settle obligations from Joe's long illness. She was permitted to keep the Golf Shop open through the Christmas season until January 2, 1964. Her two sons, David and Joseph F. "Jeffery" Jr., were granted personal golfing privileges at the club for two years.`,
+        details: {
+            "Husband": "Joe Belfore (d. 1963)",
+            "Sons": "David Belfore, Joseph F. 'Jeffery' Belfore Jr.",
+            "Club": "Country Club of Detroit",
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
+        }
+    },
+    david_belfore: {
+        name: "David Belfore",
+        subtitle: "Son of Joe Belfore — Country Club of Detroit",
+        tags: ["Joe's Son", "Country Club of Detroit", "Grosse Pointe"],
+        description: `David Belfore was one of two sons of Joe Belfore, head golf professional at the Country Club of Detroit. After Joe's death in 1963, the club's Board of Governors granted David personal golfing privileges for two years starting November 1, 1963. He could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to his family.`,
+        details: {
+            "Father": "Joe Belfore",
+            "Mother": "Mrs. Belfore (first name unknown)",
+            "Brother": "Joseph F. 'Jeffery' Belfore Jr.",
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
+        }
+    },
+    joseph_jr_belfore: {
+        name: "Joseph F. \"Jeffery\" Belfore Jr.",
+        subtitle: "Son of Joe Belfore — Country Club of Detroit",
+        tags: ["Joe's Son", "Country Club of Detroit", "Grosse Pointe"],
+        description: `Joseph F. Belfore Jr., nicknamed "Jeffery," was one of two sons of Joe Belfore, head golf professional at the Country Club of Detroit. The middle initial "F." may stand for "Frank" after Joe's brother, following Italian naming customs. After Joe's death in 1963, the club's Board of Governors granted Jeffery personal golfing privileges for two years starting November 1, 1963. He could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to his family.`,
+        details: {
+            "Father": "Joe Belfore",
+            "Mother": "Mrs. Belfore (first name unknown)",
+            "Brother": "David Belfore",
+            "Middle Initial": "F. — possibly 'Frank' after uncle (Italian naming tradition)",
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
         }
     },
     virginia_hupp: {
