@@ -293,10 +293,23 @@ const personData = {
         name: "Enzo Belfiore",
         subtitle: "Sixth Generation — Born January 2026",
         tags: ["6th Generation", "Tampa FL", "Triple Citizenship"],
-        description: `Enzo Belfiore was born in January 2026 in Tampa, Florida. He holds triple citizenship: US, UK, and German. Named in the Italian tradition, he is the sixth generation from the immigrants Anthony and Maria. His great-great-great-grandparents left a mountain town in southern Italy in the 1890s. Six generations later, the Belfiore name continues on the Gulf Coast of Florida.`,
+        description: `Enzo Belfiore was born in January 2026 in Tampa, Florida. He holds triple citizenship: US, UK, and German. Named in the Italian tradition, he is the sixth generation from the immigrants Anthony and Maria. His great-great-great-grandparents left a mountain town in southern Italy in the 1890s. Six generations later, the Belfiore name continues on the Gulf Coast of Florida. His cousin Violet is the daughter of Alexander and Lauren Belfiore.`,
         details: {
             "Born": "January 2026, Tampa, FL",
             "Citizenship": "US, UK, German (triple)",
+            "Cousin": "Violet Belfiore",
+            "Heritage": "6th generation from the immigrants"
+        }
+    },
+    violet: {
+        name: "Violet Belfiore",
+        subtitle: "Sixth Generation — Alexander & Lauren's Daughter",
+        tags: ["6th Generation", "Enzo's Cousin"],
+        description: `Violet Belfiore is the daughter of Alexander and Lauren Belfiore. She is Enzo's cousin — together they represent the sixth generation of Belfiores from the immigrants Leonardantonio and Maria Donata Circelli.`,
+        details: {
+            "Father": "Alexander Belfiore",
+            "Mother": "Lauren Belfiore",
+            "Cousin": "Enzo Belfiore",
             "Heritage": "6th generation from the immigrants"
         }
     },
@@ -446,10 +459,22 @@ const personData = {
         name: "Alexander Belfiore",
         subtitle: "Seb's Brother",
         tags: ["Generation 5", "Robert's Son"],
-        description: `Alexander Belfiore is the son of Robert Belfiore and Seb's brother.`,
+        description: `Alexander Belfiore is the son of Robert Belfiore and Seb's brother. He married Lauren Belfiore. They have a daughter, Violet — Enzo's cousin.`,
         details: {
             "Father": "Robert Belfiore",
+            "Wife": "Lauren Belfiore",
+            "Daughter": "Violet Belfiore",
             "Sibling": "Seb Belfiore"
+        }
+    },
+    lauren: {
+        name: "Lauren Belfiore",
+        subtitle: "Alexander's Wife",
+        tags: ["Spouse", "Generation 5"],
+        description: `Lauren Belfiore is the wife of Alexander Belfiore (Seb's brother). They have a daughter, Violet.`,
+        details: {
+            "Husband": "Alexander Belfiore",
+            "Daughter": "Violet Belfiore"
         }
     },
     karen: {
