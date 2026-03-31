@@ -263,25 +263,24 @@ const personData = {
     william: {
         name: "William Belfiore",
         subtitle: "Seb's Uncle",
-        tags: ["Uncle", "New Rochelle", "Family Records"],
-        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and Dorothy Hennessey Belfiore, and the brother of Robert (Seb's father), Karen (Carpenter), and Beth. He married Susan. Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
+        tags: ["Uncle", "New Rochelle"],
+        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and Dorothy Hennessey Belfiore, and the brother of Robert (Seb's father), Karen (Carpenter), and Beth. He married Susan. Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.`,
         details: {
             "Born": "~1950",
             "Father": "Joseph Belfiore",
             "Mother": "Dorothy Hennessey Belfiore",
             "Wife": "Susan Belfiore",
             "Children": "Loredana, Dani, Ionel, Ramona, Michaela, Aidan",
-            "Siblings": "Robert Belfiore, Karen Carpenter, Beth Belfiore",
-            "Role": "Provided death certificate & obituary that started the research"
+            "Siblings": "Robert Belfiore, Karen Carpenter, Beth Belfiore"
         }
     },
     seb: {
         name: "Seb Belfiore",
         subtitle: "Fifth Generation — Davis Island, Tampa",
         tags: ["You", "5th Generation", "Tampa FL"],
-        description: `Seb Belfiore was born in 1989 in the United Kingdom. He holds dual US/UK citizenship. He is a product designer living on Davis Island, Tampa, FL. He married Valeria (German). He is the great-great-grandson of Anthony and Maria Belfiore — the immigrants from San Bartolomeo in Galdo. Through his father Robert, grandfather Joseph, great-grandfather Michael, and great-great-grandparents Anthony and Maria, the line stretches back five generations to the mountains of Campania. His son Enzo, born January 2026, carries the name into the sixth generation.`,
+        description: `Seb Belfiore was born in 1991 in the United Kingdom. He holds dual US/UK citizenship. He is a product designer living on Davis Island, Tampa, FL. He married Valeria (German). He is the great-great-grandson of Anthony and Maria Belfiore — the immigrants from San Bartolomeo in Galdo. Through his father Robert, grandfather Joseph, great-grandfather Michael, and great-great-grandparents Anthony and Maria, the line stretches back five generations to the mountains of Campania. His son Enzo, born January 2026, carries the name into the sixth generation.`,
         details: {
-            "Born": "1989, United Kingdom",
+            "Born": "1991, United Kingdom",
             "Citizenship": "UK, US (dual)",
             "Residence": "Davis Island, Tampa, FL",
             "Married": "Valeria (German)",
@@ -457,10 +456,11 @@ const personData = {
     },
     alexander: {
         name: "Alexander Belfiore",
-        subtitle: "Seb's Brother",
+        subtitle: "b. 1989 — Seb's Brother",
         tags: ["Generation 5", "Robert's Son"],
-        description: `Alexander Belfiore is the son of Robert Belfiore and Seb's brother. He married Lauren Belfiore. They have a daughter, Violet — Enzo's cousin.`,
+        description: `Alexander Belfiore was born in 1989 in the United Kingdom. He is the son of Robert Belfiore and Seb's older brother. He married Lauren Belfiore. They have a daughter, Violet — Enzo's cousin.`,
         details: {
+            "Born": "1989, United Kingdom",
             "Father": "Robert Belfiore",
             "Wife": "Lauren Belfiore",
             "Daughter": "Violet Belfiore",
