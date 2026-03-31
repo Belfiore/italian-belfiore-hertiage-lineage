@@ -116,9 +116,11 @@ const personData = {
         name: "Joseph Belfiore (The Golfer)",
         subtitle: "Head Golf Professional — Country Club of Detroit, Grosse Pointe Farms",
         tags: ["Golfing Brother", "Country Club of Detroit", "Grosse Pointe", "Michigan"],
-        image: "images/belfiore-golf-brothers.jpeg",
+        image: "images/frank-belfore-michigan-golfcourse.jpg",
         links: [
-            { label: "Full Story", url: "golfing-brothers.html" }
+            { label: "Full Story", url: "golfing-brothers.html" },
+            { label: "CCD Board Minutes", url: "images/frank-belfore-michigan-golfcourse.jpg" },
+            { label: "CCD Meeting Header", url: "images/frank-belfore-michigan-golfcourse2.jpg" }
         ],
         description: `Joseph Belfiore — known as "Joe Belfore" — was the third golfing brother. He became head golf professional and ran the Golf Shop at the Country Club of Detroit in Grosse Pointe Farms, Michigan — one of the most prestigious private clubs in America, serving the auto industry elite of Detroit. He served there "for many years" according to Sammy's obituary. Joe died in 1963 after a long illness. The Country Club of Detroit's Board of Governors met on October 29, 1963, to discuss replacing him and settling his affairs. The board voted to pay $750 to his wife ("Mrs. Belfore") as a gift to assist with obligations from his long illness, and allowed her to continue running the Golf Shop through the Christmas season until January 2, 1964. Joe's assistant professional was Danny Bianco, whom the club paid $1,000 for services during the past season. The board also granted golfing privileges for two years to Joe's two sons — David Belfore and Joseph F. Belfore Jr. (nicknamed "Jeffery") — starting November 1, 1963. The sons could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to their families. The middle initial "F." in Joseph Jr.'s name may stand for "Frank" after Joe's brother, following Italian naming customs. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
         details: {
