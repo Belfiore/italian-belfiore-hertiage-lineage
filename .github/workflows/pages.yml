@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [italian-lineage]
+    branches: [italian-lineage, claude/italian-family-tree-site-bWfxk]
   workflow_dispatch:
 
 permissions:
