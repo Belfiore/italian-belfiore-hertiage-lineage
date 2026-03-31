@@ -115,24 +115,32 @@ const personData = {
     joseph_golfer: {
         name: "Joseph Belfiore (The Golfer)",
         subtitle: "Head Golf Professional — Country Club of Detroit, Grosse Pointe Farms",
-        tags: ["Golfing Brother", "Country Club of Detroit", "Grosse Pointe", "Michigan"],
+        tags: ["Golfing Brother", "Country Club of Detroit", "Grosse Pointe", "Michigan PGA President", "2x Michigan PGA Champion", "Author"],
         image: "images/frank-belfore-michigan-golfcourse.jpg",
         links: [
             { label: "Full Story", url: "golfing-brothers.html" },
             { label: "CCD Board Minutes", url: "images/frank-belfore-michigan-golfcourse.jpg" },
-            { label: "CCD Meeting Header", url: "images/frank-belfore-michigan-golfcourse2.jpg" }
+            { label: "CCD Meeting Header", url: "images/frank-belfore-michigan-golfcourse2.jpg" },
+            { label: "Michigan PGA Centennial", url: "https://michiganpga.com/news/michigan-pga-centennial-1922-2022-2/" },
+            { label: "Golfing Aids Book (Auction)", url: "https://thegolfauction.com/1940__Golfing_Aids__Signed_By_Author_Joe_Belfore-LOT176227.aspx" },
+            { label: "1927 Met Open (NYT)", url: "https://www.nytimes.com/1927/05/25/archives/golf-stars-begin-met-open-today-hagen-sarazen-and-mehlhorn-among.html" },
+            { label: "Golfdom Jan 1934 (PDF)", url: "https://archive.lib.msu.edu/tic/golfd/article/1934jan9.pdf" }
         ],
-        description: `Joseph Belfiore — known as "Joe Belfore" — was the third golfing brother. He became head golf professional and ran the Golf Shop at the Country Club of Detroit in Grosse Pointe Farms, Michigan — one of the most prestigious private clubs in America, serving the auto industry elite of Detroit. He served there "for many years" according to Sammy's obituary. Joe died in 1963 after a long illness. The Country Club of Detroit's Board of Governors met on October 29, 1963, to discuss replacing him and settling his affairs. The board voted to pay $750 to his wife ("Mrs. Belfore") as a gift to assist with obligations from his long illness, and allowed her to continue running the Golf Shop through the Christmas season until January 2, 1964. Joe's assistant professional was Danny Bianco, whom the club paid $1,000 for services during the past season. The board also granted golfing privileges for two years to Joe's two sons — David Belfore and Joseph F. Belfore Jr. (nicknamed "Jeffery") — starting November 1, 1963. The sons could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to their families. The middle initial "F." in Joseph Jr.'s name may stand for "Frank" after Joe's brother, following Italian naming customs. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
+        description: `Joseph "Joe" Belfore was far more than just a club pro — he was one of the most accomplished golf professionals in Michigan history. He served as head golf professional and Golf Shop operator at the Country Club of Detroit in Grosse Pointe Farms, Michigan — one of the most prestigious private clubs in America. According to the Michigan PGA's Centennial history (1922–2022), Belfore was "a highly regarded player and teacher at Country Club of Detroit" who served as President of the Michigan PGA Section from 1959 to 1960. He won the Michigan PGA Professional Championship twice, in 1933 and 1937. The Michigan PGA noted that "he also had the business skills to serve in acting management roles at the club when needed." In 1927, Joe competed in the Metropolitan Open alongside legends Walter Hagen, Gene Sarazen, and Bill Mehlhorn — as reported by The New York Times. In 1940, he authored a book titled "Golfing Aids," which he personally signed — copies have appeared at golf memorabilia auctions. He also appeared in Golfdom magazine (January 1934). Joe died in 1963 after a long illness. The Country Club of Detroit's Board of Governors met on October 29, 1963, to discuss replacing him and settling his affairs. The board voted to pay $750 to his wife ("Mrs. Belfore") as a gift to assist with obligations from his long illness, and allowed her to continue running the Golf Shop through the Christmas season until January 2, 1964. Joe's assistant professional was Danny Bianco. The board granted golfing privileges for two years to Joe's two sons — David Belfore and Joseph F. Belfore Jr. (nicknamed "Jeffery") — starting November 1, 1963. The middle initial "F." in Joseph Jr.'s name may stand for "Frank" after Joe's brother, following Italian naming customs. CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather.`,
         details: {
             "Born": "Unknown, New Rochelle, NY",
             "Died": "1963, after a long illness",
             "Club": "Country Club of Detroit, Grosse Pointe Farms, MI",
             "Role": "Head Golf Professional & Golf Shop operator",
+            "Michigan PGA President": "1959–1960",
+            "Michigan PGA Champion": "1933, 1937 (2x winner)",
+            "Author": "Golfing Aids (1940, signed edition)",
+            "1927 Met Open": "Competed alongside Hagen, Sarazen, Mehlhorn",
             "Wife": "Mrs. Belfore (first name unknown)",
             "Sons": "David Belfore, Joseph F. 'Jeffery' Belfore Jr.",
             "Assistant Pro": "Danny Bianco",
             "Note": "Michael's brother — NOT Seb's grandfather",
-            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
+            "Source": "CCD Board Minutes (1963), Michigan PGA Centennial, NYT (1927)"
         }
     },
     rose: {
