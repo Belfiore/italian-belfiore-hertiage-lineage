@@ -307,13 +307,26 @@ const personData = {
             "Heritage": "5th generation from the immigrants"
         }
     },
+    valeria: {
+        name: "Valeria Belfiore",
+        subtitle: "Seb's Wife — German",
+        tags: ["Spouse", "German", "Tampa FL"],
+        description: `Valeria Belfiore is the wife of Seb Belfiore and the mother of Enzo Belfiore. She is German. Together with Seb, she lives on Davis Island, Tampa, FL. Enzo, born January 2026, holds triple citizenship — US, UK, and German — with the German citizenship coming through Valeria.`,
+        details: {
+            "Husband": "Seb Belfiore",
+            "Son": "Enzo Belfiore (b. January 2026)",
+            "Nationality": "German",
+            "Residence": "Davis Island, Tampa, FL"
+        }
+    },
     enzo: {
         name: "Enzo Belfiore",
         subtitle: "Sixth Generation — Born January 2026",
         tags: ["6th Generation", "Tampa FL", "Triple Citizenship"],
-        description: `Enzo Belfiore was born in January 2026 in Tampa, Florida. He holds triple citizenship: US, UK, and German. Named in the Italian tradition, he is the sixth generation from the immigrants Anthony and Maria. His great-great-great-grandparents left a mountain town in southern Italy in the 1890s. Six generations later, the Belfiore name continues on the Gulf Coast of Florida. His cousin Violet is the daughter of Alexander and Lauren Belfiore.`,
+        description: `Enzo Belfiore was born in January 2026 in Tampa, Florida, to Seb and Valeria Belfiore. He holds triple citizenship: US, UK, and German — the German citizenship through his mother Valeria. Named in the Italian tradition, he is the sixth generation from the immigrants Anthony and Maria. His great-great-great-grandparents left a mountain town in southern Italy in the 1890s. Six generations later, the Belfiore name continues on the Gulf Coast of Florida. His cousin Violet is the daughter of Alexander and Lauren Belfiore.`,
         details: {
             "Born": "January 2026, Tampa, FL",
+            "Parents": "Seb & Valeria Belfiore",
             "Citizenship": "US, UK, German (triple)",
             "Cousin": "Violet Belfiore",
             "Heritage": "6th generation from the immigrants"
@@ -537,13 +550,38 @@ const personData = {
         name: "Karen Carpenter",
         subtitle: "née Belfiore — Joseph & Dorothy's Daughter",
         tags: ["Joseph's Daughter", "Direct Line", "Carpenter"],
-        description: `Karen Carpenter (née Belfiore) is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Beth. She married into the Carpenter family.`,
+        description: `Karen Carpenter (née Belfiore) is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Beth. She married Bill Carpenter. Their son is Christian Carpenter.`,
         details: {
             "Maiden Name": "Belfiore",
             "Married Name": "Carpenter",
+            "Husband": "Bill Carpenter",
+            "Son": "Christian Carpenter",
             "Father": "Joseph Belfiore",
             "Mother": "Dorothy Hennessey Belfiore",
             "Siblings": "Robert Belfiore, William Belfiore, Beth Belfiore"
+        }
+    },
+    bill_carpenter: {
+        name: "Bill Carpenter",
+        subtitle: "Karen's Husband",
+        tags: ["Carpenter", "Spouse"],
+        description: `Bill Carpenter is the husband of Karen Carpenter (née Belfiore). Karen is the daughter of Joseph and Dorothy Hennessey Belfiore. Bill and Karen have a son, Christian Carpenter.`,
+        details: {
+            "Wife": "Karen Carpenter (née Belfiore)",
+            "Son": "Christian Carpenter",
+            "In-Laws": "Joseph & Dorothy Hennessey Belfiore"
+        }
+    },
+    christian_carpenter: {
+        name: "Christian Carpenter",
+        subtitle: "Son of Karen & Bill Carpenter",
+        tags: ["5th Generation", "Carpenter"],
+        description: `Christian Carpenter is the son of Karen Carpenter (née Belfiore) and Bill Carpenter. Through his mother Karen, he is a grandson of Joseph and Dorothy Hennessey Belfiore, and a cousin to Seb, Alexander, and William's children. He is the fifth generation from the immigrants Leonardantonio and Maria Donata Circelli.`,
+        details: {
+            "Mother": "Karen Carpenter (née Belfiore)",
+            "Father": "Bill Carpenter",
+            "Grandparents": "Joseph & Dorothy Hennessey Belfiore",
+            "Heritage": "5th generation from the immigrants"
         }
     },
     beth: {
