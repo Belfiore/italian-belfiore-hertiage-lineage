@@ -8,7 +8,7 @@ const personData = {
         name: "Leonardantonio Belfiore",
         subtitle: "A Foundling — The Patriarch of the Belfiore Line",
         tags: ["Foundling", "Patriarch", "San Bartolomeo in Galdo"],
-        description: `Leonardantonio Belfiore was born around 1860–1861 in the Province of Benevento, Campania. His marriage record reveals a remarkable origin: he was a foundling — the son of padre ignoto and madre ignota (both parents unknown). The surname "Belfiore" — bel fiore, beautiful flower — was not inherited. It was assigned by a foundling home, almost certainly the Ruota dei Proietti, the revolving door where unwanted infants were anonymously deposited. Italian authorities gave these children invented, often beautiful surnames. The Belfiore genealogical line terminates with Leonardantonio — there are no Belfiore ancestors to trace further back. He married Maria Donata Circelli on January 27, 1884, in San Bartolomeo in Galdo. Both were illiterate — they could not sign their own names. The evidence strongly suggests Leonardantonio died in Italy before 1896 — Maria traveled under her maiden name, and no immigration record for him has ever been found. An "Anthony Belfiore" died July 11, 1938, in New Rochelle (cert #42184), but whether this was Leonardantonio or another family member remains unresolved pending the 1900 census. American records shortened his name to "Anthony" or "Antonio."`,
+        description: `Leonardantonio Belfiore was born around 1860–1861 in the Province of Benevento, Campania. His marriage record reveals a remarkable origin: he was a foundling — a child abandoned by his parents and taken in by a foundling home (brefotrofio). In 19th-century southern Italy, thousands of infants were left at these institutions through a device called the Ruota dei Proietti — a revolving wooden wheel built into the wall of a church or hospital. A parent could place their baby on the wheel from the outside, turn it, ring a bell, and walk away unseen. Leonardantonio's parents left him at this wheel. The institution raised him, baptized him, and assigned him the surname "Belfiore" — bel fiore, beautiful flower. This was not a family name passed down through generations — it was a gift from a nun or civic official, following the Italian tradition of giving foundlings surnames inspired by nature, beauty, or virtue. The Belfiore genealogical line cannot be traced further back than Leonardantonio — he is where the name begins. He married Maria Donata Circelli on January 27, 1884, in San Bartolomeo in Galdo. Both were illiterate — they could not sign their own names. The evidence strongly suggests Leonardantonio died in Italy before 1896 — Maria traveled under her maiden name, and no immigration record for him has ever been found. An "Anthony Belfiore" died July 11, 1938, in New Rochelle (cert #42184), but whether this was Leonardantonio or another family member remains unresolved pending the 1900 census. American records shortened his name to "Anthony" or "Antonio."`,
         details: {
             "Real Name": "Leonardantonio Belfiore",
             "Born": "~1860–1861, Province of Benevento, Italy",
@@ -44,7 +44,7 @@ const personData = {
             { label: "WWII Draft Card", url: "images/Michael-Belfiore-WW2-Draft-Card.jpeg" },
             { label: "1940 Census", url: "images/Michael-Belfiore-Census-1940-painter.jpeg" }
         ],
-        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. The 1940 Census confirms his household at this time: Michael (head, age 55, painter), Frances (wife), Edward (son), and Joseph (son). His birth year discrepancy — 1885 on the 1918 draft card vs. 1883 on the 1942 draft card — is typical of the era; self-reported ages on government forms were often inconsistent. His death certificate was the document that started this entire research. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
+        description: `Michael Kirtus Belfiore (Michele Belfiore) was born December 15, 1883 or 1885, in Italy — almost certainly San Bartolomeo in Galdo. His 1918 draft card shows 1885; his 1942 draft card shows 1883. The middle name "Kirtus" is unusual and likely an Americanization of an Italian name. He arrived in America as a child. His addresses trace a life within New Rochelle's Italian West End: 114 Murray Avenue (1918), 48 Coligni Avenue (1942), 46 Mechanic Street (1952, death). He worked as a house painter. He was married twice. His first wife (name unknown) gave him a daughter, Dorothy, who appears on his 1918 draft card at 216 Hamilton Street, Bridgeport, Connecticut. He then married Frances Towey, an Irish-American woman, with whom he had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). He claimed citizenship through "Father's Papers" on the 1918 draft card — implying Leonardantonio may have been naturalized. He was described in Sammy's obituary as "their non-golfing brother." He died January 16, 1952, at New Rochelle Hospital from arteriosclerotic heart disease. The 1940 Census confirms his household at this time: Michael (head, age 55, painter), Frances (wife), Edward (son), and Joseph (son). His birth year discrepancy — 1885 on the 1918 draft card vs. 1883 on the 1942 draft card — is typical of the era; self-reported ages on government forms were often inconsistent. His death certificate was later unearthed during the family's genealogical research, confirming his parents as Anthony Belfiore and Maria Circelli. In one generation, the family went from illiterate farmers to a literate tradesman — Michael signed his draft cards in a clear hand.`,
         details: {
             "Born": "December 15, 1883 or 1885, Italy",
             "Died": "January 16, 1952, New Rochelle Hospital",
@@ -114,19 +114,33 @@ const personData = {
     },
     joseph_golfer: {
         name: "Joseph Belfiore (The Golfer)",
-        subtitle: "Golf Pro at Grosse Pointe, Michigan — NOT Seb's Grandfather",
-        tags: ["Golfing Brother", "Grosse Pointe", "Michigan"],
-        image: "images/belfiore-golf-brothers.jpeg",
+        subtitle: "Head Golf Professional — Country Club of Detroit, Grosse Pointe Farms",
+        tags: ["Golfing Brother", "Country Club of Detroit", "Grosse Pointe", "Michigan PGA President", "2x Michigan PGA Champion", "Author"],
+        image: "images/frank-belfore-michigan-golfcourse.jpg",
         links: [
-            { label: "Full Story", url: "golfing-brothers.html" }
+            { label: "Full Story", url: "golfing-brothers.html" },
+            { label: "CCD Board Minutes", url: "images/frank-belfore-michigan-golfcourse.jpg" },
+            { label: "CCD Meeting Header", url: "images/frank-belfore-michigan-golfcourse2.jpg" },
+            { label: "Michigan PGA Centennial", url: "https://michiganpga.com/news/michigan-pga-centennial-1922-2022-2/" },
+            { label: "Golfing Aids Book (Auction)", url: "https://thegolfauction.com/1940__Golfing_Aids__Signed_By_Author_Joe_Belfore-LOT176227.aspx" },
+            { label: "1927 Met Open (NYT)", url: "https://www.nytimes.com/1927/05/25/archives/golf-stars-begin-met-open-today-hagen-sarazen-and-mehlhorn-among.html" },
+            { label: "Golfdom Jan 1934 (PDF)", url: "https://archive.lib.msu.edu/tic/golfd/article/1934jan9.pdf" }
         ],
-        description: `Joseph Belfiore was the third golfing brother. He became golf professional at Grosse Pointe, Michigan — one of the wealthiest suburbs in America, home to the auto industry executives of Detroit. He served there "for many years" according to Sammy's obituary. Grosse Pointe's proximity to Detroit may explain the connection to the Hupp Motor Car family that Sammy married into. Joseph predeceased Sammy and is listed among the deceased brothers in the obituary (~pre-1971). CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather. Seb's grandfather Joseph was Michael's SON — almost certainly named after this uncle following the classic Italian naming tradition.`,
+        description: `Joseph "Joe" Belfore was far more than just a club pro — he was one of the most accomplished golf professionals in Michigan history. He served as head golf professional and Golf Shop operator at the Country Club of Detroit in Grosse Pointe Farms, Michigan — one of the most prestigious private clubs in America. According to the Michigan PGA's Centennial history (1922–2022), Belfore was "a highly regarded player and teacher at Country Club of Detroit" who served as President of the Michigan PGA Section from 1959 to 1960. He won the Michigan PGA Professional Championship twice, in 1933 and 1937. The Michigan PGA noted that "he also had the business skills to serve in acting management roles at the club when needed." In 1927, Joe competed in the Metropolitan Open alongside legends Walter Hagen, Gene Sarazen, and Bill Mehlhorn — as reported by The New York Times. In 1940, he authored a book titled "Golfing Aids," which he personally signed — copies have appeared at golf memorabilia auctions. He also appeared in Golfdom magazine (January 1934). Joe died in 1963 after a long illness. The Country Club of Detroit's Board of Governors met on October 29, 1963, to discuss replacing him and settling his affairs. The board voted to pay $750 to his wife ("Mrs. Belfore") as a gift to assist with obligations from his long illness, and allowed her to continue running the Golf Shop through the Christmas season until January 2, 1964. Joe's assistant professional was Danny Bianco. The board granted golfing privileges for two years to Joe's two sons — David Belfore and Joseph F. Belfore Jr. (nicknamed "Jeffery") — starting November 1, 1963. The middle initial "F." in Joseph Jr.'s name may stand for "Frank" after Joe's brother, following Italian naming customs. CRITICAL DISTINCTION: This Joseph (the golfer, Michael's brother) is NOT Seb's grandfather.`,
         details: {
             "Born": "Unknown, New Rochelle, NY",
-            "Died": "Before ~1971",
-            "Career": "Golf pro at Grosse Pointe, Michigan",
+            "Died": "1963, after a long illness",
+            "Club": "Country Club of Detroit, Grosse Pointe Farms, MI",
+            "Role": "Head Golf Professional & Golf Shop operator",
+            "Michigan PGA President": "1959–1960",
+            "Michigan PGA Champion": "1933, 1937 (2x winner)",
+            "Author": "Golfing Aids (1940, signed edition)",
+            "1927 Met Open": "Competed alongside Hagen, Sarazen, Mehlhorn",
+            "Wife": "Mrs. Belfore (first name unknown)",
+            "Sons": "David Belfore, Joseph F. 'Jeffery' Belfore Jr.",
+            "Assistant Pro": "Danny Bianco",
             "Note": "Michael's brother — NOT Seb's grandfather",
-            "Detroit Connection": "Grosse Pointe near Detroit — possible link to Hupp Motor Car family"
+            "Source": "CCD Board Minutes (1963), Michigan PGA Centennial, NYT (1927)"
         }
     },
     rose: {
@@ -187,15 +201,15 @@ const personData = {
         name: "Joseph Belfiore",
         subtitle: "Seb's Grandfather — Son of Michael & Frances",
         tags: ["Grandfather", "Direct Line", "West Babylon"],
-        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Belfiore, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. His sons were Robert (Seb's father) and William (Seb's uncle).`,
+        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Hennessey, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. Joseph and Dorothy had four children: Robert (Seb's father), William (Seb's uncle), Karen (later Carpenter), and Beth.`,
         details: {
             "Born": "Unknown (likely 1920s, New Rochelle)",
             "Died": "West Babylon, NY",
             "SSN": "218-30-3629 (Maryland-issued)",
             "Father": "Michael Kirtus Belfiore",
             "Mother": "Frances Towey",
-            "Wife": "Dorothy Belfiore (Irish-American)",
-            "Children": "Robert Belfiore, William Belfiore",
+            "Wife": "Dorothy Hennessey Belfiore (née Hennessey, Irish-American)",
+            "Children": "Robert Belfiore, William Belfiore, Karen Carpenter (née Belfiore), Beth Belfiore",
             "Named After": "Uncle Joseph (the golfer)"
         }
     },
@@ -235,14 +249,15 @@ const personData = {
         }
     },
     dorothy_grandmother: {
-        name: "Dorothy Belfiore",
-        subtitle: "Seb's Grandmother — Joseph's Wife, Irish-American",
-        tags: ["Grandmother", "Direct Line", "Irish-American"],
-        description: `Dorothy Belfiore was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had two sons: Robert (Seb's father) and William.`,
+        name: "Dorothy Hennessey Belfiore",
+        subtitle: "Seb's Grandmother — née Hennessey, Irish-American",
+        tags: ["Grandmother", "Direct Line", "Irish-American", "Hennessey"],
+        description: `Dorothy Hennessey Belfiore (née Hennessey) was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had four children: Robert (Seb's father), William (Seb's uncle), Karen (later Carpenter), and Beth.`,
         details: {
+            "Maiden Name": "Hennessey",
             "Husband": "Joseph Belfiore",
             "Heritage": "Irish-American",
-            "Children": "Robert Belfiore, William Belfiore",
+            "Children": "Robert Belfiore, William Belfiore, Karen Carpenter (née Belfiore), Beth Belfiore",
             "Note": "Different person from Dorothy (Michael's daughter)"
         }
     },
@@ -250,32 +265,36 @@ const personData = {
         name: "Robert Belfiore",
         subtitle: "Seb's Father",
         tags: ["Father", "Direct Line", "New Rochelle"],
-        description: `Robert Belfiore is Seb's father, son of Joseph Belfiore. He was raised in the New Rochelle area. His brother William Belfiore provided the key documents — Michael's death certificate and Sammy's obituary — that started this entire genealogical research.`,
+        description: `Robert Belfiore is Seb's father, son of Joseph Belfiore and Dorothy Hennessey Belfiore. He was raised in the New Rochelle area. His siblings are William, Karen (Carpenter), and Beth.`,
         details: {
             "Father": "Joseph Belfiore",
+            "Mother": "Dorothy Hennessey Belfiore",
             "Children": "Seb Belfiore, Alexander Belfiore",
+            "Siblings": "William Belfiore, Karen Carpenter, Beth Belfiore",
             "Residence": "New Rochelle area"
         }
     },
     william: {
         name: "William Belfiore",
         subtitle: "Seb's Uncle",
-        tags: ["Uncle", "New Rochelle", "Family Records"],
-        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and the brother of Robert (Seb's father). William adopted four children from Romania — Loredana, Ionel, Ramona, and Michaela — and has one US-born son, Aidan. Most importantly, William was the keeper of the family records — he provided Michael's death certificate and Sammy's obituary to the family, the two documents that unlocked this entire research.`,
+        tags: ["Uncle", "New Rochelle"],
+        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and Dorothy Hennessey Belfiore, and the brother of Robert (Seb's father), Karen (Carpenter), and Beth. He married Susan. Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.`,
         details: {
             "Born": "~1950",
             "Father": "Joseph Belfiore",
-            "Children": "Loredana (adopted, Romania), Ionel (adopted, Romania), Ramona (adopted, Romania), Michaela (adopted, Romania), Aidan (US)",
-            "Role": "Provided death certificate & obituary that started the research"
+            "Mother": "Dorothy Hennessey Belfiore",
+            "Wife": "Susan Belfiore",
+            "Children": "Loredana, Dani, Ionel, Ramona, Michaela, Aidan",
+            "Siblings": "Robert Belfiore, Karen Carpenter, Beth Belfiore"
         }
     },
     seb: {
         name: "Seb Belfiore",
         subtitle: "Fifth Generation — Davis Island, Tampa",
         tags: ["You", "5th Generation", "Tampa FL"],
-        description: `Seb Belfiore was born in 1989 in the United Kingdom. He holds dual US/UK citizenship. He is a product designer living on Davis Island, Tampa, FL. He married Valeria (German). He is the great-great-grandson of Anthony and Maria Belfiore — the immigrants from San Bartolomeo in Galdo. Through his father Robert, grandfather Joseph, great-grandfather Michael, and great-great-grandparents Anthony and Maria, the line stretches back five generations to the mountains of Campania. His son Enzo, born January 2026, carries the name into the sixth generation.`,
+        description: `Seb Belfiore was born in 1991 in the United Kingdom. He holds dual US/UK citizenship. He is a product designer living on Davis Island, Tampa, FL. He married Valeria (German). He is the great-great-grandson of Anthony and Maria Belfiore — the immigrants from San Bartolomeo in Galdo. Through his father Robert, grandfather Joseph, great-grandfather Michael, and great-great-grandparents Anthony and Maria, the line stretches back five generations to the mountains of Campania. His son Enzo, born January 2026, carries the name into the sixth generation.`,
         details: {
-            "Born": "1989, United Kingdom",
+            "Born": "1991, United Kingdom",
             "Citizenship": "UK, US (dual)",
             "Residence": "Davis Island, Tampa, FL",
             "Married": "Valeria (German)",
@@ -287,10 +306,23 @@ const personData = {
         name: "Enzo Belfiore",
         subtitle: "Sixth Generation — Born January 2026",
         tags: ["6th Generation", "Tampa FL", "Triple Citizenship"],
-        description: `Enzo Belfiore was born in January 2026 in Tampa, Florida. He holds triple citizenship: US, UK, and German. Named in the Italian tradition, he is the sixth generation from the immigrants Anthony and Maria. His great-great-great-grandparents left a mountain town in southern Italy in the 1890s. Six generations later, the Belfiore name continues on the Gulf Coast of Florida.`,
+        description: `Enzo Belfiore was born in January 2026 in Tampa, Florida. He holds triple citizenship: US, UK, and German. Named in the Italian tradition, he is the sixth generation from the immigrants Anthony and Maria. His great-great-great-grandparents left a mountain town in southern Italy in the 1890s. Six generations later, the Belfiore name continues on the Gulf Coast of Florida. His cousin Violet is the daughter of Alexander and Lauren Belfiore.`,
         details: {
             "Born": "January 2026, Tampa, FL",
             "Citizenship": "US, UK, German (triple)",
+            "Cousin": "Violet Belfiore",
+            "Heritage": "6th generation from the immigrants"
+        }
+    },
+    violet: {
+        name: "Violet Belfiore",
+        subtitle: "Sixth Generation — Alexander & Lauren's Daughter",
+        tags: ["6th Generation", "Enzo's Cousin"],
+        description: `Violet Belfiore is the daughter of Alexander and Lauren Belfiore. She is Enzo's cousin — together they represent the sixth generation of Belfiores from the immigrants Leonardantonio and Maria Donata Circelli.`,
+        details: {
+            "Father": "Alexander Belfiore",
+            "Mother": "Lauren Belfiore",
+            "Cousin": "Enzo Belfiore",
             "Heritage": "6th generation from the immigrants"
         }
     },
@@ -333,6 +365,43 @@ const personData = {
             "Children": "Lisa, Chris, John Jr., Geoff Fleming",
             "Buried": "Cedar Hill Cemetery, Birmingham, MI",
             "Hupp Connection": "Middle name confirms link to Hupp Motor Car Co."
+        }
+    },
+    mrs_belfore: {
+        name: "Mrs. Belfore",
+        subtitle: "Joe Belfore's Wife — Country Club of Detroit",
+        tags: ["Spouse", "Country Club of Detroit", "Grosse Pointe"],
+        description: `Mrs. Belfore (first name unknown) was the wife of Joe Belfore, head golf professional at the Country Club of Detroit. After Joe's death in 1963, she presented a letter of appreciation to the Board of Governors, handled the estate, and ran the Golf Shop. The board voted to pay her $750 as a gift to help settle obligations from Joe's long illness. She was permitted to keep the Golf Shop open through the Christmas season until January 2, 1964. Her two sons, David and Joseph F. "Jeffery" Jr., were granted personal golfing privileges at the club for two years.`,
+        details: {
+            "Husband": "Joe Belfore (d. 1963)",
+            "Sons": "David Belfore, Joseph F. 'Jeffery' Belfore Jr.",
+            "Club": "Country Club of Detroit",
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
+        }
+    },
+    david_belfore: {
+        name: "David Belfore",
+        subtitle: "Son of Joe Belfore — Country Club of Detroit",
+        tags: ["Joe's Son", "Country Club of Detroit", "Grosse Pointe"],
+        description: `David Belfore was one of two sons of Joe Belfore, head golf professional at the Country Club of Detroit. After Joe's death in 1963, the club's Board of Governors granted David personal golfing privileges for two years starting November 1, 1963. He could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to his family.`,
+        details: {
+            "Father": "Joe Belfore",
+            "Mother": "Mrs. Belfore (first name unknown)",
+            "Brother": "Joseph F. 'Jeffery' Belfore Jr.",
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
+        }
+    },
+    joseph_jr_belfore: {
+        name: "Joseph F. \"Jeffery\" Belfore Jr.",
+        subtitle: "Son of Joe Belfore — Country Club of Detroit",
+        tags: ["Joe's Son", "Country Club of Detroit", "Grosse Pointe"],
+        description: `Joseph F. Belfore Jr., nicknamed "Jeffery," was one of two sons of Joe Belfore, head golf professional at the Country Club of Detroit. The middle initial "F." may stand for "Frank" after Joe's brother, following Italian naming customs. After Joe's death in 1963, the club's Board of Governors granted Jeffery personal golfing privileges for two years starting November 1, 1963. He could sign chits and use the Men's Grill and Locker Room, though the privileges were personal and didn't extend to his family.`,
+        details: {
+            "Father": "Joe Belfore",
+            "Mother": "Mrs. Belfore (first name unknown)",
+            "Brother": "David Belfore",
+            "Middle Initial": "F. — possibly 'Frank' after uncle (Italian naming tradition)",
+            "Source": "CCD Board of Governors Minutes, Oct 29, 1963"
         }
     },
     virginia_hupp: {
@@ -438,12 +507,69 @@ const personData = {
     },
     alexander: {
         name: "Alexander Belfiore",
-        subtitle: "Seb's Brother",
+        subtitle: "b. 1989 — Seb's Brother",
         tags: ["Generation 5", "Robert's Son"],
-        description: `Alexander Belfiore is the son of Robert Belfiore and Seb's brother.`,
+        description: `Alexander Belfiore was born in 1989 in the United Kingdom. He is the son of Robert Belfiore and Seb's older brother. He married Lauren Belfiore. They have a daughter, Violet — Enzo's cousin.`,
         details: {
+            "Born": "1989, United Kingdom",
             "Father": "Robert Belfiore",
+            "Wife": "Lauren Belfiore",
+            "Daughter": "Violet Belfiore",
             "Sibling": "Seb Belfiore"
+        }
+    },
+    lauren: {
+        name: "Lauren Belfiore",
+        subtitle: "Alexander's Wife",
+        tags: ["Spouse", "Generation 5"],
+        description: `Lauren Belfiore is the wife of Alexander Belfiore (Seb's brother). They have a daughter, Violet.`,
+        details: {
+            "Husband": "Alexander Belfiore",
+            "Daughter": "Violet Belfiore"
+        }
+    },
+    karen: {
+        name: "Karen Carpenter",
+        subtitle: "née Belfiore — Joseph & Dorothy's Daughter",
+        tags: ["Joseph's Daughter", "Direct Line", "Carpenter"],
+        description: `Karen Carpenter (née Belfiore) is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Beth. She married into the Carpenter family.`,
+        details: {
+            "Maiden Name": "Belfiore",
+            "Married Name": "Carpenter",
+            "Father": "Joseph Belfiore",
+            "Mother": "Dorothy Hennessey Belfiore",
+            "Siblings": "Robert Belfiore, William Belfiore, Beth Belfiore"
+        }
+    },
+    beth: {
+        name: "Beth Belfiore",
+        subtitle: "Joseph & Dorothy's Daughter",
+        tags: ["Joseph's Daughter", "Direct Line"],
+        description: `Beth Belfiore is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Karen (Carpenter).`,
+        details: {
+            "Father": "Joseph Belfiore",
+            "Mother": "Dorothy Hennessey Belfiore",
+            "Siblings": "Robert Belfiore, William Belfiore, Karen Carpenter"
+        }
+    },
+    susan: {
+        name: "Susan Belfiore",
+        subtitle: "William's Wife",
+        tags: ["Spouse", "William's Wife"],
+        description: `Susan Belfiore is the wife of William Belfiore (Seb's uncle). Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.`,
+        details: {
+            "Husband": "William Belfiore",
+            "Children": "Loredana, Dani, Ionel, Ramona, Michaela, Aidan"
+        }
+    },
+    dani: {
+        name: "Dani Belfiore",
+        subtitle: "William & Susan's Child",
+        tags: ["Next Generation", "William's Child"],
+        description: `Dani Belfiore is the child of William and Susan Belfiore.`,
+        details: {
+            "Father": "William Belfiore",
+            "Mother": "Susan Belfiore"
         }
     }
 };
@@ -560,10 +686,44 @@ function showBio(id) {
         ${linksHTML}
     `;
 
-    // On mobile, open sidebar
+    // On mobile, open sidebar drawer
     if (window.innerWidth <= 768 && sidebar) {
-        sidebar.classList.add('open');
+        sidebar.classList.add('has-bio');
+        // Small delay so the display:block takes effect before the transform transition
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                sidebar.classList.add('open');
+            });
+        });
+        const overlay = document.getElementById('sidebarOverlay');
+        if (overlay) overlay.classList.add('active');
     }
+}
+
+// Close mobile sidebar drawer
+function closeMobileSidebar() {
+    if (sidebar) {
+        sidebar.classList.remove('open');
+        const overlay = document.getElementById('sidebarOverlay');
+        if (overlay) overlay.classList.remove('active');
+        // Remove has-bio after transition ends to hide it
+        sidebar.addEventListener('transitionend', function handler() {
+            if (!sidebar.classList.contains('open')) {
+                sidebar.classList.remove('has-bio');
+                document.querySelectorAll('.tree-person').forEach(p => p.classList.remove('active'));
+            }
+            sidebar.removeEventListener('transitionend', handler);
+        });
+    }
+}
+
+const sidebarClose = document.getElementById('sidebarClose');
+if (sidebarClose) {
+    sidebarClose.addEventListener('click', closeMobileSidebar);
+}
+const sidebarOverlay = document.getElementById('sidebarOverlay');
+if (sidebarOverlay) {
+    sidebarOverlay.addEventListener('click', closeMobileSidebar);
 }
 
 document.querySelectorAll('.tree-person').forEach(person => {
