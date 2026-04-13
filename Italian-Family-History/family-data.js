@@ -762,14 +762,41 @@ const FAMILY_DATA = {
         {
             id: 'dani',
             firstName: 'Dani',
-            lastName: 'Belfiore',
+            lastName: 'Cavalieri',
+            aka: 'née Belfiore',
             birthYear: null,
             deathYear: null,
             isLiving: true,
             primaryLocation: 'New Rochelle area',
             confidence: 'verified',
             generation: 5,
-            notes: "Child of William and Susan Belfiore.",
+            notes: "Daughter of William and Susan Belfiore. Married Johnathan Cavalieri. Daughter: Lili.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'johnathan_cavalieri',
+            firstName: 'Johnathan',
+            lastName: 'Cavalieri',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Dani's husband.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'lili_cavalieri',
+            firstName: 'Lili',
+            lastName: 'Cavalieri',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 6,
+            notes: "Daughter of Dani and Johnathan Cavalieri. Granddaughter of William and Susan Belfiore.",
             source: 'Family knowledge'
         },
         {
@@ -977,7 +1004,12 @@ const FAMILY_DATA = {
 
         // Alexander & Lauren -> Violet
         { type: 'parent_child', fromPersonId: 'alexander', toPersonId: 'violet' },
-        { type: 'parent_child', fromPersonId: 'lauren', toPersonId: 'violet' }
+        { type: 'parent_child', fromPersonId: 'lauren', toPersonId: 'violet' },
+
+        // Dani & Johnathan -> Lili
+        { type: 'spouse', fromPersonId: 'dani', toPersonId: 'johnathan_cavalieri' },
+        { type: 'parent_child', fromPersonId: 'dani', toPersonId: 'lili_cavalieri' },
+        { type: 'parent_child', fromPersonId: 'johnathan_cavalieri', toPersonId: 'lili_cavalieri' }
     ]
 };
 

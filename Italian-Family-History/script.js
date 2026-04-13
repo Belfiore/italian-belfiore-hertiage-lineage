@@ -619,13 +619,37 @@ const personData = {
         }
     },
     dani: {
-        name: "Dani Belfiore",
-        subtitle: "William & Susan's Child",
-        tags: ["Next Generation", "William's Child"],
-        description: `Dani Belfiore is the child of William and Susan Belfiore.`,
+        name: "Dani Cavalieri",
+        subtitle: "née Belfiore — William & Susan's Daughter",
+        tags: ["Next Generation", "William's Child", "Cavalieri"],
+        description: `Dani Cavalieri (née Belfiore) is the daughter of William and Susan Belfiore. She married Johnathan Cavalieri. Their daughter is Lili Cavalieri.`,
         details: {
             "Father": "William Belfiore",
-            "Mother": "Susan Belfiore"
+            "Mother": "Susan Belfiore",
+            "Husband": "Johnathan Cavalieri",
+            "Daughter": "Lili Cavalieri"
+        }
+    },
+    johnathan_cavalieri: {
+        name: "Johnathan Cavalieri",
+        subtitle: "Dani's Husband",
+        tags: ["Spouse", "Cavalieri"],
+        description: `Johnathan Cavalieri is the husband of Dani Cavalieri (née Belfiore). Their daughter is Lili.`,
+        details: {
+            "Wife": "Dani Cavalieri (née Belfiore)",
+            "Daughter": "Lili Cavalieri"
+        }
+    },
+    lili_cavalieri: {
+        name: "Lili Cavalieri",
+        subtitle: "Daughter of Dani & Johnathan",
+        tags: ["6th Generation", "Cavalieri"],
+        description: `Lili Cavalieri is the daughter of Dani Cavalieri (née Belfiore) and Johnathan Cavalieri. She is a granddaughter of William and Susan Belfiore, and a sixth-generation descendant of the immigrants Leonardantonio and Maria Donata Circelli.`,
+        details: {
+            "Mother": "Dani Cavalieri (née Belfiore)",
+            "Father": "Johnathan Cavalieri",
+            "Grandparents": "William & Susan Belfiore",
+            "Heritage": "6th generation from the immigrants"
         }
     }
 };
