@@ -601,6 +601,73 @@ const FAMILY_DATA = {
             source: 'Judith Sattelmeier obituary'
         },
 
+        {
+            id: 'beth',
+            firstName: 'Beth',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 4,
+            notes: "Daughter of Joseph and Dorothy Hennessey Belfiore. Sister of Robert, William, and Karen.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'karen',
+            firstName: 'Karen',
+            lastName: 'Carpenter',
+            aka: 'née Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 4,
+            notes: "Daughter of Joseph and Dorothy Hennessey Belfiore. Sister of Robert, William, and Beth. Married Bill Carpenter.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'bill_carpenter',
+            firstName: 'Bill',
+            lastName: 'Carpenter',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 4,
+            notes: "Karen's husband.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'susan',
+            firstName: 'Susan',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'New Rochelle area',
+            confidence: 'verified',
+            generation: 4,
+            notes: "William's wife. Mother of Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'lena',
+            firstName: 'Lena',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: false,
+            primaryLocation: 'New Rochelle, NY',
+            confidence: 'estimated',
+            generation: 2,
+            notes: "Appears in 1940 Census. May be a nickname for one of the known sisters (Caroline or Rose).",
+            source: '1940 Census'
+        },
+
         /* ===== GENERATION 5 ===== */
         {
             id: 'seb',
@@ -629,16 +696,120 @@ const FAMILY_DATA = {
             source: 'Family knowledge'
         },
         {
-            id: 'anthony_william_son',
-            firstName: 'Anthony',
+            id: 'alexander',
+            firstName: 'Alexander',
+            lastName: 'Belfiore',
+            birthYear: 1989,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Seb's brother. Robert's son.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'lauren',
+            firstName: 'Lauren',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Alexander's wife.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'christian_carpenter',
+            firstName: 'Christian',
+            lastName: 'Carpenter',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Son of Karen and Bill Carpenter.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'loredana',
+            firstName: 'Loredana',
             lastName: 'Belfiore',
             birthYear: null,
             deathYear: null,
             isLiving: true,
             primaryLocation: 'New Rochelle area',
-            confidence: 'high',
+            confidence: 'verified',
             generation: 5,
-            notes: "William's son. Named after the patriarch Leonardantonio/Anthony Belfiore.",
+            notes: "Daughter of William and Susan Belfiore.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'dani',
+            firstName: 'Dani',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'New Rochelle area',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Child of William and Susan Belfiore.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'ionel',
+            firstName: 'Ionel',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'New Rochelle area',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Child of William and Susan Belfiore.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'ramona',
+            firstName: 'Ramona',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'New Rochelle area',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Daughter of William and Susan Belfiore.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'michaela',
+            firstName: 'Michaela',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'New Rochelle area',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Daughter of William and Susan Belfiore.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'aidan',
+            firstName: 'Aidan',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'New Rochelle area',
+            confidence: 'verified',
+            generation: 5,
+            notes: "Child of William and Susan Belfiore.",
             source: 'Family knowledge'
         },
 
@@ -654,6 +825,19 @@ const FAMILY_DATA = {
             confidence: 'verified',
             generation: 6,
             notes: "6th generation from the Italian immigrants. Born January 2026 to Seb and Valeria. Triple citizenship: US, UK, German.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'violet',
+            firstName: 'Violet',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'USA',
+            confidence: 'verified',
+            generation: 6,
+            notes: "Daughter of Alexander and Lauren Belfiore. Enzo's cousin.",
             source: 'Family knowledge'
         }
     ],
@@ -674,6 +858,9 @@ const FAMILY_DATA = {
         { type: 'spouse', fromPersonId: 'patricia', toPersonId: 'john_fleming', startYear: 1958, endYear: 1990 },
         { type: 'spouse', fromPersonId: 'david_belfore', toPersonId: 'judith_sattelmeier' },
         { type: 'spouse', fromPersonId: 'seb', toPersonId: 'valeria' },
+        { type: 'spouse', fromPersonId: 'karen', toPersonId: 'bill_carpenter' },
+        { type: 'spouse', fromPersonId: 'william', toPersonId: 'susan' },
+        { type: 'spouse', fromPersonId: 'alexander', toPersonId: 'lauren' },
 
         /* ===== Parent-child relationships ===== */
         // Giuseppe & Marianna -> Maria Donata
@@ -722,11 +909,15 @@ const FAMILY_DATA = {
         { type: 'parent_child', fromPersonId: 'joseph_golfer', toPersonId: 'jeffery' },
         { type: 'parent_child', fromPersonId: 'ruth', toPersonId: 'jeffery' },
 
-        // Joseph (grandfather) & Dorothy Hennessey -> Robert, William
+        // Joseph (grandfather) & Dorothy Hennessey -> Robert, William, Beth, Karen
         { type: 'parent_child', fromPersonId: 'joseph_grandfather', toPersonId: 'robert' },
         { type: 'parent_child', fromPersonId: 'dorothy_hennessey', toPersonId: 'robert' },
         { type: 'parent_child', fromPersonId: 'joseph_grandfather', toPersonId: 'william' },
         { type: 'parent_child', fromPersonId: 'dorothy_hennessey', toPersonId: 'william' },
+        { type: 'parent_child', fromPersonId: 'joseph_grandfather', toPersonId: 'beth' },
+        { type: 'parent_child', fromPersonId: 'dorothy_hennessey', toPersonId: 'beth' },
+        { type: 'parent_child', fromPersonId: 'joseph_grandfather', toPersonId: 'karen' },
+        { type: 'parent_child', fromPersonId: 'dorothy_hennessey', toPersonId: 'karen' },
 
         // Patricia & John -> Fleming kids
         { type: 'parent_child', fromPersonId: 'patricia', toPersonId: 'lisa_fleming' },
@@ -743,15 +934,35 @@ const FAMILY_DATA = {
         { type: 'parent_child', fromPersonId: 'david_belfore', toPersonId: 'gary_belfore' },
         { type: 'parent_child', fromPersonId: 'david_belfore', toPersonId: 'jill_belfore' },
 
-        // Robert -> Seb
+        // Robert -> Seb, Alexander
         { type: 'parent_child', fromPersonId: 'robert', toPersonId: 'seb' },
+        { type: 'parent_child', fromPersonId: 'robert', toPersonId: 'alexander' },
 
-        // William -> Anthony
-        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'anthony_william_son' },
+        // Karen & Bill -> Christian
+        { type: 'parent_child', fromPersonId: 'karen', toPersonId: 'christian_carpenter' },
+        { type: 'parent_child', fromPersonId: 'bill_carpenter', toPersonId: 'christian_carpenter' },
+
+        // William & Susan -> Loredana, Dani, Ionel, Ramona, Michaela, Aidan
+        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'loredana' },
+        { type: 'parent_child', fromPersonId: 'susan', toPersonId: 'loredana' },
+        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'dani' },
+        { type: 'parent_child', fromPersonId: 'susan', toPersonId: 'dani' },
+        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'ionel' },
+        { type: 'parent_child', fromPersonId: 'susan', toPersonId: 'ionel' },
+        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'ramona' },
+        { type: 'parent_child', fromPersonId: 'susan', toPersonId: 'ramona' },
+        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'michaela' },
+        { type: 'parent_child', fromPersonId: 'susan', toPersonId: 'michaela' },
+        { type: 'parent_child', fromPersonId: 'william', toPersonId: 'aidan' },
+        { type: 'parent_child', fromPersonId: 'susan', toPersonId: 'aidan' },
 
         // Seb & Valeria -> Enzo
         { type: 'parent_child', fromPersonId: 'seb', toPersonId: 'enzo' },
-        { type: 'parent_child', fromPersonId: 'valeria', toPersonId: 'enzo' }
+        { type: 'parent_child', fromPersonId: 'valeria', toPersonId: 'enzo' },
+
+        // Alexander & Lauren -> Violet
+        { type: 'parent_child', fromPersonId: 'alexander', toPersonId: 'violet' },
+        { type: 'parent_child', fromPersonId: 'lauren', toPersonId: 'violet' }
     ]
 };
 
