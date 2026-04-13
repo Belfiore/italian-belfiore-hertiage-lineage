@@ -393,7 +393,7 @@ const FAMILY_DATA = {
             primaryLocation: 'Ormond Beach, FL',
             confidence: 'high',
             generation: 3,
-            notes: "Sammy Sr.'s son. Died ~late 2024 / early 2025.",
+            notes: "Sammy Sr.'s son. Half-brother of Patricia (same father, different mother). Lifeguard in 1963. Died ~late 2024 / early 2025.",
             source: 'Sammy Sr.\'s obituary; Volusia County records'
         },
         {
@@ -420,7 +420,7 @@ const FAMILY_DATA = {
             primaryLocation: 'Atlantis, FL',
             confidence: 'verified',
             generation: 3,
-            notes: "Sammy Sr.'s daughter. English & theater teacher. Family story: nearly cast as Bonnie Butler in Gone with the Wind.",
+            notes: "Sammy Sr.'s daughter with Virginia Hupp. Half-sister of Sammy Jr. (same father, different mother). English & theater teacher. Family story: nearly cast as Bonnie Butler in Gone with the Wind.",
             source: 'Obituary (Desmond Funeral Home)'
         },
         {
@@ -489,7 +489,20 @@ const FAMILY_DATA = {
             primaryLocation: 'New Rochelle area',
             confidence: 'verified',
             generation: 4,
-            notes: "Seb's father. Holds UK and US citizenship. Son of Joseph and Dorothy Hennessey Belfiore.",
+            notes: "Seb's father. Holds UK and US citizenship. Son of Joseph and Dorothy Hennessey Belfiore. Married Amanda.",
+            source: 'Family knowledge'
+        },
+        {
+            id: 'amanda',
+            firstName: 'Amanda',
+            lastName: 'Belfiore',
+            birthYear: null,
+            deathYear: null,
+            isLiving: true,
+            primaryLocation: 'UK',
+            confidence: 'verified',
+            generation: 4,
+            notes: "Robert's wife. Mother of Seb and Alexander.",
             source: 'Family knowledge'
         },
         {
@@ -617,15 +630,14 @@ const FAMILY_DATA = {
         {
             id: 'karen',
             firstName: 'Karen',
-            lastName: 'Carpenter',
-            aka: 'née Belfiore',
+            lastName: 'Belfiore',
             birthYear: null,
             deathYear: null,
             isLiving: true,
             primaryLocation: 'USA',
             confidence: 'verified',
             generation: 4,
-            notes: "Daughter of Joseph and Dorothy Hennessey Belfiore. Sister of Robert, William, and Beth. Married Bill Carpenter.",
+            notes: "Daughter of Joseph and Dorothy Hennessey Belfiore. Sister of Robert, William, and Beth.",
             source: 'Family knowledge'
         },
         {
@@ -861,6 +873,7 @@ const FAMILY_DATA = {
         { type: 'spouse', fromPersonId: 'karen', toPersonId: 'bill_carpenter' },
         { type: 'spouse', fromPersonId: 'william', toPersonId: 'susan' },
         { type: 'spouse', fromPersonId: 'alexander', toPersonId: 'lauren' },
+        { type: 'spouse', fromPersonId: 'robert', toPersonId: 'amanda' },
 
         /* ===== Parent-child relationships ===== */
         // Giuseppe & Marianna -> Maria Donata
@@ -897,9 +910,9 @@ const FAMILY_DATA = {
         { type: 'parent_child', fromPersonId: 'michael_kirtus', toPersonId: 'joseph_grandfather' },
         { type: 'parent_child', fromPersonId: 'frances_towey', toPersonId: 'joseph_grandfather' },
 
-        // Sammy & Virginia -> Sammy Jr, Patricia
+        // Sammy -> Sammy Jr (different mother) and Patricia (with Virginia Hupp)
+        // Sammy Jr. and Patricia are half-siblings: same father, different mothers
         { type: 'parent_child', fromPersonId: 'sammy', toPersonId: 'sammy_jr' },
-        { type: 'parent_child', fromPersonId: 'virginia_hupp', toPersonId: 'sammy_jr' },
         { type: 'parent_child', fromPersonId: 'sammy', toPersonId: 'patricia' },
         { type: 'parent_child', fromPersonId: 'virginia_hupp', toPersonId: 'patricia' },
 
@@ -934,9 +947,11 @@ const FAMILY_DATA = {
         { type: 'parent_child', fromPersonId: 'david_belfore', toPersonId: 'gary_belfore' },
         { type: 'parent_child', fromPersonId: 'david_belfore', toPersonId: 'jill_belfore' },
 
-        // Robert -> Seb, Alexander
+        // Robert & Amanda -> Seb, Alexander
         { type: 'parent_child', fromPersonId: 'robert', toPersonId: 'seb' },
+        { type: 'parent_child', fromPersonId: 'amanda', toPersonId: 'seb' },
         { type: 'parent_child', fromPersonId: 'robert', toPersonId: 'alexander' },
+        { type: 'parent_child', fromPersonId: 'amanda', toPersonId: 'alexander' },
 
         // Karen & Bill -> Christian
         { type: 'parent_child', fromPersonId: 'karen', toPersonId: 'christian_carpenter' },

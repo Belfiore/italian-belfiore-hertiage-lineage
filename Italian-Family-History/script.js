@@ -209,7 +209,7 @@ const personData = {
         name: "Joseph Belfiore",
         subtitle: "Seb's Grandfather — Son of Michael & Frances",
         tags: ["Grandfather", "Direct Line", "West Babylon"],
-        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Hennessey, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. Joseph and Dorothy had four children: Robert (Seb's father), William (Seb's uncle), Karen (later Carpenter), and Beth.`,
+        description: `Joseph Belfiore was Seb's grandfather — the son of Michael Kirtus Belfiore and Frances Towey (Michael's second wife). He was almost certainly named after his uncle Joseph (the golfer, Michael's brother), following the classic Italian naming tradition. He married Dorothy Hennessey, an Irish-American woman (not to be confused with Dorothy, Michael's daughter from his first marriage — two different Dorothys in the family). His SSN (218-30-3629) was issued with a Maryland prefix. He died in West Babylon, NY. Joseph and Dorothy had four children: Robert (Seb's father), William (Seb's uncle), Karen, and Beth.`,
         details: {
             "Born": "Unknown (likely 1920s, New Rochelle)",
             "Died": "West Babylon, NY",
@@ -217,7 +217,7 @@ const personData = {
             "Father": "Michael Kirtus Belfiore",
             "Mother": "Frances Towey",
             "Wife": "Dorothy Hennessey Belfiore (née Hennessey, Irish-American)",
-            "Children": "Robert Belfiore, William Belfiore, Karen Carpenter (née Belfiore), Beth Belfiore",
+            "Children": "Robert Belfiore, William Belfiore, Karen Belfiore, Beth Belfiore",
             "Named After": "Uncle Joseph (the golfer)"
         }
     },
@@ -260,12 +260,12 @@ const personData = {
         name: "Dorothy Hennessey Belfiore",
         subtitle: "Seb's Grandmother — née Hennessey, Irish-American",
         tags: ["Grandmother", "Direct Line", "Irish-American", "Hennessey"],
-        description: `Dorothy Hennessey Belfiore (née Hennessey) was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had four children: Robert (Seb's father), William (Seb's uncle), Karen (later Carpenter), and Beth.`,
+        description: `Dorothy Hennessey Belfiore (née Hennessey) was Joseph Belfiore's wife and Seb's grandmother. She was Irish-American. Not to be confused with Dorothy Belfiore, Michael's daughter from his first marriage — two different Dorothys in the family. Dorothy and Joseph had four children: Robert (Seb's father), William (Seb's uncle), Karen, and Beth.`,
         details: {
             "Maiden Name": "Hennessey",
             "Husband": "Joseph Belfiore",
             "Heritage": "Irish-American",
-            "Children": "Robert Belfiore, William Belfiore, Karen Carpenter (née Belfiore), Beth Belfiore",
+            "Children": "Robert Belfiore, William Belfiore, Karen Belfiore, Beth Belfiore",
             "Note": "Different person from Dorothy (Michael's daughter)"
         }
     },
@@ -273,12 +273,13 @@ const personData = {
         name: "Robert Belfiore",
         subtitle: "Seb's Father",
         tags: ["Father", "Direct Line", "New Rochelle"],
-        description: `Robert Belfiore is Seb's father, son of Joseph Belfiore and Dorothy Hennessey Belfiore. He was raised in the New Rochelle area. His siblings are William, Karen (Carpenter), and Beth.`,
+        description: `Robert Belfiore is Seb's father, son of Joseph Belfiore and Dorothy Hennessey Belfiore. He was raised in the New Rochelle area. He married Amanda. His siblings are William, Karen, and Beth.`,
         details: {
             "Father": "Joseph Belfiore",
             "Mother": "Dorothy Hennessey Belfiore",
+            "Wife": "Amanda Belfiore",
             "Children": "Seb Belfiore, Alexander Belfiore",
-            "Siblings": "William Belfiore, Karen Carpenter, Beth Belfiore",
+            "Siblings": "William Belfiore, Karen Belfiore, Beth Belfiore",
             "Residence": "New Rochelle area"
         }
     },
@@ -286,14 +287,14 @@ const personData = {
         name: "William Belfiore",
         subtitle: "Seb's Uncle",
         tags: ["Uncle", "New Rochelle"],
-        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and Dorothy Hennessey Belfiore, and the brother of Robert (Seb's father), Karen (Carpenter), and Beth. He married Susan. Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.`,
+        description: `William Belfiore was born around 1950 — he was "not even 2 years old" when Michael died in January 1952. He is the son of Joseph Belfiore and Dorothy Hennessey Belfiore, and the brother of Robert (Seb's father), Karen, and Beth. He married Susan. Together they have six children: Loredana, Dani, Ionel, Ramona, Michaela, and Aidan.`,
         details: {
             "Born": "~1950",
             "Father": "Joseph Belfiore",
             "Mother": "Dorothy Hennessey Belfiore",
             "Wife": "Susan Belfiore",
             "Children": "Loredana, Dani, Ionel, Ramona, Michaela, Aidan",
-            "Siblings": "Robert Belfiore, Karen Carpenter, Beth Belfiore"
+            "Siblings": "Robert Belfiore, Karen Belfiore, Beth Belfiore"
         }
     },
     seb: {
@@ -360,14 +361,14 @@ const personData = {
         }
     },
     sammy_jr: {
-        name: "Samuel Alexander Belfore Jr.",
-        subtitle: "Son of Sammy — Ormond Beach, Florida",
-        tags: ["Next Generation", "Ormond Beach", "Belfore"],
-        description: `Samuel Alexander Belfore Jr. was the son of Sammy Belfore Sr. and Virginia Hupp. He lived in Ormond Beach, Florida (adjacent to Daytona Beach), near the family's Seabreeze club connections. His middle name "Alexander" is notable. He married Julia Clair Belfore. He died approximately 2024–2025 in Ormond Beach. He carried the changed spelling "Belfore" that his father had adopted.`,
+        name: "Samuel M. Belfore Jr.",
+        subtitle: "Son of Sammy — Half-Brother of Patricia — Ormond Beach, Florida",
+        tags: ["Next Generation", "Ormond Beach", "Belfore", "Half-Sibling"],
+        description: `Samuel M. Belfore Jr. was the son of Sammy Belfore Sr. He and Patricia Hupp Fleming are half-siblings — they share the same father (Sammy) but have different mothers. Patricia's mother was Virginia Hupp. He lived in Ormond Beach, Florida (adjacent to Daytona Beach). In 1963, he appeared in the Volusia County Lifesaving Corps photo working as a lifeguard. He married Julia Clair Belfore. He died approximately 2024–2025 in Ormond Beach. He carried the changed spelling "Belfore" that his father had adopted.`,
         details: {
-            "Full Name": "Samuel Alexander Belfore Jr.",
+            "Full Name": "Samuel M. Belfore Jr.",
             "Father": "Sammy Belfore Sr.",
-            "Mother": "Virginia Hupp",
+            "Half-Sister": "Patricia Hupp Fleming (same father, different mother)",
             "Wife": "Julia Clair Belfore",
             "Residence": "Ormond Beach, FL",
             "Died": "~2024/2025, Ormond Beach, FL"
@@ -375,17 +376,18 @@ const personData = {
     },
     patricia_fleming: {
         name: "Patricia Hupp Fleming",
-        subtitle: "1933–2022 — Sammy's Daughter, Birmingham, Michigan",
-        tags: ["Next Generation", "Michigan", "Hupp Motor Car", "Birmingham"],
-        description: `Patricia Hupp Fleming (née Belfore) was born June 11, 1933, and died January 1, 2022, age 88, in Birmingham, Michigan. She was the daughter of Sammy Belfore Sr. and Virginia Hupp. Her middle name "Hupp" confirms the family connection to the Hupp Motor Car Company of Detroit, which manufactured the Hupmobile automobile from 1909 to 1940. She married John J. Fleming and had four children: Lisa Fleming, Chris Fleming, John Fleming Jr., and Geoff Fleming. She was buried at Cedar Hill Cemetery in Birmingham, Michigan — her Find a Grave memorial provides the key dates. Her father's obituary listed her as "Mrs. Patricia Fleming (Birmingham, Michigan)."`,
+        subtitle: "1933–2022 — Sammy & Virginia's Daughter, Half-Sister of Sammy Jr.",
+        tags: ["Next Generation", "Michigan", "Hupp Motor Car", "Birmingham", "Half-Sibling"],
+        description: `Patricia Hupp Fleming (née Belfore) was born June 11, 1933, and died January 1, 2022, age 88, in Birmingham, Michigan. She was the daughter of Sammy Belfore Sr. and Virginia Hupp. She and Samuel M. Belfore Jr. are half-siblings — they share the same father (Sammy) but have different mothers. Her middle name "Hupp" confirms the family connection to the Hupp Motor Car Company of Detroit, which manufactured the Hupmobile automobile from 1909 to 1940. She married John J. Fleming and had four children: Lisa Fleming, Chris Fleming, John Fleming Jr., and Geoff Fleming. She was buried at Cedar Hill Cemetery in Birmingham, Michigan.`,
         details: {
             "Born": "June 11, 1933",
             "Died": "January 1, 2022, Birmingham, MI (age 88)",
-            "Parents": "Sammy Belfore Sr. & Virginia Hupp",
+            "Father": "Sammy Belfore Sr.",
+            "Mother": "Virginia Hupp",
+            "Half-Brother": "Samuel M. Belfore Jr. (same father, different mother)",
             "Husband": "John J. Fleming",
             "Children": "Lisa, Chris, John Jr., Geoff Fleming",
-            "Buried": "Cedar Hill Cemetery, Birmingham, MI",
-            "Hupp Connection": "Middle name confirms link to Hupp Motor Car Co."
+            "Buried": "Cedar Hill Cemetery, Birmingham, MI"
         }
     },
     mrs_belfore: {
@@ -550,13 +552,11 @@ const personData = {
         }
     },
     karen: {
-        name: "Karen Carpenter",
-        subtitle: "née Belfiore — Joseph & Dorothy's Daughter",
-        tags: ["Joseph's Daughter", "Direct Line", "Carpenter"],
-        description: `Karen Carpenter (née Belfiore) is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Beth. She married Bill Carpenter. Their son is Christian Carpenter.`,
+        name: "Karen Belfiore",
+        subtitle: "Joseph & Dorothy's Daughter",
+        tags: ["Joseph's Daughter", "Direct Line"],
+        description: `Karen Belfiore is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Beth. She married Bill Carpenter. Their son is Christian Carpenter.`,
         details: {
-            "Maiden Name": "Belfiore",
-            "Married Name": "Carpenter",
             "Husband": "Bill Carpenter",
             "Son": "Christian Carpenter",
             "Father": "Joseph Belfiore",
@@ -568,9 +568,9 @@ const personData = {
         name: "Bill Carpenter",
         subtitle: "Karen's Husband",
         tags: ["Carpenter", "Spouse"],
-        description: `Bill Carpenter is the husband of Karen Carpenter (née Belfiore). Karen is the daughter of Joseph and Dorothy Hennessey Belfiore. Bill and Karen have a son, Christian Carpenter.`,
+        description: `Bill Carpenter is the husband of Karen Belfiore. Karen is the daughter of Joseph and Dorothy Hennessey Belfiore. Bill and Karen have a son, Christian Carpenter.`,
         details: {
-            "Wife": "Karen Carpenter (née Belfiore)",
+            "Wife": "Karen Belfiore",
             "Son": "Christian Carpenter",
             "In-Laws": "Joseph & Dorothy Hennessey Belfiore"
         }
@@ -579,23 +579,33 @@ const personData = {
         name: "Christian Carpenter",
         subtitle: "Son of Karen & Bill Carpenter",
         tags: ["5th Generation", "Carpenter"],
-        description: `Christian Carpenter is the son of Karen Carpenter (née Belfiore) and Bill Carpenter. Through his mother Karen, he is a grandson of Joseph and Dorothy Hennessey Belfiore, and a cousin to Seb, Alexander, and William's children. He is the fifth generation from the immigrants Leonardantonio and Maria Donata Circelli.`,
+        description: `Christian Carpenter is the son of Karen Belfiore and Bill Carpenter. Through his mother Karen, he is a grandson of Joseph and Dorothy Hennessey Belfiore, and a cousin to Seb, Alexander, and William's children. He is the fifth generation from the immigrants Leonardantonio and Maria Donata Circelli.`,
         details: {
-            "Mother": "Karen Carpenter (née Belfiore)",
+            "Mother": "Karen Belfiore",
             "Father": "Bill Carpenter",
             "Grandparents": "Joseph & Dorothy Hennessey Belfiore",
             "Heritage": "5th generation from the immigrants"
+        }
+    },
+    amanda: {
+        name: "Amanda Belfiore",
+        subtitle: "Robert's Wife — Seb & Alexander's Mother",
+        tags: ["Spouse", "Mother"],
+        description: `Amanda Belfiore is the wife of Robert Belfiore and the mother of Seb and Alexander Belfiore.`,
+        details: {
+            "Husband": "Robert Belfiore",
+            "Children": "Seb Belfiore, Alexander Belfiore"
         }
     },
     beth: {
         name: "Beth Belfiore",
         subtitle: "Joseph & Dorothy's Daughter",
         tags: ["Joseph's Daughter", "Direct Line"],
-        description: `Beth Belfiore is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Karen (Carpenter).`,
+        description: `Beth Belfiore is the daughter of Joseph Belfiore and Dorothy Hennessey Belfiore. She is a sister to Robert (Seb's father), William, and Karen.`,
         details: {
             "Father": "Joseph Belfiore",
             "Mother": "Dorothy Hennessey Belfiore",
-            "Siblings": "Robert Belfiore, William Belfiore, Karen Carpenter"
+            "Siblings": "Robert Belfiore, William Belfiore, Karen Belfiore"
         }
     },
     susan: {
