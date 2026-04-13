@@ -14,9 +14,9 @@
     const CONFIG = {
         nodeWidth: 180,
         nodeHeight: 92,
-        hSpacing: 26,            // horizontal gap between sibling nodes
-        coupleGap: 14,           // horizontal gap between spouses
-        vSpacing: 170,           // vertical distance between generations
+        hSpacing: 32,            // horizontal gap between sibling nodes
+        coupleGap: 16,           // horizontal gap between spouses
+        vSpacing: 220,           // vertical distance between generations
         minZoom: 0.25,
         maxZoom: 2.5,
         zoomStep: 0.15,
@@ -40,6 +40,7 @@
     const btnFit    = document.getElementById('btnFit');
     const btnCenter = document.getElementById('btnCenter');
     const toolSearch= document.getElementById('toolSearch');
+    const viewpointSelect = document.getElementById('viewpointSelect');
 
     // ---------- State ----------
     const state = {
@@ -47,6 +48,7 @@
         isPanning: false,
         panStart: { x: 0, y: 0, tx: 0, ty: 0 },
         selectedId: null,
+        viewpointId: null,        // "who am I" selection
         nodeEls: new Map(),       // id -> element
         nodePos: new Map(),       // id -> {x, y}
         bounds: { minX: 0, minY: 0, maxX: 0, maxY: 0 },
@@ -80,265 +82,172 @@
         });
     }
 
-    // ---------- Layout algorithm ----------
-    // Strategy:
-    //  1. Bucket people into generation rows.
-    //  2. For each row, build "units" where each unit is either a single person
-    //     or a couple (two spouses rendered side-by-side).
-    //  3. Order units so that children of a couple appear beneath the couple,
-    //     and siblings group together.
-    //  4. Assign x coordinates by walking rows top-down, placing each unit
-    //     under the average x of its children (if children already placed),
-    //     otherwise packing left-to-right.
-    //  5. Run a second pass bottom-up to nudge parent units above their
-    //     children's average to reduce crossings.
-    function layout() {
-        // Bucket by generation
-        const genMap = new Map();
-        state.peopleById.forEach(p => {
-            const g = p.generation ?? 0;
-            if (!genMap.has(g)) genMap.set(g, []);
-            genMap.get(g).push(p);
-        });
-        const gens = Array.from(genMap.keys()).sort((a, b) => a - b);
-        if (!gens.length) return { gens: [], units: new Map(), rowY: new Map() };
+    // ---------- Layout algorithm (recursive subtree) ----------
+    function unitWidth(unit) {
+        return unit.kind === 'couple'
+            ? CONFIG.nodeWidth * 2 + CONFIG.coupleGap
+            : CONFIG.nodeWidth;
+    }
 
-        // Build units per generation
-        const unitsByGen = new Map();
-        const unitOfPerson = new Map();
+    function buildUnits() {
+        const byPerson = new Map();
+        const all = [];
+        const gens = new Set();
+        state.peopleById.forEach(p => gens.add(p.generation ?? 0));
+        const genList = Array.from(gens).sort((a, b) => a - b);
 
-        gens.forEach(g => {
-            const folks = genMap.get(g);
-            const seen = new Set();
-            const units = [];
+        genList.forEach(g => {
+            const folks = Array.from(state.peopleById.values())
+                .filter(p => (p.generation ?? 0) === g)
+                .sort((a, b) => (a.birthYear || 9999) - (b.birthYear || 9999));
+
             folks.forEach(p => {
-                if (seen.has(p.id)) return;
+                if (byPerson.has(p.id)) return;
                 const spouses = (state.spousesById.get(p.id) || [])
                     .map(sid => state.peopleById.get(sid))
-                    .filter(s => s && s.generation === g && !seen.has(s.id));
+                    .filter(s => s && (s.generation ?? 0) === g && !byPerson.has(s.id));
+
+                let primary = null;
                 if (spouses.length) {
-                    // Create couple unit (first spouse only - for couples with multiple marriages,
-                    // secondary spouses become singletons placed nearby)
-                    const primary = spouses[0];
-                    const unit = {
-                        kind: 'couple',
-                        people: [p, primary],
-                        id: `u_${p.id}__${primary.id}`,
-                        generation: g
-                    };
-                    units.push(unit);
-                    seen.add(p.id);
-                    seen.add(primary.id);
-                    unitOfPerson.set(p.id, unit);
-                    unitOfPerson.set(primary.id, unit);
-                    // Extra spouses (e.g., remarriages) become their own singleton units
-                    spouses.slice(1).forEach(extra => {
-                        if (seen.has(extra.id)) return;
-                        const uExtra = {
-                            kind: 'single',
-                            people: [extra],
-                            id: `u_${extra.id}`,
-                            generation: g
-                        };
-                        units.push(uExtra);
-                        seen.add(extra.id);
-                        unitOfPerson.set(extra.id, uExtra);
+                    const kids = state.childrenByParent.get(p.id) || [];
+                    let best = spouses[0], bestN = -1;
+                    spouses.forEach(sp => {
+                        const n = kids.filter(cid =>
+                            (state.parentsByChild.get(cid) || []).includes(sp.id)
+                        ).length;
+                        if (n > bestN) { bestN = n; best = sp; }
                     });
+                    primary = best;
+                }
+
+                if (primary) {
+                    const u = { kind:'couple', people:[p, primary], generation:g,
+                        children:[], parentUnit:null, subtreeWidth:0, x:0, y:0 };
+                    all.push(u); byPerson.set(p.id, u); byPerson.set(primary.id, u);
                 } else {
-                    const unit = {
-                        kind: 'single',
-                        people: [p],
-                        id: `u_${p.id}`,
-                        generation: g
-                    };
-                    units.push(unit);
-                    seen.add(p.id);
-                    unitOfPerson.set(p.id, unit);
+                    const u = { kind:'single', people:[p], generation:g,
+                        children:[], parentUnit:null, subtreeWidth:0, x:0, y:0 };
+                    all.push(u); byPerson.set(p.id, u);
                 }
             });
-            unitsByGen.set(g, units);
         });
+        return { all, byPerson, genList };
+    }
 
-        // Compute unit widths
-        const unitWidth = unit => {
-            if (unit.kind === 'couple') {
-                return CONFIG.nodeWidth * 2 + CONFIG.coupleGap;
+    function linkUnits(all, byPerson) {
+        all.forEach(unit => {
+            const pid0 = unit.people[0].id;
+            const parents = state.parentsByChild.get(pid0) || [];
+            if (!parents.length) return;
+
+            let parentUnit = null;
+            // Prefer a couple unit that contains BOTH parents
+            for (const pu of all) {
+                if (pu.kind !== 'couple') continue;
+                if (parents.every(pp => pu.people.some(x => x.id === pp)))
+                    { parentUnit = pu; break; }
             }
-            return CONFIG.nodeWidth;
-        };
-
-        // Order units so parent's children are grouped under them.
-        // We order the top generation arbitrarily, then for each subsequent
-        // generation, order units by (a) parent-unit order, (b) birth order.
-        gens.forEach((g, idx) => {
-            if (idx === 0) return;
-            const units = unitsByGen.get(g);
-            const parentOrder = new Map();
-            const parentUnits = unitsByGen.get(gens[idx - 1]);
-            parentUnits.forEach((pu, i) => parentOrder.set(pu.id, i));
-
-            units.sort((a, b) => {
-                const getParentUnitIdx = (unit) => {
-                    // Find parent unit of first person in this unit
-                    const parents = state.parentsByChild.get(unit.people[0].id) || [];
-                    for (const pid of parents) {
-                        const pu = unitOfPerson.get(pid);
-                        if (pu && parentOrder.has(pu.id)) return parentOrder.get(pu.id);
+            // Fallback: prefer a unit whose "other" member is also a parent
+            if (!parentUnit) {
+                for (const pp of parents) {
+                    const pu = byPerson.get(pp);
+                    if (!pu) continue;
+                    if (pu.kind === 'couple') {
+                        const other = pu.people.find(x => x.id !== pp);
+                        if (other && !parents.includes(other.id)) continue;
                     }
-                    return 9999;
-                };
-                const pa = getParentUnitIdx(a);
-                const pb = getParentUnitIdx(b);
-                if (pa !== pb) return pa - pb;
-                const ya = a.people[0].birthYear || 9999;
-                const yb = b.people[0].birthYear || 9999;
-                return ya - yb;
-            });
+                    parentUnit = pu; break;
+                }
+            }
+            // Last resort: any parent's unit
+            if (!parentUnit) {
+                for (const pp of parents) {
+                    const pu = byPerson.get(pp);
+                    if (pu) { parentUnit = pu; break; }
+                }
+            }
+            if (parentUnit && parentUnit !== unit) {
+                unit.parentUnit = parentUnit;
+                if (!parentUnit.children.includes(unit))
+                    parentUnit.children.push(unit);
+            }
         });
+    }
 
-        // Assign X positions: simple pack per row, then center parents above children
-        const rowY = new Map();
+    function computeSubtreeWidth(unit) {
+        const ow = unitWidth(unit);
+        if (!unit.children.length) { unit.subtreeWidth = ow; return ow; }
+        unit.children.sort((a, b) =>
+            (a.people[0].birthYear || 9999) - (b.people[0].birthYear || 9999));
+        let cw = 0;
+        unit.children.forEach((c, i) => {
+            cw += computeSubtreeWidth(c);
+            if (i < unit.children.length - 1) cw += CONFIG.hSpacing;
+        });
+        unit.subtreeWidth = Math.max(ow, cw);
+        return unit.subtreeWidth;
+    }
+
+    function placeUnit(unit, leftX, yByGen) {
+        const ow = unitWidth(unit);
+        unit.x = leftX + (unit.subtreeWidth - ow) / 2;
+        unit.y = yByGen.get(unit.generation) || 0;
+
+        if (!unit.children.length) return;
+        let totalCW = 0;
+        unit.children.forEach((c, i) => {
+            totalCW += c.subtreeWidth;
+            if (i < unit.children.length - 1) totalCW += CONFIG.hSpacing;
+        });
+        const parentMid = unit.x + ow / 2;
+        let cx = Math.max(leftX, parentMid - totalCW / 2);
+        if (cx + totalCW > leftX + unit.subtreeWidth)
+            cx = leftX + unit.subtreeWidth - totalCW;
+
+        unit.children.forEach(c => {
+            placeUnit(c, cx, yByGen);
+            cx += c.subtreeWidth + CONFIG.hSpacing;
+        });
+    }
+
+    function layout() {
+        const { all, byPerson, genList } = buildUnits();
+        linkUnits(all, byPerson);
+
+        const yByGen = new Map();
         let y = 0;
-        gens.forEach(g => {
-            rowY.set(g, y);
-            y += CONFIG.vSpacing;
+        genList.forEach(g => { yByGen.set(g, y); y += CONFIG.vSpacing; });
+
+        const roots = all.filter(u => !u.parentUnit)
+            .sort((a, b) => a.generation - b.generation
+                || (a.people[0].birthYear||9999) - (b.people[0].birthYear||9999));
+        roots.forEach(r => computeSubtreeWidth(r));
+
+        let cursor = 0;
+        roots.forEach(r => {
+            placeUnit(r, cursor, yByGen);
+            cursor += r.subtreeWidth + CONFIG.hSpacing * 2;
         });
 
-        // First pass: pack each row left-to-right
-        gens.forEach(g => {
-            const units = unitsByGen.get(g);
-            let cursor = 0;
-            units.forEach(unit => {
-                unit.x = cursor;
-                unit.width = unitWidth(unit);
-                cursor += unit.width + CONFIG.hSpacing;
-            });
-        });
-
-        // Second pass: bottom-up, center parents above children's midpoint
-        for (let i = gens.length - 1; i >= 0; i--) {
-            const g = gens[i];
-            const units = unitsByGen.get(g);
-            units.forEach(unit => {
-                // Collect children of all people in this unit
-                const childIds = new Set();
-                unit.people.forEach(person => {
-                    (state.childrenByParent.get(person.id) || []).forEach(cid => childIds.add(cid));
-                });
-                if (!childIds.size) return;
-                const childUnits = new Set();
-                childIds.forEach(cid => {
-                    const cu = unitOfPerson.get(cid);
-                    if (cu) childUnits.add(cu);
-                });
-                if (!childUnits.size) return;
-                let minX = Infinity, maxX = -Infinity;
-                childUnits.forEach(cu => {
-                    minX = Math.min(minX, cu.x);
-                    maxX = Math.max(maxX, cu.x + cu.width);
-                });
-                const childMid = (minX + maxX) / 2;
-                const desiredX = childMid - unit.width / 2;
-                const delta = desiredX - unit.x;
-                if (Math.abs(delta) < 1) return;
-                // Shift this unit and all units to its right in the same row
-                const idx = units.indexOf(unit);
-                if (delta > 0) {
-                    unit.x += delta;
-                    for (let k = idx + 1; k < units.length; k++) {
-                        const need = units[k - 1].x + units[k - 1].width + CONFIG.hSpacing;
-                        if (units[k].x < need) units[k].x = need;
-                    }
-                }
-                // If delta is negative, only nudge left if it doesn't collide with previous
-                if (delta < 0) {
-                    const minAllowed = idx > 0
-                        ? units[idx - 1].x + units[idx - 1].width + CONFIG.hSpacing
-                        : 0;
-                    unit.x = Math.max(desiredX, minAllowed);
-                }
-            });
-        }
-
-        // Third pass: top-down, re-center parents above children by nudging children rows
-        // (just re-pack children rows under their parent midpoint if parents shifted)
-        for (let i = 0; i < gens.length - 1; i++) {
-            const g = gens[i];
-            const nextG = gens[i + 1];
-            const nextUnits = unitsByGen.get(nextG);
-            // Group child units by parent unit
-            const groups = new Map();
-            nextUnits.forEach(nu => {
-                const parents = state.parentsByChild.get(nu.people[0].id) || [];
-                let parentUnit = null;
-                for (const pid of parents) {
-                    const pu = unitOfPerson.get(pid);
-                    if (pu && pu.generation === g) { parentUnit = pu; break; }
-                }
-                const key = parentUnit ? parentUnit.id : `orphan_${nu.id}`;
-                if (!groups.has(key)) groups.set(key, { parent: parentUnit, children: [] });
-                groups.get(key).children.push(nu);
-            });
-            // Re-pack row using groups in order, centering each group under its parent
-            let cursor = 0;
-            groups.forEach(({ parent, children }) => {
-                let totalW = 0;
-                children.forEach((c, i) => {
-                    totalW += c.width;
-                    if (i < children.length - 1) totalW += CONFIG.hSpacing;
-                });
-                let start;
-                if (parent) {
-                    const parentMid = parent.x + parent.width / 2;
-                    start = parentMid - totalW / 2;
-                    if (start < cursor) start = cursor;
-                } else {
-                    start = cursor;
-                }
-                children.forEach(c => {
-                    c.x = start;
-                    start += c.width + CONFIG.hSpacing;
-                });
-                cursor = start;
-            });
-        }
-
-        // Convert unit positions to individual person positions
         state.nodePos.clear();
-        let globalMinX = Infinity;
-        let globalMaxX = -Infinity;
-        gens.forEach(g => {
-            const units = unitsByGen.get(g);
-            const yRow = rowY.get(g);
-            units.forEach(unit => {
-                if (unit.kind === 'couple') {
-                    state.nodePos.set(unit.people[0].id, { x: unit.x, y: yRow });
-                    state.nodePos.set(unit.people[1].id, {
-                        x: unit.x + CONFIG.nodeWidth + CONFIG.coupleGap,
-                        y: yRow
-                    });
-                } else {
-                    state.nodePos.set(unit.people[0].id, { x: unit.x, y: yRow });
-                }
-                globalMinX = Math.min(globalMinX, unit.x);
-                globalMaxX = Math.max(globalMaxX, unit.x + unit.width);
-            });
+        let minX = Infinity, maxX = -Infinity;
+        all.forEach(unit => {
+            if (unit.kind === 'couple') {
+                state.nodePos.set(unit.people[0].id, { x: unit.x, y: unit.y });
+                state.nodePos.set(unit.people[1].id, {
+                    x: unit.x + CONFIG.nodeWidth + CONFIG.coupleGap, y: unit.y });
+            } else {
+                state.nodePos.set(unit.people[0].id, { x: unit.x, y: unit.y });
+            }
+            minX = Math.min(minX, unit.x);
+            maxX = Math.max(maxX, unit.x + unitWidth(unit));
         });
-
-        // Normalize so minX = 0
-        if (globalMinX !== Infinity && globalMinX !== 0) {
-            state.nodePos.forEach(pos => { pos.x -= globalMinX; });
-            globalMaxX -= globalMinX;
+        if (minX !== Infinity && minX !== 0) {
+            state.nodePos.forEach(pos => { pos.x -= minX; });
+            maxX -= minX;
         }
-
-        state.bounds = {
-            minX: 0,
-            minY: 0,
-            maxX: globalMaxX,
-            maxY: y
-        };
-
-        return { gens, unitsByGen, rowY };
+        state.bounds = { minX: 0, minY: 0, maxX: maxX, maxY: y };
+        return { gens: genList, yByGen };
     }
 
     // ---------- Render nodes ----------
@@ -350,10 +259,8 @@
             if (!pos) return;
             const el = document.createElement('div');
             el.className = 'node';
-            if (person.id === (window.FAMILY_DATA && window.FAMILY_DATA.rootPersonId)
-                || person.id === FAMILY_DATA.rootPersonId) {
-                el.classList.add('is-root');
-            }
+            if (person.id === FAMILY_DATA.rootPersonId) el.classList.add('is-root');
+            if (person.id === state.viewpointId) el.classList.add('is-viewpoint');
             el.dataset.personId = person.id;
             el.style.left = pos.x + 'px';
             el.style.top = pos.y + 'px';
@@ -738,10 +645,30 @@
             `<li><button data-person-link="${x.id}">${escapeHtml(x.firstName || '')} ${escapeHtml(x.lastName || '')}</button></li>`
         ).join('');
 
+        // Relationship to viewpoint
+        let relHtml = '';
+        if (state.viewpointId && state.viewpointId !== id) {
+            const rel = getRelationship(state.viewpointId, id);
+            const vp = state.peopleById.get(state.viewpointId);
+            const vpName = vp ? vp.firstName : 'you';
+            relHtml = `
+                <div class="detail-relationship">
+                    <div class="detail-relationship-label">Relationship to ${escapeHtml(vpName)}</div>
+                    <div class="detail-relationship-value">${escapeHtml(rel)}</div>
+                </div>`;
+        } else if (state.viewpointId === id) {
+            relHtml = `
+                <div class="detail-relationship">
+                    <div class="detail-relationship-label">Viewpoint</div>
+                    <div class="detail-relationship-value">This is you</div>
+                </div>`;
+        }
+
         detailBody.innerHTML = `
             <div class="detail-person">
                 <h2>${escapeHtml(p.firstName || '')} ${escapeHtml(p.lastName || '')}</h2>
                 ${p.aka ? `<div class="detail-aka">${escapeHtml(p.aka)}</div>` : ''}
+                ${relHtml}
 
                 <div class="detail-section">
                     <dl>
@@ -796,6 +723,98 @@
         });
     }
 
+    // ---------- Relationship calculator ----------
+    function getAncestorMap(id) {
+        const map = new Map();
+        map.set(id, 0);
+        const queue = [[id, 0]];
+        while (queue.length) {
+            const [curr, dist] = queue.shift();
+            (state.parentsByChild.get(curr) || []).forEach(pid => {
+                if (!map.has(pid)) { map.set(pid, dist + 1); queue.push([pid, dist + 1]); }
+            });
+        }
+        return map;
+    }
+
+    function findBloodLink(fromId, toId) {
+        const fa = getAncestorMap(fromId);
+        const ta = getAncestorMap(toId);
+        let bestM = Infinity, bestN = Infinity, bestSum = Infinity;
+        fa.forEach((m, aid) => {
+            if (ta.has(aid)) {
+                const n = ta.get(aid);
+                if (m + n < bestSum) { bestSum = m + n; bestM = m; bestN = n; }
+            }
+        });
+        return bestSum < Infinity ? { m: bestM, n: bestN } : null;
+    }
+
+    function labelRelation(m, n) {
+        if (m === 0 && n === 0) return 'yourself';
+        if (m === 0) return descendantLabel(n);
+        if (n === 0) return ancestorLabel(m);
+        if (m === 1 && n === 1) return 'sibling';
+        if (n === 1) return auntUncleLabel(m - 1);
+        if (m === 1) return nieceNephewLabel(n - 1);
+        const deg = Math.min(m, n) - 1;
+        const rem = Math.abs(m - n);
+        return cousinLabel(deg, rem);
+    }
+
+    function ancestorLabel(n) {
+        if (n === 1) return 'parent';
+        if (n === 2) return 'grandparent';
+        if (n === 3) return 'great-grandparent';
+        return (n - 2) + 'x great-grandparent';
+    }
+    function descendantLabel(n) {
+        if (n === 1) return 'child';
+        if (n === 2) return 'grandchild';
+        if (n === 3) return 'great-grandchild';
+        return (n - 2) + 'x great-grandchild';
+    }
+    function auntUncleLabel(g) {
+        if (g === 1) return 'aunt / uncle';
+        if (g === 2) return 'great-aunt / uncle';
+        return (g - 1) + 'x great-aunt / uncle';
+    }
+    function nieceNephewLabel(g) {
+        if (g === 1) return 'niece / nephew';
+        if (g === 2) return 'grand-niece / nephew';
+        return (g - 1) + 'x great-niece / nephew';
+    }
+    function cousinLabel(deg, rem) {
+        const ord = n => {
+            const s = ['th','st','nd','rd'];
+            const v = n % 100;
+            return n + (s[(v - 20) % 10] || s[v] || s[0]);
+        };
+        let lbl = ord(deg) + ' cousin';
+        if (rem === 1) lbl += ' once removed';
+        else if (rem === 2) lbl += ' twice removed';
+        else if (rem > 2) lbl += ' ' + rem + 'x removed';
+        return lbl;
+    }
+
+    function getRelationship(fromId, toId) {
+        if (fromId === toId) return 'yourself';
+        if ((state.spousesById.get(fromId) || []).includes(toId)) return 'spouse';
+        const blood = findBloodLink(fromId, toId);
+        if (blood) return labelRelation(blood.m, blood.n);
+        // In-law: check via fromId's spouse
+        for (const sp of (state.spousesById.get(fromId) || [])) {
+            const r = findBloodLink(sp, toId);
+            if (r) return labelRelation(r.m, r.n) + ' (in-law)';
+        }
+        // In-law: check via toId's spouse
+        for (const sp of (state.spousesById.get(toId) || [])) {
+            const r = findBloodLink(fromId, sp);
+            if (r) return labelRelation(r.m, r.n) + "'s spouse";
+        }
+        return 'distant relative';
+    }
+
     // ---------- Utils ----------
     function escapeHtml(str) {
         if (str == null) return '';
@@ -807,22 +826,58 @@
             .replace(/'/g, '&#39;');
     }
 
+    // ---------- Viewpoint setup ----------
+    function setupViewpoint() {
+        if (!viewpointSelect) return;
+        const sorted = Array.from(state.peopleById.values())
+            .sort((a, b) => (a.generation ?? 0) - (b.generation ?? 0)
+                || (a.firstName || '').localeCompare(b.firstName || ''));
+        sorted.forEach(p => {
+            const opt = document.createElement('option');
+            opt.value = p.id;
+            opt.textContent = (p.firstName || '') + ' ' + (p.lastName || '');
+            viewpointSelect.appendChild(opt);
+        });
+        // Restore from localStorage or default to root
+        const saved = localStorage.getItem('ft_viewpoint');
+        if (saved && state.peopleById.has(saved)) {
+            state.viewpointId = saved;
+            viewpointSelect.value = saved;
+        } else if (FAMILY_DATA.rootPersonId) {
+            state.viewpointId = FAMILY_DATA.rootPersonId;
+            viewpointSelect.value = FAMILY_DATA.rootPersonId;
+        }
+        applyViewpoint();
+
+        viewpointSelect.addEventListener('change', () => {
+            state.viewpointId = viewpointSelect.value || null;
+            if (state.viewpointId) localStorage.setItem('ft_viewpoint', state.viewpointId);
+            applyViewpoint();
+            if (state.selectedId) renderDetail(state.selectedId);
+        });
+    }
+
+    function applyViewpoint() {
+        state.nodeEls.forEach((el, pid) => {
+            el.classList.toggle('is-viewpoint', pid === state.viewpointId);
+        });
+    }
+
     // ---------- Init ----------
     function init() {
         if (typeof FAMILY_DATA === 'undefined' || !FAMILY_DATA.people.length) {
-            emptyEl.hidden = false;
+            emptyEl.classList.add('is-visible');
             return;
         }
         indexData(FAMILY_DATA);
         const layoutResult = layout();
         renderNodes();
         renderLines();
-        renderGenRail(layoutResult.gens, layoutResult.rowY);
+        renderGenRail(layoutResult.gens, layoutResult.yByGen);
         attachInteractions();
-        // Initial fit
+        setupViewpoint();
         requestAnimationFrame(() => {
             fitToView(false);
-            // If a root exists, select it to show the detail panel on first load
             if (FAMILY_DATA.rootPersonId && window.innerWidth > 900) {
                 selectPerson(FAMILY_DATA.rootPersonId);
             }

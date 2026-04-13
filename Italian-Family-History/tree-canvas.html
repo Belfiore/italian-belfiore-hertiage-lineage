@@ -44,7 +44,7 @@
         </div>
 
         <!-- Empty state (hidden when data exists) -->
-        <div class="canvas-empty" id="canvasEmpty" hidden>
+        <div class="canvas-empty" id="canvasEmpty">
             <div class="empty-inner">
                 <div class="empty-icon">&#9904;</div>
                 <h2>Your family tree begins here</h2>
@@ -74,7 +74,13 @@
         <div class="canvas-header">
             <div class="canvas-title">
                 <h1>Interactive Family Tree</h1>
-                <p>Drag to pan &middot; scroll to zoom &middot; click a person to read their story</p>
+                <p class="canvas-hint">Drag to pan &middot; scroll to zoom &middot; click a person to see how they relate to you</p>
+                <div class="viewpoint-row">
+                    <label for="viewpointSelect" class="viewpoint-label">I am</label>
+                    <select id="viewpointSelect" class="viewpoint-select">
+                        <option value="">— choose who you are —</option>
+                    </select>
+                </div>
             </div>
             <div class="canvas-legend">
                 <span class="legend-item"><span class="legend-dot legend-dot--verified"></span>Verified</span>
