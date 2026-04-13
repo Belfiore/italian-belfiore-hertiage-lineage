@@ -23,24 +23,31 @@
         fitPadding: 80
     };
 
-    // ---------- DOM refs ----------
-    const stage     = document.getElementById('canvasStage');
-    const viewport  = document.getElementById('canvasViewport');
-    const world     = document.getElementById('canvasWorld');
-    const svg       = document.getElementById('canvasSvg');
-    const nodesLayer= document.getElementById('canvasNodes');
-    const emptyEl   = document.getElementById('canvasEmpty');
-    const genRail   = document.getElementById('genRail');
-    const detailBody= document.getElementById('detailBody');
-    const detailPanel = document.getElementById('detailPanel');
-    const detailClose = document.getElementById('detailClose');
-    const btnZoomIn = document.getElementById('btnZoomIn');
-    const btnZoomOut= document.getElementById('btnZoomOut');
-    const btnZoomLevel = document.getElementById('btnZoomLevel');
-    const btnFit    = document.getElementById('btnFit');
-    const btnCenter = document.getElementById('btnCenter');
-    const toolSearch= document.getElementById('toolSearch');
-    const viewpointSelect = document.getElementById('viewpointSelect');
+    // ---------- DOM refs (populated in init) ----------
+    let stage, viewport, world, svg, nodesLayer, emptyEl, genRail,
+        detailBody, detailPanel, detailClose,
+        btnZoomIn, btnZoomOut, btnZoomLevel, btnFit, btnCenter,
+        toolSearch, viewpointSelect;
+
+    function captureDOM() {
+        stage       = document.getElementById('canvasStage');
+        viewport    = document.getElementById('canvasViewport');
+        world       = document.getElementById('canvasWorld');
+        svg         = document.getElementById('canvasSvg');
+        nodesLayer  = document.getElementById('canvasNodes');
+        emptyEl     = document.getElementById('canvasEmpty');
+        genRail     = document.getElementById('genRail');
+        detailBody  = document.getElementById('detailBody');
+        detailPanel = document.getElementById('detailPanel');
+        detailClose = document.getElementById('detailClose');
+        btnZoomIn   = document.getElementById('btnZoomIn');
+        btnZoomOut  = document.getElementById('btnZoomOut');
+        btnZoomLevel= document.getElementById('btnZoomLevel');
+        btnFit      = document.getElementById('btnFit');
+        btnCenter   = document.getElementById('btnCenter');
+        toolSearch  = document.getElementById('toolSearch');
+        viewpointSelect = document.getElementById('viewpointSelect');
+    }
 
     // ---------- State ----------
     const state = {
@@ -136,8 +143,12 @@
 
     function linkUnits(all, byPerson) {
         all.forEach(unit => {
-            const pid0 = unit.people[0].id;
-            const parents = state.parentsByChild.get(pid0) || [];
+            // Check ALL people in this unit for parents (not just people[0])
+            let parents = [];
+            for (const person of unit.people) {
+                const p = state.parentsByChild.get(person.id) || [];
+                if (p.length) { parents = p; break; }
+            }
             if (!parents.length) return;
 
             let parentUnit = null;
@@ -865,10 +876,12 @@
 
     // ---------- Init ----------
     function init() {
+        captureDOM();
         if (typeof FAMILY_DATA === 'undefined' || !FAMILY_DATA.people.length) {
-            emptyEl.classList.add('is-visible');
+            if (emptyEl) emptyEl.classList.add('is-visible');
             return;
         }
+        if (emptyEl) emptyEl.style.display = 'none';
         indexData(FAMILY_DATA);
         const layoutResult = layout();
         renderNodes();
