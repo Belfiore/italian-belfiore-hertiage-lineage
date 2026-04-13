@@ -136,8 +136,12 @@
 
     function linkUnits(all, byPerson) {
         all.forEach(unit => {
-            const pid0 = unit.people[0].id;
-            const parents = state.parentsByChild.get(pid0) || [];
+            // Check ALL people in this unit for parents (not just people[0])
+            let parents = [];
+            for (const person of unit.people) {
+                const p = state.parentsByChild.get(person.id) || [];
+                if (p.length) { parents = p; break; }
+            }
             if (!parents.length) return;
 
             let parentUnit = null;
@@ -869,6 +873,7 @@
             emptyEl.classList.add('is-visible');
             return;
         }
+        emptyEl.style.display = 'none';
         indexData(FAMILY_DATA);
         const layoutResult = layout();
         renderNodes();
