@@ -145,14 +145,14 @@ const FAMILY_DATA = {
             lastName: 'Belfore',
             aka: 'Samuel Belfiore Sr.',
             birthYear: 1899,
-            deathYear: 1971,
-            deathYearApprox: true,
+            deathYear: 1972,
+            deathYearApprox: false,
             isLiving: false,
             primaryLocation: 'Daytona Beach, FL',
             confidence: 'verified',
             generation: 2,
-            notes: "Born Christmas Day 1899. PGA professional. Pro-manager at Seabreeze Golf & Tennis Club. One PGA Tour win (1930). Coached blind golfer Clinton Russell.",
-            source: 'New Rochelle Standard Star obituary; PGA Tour profile'
+            notes: "Born Christmas Day 1899. Head pro at The Greenbrier. Beat Walter Hagen 1922. Replaced by Sam Snead. PGA Tour winner. Arranged Hogan/Snead/Demaret/Nelson exhibition (1946). Ran the 19th Hole bar. Died age 73, Halifax Hospital.",
+            source: '18 Daytona Beach News-Journal clippings; Standard-Star obituary; PGA profile'
         },
         {
             id: 'virginia_hupp',
@@ -194,8 +194,8 @@ const FAMILY_DATA = {
             primaryLocation: 'Grosse Pointe, MI',
             confidence: 'verified',
             generation: 2,
-            notes: "Head pro at Country Club of Detroit. Michigan PGA Champion (1933, 1937). Michigan PGA President (1959-60). Authored 'Golfing Aids' (1940). NOT Seb's grandfather.",
-            source: 'Michigan PGA Centennial; CCD Board Minutes (1963); NYT 1927'
+            notes: "Worked alongside Sammy at Daytona Highlands (1929) before moving to Michigan. Head pro at Country Club of Detroit. Michigan PGA Champion (1933, 1937). Michigan PGA President (1959-60). Authored 'Golfing Aids' (1940). NOT Seb's grandfather.",
+            source: 'Michigan PGA Centennial; CCD Board Minutes (1963); NYT 1927; Daytona Beach News-Journal Jan 1929'
         },
         {
             id: 'ruth',
