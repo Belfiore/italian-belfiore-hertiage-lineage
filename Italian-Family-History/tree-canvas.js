@@ -323,7 +323,7 @@
         svg.setAttribute('width', bounds.maxX + 200);
         svg.setAttribute('height', bounds.maxY + 200);
 
-        // Spouse connectors (horizontal line between couple centers)
+        // Spouse connectors — double line with ring symbol and "married" label
         const drawnSpouses = new Set();
         state.spousesById.forEach((list, id) => {
             list.forEach(otherId => {
@@ -333,17 +333,37 @@
                 const a = state.nodePos.get(id);
                 const b = state.nodePos.get(otherId);
                 if (!a || !b) return;
-                if (Math.abs(a.y - b.y) > 1) return; // only same-row spouses
+                if (Math.abs(a.y - b.y) > 1) return;
                 const y = a.y + CONFIG.nodeHeight / 2;
                 const x1 = Math.min(a.x, b.x) + CONFIG.nodeWidth;
                 const x2 = Math.max(a.x, b.x);
-                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-                line.setAttribute('class', 'line-spouse');
-                line.setAttribute('x1', x1);
-                line.setAttribute('x2', x2);
-                line.setAttribute('y1', y);
-                line.setAttribute('y2', y);
-                svg.appendChild(line);
+                const mid = (x1 + x2) / 2;
+                // Double line (top)
+                const l1 = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                l1.setAttribute('class', 'line-spouse');
+                l1.setAttribute('x1', x1); l1.setAttribute('x2', x2);
+                l1.setAttribute('y1', y - 2); l1.setAttribute('y2', y - 2);
+                svg.appendChild(l1);
+                // Double line (bottom)
+                const l2 = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                l2.setAttribute('class', 'line-spouse');
+                l2.setAttribute('x1', x1); l2.setAttribute('x2', x2);
+                l2.setAttribute('y1', y + 2); l2.setAttribute('y2', y + 2);
+                svg.appendChild(l2);
+                // Ring circle at midpoint
+                const ring = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                ring.setAttribute('cx', mid); ring.setAttribute('cy', y);
+                ring.setAttribute('r', 5);
+                ring.setAttribute('fill', '#fdfaf2');
+                ring.setAttribute('stroke', '#8b2020');
+                ring.setAttribute('stroke-width', '1.8');
+                svg.appendChild(ring);
+                // Inner dot
+                const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                dot.setAttribute('cx', mid); dot.setAttribute('cy', y);
+                dot.setAttribute('r', 1.5);
+                dot.setAttribute('fill', '#8b2020');
+                svg.appendChild(dot);
             });
         });
 
