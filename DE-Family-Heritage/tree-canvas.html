@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Family Tree Canvas — Belfiore &amp; Circelli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tree-canvas.css?v=4">
+</head>
+<body class="canvas-body">
+
+<nav class="main-nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">Belfiore &amp; Circelli</a>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="family-tree.html">Family Tree</a>
+            <a href="tree-canvas.html" class="active">Interactive Canvas</a>
+            <a href="immigration.html">The Immigration</a>
+            <a href="golfing-brothers.html">The Golfing Brothers</a>
+            <a href="research.html">Research</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<main class="canvas-page">
+
+    <!-- ===== CANVAS STAGE ===== -->
+    <div class="canvas-stage" id="canvasStage">
+
+        <!-- Generation labels along left edge -->
+        <div class="gen-rail" id="genRail" aria-hidden="true"></div>
+
+        <!-- The infinite canvas viewport -->
+        <div class="canvas-viewport" id="canvasViewport">
+            <div class="canvas-world" id="canvasWorld">
+                <svg class="canvas-svg" id="canvasSvg" xmlns="http://www.w3.org/2000/svg"></svg>
+                <div class="canvas-nodes" id="canvasNodes"></div>
+            </div>
+        </div>
+
+        <!-- Empty state (hidden when data exists) -->
+        <div class="canvas-empty" id="canvasEmpty">
+            <div class="empty-inner">
+                <div class="empty-icon">&#9904;</div>
+                <h2>Your family tree begins here</h2>
+                <p>No ancestors discovered yet. The tree grows as research uncovers new records and relationships.</p>
+            </div>
+        </div>
+
+        <!-- ===== TOOLBAR ===== -->
+        <div class="canvas-toolbar" id="canvasToolbar">
+            <div class="toolbar-group">
+                <button class="tool-btn" id="btnZoomOut" title="Zoom out" aria-label="Zoom out">&minus;</button>
+                <button class="tool-btn tool-btn--zoom" id="btnZoomLevel" title="Reset zoom" aria-label="Zoom level">100%</button>
+                <button class="tool-btn" id="btnZoomIn" title="Zoom in" aria-label="Zoom in">+</button>
+            </div>
+            <div class="toolbar-divider"></div>
+            <div class="toolbar-group">
+                <button class="tool-btn" id="btnFit" title="Fit tree to view">Fit</button>
+                <button class="tool-btn" id="btnCenter" title="Center on root">Center</button>
+            </div>
+            <div class="toolbar-divider"></div>
+            <div class="toolbar-group">
+                <input type="search" class="tool-search" id="toolSearch" placeholder="Search family&hellip;" aria-label="Search family members">
+            </div>
+        </div>
+
+        <!-- ===== CANVAS HEADER / LEGEND ===== -->
+        <div class="canvas-header">
+            <div class="canvas-title">
+                <h1>Interactive Family Tree</h1>
+                <p class="canvas-hint">Drag to pan &middot; scroll to zoom &middot; click a person to see how they relate to you</p>
+                <div class="viewpoint-row">
+                    <label for="viewpointSelect" class="viewpoint-label">I am</label>
+                    <select id="viewpointSelect" class="viewpoint-select">
+                        <option value="">— choose who you are —</option>
+                    </select>
+                </div>
+            </div>
+            <div class="canvas-legend">
+                <span class="legend-item"><span class="legend-dot legend-dot--verified"></span>Verified</span>
+                <span class="legend-item"><span class="legend-dot legend-dot--high"></span>High confidence</span>
+                <span class="legend-item"><span class="legend-dot legend-dot--estimated"></span>Estimated</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== DETAIL PANEL ===== -->
+    <aside class="detail-panel" id="detailPanel" aria-live="polite">
+        <button class="detail-close" id="detailClose" aria-label="Close detail panel">&times;</button>
+        <div class="detail-body" id="detailBody">
+            <div class="detail-placeholder">
+                <h3>Select a person</h3>
+                <p>Click any card on the canvas to read their biography, see their relationships, and explore the records that document their life.</p>
+            </div>
+        </div>
+    </aside>
+
+</main>
+
+<script src="family-data.js?v=4"></script>
+<script src="tree-canvas.js?v=4"></script>
+<script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    if (navToggle && navLinks) {
+        navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    }
+</script>
+</body>
+</html>

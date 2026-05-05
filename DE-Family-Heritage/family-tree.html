@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree — Belfiore &amp; Circelli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="main-nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">Belfiore &amp; Circelli</a>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="family-tree.html" class="active">Family Tree</a>
+            <a href="tree-canvas.html">Interactive Canvas</a>
+            <a href="immigration.html">The Immigration</a>
+            <a href="golfing-brothers.html">The Golfing Brothers</a>
+            <a href="research.html">Research &amp; Records</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<div class="tree-page">
+
+    <!-- LEFT: SCROLLABLE TREE -->
+    <div class="tree-main">
+
+        <div class="tree-header">
+            <h1>The Belfiore &amp; Circelli Family Tree</h1>
+            <p>Six generations from San Bartolomeo in Galdo to Tampa, Florida. Click on any person to read their story.</p>
+        </div>
+
+        <!-- FILTER BUTTONS -->
+        <div class="tree-filter">
+            <button class="tree-btn active" data-view="full">All Family</button>
+            <button class="tree-btn" data-view="direct">Direct Line</button>
+            <button class="tree-btn" data-view="brothers">The Brothers</button>
+            <button class="tree-btn" data-view="sisters">The Sisters</button>
+        </div>
+
+        <!-- ===== GENERATION 1: THE IMMIGRANTS ===== -->
+        <div class="tree-generation">
+            <div class="gen-label">Generation 1 &mdash; The Immigrants</div>
+            <div class="gen-subtitle">San Bartolomeo in Galdo, Benevento, Campania &rarr; New Rochelle, NY</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="anthony" data-side="direct" data-type="immigrant">
+                        <div class="person-avatar">L</div>
+                        <div class="person-info">
+                            <h4>Leonardantonio Belfiore</h4>
+                            <span class="person-subtitle">Foundling &mdash; The Patriarch</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married 1884</span>
+                    <div class="tree-person" data-id="maria" data-side="direct" data-type="immigrant">
+                        <div class="person-avatar female">M</div>
+                        <div class="person-info">
+                            <h4>Maria Donata Circelli</h4>
+                            <span class="person-subtitle">SS Oregon, Dec 2, 1896</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gen-connector">&#9661;</div>
+
+        <!-- ===== GENERATION 2: THE NINE CHILDREN ===== -->
+        <div class="tree-generation">
+            <div class="gen-label">Generation 2 &mdash; The Nine Children of Leonardantonio &amp; Maria</div>
+            <div class="gen-subtitle">Born 1883&ndash;~1905, New Rochelle, NY (Michael born in Italy)</div>
+
+            <!-- THE FOUR BROTHERS -->
+            <div class="siblings-label">The Four Brothers</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="michael" data-side="direct" data-type="direct">
+                    <div class="person-avatar">M</div>
+                    <div class="person-info">
+                        <h4>Michael Kirtus Belfiore</h4>
+                        <span class="person-subtitle">Seb's Great-Grandfather &bull; Painter</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="frank" data-side="brothers" data-type="golfer">
+                    <div class="person-avatar">F</div>
+                    <div class="person-info">
+                        <h4>Frank Belfiore</h4>
+                        <span class="person-subtitle">Golf Pro &bull; Daytona Beach</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="sammy" data-side="brothers" data-type="golfer">
+                    <div class="person-avatar">S</div>
+                    <div class="person-info">
+                        <h4>Sammy Belfiore</h4>
+                        <span class="person-subtitle">The Greenbrier &bull; Beat Hagen 1922 &bull; Daytona Beach</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="joseph_golfer" data-side="brothers" data-type="golfer">
+                    <div class="person-avatar">J</div>
+                    <div class="person-info">
+                        <h4>Joseph Belfiore</h4>
+                        <span class="person-subtitle">Golf Pro &bull; Grosse Pointe</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THE FIVE SISTERS -->
+            <div class="siblings-label">The Five Sisters</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="rose" data-side="sisters" data-type="sibling">
+                    <div class="person-avatar female">R</div>
+                    <div class="person-info">
+                        <h4>Rose Belfiore</h4>
+                        <span class="person-subtitle">Wykagyl Gardens</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="caroline" data-side="sisters" data-type="sibling">
+                    <div class="person-avatar female">C</div>
+                    <div class="person-info">
+                        <h4>Caroline Belfiore</h4>
+                        <span class="person-subtitle">Wykagyl Gardens</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="mollie" data-side="sisters" data-type="sibling">
+                    <div class="person-avatar female">M</div>
+                    <div class="person-info">
+                        <h4>Mollie Belfiore</h4>
+                        <span class="person-subtitle">Mrs. Anthony Drew</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="phyl" data-side="sisters" data-type="sibling">
+                    <div class="person-avatar female">P</div>
+                    <div class="person-info">
+                        <h4>Phyl Belfiore</h4>
+                        <span class="person-subtitle">Mrs. Angelo Paternostro</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="mary_sister" data-side="sisters" data-type="sibling">
+                    <div class="person-avatar female">M</div>
+                    <div class="person-info">
+                        <h4>Mary Belfiore</h4>
+                        <span class="person-subtitle">Mrs. Joseph D'Onofrio</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LENA -->
+            <div class="siblings-label">Additional Census Record</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="lena" data-side="sisters" data-type="sibling">
+                    <div class="person-avatar female">L</div>
+                    <div class="person-info">
+                        <h4>Lena Belfiore</h4>
+                        <span class="person-subtitle">1940 Census &mdash; may be a nickname</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MICHAEL'S FIRST MARRIAGE -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">Michael's First Marriage</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="michael" data-side="direct" data-type="direct" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">M</div>
+                        <div class="person-info">
+                            <h4>Michael Kirtus Belfiore</h4>
+                            <span class="person-subtitle">b. 1883/1885, Italy</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="first_wife" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">?</div>
+                        <div class="person-info">
+                            <h4>First Wife (Unknown)</h4>
+                            <span class="person-subtitle">Died before Frances</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DOROTHY — MICHAEL'S DAUGHTER FROM FIRST MARRIAGE -->
+            <div class="siblings-label">Michael's Daughter from First Marriage</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="dorothy_daughter" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">D</div>
+                    <div class="person-info">
+                        <h4>Dorothy Belfiore</h4>
+                        <span class="person-subtitle">Michael's daughter &bull; Bridgeport, CT</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MICHAEL'S SECOND MARRIAGE — THE IRISH CONNECTION -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">Michael's Second Marriage &mdash; The Irish Connection</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="michael" data-side="direct" data-type="direct" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">M</div>
+                        <div class="person-info">
+                            <h4>Michael Kirtus Belfiore</h4>
+                            <span class="person-subtitle">b. 1883/1885, Italy</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="frances" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">F</div>
+                        <div class="person-info">
+                            <h4>Frances Towey</h4>
+                            <span class="person-subtitle">Irish-American &bull; b. 1897</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MICHAEL & FRANCES'S CHILDREN -->
+            <div class="siblings-label">Michael &amp; Frances's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="edward" data-side="direct" data-type="sibling">
+                    <div class="person-avatar">E</div>
+                    <div class="person-info">
+                        <h4>Edward Belfiore</h4>
+                        <span class="person-subtitle">Eddie &bull; b. ~1923</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="joseph_grandfather" data-side="direct" data-type="direct">
+                    <div class="person-avatar">J</div>
+                    <div class="person-info">
+                        <h4>Joseph Belfiore</h4>
+                        <span class="person-subtitle">Seb's Grandfather</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SAMMY'S MARRIAGE -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">Sammy's Marriage</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="sammy" data-side="brothers" data-type="golfer" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">S</div>
+                        <div class="person-info">
+                            <h4>Sammy Belfiore</h4>
+                            <span class="person-subtitle">b. 1899 &bull; d. 1972 (age 73)</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="virginia_hupp" data-side="brothers" data-type="spouse">
+                        <div class="person-avatar female">V</div>
+                        <div class="person-info">
+                            <h4>Virginia Hupp</h4>
+                            <span class="person-subtitle">Hupp Motor Car Family &bull; Detroit &bull; m. 1930</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SAMMY'S CHILDREN (HALF-SIBLINGS) -->
+            <div class="siblings-label">Sammy's Children &mdash; Half-Siblings (Same Father, Different Mothers)</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="sammy_jr" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar">S</div>
+                    <div class="person-info">
+                        <h4>Samuel M. Belfore Jr.</h4>
+                        <span class="person-subtitle">Half-brother of Patricia &bull; Lifeguard (1963) &bull; d. ~2024/25</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="patricia_fleming" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar female">P</div>
+                    <div class="person-info">
+                        <h4>Patricia Hupp Fleming</h4>
+                        <span class="person-subtitle">Sammy &amp; Virginia's daughter &bull; 1933&ndash;2022 &bull; Birmingham, MI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JOE THE GOLFER'S MARRIAGE -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">Joe Belfore's Marriage (The Golfer)</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="joseph_golfer" data-side="brothers" data-type="golfer" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">J</div>
+                        <div class="person-info">
+                            <h4>Joe Belfore</h4>
+                            <span class="person-subtitle">Country Club of Detroit</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="mrs_belfore" data-side="brothers" data-type="spouse">
+                        <div class="person-avatar female">?</div>
+                        <div class="person-info">
+                            <h4>Mrs. Belfore</h4>
+                            <span class="person-subtitle">Joe's Wife &bull; First name unknown</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JOE'S CHILDREN -->
+            <div class="siblings-label">Joe &amp; Mrs. Belfore's Sons</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="david_belfore" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar">D</div>
+                    <div class="person-info">
+                        <h4>David Belfore</h4>
+                        <span class="person-subtitle">Joe's Son &bull; CCD Privileges 1963</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="joseph_jr_belfore" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar">J</div>
+                    <div class="person-info">
+                        <h4>Joseph F. "Jeffery" Belfore Jr.</h4>
+                        <span class="person-subtitle">Joe's Son &bull; CCD Privileges 1963</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PATRICIA'S CHILDREN -->
+            <div class="siblings-label">Patricia Fleming's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="lisa_fleming" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar female">L</div>
+                    <div class="person-info">
+                        <h4>Lisa Fleming</h4>
+                        <span class="person-subtitle">Sammy's Grandchild</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="chris_fleming" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar">C</div>
+                    <div class="person-info">
+                        <h4>Chris Fleming</h4>
+                        <span class="person-subtitle">Sammy's Grandchild</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="john_fleming_jr" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar">J</div>
+                    <div class="person-info">
+                        <h4>John Fleming Jr.</h4>
+                        <span class="person-subtitle">Sammy's Grandchild</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="geoff_fleming" data-side="brothers" data-type="sibling">
+                    <div class="person-avatar">G</div>
+                    <div class="person-info">
+                        <h4>Geoff Fleming</h4>
+                        <span class="person-subtitle">Sammy's Grandchild</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gen-connector">&#9661;</div>
+
+        <!-- ===== GENERATION 3: JOSEPH'S MARRIAGE ===== -->
+        <div class="tree-generation">
+            <div class="gen-label">Generation 3 &mdash; Seb's Grandparents</div>
+            <div class="gen-subtitle">Joseph (son of Michael &amp; Frances) married Dorothy Hennessey &mdash; an Irish-American woman</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="joseph_grandfather" data-side="direct" data-type="direct" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">J</div>
+                        <div class="person-info">
+                            <h4>Joseph Belfiore</h4>
+                            <span class="person-subtitle">Seb's Grandfather &bull; d. West Babylon, NY</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="dorothy_grandmother" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">D</div>
+                        <div class="person-info">
+                            <h4>Dorothy Hennessey Belfiore</h4>
+                            <span class="person-subtitle">née Hennessey &bull; Seb's Grandmother &bull; Irish-American</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gen-connector">&#9661;</div>
+
+        <!-- ===== GENERATION 4: JOSEPH'S CHILDREN ===== -->
+        <div class="tree-generation">
+            <div class="gen-label">Generation 4 &mdash; Children of Joseph &amp; Dorothy</div>
+            <div class="gen-subtitle">Joseph &amp; Dorothy Hennessey's four children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="robert" data-side="direct" data-type="direct">
+                    <div class="person-avatar">R</div>
+                    <div class="person-info">
+                        <h4>Robert Belfiore</h4>
+                        <span class="person-subtitle">Seb's Father</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="william" data-side="direct" data-type="sibling">
+                    <div class="person-avatar">W</div>
+                    <div class="person-info">
+                        <h4>William Belfiore</h4>
+                        <span class="person-subtitle">Seb's Uncle</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="beth" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">B</div>
+                    <div class="person-info">
+                        <h4>Beth Belfiore</h4>
+                        <span class="person-subtitle">Joseph's Daughter</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="karen" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">K</div>
+                    <div class="person-info">
+                        <h4>Karen Belfiore</h4>
+                        <span class="person-subtitle">Joseph's Daughter</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Karen & Bill's Marriage -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">Karen &amp; Bill's Marriage</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="karen" data-side="direct" data-type="sibling" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar female">K</div>
+                        <div class="person-info">
+                            <h4>Karen Belfiore</h4>
+                            <span class="person-subtitle">Joseph's Daughter</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="bill_carpenter" data-side="direct" data-type="spouse">
+                        <div class="person-avatar">B</div>
+                        <div class="person-info">
+                            <h4>Bill Carpenter</h4>
+                            <span class="person-subtitle">Karen's Husband</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Robert & Amanda's Marriage -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">Robert &amp; Amanda's Marriage</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="robert" data-side="direct" data-type="direct" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">R</div>
+                        <div class="person-info">
+                            <h4>Robert Belfiore</h4>
+                            <span class="person-subtitle">Seb's Father</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="amanda" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">A</div>
+                        <div class="person-info">
+                            <h4>Amanda Belfiore</h4>
+                            <span class="person-subtitle">Robert's Wife</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- William & Susan's Marriage -->
+            <div class="siblings-label" style="margin-top: 1.5rem;">William &amp; Susan's Marriage</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="william" data-side="direct" data-type="sibling" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">W</div>
+                        <div class="person-info">
+                            <h4>William Belfiore</h4>
+                            <span class="person-subtitle">Seb's Uncle</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="susan" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">S</div>
+                        <div class="person-info">
+                            <h4>Susan Belfiore</h4>
+                            <span class="person-subtitle">William's Wife</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gen-connector">&#9661;</div>
+
+        <!-- ===== GENERATION 5: GRANDCHILDREN ===== -->
+        <div class="tree-generation">
+            <div class="gen-label">Generation 5</div>
+            <div class="gen-subtitle">Fifth generation from the immigrants</div>
+
+            <!-- Robert & Amanda's Children -->
+            <div class="siblings-label">Robert &amp; Amanda's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="seb" data-side="direct" data-type="you">
+                    <div class="person-avatar">S</div>
+                    <div class="person-info">
+                        <h4>Seb Belfiore</h4>
+                        <span class="person-subtitle">b. 1991, UK &bull; Tampa, FL</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="alexander" data-side="direct" data-type="sibling">
+                    <div class="person-avatar">A</div>
+                    <div class="person-info">
+                        <h4>Alexander Belfiore</h4>
+                        <span class="person-subtitle">b. 1989 &bull; Seb's Brother</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seb & Valeria's Marriage -->
+            <div class="siblings-label" style="margin-top: 1rem;">Seb &amp; Valeria</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="seb" data-side="direct" data-type="you" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">S</div>
+                        <div class="person-info">
+                            <h4>Seb Belfiore</h4>
+                            <span class="person-subtitle">b. 1991, UK</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="valeria" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">V</div>
+                        <div class="person-info">
+                            <h4>Valeria Belfiore</h4>
+                            <span class="person-subtitle">Seb's Wife &bull; German</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alexander & Lauren's Marriage -->
+            <div class="siblings-label" style="margin-top: 1rem;">Alexander &amp; Lauren</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="alexander" data-side="direct" data-type="sibling" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar">A</div>
+                        <div class="person-info">
+                            <h4>Alexander Belfiore</h4>
+                            <span class="person-subtitle">Seb's Brother</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="lauren" data-side="direct" data-type="spouse">
+                        <div class="person-avatar female">L</div>
+                        <div class="person-info">
+                            <h4>Lauren Belfiore</h4>
+                            <span class="person-subtitle">Alexander's Wife</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dani & Johnathan's Marriage -->
+            <div class="siblings-label" style="margin-top: 1rem;">Dani &amp; Johnathan</div>
+            <div class="gen-people">
+                <div class="couple-row">
+                    <div class="tree-person" data-id="dani" data-side="direct" data-type="sibling" style="opacity: 0.5; pointer-events: none;">
+                        <div class="person-avatar female">D</div>
+                        <div class="person-info">
+                            <h4>Dani Cavalieri</h4>
+                            <span class="person-subtitle">n&eacute;e Belfiore</span>
+                        </div>
+                    </div>
+                    <span class="couple-connector">married</span>
+                    <div class="tree-person" data-id="johnathan_cavalieri" data-side="direct" data-type="spouse">
+                        <div class="person-avatar">J</div>
+                        <div class="person-info">
+                            <h4>Johnathan Cavalieri</h4>
+                            <span class="person-subtitle">Dani's Husband</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Karen & Bill's Children -->
+            <div class="siblings-label" style="margin-top: 1rem;">Karen &amp; Bill's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="christian_carpenter" data-side="direct" data-type="sibling">
+                    <div class="person-avatar">C</div>
+                    <div class="person-info">
+                        <h4>Christian Carpenter</h4>
+                        <span class="person-subtitle">Karen &amp; Bill's Son</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- William & Susan's Children -->
+            <div class="siblings-label" style="margin-top: 1rem;">William &amp; Susan's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="loredana" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">L</div>
+                    <div class="person-info">
+                        <h4>Loredana Belfiore</h4>
+                        <span class="person-subtitle">William &amp; Susan's Child</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="dani" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">D</div>
+                    <div class="person-info">
+                        <h4>Dani Cavalieri</h4>
+                        <span class="person-subtitle">n&eacute;e Belfiore &bull; William &amp; Susan's Daughter</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="ionel" data-side="direct" data-type="sibling">
+                    <div class="person-avatar">I</div>
+                    <div class="person-info">
+                        <h4>Ionel Belfiore</h4>
+                        <span class="person-subtitle">William &amp; Susan's Child</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="ramona" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">R</div>
+                    <div class="person-info">
+                        <h4>Ramona Belfiore</h4>
+                        <span class="person-subtitle">William &amp; Susan's Child</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="michaela" data-side="direct" data-type="sibling">
+                    <div class="person-avatar female">M</div>
+                    <div class="person-info">
+                        <h4>Michaela Belfiore</h4>
+                        <span class="person-subtitle">William &amp; Susan's Child</span>
+                    </div>
+                </div>
+                <div class="tree-person" data-id="aidan" data-side="direct" data-type="sibling">
+                    <div class="person-avatar">A</div>
+                    <div class="person-info">
+                        <h4>Aidan Belfiore</h4>
+                        <span class="person-subtitle">William &amp; Susan's Child</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gen-connector">&#9661;</div>
+
+        <!-- ===== GENERATION 6: THE NEWEST BELFIORES ===== -->
+        <div class="tree-generation">
+            <div class="gen-label">Generation 6</div>
+            <div class="gen-subtitle">The newest Belfiores</div>
+
+            <!-- Seb & Valeria's Children -->
+            <div class="siblings-label">Seb &amp; Valeria's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="enzo" data-side="direct" data-type="you">
+                    <div class="person-avatar">E</div>
+                    <div class="person-info">
+                        <h4>Enzo Belfiore</h4>
+                        <span class="person-subtitle">b. January 2026, Tampa &bull; US/UK/German</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alexander & Lauren's Children -->
+            <div class="siblings-label" style="margin-top: 1rem;">Alexander &amp; Lauren's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="violet" data-side="direct" data-type="you">
+                    <div class="person-avatar female">V</div>
+                    <div class="person-info">
+                        <h4>Violet Belfiore</h4>
+                        <span class="person-subtitle">Alexander &amp; Lauren's Daughter &bull; Enzo's Cousin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dani & Johnathan's Children -->
+            <div class="siblings-label" style="margin-top: 1rem;">Dani &amp; Johnathan's Children</div>
+            <div class="gen-people">
+                <div class="tree-person" data-id="lili_cavalieri" data-side="direct" data-type="you">
+                    <div class="person-avatar female">L</div>
+                    <div class="person-info">
+                        <h4>Lili Cavalieri</h4>
+                        <span class="person-subtitle">Dani &amp; Johnathan's Daughter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== LEGEND ===== -->
+        <div style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+            <div class="siblings-label">Card Border Legend</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem; font-size: 0.9rem;">
+                <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--border-direct); border-radius: 2px; vertical-align: middle; margin-right: 4px;"></span> Direct Line</span>
+                <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--border-immigrant); border-radius: 2px; vertical-align: middle; margin-right: 4px;"></span> Immigrant</span>
+                <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--border-golfer); border-radius: 2px; vertical-align: middle; margin-right: 4px;"></span> Golfing Brother</span>
+                <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--border-spouse); border-radius: 2px; vertical-align: middle; margin-right: 4px;"></span> Spouse</span>
+                <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--border-sibling); border-radius: 2px; vertical-align: middle; margin-right: 4px;"></span> Sibling / Extended</span>
+                <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--border-you); border-radius: 2px; vertical-align: middle; margin-right: 4px;"></span> You / Your Children</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MOBILE OVERLAY -->
+    <div class="tree-sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- RIGHT: STICKY BIO PANEL -->
+    <div class="tree-sidebar" id="bioSidebar">
+        <button class="tree-sidebar-close" id="sidebarClose">&times;</button>
+        <h2>Biography</h2>
+        <div id="bioContent">
+            <p class="bio-placeholder">Click on any person in the tree to read their story.</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
