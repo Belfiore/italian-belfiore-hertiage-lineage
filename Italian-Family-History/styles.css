@@ -1066,3 +1066,16 @@ body {
         align-items: flex-start;
     }
 }
+
+/* ===== UPDATE NOTES (2026 audit) ===== */
+.update-note {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ink);
+    background: rgba(26, 92, 42, 0.06);
+    border-left: 3px solid #1a5c2a;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0 1.25rem;
+    border-radius: 0 4px 4px 0;
+}
+.update-note strong { color: #1a5c2a; }
