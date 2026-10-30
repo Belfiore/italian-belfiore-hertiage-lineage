@@ -24,9 +24,9 @@ const personData = {
         name: "Maria Donata Circelli",
         subtitle: "The Matriarch — SS Oregon, December 2, 1896",
         tags: ["Immigrant", "Matriarch", "Ellis Island", "SS Oregon"],
-        description: `Maria Donata Circelli (recorded as "Maria Doreta" on Ellis Island records) was born around 1856–1857 in San Bartolomeo in Galdo, Province of Benevento, Campania, Italy. Her parents were Giuseppe Circelli and Marianna Mita, both already deceased by the time of her 1884 marriage. She arrived in America on December 2, 1896, on the SS Oregon from Genoa and Naples, age 34. She traveled under her maiden name Circelli — not Belfiore. After 12 years of marriage, this strongly suggests she was traveling without her husband, likely as a widow relying on her Circelli relatives for the Atlantic crossing. Her Circelli brothers or cousins — Salvatore and Michele — followed her on the Alsatia in 1898, possibly to help support a widowed sister and her children. The Circelli surname is extremely rare: all 52 indexed records on Italy's Antenati portal originate from San Bartolomeo in Galdo.`,
+        description: `Maria Donata Circelli (recorded as "Maria Doreta" on Ellis Island records) was born around 1862 in San Bartolomeo in Galdo, Province of Benevento, Campania, Italy. Her parents were Giuseppe Circelli and Marianna Mita, both already deceased by the time of her 1884 marriage. She arrived in America on December 2, 1896, on the SS Oregon from Genoa and Naples, age 34. She traveled under her maiden name Circelli — not Belfiore. After 12 years of marriage, this strongly suggests she was traveling without her husband, likely as a widow relying on her Circelli relatives for the Atlantic crossing. (Update, 2026: Italian women kept their maiden names in these records, and her children Frank and Sammy were born in New Rochelle in 1897 and 1899 to a father named Anthony, so the widow theory is no longer the working view.) Her Circelli brothers or cousins — Salvatore and Michele — followed her on the Alsatia in 1898, possibly to help support a widowed sister and her children. The Circelli surname is extremely rare: all 52 indexed records on Italy's Antenati portal originate from San Bartolomeo in Galdo.`,
         details: {
-            "Born": "~1856–1857, San Bartolomeo in Galdo, Italy",
+            "Born": "~1862 (age 21 at her January 1884 marriage), San Bartolomeo in Galdo, Italy",
             "Parents": "Giuseppe Circelli & Marianna Mita",
             "Ship": "SS Oregon (December 2, 1896)",
             "Port": "Genoa and Naples → New York (Ellis Island)",
@@ -82,15 +82,15 @@ const personData = {
             { label: "Making the Swing (PDF)", url: "pdfs/sammy-belfore-daytona-newspaper.pdf" },
             { label: "Clinton Russell Bio (PDF)", url: "pdfs/blind-golfer.pdf" }
         ],
-        description: `Sammy Belfiore (later "Belfore") was born December 25, 1899 (Christmas Day) in New Rochelle, NY. He became one of the first native-born Americans of Italian descent to enter professional golf — described in his obituary as "the first of the native born trio to blossom forth." He served as golf professional at Ridgeview Country Club in Westchester for many years before moving to Florida. In the 1930s he won a PGA Tour event — confirmed by his PGA of America player profile, which lists one official PGA Tour win. He was also the personal golf instructor for Clinton Russell, a prominent blind golfer from New Rochelle whose remarkable story was covered by Time magazine. Sammy guided Russell in a famous exhibition match at Wykagyl Country Club in 1938 against Charley Oxenham, the English blind golf champion. In 1948, after 36 years of golf, he became head professional at Seabreeze Golf and Tennis Club in Daytona Beach, Florida. He wrote about the experience in Golfdom magazine (February 1948), describing how the club had been "shutdown for 5 years" during the war and the $4,600 reseeding effort. His brother Frank joined him at Seabreeze, running the pro shop — a photo in the Golfdom article shows them together behind the counter. He married Virginia Hupp, whose family was connected to the Hupp Motor Car Company of Detroit. He changed the spelling of his surname to "Belfore." He died in Daytona Beach around 1971–1972 at age 72 after a long illness. He was survived by son Samuel Alexander Belfore Jr. and daughter Patricia Hupp Fleming. His obituary in The Standard-Star is the single most important document in this research.`,
+        description: `Sammy Belfiore (later "Belfore") was born December 25, 1899 (Christmas Day) in New Rochelle, NY. He became one of the first native-born Americans of Italian descent to enter professional golf — described in his obituary as "the first of the native born trio to blossom forth." He served as golf professional at Ridgeview Country Club in Duluth, Minnesota, in the summers before settling in Florida. In the 1930s he won a PGA Tour event — confirmed by his PGA of America player profile, which lists one official PGA Tour win. He was also the personal golf instructor for Clinton Russell, a blind golfer and Duluth businessman whose remarkable story was covered by Time magazine. Sammy guided Russell in a famous exhibition match at Ridgeview Country Club in Duluth in 1938 against Dr. W. H. J. Oxenham, the English blind golfer. (Update, 2026: the Russell biography places Ridgeview and the 1938 match in Duluth, not Westchester or Wykagyl.) In 1948, after 36 years of golf, he became head professional at Seabreeze Golf and Tennis Club in Daytona Beach, Florida. He wrote about the experience in Golfdom magazine (February 1948), describing how the club had been "shutdown for 5 years" during the war and the $4,600 reseeding effort. His brother Frank joined him at Seabreeze, running the pro shop — a photo in the Golfdom article shows them together behind the counter. He married Virginia Hupp, whose family was connected to the Hupp Motor Car Company of Detroit. He changed the spelling of his surname to "Belfore." He died in Daytona Beach around 1971–1972 at age 72 after a long illness. He was survived by son Samuel Alexander Belfore Jr. and daughter Patricia Hupp Fleming. His obituary in The Standard-Star is the single most important document in this research.`,
         details: {
             "Born": "December 25, 1899, New Rochelle, NY",
-            "Died": "~1971/1972, Daytona Beach, FL (age 72)",
+            "Died": "February 16, 1972, Daytona Beach, FL (age 72)",
             "Wife": "Virginia Hupp (Hupp Motor Car family)",
             "Career": "Ridgeview CC → PGA Tour (1 win) → Seabreeze G&TC (1948)",
             "Clinton Russell": "Personal golf instructor to the blind golfer",
             "Name Change": "Belfiore → Belfore",
-            "Children": "Samuel Alexander Belfore Jr., Patricia Hupp Fleming",
+            "Children": "Samuel M. Belfore Jr., Patricia Hupp Fleming",
             "Sources": "PGA of America profile, Golfdom magazine (Feb 1948), Standard-Star obituary"
         }
     },
@@ -348,7 +348,7 @@ const personData = {
         name: "Lena Belfiore",
         subtitle: "Confirmed in 1940 Census — Possible 10th Sibling or Nickname",
         tags: ["Census Record", "1940", "New Rochelle"],
-        description: `Lena Belfiore appears in the 1940 U.S. Census in New Rochelle Ward 1, Westchester County, NY. Her parents are listed as Antonio Belfiore and Maria D. Circelli — confirming she is part of this family. She was born around 1901. However, she is NOT listed in Sammy's obituary, which names only nine siblings (4 brothers, 5 sisters). She may have died before Sammy, or "Lena" may be a nickname for one of the five sisters — possibly Caroline or another formal name. Further research is needed.`,
+        description: `Lena Belfiore appears in the 1940 U.S. Census in New Rochelle Ward 1, Westchester County, NY. Her parents are listed as Antonio Belfiore and Maria D. Circelli — confirming she is part of this family. She was born around 1901. However, she is NOT listed in Sammy's obituary, which names only nine siblings (4 brothers, 5 sisters). She may have died before Sammy, or "Lena" may be a nickname for one of the five sisters — possibly Caroline or another formal name. Further research is needed. (Update, 2026: the 1940 census does not record parents' names, so the record naming her parents cannot be the 1940 census as described. Phyl's full name was Philomena, which Italian families often shortened to Lena.)`,
         details: {
             "Born": "~1901, New Rochelle, NY",
             "Census": "1940 U.S. Census, New Rochelle Ward 1",
@@ -357,12 +357,12 @@ const personData = {
         }
     },
     sammy_jr: {
-        name: "Samuel Alexander Belfore Jr.",
+        name: "Samuel M. Belfore Jr.",
         subtitle: "Son of Sammy — Ormond Beach, Florida",
         tags: ["Next Generation", "Ormond Beach", "Belfore"],
-        description: `Samuel Alexander Belfore Jr. was the son of Sammy Belfore Sr. and Virginia Hupp. He lived in Ormond Beach, Florida (adjacent to Daytona Beach), near the family's Seabreeze club connections. His middle name "Alexander" is notable. He married Julia Clair Belfore. He died approximately 2024–2025 in Ormond Beach. He carried the changed spelling "Belfore" that his father had adopted.`,
+        description: `Samuel M. Belfore Jr. was the son of Sammy Belfore Sr. and, by earlier research, Virginia Hupp. (Update, 2026: a 1948 birthday notice places his birth on November 20, 1944, after Sammy and Virginia's marriage is reported to have ended, and a directory entry names Sammy's wife at that address as Louisa, his probable mother. The 1972 funeral notice gives his middle initial as M; no source is recorded for "Alexander".) He lived in Ormond Beach, Florida (adjacent to Daytona Beach), near the family's Seabreeze club connections. His middle name "Alexander" is notable. He married Julia Clair Belfore. He died approximately 2024–2025 in Ormond Beach. He carried the changed spelling "Belfore" that his father had adopted.`,
         details: {
-            "Full Name": "Samuel Alexander Belfore Jr.",
+            "Full Name": "Samuel M. Belfore Jr. (earlier given as Samuel Alexander, unsourced)",
             "Father": "Sammy Belfore Sr.",
             "Mother": "Virginia Hupp",
             "Wife": "Julia Clair Belfore",
@@ -429,7 +429,7 @@ const personData = {
         description: `Virginia Hupp was Sammy Belfore's wife. Her surname "Hupp" connects her to the Hupp Motor Car Company of Detroit, which manufactured the Hupmobile automobile from 1909 to 1940. The company was founded by Bobby Hupp in Detroit in 1908. The Grosse Pointe golf connection (where brother Joseph was pro) and the Hupp family's Detroit roots suggest the brothers' Michigan connections may have led to the match. Virginia's daughter Patricia carried the middle name "Hupp," preserving the family connection.`,
         details: {
             "Husband": "Sammy Belfore Sr.",
-            "Children": "Samuel Alexander Belfore Jr., Patricia Hupp Fleming",
+            "Children": "Samuel M. Belfore Jr., Patricia Hupp Fleming",
             "Family": "Connected to Hupp Motor Car Company (Detroit)"
         }
     },

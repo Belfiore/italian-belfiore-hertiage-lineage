@@ -1,0 +1,533 @@
+{
+ "sources": [
+  {
+   "id": "marriage-1884",
+   "title": "Atto di matrimonio no. 16: Belfiore Lionardantonio and Circelli Maria Donata",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, 1884 (via Antenati portal)",
+   "date": "1884-01-27",
+   "file": "images/attodi-nascita-maria-circelli-marriage-certificate2.png",
+   "note": "Screenshot of the Antenati image, page 17 of 95. Transcription and translation made for this site from the scan."
+  },
+  {
+   "id": "birth-antonio-maria-circelli-1862",
+   "title": "Atto di nascita no. 51: Antonio Maria Circelli",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Benevento, Stato civile della restaurazione, San Bartolomeo in Galdo, 1862 (via Antenati portal)",
+   "date": "1862-02-20",
+   "file": "images/attodi-nascita-maria-circelli-marriage-certificate.png",
+   "note": "Parents Bartolomeo Circelli and Laura Pannone. Not tied to anyone on the tree."
+  },
+  {
+   "id": "oregon-1896-index",
+   "title": "Ellis Island passenger record: Circelli, Maria Doreta, SS Oregon",
+   "type": "passenger index",
+   "repository": "Statue of Liberty-Ellis Island Foundation passenger database",
+   "date": "1896-12-02",
+   "file": "images/maria doreta circelli.png",
+   "note": "Passenger ID 102895011196, frame 62, line 413. Departed Genoa and Naples. Age 34 as recorded in earlier research; the saved screenshot does not show the age."
+  },
+  {
+   "id": "customs-list-page",
+   "title": "Customs List of Passengers, Port of New York (page shared as the SS Oregon list)",
+   "type": "passenger manifest",
+   "repository": "US Customs passenger lists (copy shared on this site)",
+   "date": "1896",
+   "file": "images/maria-doreta-circelli-immigration-ship-paper.png",
+   "note": "The visible page shows lines 26 to 61. Maria Doreta's line (413 in the index) is not on this page, and the ship's name is not visible."
+  },
+  {
+   "id": "alsatia-1898",
+   "title": "List or Manifest of Alien Immigrants, SS Alsatia, Naples to New York, list 128",
+   "type": "passenger manifest",
+   "repository": "US Immigration Service manifests (via Ellis Island Foundation)",
+   "date": "1898-03-19",
+   "file": "images/michele-salvatore-ship-list-highlighted.png",
+   "note": "Sailed from Naples 26 February 1898. Lines 8 and 9: Circelli Salvatore (28) and Circelli Michele (25)."
+  },
+  {
+   "id": "alsatia-1898-index",
+   "title": "Ellis Island passenger records: Circelli, Salvatore and Circelli, Michele, SS Alsatia",
+   "type": "passenger index",
+   "repository": "Statue of Liberty-Ellis Island Foundation passenger database",
+   "date": "1898-03-19",
+   "file": "images/Michele Circelli.png",
+   "note": "Salvatore: passenger ID 602628040030, frame 790, line 8. Michele: passenger ID 602628040031, frame 790, line 9. Text list gives residence as 'S.Dartolomeo in Calor'. Screenshots: images/salvatore-circelli-alsatia-1898-index.png, images/alsatia-1898-passenger-list-text.png."
+  },
+  {
+   "id": "santanna-1911",
+   "title": "List or Manifest of Alien Passengers, SS Sant'Anna, sailing from Naples 14 November 1911",
+   "type": "passenger manifest",
+   "repository": "US Immigration Service manifests (via Ellis Island Foundation)",
+   "date": "1911-11-14",
+   "file": "images/salvatore-circelli-santanna-1911-manifest.png",
+   "note": "Line 20: Circelli Salvatore, 42, married. Final destination New Rochelle, NY."
+  },
+  {
+   "id": "manifest-1909",
+   "title": "Ellis Island manifest listing 'Belfiore, Antonio' of S. Bartolomeo as a returning US citizen, SS Duca di Genova",
+   "type": "passenger manifest",
+   "repository": "Statue of Liberty-Ellis Island Foundation (found in earlier research)",
+   "date": "1909",
+   "note": "Not saved in this repository. Recorded in earlier research notes; needs a saved copy and a line-by-line check."
+  },
+  {
+   "id": "italyheritage-circelli",
+   "title": "ItalyHeritage.com index of Circelli births, San Bartolomeo in Galdo",
+   "type": "online index",
+   "repository": "ItalyHeritage.com",
+   "date": "1869-1882",
+   "note": "Lists a Salvatore (1 Jan 1869) and a Michele (12 Mar 1871), sons of Leonardo Circelli and Rosa Pacifico. Cited in the research report; not checked against the original registers."
+  },
+  {
+   "id": "ww1-michael",
+   "title": "World War I draft registration card: Michal Kirtus Belfiore, serial 2803, order 1721 (card A1722)",
+   "type": "draft registration",
+   "repository": "NARA, Selective Service System (WWI), M1509; Local Board for the City of New Rochelle",
+   "date": "1918-09-12",
+   "file": "images/michael-kirtus-belfiore-registration-card.jpeg"
+  },
+  {
+   "id": "ww2-michael",
+   "title": "World War II draft registration card (Fourth Registration): Michael Belfiore, serial U-817",
+   "type": "draft registration",
+   "repository": "NARA, Selective Service System, Fourth Registration",
+   "date": "1942-04-27",
+   "file": "images/Michael-Belfiore-WW2-Draft-Card.jpeg"
+  },
+  {
+   "id": "census-1940",
+   "title": "1940 US Census, New Rochelle, Westchester County, NY, sheet 1B, lines 29 to 32",
+   "type": "census",
+   "repository": "US Bureau of the Census, Sixteenth Census (NARA)",
+   "date": "1940-04-03",
+   "file": "images/Michael-Belfiore-Census-1940-painter.jpeg",
+   "note": "Household at 488 North Avenue. Enumerated April 3, 1940."
+  },
+  {
+   "id": "death-michael-1952",
+   "title": "New York State death certificate: Michael K. Belfiore (Dist. No. 5904)",
+   "type": "death record",
+   "repository": "Family copy (supplied by William Belfiore). Transcribed on this site's Research page",
+   "date": "1952-01-16",
+   "note": "The scan is not in this repository. Facts are taken from the transcription."
+  },
+  {
+   "id": "ny-death-index-1938",
+   "title": "New York State Death Index: Anthony Belfiore, New Rochelle, certificate 42184",
+   "type": "death index",
+   "repository": "New York State Department of Health index",
+   "date": "1938-07-11",
+   "note": "Index entry only. The certificate has not been ordered."
+  },
+  {
+   "id": "ssdi-frances",
+   "title": "Death index entry: Frances Belfiore, born 17 Sept 1897, died 5 Apr 1967, New Rochelle",
+   "type": "death index",
+   "repository": "Social Security Death Index / NY death index (as transcribed on the Research page)",
+   "date": "1967-04-05",
+   "note": "Her death certificate has been ordered."
+  },
+  {
+   "id": "ssdi-joseph",
+   "title": "Social Security Death Index entry: Joseph Belfiore, died April 1986, last residence West Babylon, NY",
+   "type": "death index",
+   "repository": "Social Security Death Index (as transcribed on the Research page)",
+   "date": "1986-04",
+   "note": "Number issued in Maryland. Not yet confirmed to be Seb's grandfather."
+  },
+  {
+   "id": "frank-index",
+   "title": "Indexed record: Frank Belfiore, born November 1897, New Rochelle, parents Antonio Belfiore and Maria D. Circelli",
+   "type": "online index",
+   "repository": "Ancestry.com (indexed record; record type not identified on this site)",
+   "date": "1897-11",
+   "note": "The underlying record has not been saved to this repository."
+  },
+  {
+   "id": "frank-death",
+   "title": "Death record: Frank Belfiore, Daytona Beach, Florida",
+   "type": "death index",
+   "repository": "As recorded in earlier research (Florida death index)",
+   "date": "1968-04-21",
+   "note": "Not saved to this repository."
+  },
+  {
+   "id": "lena-index",
+   "title": "Indexed record: Lena Belfiore, born about 1901, parents Antonio Belfiore and Maria D. Circelli",
+   "type": "online index",
+   "repository": "Described on the Research page as the 1940 census",
+   "date": "",
+   "note": "The 1940 census does not record parents' names, so this attribution cannot be right as written. The underlying record needs to be identified."
+  },
+  {
+   "id": "standard-star-obit",
+   "title": "'Sammy Belfore, Last Of 3 Golfing Brothers', The Standard-Star (New Rochelle), Obituary News",
+   "type": "newspaper",
+   "repository": "Family clipping (supplied by William Belfiore)",
+   "date": "1972-02",
+   "file": "images/samme-belfiore-golfer.jpeg",
+   "note": "Undated clipping. Sammy died on February 16, 1972, so the obituary appeared on or just after that date."
+  },
+  {
+   "id": "golf-brothers-photo",
+   "title": "Family photograph: three men on a golf course",
+   "type": "photograph",
+   "repository": "Family collection",
+   "date": "c. 1930s-1940s",
+   "file": "images/belfiore-golf-brothers.jpeg",
+   "note": "Believed by the family to show Sammy, Frank and Joe. No one in it has been identified with certainty."
+  },
+  {
+   "id": "family-knowledge",
+   "title": "Family knowledge (Seb Belfiore and family)",
+   "type": "family tradition",
+   "repository": "Oral and written family information gathered for this project",
+   "date": "2026"
+  },
+  {
+   "id": "family-william",
+   "title": "Correspondence from William Belfiore (Seb's uncle)",
+   "type": "family tradition",
+   "repository": "Family correspondence",
+   "date": "2026"
+  },
+  {
+   "id": "research-notes",
+   "title": "Handwritten research notes: Seabreeze postcard and Daytona Beach city directory entries",
+   "type": "research notes",
+   "repository": "Seb's research files (Balfiore 1.pdf, page 1)",
+   "date": "",
+   "note": "Notes a directory entry for 'Sam (Louisa)', golf pro, at 217 Jessamine Blvd, and a 1951 directory entry for Belfore's Sammy 19th Hole, 324 Seabreeze Blvd."
+  },
+  {
+   "id": "research-md",
+   "title": "From San Bartolomeo in Galdo to New Rochelle (research report)",
+   "type": "research report",
+   "repository": "This repository",
+   "date": "2026",
+   "file": "belfiore-circelli-family-history.md",
+   "note": "Secondary. Some statements in it are corrected by the primary records (see docs/canvas-audit.md)."
+  },
+  {
+   "id": "golfdom-1948-02",
+   "title": "Sammy Belfore, 'Winter Pro Job Is Preview of Season to Come', Golfdom, February 1948, pp. 58-59",
+   "type": "magazine",
+   "repository": "Golfdom (Michigan State University Turfgrass Information Center archive)",
+   "date": "1948-02",
+   "file": "pdfs/sammy-belfore-full-article.pdf"
+  },
+  {
+   "id": "golfdom-1948-01",
+   "title": "Herb Graffis, 'Making the Swing', Golfdom, January 1948",
+   "type": "magazine",
+   "repository": "Golfdom (Michigan State University Turfgrass Information Center archive)",
+   "date": "1948-01",
+   "file": "pdfs/sammy-belfore-daytona-newspaper.pdf",
+   "note": "Notes that Sammy Belfore is pro-manager for the winter at Seabreeze GC, Daytona Beach, and that the club reopened after a five-year shutdown."
+  },
+  {
+   "id": "ouse-russell",
+   "title": "David Ouse, 'Clint Russell' (Zenith City Online)",
+   "type": "biography",
+   "repository": "Zenith City Online, 2012-2017 (PDF copy)",
+   "date": "2012-2017",
+   "file": "pdfs/blind-golfer.pdf"
+  },
+  {
+   "id": "ccd-minutes-1963",
+   "title": "Country Club of Detroit, Minutes of Meeting of the Board of Governors, October 29, 1963",
+   "type": "minutes",
+   "repository": "Country Club of Detroit archives (photographs)",
+   "date": "1963-10-29",
+   "file": "images/frank-belfore-michigan-golfcourse.jpg",
+   "note": "Header page: images/frank-belfore-michigan-golfcourse2.jpg. The file names say Frank, but the minutes concern Joe."
+  },
+  {
+   "id": "golfing-aids-1940",
+   "title": "Joe Belfore, Golfing Aids (Detroit, 1940), signed copy",
+   "type": "book",
+   "repository": "The Golf Auction, from the PGA REACH collection archives",
+   "date": "1940",
+   "file": "images/joe-book-1.jpeg",
+   "url": "https://thegolfauction.com/1940__Golfing_Aids__Signed_By_Author_Joe_Belfore-LOT176227.aspx",
+   "note": "Photographs: images/joe-book-1.jpeg to joe-book-5.jpeg."
+  },
+  {
+   "id": "pga-reach-letter-2025",
+   "title": "Provenance letter for 'Golfing Aids', signed by Bob Denney, PGA of America Historian Emeritus",
+   "type": "letter",
+   "repository": "The Golf Auction / PGA REACH",
+   "date": "2025-02-13",
+   "file": "images/joe-book-6.jpeg"
+  },
+  {
+   "id": "mipga-centennial",
+   "title": "Michigan PGA Centennial, 1922-2022",
+   "type": "web",
+   "repository": "Michigan PGA",
+   "date": "2022",
+   "url": "https://michiganpga.com/news/michigan-pga-centennial-1922-2022-2/",
+   "note": "Cited by earlier research for Joe's championships and presidency. Not re-read for this revision."
+  },
+  {
+   "id": "nyt-1927",
+   "title": "'Golf Stars Begin Met Open Today', The New York Times, May 25, 1927",
+   "type": "newspaper",
+   "repository": "The New York Times archive",
+   "date": "1927-05-25",
+   "url": "https://www.nytimes.com/1927/05/25/archives/golf-stars-begin-met-open-today-hagen-sarazen-and-mehlhorn-among.html",
+   "note": "Cited by earlier research for Joe's place in the field. Not re-read for this revision."
+  },
+  {
+   "id": "golfdom-1934-01",
+   "title": "Golfdom, January 1934",
+   "type": "magazine",
+   "repository": "Michigan State University Turfgrass Information Center",
+   "date": "1934-01",
+   "url": "https://archive.lib.msu.edu/tic/golfd/article/1934jan9.pdf",
+   "note": "Cited by earlier research. Not re-read for this revision."
+  },
+  {
+   "id": "pga-profile-sammy",
+   "title": "PGA of America player profile, Sammy Belfore",
+   "type": "web",
+   "repository": "PGA of America",
+   "date": "",
+   "note": "Cited by earlier research for one official PGA Tour win. No copy in this repository; not verified."
+  },
+  {
+   "id": "dbnj-1929-01-07",
+   "title": "'At Plymouth', Daytona Beach News-Journal, January 7, 1929, p. 7",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 7.pdf)",
+   "date": "1929-01-07"
+  },
+  {
+   "id": "engagement-1930",
+   "title": "'Sam Belfore Will Wed Miss Hupp In June'",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 4.pdf)",
+   "date": "1930-05-18",
+   "note": "Date written by hand on the printout as 5/18/30."
+  },
+  {
+   "id": "dbmj-1948-02-24",
+   "title": "Social note, Daytona Beach Morning Journal, February 24, 1948, p. 10",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 1.pdf)",
+   "date": "1948-02-24",
+   "note": "Ana Carr of Boston visiting her uncle, Sammy Belfore."
+  },
+  {
+   "id": "dbmj-1948-05-21",
+   "title": "'Belfore Qualifies', Daytona Beach Morning Journal, May 21, 1948, p. 12",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 1.pdf)",
+   "date": "1948-05-21"
+  },
+  {
+   "id": "dbmj-1948-11-20",
+   "title": "'Party To Be For Sammy Belfore', Daytona Beach Morning Journal, November 20, 1948, p. 10",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 1.pdf)",
+   "date": "1948-11-20"
+  },
+  {
+   "id": "dbmj-1950-10-30",
+   "title": "Column item, Daytona Beach Morning Journal, October 30, 1950, p. 6",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 1.pdf)",
+   "date": "1950-10-30"
+  },
+  {
+   "id": "kahn-1960",
+   "title": "Bernard Kahn, 'The Greatest Golf Match Ever Played In Daytona', Daytona Beach Sunday News-Journal, May 8, 1960, p. 21",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 11.pdf)",
+   "date": "1960-05-08"
+  },
+  {
+   "id": "kahn-1965",
+   "title": "Bernard Kahn, sports column, Daytona Beach Evening News, March 31, 1965, p. 12",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 12.pdf)",
+   "date": "1965-03-31"
+  },
+  {
+   "id": "willson-1966",
+   "title": "Brad Willson, 'Press Box', Daytona Beach Morning Journal, May 25, 1966, p. 13",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 13.pdf)",
+   "date": "1966-05-25"
+  },
+  {
+   "id": "willson-1967",
+   "title": "Brad Willson, 'Press Box', Daytona Beach Morning Journal, June 28, 1967, p. 15",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 14.pdf)",
+   "date": "1967-06-28"
+  },
+  {
+   "id": "willson-1970",
+   "title": "Brad Willson column, Daytona Beach Sunday News-Journal, October 4, 1970, p. 32",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 15.pdf)",
+   "date": "1970-10-04"
+  },
+  {
+   "id": "dben-1972-02-16",
+   "title": "'Sammy Belfore, Local Golf Pro, Dies', Daytona Beach Evening News, February 16, 1972, p. 1",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 16.pdf, 17.pdf)",
+   "date": "1972-02-16"
+  },
+  {
+   "id": "dben-1972-02-17",
+   "title": "Funeral notice, Sammy Belfore, Daytona Beach Evening News, February 17, 1972, p. 42",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 20.pdf)",
+   "date": "1972-02-17"
+  },
+  {
+   "id": "kahn-1972",
+   "title": "Bernard Kahn, 'A Man From The Street Of Broken Dreams', Daytona Beach News-Journal, February 1972",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 19.pdf)",
+   "date": "1972-02",
+   "note": "Exact date not on the printout; written in the week of Sammy's death."
+  },
+  {
+   "id": "willson-1972",
+   "title": "Brad Willson, 'Golfing', Daytona Beach Sunday News-Journal, February 20, 1972, p. 36",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 21.pdf)",
+   "date": "1972-02-20"
+  },
+  {
+   "id": "kahn-1972-03-08",
+   "title": "Bernard Kahn, 'It Says Here', Daytona Beach Evening News, March 8, 1972, p. 19",
+   "type": "newspaper",
+   "repository": "NewsBank, Access World News (Daytona Beach News-Journal collection). Printout held in Seb's research files (Balfiore 23.pdf)",
+   "date": "1972-03-08"
+  },
+  {
+   "id": "patricia-findagrave",
+   "title": "Find a Grave memorial: Patricia Hupp Fleming (1933-2022), Cedar Hill Cemetery, Birmingham, Michigan",
+   "type": "memorial",
+   "repository": "Find a Grave (as recorded on the Research page)",
+   "date": "2022"
+  },
+  {
+   "id": "patricia-obit",
+   "title": "Obituary of Patricia Hupp Fleming (Desmond Funeral Home)",
+   "type": "obituary",
+   "repository": "As recorded in earlier research",
+   "date": "2022",
+   "note": "Source for her teaching career, her marriage to John Fleming, her children, and her mother's later marriage."
+  },
+  {
+   "id": "gp-news-judith",
+   "title": "Obituary of Judith Ann (Sattelmeier) Belfore, Grosse Pointe News",
+   "type": "obituary",
+   "repository": "Grosse Pointe Public Library obituary index (as recorded in earlier research)",
+   "date": "2023-11"
+  },
+  {
+   "id": "volusia-2025",
+   "title": "Volusia County property records (Belfore, Ormond Beach)",
+   "type": "property record",
+   "repository": "Volusia County Property Appraiser (as recorded in earlier research)",
+   "date": "2025-01",
+   "note": "Property transferred to Julia Clair Belfore's trust in January 2025."
+  },
+  {
+   "id": "vt-jeffery",
+   "title": "Death index entry: Joseph F. Belfore Jr., born 21 Aug 1917, died Feb 1982, Fair Haven, Vermont",
+   "type": "death index",
+   "repository": "As recorded in earlier research",
+   "date": "1982-02",
+   "note": "A tentative match. See the conflict noted in his profile."
+  },
+  {
+   "id": "ctx-ruota",
+   "title": "'Neonati abbandonati e ruote degli esposti', Il Giorno",
+   "type": "context",
+   "repository": "Il Giorno",
+   "url": "https://www.ilgiorno.it/cronaca/neonati-abbandonati-ruote-degli-esposti-1.8027316",
+   "date": ""
+  },
+  {
+   "id": "ctx-italian-emigration",
+   "title": "'An Interior Ellis Island: Italians', Michigan Technological University",
+   "type": "context",
+   "repository": "Michigan Tech, ethnicity project",
+   "url": "https://www.ethnicity.lib.mtu.edu/groups_Italians_print.html",
+   "date": ""
+  },
+  {
+   "id": "ctx-ellis-nps",
+   "title": "'Immigration 1891-1924', Ellis Island, National Park Service",
+   "type": "context",
+   "repository": "National Park Service",
+   "url": "https://home.nps.gov/elis/learn/historyculture/places_immigration.htm",
+   "date": ""
+  },
+  {
+   "id": "ctx-ellis-foundation",
+   "title": "'Overview + History', Statue of Liberty-Ellis Island Foundation",
+   "type": "context",
+   "repository": "Statue of Liberty-Ellis Island Foundation",
+   "url": "https://www.ellisisland.org/ellis-island/overview-history/",
+   "date": ""
+  },
+  {
+   "id": "ctx-ww1-draft",
+   "title": "'World War I Draft Registration Cards', National Archives",
+   "type": "context",
+   "repository": "National Archives",
+   "url": "https://www.archives.gov/research/military/ww1/draft-registration",
+   "date": ""
+  },
+  {
+   "id": "ctx-ww2-fourth",
+   "title": "'Old Man's Registration', Visualizing the Past, University of Central Florida",
+   "type": "context",
+   "repository": "University of Central Florida",
+   "url": "https://vlp.cah.ucf.edu/popups/oldmandraft.html",
+   "date": ""
+  },
+  {
+   "id": "ctx-alex-smith",
+   "title": "'Alex Smith Champion: Wykagyl Professional Wins Triple Tie Play-Off in Open Golf Tournament', The New York Times, June 21, 1910",
+   "type": "context",
+   "repository": "The New York Times archive",
+   "url": "https://www.nytimes.com/1910/06/21/archives/alex-smith-champion-wykagyl-professional-wins-triple-tie-playoff-in.html",
+   "date": "1910-06-21"
+  },
+  {
+   "id": "ctx-marciano",
+   "title": "'Rocky Marciano', Wikipedia",
+   "type": "context",
+   "repository": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rocky_Marciano",
+   "date": ""
+  },
+  {
+   "id": "ctx-unification",
+   "title": "'Proclamation of the Kingdom of Italy', Wikipedia",
+   "type": "context",
+   "repository": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Proclamation_of_the_Kingdom_of_Italy",
+   "date": ""
+  },
+  {
+   "id": "ctx-flu-ct",
+   "title": "'The 1918-1919 Influenza Epidemic in Connecticut', Connecticut Digital Newspaper Project",
+   "type": "context",
+   "repository": "Connecticut State Library",
+   "url": "https://ctdigitalnewspaperproject.org/2020/11/the-1918-1919-influenza-epidemic-in-connecticut/",
+   "date": ""
+  }
+ ]
+}
