@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="tree-canvas.css?v=6">
+    <link rel="stylesheet" href="tree-canvas.css?v=7">
 </head>
 <body class="canvas-body">
 <a class="skip-link" href="#treeHelp">Skip to the family tree</a>
@@ -37,7 +37,7 @@
         <header class="tc-head">
             <div class="tc-title">
                 <h1>The Family Canvas</h1>
-                <p class="tc-sub" id="treeHelp" tabindex="-1">Drag or scroll to move, pinch or <kbd>Ctrl</kbd>&#8202;+&#8202;scroll to zoom. Select a person to read their story. Arrow keys move between relatives.</p>
+                <p class="tc-sub" id="treeHelp" tabindex="-1">Drag or scroll to move, pinch or <kbd>Ctrl</kbd>&#8202;+&#8202;scroll to zoom. Select a person to read their story. Drag the dot on a card onto anyone to see how they are related (or press <kbd>R</kbd> on a card).</p>
             </div>
             <div class="tc-tools">
                 <div class="tc-search" role="search">
@@ -60,8 +60,20 @@
                 <svg class="tc-links" id="links" aria-hidden="true"></svg>
                 <div class="tc-cards" id="cards" role="group" aria-label="People in the tree"></div>
                 <svg class="tc-links tc-links--top" id="linksTop" aria-hidden="true"></svg>
+                <svg class="tc-rel" id="relLayer" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="relGrad" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a5c2a"/><stop offset="1" stop-color="#b8860b"/></linearGradient>
+                    </defs>
+                    <path class="rel-glow" id="relGlow"/>
+                    <path class="rel-line" id="relLine"/>
+                    <circle class="rel-start" id="relStart" r="6"/>
+                    <circle class="rel-ring" id="relRing" r="10"/>
+                    <circle class="rel-end" id="relEnd" r="6"/>
+                </svg>
             </div>
         </div>
+        <div class="rel-bubble" id="relBubble" aria-hidden="true" hidden></div>
+        <section class="rel-pop" id="relPop" role="dialog" aria-modal="false" aria-labelledby="relPopTitle" hidden></section>
 
         <div class="tc-genrail" id="genrail" aria-hidden="true"></div>
 
@@ -148,7 +160,7 @@
     <div class="lb-strip" id="lbStrip"></div>
 </div>
 
-<script src="tree-canvas.js?v=6"></script>
+<script src="tree-canvas.js?v=7"></script>
 <script>
     (function () {
         var t = document.getElementById('navToggle'), l = document.getElementById('navLinks');

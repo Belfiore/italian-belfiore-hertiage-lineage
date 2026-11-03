@@ -173,6 +173,50 @@ const ok = (m) => console.log('  ok   ' + m);
             await page.keyboard.press('Escape');
         }
 
+        // relationship finder: labels, every pair, and a real drag from one card's dot to another
+        if (w === 1440) {
+            const rel = await page.evaluate(() => {
+                const t = window.__tree, r = (a, b) => t.relInfo(a, b).label, out = [];
+                const want = [
+                    ['seb-belfiore', 'sammy-belfore', 'great-great-uncle'], ['seb-belfiore', 'michael-belfiore', 'great-grandfather'],
+                    ['joseph-belfiore', 'dorothy-belfiore-bridgeport', 'half-sister'], ['dorothy-belfiore-bridgeport', 'frances-towey', 'stepmother'],
+                    ['frances-towey', 'dorothy-belfiore-bridgeport', 'stepdaughter'], ['patricia-hupp-fleming', 'samuel-belfore-jr', 'half-brother'],
+                    ['valeria-belfiore', 'robert-belfiore', 'father-in-law'], ['robert-belfiore', 'valeria-belfiore', 'daughter-in-law'],
+                    ['seb-belfiore', 'david-belfore', '1st cousin twice removed'], ['seb-belfiore', 'gary-belfore', '2nd cousin once removed'],
+                    ['michael-belfiore', 'first-wife-of-michael', 'first wife'], ['edward-belfiore', 'joseph-belfiore', 'brother']];
+                want.forEach(([a, b, l]) => { const g = r(a, b); if (g !== l) out.push(`${a} -> ${b}: "${g}", expected "${l}"`); });
+                if (t.relInfo('seb-belfiore', 'michele-circelli').kind !== 'none') out.push('Michele Circelli should have no recorded link');
+                let n = 0;
+                t.D.people.forEach(a => t.D.people.forEach(b => { if (a.id === b.id) return; const i = t.relInfo(a.id, b.id); n++; if (i.kind !== 'none' && !i.label) out.push(`${a.id} -> ${b.id}: no label`); if (i.kind !== 'none' && !t.relPath(a.id, b.id)) out.push(`${a.id} -> ${b.id}: no path`); }));
+                return { out, n };
+            });
+            if (rel.out.length) rel.out.forEach(o => fail('relationship: ' + o)); else ok(`relationship labels right for test pairs; all ${rel.n} pairs resolve`);
+
+            await page.mouse.click(5, 300); await page.keyboard.press('Escape'); await page.keyboard.press('Escape'); await page.keyboard.press('Escape');
+            await page.waitForTimeout(400);
+            await page.evaluate(() => window.__tree.centerOn('robert-belfiore', 0.7, false));
+            await page.waitForTimeout(250);
+            const pts = await page.evaluate(() => { const d = document.querySelector('.card[data-id="seb-belfiore"] .c-link').getBoundingClientRect(), c = document.querySelector('.card[data-id="robert-belfiore"]').getBoundingClientRect(); return { x: d.x + d.width / 2, y: d.y + d.height / 2, tx: c.x + c.width / 2, ty: c.y + c.height / 2 }; });
+            await page.mouse.move(pts.x, pts.y); await page.mouse.down();
+            for (let i = 1; i <= 12; i++) { await page.mouse.move(pts.x + (pts.tx - pts.x) * i / 12, pts.y + (pts.ty - pts.y) * i / 12); await page.waitForTimeout(16); }
+            await page.waitForTimeout(120);
+            const mid = await page.evaluate(() => ({ bubble: document.getElementById('relBubble').innerText, line: !!document.getElementById('relLine').getAttribute('d'), panned: window.__tree.S.tx }));
+            await page.mouse.up(); await page.waitForTimeout(350);
+            const pop = await page.evaluate(() => ({ open: !document.getElementById('relPop').hidden, title: (document.getElementById('relPopTitle') || {}).textContent, sel: window.__tree.S.sel }));
+            const dErr = [];
+            if (!/Father/.test(mid.bubble) || !mid.line) dErr.push('no live label or line while dragging: ' + JSON.stringify(mid));
+            if (!pop.open || pop.title !== "Robert Belfiore is Seb's father.") dErr.push('popover: ' + JSON.stringify(pop));
+            await page.keyboard.press('Escape'); await page.waitForTimeout(100);
+            if (!(await page.evaluate(() => document.getElementById('relPop').hidden))) dErr.push('Escape did not close the popover');
+            // keyboard: R, arrow up, Enter
+            await page.evaluate(() => document.querySelector('.card[data-id="seb-belfiore"]').focus());
+            await page.keyboard.press('r'); await page.keyboard.press('ArrowUp'); await page.keyboard.press('Enter'); await page.waitForTimeout(250);
+            const kt = await page.evaluate(() => (document.getElementById('relPopTitle') || {}).textContent);
+            if (kt !== "Robert Belfiore is Seb's father.") dErr.push('keyboard compare: ' + kt);
+            await page.keyboard.press('Escape');
+            if (dErr.length) dErr.forEach(e => fail('drag: ' + e)); else ok('dragging a dot onto a card, and R + arrows + Enter, show the relationship');
+        }
+
         // the panel: story button always visible, expands in place, arrows and prev/next move through the tree
         {
             await page.keyboard.press('Escape'); await page.keyboard.press('Escape');
