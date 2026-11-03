@@ -86,7 +86,7 @@
     function boot() {
         ['stage', 'viewport', 'world', 'bands', 'links', 'linksTop', 'cards', 'genrail', 'zoomOut', 'zoomIn', 'zoomPct', 'fit', 'centerSel',
          'keyToggle', 'legend', 'minimap', 'tip', 'live', 'search', 'searchResults', 'viewpoint', 'drawer', 'drawerBody', 'drawerClose',
-         'drPrev', 'drNext', 'drPrevName', 'drNextName', 'drPos', 'drExpand', 'drRead', 'drReadTxt', 'drEscTxt',
+         'relLayer', 'relGlow', 'relLine', 'relStart', 'relRing', 'relEnd', 'relGrad', 'relBubble', 'relPop', 'drPrev', 'drNext', 'drPrevName', 'drNextName', 'drPos', 'drExpand', 'drRead', 'drReadTxt', 'drEscTxt',
          'lightbox', 'lbImg', 'lbStage', 'lbSide', 'lbStrip', 'lbTitle', 'lbIn', 'lbOut', 'lbReset', 'lbOpen', 'lbClose'].forEach(function (k) { el[k] = $(k); });
         el.app = $('app');
         Promise.all([fetch('data/people.json').then(function (r) { return r.json(); }), fetch('data/sources.json').then(function (r) { return r.json(); })])
@@ -117,6 +117,7 @@
         bindSearch();
         bindKeys();
         bindDrawer();
+        bindRelate();
         bindLightbox();
         syncNarrow();
         initialView();
@@ -307,7 +308,8 @@
                '<div class="c-dis">' + esc(p.disambiguator || '') + '</div></div></div>' +
                '<div class="c-meta">' + (life ? '<div class="c-dates">' + esc(life) + '</div>' : p.isLiving ? '<div class="c-dates"><span class="c-living">Living</span></div>' : '') +
                (p.cardPlace ? '<div class="c-place">' + esc(p.cardPlace) + '</div>' : '') + '</div>' +
-               '<div class="c-foot" aria-hidden="true">' + foot + '</div>';
+               '<div class="c-foot" aria-hidden="true">' + foot + '</div>' +
+               '<span class="c-link" aria-hidden="true" title="Drag onto another person to see how you are related"><i></i></span>';
     }
     function cardLabel(p) {
         var parts = [p.displayName];
@@ -486,6 +488,8 @@
     function apply() {
         el.world.style.transform = 'translate(' + S.tx + 'px,' + S.ty + 'px) scale(' + S.s + ')';
         el.zoomPct.textContent = Math.round(S.s * 100) + '%';
+        el.world.style.setProperty('--dz', clamp(0.8 / S.s, 1, 2.4).toFixed(3));
+        if (R.shown) { var s0 = dotAt(R.shown.a), s1 = dotAt(R.shown.b); R.sx = s0.x; R.sy = s0.y; R.ex = s1.x; R.ey = s1.y; drawRel(); positionRelPop(); }
         syncRail();
         drawMinimap();
     }
@@ -543,7 +547,7 @@
         var mid = (L1.x + M1.x + CW) / 2;
         S.s = s; S.tx = cx - mid * s; S.ty = a.top + 14 - (L.genY[0] - 8) * s; apply();
     }
-    function onResize() { syncHeader(); syncNarrow(); apply(); }
+    function onResize() { syncHeader(); syncNarrow(); apply(); positionRelPop(); }
 
     // =================================================================== CANVAS INTERACTION
     function bindCanvas() {
@@ -597,7 +601,9 @@
             if (left === 0) {
                 vp.classList.remove('is-panning');
                 if (!moved && e.type === 'pointerup') {
-                    if (downTarget) select(downTarget.dataset.id, { open: true, focus: true });
+                    if (R.pick) pickChoose(downTarget ? downTarget.dataset.id : null);
+                    else if (R.shown) { closeRelPop(false); if (downTarget) select(downTarget.dataset.id, { open: true, focus: true }); }
+                    else if (downTarget) select(downTarget.dataset.id, { open: true, focus: true });
                     else if (!S.downOnPill) clearSelection();
                 }
                 start = null; pinch = null; downTarget = null;
@@ -644,7 +650,9 @@
     }
 
     function hoverAt(e) {
+        if (R.on || R.shown) return;
         var c = e.target.closest ? e.target.closest('.card') : null;
+        if (R.pick) { pickHover(c ? c.dataset.id : null); return; }
         setHover(c ? c.dataset.id : null);
     }
     var hoverT = null;
@@ -729,22 +737,31 @@
     }
     function highlight(id) {
         var on = !!id;
+        paint(on ? lineageSet(id) : {}, on, null, id);
+    }
+    // light up a set of people and the connectors between them; with a path, only the links on that path
+    function paint(set, on, path, id) {
         el.app.classList.toggle('is-focus', on);
-        var set = on ? lineageSet(id) : {};
         Object.keys(cardEls).forEach(function (k) { cardEls[k].classList.toggle('is-hl', !!set[k]); });
+        var pairs = null;
+        if (path) { pairs = {}; for (var i = 1; i < path.length; i++) { pairs[path[i - 1].id + '|' + path[i].id] = pairs[path[i].id + '|' + path[i - 1].id] = true; } }
         var hlUnions = {};
         pathEls.forEach(function (pe) {
             if (pe.bar) return;
-            var hit = on && set[pe.child] && pe.union.partners.some(function (p) { return set[p]; });
+            var hit = on && set[pe.child] && pe.union.partners.some(function (p) { return set[p] && (!pairs || pairs[pe.child + '|' + p]); });
             pe.el.classList.toggle('ln--hl', !!hit);
             if (hit) { hlUnions[pe.union.id] = true; pe.el.parentNode.appendChild(pe.el); }
         });
         pathEls.forEach(function (pe) {
             if (!pe.bar) return;
-            var hit = on && (hlUnions[pe.union.id] || pe.union.partners.every(function (p) { return set[p]; }) && pe.union.partners.indexOf(id) >= 0);
+            var ps = pe.union.partners;
+            var hit = on && (hlUnions[pe.union.id] || (pairs ? ps.length > 1 && pairs[ps[0] + '|' + ps[1]] : ps.every(function (p) { return set[p]; }) && ps.indexOf(id) >= 0));
             pe.el.classList.toggle('ln--hl', !!hit);
         });
-        pillEls.forEach(function (pe) { pe.el.classList.toggle('pill--hl', on && (!!hlUnions[pe.union.id] || pe.union.partners.indexOf(id) >= 0)); });
+        pillEls.forEach(function (pe) {
+            var ps = pe.union.partners;
+            pe.el.classList.toggle('pill--hl', on && (!!hlUnions[pe.union.id] || (pairs ? ps.length > 1 && !!pairs[ps[0] + '|' + ps[1]] : ps.indexOf(id) >= 0)));
+        });
     }
 
     // =================================================================== SEARCH
@@ -817,6 +834,24 @@
             if (e.altKey || e.ctrlKey || e.metaKey) return;
             var onCard = t.closest && t.closest('.card');
             var inDrawer = !!(t.closest && t.closest('.tc-drawer'));
+            // compare mode: R on a card, arrows choose, Enter shows the relationship
+            if (R.on && e.key === 'Escape') { e.preventDefault(); endRelate(false); return; }
+            if (R.pick) {
+                if (e.key === 'Escape') { e.preventDefault(); var f = R.from; cancelPick(true); if (cardEls[f]) cardEls[f].focus({ preventScroll: true }); return; }
+                if (map[e.key]) {
+                    e.preventDefault();
+                    var cur = R.to || R.from, d2 = map[e.key];
+                    var nx = d2 === 'left' ? stepId(cur, -1) : d2 === 'right' ? stepId(cur, 1) : neighbor(cur, d2);
+                    if (nx === R.from) nx = d2 === 'left' ? stepId(nx, -1) : d2 === 'right' ? stepId(nx, 1) : neighbor(nx, d2);
+                    if (nx) { pickHover(nx); cardEls[nx].focus({ preventScroll: true }); ensureVisible(nx); el.live.textContent = D.byId[nx].displayName + ': ' + (relationship(R.from, nx) || 'no recorded link'); }
+                    return;
+                }
+                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (R.to) pickChoose(R.to); else if (onCard && onCard.dataset.id !== R.from) pickChoose(onCard.dataset.id); return; }
+                if (e.key === 'Tab') cancelPick(false);
+                return;
+            }
+            if (R.shown && e.key === 'Escape') { e.preventDefault(); closeRelPop(true); return; }
+            if (onCard && (e.key === 'r' || e.key === 'R')) { e.preventDefault(); startPick(onCard.dataset.id, true); return; }
             if (map[e.key] && (onCard || S.drawerFor)) {
                 // arrows always move through the tree: left and right in reading order, up to a parent, down to a child
                 e.preventDefault();
@@ -862,20 +897,32 @@
     }
 
     // =================================================================== RELATIONSHIPS (viewpoint)
+    // =================================================================== RELATIONSHIPS
     function ancestors(id) {
         var map = {}; map[id] = 0; var q = [[id, 0]];
         while (q.length) { var c = q.shift(); (D.byId[c[0]].parents || []).forEach(function (p) { if (!(p in map)) { map[p] = c[1] + 1; q.push([p, c[1] + 1]); } }); }
         return map;
     }
+    // nearest shared ancestors of a and b: m = generations up from a, n = from b
     function blood(a, b) {
         var A = ancestors(a), B = ancestors(b), best = null;
-        Object.keys(A).forEach(function (k) { if (k in B) { var s = A[k] + B[k]; if (!best || s < best.s) best = { m: A[k], n: B[k], s: s }; } });
+        Object.keys(A).forEach(function (k) {
+            if (!(k in B)) return;
+            var s = A[k] + B[k];
+            if (!best || s < best.s || (s === best.s && Math.abs(A[k] - B[k]) < Math.abs(best.m - best.n))) best = { m: A[k], n: B[k], s: s };
+        });
+        if (!best) return null;
+        best.commons = Object.keys(A).filter(function (k) { return k in B && A[k] === best.m && B[k] === best.n; })
+            .sort(function (x, y) { return (D.byId[x].sex === 'M' ? 0 : 1) - (D.byId[y].sex === 'M' ? 0 : 1); });
+        // half relations: one shared ancestor who had children by more than one partner
+        best.half = best.m > 0 && best.n > 0 && best.commons.length === 1 && (D.byId[best.commons[0]].spouses || []).length > 1;
         return best;
     }
     function ordinal(n) { var s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+    function word(p, m, f, n) { return p.sex === 'M' ? m : p.sex === 'F' ? f : n; }
     function label(m, n, sex) {
         var g = function (mw, fw, nw) { return sex === 'M' ? mw : sex === 'F' ? fw : nw; };
-        var greats = function (k) { return k <= 0 ? '' : k === 1 ? 'great-' : k === 2 ? 'great-great-' : k + '\u00d7 great-'; };
+        var greats = function (k) { return k <= 0 ? '' : k === 1 ? 'great-' : k === 2 ? 'great-great-' : k + '× great-'; };
         if (m === 0 && n === 0) return 'the same person';
         if (m === 0) return n === 1 ? g('son', 'daughter', 'child') : greats(n - 2) + g('grandson', 'granddaughter', 'grandchild');
         if (n === 0) return m === 1 ? g('father', 'mother', 'parent') : greats(m - 2) + g('grandfather', 'grandmother', 'grandparent');
@@ -885,16 +932,418 @@
         var deg = Math.min(m, n) - 1, rem = Math.abs(m - n);
         return ordinal(deg) + ' cousin' + (rem === 1 ? ' once removed' : rem === 2 ? ' twice removed' : rem > 2 ? ' ' + rem + ' times removed' : '');
     }
+    function halfify(lbl, b) {
+        if (!b.half) return lbl;
+        if (/cousin/.test(lbl)) return 'half ' + lbl;
+        return lbl.replace(/(aunt or uncle|niece or nephew|brother|sister|sibling|uncle|aunt|nephew|niece)$/, 'half-$1');
+    }
+    // What b is to a, with the reasoning behind it.
+    function relInfo(a, b) {
+        var A = D.byId[a], B = D.byId[b], r = { a: a, b: b, kind: 'none', label: null, commons: [], m: 0, n: 0, half: false, via: null };
+        if (a === b) { r.kind = 'self'; r.label = 'the same person'; return r; }
+        var sp = (A.spouses || []).filter(function (s) { return s.id === b; })[0];
+        if (sp) { r.kind = 'spouse'; r.label = ((A.spouses.length > 1) ? (sp.order === 1 ? 'first ' : 'second ') : '') + word(B, 'husband', 'wife', 'spouse'); return r; }
+        var x = blood(a, b);
+        if (x) { r.kind = 'blood'; r.m = x.m; r.n = x.n; r.commons = x.commons; r.half = x.half; r.label = halfify(label(x.m, x.n, B.sex), x); return r; }
+        // b married one of a's blood relatives
+        var hit = null;
+        (B.spouses || []).some(function (s) { var y = blood(a, s.id); if (y) { hit = { y: y, s: s.id }; return true; } return false; });
+        if (hit) {
+            var y = hit.y, S2 = D.byId[hit.s];
+            r.kind = 'inlaw'; r.via = hit.s; r.commons = y.commons;
+            if (y.m === 0 && y.n === 1) r.label = word(B, 'son-in-law', 'daughter-in-law', 'child-in-law');
+            else if (y.m === 1 && y.n === 1) r.label = word(B, 'brother-in-law', 'sister-in-law', 'sibling-in-law');
+            else if (y.m === 1 && y.n === 0) { r.label = word(B, 'stepfather', 'stepmother', 'step-parent'); r.kind = 'step'; }
+            else if (y.m === 2 && y.n === 0) { r.label = word(B, 'step-grandfather', 'step-grandmother', 'step-grandparent'); r.kind = 'step'; }
+            else r.label = halfify(label(y.m, y.n, S2.sex), y) + "'s " + word(B, 'husband', 'wife', 'spouse');
+            return r;
+        }
+        // b is a blood relative of a's husband or wife
+        (A.spouses || []).some(function (s) { var y = blood(s.id, b); if (y) { hit = { y: y, s: s.id }; return true; } return false; });
+        if (hit) {
+            var z = hit.y;
+            r.kind = 'inlaw'; r.via = hit.s; r.commons = z.commons;
+            if (z.m === 1 && z.n === 0) r.label = word(B, 'father-in-law', 'mother-in-law', 'parent-in-law');
+            else if (z.m === 1 && z.n === 1) r.label = word(B, 'brother-in-law', 'sister-in-law', 'sibling-in-law');
+            else if (z.m === 0 && z.n === 1) { r.label = word(B, 'stepson', 'stepdaughter', 'stepchild'); r.kind = 'step'; }
+            else if (z.m === 0 && z.n === 2) { r.label = word(B, 'step-grandson', 'step-granddaughter', 'step-grandchild'); r.kind = 'step'; }
+            else r.label = halfify(label(z.m, z.n, B.sex), z) + ' by marriage';
+            return r;
+        }
+        r.kind = relPath(a, b) ? 'marriage' : 'none';
+        r.label = r.kind === 'marriage' ? 'related by marriage' : null;
+        return r;
+    }
     function relationship(from, to) {
         if (!from || from === to) return null;
-        var p = D.byId[to];
-        if ((D.byId[from].spouses || []).some(function (s) { return s.id === to; })) return p.sex === 'M' ? 'husband' : p.sex === 'F' ? 'wife' : 'spouse';
-        var b = blood(from, to); if (b) return label(b.m, b.n, p.sex);
-        var r = null;
-        (p.spouses || []).some(function (s) { var x = blood(from, s.id); if (x) { r = label(x.m, x.n, D.byId[s.id].sex) + "'s " + (p.sex === 'M' ? 'husband' : p.sex === 'F' ? 'wife' : 'spouse'); return true; } return false; });
-        if (r) return r;
-        (D.byId[from].spouses || []).some(function (s) { var x = blood(s.id, to); if (x) { r = label(x.m, x.n, p.sex) + ' by marriage'; return true; } return false; });
-        return r || 'related by marriage';
+        return relInfo(from, to).label;
+    }
+    // Shortest chain through parents, children and marriages; confirmed links are preferred over uncertain ones.
+    function relPath(a, b) {
+        var dist = {}, prev = {}, done = {};
+        D.people.forEach(function (p) { dist[p.id] = Infinity; });
+        dist[a] = 0;
+        function pen(id) { var p = D.byId[id]; return (p.confidence === 'confirmed' ? 0 : 0.05) + (p.parentLinkConfidence && p.parentLinkConfidence !== 'confirmed' ? 0.05 : 0) + (p.isDirectLine ? 0 : 0.001); }
+        for (;;) {
+            var u = null, best = Infinity;
+            Object.keys(dist).forEach(function (k) { if (!done[k] && dist[k] < best) { best = dist[k]; u = k; } });
+            if (u === null || u === b) break;
+            done[u] = true;
+            var P = D.byId[u], nb = [];
+            (P.parents || []).forEach(function (x) { nb.push([x, 1, 'parent']); });
+            (P.children || []).forEach(function (x) { nb.push([x, 1, 'child']); });
+            (P.spouses || []).forEach(function (s) { nb.push([s.id, 1.25, 'spouse']); });
+            nb.forEach(function (e) {
+                if (!D.byId[e[0]]) return;
+                var d = dist[u] + e[1] + pen(e[0]);
+                if (d < dist[e[0]]) { dist[e[0]] = d; prev[e[0]] = { from: u, type: e[2] }; }
+            });
+        }
+        if (dist[b] === Infinity) return null;
+        var out = [{ id: b, type: prev[b] ? prev[b].type : null }], c = b;
+        while (prev[c]) { c = prev[c].from; out.unshift({ id: c, type: prev[c] ? prev[c].type : null }); }
+        out[0].type = null;
+        return out;
+    }
+    function relNotes(path, info) {
+        var notes = [];
+        if (!path) return notes;
+        for (var i = 1; i < path.length; i++) {
+            var u = D.byId[path[i - 1].id], v = D.byId[path[i].id], t = path[i].type;
+            var child = t === 'parent' ? u : t === 'child' ? v : null;
+            if (child && child.parentLinkConfidence && child.parentLinkConfidence !== 'confirmed') notes.push(child.displayName + "'s link to " + (child === u ? v : u).displayName + ' is ' + child.parentLinkConfidence + '.');
+        }
+        path.slice(1, -1).forEach(function (s) {
+            var p = D.byId[s.id];
+            if (p.placeholder) notes.push(p.displayName + ' is known only indirectly.');
+            else if (p.confidence === 'unverified') notes.push(p.displayName + ' is unverified.');
+        });
+        if (info && info.kind === 'blood' && info.commons.length === 1 && !info.half && info.m > 0 && info.n > 0) notes.push('Only one shared ancestor is recorded, so this could be a half relationship.');
+        return notes.filter(function (n, i, all) { return all.indexOf(n) === i; });
+    }
+    function shortName(p, other) {
+        if (p.placeholder) return p.displayName;
+        var q = p.displayName.match(/"([^"]+)"/);
+        var s = q ? q[1] : p.displayName.split(' ')[0];
+        if (other) { var o = other.displayName.match(/"([^"]+)"/); var os = o ? o[1] : other.displayName.split(' ')[0]; if (os === s) return p.displayName; }
+        return s;
+    }
+    function poss(s) { return s + (/s$/.test(s) ? "'" : "'s"); }
+
+    // =================================================================== RELATE: drag the dot on one card onto another
+    var R = { on: false, pick: false, from: null, to: null, pid: null, moved: false, dx: 0, dy: 0, px: 0, py: 0, sx: 0, sy: 0, ex: 0, ey: 0, raf: null, shown: null, path: null, info: null, kbd: null };
+    function dotAt(id) { var p = L.pos[id], o = 15 * clamp(0.8 / S.s, 1, 2.4); return { x: p.x + CW - o, y: p.y + CH - o }; }
+    function screenToWorld(cx, cy) { var r = el.viewport.getBoundingClientRect(); return { x: (cx - r.left - S.tx) / S.s, y: (cy - r.top - S.ty) / S.s }; }
+    function worldToScreen(wx, wy) { var r = el.viewport.getBoundingClientRect(); return { x: r.left + S.tx + wx * S.s, y: r.top + S.ty + wy * S.s }; }
+    function cardAt(w, pad) {
+        var best = null, bd = Infinity;
+        Object.keys(L.pos).forEach(function (id) {
+            var p = L.pos[id];
+            var dx = Math.max(p.x - w.x, 0, w.x - (p.x + CW)), dy = Math.max(p.y - w.y, 0, w.y - (p.y + CH));
+            var d = Math.hypot(dx, dy);
+            if (d <= pad && d < bd) { bd = d; best = id; }
+        });
+        return best;
+    }
+    function overCanvas(cx, cy) {
+        var n = document.elementFromPoint(cx, cy);
+        return !!(n && el.viewport.contains(n));
+    }
+    function bindRelate() {
+        if (window.ResizeObserver) new ResizeObserver(function () { positionRelPop(); }).observe(el.stage);
+        el.relLayer.setAttribute('width', L.width); el.relLayer.setAttribute('height', L.height);
+        el.relLayer.setAttribute('viewBox', '0 0 ' + L.width + ' ' + L.height);
+        el.cards.addEventListener('pointerdown', function (e) {
+            var dot = e.target.closest && e.target.closest('.c-link'); if (!dot) return;
+            if (e.pointerType === 'mouse' && e.button !== 0) return;
+            e.preventDefault(); e.stopPropagation();
+            startRelate(dot.closest('.card').dataset.id, e);
+            try { dot.setPointerCapture(e.pointerId); } catch (_) {}
+        });
+        document.addEventListener('pointermove', function (e) { if (R.on && e.pointerId === R.pid) { R.px = e.clientX; R.py = e.clientY; if (!R.moved && Math.hypot(R.px - R.dx, R.py - R.dy) > 6) { R.moved = true; el.app.classList.add('is-relating'); } } });
+        document.addEventListener('pointerup', function (e) { if (R.on && e.pointerId === R.pid) endRelate(true); });
+        document.addEventListener('pointercancel', function (e) { if (R.on && e.pointerId === R.pid) endRelate(false); });
+        window.addEventListener('blur', function () { if (R.on) endRelate(false); });
+        el.relPop.addEventListener('click', function (e) {
+            if (e.target.closest('[data-rel-close]')) { closeRelPop(true); return; }
+            var sw = e.target.closest('[data-rel-swap]'); if (sw) { showRelation(R.shown.b, R.shown.a, true); return; }
+            var go = e.target.closest('[data-person]'); if (go) { var id = go.dataset.person; select(id, { open: true, ensure: true }); }
+        });
+        el.relPop.addEventListener('keydown', function (e) { if (e.key === 'Escape') { e.stopPropagation(); closeRelPop(true); } });
+        el.relPop.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+    }
+    function startRelate(id, e) {
+        closeRelPop(false); cancelPick(false);
+        stopAnim(); hideTip(); clearTimeout(hoverT); S.hover = null;
+        R.on = true; R.pick = false; R.from = id; R.to = null; R.pid = e.pointerId; R.moved = false;
+        R.dx = R.px = e.clientX; R.dy = R.py = e.clientY;
+        var s = dotAt(id); R.sx = R.ex = s.x; R.sy = R.ey = s.y;
+        el.app.classList.remove('is-focus');
+        cardEls[id].classList.add('is-rel-a');
+        el.relLayer.classList.add('is-on'); el.relLayer.classList.remove('is-set');
+        bubble(null);
+        loop();
+    }
+    function loop() {
+        cancelAnimationFrame(R.raf);
+        R.raf = requestAnimationFrame(function step() {
+            if (!R.on && !R.pick) return;
+            if (R.on) {
+                autoPan();
+                var w = screenToWorld(R.px, R.py);
+                var t = R.moved && overCanvas(R.px, R.py) ? cardAt(w, 14 / S.s) : null;
+                if (t === R.from) t = null;
+                if (t !== R.to) setRelTarget(t);
+                var aim = R.to ? dotAt(R.to) : w;
+                var k = R.to ? 0.38 : 0.62;
+                R.ex += (aim.x - R.ex) * k; R.ey += (aim.y - R.ey) * k;
+                if (!R.moved) { R.ex = R.sx; R.ey = R.sy; }
+                drawRel();
+                moveBubble(R.px, R.py);
+            } else if (R.pick) {
+                var anchor = cardEls[R.to || R.from];
+                if (anchor) { var ar = anchor.getBoundingClientRect(); moveBubble(ar.right - 10, ar.bottom - 6); }
+            }
+            R.raf = requestAnimationFrame(step);
+        });
+    }
+    function autoPan() {
+        if (!R.moved) return;
+        var r = el.viewport.getBoundingClientRect(), edge = 64, vx = 0, vy = 0;
+        if (R.px < r.left - 40 || R.px > r.right + 40 || R.py < r.top - 40 || R.py > r.bottom + 40) return;
+        if (R.px < r.left + edge) vx = (r.left + edge - R.px);
+        else if (R.px > r.right - edge) vx = -(R.px - (r.right - edge));
+        if (R.py < r.top + edge + 40) vy = (r.top + edge + 40 - R.py);
+        else if (R.py > r.bottom - edge) vy = -(R.py - (r.bottom - edge));
+        if (!vx && !vy) return;
+        var sp = function (v) { var t = Math.min(1, Math.abs(v) / edge); return (v < 0 ? -1 : 1) * 26 * t * t; };
+        S.tx += sp(vx); S.ty += sp(vy); apply();
+    }
+    function drawRel() {
+        var sx = R.sx, sy = R.sy, ex = R.ex, ey = R.ey;
+        var dx = ex - sx, dy = ey - sy, len = Math.hypot(dx, dy) || 1;
+        var nx = -dy / len, ny = dx / len; if (ny > 0) { nx = -nx; ny = -ny; }
+        var bend = Math.min(len * 0.2, 150);
+        var cx = (sx + ex) / 2 + nx * bend, cy = (sy + ey) / 2 + ny * bend;
+        var d = 'M' + sx.toFixed(1) + ' ' + sy.toFixed(1) + 'Q' + cx.toFixed(1) + ' ' + cy.toFixed(1) + ' ' + ex.toFixed(1) + ' ' + ey.toFixed(1);
+        el.relLine.setAttribute('d', d); el.relGlow.setAttribute('d', d);
+        el.relGrad.setAttribute('x1', sx); el.relGrad.setAttribute('y1', sy); el.relGrad.setAttribute('x2', ex); el.relGrad.setAttribute('y2', ey);
+        var k = 1 / S.s;
+        el.relStart.setAttribute('cx', sx); el.relStart.setAttribute('cy', sy); el.relStart.setAttribute('r', (5.5 * Math.min(k, 2.4)).toFixed(2));
+        el.relEnd.setAttribute('cx', ex); el.relEnd.setAttribute('cy', ey); el.relEnd.setAttribute('r', ((R.to ? 7 : 5.5) * Math.min(k, 2.4)).toFixed(2));
+        el.relRing.setAttribute('cx', ex); el.relRing.setAttribute('cy', ey); el.relRing.setAttribute('r', (13 * Math.min(k, 2.4)).toFixed(2));
+        el.relLayer.classList.toggle('has-target', !!R.to);
+        el.relLayer.style.setProperty('--rk', Math.min(k, 2.4));
+    }
+    function setRelTarget(id) {
+        if (R.to && cardEls[R.to]) cardEls[R.to].classList.remove('is-rel-b');
+        R.to = id;
+        if (!id) { paint({}, false); clearRelPath(); bubble(null); return; }
+        cardEls[id].classList.add('is-rel-b');
+        var info = relInfo(R.from, id), path = relPath(R.from, id);
+        markRelPath(path);
+        bubble(info, id);
+        if (navigator.vibrate && R.moved && !R.kbd) { try { navigator.vibrate(6); } catch (_) {} }
+    }
+    function markRelPath(path) {
+        clearRelPath();
+        var set = {}; (path || []).forEach(function (s) { set[s.id] = true; });
+        set[R.from] = true; if (R.to) set[R.to] = true;
+        Object.keys(set).forEach(function (k) { cardEls[k].classList.add('is-rel-path'); });
+        paint(set, true, path);
+    }
+    function clearRelPath() { Object.keys(cardEls).forEach(function (k) { cardEls[k].classList.remove('is-rel-path'); }); }
+    function bubble(info, id) {
+        var b = el.relBubble;
+        if (!R.moved && !R.pick) { b.hidden = true; return; }
+        if (!info) {
+            b.innerHTML = '<span class="rb-hint">' + (R.pick ? 'Choose a person to compare with ' + esc(shortName(D.byId[R.from])) : 'Drop on a person') + '</span>';
+            b.classList.remove('has-rel');
+        } else {
+            var to = D.byId[id];
+            b.innerHTML = '<b>' + esc(to.displayName) + '</b><span>' + esc(info.label ? cap(info.label) : 'No recorded link') + '</span>';
+            b.classList.add('has-rel');
+        }
+        b.hidden = false;
+    }
+    function moveBubble(x, y) {
+        var b = el.relBubble; if (b.hidden) return;
+        var r = el.stage.getBoundingClientRect(), w = b.offsetWidth, h = b.offsetHeight;
+        var lx = x - r.left + 18, ly = y - r.top + 20;
+        if (lx + w > r.width - 8) lx = x - r.left - w - 18;
+        if (ly + h > r.height - 8) ly = y - r.top - h - 18;
+        b.style.transform = 'translate(' + Math.round(lx) + 'px,' + Math.round(ly) + 'px)';
+    }
+    function endRelate(commit) {
+        if (!R.on) return;
+        R.on = false;
+        var from = R.from, to = R.to;
+        if (commit && !R.moved) { startPick(from); return; }
+        if (commit && to) { showRelation(from, to); return; }
+        retract();
+    }
+    function retract() {
+        cancelAnimationFrame(R.raf);
+        var ex0 = R.ex, ey0 = R.ey, t0 = performance.now(), dur = reduced() ? 0 : 170;
+        el.relBubble.hidden = true;
+        if (R.to && cardEls[R.to]) cardEls[R.to].classList.remove('is-rel-b');
+        R.to = null; clearRelPath();
+        (function step(now) {
+            var t = dur ? Math.min(1, (now - t0) / dur) : 1, e = 1 - Math.pow(1 - t, 3);
+            R.ex = ex0 + (R.sx - ex0) * e; R.ey = ey0 + (R.sy - ey0) * e; drawRel();
+            if (t < 1) R.raf = requestAnimationFrame(step); else resetRelate();
+        })(t0);
+    }
+    function resetRelate() {
+        cancelAnimationFrame(R.raf);
+        R.on = false; R.pick = false; R.kbd = null;
+        if (R.from && cardEls[R.from]) cardEls[R.from].classList.remove('is-rel-a');
+        if (R.to && cardEls[R.to]) cardEls[R.to].classList.remove('is-rel-b');
+        R.from = null; R.to = null;
+        clearRelPath();
+        el.relLayer.classList.remove('is-on', 'is-set', 'has-target');
+        el.app.classList.remove('is-relating', 'is-rel-pick');
+        el.relBubble.hidden = true;
+        highlight(S.hover || S.sel);
+    }
+    // tap the dot (or press R) then choose a person: works with touch, mouse and keyboard
+    function startPick(id, viaKeyboard) {
+        closeRelPop(false);
+        if (!R.from || R.from !== id) { resetRelate(); R.from = id; var s = dotAt(id); R.sx = R.ex = s.x; R.sy = R.ey = s.y; cardEls[id].classList.add('is-rel-a'); }
+        R.pick = true; R.on = false; R.moved = false; R.kbd = viaKeyboard ? id : null;
+        el.app.classList.add('is-rel-pick'); el.relLayer.classList.add('is-on');
+        el.app.classList.remove('is-focus');
+        drawRel();
+        var r = cardEls[id].getBoundingClientRect();
+        R.px = r.right; R.py = r.bottom;
+        bubble(null); moveBubble(r.right, r.bottom);
+        loop();
+        el.live.textContent = 'Comparing from ' + D.byId[id].displayName + '. ' + (viaKeyboard ? 'Use the arrow keys to choose a person and press Enter. Escape cancels.' : 'Choose another person.');
+    }
+    function pickHover(id) {
+        if (!R.pick || id === R.from) id = R.pick ? null : id;
+        if (id === R.to) return;
+        setRelTarget(id);
+        var aim = id ? dotAt(id) : { x: R.sx, y: R.sy };
+        R.ex = aim.x; R.ey = aim.y; drawRel();
+        if (id) { var r = cardEls[id].getBoundingClientRect(); moveBubble(r.right - 10, r.bottom - 6); }
+    }
+    function pickChoose(id) {
+        if (!R.pick) return false;
+        if (!id || id === R.from) { cancelPick(true); return true; }
+        if (R.to !== id) pickHover(id);
+        showRelation(R.from, id);
+        return true;
+    }
+    function cancelPick(announce) {
+        if (!R.pick) return;
+        resetRelate();
+        if (announce) el.live.textContent = 'Comparison cancelled.';
+    }
+    function showRelation(a, b, swapped) {
+        cancelAnimationFrame(R.raf);
+        if (R.from && R.from !== a && cardEls[R.from]) cardEls[R.from].classList.remove('is-rel-a');
+        if (R.to && R.to !== b && cardEls[R.to]) cardEls[R.to].classList.remove('is-rel-b');
+        R.on = false; R.pick = false; R.from = a; R.to = b;
+        cardEls[a].classList.add('is-rel-a'); cardEls[b].classList.add('is-rel-b');
+        var s = dotAt(a), t = dotAt(b);
+        R.sx = s.x; R.sy = s.y; R.ex = t.x; R.ey = t.y;
+        el.app.classList.remove('is-rel-pick'); el.app.classList.add('is-relating');
+        el.relLayer.classList.add('is-on', 'is-set'); drawRel();
+        el.relBubble.hidden = true;
+        var info = relInfo(a, b), back = relInfo(b, a), path = relPath(a, b);
+        markRelPath(path);
+        R.shown = { a: a, b: b, info: info, path: path };
+        el.relPop.innerHTML = relPopHTML(info, back, path);
+        el.relPop.hidden = false; el.app.classList.add('has-relpop');
+        el.relPop.classList.remove('is-in'); void el.relPop.offsetWidth; el.relPop.classList.add('is-in');
+        positionRelPop();
+        ensureBoth(a, b);
+        var x = el.relPop.querySelector('[data-rel-close]');
+        if (R.kbd || swapped) x.focus({ preventScroll: true });
+        R.kbd = null;
+        el.live.textContent = relSentence(info) + '.';
+    }
+    function ensureBoth(a, b) {
+        var pa = L.pos[a], pb = L.pos[b], ar = safeArea(), st = el.stage.getBoundingClientRect(), vr = el.viewport.getBoundingClientRect();
+        var right = isMobile() ? ar.w - ar.right : Math.min(ar.w - ar.right, relDock().x - (vr.left - st.left) - 20);
+        var bottom = isMobile() ? Math.min(ar.h - ar.bottom, el.relPop.getBoundingClientRect().top - vr.top - 12) : ar.h - ar.bottom;
+        var minX = Math.min(pa.x, pb.x) - 24, maxX = Math.max(pa.x, pb.x) + CW + 24, minY = Math.min(pa.y, pb.y) - 24, maxY = Math.max(pa.y, pb.y) + CH + 24;
+        var x0 = minX * S.s + S.tx, x1 = maxX * S.s + S.tx, y0 = minY * S.s + S.ty, y1 = maxY * S.s + S.ty;
+        if (x0 >= ar.left && x1 <= right && y0 >= ar.top && y1 <= bottom) return;
+        var aw = right - ar.left, ah = bottom - ar.top;
+        var s = clamp(Math.min(aw / (maxX - minX), ah / (maxY - minY), Math.max(S.s, 0.45)), MIN_Z, MAX_Z);
+        var cx = ar.left + aw / 2, cy = ar.top + ah / 2;
+        animateTo(cx - (minX + maxX) / 2 * s, cy - (minY + maxY) / 2 * s, s, reduced() ? 0 : 380);
+    }
+    function relSentence(info) {
+        var A = D.byId[info.a], B = D.byId[info.b];
+        if (info.kind === 'none') return 'No recorded connection between ' + A.displayName + ' and ' + B.displayName + ' yet';
+        if (info.kind === 'marriage') return B.displayName + ' and ' + A.displayName + ' are related by marriage';
+        return B.displayName + ' is ' + poss(shortName(A, B)) + ' ' + info.label;
+    }
+    function relPopHTML(info, back, path) {
+        var A = D.byId[info.a], B = D.byId[info.b], an = shortName(A, B), bn = shortName(B, A);
+        function av(p) { return '<span class="rp-av' + (p.isLiving ? ' is-living' : '') + '" aria-hidden="true">' + (p.photo ? '<img src="' + esc(p.photo) + '" alt="">' : esc(initials(p))) + '</span>'; }
+        var main;
+        if (info.kind === 'none') main = '<p class="rp-main" id="relPopTitle">No recorded connection between <b>' + esc(an) + '</b> and <b>' + esc(bn) + '</b> yet.</p>';
+        else if (info.kind === 'marriage' && path && path.length === 3 && path[1].type === 'spouse' && path[2].type === 'spouse') main = '<p class="rp-main" id="relPopTitle"><b>' + esc(B.displayName) + '</b> and ' + esc(an) + ' were <em>both married to ' + esc(D.byId[path[1].id].displayName) + '</em>.</p>';
+        else if (info.kind === 'marriage') main = '<p class="rp-main" id="relPopTitle"><b>' + esc(B.displayName) + '</b> and ' + esc(an) + ' are <em>related by marriage</em>.</p>';
+        else main = '<p class="rp-main" id="relPopTitle"><b>' + esc(B.displayName) + '</b> is ' + esc(poss(an)) + ' <em>' + esc(info.label) + '</em>.</p>' +
+                    (back.label && back.kind !== 'marriage' ? '<p class="rp-rev">' + esc(an) + ' is ' + esc(poss(bn)) + ' ' + esc(back.label) + '.</p>' : '');
+        var anc = '';
+        if (info.kind === 'blood' && info.m > 0 && info.n > 0) {
+            var names = info.commons.map(function (id) { return '<button type="button" class="rp-link" data-person="' + esc(id) + '">' + esc(D.byId[id].displayName) + '</button>'; }).join(' and ');
+            var pl = info.commons.length > 1 ? 's' : '';
+            var term = function (k) { return (k === 1 ? 'parent' : k === 2 ? 'grandparent' : k === 3 ? 'great-grandparent' : (k - 2) + '\u00d7 great-grandparent') + pl; };
+            var how = info.m === info.n ? cap(term(info.m)) + ' of both' : cap(term(info.m)) + ' of ' + an + ', ' + term(info.n) + ' of ' + bn;
+            anc = '<div class="rp-anc"><span class="rp-k">' + (info.commons.length > 1 ? 'Shared ancestors' : 'Shared ancestor') + '</span>' + names +
+                  '<small>' + esc(how) + (info.half ? '. Different ' + (D.byId[info.commons[0]].sex === 'M' ? 'mothers' : 'fathers') + ', so a half relationship.' : '') + '</small></div>';
+        } else if (info.kind === 'blood') {
+            anc = '<div class="rp-anc"><small>' + esc(info.m === 0 ? bn + ' descends from ' + an + ', ' + info.n + ' generation' + (info.n > 1 ? 's' : '') + ' down' : an + ' descends from ' + bn + ', ' + info.m + ' generation' + (info.m > 1 ? 's' : '') + ' down') + '</small></div>';
+        } else if ((info.kind === 'inlaw' || info.kind === 'step') && info.via) {
+            anc = '<div class="rp-anc"><span class="rp-k">Through marriage</span><button type="button" class="rp-link" data-person="' + esc(info.via) + '">' + esc(D.byId[info.via].displayName) + '</button></div>';
+        }
+        var steps = '';
+        if (path && path.length > 1) {
+            steps = path.map(function (s, i) {
+                var p = D.byId[s.id], w = '';
+                if (i > 0) { var prevP = D.byId[path[i - 1].id]; w = s.type === 'parent' ? word(p, 'father', 'mother', 'parent') : s.type === 'child' ? word(p, 'son', 'daughter', 'child') : word(p, 'husband', 'wife', 'spouse'); w = poss(shortName(prevP)) + ' ' + w; }
+                return '<li class="' + (i === 0 || i === path.length - 1 ? 'is-end' : '') + '">' + (w ? '<span class="rp-w">' + esc(w) + '</span>' : '') +
+                       '<button type="button" data-person="' + esc(p.id) + '">' + av(p) + '<span>' + esc(p.displayName) + '</span></button></li>';
+            }).join('');
+            var n = path.length - 1;
+            steps = '<details class="rp-path"' + (n <= 6 ? ' open' : '') + '><summary>How they connect <span>' + n + ' step' + (n > 1 ? 's' : '') + '</span></summary><ol>' + steps + '</ol></details>';
+        }
+        var notes = relNotes(path, info);
+        if (info.kind === 'none') {
+            [A, B].forEach(function (p) { if (!(p.parents || []).length && !(p.children || []).length && !(p.spouses || []).length) notes.push(p.displayName + ' has no recorded parents, spouse or children on the tree yet.'); });
+        }
+        var nh = notes.length ? '<ul class="rp-notes">' + notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>' : '';
+        return '<div class="rp-head">' + av(A) + '<span class="rp-join" aria-hidden="true"></span>' + av(B) +
+               '<button type="button" class="rp-icon" data-rel-swap aria-label="Swap the direction" title="Swap the direction"><svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 7h11l-3-3M16 13H5l3 3"/></svg></button>' +
+               '<button type="button" class="rp-icon" data-rel-close aria-label="Close" title="Close (Esc)"><svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg></button></div>' +
+               main + anc + steps + nh;
+    }
+    // desktop: the card docks to the right of the canvas and the two people are kept in view beside it
+    function relDock() {
+        var st = el.stage.getBoundingClientRect(), w = Math.min(360, st.width - 24);
+        var top = el.app.classList.contains('is-narrow') ? 64 : 136;
+        return { x: st.width - w - 14, y: top, w: w };
+    }
+    function positionRelPop() {
+        if (!R.shown || el.relPop.hidden) return;
+        if (isMobile()) { el.relPop.style.transform = ''; return; }
+        var d = relDock();
+        el.relPop.style.transform = 'translate(' + Math.round(d.x) + 'px,' + Math.round(d.y) + 'px)';
+    }
+    function closeRelPop(restoreFocus) {
+        if (!R.shown) return;
+        var b = R.shown.b;
+        R.shown = null;
+        el.relPop.hidden = true; el.relPop.innerHTML = ''; el.app.classList.remove('has-relpop');
+        resetRelate();
+        if (restoreFocus && cardEls[b]) cardEls[b].focus({ preventScroll: true });
     }
     function setupViewpoint() {
         var sel = el.viewpoint;
@@ -1352,5 +1801,5 @@
     }
 
     // expose for tests
-    window.__tree = { L: L, D: D, S: S, select: select, centerOn: centerOn, fitView: fitView, CW: CW, CH: CH };
+    window.__tree = { L: L, D: D, S: S, R: R, select: select, centerOn: centerOn, fitView: fitView, relInfo: relInfo, relPath: relPath, showRelation: showRelation, CW: CW, CH: CH };
 })();
