@@ -149,11 +149,11 @@ const ok = (m) => console.log('  ok   ' + m);
             const routeErrs = [];
             for (const p of people) {
                 await page.evaluate(id => { location.hash = '#/person/' + id; }, p.id);
-                await page.waitForFunction(id => { const h = document.getElementById('pfName'); return h && !document.getElementById('profile').hidden && window.__tree.S.profileFor === id; }, p.id, { timeout: 4000 }).catch(() => routeErrs.push(p.id + ' did not open'));
+                await page.waitForFunction(id => { const d = document.getElementById('drawer'); return !d.hidden && d.classList.contains('is-expanded') && window.__tree.S.drawerFor === id && document.querySelector('#drawerBody .pf-name'); }, p.id, { timeout: 4000 }).catch(() => routeErrs.push(p.id + ' did not open'));
                 const r = await page.evaluate(name => {
-                    const h = document.getElementById('pfName');
-                    const imgs = Array.from(document.querySelectorAll('#pfArticle img')).filter(i => !i.closest('.c-av, .ch-av') && !i.getAttribute('alt'));
-                    const dead = Array.from(document.querySelectorAll('#pfArticle [data-scroll]')).filter(a => !document.getElementById(a.dataset.scroll)).map(a => a.dataset.scroll);
+                    const h = document.querySelector('#drawerBody .pf-name');
+                    const imgs = Array.from(document.querySelectorAll('#drawerBody img')).filter(i => !i.closest('.c-av, .ch-av') && !i.getAttribute('alt'));
+                    const dead = Array.from(document.querySelectorAll('#drawerBody [data-scroll]')).filter(a => !document.getElementById(a.dataset.scroll)).map(a => a.dataset.scroll);
                     return { name: h && h.textContent, noalt: imgs.length, dead };
                 }, p.displayName);
                 if (r.name !== p.displayName) routeErrs.push(`${p.id}: heading "${r.name}"`);
@@ -161,15 +161,50 @@ const ok = (m) => console.log('  ok   ' + m);
                 if (r.dead.length) routeErrs.push(`${p.id}: footnote targets missing ${r.dead.join(',')}`);
             }
             await page.evaluate(() => { history.pushState('', '', location.pathname); dispatchEvent(new HashChangeEvent('hashchange')); });
-            if (routeErrs.length) routeErrs.forEach(e => fail('route: ' + e)); else ok(`all ${people.length} #/person/ routes open the right profile`);
+            if (routeErrs.length) routeErrs.forEach(e => fail('route: ' + e)); else ok(`all ${people.length} #/person/ routes open the full story in the expanded panel`);
 
             // lightbox opens with alt text and a transcription where one exists
             await page.evaluate(() => { location.hash = '#/person/leonardantonio-belfiore'; });
-            await page.waitForTimeout(300);
+            await page.waitForTimeout(400);
             await page.click('#pf-docs .gallery button');
             await page.waitForTimeout(300);
             const lb = await page.evaluate(() => ({ open: !document.getElementById('lightbox').hidden, alt: document.getElementById('lbImg').alt, text: (document.querySelector('.lb-text') || {}).textContent || '' }));
             if (!lb.open || !lb.alt || !/Lionardantonio/.test(lb.text)) fail('lightbox did not show the marriage act with its transcription'); else ok('lightbox shows the scan with alt text and the transcription');
+            await page.keyboard.press('Escape');
+        }
+
+        // the panel: story button always visible, expands in place, arrows and prev/next move through the tree
+        {
+            await page.keyboard.press('Escape'); await page.keyboard.press('Escape');
+            await page.evaluate(() => window.__tree.select('sammy-belfore', { open: true, center: true }));
+            await page.waitForTimeout(400);
+            const errsP = [];
+            const vis = await page.evaluate(() => { const b = document.getElementById('drRead').getBoundingClientRect(), d = document.getElementById('drawer').getBoundingClientRect(); return b.height > 30 && b.top >= d.top && b.bottom <= Math.min(d.bottom, innerHeight) + 1; });
+            if (!vis) errsP.push('read button not visible at the bottom of the panel');
+            await page.evaluate(() => { document.getElementById('drawerBody').scrollTop = 99999; });
+            const vis2 = await page.evaluate(() => { const b = document.getElementById('drRead').getBoundingClientRect(); return b.bottom <= innerHeight + 1 && b.height > 30; });
+            if (!vis2) errsP.push('read button scrolls away');
+            const href0 = page.url();
+            await page.click('#drRead'); await page.waitForTimeout(450);
+            const ex = await page.evaluate(() => ({ exp: document.getElementById('drawer').classList.contains('is-expanded'), w: document.getElementById('drawer').getBoundingClientRect().width, vw: innerWidth, name: (document.querySelector('#drawerBody .pf-name') || {}).textContent, path: location.pathname }));
+            if (!ex.exp || ex.name !== 'Sammy Belfore') errsP.push('read button did not expand the panel with the full story');
+            if (w > 900 && ex.w < ex.vw * 0.7) errsP.push(`expanded panel only ${Math.round(ex.w)}px of ${ex.vw}px`);
+            if (new URL(href0).pathname !== ex.path) errsP.push('expanding changed the page');
+            await page.keyboard.press('ArrowRight'); await page.waitForTimeout(250);
+            const r1 = await page.evaluate(() => window.__tree.S.drawerFor);
+            const want = await page.evaluate(() => { const o = window.__tree.L.order; return o[o.indexOf('sammy-belfore') + 1]; });
+            if (r1 !== want) errsP.push(`right arrow went to ${r1}, expected ${want}`);
+            await page.click('#drPrev'); await page.waitForTimeout(250);
+            if (await page.evaluate(() => window.__tree.S.drawerFor) !== 'sammy-belfore') errsP.push('previous button did not return to Sammy');
+            await page.keyboard.press('ArrowUp'); await page.waitForTimeout(250);
+            const up = await page.evaluate(() => window.__tree.S.drawerFor);
+            if (up !== 'leonardantonio-belfiore' && up !== 'maria-donata-circelli') errsP.push(`up arrow went to ${up}, expected a parent`);
+            const still = await page.evaluate(() => document.getElementById('drawer').classList.contains('is-expanded'));
+            if (!still) errsP.push('panel collapsed while moving between people');
+            await page.keyboard.press('Escape'); await page.waitForTimeout(200);
+            const col = await page.evaluate(() => ({ exp: document.getElementById('drawer').classList.contains('is-expanded'), open: !document.getElementById('drawer').hidden, hash: location.hash }));
+            if (col.exp || !col.open || col.hash) errsP.push('Escape should return to the summary and clear the hash');
+            if (errsP.length) errsP.forEach(e => fail(`${w}px panel: ${e}`)); else ok(`${w}px: story button stays visible, expands in place, arrows and previous/next work`);
             await page.keyboard.press('Escape');
         }
 
@@ -180,7 +215,8 @@ const ok = (m) => console.log('  ok   ' + m);
             await page.screenshot({ path: path.join(SHOTS, `drawer-${w}.png`) });
             await page.evaluate(() => { location.hash = '#/person/michael-belfiore'; });
             await page.waitForTimeout(700);
-            await page.screenshot({ path: path.join(SHOTS, `profile-${w}.png`) });
+            await page.waitForTimeout(400);
+            await page.screenshot({ path: path.join(SHOTS, `expanded-${w}.png`) });
         }
         await ctx.close();
     }
