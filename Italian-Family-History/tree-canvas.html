@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="tree-canvas.css?v=5">
+    <link rel="stylesheet" href="tree-canvas.css?v=6">
 </head>
 <body class="canvas-body">
 <a class="skip-link" href="#treeHelp">Skip to the family tree</a>
@@ -100,24 +100,35 @@
     </section>
 
     <aside class="tc-drawer" id="drawer" aria-labelledby="drawerName" hidden>
-        <button class="tc-drawer-close" id="drawerClose" type="button" aria-label="Close person details">
-            <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg>
-        </button>
         <div class="tc-drawer-grip" aria-hidden="true"></div>
-        <div class="tc-drawer-body" id="drawerBody"></div>
+        <div class="dr-bar">
+            <button class="dr-step dr-step--prev" id="drPrev" type="button">
+                <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M12 4l-6 6 6 6"/></svg>
+                <span class="dr-step-txt"><small>Previous</small><b id="drPrevName"></b></span>
+            </button>
+            <span class="dr-pos" id="drPos" aria-hidden="true"></span>
+            <button class="dr-step dr-step--next" id="drNext" type="button">
+                <span class="dr-step-txt"><small>Next</small><b id="drNextName"></b></span>
+                <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4l6 6-6 6"/></svg>
+            </button>
+            <button class="dr-icon" id="drExpand" type="button" aria-controls="drawer" aria-expanded="false" aria-label="Expand to the full story">
+                <svg class="i i-grow" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 3H3v5M3 3l6 6M12 17h5v-5M17 17l-6-6"/></svg>
+                <svg class="i i-shrink" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 9h5V4M9 9L3 3M16 11h-5v5M11 11l6 6"/></svg>
+            </button>
+            <button class="dr-icon" id="drawerClose" type="button" aria-label="Close person details">
+                <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg>
+            </button>
+        </div>
+        <div class="tc-drawer-body" id="drawerBody" tabindex="-1"></div>
+        <div class="dr-foot">
+            <button type="button" class="dr-cta" id="drRead" aria-controls="drawer" aria-expanded="false">
+                <span id="drReadTxt">Read full story</span>
+                <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4l6 6-6 6"/></svg>
+            </button>
+            <p class="dr-keys" aria-hidden="true"><kbd>&larr;</kbd><kbd>&rarr;</kbd> previous / next <span class="sep">&middot;</span> <kbd>&uarr;</kbd><kbd>&darr;</kbd> parent / child <span class="sep">&middot;</span> <kbd>Esc</kbd> <span id="drEscTxt">close</span></p>
+        </div>
     </aside>
 </main>
-
-<div class="pf" id="profile" role="dialog" aria-modal="true" aria-labelledby="pfName" hidden>
-    <div class="pf-bar">
-        <button class="pf-back" id="pfBack" type="button"><svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M12 4l-6 6 6 6"/></svg><span>Back to the tree</span></button>
-        <div class="pf-nav">
-            <button class="pf-step" id="pfPrev" type="button"><svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M12 4l-6 6 6 6"/></svg><span id="pfPrevName">Previous</span></button>
-            <button class="pf-step" id="pfNext" type="button"><span id="pfNextName">Next</span><svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4l6 6-6 6"/></svg></button>
-        </div>
-    </div>
-    <div class="pf-scroll" id="pfScroll"><article class="pf-article" id="pfArticle"></article></div>
-</div>
 
 <div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbTitle" hidden>
     <div class="lb-top">
@@ -137,7 +148,7 @@
     <div class="lb-strip" id="lbStrip"></div>
 </div>
 
-<script src="tree-canvas.js?v=5"></script>
+<script src="tree-canvas.js?v=6"></script>
 <script>
     (function () {
         var t = document.getElementById('navToggle'), l = document.getElementById('navLinks');

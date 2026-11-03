@@ -27,7 +27,8 @@
     // ------------------------------------------------------------ state
     var D = { people: [], byId: {}, sources: {}, meta: {} };
     var L = { pos: {}, blocks: [], unions: [], rows: {}, width: 0, height: 0, kinBox: null, order: [] };
-    var S = { tx: 0, ty: 0, s: 1, sel: null, hover: null, viewpoint: null, anim: null, drawerFor: null, profileFor: null, cameFromTree: false };
+    var S = { tx: 0, ty: 0, s: 1, sel: null, hover: null, viewpoint: null, anim: null, drawerFor: null, expanded: false };
+    var BASE_TITLE = 'Interactive Family Tree: Belfiore & Circelli';
     var el = {};
     var cardEls = {};
     var pathEls = [];   // {el, union, child, bar}
@@ -85,7 +86,7 @@
     function boot() {
         ['stage', 'viewport', 'world', 'bands', 'links', 'linksTop', 'cards', 'genrail', 'zoomOut', 'zoomIn', 'zoomPct', 'fit', 'centerSel',
          'keyToggle', 'legend', 'minimap', 'tip', 'live', 'search', 'searchResults', 'viewpoint', 'drawer', 'drawerBody', 'drawerClose',
-         'profile', 'pfArticle', 'pfScroll', 'pfBack', 'pfPrev', 'pfNext', 'pfPrevName', 'pfNextName',
+         'drPrev', 'drNext', 'drPrevName', 'drNextName', 'drPos', 'drExpand', 'drRead', 'drReadTxt', 'drEscTxt',
          'lightbox', 'lbImg', 'lbStage', 'lbSide', 'lbStrip', 'lbTitle', 'lbIn', 'lbOut', 'lbReset', 'lbOpen', 'lbClose'].forEach(function (k) { el[k] = $(k); });
         el.app = $('app');
         Promise.all([fetch('data/people.json').then(function (r) { return r.json(); }), fetch('data/sources.json').then(function (r) { return r.json(); })])
@@ -116,7 +117,6 @@
         bindSearch();
         bindKeys();
         bindDrawer();
-        bindProfile();
         bindLightbox();
         syncNarrow();
         initialView();
@@ -807,42 +807,51 @@
         var row = L.rows[p.generation], i = row.indexOf(id);
         return row[i + (dir === 'left' ? -1 : 1)];
     }
+    function stepId(id, d) { var i = L.order.indexOf(id); return i < 0 ? null : L.order[i + d] || null; }
     function bindKeys() {
+        var map = { ArrowUp: 'up', ArrowDown: 'down', ArrowLeft: 'left', ArrowRight: 'right' };
         document.addEventListener('keydown', function (e) {
             if (!el.lightbox.hidden) return lbKeys(e);
-            if (!el.profile.hidden) {
-                if (e.key === 'Escape') { e.preventDefault(); closeProfileNav(); }
-                else if (e.key === 'Tab') trapFocus(e, el.profile);
-                return;
-            }
             var t = e.target, tag = (t.tagName || '').toLowerCase();
-            if (tag === 'input' || tag === 'select' || tag === 'textarea') return;
+            if (tag === 'input' || tag === 'select' || tag === 'textarea' || t.isContentEditable) return;
+            if (e.altKey || e.ctrlKey || e.metaKey) return;
             var onCard = t.closest && t.closest('.card');
-            var map = { ArrowUp: 'up', ArrowDown: 'down', ArrowLeft: 'left', ArrowRight: 'right' };
-            if (onCard && map[e.key]) {
+            var inDrawer = !!(t.closest && t.closest('.tc-drawer'));
+            if (map[e.key] && (onCard || S.drawerFor)) {
+                // arrows always move through the tree: left and right in reading order, up to a parent, down to a child
                 e.preventDefault();
-                var n = neighbor(onCard.dataset.id, map[e.key]);
-                if (n) { select(n, { open: !!S.drawerFor, focus: true, ensure: true }); }
+                var from = onCard ? onCard.dataset.id : S.drawerFor;
+                var dir = map[e.key];
+                var n = dir === 'left' ? stepId(from, -1) : dir === 'right' ? stepId(from, 1) : neighbor(from, dir);
+                if (n) { select(n, { open: !!S.drawerFor, focus: !!onCard || !inDrawer, ensure: true }); if (inDrawer) keepDrawerFocus(); }
+                else nudge(dir);
                 return;
             }
             if (onCard && (e.key === 'Enter' || e.key === ' ')) {
                 e.preventDefault();
                 var id = onCard.dataset.id;
-                if (S.drawerFor === id && e.key === 'Enter') openProfile(id); else select(id, { open: true, focus: true });
+                if (S.drawerFor === id && e.key === 'Enter') setExpanded(true, true); else select(id, { open: true, focus: true });
                 return;
             }
             if (e.key === 'Escape') {
                 if (!el.legend.hidden) { el.legend.hidden = true; el.keyToggle.setAttribute('aria-expanded', 'false'); return; }
+                if (S.expanded) { setExpanded(false, false); el.drRead.focus({ preventScroll: true }); return; }
                 if (S.drawerFor) { var was = S.sel; closeDrawer(); if (was && cardEls[was]) cardEls[was].focus({ preventScroll: true }); return; }
                 if (S.sel) clearSelection();
                 return;
             }
-            if (t.closest && (t.closest('.tc-drawer'))) return;
+            if (inDrawer) return;
             var r = el.viewport.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height / 2;
             if (e.key === '+' || e.key === '=') zoomAt(cx, cy, S.s * 1.2, true);
             else if (e.key === '-' || e.key === '_') zoomAt(cx, cy, S.s / 1.2, true);
             else if (e.key === '0') fitView(true);
         });
+    }
+    function nudge(dir) {
+        var b = dir === 'left' ? el.drPrev : dir === 'right' ? el.drNext : null;
+        var msg = { left: 'This is the first person in the tree.', right: 'This is the last person in the tree.', up: 'No parents recorded.', down: 'No children recorded.' }[dir];
+        el.live.textContent = msg;
+        if (b && !el.drawer.hidden) { b.classList.remove('is-bump'); void b.offsetWidth; b.classList.add('is-bump'); }
     }
     function trapFocus(e, root) {
         var f = Array.prototype.filter.call(root.querySelectorAll('a[href], button:not([disabled]), [tabindex="0"], input, select'), function (n) { return n.offsetParent !== null; });
@@ -905,25 +914,104 @@
     // =================================================================== DRAWER
     function bindDrawer() {
         el.drawerClose.addEventListener('click', function () { var was = S.sel; closeDrawer(); if (was && cardEls[was]) cardEls[was].focus({ preventScroll: true }); });
+        el.drRead.addEventListener('click', function () { setExpanded(!S.expanded, true); });
+        el.drExpand.addEventListener('click', function () { setExpanded(!S.expanded, true); });
+        el.drPrev.addEventListener('click', function () { var n = stepId(S.drawerFor, -1); if (n) select(n, { open: true, ensure: true }); });
+        el.drNext.addEventListener('click', function () { var n = stepId(S.drawerFor, 1); if (n) select(n, { open: true, ensure: true }); });
         el.drawerBody.addEventListener('click', function (e) {
-            var go = e.target.closest('[data-go]'); if (go) { select(go.dataset.go, { open: true, center: true, focus: false }); return; }
-            var m = e.target.closest('[data-media]'); if (m) { openLightbox(S.drawerFor, +m.dataset.media, m); return; }
-            var r = e.target.closest('[data-read]'); if (r) { openProfile(r.dataset.read); }
+            var sc = e.target.closest('[data-scroll]');
+            if (sc) {
+                e.preventDefault();
+                var tg = document.getElementById(sc.dataset.scroll);
+                if (tg) { tg.scrollIntoView({ behavior: reduced() ? 'auto' : 'smooth', block: 'start' }); tg.setAttribute('tabindex', '-1'); tg.focus({ preventScroll: true }); }
+                return;
+            }
+            var go = e.target.closest('[data-go], [data-person]');
+            if (go) { e.preventDefault(); select(go.dataset.go || go.dataset.person, { open: true, center: true }); keepDrawerFocus(); return; }
+            var m = e.target.closest('[data-media]'); if (m) { openLightbox(S.drawerFor, +m.dataset.media, m); }
         });
+        var tick = false;
+        el.drawerBody.addEventListener('scroll', function () { if (!tick && S.expanded) { tick = true; requestAnimationFrame(function () { tick = false; spy(); }); } }, { passive: true });
     }
     function openDrawer(id) {
+        var same = S.drawerFor === id;
         S.drawerFor = id;
         renderDrawer(id);
         if (el.drawer.hidden) { el.drawer.hidden = false; }
         syncNarrow();
-        el.drawerBody.scrollTop = 0;
+        if (!same) el.drawerBody.scrollTop = 0;
+        syncHash();
         drawMinimap(); syncRail();
     }
     function closeDrawer() {
         if (el.drawer.hidden) return;
-        el.drawer.hidden = true; S.drawerFor = null; syncNarrow();
+        if (S.expanded) setExpanded(false, false, true);
+        el.drawer.hidden = true; S.drawerFor = null; syncNarrow(); syncHash();
         if (S.sel && cardEls[S.sel]) cardEls[S.sel].classList.remove('is-selected');
         S.sel = null; highlight(S.hover); drawMinimap();
+        setTimeout(afterResize, 0);
+    }
+    function setExpanded(on, moveFocus, quiet) {
+        on = !!on;
+        var changed = on !== S.expanded;
+        S.expanded = on;
+        el.drawer.classList.toggle('is-expanded', on);
+        el.app.classList.toggle('is-expanded', on);
+        document.body.classList.toggle('dr-expanded', on);
+        el.drRead.setAttribute('aria-expanded', String(on));
+        el.drExpand.setAttribute('aria-expanded', String(on));
+        el.drExpand.setAttribute('aria-label', on ? 'Collapse to the summary' : 'Expand to the full story');
+        el.drExpand.title = on ? 'Collapse to the summary' : 'Expand to the full story';
+        el.drReadTxt.textContent = on ? 'Back to summary' : 'Read full story';
+        el.drEscTxt.textContent = on ? 'summary' : 'close';
+        if (quiet) return;
+        if (S.drawerFor) { renderDrawer(S.drawerFor); el.drawerBody.scrollTop = 0; }
+        syncHash();
+        if (changed) setTimeout(afterResize, reduced() ? 0 : 320);
+        if (moveFocus) {
+            if (on) { var h = $('drawerName'); if (h) h.focus({ preventScroll: true }); }
+            else el.drRead.focus({ preventScroll: true });
+        }
+        el.live.textContent = on ? 'Showing the full story.' : 'Showing the summary.';
+    }
+    function keepDrawerFocus() {
+        // the panel content is re-rendered; keep keyboard focus inside the panel instead of dropping it to the page
+        if (!el.drawer.contains(document.activeElement)) el.drawerBody.focus({ preventScroll: true });
+    }
+    function afterResize() {
+        syncNarrow(); apply();
+        if (S.sel && L.pos[S.sel]) centerOn(S.sel, S.s);
+    }
+    function syncHash() {
+        var want = S.expanded && S.drawerFor ? '#/person/' + S.drawerFor : '';
+        if ((location.hash || '') !== want) {
+            try { history.replaceState(null, '', location.pathname + location.search + want); } catch (err) { /* file:// */ }
+        }
+        document.title = S.drawerFor && S.expanded ? D.byId[S.drawerFor].displayName + ' · Belfiore & Circelli' : BASE_TITLE;
+    }
+    function syncBar(id) {
+        var i = L.order.indexOf(id), prev = L.order[i - 1], next = L.order[i + 1];
+        [[el.drPrev, el.drPrevName, prev, 'Previous'], [el.drNext, el.drNextName, next, 'Next']].forEach(function (x) {
+            var btn = x[0], q = x[2] ? D.byId[x[2]] : null;
+            btn.disabled = !q;
+            x[1].textContent = q ? q.displayName : (x[3] === 'Previous' ? 'Start of the tree' : 'End of the tree');
+            btn.setAttribute('aria-label', q ? x[3] + ' person: ' + q.displayName : 'No ' + x[3].toLowerCase() + ' person');
+            btn.title = q ? x[3] + ': ' + q.displayName + ' (' + (x[3] === 'Previous' ? 'Left' : 'Right') + ' arrow)' : '';
+        });
+        el.drPos.textContent = (i + 1) + ' of ' + L.order.length;
+        el.drPos.title = 'Position in the tree, read generation by generation, left to right';
+    }
+    function spy() {
+        var b = el.drawerBody, toc = b.querySelector('.pf-toc'); if (!toc) return;
+        var line = b.getBoundingClientRect().top + toc.offsetHeight + 24, cur = null;
+        b.querySelectorAll('.pf-sec').forEach(function (sec) { if (sec.getBoundingClientRect().top <= line) cur = sec.id; });
+        if (b.scrollTop + b.clientHeight >= b.scrollHeight - 4) { var all = b.querySelectorAll('.pf-sec'); if (all.length) cur = all[all.length - 1].id; }
+        toc.querySelectorAll('a').forEach(function (a) {
+            var on = a.dataset.scroll === cur;
+            a.classList.toggle('is-current', on);
+            if (on) { a.setAttribute('aria-current', 'location'); var l = a.offsetLeft - 16; if (l < toc.scrollLeft || a.offsetLeft + a.offsetWidth > toc.scrollLeft + toc.clientWidth) toc.scrollLeft = l; }
+            else a.removeAttribute('aria-current');
+        });
     }
     function monoHTML(p, cls) { return '<div class="mono' + (p.isLiving ? ' is-living' : '') + (cls ? ' ' + cls : '') + '" aria-hidden="true">' + esc(initials(p)) + '</div>'; }
     function famList(p) {
@@ -942,6 +1030,12 @@
     function chipAv(p) { return '<span class="ch-av" aria-hidden="true">' + (p.photo ? '<img src="' + esc(p.photo) + '" alt="">' : esc(initials(p))) + '</span>'; }
     function renderDrawer(id) {
         var p = D.byId[id];
+        syncBar(id);
+        if (S.expanded) {
+            el.drawerBody.innerHTML = '<article class="pf-article dr-article">' + profileHTML(p) + '</article>';
+            spy();
+            return;
+        }
         var hero = p.portrait ? '<div class="dr-hero"><img src="' + esc(p.portrait) + '" alt="Portrait of ' + esc(p.displayName) + '"></div>'
                  : p.photo ? '<div class="dr-hero is-mono"><div class="mono mono--photo"><img src="' + esc(p.photo) + '" alt="Portrait of ' + esc(p.displayName) + '"></div></div>'
                  : '<div class="dr-hero is-mono">' + monoHTML(p) + '</div>';
@@ -973,9 +1067,7 @@
             '<p class="dr-summary">' + esc(p.summary) + '</p>' +
             (media ? '<div class="dr-sec"><h3>Records and photographs</h3><div class="strip">' + media + '</div></div>' : '') +
             (fam ? '<div class="dr-sec"><h3>Family</h3><div class="chips">' + fam + '</div></div>' : '') +
-            '<button type="button" class="dr-cta" data-read="' + esc(p.id) + '">Read full story<svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 4l6 6-6 6"/></svg></button>' +
             '</div>';
-        el.drawer.setAttribute('aria-label', p.displayName);
     }
     function genLabel(g) { var x = (D.meta.generations || []).filter(function (r) { return r.generation === g; })[0]; return x ? x.label : String(g + 1); }
     function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
@@ -989,61 +1081,21 @@
         return m[1];
     }
 
-    // =================================================================== ROUTER + PROFILE
+    // =================================================================== ROUTER
+    // #/person/<id> opens that person's full story in the expanded panel. The panel keeps the hash in step with replaceState.
     function route() {
         var m = location.hash.match(/^#\/person\/([a-z0-9\-]+)/);
         if (m && D.byId[m[1]]) {
-            if (S.profileFor && S.profileFor !== m[1]) S.depth = (S.depth || 0) + 1;
-            showProfile(m[1]);
-            if (S.sel !== m[1]) select(m[1], { open: true, ensure: false });
-            centerOn(m[1], Math.max(S.s, 0.7), false);
-        } else if (S.profileFor) {
-            hideProfile();
+            var id = m[1];
+            if (!S.expanded) setExpanded(true, false, true);
+            if (S.sel !== id) select(id, { open: true, ensure: false }); else openDrawer(id);
+            el.drawerBody.scrollTop = 0;
+            var h = $('drawerName'); if (h) h.focus({ preventScroll: true });
+            setTimeout(afterResize, 0);
+        } else if (S.expanded) {
+            setExpanded(false, false);
         }
     }
-    function openProfile(id) {
-        S.cameFromTree = true; S.depth = 0;
-        location.hash = '#/person/' + id;
-    }
-    function closeProfileNav() {
-        if (S.cameFromTree) { var n = (S.depth || 0) + 1; S.cameFromTree = false; S.depth = 0; history.go(-n); }
-        else { history.pushState('', document.title, location.pathname + location.search); route(); }
-    }
-    function bindProfile() {
-        el.pfBack.addEventListener('click', closeProfileNav);
-        el.pfPrev.addEventListener('click', function () { if (el.pfPrev.dataset.id) location.hash = '#/person/' + el.pfPrev.dataset.id; });
-        el.pfNext.addEventListener('click', function () { if (el.pfNext.dataset.id) location.hash = '#/person/' + el.pfNext.dataset.id; });
-        el.pfArticle.addEventListener('click', function (e) {
-            var sc = e.target.closest('[data-scroll]');
-            if (sc) { e.preventDefault(); var t = $(sc.dataset.scroll); if (t) { t.scrollIntoView({ behavior: reduced() ? 'auto' : 'smooth', block: 'start' }); t.setAttribute('tabindex', '-1'); t.focus({ preventScroll: true }); } return; }
-            var go = e.target.closest('[data-person]'); if (go) { e.preventDefault(); location.hash = '#/person/' + go.dataset.person; return; }
-            var m = e.target.closest('[data-media]'); if (m) { openLightbox(S.profileFor, +m.dataset.media, m); }
-        });
-    }
-    function hideProfile() {
-        el.profile.hidden = true; document.body.classList.remove('pf-open');
-        document.title = 'Interactive Family Tree: Belfiore & Circelli';
-        var id = S.profileFor; S.profileFor = null;
-        if (id && cardEls[id]) { select(id, { open: true, ensure: true }); cardEls[id].focus({ preventScroll: true }); }
-    }
-    function showProfile(id) {
-        var p = D.byId[id];
-        S.profileFor = id;
-        el.pfArticle.innerHTML = profileHTML(p);
-        var i = L.order.indexOf(id), prev = L.order[i - 1], next = L.order[i + 1];
-        setStep(el.pfPrev, el.pfPrevName, prev, 'Previous');
-        setStep(el.pfNext, el.pfNextName, next, 'Next');
-        el.profile.hidden = false; document.body.classList.add('pf-open');
-        el.pfScroll.scrollTop = 0;
-        document.title = p.displayName + ' · Belfiore & Circelli';
-        var h = $('pfName'); if (h) h.focus({ preventScroll: true });
-    }
-    function setStep(btn, span, id, word) {
-        btn.disabled = !id; btn.dataset.id = id || '';
-        span.textContent = id ? D.byId[id].displayName : word;
-        btn.setAttribute('aria-label', id ? word + ' profile: ' + D.byId[id].displayName : 'No ' + word.toLowerCase() + ' profile');
-    }
-
     // ---- markdown with footnotes
     function sourceNumbers(p) {
         var order = [], seen = {};
@@ -1080,7 +1132,7 @@
         var out = [], list = null;
         String(text || '').split(/\n\s*\n/).forEach(function (block) {
             block = block.trim(); if (!block) return;
-            if (/^## /.test(block)) { out.push('<h3>' + inline(block.slice(3), num) + '</h3>'); return; }
+            if (/^## /.test(block)) { out.push('<h4>' + inline(block.slice(3), num) + '</h4>'); return; }
             if (/^- /m.test(block) && block.split('\n').every(function (l) { return /^- /.test(l.trim()) || !l.trim(); })) {
                 out.push('<ul>' + block.split('\n').filter(function (l) { return l.trim(); }).map(function (l) { return '<li>' + inline(l.trim().slice(2), num) + '</li>'; }).join('') + '</ul>');
                 return;
@@ -1164,7 +1216,7 @@
             groups.forEach(function (g) {
                 var items = fam.filter(function (f) { return g[1].indexOf(f.rel.split(' ')[0]) >= 0; });
                 if (!items.length) return;
-                fh += '<h3>' + g[0] + '</h3>' + items.map(function (f) {
+                fh += '<h4>' + g[0] + '</h4>' + items.map(function (f) {
                     var q = byId[f.id];
                     return '<button type="button" class="fam-card" data-person="' + esc(q.id) + '"><span class="c-av" aria-hidden="true">' + (q.photo ? '<img src="' + esc(q.photo) + '" alt="">' : esc(initials(q))) + '</span><span><b>' + esc(q.displayName) + '</b><small>' + esc(cap(f.rel)) + (lifeLine(q) ? ' · ' + esc(lifeLine(q)) : '') + '</small></span></button>';
                 }).join('');
@@ -1194,14 +1246,14 @@
 
         return '<header class="pf-hero">' + hero + '<div>' +
                '<p class="pf-kicker">' + (p.isDirectLine ? "Seb's direct line" : 'Belfiore & Circelli family') + '</p>' +
-               '<h1 class="pf-name" id="pfName" tabindex="-1">' + esc(p.displayName) + '</h1>' +
+               '<h2 class="pf-name" id="drawerName" tabindex="-1">' + esc(p.displayName) + '</h2>' +
                (p.disambiguator ? '<p class="pf-dis">' + esc(p.disambiguator) + '</p>' : '') +
                (dates ? '<div class="pf-dates">' + dates + '</div>' : '') +
                (variants.length ? '<p class="pf-variants"><b>Also recorded as</b> ' + esc(variants.map(function (v) { return v.name; }).join(' · ')) + '</p>' : '') +
                (rel ? '<p class="pf-variants"><b>Relationship to ' + esc(vp.givenNames || vp.displayName) + ':</b> ' + esc(rel) + '</p>' : '') +
                '<div class="pf-badges">' + badges + '</div>' +
                '</div></header>' + toc +
-               secs.map(function (s) { return '<section class="pf-sec" id="' + s[0] + '" aria-labelledby="' + s[0] + '-h"><h2 id="' + s[0] + '-h">' + esc(s[1]) + '</h2>' + s[2] + '</section>'; }).join('') +
+               secs.map(function (s) { return '<section class="pf-sec" id="' + s[0] + '" aria-labelledby="' + s[0] + '-h"><h3 id="' + s[0] + '-h">' + esc(s[1]) + '</h3>' + s[2] + '</section>'; }).join('') +
                foot;
     }
 
