@@ -1349,6 +1349,192 @@
    "date": "1963-10-25",
    "note": "Index entry (AI-extracted): died 21 Oct 1963, Grosse Pointe Farms; wife Ruth; sons David and Jeff.",
    "url": "https://www.ancestry.com/search/collections/61843/records/532690558"
+  },
+  {
+   "id": "hennessy-baptism-1874",
+   "title": "Catholic parish baptism: Patrick Hennessy, 12 April 1874, Conahy, County Kilkenny",
+   "type": "church record",
+   "repository": "National Library of Ireland, Catholic Parish Registers, via Ancestry.com collection 61039, record 4170697",
+   "date": "1874-04-12",
+   "note": "Baptised 12 April 1874 at Conahy (Connahy), diocese of Ossory. Father Patrick Hennessy, mother Kate Brennan. A probable match: the same parents are named on the 1914 marriage.",
+   "file": "images/hennessy-baptism-1874-patrick.jpg",
+   "url": "https://www.ancestry.com/search/collections/61039/records/4170697"
+  },
+  {
+   "id": "hennessy-naturalization-1905",
+   "title": "Declaration of intention: Patrick Hennessy, 15 September 1905, New York",
+   "type": "naturalization",
+   "repository": "National Archives, New York naturalization records, via Ancestry.com collection 2280, record 639832",
+   "date": "1905-09-15",
+   "note": "Declaration age 31, born about 1874 in County Kilkenny (written Co Kilkermy), arrived New York 11 January 1894. The petition index (Ancestry collection 7733, record 630427) gives naturalization on 18 October 1905 in the Supreme Court of New York County, volume 291, record 7. Probable, not certain, that this is the Premium Point chauffeur.",
+   "file": "images/hennessy-naturalization-1905.jpg",
+   "url": "https://www.ancestry.com/search/collections/2280/records/639832"
+  },
+  {
+   "id": "hennessy-census-1905",
+   "title": "1905 New York state census, New Rochelle Ward 1: Patrick Hennessy, wife Mary, and three sons",
+   "type": "census",
+   "repository": "New York State census, via Ancestry.com collection 7364, record 3329116",
+   "date": "1905-06-01",
+   "note": "Patrick Hennessy, 29, born Ireland; wife Mary, 31; Joseph 6, Thomas (indexed 15, which does not fit the later censuses), Henry 3. No image was saved. This is the record of his first wife Mary.",
+   "url": "https://www.ancestry.com/search/collections/7364/records/3329116"
+  },
+  {
+   "id": "hennessy-census-1910",
+   "title": "1910 U.S. census, New Rochelle Ward 1: Patrick T. Henning, widower, Premium Point",
+   "type": "census",
+   "repository": "1910 U.S. census, New Rochelle Ward 1, ED 82, sheet 12A; Ancestry.com collection 7884, record 20224321",
+   "date": "1910-04",
+   "note": "Indexed as Patrick T. Henning, with an alternate reading Hennessy. Age 26 (too young for a man born in 1874), born Ireland, immigrated 1893, widowed, naturalized, occupation written like hostler or washman, Premium Point. Sons Joseph 12, Thomas 10, Henry 8. The identification rests on those sons and on the 1914 marriage. Probable.",
+   "file": "images/hennessy-census-1910.jpg",
+   "url": "https://www.ancestry.com/search/collections/7884/records/20224321"
+  },
+  {
+   "id": "hennessy-census-1915",
+   "title": "1915 New York state census, New Rochelle Ward 1: Patrick J. Hennasy and his sons",
+   "type": "census",
+   "repository": "1915 New York state census, New Rochelle Ward 1, house 109; Ancestry.com collection 2703, record 13431007",
+   "date": "1915-06-01",
+   "note": "Patrick J. Hennasy, 38, born Ireland, 20 years in the United States; wife Anna, 28; sons Joseph 16, Thomas 15, Henry 13, John 9, and James, two months. The older boys are the sons of his first marriage.",
+   "file": "images/hennessy-census-1915.jpg",
+   "url": "https://www.ancestry.com/search/collections/2703/records/13431007"
+  },
+  {
+   "id": "hennessy-marriage-1914",
+   "title": "Westchester marriage record: Patrick Joseph Hennessy and Anna Marie Hussey, 17 June 1914",
+   "type": "marriage record",
+   "repository": "New York County marriage records 1907 to 1936, via Ancestry.com collection 61377, record 900257202",
+   "date": "1914-06-17",
+   "note": "Anna Marie Hussey, 27, born about 1887; father James Hussey, mother Marie Dunn. Patrick Joseph Hennessy, 37; father Patrick Hennessy, mother Kate Brennan. Marriage place recorded as Westchester, New York. The index does not name a church.",
+   "file": "images/hussey-marriage-1914.jpg",
+   "url": "https://www.ancestry.com/search/collections/61377/records/900257202"
+  },
+  {
+   "id": "hennessy-census-1920",
+   "title": "1920 U.S. census, New Rochelle Ward 1: Patrick Hennesey, 101 Huguenot Street",
+   "type": "census",
+   "repository": "1920 U.S. census, New Rochelle Ward 1, ED 109, sheet 6A; NARA T625 roll 1278; Ancestry.com collection 6061, record 87602439",
+   "date": "1920-01",
+   "note": "Patrick Hennesey, 42, born Ireland, immigrated 1894, naturalized, native tongue Irish, chauffeur for a private family. Owned 101 Huguenot Street, mortgaged. Wife Mamie, 31; James 4; Cathrine 1; also Thomas 21 and John 14, listed as sons.",
+   "file": "images/hennessy-census-1920.jpg",
+   "url": "https://www.ancestry.com/search/collections/6061/records/87602439"
+  },
+  {
+   "id": "hennessy-census-1925",
+   "title": "1925 New York state census, New Rochelle Ward 1: Patrick Hennessy in Sidney Williams's household",
+   "type": "census",
+   "repository": "1925 New York state census, New Rochelle Ward 1, house 260; Ancestry.com collection 2704, record 17307625",
+   "date": "1925-06-01",
+   "note": "Patrick Hennessy, chauffeur, house number 260, living in the household of his employer Sidney Williams. Wife Annie, 38; James 10, Jack 20, Katherine 6, Francis 5, Anna 2. Dorothy is not in the household.",
+   "file": "images/hennessy-census-1925.jpg",
+   "url": "https://www.ancestry.com/search/collections/2704/records/17307625"
+  },
+  {
+   "id": "hennessy-census-1930",
+   "title": "1930 U.S. census, New Rochelle: Patrick Hennessey, 3 Fair Oaks, Premium Point",
+   "type": "census",
+   "repository": "1930 U.S. census, New Rochelle, ED 246, sheet 16B; Ancestry.com collection 6224, record 46944667",
+   "date": "1930-04",
+   "note": "Patrick Hennessey, 52, born Irish Free State, immigrated 1890, naturalized, chauffeur, 3 Fair Oaks, Premium Point. Age at first marriage 21. Wife Annie M., 43, born New York. The index lists Dorothy, 8, as a granddaughter.",
+   "file": "images/hennessy-census-1930.jpg",
+   "url": "https://www.ancestry.com/search/collections/6224/records/46944667"
+  },
+  {
+   "id": "hennessy-census-1930-image",
+   "title": "1930 census sheet, 3 Fair Oaks: Dorothy written as granddaughter, age 8",
+   "type": "census",
+   "repository": "1930 U.S. census, New Rochelle, ED 246, sheet 16B, dwelling 274, family 304; Ancestry image 4638877_00233",
+   "date": "1930-04",
+   "note": "The handwritten line reads Dorothy, relation G-Daughter, age 8, born New York, father born New York, mother born New York. Patrick's own children list an Irish-born father. She is the last person in the household.",
+   "file": "images/hennessy-census-1930-household.jpg",
+   "url": "https://www.ancestry.com/imageviewer/collections/6224/images/4638877_00233?pid=46944667"
+  },
+  {
+   "id": "hennessy-census-1940",
+   "title": "1940 U.S. census, New Rochelle: Patrick Hennessey, Premium Point",
+   "type": "census",
+   "repository": "1940 U.S. census, New Rochelle, ED 60-202, sheet 6B; Ancestry.com collection 2442, record 13362072",
+   "date": "1940-04",
+   "note": "Patrick Hennessey, 63, born Irish Free State, naturalized, chauffeur, Premium Point, rented. Annie, 53, born New York. Dorothy, 18, is indexed as a grandchild.",
+   "file": "images/hennessy-census-1940.jpg",
+   "url": "https://www.ancestry.com/search/collections/2442/records/13362072"
+  },
+  {
+   "id": "hennessy-census-1940-image",
+   "title": "1940 census sheet, Premium Point: Dorothy written as grandchild, age 18",
+   "type": "census",
+   "repository": "1940 U.S. census, New Rochelle, ED 60-202, sheet 6B; Ancestry image m-t0627-02809-00018",
+   "date": "1940-04",
+   "note": "Dorothy, relation grand child, age 18, born New York, listed last in Patrick and Annie's household.",
+   "file": "images/hennessy-census-1940-household.jpg",
+   "url": "https://www.ancestry.com/imageviewer/collections/2442/images/m-t0627-02809-00018?pid=13362072"
+  },
+  {
+   "id": "hussey-census-1900",
+   "title": "1900 U.S. census, Mamaroneck: Annie Marie Hussey on Dean Street",
+   "type": "census",
+   "repository": "1900 U.S. census, Mamaroneck, Westchester County; Ancestry.com collection 7602, record 67964922",
+   "date": "1900-06",
+   "note": "Annie Marie Hussey, birth year given as 1886, New York, on Dean Street. Mother Maria Hussey, head, born Ireland. Siblings Theodore, Mary Ellen, Sizzie (Lizzie), and Frank. The indexed age and the 1886 birth year do not agree; the 1914 marriage age fits a birth about 1886 or 1887.",
+   "file": "images/hussey-census-1900.jpg",
+   "url": "https://www.ancestry.com/search/collections/7602/records/67964922"
+  },
+  {
+   "id": "hussey-census-1910",
+   "title": "1910 U.S. census, New Rochelle Ward 2: Annie Hussy, grocery bookkeeper",
+   "type": "census",
+   "repository": "1910 U.S. census, New Rochelle Ward 2; Ancestry.com collection 7884, record 20226845",
+   "date": "1910-04",
+   "note": "Annie Hussy, 23, born New York, parents born Ireland, bookkeeper in a grocery, Cleveland Avenue, in the household of Frank J. Chapman. An aunt, Annie Dunne, 71, is in the house.",
+   "file": "images/hussey-census-1910.jpg",
+   "url": "https://www.ancestry.com/search/collections/7884/records/20226845"
+  },
+  {
+   "id": "hennessy-marriage-announcement-1946",
+   "title": "Standard-Star marriage notices: Miss Dorothy Eleanore Hennessy and Joseph Belfiore, May 1946",
+   "type": "newspaper",
+   "repository": "The Standard-Star, New Rochelle, via Ancestry Newspapers.com Marriage Index, collection 62116",
+   "date": "1946-05",
+   "note": "18 May 1946 notice (record 982161926): Miss Dorothy Eleanore Hennessy to Joseph Belfiore, father Patrick J. Hennessy. A 10 May 1946 notice (record 668024932) gives her residence as Premium Point. A 15 May 1945 engagement notice names P. J. Hennessy. The index is machine-read and can garble a name.",
+   "file": "images/hennessy-marriage-1946-patrick.jpg",
+   "url": "https://www.ancestry.com/search/collections/62116/records/982161926"
+  },
+  {
+   "id": "hennessy-marriage-index-joseph-p",
+   "title": "A second 1946 marriage-index line naming Joseph P. Hennessy as Dorothy's father",
+   "type": "newspaper index",
+   "repository": "Ancestry Newspapers.com Marriage Index, collection 62116, record 948716524",
+   "date": "1946-05-18",
+   "note": "The same day's index gives a residence on Clove Road and a father Joseph P. Hennessy, with siblings whose names look like a misreading of Francis and Joseph. Not used as her father. Shown because the records disagree.",
+   "file": "images/hennessy-marriage-1946-joseph-p.jpg",
+   "url": "https://www.ancestry.com/search/collections/62116/records/948716524"
+  },
+  {
+   "id": "hennessy-marriage-index-1946",
+   "title": "New York State marriage index: Dorothy E. Hennessy, 12 May 1946, New Rochelle, certificate 23239",
+   "type": "marriage index",
+   "repository": "New York State marriage index, via Ancestry.com collection 61632, record 6229028",
+   "date": "1946-05-12",
+   "note": "Dorothy E. Hennessy married 12 May 1946 in New Rochelle, certificate 23239. The newspaper notice says 19 May. No image was saved.",
+   "url": "https://www.ancestry.com/search/collections/61632/records/6229028"
+  },
+  {
+   "id": "hennessy-wwi-draft",
+   "title": "World War I draft card: Patrick Joseph Hennessy, born 18 April 1877",
+   "type": "draft card",
+   "repository": "Ancestry.com collection 6482, record 8491713",
+   "date": "1917",
+   "note": "A Patrick Joseph Hennessy, born 18 April 1877, of 87 Huguenot Street, New Rochelle, spouse written Inna. The birthday does not match the 1874 baptism. Kept as an unresolved other reading, not as his birth date. No image was saved.",
+   "url": "https://www.ancestry.com/search/collections/6482/records/8491713"
+  },
+  {
+   "id": "hennessy-thomas-1930",
+   "title": "1930 U.S. census, New Rochelle: Thomas S. Hennessy, lawyer, no children",
+   "type": "census",
+   "repository": "1930 U.S. census, New Rochelle; Ancestry.com collection 6224, record 46967753",
+   "date": "1930-04",
+   "note": "Thomas S. Hennessy, born about 1900 in New York, a lawyer, wife Margaret S., 27, no children in the household, parents born in Ireland. He had married at about 30. He is not Dorothy's father. No image was saved.",
+   "url": "https://www.ancestry.com/search/collections/6224/records/46967753"
   }
  ]
 }

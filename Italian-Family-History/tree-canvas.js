@@ -74,7 +74,20 @@
         if (d) return 'd. ' + d;
         return 'Dates unknown';
     }
-    function photoOf(p) { return p.photo || null; }
+    function photoOf(p) {
+        if (p.isLiving) return p.photo || null;
+        if (p.photo) return p.photo;
+        var list = (p.media || []).filter(function (m) { return m.thumb || m.file; });
+        if (!list.length) return null;
+        function rank(m) {
+            var c = ((m.type || '') + ' ' + (m.caption || '')).toLowerCase();
+            if (m.type === 'photo' || c.indexOf('portrait') >= 0 || c.indexOf('photograph') >= 0) return 0;
+            if (c.indexOf('gravestone') >= 0 || c.indexOf('headstone') >= 0) return 1;
+            return 2;
+        }
+        list.sort(function (a, b) { return rank(a) - rank(b); });
+        return list[0].thumb || list[0].file;
+    }
     function hasDocs(p) { return (p.media || []).some(function (m) { return m.type === 'document' || m.type === 'clipping'; }); }
     function hasPhoto(p) { return !!p.photo || (p.media || []).some(function (m) { return m.type === 'photo'; }); }
     function hasStory(p) { return (p.story || '').length > 700; }
