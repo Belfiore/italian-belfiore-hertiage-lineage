@@ -3003,7 +3003,16 @@
    "surname": "Belfiore",
    "sex": "F",
    "generation": 4,
-   "nameVariants": [],
+   "nameVariants": [
+    {
+     "name": "Dorothy Florence Racine",
+     "note": "married name; 2004 obituary index and Social Security records",
+     "sourceIds": [
+      "obit-index-dorothy-racine-2004",
+      "numident-dorothy-racine"
+     ]
+    }
+   ],
    "confidence": "probable",
    "birth": {
     "date": "1913",
@@ -3024,7 +3033,17 @@
      }
     ]
    },
-   "death": null,
+   "death": {
+    "date": "2004-09-25",
+    "dateQualifier": "exact",
+    "display": "Sep 25, 2004",
+    "place": "Morris Township, New Jersey",
+    "sourceIds": [
+     "obit-index-dorothy-racine-2004",
+     "numident-dorothy-racine"
+    ],
+    "confidence": "probable"
+   },
    "residences": [
     {
      "place": "Bridgeport, Connecticut",
@@ -3060,7 +3079,7 @@
    "immigration": null,
    "cardPlace": "Bridgeport, CT (1918)",
    "summary": "Named as Michael's child on his 1918 draft card, living at 216 Hamilton Street, Bridgeport. Not the same person as Dorothy Hennessey Belfiore, Seb's grandmother.",
-   "story": "Everything known about this Dorothy comes from one line. On September 12, 1918, her father Michael named \"(Child) Dorothy Belfiore\", of 216 Hamilton Street, Bridgeport, Connecticut, as his nearest relative.[^ww1-michael] Family knowledge holds that she was the daughter of Michael's first marriage.[^family-knowledge]\n\nShe is easy to confuse with another Dorothy Belfiore: Dorothy Hennessey, who married Michael's son Joseph and is Seb's grandmother. They are different women, a generation apart.\n\n## What happened to her?\n\nShe has not been found in any later record. Earlier versions of this site suggested she died in the 1918 influenza epidemic, which did reach Bridgeport within two weeks of Michael's registration.[^ctx-flu-ct] That is possible, but nothing yet supports it. Her absence from Michael's household in 1940 means little, because by then she would have been an adult and may have married. She may also have been raised by her mother's family in Bridgeport.\n\nHer birth year is not known. Earlier versions of the tree showed about 1914, without a source, and the card here keeps that estimate with a question mark.\n\nUpdate, November 2026. Dorothy did grow up. In April 1930 she was seventeen and living with her father, her stepmother Frances and her little half-brothers Edward and Joseph in New Rochelle, working as a manicurist in a beauty shop. The census says she was born in New York about 1913, and that her mother, too, was born in New York.[^census-1930-michael] Where she lived in 1918 is still a question; her aunt Phyl's family had been in Bridgeport in 1910, and it is possible she stayed with relatives there.[^census-1910-paternostro]\n\nUpdate, November 2026. Her father's 1918 draft card placed her at 216 Hamilton Street, Bridgeport; by 1930 she was at home with him at 52 Brook Street, New Rochelle.[^ww1-michael][^census-1930-michael]",
+   "story": "Everything known about this Dorothy comes from one line. On September 12, 1918, her father Michael named \"(Child) Dorothy Belfiore\", of 216 Hamilton Street, Bridgeport, Connecticut, as his nearest relative.[^ww1-michael] Family knowledge holds that she was the daughter of Michael's first marriage.[^family-knowledge]\n\nShe is easy to confuse with another Dorothy Belfiore: Dorothy Hennessey, who married Michael's son Joseph and is Seb's grandmother. They are different women, a generation apart.\n\n## What happened to her?\n\nShe has not been found in any later record. Earlier versions of this site suggested she died in the 1918 influenza epidemic, which did reach Bridgeport within two weeks of Michael's registration.[^ctx-flu-ct] That is possible, but nothing yet supports it. Her absence from Michael's household in 1940 means little, because by then she would have been an adult and may have married. She may also have been raised by her mother's family in Bridgeport.\n\nHer birth year is not known. Earlier versions of the tree showed about 1914, without a source, and the card here keeps that estimate with a question mark.\n\nUpdate, November 2026. Dorothy did grow up. In April 1930 she was seventeen and living with her father, her stepmother Frances and her little half-brothers Edward and Joseph in New Rochelle, working as a manicurist in a beauty shop. The census says she was born in New York about 1913, and that her mother, too, was born in New York.[^census-1930-michael] Where she lived in 1918 is still a question; her aunt Phyl's family had been in Bridgeport in 1910, and it is possible she stayed with relatives there.[^census-1910-paternostro]\n\nUpdate, November 2026. Her father's 1918 draft card placed her at 216 Hamilton Street, Bridgeport; by 1930 she was at home with him at 52 Brook Street, New Rochelle.[^ww1-michael][^census-1930-michael]\n\nDorothy did not die young. As Dorothy Florence Racine she lived to 91. Social Security records give her birth as 1 February 1913, which fits the 1930 census, and a 2004 obituary index names her maiden name Belfiore and her birthplace New Rochelle.[^numident-dorothy-racine][^obit-index-dorothy-racine-2004] She married Joseph Anton Racine, and their son Joseph Francis Michael Racine, probably named in part for her father Michael, was born in Port Chester in 1940 and grew up in Yonkers, where Dorothy's aunt Mary D'Onofrio's family lived.[^obit-joseph-racine-2024] Dorothy died on 25 September 2004 in Morris Township, New Jersey, near her son's home, and was buried in the Bronx.[^obit-index-dorothy-racine-2004]",
    "timeline": [
     {
      "date": "1918-09-12",
@@ -3148,8 +3167,23 @@
     "michael-belfiore",
     "first-wife-of-michael"
    ],
-   "children": [],
-   "spouses": [],
+   "children": [
+    "joseph-f-racine"
+   ],
+   "spouses": [
+    {
+     "id": "joseph-anton-racine",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "confirmed",
    "order": 10,
    "isDirectLine": false,
@@ -3622,6 +3656,14 @@
      "sourceIds": [
       "family-knowledge"
      ]
+    },
+    {
+     "name": "Dorothy Hennessy",
+     "note": "spelling used in her sisters' and brother's obituaries",
+     "sourceIds": [
+      "obit-patricia-dillon-2021",
+      "obit-anne-latino-2024"
+     ]
     }
    ],
    "confidence": "probable",
@@ -3642,7 +3684,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle area",
    "summary": "Joseph's wife and Seb's grandmother, remembered as Irish-American. Not the same person as Dorothy Belfiore of Bridgeport, Michael's daughter.",
-   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nNo document about her is in this collection yet, so her dates and places are not shown.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]",
+   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nNo document about her is in this collection yet, so her dates and places are not shown.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nDorothy was one of seven children of Patrick Hennessy and Annie Hussey of New Rochelle: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Her sister Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [
     {
@@ -3697,7 +3739,10 @@
     }
    ],
    "relatedPages": [],
-   "parents": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
    "children": [
     "robert-belfiore",
     "william-belfiore",
@@ -4229,7 +4274,7 @@
    "photo": "images/thumbs/avatar-joe.jpg",
    "portrait": "images/thumbs/portrait-joe.jpg",
    "summary": "Head professional at the Country Club of Detroit for many years, author of Golfing Aids (1940), and by earlier research a two-time Michigan PGA champion. Not to be confused with his nephew Joseph, Seb's grandfather.",
-   "story": "In 1940 the professional at the Country Club of Detroit published a slim green booklet of lessons, priced at twenty-five cents. The title page reads Golfing Aids, by Joe Belfore, Professional, Country Club of Detroit. One surviving copy is signed \"Sincerely, Joe Belfore, Detroit, Michigan, April 4, 1940\", beside a photograph of the author in a white shirt and tie, his chin resting on his hand. It opens with the grip and stance, and its pages show him demonstrating the drive and a fairway wood.[^golfing-aids-1940] That copy came from the PGA REACH collection and was sold in 2025 with a letter of provenance signed by Bob Denney, the PGA of America's historian emeritus.[^pga-reach-letter-2025]\n\nJoe was one of three Belfiore brothers from New Rochelle who became golf professionals, at a time when most professionals and club makers in America were from abroad, \"usually Scotch\", as Sammy's obituary put it.[^standard-star-obit] Like Sammy, he wrote the name Belfore.\n\n## Florida winters, Michigan summers\n\nIn January 1929 he was working as a professional at Daytona Highlands in Florida, the same club as Sammy. At a tournament at Mount Plymouth that month, his pairing finished on 150, level with Sammy's.[^dbnj-1929-01-07] Like many northern club professionals, he seems to have worked in Florida for the winter season.\n\nHis main post was the Country Club of Detroit in Grosse Pointe Farms, Michigan, where he was head professional and ran the golf shop.[^golfing-aids-1940][^ccd-minutes-1963] Earlier research, drawing on the Michigan PGA's centennial history, records that he won the Michigan PGA championship in 1933 and 1937 and served as president of the Michigan PGA in 1959 and 1960. The same research found him in the field for the 1927 Metropolitan Open with Walter Hagen and Gene Sarazen, and in Golfdom magazine in January 1934.[^mipga-centennial][^nyt-1927][^golfdom-1934-01] In May 1948 the Daytona Beach papers reported that he had qualified for the PGA tournament at St. Louis.[^dbmj-1948-05-21]\n\n## 1963\n\nJoe died in 1963 after a long illness. On October 29 the club's Board of Governors set up a committee to find a professional \"for the position of Golf Professional left vacant by the death of Joe Belfore\". Mrs. Belfore had written the board a letter of appreciation. The board voted her $750 \"as a gift to her\" to help with debts from his illness, let her keep the golf shop open through Christmas until January 2, 1964, and paid his assistant, Danny Bianco, to carry on through the winter. It also gave his two sons, David and Joseph F. Jr., known as Jeffery, two years of personal golfing privileges at the club.[^ccd-minutes-1963]\n\n## Two Josephs\n\nThis Joe is Seb's great-great-uncle. Seb's grandfather, also Joseph, was the son of Joe's brother Michael. Earlier versions of this site said the younger Joseph was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it.\n\nUpdate, November 2026. Joe's draft card gives his full name, Joseph Francis Belfore, and his birthday, 5 February 1904, in New Rochelle; the person who would always know his address was his sister, Miss Rose Belfore, back home.[^ww2-joe] He had turned professional young: the 1925 census already lists him, at twenty-one, as a golf pro, and in 1931 a Washington paper noted \"young Joe Belfore of New Rochelle\" finishing third in the West Coast Open.[^census-1925][^evening-star-1931-03-01] He went on to win the Michigan PGA Championship in 1933 and 1937, served as the section's president in 1959 and 1960, and was twice its Professional of the Year.[^mipga-records] In the spring of 1941 Golfdom noted that the Joe Belfores were admiring a new baby boy.[^golfdom-1941-04] He died in October 1963 after a long illness; Golfdom's tribute followed in January.[^ccd-minutes-1963][^obit-index-joe-1963][^golfdom-1964-01]\n\nUpdate, November 2026: Joe's home and more from Golfdom. Joe's 1942 card gives his home as 276 Merriweather in Grosse Pointe Farms, telephone Niagara 3226, and the club at 330 Country Club Drive; the 1950 census taker wrote the same house number, 276, beside his name. His brother Frank wrote \"200 Merriweather\" for him on his own card, probably a slip of memory.[^ww2-joe][^census-1950-joe][^ww2-frank] Golfdom kept noticing him: in October 1933, on Al Watrous's testimonial day at Oakland Hills, Joe partnered Watrous against Horton Smith and Frank Walsh and lost only on the 18th green, then spoke at the dinner that evening; in January 1960 he was Michigan's nominee for national Golf Professional of the Year; and that June, as president of the Michigan PGA, he gave a lesson and clinic for three hundred public-course golfers.[^golfdom-1934-01][^golfdom-1960-01][^golfdom-1960-06]",
+   "story": "In 1940 the professional at the Country Club of Detroit published a slim green booklet of lessons, priced at twenty-five cents. The title page reads Golfing Aids, by Joe Belfore, Professional, Country Club of Detroit. One surviving copy is signed \"Sincerely, Joe Belfore, Detroit, Michigan, April 4, 1940\", beside a photograph of the author in a white shirt and tie, his chin resting on his hand. It opens with the grip and stance, and its pages show him demonstrating the drive and a fairway wood.[^golfing-aids-1940] That copy came from the PGA REACH collection and was sold in 2025 with a letter of provenance signed by Bob Denney, the PGA of America's historian emeritus.[^pga-reach-letter-2025]\n\nJoe was one of three Belfiore brothers from New Rochelle who became golf professionals, at a time when most professionals and club makers in America were from abroad, \"usually Scotch\", as Sammy's obituary put it.[^standard-star-obit] Like Sammy, he wrote the name Belfore.\n\n## Florida winters, Michigan summers\n\nIn January 1929 he was working as a professional at Daytona Highlands in Florida, the same club as Sammy. At a tournament at Mount Plymouth that month, his pairing finished on 150, level with Sammy's.[^dbnj-1929-01-07] Like many northern club professionals, he seems to have worked in Florida for the winter season.\n\nHis main post was the Country Club of Detroit in Grosse Pointe Farms, Michigan, where he was head professional and ran the golf shop.[^golfing-aids-1940][^ccd-minutes-1963] Earlier research, drawing on the Michigan PGA's centennial history, records that he won the Michigan PGA championship in 1933 and 1937 and served as president of the Michigan PGA in 1959 and 1960. The same research found him in the field for the 1927 Metropolitan Open with Walter Hagen and Gene Sarazen, and in Golfdom magazine in January 1934.[^mipga-centennial][^nyt-1927][^golfdom-1934-01] In May 1948 the Daytona Beach papers reported that he had qualified for the PGA tournament at St. Louis.[^dbmj-1948-05-21]\n\n## 1963\n\nJoe died in 1963 after a long illness. On October 29 the club's Board of Governors set up a committee to find a professional \"for the position of Golf Professional left vacant by the death of Joe Belfore\". Mrs. Belfore had written the board a letter of appreciation. The board voted her $750 \"as a gift to her\" to help with debts from his illness, let her keep the golf shop open through Christmas until January 2, 1964, and paid his assistant, Danny Bianco, to carry on through the winter. It also gave his two sons, David and Joseph F. Jr., known as Jeffery, two years of personal golfing privileges at the club.[^ccd-minutes-1963]\n\n## Two Josephs\n\nThis Joe is Seb's great-great-uncle. Seb's grandfather, also Joseph, was the son of Joe's brother Michael. Earlier versions of this site said the younger Joseph was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it.\n\nUpdate, November 2026. Joe's draft card gives his full name, Joseph Francis Belfore, and his birthday, 5 February 1904, in New Rochelle; the person who would always know his address was his sister, Miss Rose Belfore, back home.[^ww2-joe] He had turned professional young: the 1925 census already lists him, at twenty-one, as a golf pro, and in 1931 a Washington paper noted \"young Joe Belfore of New Rochelle\" finishing third in the West Coast Open.[^census-1925][^evening-star-1931-03-01] He went on to win the Michigan PGA Championship in 1933 and 1937, served as the section's president in 1959 and 1960, and was twice its Professional of the Year.[^mipga-records] In the spring of 1941 Golfdom noted that the Joe Belfores were admiring a new baby boy.[^golfdom-1941-04] He died in October 1963 after a long illness; Golfdom's tribute followed in January.[^ccd-minutes-1963][^obit-index-joe-1963][^golfdom-1964-01]\n\nUpdate, November 2026: Joe's home and more from Golfdom. Joe's 1942 card gives his home as 276 Merriweather in Grosse Pointe Farms, telephone Niagara 3226, and the club at 330 Country Club Drive; the 1950 census taker wrote the same house number, 276, beside his name. His brother Frank wrote \"200 Merriweather\" for him on his own card, probably a slip of memory.[^ww2-joe][^census-1950-joe][^ww2-frank] Golfdom kept noticing him: in October 1933, on Al Watrous's testimonial day at Oakland Hills, Joe partnered Watrous against Horton Smith and Frank Walsh and lost only on the 18th green, then spoke at the dinner that evening; in January 1960 he was Michigan's nominee for national Golf Professional of the Year; and that June, as president of the Michigan PGA, he gave a lesson and clinic for three hundred public-course golfers.[^golfdom-1934-01][^golfdom-1960-01][^golfdom-1960-06]\n\nHis obituary in the Detroit Free Press of 25 October 1963, as indexed, gives his death as 21 October 1963 in Grosse Pointe Farms and names his wife Ruth and his sons David and Jeff.[^obit-index-joe-belfore-1963-survivors]",
    "timeline": [
     {
      "date": "1927-05-25",
@@ -6524,25 +6569,42 @@
    ],
    "confidence": "confirmed",
    "birth": {
-    "date": "1887-09",
+    "date": "1887-09-21",
     "dateQualifier": "exact",
-    "display": "Sep 1887",
-    "place": "San Bartolomeo in Galdo, Italy",
+    "display": "Sep 21, 1887",
+    "place": "Italy",
     "sourceIds": [
-     "census-1900"
+     "numident-paternostro"
     ],
     "confidence": "probable",
-    "note": "The 1900 census gives September 1887; she was 9 on the 1896 passenger list and 18 in 1905.",
     "alternates": [
      {
       "date": "1900",
       "display": "~1900?",
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Birth year shown on earlier versions of the site without a source."
+     },
+     {
+      "date": "1887-09",
+      "display": "Sep 1887",
+      "sourceIds": [
+       "census-1900"
+      ],
+      "note": "Shown on the site before the November 2026 update: The 1900 census gives September 1887; she was 9 on the 1896 passenger list and 18 in 1905."
      }
     ]
    },
-   "death": null,
+   "death": {
+    "date": "1972-04-22",
+    "dateQualifier": "exact",
+    "display": "Apr 22, 1972",
+    "place": "Hartford, Connecticut",
+    "sourceIds": [
+     "ct-death-index-paternostro",
+     "obit-index-filomena-paternostro-1972"
+    ],
+    "confidence": "probable"
+   },
    "residences": [
     {
      "place": "Hartford, Connecticut",
@@ -6623,7 +6685,7 @@
    },
    "cardPlace": "Hartford, CT",
    "summary": "One of the five Belfiore sisters. Her full name was Philomena; she married Angelo Paternostro and lived in Hartford, Connecticut.",
-   "story": "Earlier versions of this site guessed that Phyl was short for Phyllis or Filomena. The Daytona Beach funeral notice for her brother Sammy settles it: it lists \"Mrs. Philomena Paternoster\" among his sisters. New Rochelle's Standard-Star gave her as \"Mrs. Angelo (Phyl) Paternostro, Hartford, Conn.\"[^dben-1972-02-17][^standard-star-obit] The two papers spell her married name differently.\n\nShe married Angelo Paternostro and in 1972 lived in Hartford. Philomena is also a name that Italian families often shortened to Lena, which makes her a second candidate for the Lena Belfiore of an indexed record.[^lena-index]\n\nUpdate, November 2026. Phyl was the eldest daughter. Born in San Bartolomeo in September 1887, she was the little \"Francesca, nine\" who crossed on the Oregon with her mother in December 1896, and the New Rochelle census takers wrote her name as Filomena, Philmenia and even Willmena.[^oregon-1896-manifest][^census-1900][^census-1905][^census-1920] On 20 January 1906 she married Angelo Paternoster in New Rochelle.[^marriage-index-1906]\n\nPhyl's own family can now be traced. By 1910 she and Angelo had settled in Bridgeport, Connecticut, with a daughter, Marianna, and a baby son, Dominick. Ten years later they were in Hartford, where they raised five children: Marian, Dominick, Dorothy, Anthony and Carl. By 1930 they owned their home, and by 1940 Phyl had become an American citizen.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro] Her brother Michael's daughter Dorothy was living in Bridgeport in 1918, and it is possible she was close to her aunt's family there; that is still a lead.\n\nUpdate, November 2026: Phyl's homes. In 1910 she and Angelo rented at 35 Hallett Street in Bridgeport; in 1920 they lived on Goodman Place in Hartford; and by 1930 they owned 397 Woodland Street, Hartford, where they were still living in 1940.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]",
+   "story": "Earlier versions of this site guessed that Phyl was short for Phyllis or Filomena. The Daytona Beach funeral notice for her brother Sammy settles it: it lists \"Mrs. Philomena Paternoster\" among his sisters. New Rochelle's Standard-Star gave her as \"Mrs. Angelo (Phyl) Paternostro, Hartford, Conn.\"[^dben-1972-02-17][^standard-star-obit] The two papers spell her married name differently.\n\nShe married Angelo Paternostro and in 1972 lived in Hartford. Philomena is also a name that Italian families often shortened to Lena, which makes her a second candidate for the Lena Belfiore of an indexed record.[^lena-index]\n\nUpdate, November 2026. Phyl was the eldest daughter. Born in San Bartolomeo in September 1887, she was the little \"Francesca, nine\" who crossed on the Oregon with her mother in December 1896, and the New Rochelle census takers wrote her name as Filomena, Philmenia and even Willmena.[^oregon-1896-manifest][^census-1900][^census-1905][^census-1920] On 20 January 1906 she married Angelo Paternoster in New Rochelle.[^marriage-index-1906]\n\nPhyl's own family can now be traced. By 1910 she and Angelo had settled in Bridgeport, Connecticut, with a daughter, Marianna, and a baby son, Dominick. Ten years later they were in Hartford, where they raised five children: Marian, Dominick, Dorothy, Anthony and Carl. By 1930 they owned their home, and by 1940 Phyl had become an American citizen.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro] Her brother Michael's daughter Dorothy was living in Bridgeport in 1918, and it is possible she was close to her aunt's family there; that is still a lead.\n\nUpdate, November 2026: Phyl's homes. In 1910 she and Angelo rented at 35 Hallett Street in Bridgeport; in 1920 they lived on Goodman Place in Hartford; and by 1930 they owned 397 Woodland Street, Hartford, where they were still living in 1940.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]\n\nPhyl died in April 1972. Her obituary in the Hartford Courant of 23 April 1972, as indexed, names her husband Angelo, her children Dominic F., Albert A. and Carl D. Paternostro, Mary Bird and Dorothy Ryalls, and her sisters Mary D'Onofrio, Rose Belfiore, Carolyn Belfiore and Molly Drew. It is the only record found that names the Belfiore sisters together.[^obit-index-filomena-paternostro-1972][^ct-death-index-paternostro]",
    "timeline": [
     {
      "date": "1972-02",
@@ -6844,7 +6906,17 @@
     "confidence": "probable",
     "note": "Aged 28 in 1910, 36 in 1920, 48 in 1930 and 56 in 1940."
    },
-   "death": null,
+   "death": {
+    "date": "1964-03-11",
+    "dateQualifier": "exact",
+    "display": "Mar 11, 1964",
+    "place": "Hartford, Connecticut",
+    "sourceIds": [
+     "ct-death-index-paternostro",
+     "numident-paternostro"
+    ],
+    "confidence": "probable"
+   },
    "residences": [
     {
      "place": "Hartford, Connecticut",
@@ -6920,7 +6992,7 @@
    "immigration": null,
    "cardPlace": "Hartford, CT",
    "summary": "Philomena Belfiore's husband, of Hartford, Connecticut.",
-   "story": "Angelo Paternostro is known as Philomena's husband from Sammy's 1972 obituary, which lists her as Mrs. Angelo (Phyl) Paternostro of Hartford, Connecticut.[^standard-star-obit]\n\nAngelo came from Italy about 1900. In 1910 he was a railroad foreman in Bridgeport; later, in Hartford, he worked in building construction, first as a hod carrier and then as a foreman, and by 1930 he owned the family home.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]",
+   "story": "Angelo Paternostro is known as Philomena's husband from Sammy's 1972 obituary, which lists her as Mrs. Angelo (Phyl) Paternostro of Hartford, Connecticut.[^standard-star-obit]\n\nAngelo came from Italy about 1900. In 1910 he was a railroad foreman in Bridgeport; later, in Hartford, he worked in building construction, first as a hod carrier and then as a foreman, and by 1930 he owned the family home.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]\n\nAngelo probably died in Hartford on 11 March 1964. A Social Security death record for an Angelo Paternostro born 14 September 1882 ends in March 1964 in Connecticut.[^ct-death-index-paternostro][^numident-paternostro]",
    "timeline": [],
    "facts": [
     {
@@ -7845,24 +7917,44 @@
    ],
    "confidence": "confirmed",
    "birth": {
-    "date": "1933-06-11",
+    "date": "1933-08-06",
     "dateQualifier": "exact",
-    "display": "Jun 11, 1933",
-    "place": null,
+    "display": "Aug 6, 1933",
+    "place": "Duluth, Minnesota",
     "sourceIds": [
-     "patricia-findagrave"
+     "obit-patricia-fleming-2022-text"
     ],
-    "confidence": "confirmed"
+    "confidence": "probable",
+    "alternates": [
+     {
+      "date": "1933-06-11",
+      "display": "Jun 11, 1933",
+      "sourceIds": [
+       "patricia-findagrave"
+      ],
+      "note": "Shown on the site before the November 2026 update."
+     }
+    ]
    },
    "death": {
-    "date": "2022-01-01",
+    "date": "2022-07-07",
     "dateQualifier": "exact",
-    "display": "Jan 1, 2022",
-    "place": null,
+    "display": "Jul 7, 2022",
+    "place": "Atlantis, Florida",
     "sourceIds": [
-     "patricia-findagrave"
+     "obit-patricia-fleming-2022-text"
     ],
-    "confidence": "confirmed"
+    "confidence": "probable",
+    "alternates": [
+     {
+      "date": "2022-01-01",
+      "display": "Jan 1, 2022",
+      "sourceIds": [
+       "patricia-findagrave"
+      ],
+      "note": "Shown on the site before the November 2026 update."
+     }
+    ]
    },
    "residences": [
     {
@@ -7891,7 +7983,7 @@
    "immigration": null,
    "cardPlace": "Birmingham, MI",
    "summary": "Sammy and Virginia's daughter, born in 1933. An English and theater teacher who married John Fleming and raised four children. She died in 2022 and is buried in Birmingham, Michigan.",
-   "story": "Patricia Hupp Belfore was born on June 11, 1933, the daughter of Sammy Belfore and Virginia Hupp. Her middle name came from her mother's family.[^patricia-findagrave]\n\nIn 1972 both of her father's obituaries listed her as Mrs. Patricia Fleming of Birmingham, Michigan.[^standard-star-obit][^dben-1972-02-17] Earlier research, based on her own obituary, records that she taught English and theater, that she married John Fleming in 1958, that they divorced in 1990, and that they had four children: Lisa, Chris, John and Geoff. The same obituary carries a family story that she was nearly cast as Bonnie Butler in Gone with the Wind.[^patricia-obit]\n\nShe died on January 1, 2022, aged eighty-eight, and is buried at Cedar Hill Cemetery in Birmingham, Michigan.[^patricia-findagrave] Where she died is less clear: this site's golfing page says Birmingham, while earlier versions of the tree placed her in Atlantis, Florida.\n\nSammy's New Rochelle obituary mentions three grandchildren, while Patricia had four children. One may have been born after 1972, or the count may simply be wrong.[^standard-star-obit]",
+   "story": "Patricia Hupp Belfore was born on June 11, 1933, the daughter of Sammy Belfore and Virginia Hupp. Her middle name came from her mother's family.[^patricia-findagrave]\n\nIn 1972 both of her father's obituaries listed her as Mrs. Patricia Fleming of Birmingham, Michigan.[^standard-star-obit][^dben-1972-02-17] Earlier research, based on her own obituary, records that she taught English and theater, that she married John Fleming in 1958, that they divorced in 1990, and that they had four children: Lisa, Chris, John and Geoff. The same obituary carries a family story that she was nearly cast as Bonnie Butler in Gone with the Wind.[^patricia-obit]\n\nShe died on January 1, 2022, aged eighty-eight, and is buried at Cedar Hill Cemetery in Birmingham, Michigan.[^patricia-findagrave] Where she died is less clear: this site's golfing page says Birmingham, while earlier versions of the tree placed her in Atlantis, Florida.\n\nSammy's New Rochelle obituary mentions three grandchildren, while Patricia had four children. One may have been born after 1972, or the count may simply be wrong.[^standard-star-obit]\n\nHer funeral home obituary gives her birth as 6 August 1933 in Duluth, where her father spent his summers, and her death as 7 July 2022 in Atlantis, Florida. It says she was survived by her children Lisa, Chris, John and Geoff, four grandchildren, a son-in-law and a daughter-in-law.[^obit-patricia-fleming-2022-text]",
    "timeline": [
     {
      "date": "1933-06-11",
@@ -8549,7 +8641,20 @@
     "david-belfore"
    ],
    "children": [],
-   "spouses": [],
+   "spouses": [
+    {
+     "id": "john-barb-husband",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-judith-belfore-2023-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "confirmed",
    "order": 21,
    "isDirectLine": false,
@@ -8584,7 +8689,20 @@
     "david-belfore"
    ],
    "children": [],
-   "spouses": [],
+   "spouses": [
+    {
+     "id": "jessica-belfore",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-judith-belfore-2023-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "confirmed",
    "order": 22,
    "isDirectLine": false,
@@ -8619,7 +8737,20 @@
     "david-belfore"
    ],
    "children": [],
-   "spouses": [],
+   "spouses": [
+    {
+     "id": "chuck-jill-husband",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-judith-belfore-2023-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "confirmed",
    "order": 23,
    "isDirectLine": false,
@@ -8655,7 +8786,20 @@
     "john-fleming"
    ],
    "children": [],
-   "spouses": [],
+   "spouses": [
+    {
+     "id": "steve-lisa-husband",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-fleming-2022-text"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "confirmed",
    "order": 24,
    "isDirectLine": false,
@@ -9997,8 +10141,30 @@
     "joseph-donofrio",
     "mary-donofrio"
    ],
-   "children": [],
-   "spouses": [],
+   "children": [
+    "rdonofrio-donna-mitchell",
+    "rdonofrio-theresa-donofrio",
+    "rdonofrio-frances-donofrio",
+    "rdonofrio-lisa-garneau",
+    "rdonofrio-jill-kubinski",
+    "rdonofrio-mike-donofrio",
+    "rdonofrio-patrick-donofrio",
+    "rdonofrio-gerard-donofrio"
+   ],
+   "spouses": [
+    {
+     "id": "sharon-donofrio",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-index-raymond-donofrio-2002"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "probable",
    "order": 4,
    "isDirectLine": false,
@@ -10206,23 +10372,56 @@
   },
   {
    "id": "dolores-donofrio",
-   "displayName": "Dolores D'Onofrio",
-   "disambiguator": "Mary's child",
+   "displayName": "Dolores D'Onofrio Saggio",
+   "disambiguator": "Mary's youngest child",
    "givenNames": "Dolores",
-   "surname": "D'Onofrio",
+   "surname": "Saggio",
    "sex": "F",
    "generation": 4,
-   "nameVariants": [],
-   "confidence": "probable",
-   "birth": null,
-   "death": null,
+   "nameVariants": [
+    {
+     "name": "Deloris Saggio",
+     "note": "brother Raymond's 2002 obituary index",
+     "sourceIds": [
+      "obit-index-raymond-donofrio-2002"
+     ]
+    },
+    {
+     "name": "Dolores C. Saggio",
+     "note": "2021 obituary",
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ]
+    }
+   ],
+   "confidence": "confirmed",
+   "birth": {
+    "date": "1934-09-25",
+    "dateQualifier": "exact",
+    "display": "Sep 25, 1934",
+    "place": "White Plains, New York",
+    "sourceIds": [
+     "obit-dolores-saggio-2021"
+    ],
+    "confidence": "confirmed"
+   },
+   "death": {
+    "date": "2021-11-15",
+    "dateQualifier": "exact",
+    "display": "Nov 15, 2021",
+    "place": null,
+    "sourceIds": [
+     "obit-dolores-saggio-2021"
+    ],
+    "confidence": "confirmed"
+   },
    "residences": [],
    "occupations": [],
    "immigration": null,
-   "cardPlace": "",
+   "cardPlace": "Millburn, NJ",
    "photo": null,
-   "summary": "The youngest child of Mary and Joseph D'Onofrio. She may be living, so only her name is shown.",
-   "story": "Dolores is the youngest of Mary and Joseph D'Onofrio's six children.[^donofrio-post-2010][^census-1940-donofrio] Because she may be living, only her name and place in the family are shown here.",
+   "summary": "The youngest child of Mary and Joseph D'Onofrio (1934 to 2021). She grew up in Millburn, New Jersey, and raised six children.",
+   "story": "Dolores is the youngest of Mary and Joseph D'Onofrio's six children.[^donofrio-post-2010][^census-1940-donofrio] She was born in White Plains, New York, on 25 September 1934, and her obituary names her as the daughter of the late Joseph and Mary (nee Belfiore) D'Onofrio.[^obit-dolores-saggio-2021]\n\nShe settled in Millburn, New Jersey, the town where her father had worked at his brother Frank's nursery, and graduated from Millburn High School in 1952. She was a homemaker and later worked for the Millburn Township Police Department. She loved feeding her large family, and Sunday gravy dinners brought everyone together; when they were all gathered she would say, \"Look at what I made!\" She was a movie buff and a sports fan.[^obit-dolores-saggio-2021]\n\nShe raised six children, and she left nineteen grandchildren and four great-grandchildren when she died on 15 November 2021. Her brother Raymond's 2002 obituary lists her as his sister, Deloris Saggio.[^obit-dolores-saggio-2021][^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -10232,13 +10431,20 @@
     "joseph-donofrio",
     "mary-donofrio"
    ],
-   "children": [],
+   "children": [
+    "saggio-carol-maring",
+    "saggio-edward-saggio",
+    "saggio-william-saggio",
+    "saggio-marthanne-mciver",
+    "saggio-steven-saggio",
+    "raymond-saggio"
+   ],
    "spouses": [],
-   "parentLinkConfidence": "probable",
+   "parentLinkConfidence": "confirmed",
    "order": 5,
    "isDirectLine": false,
    "portrait": null,
-   "isLiving": true
+   "isLiving": false
   },
   {
    "id": "patricia-drew-hendrie",
@@ -10313,8 +10519,24 @@
     "anthony-drew",
     "mollie-drew"
    ],
-   "children": [],
-   "spouses": [],
+   "children": [
+    "matthew-hendrie",
+    "brett-hendrie"
+   ],
+   "spouses": [
+    {
+     "id": "alexander-hendrie",
+     "order": 1,
+     "marriageDate": "1967-02-12",
+     "marriageDisplay": "Feb 12, 1967",
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-hendrie-2019-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "probable",
    "order": 0,
    "isDirectLine": false,
@@ -10367,8 +10589,25 @@
     "anthony-drew",
     "mollie-drew"
    ],
-   "children": [],
-   "spouses": [],
+   "children": [
+    "anthony-drew-jr",
+    "brian-drew",
+    "patrice-drew"
+   ],
+   "spouses": [
+    {
+     "id": "ruthe-drew",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-index-charles-drew-2004"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "probable",
    "order": 1,
    "isDirectLine": false,
@@ -10433,7 +10672,7 @@
    "cardPlace": "Hartford, CT",
    "photo": null,
    "summary": "A child of Phyl (Filomena) and Angelo Paternostro, born in Connecticut.",
-   "story": "Marian (Marianna on the 1910 census) was Phyl and Angelo's first child, born in Connecticut about 1907, a year after their wedding. She was three in Bridgeport in 1910 and thirteen and at school in Hartford in 1920; by 1930 she had left home.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro]",
+   "story": "Marian (Marianna on the 1910 census) was Phyl and Angelo's first child, born in Connecticut about 1907, a year after their wedding. She was three in Bridgeport in 1910 and thirteen and at school in Hartford in 1920; by 1930 she had left home.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro]\n\nPhyl's 1972 obituary lists a daughter Mary Bird, probably Marian under her married name. A Mary Bird born 7 June 1907 died in March 1979 with her last residence in Newington, Phyl's town, which fits Marian's age.[^obit-index-filomena-paternostro-1972][^numident-paternostro]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -10493,7 +10732,17 @@
     "confidence": "probable",
     "note": "An infant in April 1910, 11 in January 1920 and 20 in April 1930."
    },
-   "death": null,
+   "death": {
+    "date": "1995-03-09",
+    "dateQualifier": "exact",
+    "display": "Mar 9, 1995",
+    "place": "Wethersfield, Connecticut",
+    "sourceIds": [
+     "obit-index-dominic-paternostro-1995",
+     "numident-paternostro"
+    ],
+    "confidence": "probable"
+   },
    "residences": [
     {
      "place": "Hartford, Connecticut",
@@ -10530,7 +10779,7 @@
    "cardPlace": "Hartford, CT",
    "photo": null,
    "summary": "A child of Phyl (Filomena) and Angelo Paternostro, born in Connecticut.",
-   "story": "Dominick was born in Connecticut about 1909 and was a baby in Bridgeport in 1910. In 1930, at twenty, he was learning the carpenter's trade in Hartford.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro]",
+   "story": "Dominick was born in Connecticut about 1909 and was a baby in Bridgeport in 1910. In 1930, at twenty, he was learning the carpenter's trade in Hartford.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro]\n\nDominic F. Paternostro, born in Bridgeport on 29 September 1909, died in Wethersfield on 9 March 1995, aged 85.[^obit-index-dominic-paternostro-1995][^numident-paternostro]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -10628,7 +10877,7 @@
    "cardPlace": "Hartford, CT",
    "photo": null,
    "summary": "A child of Phyl (Filomena) and Angelo Paternostro, born in Connecticut or Massachusetts.",
-   "story": "Dorothy was born about 1911; the 1920 census says Connecticut, the 1930 and 1940 censuses Massachusetts. She stayed with her parents in Hartford, working as an insurance clerk at eighteen and as an office clerk at twenty-eight.[^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]",
+   "story": "Dorothy was born about 1911; the 1920 census says Connecticut, the 1930 and 1940 censuses Massachusetts. She stayed with her parents in Hartford, working as an insurance clerk at eighteen and as an office clerk at twenty-eight.[^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]\n\nPhyl's 1972 obituary lists a daughter Dorothy Ryalls, probably Dorothy L. under her married name.[^obit-index-filomena-paternostro-1972]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -10713,7 +10962,7 @@
    "cardPlace": "Hartford, CT",
    "photo": null,
    "summary": "A child of Phyl (Filomena) and Angelo Paternostro, born in Connecticut.",
-   "story": "Anthony was born in Connecticut about 1913. He was seven in 1920 and sixteen in 1930. The son of twenty-six living at home in 1940 is written as Albert; he may be Anthony.[^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]",
+   "story": "Anthony was born in Connecticut about 1913. He was seven in 1920 and sixteen in 1930. The son of twenty-six living at home in 1940 is written as Albert; he may be Anthony.[^census-1920-paternostro][^census-1930-paternostro][^census-1940-paternostro]\n\nPhyl's 1972 obituary lists a son Albert A. Paternostro, and the 1940 census indexed a son Albert of about the same age. He may be the same son as Anthony A. An Albert Paternostro born 27 June 1913 died in September 1984 in Wethersfield.[^obit-index-filomena-paternostro-1972][^numident-paternostro]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -10763,7 +11012,17 @@
     "confidence": "probable",
     "note": "Aged 4 in 1920 and 14 in 1930."
    },
-   "death": null,
+   "death": {
+    "date": "1986-12-10",
+    "dateQualifier": "exact",
+    "display": "Dec 10, 1986",
+    "place": "Newington, Connecticut",
+    "sourceIds": [
+     "obit-index-carl-paternostro-1986",
+     "ct-death-index-paternostro"
+    ],
+    "confidence": "probable"
+   },
    "residences": [
     {
      "place": "Hartford, Connecticut",
@@ -10789,7 +11048,7 @@
    "cardPlace": "Hartford, CT",
    "photo": null,
    "summary": "A child of Phyl (Filomena) and Angelo Paternostro, born in Connecticut.",
-   "story": "Carl, the youngest, was born in Connecticut about 1916. He was four in 1920 and fourteen in 1930.[^census-1920-paternostro][^census-1930-paternostro]",
+   "story": "Carl, the youngest, was born in Connecticut about 1916. He was four in 1920 and fourteen in 1930.[^census-1920-paternostro][^census-1930-paternostro]\n\nCarl, indexed as Carl D., was born on 16 October 1915 and died in Newington on 10 December 1986, aged 71. He married Rosalie Sica in 1943.[^obit-index-carl-paternostro-1986][^numident-paternostro][^ct-marriage-carl-paternostro-1943]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -10809,13 +11068,3666 @@
     "angelo-paternostro",
     "phyl-paternostro"
    ],
-   "children": [],
-   "spouses": [],
+   "children": [
+    "carl-g-paternostro",
+    "philip-j-paternostro"
+   ],
+   "spouses": [
+    {
+     "id": "rosalie-paternostro",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "ct-marriage-carl-paternostro-1943"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
    "parentLinkConfidence": "probable",
    "order": 4,
    "isDirectLine": false,
    "portrait": null,
    "isLiving": false
+  },
+  {
+   "id": "joseph-anton-racine",
+   "displayName": "Joseph Anton Racine",
+   "disambiguator": "Dorothy's husband",
+   "givenNames": "Joseph Anton",
+   "surname": "Racine",
+   "sex": "M",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dorothy Belfiore's husband.",
+   "story": "Joseph Anton Racine married Dorothy Belfiore, Michael's daughter. Their son Joseph was born in Port Chester in 1940 and grew up in Yonkers.[^obit-joseph-racine-2024][^obit-index-dorothy-racine-2004]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "joseph-f-racine"
+   ],
+   "spouses": [
+    {
+     "id": "dorothy-belfiore-bridgeport",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 132,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "joseph-f-racine",
+   "displayName": "Joseph F. Racine",
+   "disambiguator": "Dorothy's son",
+   "givenNames": "Joseph Francis Michael",
+   "surname": "Racine",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": {
+    "date": "1940",
+    "dateQualifier": "year",
+    "display": "1940",
+    "place": "Port Chester, New York",
+    "sourceIds": [
+     "obit-joseph-racine-2024"
+    ],
+    "confidence": "probable"
+   },
+   "death": {
+    "date": "2024-11-16",
+    "dateQualifier": "exact",
+    "display": "Nov 16, 2024",
+    "place": "New Jersey",
+    "sourceIds": [
+     "obit-joseph-racine-2024"
+    ],
+    "confidence": "probable"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "Denville, NJ",
+   "summary": "Dorothy's son (1940 to 2024), an aerospace engineer.",
+   "story": "Joe was born in Port Chester in 1940 to Joseph Anton and Dorothy (Belfiore) Racine, and named Joseph Francis Michael, the last name probably for his grandfather Michael Belfiore. He grew up in Yonkers, studied electrical engineering at Manhattan College, served in the Air Force from 1962 to 1965 at Wright-Patterson, and married Cecelia Nobrega on 1 August 1964. He worked at Bendix as an aerospace engineer for 35 years and died on 16 November 2024, aged 84.[^obit-joseph-racine-2024][^obit-index-dorothy-racine-2004]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "joseph-anton-racine",
+    "dorothy-belfiore-bridgeport"
+   ],
+   "children": [
+    "joseph-racine-iii",
+    "jannine-walsh",
+    "keith-racine"
+   ],
+   "spouses": [
+    {
+     "id": "cecelia-racine",
+     "order": 1,
+     "marriageDate": "1964-08-01",
+     "marriageDisplay": "Aug 1, 1964",
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 133,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "cecelia-racine",
+   "displayName": "Cecelia Mary Racine",
+   "disambiguator": "Joe Racine's wife",
+   "givenNames": "Cecelia Mary",
+   "surname": "Racine",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Joseph F. Racine's wife, nee Nobrega.",
+   "story": "Cecelia is Joe Racine's wife.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "joseph-racine-iii",
+    "jannine-walsh",
+    "keith-racine"
+   ],
+   "spouses": [
+    {
+     "id": "joseph-f-racine",
+     "order": 1,
+     "marriageDate": "1964-08-01",
+     "marriageDisplay": "Aug 1, 1964",
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 134,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "joseph-racine-iii",
+   "displayName": "Joseph Racine",
+   "disambiguator": "Joe Racine's son",
+   "givenNames": "Joseph",
+   "surname": "Racine",
+   "sex": "M",
+   "generation": 6,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Joe and Cecelia Racine's son.",
+   "story": "Joseph is a son of Joe and Cecelia Racine.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "joseph-f-racine",
+    "cecelia-racine"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "ann-racine",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 135,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "ann-racine",
+   "displayName": "Ann Racine",
+   "disambiguator": "Joseph's wife",
+   "givenNames": "Ann",
+   "surname": "Racine",
+   "sex": "F",
+   "generation": 6,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Wife of Joseph Racine.",
+   "story": "Ann is the wife of Joe and Cecelia's son Joseph.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "joseph-racine-iii",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 136,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "jannine-walsh",
+   "displayName": "Jannine Walsh",
+   "disambiguator": "Joe Racine's daughter",
+   "givenNames": "Jannine",
+   "surname": "Walsh",
+   "sex": "F",
+   "generation": 6,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Joe and Cecelia Racine's daughter.",
+   "story": "Jannine is a daughter of Joe and Cecelia Racine.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "joseph-f-racine",
+    "cecelia-racine"
+   ],
+   "children": [
+    "william-walsh",
+    "katherine-walsh"
+   ],
+   "spouses": [
+    {
+     "id": "edward-walsh",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 137,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "edward-walsh",
+   "displayName": "Edward Walsh",
+   "disambiguator": "Jannine's husband",
+   "givenNames": "Edward",
+   "surname": "Walsh",
+   "sex": "M",
+   "generation": 6,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": {
+    "date": "2020",
+    "dateQualifier": "year",
+    "display": "2020",
+    "place": null,
+    "sourceIds": [
+     "obit-joseph-racine-2024"
+    ],
+    "confidence": "probable"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Jannine's husband, who died in 2020.",
+   "story": "Edward Walsh, Jannine's husband, died in 2020.[^obit-joseph-racine-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "william-walsh",
+    "katherine-walsh"
+   ],
+   "spouses": [
+    {
+     "id": "jannine-walsh",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 138,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "keith-racine",
+   "displayName": "Keith Racine",
+   "disambiguator": "Joe Racine's son",
+   "givenNames": "Keith",
+   "surname": "Racine",
+   "sex": "M",
+   "generation": 6,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Joe and Cecelia Racine's son.",
+   "story": "Keith is a son of Joe and Cecelia Racine.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "joseph-f-racine",
+    "cecelia-racine"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "kristin-racine",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 139,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "kristin-racine",
+   "displayName": "Kristin Racine",
+   "disambiguator": "Keith's wife",
+   "givenNames": "Kristin",
+   "surname": "Racine",
+   "sex": "F",
+   "generation": 6,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Wife of Keith Racine.",
+   "story": "Kristin is Keith's wife.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "keith-racine",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 140,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "william-walsh",
+   "displayName": "William Walsh",
+   "disambiguator": "Jannine's son",
+   "givenNames": "William",
+   "surname": "Walsh",
+   "sex": "M",
+   "generation": 7,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Jannine Walsh's son.",
+   "story": "William is a grandson of Joe and Cecelia Racine and, by his surname, Jannine's son.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "jannine-walsh",
+    "edward-walsh"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "olivia-walsh",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 141,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "olivia-walsh",
+   "displayName": "Olivia Walsh",
+   "disambiguator": "William's wife",
+   "givenNames": "Olivia",
+   "surname": "Walsh",
+   "sex": "F",
+   "generation": 7,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "William Walsh's wife.",
+   "story": "Olivia is William's wife.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "william-walsh",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-joseph-racine-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 142,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "katherine-walsh",
+   "displayName": "Katherine Walsh",
+   "disambiguator": "Jannine's daughter",
+   "givenNames": "Katherine",
+   "surname": "Walsh",
+   "sex": "F",
+   "generation": 7,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Jannine Walsh's daughter.",
+   "story": "Katherine is a granddaughter of Joe and Cecelia Racine and, by her surname, Jannine's daughter.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "jannine-walsh",
+    "edward-walsh"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 143,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "alexander-hendrie",
+   "displayName": "Alexander \"Butch\" Hendrie",
+   "disambiguator": "Patricia's husband",
+   "givenNames": "Alexander",
+   "surname": "Hendrie",
+   "sex": "M",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Drew Hendrie's husband.",
+   "story": "Alexander Hendrie is Patricia Drew Hendrie's husband.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "matthew-hendrie",
+    "brett-hendrie"
+   ],
+   "spouses": [
+    {
+     "id": "patricia-drew-hendrie",
+     "order": 1,
+     "marriageDate": "1967-02-12",
+     "marriageDisplay": "Feb 12, 1967",
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-hendrie-2019-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 144,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "matthew-hendrie",
+   "displayName": "Matthew Hendrie",
+   "disambiguator": "Patricia Hendrie's son",
+   "givenNames": "Matthew",
+   "surname": "Hendrie",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Hendrie's son.",
+   "story": "Matthew is a son of Patricia and Butch Hendrie.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-drew-hendrie",
+    "alexander-hendrie"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "kelly-hendrie",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-hendrie-2019-full"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "confirmed",
+   "order": 145,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "kelly-hendrie",
+   "displayName": "Kelly Hendrie",
+   "disambiguator": "Matthew's wife",
+   "givenNames": "Kelly",
+   "surname": "Hendrie",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Matthew Hendrie's wife.",
+   "story": "Kelly is Matthew's wife.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "matthew-hendrie",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-hendrie-2019-full"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 146,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "brett-hendrie",
+   "displayName": "Brett Hendrie",
+   "disambiguator": "Patricia Hendrie's son",
+   "givenNames": "Brett",
+   "surname": "Hendrie",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Hendrie's son.",
+   "story": "Brett is a son of Patricia and Butch Hendrie.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-drew-hendrie",
+    "alexander-hendrie"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "confirmed",
+   "order": 147,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "ruthe-drew",
+   "displayName": "Ruthe Drew",
+   "disambiguator": "Buddy's wife",
+   "givenNames": "Ruthe",
+   "surname": "Drew",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Buddy Drew's wife.",
+   "story": "Ruthe was Buddy Drew's wife, named in an index of his 2004 obituary.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "anthony-drew-jr",
+    "brian-drew",
+    "patrice-drew"
+   ],
+   "spouses": [
+    {
+     "id": "charles-drew",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-index-charles-drew-2004"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 148,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "anthony-drew-jr",
+   "displayName": "Anthony Drew",
+   "disambiguator": "Buddy Drew's son",
+   "givenNames": "Anthony",
+   "surname": "Drew",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Buddy Drew's son.",
+   "story": "Anthony Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "charles-drew",
+    "ruthe-drew"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 149,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "brian-drew",
+   "displayName": "Brian Drew",
+   "disambiguator": "Buddy Drew's son",
+   "givenNames": "Brian",
+   "surname": "Drew",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Buddy Drew's son.",
+   "story": "Brian Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "charles-drew",
+    "ruthe-drew"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 150,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "patrice-drew",
+   "displayName": "Patrice Drew",
+   "disambiguator": "Buddy Drew's daughter",
+   "givenNames": "Patrice",
+   "surname": "Drew",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Buddy Drew's daughter.",
+   "story": "Patrice Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "charles-drew",
+    "ruthe-drew"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 151,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-carol-maring",
+   "displayName": "Carol Maring",
+   "disambiguator": "Dolores Saggio's daughter",
+   "givenNames": "Carol",
+   "surname": "Maring",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dolores Saggio's daughter; grandchild of Mary Belfiore D'Onofrio.",
+   "story": "Carol Maring is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "dolores-donofrio"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-carol-maring-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "confirmed",
+   "order": 152,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-carol-maring-spouse",
+   "displayName": "Craig Maring",
+   "disambiguator": "Carol's husband",
+   "givenNames": "Craig",
+   "surname": "Maring",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Carol Maring.",
+   "story": "Craig is named as Carol's husband in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-carol-maring",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 153,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-edward-saggio",
+   "displayName": "Edward Saggio",
+   "disambiguator": "Dolores Saggio's son",
+   "givenNames": "Edward",
+   "surname": "Saggio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dolores Saggio's son; grandchild of Mary Belfiore D'Onofrio.",
+   "story": "Edward Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "dolores-donofrio"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-edward-saggio-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "confirmed",
+   "order": 154,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-edward-saggio-spouse",
+   "displayName": "Nancy Saggio",
+   "disambiguator": "Edward's wife",
+   "givenNames": "Nancy",
+   "surname": "Saggio",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Edward Saggio.",
+   "story": "Nancy is named as Edward's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-edward-saggio",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 155,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-william-saggio",
+   "displayName": "William Saggio",
+   "disambiguator": "Dolores Saggio's son",
+   "givenNames": "William",
+   "surname": "Saggio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dolores Saggio's son; grandchild of Mary Belfiore D'Onofrio.",
+   "story": "William Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "dolores-donofrio"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-william-saggio-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "confirmed",
+   "order": 156,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-william-saggio-spouse",
+   "displayName": "Susan Saggio",
+   "disambiguator": "William's wife",
+   "givenNames": "Susan",
+   "surname": "Saggio",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of William Saggio.",
+   "story": "Susan is named as William's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-william-saggio",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 157,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-marthanne-mciver",
+   "displayName": "Marthanne McIver",
+   "disambiguator": "Dolores Saggio's daughter",
+   "givenNames": "Marthanne",
+   "surname": "McIver",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dolores Saggio's daughter; grandchild of Mary Belfiore D'Onofrio.",
+   "story": "Marthanne McIver is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "dolores-donofrio"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-marthanne-mciver-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "confirmed",
+   "order": 158,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-marthanne-mciver-spouse",
+   "displayName": "Jim McIver",
+   "disambiguator": "Marthanne's husband",
+   "givenNames": "Jim",
+   "surname": "McIver",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Marthanne McIver.",
+   "story": "Jim is named as Marthanne's husband in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-marthanne-mciver",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 159,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-steven-saggio",
+   "displayName": "Steven Saggio",
+   "disambiguator": "Dolores Saggio's son",
+   "givenNames": "Steven",
+   "surname": "Saggio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dolores Saggio's son; grandchild of Mary Belfiore D'Onofrio.",
+   "story": "Steven Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "dolores-donofrio"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-steven-saggio-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "confirmed",
+   "order": 160,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "saggio-steven-saggio-spouse",
+   "displayName": "Mary Saggio",
+   "disambiguator": "Steven's wife",
+   "givenNames": "Mary",
+   "surname": "Saggio",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Steven Saggio.",
+   "story": "Mary is named as Steven's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "saggio-steven-saggio",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-dolores-saggio-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 161,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "raymond-saggio",
+   "displayName": "Raymond Saggio",
+   "disambiguator": "Dolores Saggio's son",
+   "givenNames": "Raymond",
+   "surname": "Saggio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dolores Saggio's son, who died before her.",
+   "story": "Raymond Saggio died before his mother Dolores, whose 2021 obituary names him.[^obit-dolores-saggio-2021]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "dolores-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "confirmed",
+   "order": 162,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "sharon-donofrio",
+   "displayName": "Sharon D'Onofrio",
+   "disambiguator": "Raymond's wife",
+   "givenNames": "Sharon",
+   "surname": "D'Onofrio",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's wife.",
+   "story": "Sharon was Raymond's wife, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "raymond-donofrio",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-index-raymond-donofrio-2002"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 163,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-donna-mitchell",
+   "displayName": "Donna Mitchell",
+   "disambiguator": "Raymond D'Onofrio's daughter",
+   "givenNames": "Donna",
+   "surname": "Mitchell",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's daughter.",
+   "story": "Donna Mitchell is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 164,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-theresa-donofrio",
+   "displayName": "Theresa D'Onofrio",
+   "disambiguator": "Raymond D'Onofrio's daughter",
+   "givenNames": "Theresa",
+   "surname": "D'Onofrio",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's daughter.",
+   "story": "Theresa D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 165,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-frances-donofrio",
+   "displayName": "Frances D'Onofrio",
+   "disambiguator": "Raymond D'Onofrio's daughter",
+   "givenNames": "Frances",
+   "surname": "D'Onofrio",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's daughter.",
+   "story": "Frances D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 166,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-lisa-garneau",
+   "displayName": "Lisa Garneau",
+   "disambiguator": "Raymond D'Onofrio's daughter",
+   "givenNames": "Lisa",
+   "surname": "Garneau",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's daughter.",
+   "story": "Lisa Garneau is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 167,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-jill-kubinski",
+   "displayName": "Jill Kubinski",
+   "disambiguator": "Raymond D'Onofrio's daughter",
+   "givenNames": "Jill",
+   "surname": "Kubinski",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's daughter.",
+   "story": "Jill Kubinski is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 168,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-mike-donofrio",
+   "displayName": "Mike D'Onofrio",
+   "disambiguator": "Raymond D'Onofrio's son",
+   "givenNames": "Mike",
+   "surname": "D'Onofrio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's son.",
+   "story": "Mike D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 169,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-patrick-donofrio",
+   "displayName": "Patrick D'Onofrio",
+   "disambiguator": "Raymond D'Onofrio's son",
+   "givenNames": "Patrick",
+   "surname": "D'Onofrio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's son.",
+   "story": "Patrick D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 170,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rdonofrio-gerard-donofrio",
+   "displayName": "Gerard D'Onofrio",
+   "disambiguator": "Raymond D'Onofrio's son",
+   "givenNames": "Gerard",
+   "surname": "D'Onofrio",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Raymond D'Onofrio's son.",
+   "story": "Gerard D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "raymond-donofrio"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 171,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "rosalie-paternostro",
+   "displayName": "Rosalie Paternostro",
+   "disambiguator": "Carl's wife, nee Sica",
+   "givenNames": "Rosalie",
+   "surname": "Paternostro",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Carl Paternostro's wife, nee Sica.",
+   "story": "Rosalie Sica is Carl Paternostro's wife.[^obit-index-carl-paternostro-1986][^ct-marriage-carl-paternostro-1943]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "carl-g-paternostro",
+    "philip-j-paternostro"
+   ],
+   "spouses": [
+    {
+     "id": "carl-paternostro",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "ct-marriage-carl-paternostro-1943"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 172,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "carl-g-paternostro",
+   "displayName": "Carl G. Paternostro",
+   "disambiguator": "Carl Paternostro's son",
+   "givenNames": "Carl G.",
+   "surname": "Paternostro",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Carl and Rosalie Paternostro's son.",
+   "story": "Carl G. Paternostro is probably a son of Carl and Rosalie Paternostro, named in an index of Carl's 1986 obituary.[^obit-index-carl-paternostro-1986]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "carl-paternostro",
+    "rosalie-paternostro"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 173,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "philip-j-paternostro",
+   "displayName": "Philip J. Paternostro",
+   "disambiguator": "Carl Paternostro's son",
+   "givenNames": "Philip J.",
+   "surname": "Paternostro",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Carl and Rosalie Paternostro's son.",
+   "story": "Philip J. Paternostro is probably a son of Carl and Rosalie Paternostro, named in an index of Carl's 1986 obituary.[^obit-index-carl-paternostro-1986]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "carl-paternostro",
+    "rosalie-paternostro"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 174,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "jessica-belfore",
+   "displayName": "Jessica Belfore",
+   "disambiguator": "Gary's wife",
+   "givenNames": "Jessica",
+   "surname": "Belfore",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Gary Belfore's wife.",
+   "story": "Jessica is Gary's wife, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "gary-belfore",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-judith-belfore-2023-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 175,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "john-barb-husband",
+   "displayName": "John",
+   "disambiguator": "Barb's husband",
+   "givenNames": "John",
+   "surname": "",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Barb Hartman's husband.",
+   "story": "John is Barb's husband, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "barb-hartman",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-judith-belfore-2023-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 176,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "chuck-jill-husband",
+   "displayName": "Chuck",
+   "disambiguator": "Jill's husband",
+   "givenNames": "Chuck",
+   "surname": "",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Jill Pappas's husband.",
+   "story": "Chuck is Jill's husband, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "jill-pappas",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-judith-belfore-2023-full"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 177,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "steve-lisa-husband",
+   "displayName": "Steve",
+   "disambiguator": "Lisa's husband",
+   "givenNames": "Steve",
+   "surname": "",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Lisa Fleming's husband.",
+   "story": "Patricia Hupp Fleming's 2022 obituary names her son-in-law Steve. Lisa was her only daughter, so Steve is Lisa's husband.[^obit-patricia-fleming-2022-text]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "lisa-fleming",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-fleming-2022-text"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 178,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "patrick-hennessy",
+   "displayName": "Patrick Hennessy",
+   "disambiguator": "Dorothy's father",
+   "givenNames": "Patrick",
+   "surname": "Hennessy",
+   "sex": "M",
+   "generation": 3,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Father of Dorothy Hennessey Belfiore; Seb's great-grandfather.",
+   "story": "Patrick Hennessy and Annie Hussey were the parents of Dorothy, Seb's grandmother, and of at least six more children, all raised in New Rochelle. Three of their children's obituaries name them.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "dorothy-hennessey-belfiore",
+    "james-hennessy-sr",
+    "francis-hennessy",
+    "catherine-cullen",
+    "maria-martin",
+    "patricia-dillon",
+    "anne-latino"
+   ],
+   "spouses": [
+    {
+     "id": "annie-hussey-hennessy",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 100,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "annie-hussey-hennessy",
+   "displayName": "Annie Hussey Hennessy",
+   "disambiguator": "Dorothy's mother, nee Hussey",
+   "givenNames": "Annie",
+   "surname": "Hennessy",
+   "sex": "F",
+   "generation": 3,
+   "nameVariants": [
+    {
+     "name": "Anna Hussey",
+     "note": "son's 2013 obituary",
+     "sourceIds": [
+      "obit-francis-hennessy-2013"
+     ]
+    }
+   ],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Mother of Dorothy Hennessey Belfiore; Seb's great-grandmother, nee Hussey.",
+   "story": "Annie (also Anna) Hussey married Patrick Hennessy. Her children's obituaries give her maiden name, Hussey.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "dorothy-hennessey-belfiore",
+    "james-hennessy-sr",
+    "francis-hennessy",
+    "catherine-cullen",
+    "maria-martin",
+    "patricia-dillon",
+    "anne-latino"
+   ],
+   "spouses": [
+    {
+     "id": "patrick-hennessy",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 101,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "james-hennessy-sr",
+   "displayName": "James Hennessy",
+   "disambiguator": "Dorothy's brother",
+   "givenNames": "James",
+   "surname": "Hennessy",
+   "sex": "M",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dorothy's brother.",
+   "story": "James was a brother of Dorothy, Frank, Catherine, Anne, Maria and Patricia. He had died by 2013.[^obit-patricia-dillon-2021][^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 102,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "francis-hennessy",
+   "displayName": "Francis J. \"Frank\" Hennessy",
+   "disambiguator": "Dorothy's brother, firefighter",
+   "givenNames": "Francis J.",
+   "surname": "Hennessy",
+   "sex": "M",
+   "generation": 4,
+   "nameVariants": [
+    {
+     "name": "Bubsy Hennessy",
+     "note": "sister's 2024 obituary",
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ]
+    }
+   ],
+   "confidence": "probable",
+   "birth": {
+    "date": "1920-04-30",
+    "dateQualifier": "exact",
+    "display": "Apr 30, 1920",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "obit-francis-hennessy-2013"
+    ],
+    "confidence": "probable"
+   },
+   "death": {
+    "date": "2013-12-30",
+    "dateQualifier": "exact",
+    "display": "Dec 30, 2013",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "obit-francis-hennessy-2013"
+    ],
+    "confidence": "probable"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "New Rochelle",
+   "summary": "Dorothy's brother (1920 to 2013), a New Rochelle firefighter.",
+   "story": "Frank, called Bubsy by his sister Anne, was born in New Rochelle on 30 April 1920. He served in the Navy in the Second World War and was a New Rochelle firefighter for more than 35 years. He died on 30 December 2013, aged 93, and is buried at Holy Sepulchre Cemetery.[^obit-francis-hennessy-2013]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
+   "children": [
+    "hennessy-james-hennessy",
+    "hennessy-sue-ann-power",
+    "hennessy-frank-hennessy",
+    "hennessy-nancy-morelli",
+    "hennessy-john-hennessy"
+   ],
+   "spouses": [
+    {
+     "id": "barbara-hennessy",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-francis-hennessy-2013"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 103,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "barbara-hennessy",
+   "displayName": "Barbara Hennessy",
+   "disambiguator": "Frank's wife",
+   "givenNames": "Barbara",
+   "surname": "Hennessy",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Frank Hennessy's wife.",
+   "story": "Barbara was Frank Hennessy's wife. She died before him.[^obit-francis-hennessy-2013]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "hennessy-james-hennessy",
+    "hennessy-sue-ann-power",
+    "hennessy-frank-hennessy",
+    "hennessy-nancy-morelli",
+    "hennessy-john-hennessy"
+   ],
+   "spouses": [
+    {
+     "id": "francis-hennessy",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-francis-hennessy-2013"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 104,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "catherine-cullen",
+   "displayName": "Catherine Cullen",
+   "disambiguator": "Dorothy's sister, nee Hennessy",
+   "givenNames": "Catherine",
+   "surname": "Cullen",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dorothy's sister, nee Hennessy.",
+   "story": "Catherine (also Katherine) was one of Dorothy's sisters. She was living in 2013 and had died by 2021.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 105,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "maria-martin",
+   "displayName": "Maria Martin",
+   "disambiguator": "Dorothy's sister, nee Hennessy",
+   "givenNames": "Maria",
+   "surname": "Martin",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Dorothy's sister, nee Hennessy.",
+   "story": "Maria was one of Dorothy's sisters. She was living in 2013 and had died by 2021.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 106,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "patricia-dillon",
+   "displayName": "Patricia A. Dillon",
+   "disambiguator": "Dorothy's sister, nee Hennessy",
+   "givenNames": "Patricia A.",
+   "surname": "Dillon",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": {
+    "date": "1930-10-22",
+    "dateQualifier": "exact",
+    "display": "Oct 22, 1930",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "obit-patricia-dillon-2021"
+    ],
+    "confidence": "probable"
+   },
+   "death": {
+    "date": "2021-06-20",
+    "dateQualifier": "exact",
+    "display": "Jun 20, 2021",
+    "place": "Monroe, New York",
+    "sourceIds": [
+     "obit-patricia-dillon-2021"
+    ],
+    "confidence": "probable"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "Monroe, NY",
+   "summary": "Dorothy's youngest sister (1930 to 2021), nee Hennessy.",
+   "story": "Patricia was born in New Rochelle on 22 October 1930. She and her husband Bill raised seven children in Monroe, New York, where she lived for almost 60 years and was devoted to Sacred Heart Church. She died on 20 June 2021, aged 90, and was buried at Holy Sepulchre in New Rochelle.[^obit-patricia-dillon-2021]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
+   "children": [
+    "dillon-laura-e-lawson",
+    "dillon-william-k-dillon-jr",
+    "dillon-martin-p-dillon",
+    "dillon-janet-d-manfre",
+    "dillon-fr-robert-w-dillon",
+    "dillon-timothy-w-dillon",
+    "dillon-pamela-a-dillon"
+   ],
+   "spouses": [
+    {
+     "id": "william-dillon-sr",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 107,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "william-dillon-sr",
+   "displayName": "William K. Dillon Sr.",
+   "disambiguator": "Patricia's husband",
+   "givenNames": "William K.",
+   "surname": "Dillon",
+   "sex": "M",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia's husband.",
+   "story": "Bill Dillon was Patricia's husband. He died before her.[^obit-patricia-dillon-2021]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "dillon-laura-e-lawson",
+    "dillon-william-k-dillon-jr",
+    "dillon-martin-p-dillon",
+    "dillon-janet-d-manfre",
+    "dillon-fr-robert-w-dillon",
+    "dillon-timothy-w-dillon",
+    "dillon-pamela-a-dillon"
+   ],
+   "spouses": [
+    {
+     "id": "patricia-dillon",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 108,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "anne-latino",
+   "displayName": "Anne E. Latino",
+   "disambiguator": "Dorothy's sister, nee Hennessy",
+   "givenNames": "Anne E.",
+   "surname": "Latino",
+   "sex": "F",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": {
+    "date": "1923-04-02",
+    "dateQualifier": "exact",
+    "display": "Apr 2, 1923",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "obit-anne-latino-2024"
+    ],
+    "confidence": "probable"
+   },
+   "death": {
+    "date": "2024-05-10",
+    "dateQualifier": "exact",
+    "display": "May 10, 2024",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "obit-anne-latino-2024"
+    ],
+    "confidence": "probable"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "New Rochelle",
+   "summary": "Dorothy's sister (1923 to 2024), nee Hennessy.",
+   "story": "Anne was born on 2 April 1923 and graduated from New Rochelle High School in 1941. In 1946 she married her high school sweetheart, Joe Latino, and they raised three children in Larchmont Woods. Later she and Joe joined Wykagyl Country Club, the same club where Sammy Belfore taught golf in 1918. She worked for 33 years as a bookkeeper at Brae Burn Country Club, celebrated her 100th birthday in April 2023, and died on 10 May 2024. She was the last of the seven Hennessy children.[^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patrick-hennessy",
+    "annie-hussey-hennessy"
+   ],
+   "children": [
+    "latino-jo-anne-latino",
+    "latino-michael-latino",
+    "latino-marilyn-bell"
+   ],
+   "spouses": [
+    {
+     "id": "joseph-latino",
+     "order": 1,
+     "marriageDate": "1946",
+     "marriageDisplay": "1946",
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 109,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "joseph-latino",
+   "displayName": "Joseph Latino",
+   "disambiguator": "Anne's husband",
+   "givenNames": "Joseph",
+   "surname": "Latino",
+   "sex": "M",
+   "generation": 4,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Anne's husband.",
+   "story": "Joe Latino married Anne Hennessy in 1946. He is not named among her survivors in 2024.[^obit-anne-latino-2024]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "latino-jo-anne-latino",
+    "latino-michael-latino",
+    "latino-marilyn-bell"
+   ],
+   "spouses": [
+    {
+     "id": "anne-latino",
+     "order": 1,
+     "marriageDate": "1946",
+     "marriageDisplay": "1946",
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 110,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "hennessy-james-hennessy",
+   "displayName": "James Hennessy",
+   "disambiguator": "Frank Hennessy's son",
+   "givenNames": "James",
+   "surname": "Hennessy",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Frank Hennessy's son; a first cousin of Seb's father.",
+   "story": "James Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "francis-hennessy",
+    "barbara-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 111,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "hennessy-sue-ann-power",
+   "displayName": "Sue Ann Power",
+   "disambiguator": "Frank Hennessy's daughter",
+   "givenNames": "Sue Ann",
+   "surname": "Power",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Frank Hennessy's daughter; a first cousin of Seb's father.",
+   "story": "Sue Ann Power is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "francis-hennessy",
+    "barbara-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 112,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "hennessy-frank-hennessy",
+   "displayName": "Frank Hennessy",
+   "disambiguator": "Frank Hennessy's son",
+   "givenNames": "Frank",
+   "surname": "Hennessy",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Frank Hennessy's son; a first cousin of Seb's father.",
+   "story": "Frank Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "francis-hennessy",
+    "barbara-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 113,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "hennessy-nancy-morelli",
+   "displayName": "Nancy Morelli",
+   "disambiguator": "Frank Hennessy's daughter",
+   "givenNames": "Nancy",
+   "surname": "Morelli",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Frank Hennessy's daughter; a first cousin of Seb's father.",
+   "story": "Nancy Morelli is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "francis-hennessy",
+    "barbara-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 114,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "hennessy-john-hennessy",
+   "displayName": "John Hennessy",
+   "disambiguator": "Frank Hennessy's son",
+   "givenNames": "John",
+   "surname": "Hennessy",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Frank Hennessy's son; a first cousin of Seb's father.",
+   "story": "John Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "francis-hennessy",
+    "barbara-hennessy"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 115,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-laura-e-lawson",
+   "displayName": "Laura E. Lawson",
+   "disambiguator": "Patricia Dillon's daughter",
+   "givenNames": "Laura E.",
+   "surname": "Lawson",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's daughter; a first cousin of Seb's father.",
+   "story": "Laura E. Lawson is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "dillon-laura-e-lawson-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 116,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-laura-e-lawson-spouse",
+   "displayName": "Thomas Lawson",
+   "disambiguator": "Laura's husband",
+   "givenNames": "Thomas",
+   "surname": "Lawson",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Laura E. Lawson.",
+   "story": "Thomas is named with Laura in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "dillon-laura-e-lawson",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 117,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-william-k-dillon-jr",
+   "displayName": "William K. Dillon Jr.",
+   "disambiguator": "Patricia Dillon's son",
+   "givenNames": "William K.",
+   "surname": "Dillon",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's son; a first cousin of Seb's father.",
+   "story": "William K. Dillon Jr. is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "dillon-william-k-dillon-jr-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 118,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-william-k-dillon-jr-spouse",
+   "displayName": "Laura Dillon",
+   "disambiguator": "William's wife",
+   "givenNames": "Laura",
+   "surname": "Dillon",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of William K. Dillon Jr..",
+   "story": "Laura is named with William in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "dillon-william-k-dillon-jr",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 119,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-martin-p-dillon",
+   "displayName": "Martin P. Dillon",
+   "disambiguator": "Patricia Dillon's son",
+   "givenNames": "Martin P.",
+   "surname": "Dillon",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's son; a first cousin of Seb's father.",
+   "story": "Martin P. Dillon is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 120,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-janet-d-manfre",
+   "displayName": "Janet D. Manfre",
+   "disambiguator": "Patricia Dillon's daughter",
+   "givenNames": "Janet D.",
+   "surname": "Manfre",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's daughter; a first cousin of Seb's father.",
+   "story": "Janet D. Manfre is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "dillon-janet-d-manfre-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 121,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-janet-d-manfre-spouse",
+   "displayName": "John Manfre",
+   "disambiguator": "Janet's husband",
+   "givenNames": "John",
+   "surname": "Manfre",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Janet D. Manfre.",
+   "story": "John is named with Janet in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "dillon-janet-d-manfre",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-patricia-dillon-2021"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 122,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-fr-robert-w-dillon",
+   "displayName": "Fr. Robert W. Dillon",
+   "disambiguator": "Patricia Dillon's son",
+   "givenNames": "Robert W.",
+   "surname": "Dillon",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's son; a first cousin of Seb's father.",
+   "story": "Fr. Robert W. Dillon is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 123,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "dillon-timothy-w-dillon",
+   "displayName": "Timothy W. Dillon",
+   "disambiguator": "Patricia Dillon's son",
+   "givenNames": "Timothy W.",
+   "surname": "Dillon",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's son, who died before her.",
+   "story": "Timothy W. Dillon died before his or her mother Patricia, whose 2021 obituary names them.[^obit-patricia-dillon-2021]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 124,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "dillon-pamela-a-dillon",
+   "displayName": "Pamela A. Dillon",
+   "disambiguator": "Patricia Dillon's daughter",
+   "givenNames": "Pamela A.",
+   "surname": "Dillon",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Patricia Dillon's daughter, who died before her.",
+   "story": "Pamela A. Dillon died before his or her mother Patricia, whose 2021 obituary names them.[^obit-patricia-dillon-2021]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "patricia-dillon",
+    "william-dillon-sr"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "probable",
+   "order": 125,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "latino-jo-anne-latino",
+   "displayName": "Jo-Anne Latino",
+   "disambiguator": "Anne Latino's daughter",
+   "givenNames": "Jo-Anne",
+   "surname": "Latino",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Anne Latino's daughter; a first cousin of Seb's father.",
+   "story": "Jo-Anne Latino is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "anne-latino",
+    "joseph-latino"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "latino-jo-anne-latino-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 126,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "latino-jo-anne-latino-spouse",
+   "displayName": "Andy Levy",
+   "disambiguator": "Jo-Anne's husband",
+   "givenNames": "Andy",
+   "surname": "Levy",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Jo-Anne Latino.",
+   "story": "Andy Levy is named as Jo-Anne's husband in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "latino-jo-anne-latino",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 127,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "latino-michael-latino",
+   "displayName": "Michael Latino",
+   "disambiguator": "Anne Latino's son",
+   "givenNames": "Michael",
+   "surname": "Latino",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Anne Latino's son; a first cousin of Seb's father.",
+   "story": "Michael Latino is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "anne-latino",
+    "joseph-latino"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "latino-michael-latino-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 128,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "latino-michael-latino-spouse",
+   "displayName": "Jackie Latino",
+   "disambiguator": "Michael's wife",
+   "givenNames": "Jackie",
+   "surname": "Latino",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Michael Latino.",
+   "story": "Jackie Latino is named as Michael's wife in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "latino-michael-latino",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 129,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "latino-marilyn-bell",
+   "displayName": "Marilyn Bell",
+   "disambiguator": "Anne Latino's daughter",
+   "givenNames": "Marilyn",
+   "surname": "Bell",
+   "sex": "F",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Anne Latino's daughter; a first cousin of Seb's father.",
+   "story": "Marilyn Bell is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [
+    "anne-latino",
+    "joseph-latino"
+   ],
+   "children": [],
+   "spouses": [
+    {
+     "id": "latino-marilyn-bell-spouse",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": "probable",
+   "order": 130,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
+  },
+  {
+   "id": "latino-marilyn-bell-spouse",
+   "displayName": "Rex Bell",
+   "disambiguator": "Marilyn's husband",
+   "givenNames": "Rex",
+   "surname": "Bell",
+   "sex": "M",
+   "generation": 5,
+   "nameVariants": [],
+   "confidence": "probable",
+   "birth": null,
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": null,
+   "summary": "Spouse of Marilyn Bell.",
+   "story": "Rex Bell is named as Marilyn's husband in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [],
+   "relatedPages": [],
+   "parents": [],
+   "children": [],
+   "spouses": [
+    {
+     "id": "latino-marilyn-bell",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "obit-anne-latino-2024"
+     ],
+     "confidence": "probable",
+     "note": null
+    }
+   ],
+   "parentLinkConfidence": null,
+   "order": 131,
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": true,
+   "living": true
   }
  ]
 }

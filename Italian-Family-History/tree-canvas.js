@@ -135,18 +135,32 @@
 
         // 1. anchors and blocks
         function hasParents(p) { return p.parents && p.parents.length > 0; }
+        // When both spouses already have parents, one of them anchors the couple
+        // so the children are drawn once, under the pair. The other spouse stays
+        // in that block; their own parents connect to their card.
+        function primaryOf(a, b) {
+            if (!!a.isDirectLine !== !!b.isDirectLine) return a.isDirectLine ? a : b;
+            if (a.sex === 'M' && b.sex !== 'M') return a;
+            if (b.sex === 'M' && a.sex !== 'M') return b;
+            return a.id < b.id ? a : b;
+        }
         D.people.forEach(function (p) {
             if (blockOf[p.id]) return;
-            var spouses = (p.spouses || []).map(function (s) { return byId[s.id]; });
+            var spouses = (p.spouses || []).map(function (s) { return byId[s.id]; }).filter(Boolean);
             var marriedIn = !hasParents(p) && spouses.some(function (s) { return hasParents(s); });
             if (marriedIn) return; // will join the spouse's block
+            if (hasParents(p) && spouses.some(function (s) { return hasParents(s) && primaryOf(p, s).id !== p.id; })) return;
             if (!hasParents(p) && spouses.length && spouses.every(function (s) { return !hasParents(s); })) {
                 // a couple of roots: the man anchors
                 var other = spouses[0];
                 if (p.sex === 'F' && other && other.sex === 'M' && !blockOf[other.id]) return;
             }
             var sp = (p.spouses || []).slice().sort(function (a, b) { return a.order - b.order; }).map(function (s) { return byId[s.id]; })
-                .filter(function (s) { return !blockOf[s.id] && !hasParents(s); });
+                .filter(function (s) {
+                    if (!s || blockOf[s.id]) return false;
+                    if (!hasParents(s)) return true;
+                    return primaryOf(p, s).id === p.id;
+                });
             var members;
             if (sp.length >= 2) members = [sp[0], p].concat(sp.slice(1));
             else if (sp.length === 1) members = (p.sex === 'F' && sp[0].sex === 'M') ? [sp[0], p] : [p, sp[0]];
@@ -176,10 +190,23 @@
         });
 
         // 3. tree of blocks
+        // A child who is the anchor of their block is placed under this union.
+        // A child who already lives in a spouse's block (both partners have
+        // parents) is only linked, so the couple and their children are not drawn twice.
         blocks.forEach(function (b) {
             b.unions.forEach(function (u) {
-                u.childBlocks = u.children.map(function (c) { return blockOf[c.id]; });
-                u.childBlocks.forEach(function (cb) { cb.parentUnion = u; });
+                u.childBlocks = [];
+                u.sideLinks = [];
+                var seen = {};
+                u.children.forEach(function (c) {
+                    var cb = blockOf[c.id];
+                    if (!cb) return;
+                    if (cb.anchor.id !== c.id) { u.sideLinks.push(c.id); return; }
+                    if (seen[cb.anchor.id]) return;
+                    seen[cb.anchor.id] = 1;
+                    u.childBlocks.push(cb);
+                    cb.parentUnion = u;
+                });
             });
         });
 
@@ -306,7 +333,7 @@
                '<div class="c-names"><div class="c-name">' + esc(p.displayName) + '</div>' +
                '<div class="c-dis">' + esc(p.disambiguator || '') + '</div></div></div>' +
                '<div class="c-meta">' + (life ? '<div class="c-dates">' + esc(life) + '</div>' : p.isLiving ? '<div class="c-dates"><span class="c-living">Living</span></div>' : '') +
-               (p.cardPlace ? '<div class="c-place">' + esc(p.cardPlace) + '</div>' : '') + '</div>' +
+               (p.cardPlace && !p.isLiving ? '<div class="c-place">' + esc(p.cardPlace) + '</div>' : '') + '</div>' +
                '<div class="c-foot" aria-hidden="true">' + foot + '</div>';
     }
     function cardLabel(p) {
@@ -377,7 +404,7 @@
                     pathEls.push({ el: bar, union: u, bar: true });
                     drawPill(u, x0, y0, partnersDirect);
                 }
-                if (!u.childBlocks || !u.childBlocks.length) return;
+                if (!u.children || !u.children.length) return;
                 var gi = b.groups.indexOf(u), ng = b.groups.length;
                 var childTop = L.genY[u.children[0].generation];
                 var busY = childTop - ROW_GAP / 2 + (ng > 1 ? (gi - (ng - 1) / 2) * 12 : 0);
@@ -387,7 +414,7 @@
                     var direct = c.isDirectLine && u.partners.some(function (id) { return byId[id].isDirectLine; });
                     var dashed = c.parentLinkConfidence === 'unverified' || c.parentLinkConfidence === 'probable';
                     var d = 'M' + x0 + ' ' + y0 + 'V' + busY + 'H' + cx + 'V' + cp.y;
-                    if (u.stack) {
+                    if (u.stack && cp.stackCol !== undefined) {
                         var my = cp.y + BAR_Y, ex = cp.stackCol ? cp.x : cp.x + CW;
                         d = 'M' + x0 + ' ' + y0 + 'V' + busY + 'H' + u.spineX + 'V' + my + 'H' + ex;
                     }
@@ -1154,8 +1181,8 @@
         var byId = D.byId;
         var hero;
         if (p.portrait) hero = '<div class="pf-portrait"><img src="' + esc(p.portrait) + '" alt="Portrait of ' + esc(p.displayName) + '"></div>';
-        else if (p.photo) hero = '<div class="pf-portrait is-mono"><div class="mono mono--photo"><img src="' + esc(p.photo) + '" alt="Portrait of ' + esc(p.displayName) + '"></div><div class="pf-place">' + esc(p.cardPlace || '') + '</div></div>';
-        else hero = '<div class="pf-portrait is-mono">' + monoHTML(p) + '<div class="pf-place">' + esc(p.cardPlace || (p.isLiving ? 'Living' : '')) + '</div></div>';
+        else if (p.photo) hero = '<div class="pf-portrait is-mono"><div class="mono mono--photo"><img src="' + esc(p.photo) + '" alt="Portrait of ' + esc(p.displayName) + '"></div><div class="pf-place">' + esc(p.isLiving ? 'Living' : (p.cardPlace || '')) + '</div></div>';
+        else hero = '<div class="pf-portrait is-mono">' + monoHTML(p) + '<div class="pf-place">' + esc(p.isLiving ? 'Living' : (p.cardPlace || '')) + '</div></div>';
         var variants = (p.nameVariants || []).filter(function (v) { return v.name !== p.displayName; });
         var dates = '';
         if (!p.isLiving) {
