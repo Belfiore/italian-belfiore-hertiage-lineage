@@ -67,9 +67,12 @@
    "id": "manifest-1909",
    "title": "Ellis Island manifest listing 'Belfiore, Antonio' of S. Bartolomeo as a returning US citizen, SS Duca di Genova",
    "type": "passenger manifest",
-   "repository": "Statue of Liberty-Ellis Island Foundation (found in earlier research)",
+   "repository": "National Archives microfilm T715, roll 1352 (RG 85), List 36, line 12; Ancestry.com collection 7488, record 4005267966, images NYT715_1352-0340 and 0373",
    "date": "1909",
-   "note": "Not saved in this repository. Recorded in earlier research notes; needs a saved copy and a line-by-line check."
+   "note": "UNRESOLVED CONFLICT. SS Duca di Genova from Naples (sheet dated 29 Sep 1909), arrived New York 11 Oct 1909. Line 12, \"Belfiore Antonio\", is struck through and stamped \"U.S.C. DISCHARGED ON PIER\": he was taken off the alien list as a US citizen. Last residence S. Bartolomeo, Benevento; nearest relative left behind: his wife, at San Bartolomeo in Galdo; final destination (index) Cleveland, Ohio. Age not readable (perhaps 46 or 48). Our Antonio's wife and children were all in New Rochelle by 1900 and he owned a house on Brook Street in 1910, so this is probably a different Antonio Belfiore. Not proven either way.",
+   "file": "images/duca-di-genova-1909-page1.jpg",
+   "url": "https://www.ancestry.com/search/collections/7488/records/4005267966",
+   "earlierNote": "Not saved in this repository. Recorded in earlier research notes; needs a saved copy and a line-by-line check."
   },
   {
    "id": "italyheritage-circelli",
@@ -118,7 +121,10 @@
    "type": "death index",
    "repository": "New York State Department of Health index",
    "date": "1938-07-11",
-   "note": "Index entry only. The certificate has not been ordered."
+   "note": "Index page 69 (Reclaim The Records scan): Belfiore, Anthony, 11 Jul 1938, New Rochelle, certificate 42184. A second Anthony Belfiore died 15 Sep 1938 in Beacon (certificate 51555); he is not ours. The certificate has not been ordered.",
+   "file": "images/nysdi-1938-anthony-belfiore.jpg",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1938",
+   "earlierNote": "Index entry only. The certificate has not been ordered."
   },
   {
    "id": "ssdi-frances",
@@ -286,7 +292,9 @@
    "repository": "Michigan State University Turfgrass Information Center",
    "date": "1934-01",
    "url": "https://archive.lib.msu.edu/tic/golfd/article/1934jan9.pdf",
-   "note": "Cited by earlier research. Not re-read for this revision."
+   "note": "Re-read November 2026 (page 9): on 23 October 1933, Al Watrous's testimonial day at Oakland Hills CC, Horton Smith and Frank Walsh of Chicago beat Al Watrous and Joe Belfore of Detroit CC one up on the 18th green; Joe was among the speakers at the dinner that evening, with John P. O'Hara, president of Oakland Hills, as toastmaster.",
+   "file": "images/golfdom-1934-01-joe-belfore.jpg",
+   "earlierNote": "Cited by earlier research. Not re-read for this revision."
   },
   {
    "id": "pga-profile-sammy",
@@ -528,6 +536,648 @@
    "repository": "Connecticut State Library",
    "url": "https://ctdigitalnewspaperproject.org/2020/11/the-1918-1919-influenza-epidemic-in-connecticut/",
    "date": ""
+  },
+  {
+   "id": "birth-maria-donata-1863",
+   "title": "Atto di nascita no. 191: Circelli Maria Donata",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Nati 1863 (Antenati portal, ark:/12657/an_ua1010522), image 193",
+   "date": "1863-09-25",
+   "note": "Father Giuseppe Circelli, son of the late Donato, 36, contadino; mother Rita Mansolino, 36; baptized the same day. Found through the register's Tavola alfabetica, image 290.",
+   "file": "images/birth-maria-donata-circelli-1863.jpg",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua1010522"
+  },
+  {
+   "id": "marriage-circelli-mansolino-1850",
+   "title": "Atto di solenne promessa di matrimonio no. 1: Circelli Giuseppe and Mansolino Anna Rita",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Foggia, Sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Matrimoni 1850 (Antenati, ark:/12657/an_ua36035159), image 2",
+   "date": "1850-01-17",
+   "note": "Groom 23, son of the late Donato Circelli and the late Vincenza Minichilli (surname reading uncertain); bride 21, daughter of Francesco Mansolino, contadino, and Brigida (surname written Mansolino). Banns 11 Nov 1849; church marriage the same day.",
+   "file": "images/marriage-circelli-mansolino-1850.jpg",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035159"
+  },
+  {
+   "id": "birth-circelli-twins-1860",
+   "title": "Atti di nascita nos. 3 and 4: Circelli Maria Filomena and Maria Lucia (twins)",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Foggia, Sezione di Lucera, San Bartolomeo in Galdo, Nati 1860, Registro 1205 (Antenati, ark:/12657/an_ua36035574), images 13 and 14",
+   "date": "1860-01-03",
+   "note": "Father Giuseppe Circelli, son of the late Donato, 30; mother Rita Mansolino (written Manzolino), 28.",
+   "file": "images/birth-circelli-twins-1860-a.jpg",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035574"
+  },
+  {
+   "id": "index-births-1884",
+   "title": "Indice annuale dei nati 1884: Belfiore Michele Antonio di Leonardantonio, act 440",
+   "type": "civil record index",
+   "repository": "Archivio di Stato di Benevento, San Bartolomeo in Galdo, Nati 1884 (Antenati portal)",
+   "date": "1884",
+   "note": "Act 440 lies after the principal register's last act, in a supplementary register that is not online.",
+   "file": "images/index-michele-antonio-belfiore-1884.jpg"
+  },
+  {
+   "id": "matrimoni-1855-matteo-circelli",
+   "title": "Atto di solenne promessa di matrimonio no. 1: Circelli Matteo and Palumbo Anna",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Foggia, Sezione di Lucera, San Bartolomeo in Galdo, Matrimoni 1855, Registro 1216 (Antenati, ark:/12657/an_ua36035164), image 5",
+   "date": "1855-01-07",
+   "note": "Groom 21, son of the late Donato and of Lucia Catalano; bride 18.",
+   "file": "images/marriage-circelli-palumbo-1855.jpg",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035164"
+  },
+  {
+   "id": "nati-1856-circelli",
+   "title": "Atti di nascita 1856 nos. 12 and 20: Circelli Lucia (father Matteo) and Circelli Michele (father Vincenzo)",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Foggia, Sezione di Lucera, San Bartolomeo in Galdo, Nati 1856, Registro 1205 (Antenati, ark:/12657/an_ua36044504), images 19 and 23",
+   "date": "1856-01",
+   "note": "Act 12: Lucia, born 4 Jan 1856, to Matteo Circelli, son of the late Donato, and Anna Palumbo. Act 20: Michele, born 7 Jan 1856, to Vincenzo Circelli (written like Cirelli) and Carolina Stellato (reading uncertain).",
+   "file": "images/birth-circelli-lucia-1856.jpg",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044504"
+  },
+  {
+   "id": "hindoustan-1890-manifest",
+   "title": "Passenger manifest, SS Hindoustan, Naples to New York, arrived 24 Dec 1890, line 36",
+   "type": "passenger manifest",
+   "repository": "National Archives (NARA) microfilm M237, roll 560, image NYM237_560-0318; Ancestry.com, New York Passenger Lists, record 8292809",
+   "date": "1890-12-24",
+   "note": "Belfiori Leonardo, 29; town given by ditto marks as S. Bartolomeo. Line 35 Circolo Michele, 35; line 34 La Vechia Michel, 34.",
+   "file": "images/hindoustan-1890-leonardo.jpg"
+  },
+  {
+   "id": "oregon-1896-manifest",
+   "title": "Passenger manifest, SS Oregon, Naples to New York, arrived 2 Dec 1896, lines 13 to 16",
+   "type": "passenger manifest",
+   "repository": "National Archives (NARA) microfilm M237, roll 669, image NYM237_669-0064; Ancestry.com collection 7488, record 4002498358",
+   "date": "1896-12-02",
+   "note": "Circelli mari Doreta, 34, wife; Belfiore Michele, son, 12; Francesca, 9; Anna, 6; all of S. Bartolomeo, going to New York.",
+   "file": "images/oregon-1896-manifest.jpg"
+  },
+  {
+   "id": "ship-oregon-history",
+   "title": "S.S. Oregon, Dominion Line (built 1882)",
+   "type": "web page",
+   "repository": "Norway Heritage, norwayheritage.com",
+   "date": "2026",
+   "note": "Built 1882 at Glasgow by Charles Connell; sold to Furness 1896 and chartered by the Hamburg America Line; first Furness voyage New York to Naples, Genoa and Leghorn, 10 Oct 1896; scrapped at Genoa 1897. Not the Guion or Cunard Oregon, which sank in 1886.",
+   "url": "https://www.norwayheritage.com/p_ship.asp?sh=orego"
+  },
+  {
+   "id": "census-1900",
+   "title": "1900 U.S. census, Westchester County, New York, New Rochelle Ward 1, ED 93, sheet 6A, family 116, lines 25 to 31",
+   "type": "census",
+   "repository": "National Archives microfilm T623, roll 1176; Ancestry.com collection 7602, record 49930098, image 4114939_00231",
+   "date": "1900-06-11",
+   "note": "Antonio, head, born Sept 1861, immigrated 1890, naturalized, married 16 years; Mary, born Sept 1862, 6 children born, 6 living; Michael Dec 1885; Filomena Sept 1887; Mary Oct 1889; Frank Nov 1897; Samuel Dec 1898. Address: 13 Lawton Street (the street name is written down the margin), a rented house; dwelling 86, family 116.",
+   "file": "images/census-1900-belfiore.jpg"
+  },
+  {
+   "id": "census-1905",
+   "title": "1905 New York State census, Westchester County, New Rochelle Ward 3, AD 1, ED 1, page 2, lines 43 to 50",
+   "type": "census",
+   "repository": "New York State census 1905, county clerk copies; Ancestry.com collection 7364, record 3992024, image 004296242_00127",
+   "date": "1905-06-01",
+   "note": "Tony 40, Mary 39, Michele 20 (house painter), Philmenia 18, Mary 14, Frank 7, Samuel 6, Rose 5. Lena 4 and Joseph 1 are in the index only. Address: house 62; the street in the margin reads like Cottage Place (reading uncertain).",
+   "file": "images/census-1905-belfiore.jpg"
+  },
+  {
+   "id": "census-1915",
+   "title": "1915 New York State census, Westchester County, New Rochelle Ward 3, AD 2, ED 3, page 16, lines 25 to 32",
+   "type": "census",
+   "repository": "New York State Archives, State Population Census Schedules, 1915; Ancestry.com collection 2703, record 13378688, image 32848_B094139-00039",
+   "date": "1915-06-01",
+   "note": "Surname written Belfore. Tony 54, saloon keeper; Marie 53; Frank 17; Samuel 14; Joseph 10; Rosie 13; Lena 12; Mollie 9. Address: house 41, Brook Street (written Brooks Street).",
+   "file": "images/census-1915-belfore.jpg"
+  },
+  {
+   "id": "census-1920",
+   "title": "1920 U.S. census, Westchester County, New York, New Rochelle Ward 3, ED 132, sheet 10B, lines 51 to 62",
+   "type": "census",
+   "repository": "National Archives microfilm T625, roll 1278; Ancestry.com collection 6061, record 87616716, image 4442108_00358",
+   "date": "1920-01-16",
+   "note": "Indexed as Befusio. Antony 59, Marie 57, Mike 36, Willmena 34 (married), Marie 31 (married), Frank 22, Rosa 18, Lee 17, Samuel 21, Joseph 15, Mollie 12, and a niece, Margrett M. Elmer, 12. The family owned the house. Address: 54 Brook Street, owned with a mortgage; family 207. The next family on the street is at number 234, so the street numbers may have been changed after 1918, when Sammy's card gives 41 Brook.",
+   "file": "images/census-1920-belfiore.jpg"
+  },
+  {
+   "id": "census-1925",
+   "title": "1925 New York State census, Westchester County, New Rochelle Ward 3, AD 1, ED 2, page 26, lines 13 to 19",
+   "type": "census",
+   "repository": "New York State Archives, State Population Census Schedules, 1925; Ancestry.com collection 2704, record 16940211, image 32849_b094372-00169",
+   "date": "1925-06-01",
+   "note": "Indexed as Belford; page reads Belfore. Anthony 62, mason; Mary 60; Frank 28; Joseph 21, golf professional; Rose 24; Carolyn 22; Mollie 18. Address: 39 Albemarle (street as written on the page).",
+   "file": "images/census-1925-belfore.jpg"
+  },
+  {
+   "id": "census-1930",
+   "title": "1930 U.S. census, Westchester County, New York, New Rochelle, ED 60-263, sheets 8A and 8B",
+   "type": "census",
+   "repository": "National Archives series T626; Ancestry.com collection 6224, record 46965522, images 4638877_00648 and 00649 (FHL microfilm 2341397)",
+   "date": "1930-04-08",
+   "note": "Antonio 68, Marie 66, Rose R. 27 (stenographer), Carolyn 24 (dressmaker), Joseph F. 23 (golf instructor), Molly 21 (stenographer). Home owned. Address: 55 Potter Avenue, dwelling 159, owned and valued at $35,000; the family had a radio.",
+   "file": "images/census-1930-belfiore.jpg"
+  },
+  {
+   "id": "nysdi-1937",
+   "title": "New York State Death Index 1937: Marie D. Belfiore, New Rochelle, 26 Sep 1937, certificate 56678",
+   "type": "death index",
+   "repository": "New York State Department of Health, via Reclaim The Records and archive.org (New_York_State_Death_Index_1937)",
+   "date": "1937-09-26",
+   "note": "Index entry only; the certificate has not been ordered.",
+   "file": "images/nysdi-1937-marie-d-belfiore.jpg",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1937"
+  },
+  {
+   "id": "marriage-index-1906",
+   "title": "New York State Marriage Index 1906: Belfiore, Filomina and Paternoster, Angelo, 20 Jan 1906, New Rochelle, certificate 1348",
+   "type": "marriage index",
+   "repository": "New York State Department of Health, New York State Marriage Index; Reclaim The Records scan on archive.org (New_York_State_Marriage_Index_1906, images n65 and n781) and Ancestry.com collection 61632, record 6015119, image 48576_556178-00065",
+   "date": "1906-01-20",
+   "note": "Both entries carry certificate number 1348. The certificate has not been ordered.",
+   "file": "images/marriage-index-1906-belfiore-paternoster.jpg",
+   "url": "https://archive.org/details/New_York_State_Marriage_Index_1906"
+  },
+  {
+   "id": "marriage-index-1911",
+   "title": "New York State Marriage Index 1911: Belfiore, Maria and Donofrio, Guiseppe, 10 Dec 1911, New Rochelle, certificate 44565",
+   "type": "marriage index",
+   "repository": "New York State Department of Health, New York State Marriage Index; Ancestry.com collection 61632, record 6508242, image 48576_556129-00047",
+   "date": "1911-12-10",
+   "note": "Same certificate number on both entries. The certificate has not been ordered.",
+   "file": "images/marriage-index-1911-belfiore-donofrio.jpg"
+  },
+  {
+   "id": "ww1-samuel",
+   "title": "World War I draft registration card: Samuel Belfiore, New Rochelle, 1918",
+   "type": "draft card",
+   "repository": "National Archives, WWI Selective Service registration cards (M1509); Ancestry.com collection 6482, record 15495635, image 005262639_03828",
+   "date": "1918-09-09",
+   "note": "Age 19; born 25 Dec 1899; present occupation golf instructor, employer Alex Smith, place of employment Wykagyl, New Rochelle; nearest relative his father, Tony Belfiore. Registered 9 Sep 1918 (date as written) before Local Exemption Board Division No. 9, New London, Connecticut; stamped for the Local Board of the City of New Rochelle. Address on the card: 41 Brook, New Rochelle; his father Tony Belfiore at the same address.",
+   "file": "images/ww1-samuel-belfiore-1918.jpg"
+  },
+  {
+   "id": "ww2-samuel",
+   "title": "World War II draft registration card: Samuel Belfore, Daytona Beach, 16 Feb 1942",
+   "type": "draft card",
+   "repository": "National Archives, WWII young men's draft cards; Ancestry.com collection 2238, record 12440928, images 44005_05_00005-01022 and 01023",
+   "date": "1942-02-16",
+   "note": "Age 44; born 25 Dec 1898, New Rochelle; employer James M. Caithness, place of employment Shenecossett Country Club, New London, Connecticut; contact Mrs. Virginia H. Belfore, Birmingham, Michigan. Residence 1517 South Atlantic Avenue, Daytona Beach; mailing address Box 3603, Daytona Beach. Mrs. Virginia H. Belfore at 251 West Maple Avenue, Birmingham, Michigan (the address the 1930 engagement notice gave for Virginia Hupp's mother).",
+   "file": "images/ww2-samuel-belfore-1942.jpg"
+  },
+  {
+   "id": "ww2-joe",
+   "title": "World War II draft registration card: Joseph Francis Belfore, Grosse Pointe Farms, 1942",
+   "type": "draft card",
+   "repository": "National Archives, WWII young men's draft cards; Ancestry.com collection 2238, record 267355465, images 44017_01_00005-00407 and 00408",
+   "date": "1942",
+   "note": "Born 5 Feb 1904, New Rochelle; age 38; employer Country Club of Detroit; contact his sister Miss Rose Belfore of New Rochelle. Ancestry indexes the registration as 16 Oct 1940, but the card is the form revised 1 Jan 1942 and his age of 38 fits February 1942. Residence 276 Merriweather, Grosse Pointe Farms; telephone Niagara 3226. Miss Rose Belfore at the Wykagyl Gardens Apartments, New Rochelle. Place of employment: Country Club of Detroit, 330 Country Club Drive, Grosse Pointe Farms.",
+   "file": "images/ww2-joe-belfore-1942.jpg"
+  },
+  {
+   "id": "ww2-frank",
+   "title": "World War II draft registration card: Frank Belfiore, Grosse Pointe Park, 16 Feb 1942",
+   "type": "draft card",
+   "repository": "National Archives, WWII young men's draft cards; Ancestry.com collection 2238, record 267355439, images 44017_01_00005-00355 and 00356",
+   "date": "1942-02-16",
+   "note": "Age 44; born 31 Oct 1897, New Rochelle; employer written like \"Budd Wheel\" (reading probable), place of employment Kercheval near Conner, Detroit; contact Joseph Belfiore of Grosse Pointe Farms. Residence 1200 Grayton, Grosse Pointe Park; contact Joseph Belfiore, 200 Merriweather, Grosse Pointe Farms (Joe's own card gives number 276).",
+   "file": "images/ww2-frank-belfiore-1942.jpg"
+  },
+  {
+   "id": "nj-death-1994-joseph",
+   "title": "New Jersey Death Index 1994: Joseph C. Belfiore, Princeton, 19 Oct 1994",
+   "type": "death index",
+   "repository": "New Jersey State Archives, New Jersey Death Indexes 1904 to 2000; Ancestry.com collection 61260, record 4228763, image death_index_1994_a-f-00071",
+   "date": "1994-10-19",
+   "note": "Age 71, born 1 Dec 1922. SSDI (Ancestry 3693, record 3936871) gives the same dates and a last residence in the Plainsboro area of New Jersey.",
+   "file": "images/nj-death-index-1994-joseph-c-belfiore.jpg"
+  },
+  {
+   "id": "ssaci-joseph-1922",
+   "title": "U.S. Social Security Applications and Claims Index: Joseph Anthony Belfiore, born 1 Dec 1922, New Rochelle",
+   "type": "index",
+   "repository": "Ancestry.com collection 60901, record 42532622",
+   "date": "1938-05",
+   "note": "Father Michael Belfiore; mother Frances Towey. Name listed as Joseph Anthony (1938), Joseph Curties (1964), Joseph C (1984)."
+  },
+  {
+   "id": "ssdi-numident-family",
+   "title": "Social Security NUMIDENT, SS-5 and Death Master File entries for the family (republished)",
+   "type": "index (derivative)",
+   "repository": "SortedByName.com republication of Social Security Administration files",
+   "date": "2026",
+   "note": "Used for Edward J. (1921 to 1992), Rose R. (1900 to 1994), Carolyn G. (1902 to 1989), Francis A. D'Onofrio (1919 to 1991), Raymond C. D'Onofrio (1922 to 2002) and Charles C. Drew (1944 to 2004). Derivative; points to the originals.",
+   "url": "https://sortedbyname.com"
+  },
+  {
+   "id": "edward-va-burial",
+   "title": "Edward J. Belfiore, CPL, US Army, World War II: burial, Southern Nevada Veterans Memorial Cemetery, Boulder City, Section B, Site 319",
+   "type": "burial index (derivative)",
+   "repository": "U.S. Department of Veterans Affairs burial data as republished by SortedByName.com",
+   "date": "1992",
+   "note": "Army service 3 Nov 1941 to 16 Nov 1945.",
+   "url": "https://sortedbyname.com/letter_b/belfiore/index_6.html"
+  },
+  {
+   "id": "obit-dorothy-2008",
+   "title": "Dorothy H. Belfiore obituary",
+   "type": "obituary",
+   "repository": "Town Topics (Princeton, NJ), 9 Jan 2008",
+   "date": "2008-01-09",
+   "note": "Died 5 Jan 2008, aged 85; wife of the late Joseph C.; moved to Princeton in 1994.",
+   "url": "https://www.towntopics.com"
+  },
+  {
+   "id": "obit-patricia-hendrie-2019",
+   "title": "Patricia M. Hendrie obituary",
+   "type": "obituary",
+   "repository": "The Journal News (lohud.com), posted 4 May 2019",
+   "date": "2019-05-04",
+   "note": "Born 21 Sep 1942 to Anthony and Mollie (BelFiore) Drew; died 1 May 2019; buried at Holy Sepulchre Cemetery, New Rochelle.",
+   "url": "https://www.lohud.com/obituaries/wjn132942"
+  },
+  {
+   "id": "donofrio-post-2010",
+   "title": "Gerard D'Onofrio, \"D'Onofrio's from Yonkers, New York\"",
+   "type": "family account (published)",
+   "repository": "Genealogy.com surname forum, 30 Mar 2010",
+   "date": "2010-03-30",
+   "note": "A family account from the D'Onofrio side: Joseph's parents Leonard and Angela Maria of Alberona, Foggia; his marriage to Maria Belfiore; their move to Millburn, New Jersey; their six children; and a list of Antonio and Donata Maria's children.",
+   "url": "https://www.support.genealogy.com/forum/surnames/topics/donofrio/69/"
+  },
+  {
+   "id": "rochellean-1926",
+   "title": "The Rochellean 1926, New Rochelle High School yearbook, page 21",
+   "type": "yearbook",
+   "repository": "New Rochelle High School, Class of 1926; scan hosted by e-yearbook.com",
+   "date": "1926",
+   "note": "Mollie Frances Belfiore: \"Molly, of the raven-black hair and eyes, intends to be a nurse.\" Spanish Club, Dramatic Club.",
+   "file": "images/rochellean-1926-mollie.jpg",
+   "url": "https://www.e-yearbook.com/yearbooks/New_Rochelle_High_School_Rochellean_Yearbook/1926/Page_21.html"
+  },
+  {
+   "id": "nrpl-ww1-honor-roll",
+   "title": "A Listing of New Rochelle Men Who Served in WWI (Our Honor Roll)",
+   "type": "list",
+   "repository": "New Rochelle Public Library",
+   "date": "1919",
+   "note": "Includes Belfiore, Frank.",
+   "url": "http://nrpl.org/wp-content/uploads/2017/03/A-Listing-of-New-Rochelle-Men-Who-Served-in-WWI.pdf"
+  },
+  {
+   "id": "golfdom-1964-01",
+   "title": "Golfdom, January 1964, p. 3, \"Swinging Around Golf\" (Herb Graffis)",
+   "type": "periodical",
+   "repository": "Michigan State University Turfgrass Information Center",
+   "date": "1964-01",
+   "note": "Joe Belfore, 32 years at the Country Club of Detroit, 30 as head pro, died after a long illness; native of New Rochelle; assistant in the East and in Duluth before Detroit.",
+   "file": "images/golfdom-1964-joe-belfore.jpg",
+   "url": "https://archive.lib.msu.edu/tic/golfd/article/1964jan3.pdf"
+  },
+  {
+   "id": "golfdom-1941-04",
+   "title": "Golfdom, April 1941, p. 2",
+   "type": "periodical",
+   "repository": "Michigan State University Turfgrass Information Center",
+   "date": "1941-04",
+   "note": "\"The Joe Belfores (CC of Detroit) ... are admiring baby boys.\"",
+   "file": "images/golfdom-1941-belfore-baby.jpg",
+   "url": "https://archive.lib.msu.edu/tic/golfd/article/1941apr2.pdf"
+  },
+  {
+   "id": "mipga-records",
+   "title": "Michigan PGA: past presidents, champions and awards",
+   "type": "web page",
+   "repository": "Michigan Section PGA, michiganpga.com",
+   "date": "2026",
+   "note": "Joe Belfore: president 1959 to 1960; Michigan PGA champion 1933 and 1937; Professional of the Year 1960 and 1964; Senior PGA champion 1945 (shared with Frank Connolly).",
+   "url": "https://michiganpga.com"
+  },
+  {
+   "id": "evening-star-1931-03-01",
+   "title": "Evening Star (Washington, DC), 1 Mar 1931, p. 71",
+   "type": "newspaper",
+   "repository": "Evening Star; copy at historyworm.com",
+   "date": "1931-03-01",
+   "note": "\"Young Joe Belfore of New Rochelle\" third in the West Coast Open, Florida."
+  },
+  {
+   "id": "obit-index-joe-1963",
+   "title": "Newspapers.com obituary index: Joseph F. Belfore, Detroit, 23 and 25 Oct 1963",
+   "type": "obituary index",
+   "repository": "Ancestry.com collection 61843 (index rows only; pages not opened)",
+   "date": "1963-10-25",
+   "note": "Relatives named Ruth and David. A New Rochelle notice is indexed on 23 Oct 1963."
+  },
+  {
+   "id": "census-1950-joe",
+   "title": "1950 U.S. census, Wayne County, Michigan, Grosse Pointe Woods, ED 82-129, sheet 77",
+   "type": "census",
+   "repository": "National Archives, 1950 Population Schedules (1950census.archives.gov)",
+   "date": "1950-04-14",
+   "note": "Joseph F. Belfore, 46, golf professional; wife Ruth, born Minnesota; his mother-in-law Beulah M. Burdick lived with the family. House number 276 written in the margin, the same number as Joe's 1942 address on Merriweather.",
+   "url": "https://1950census.archives.gov",
+   "file": "images/census-1950-joe-ruth-beulah.jpg"
+  },
+  {
+   "id": "census-1950-rose",
+   "title": "1950 U.S. census, Westchester County, New York, New Rochelle, ED 67-39, sheet 72",
+   "type": "census",
+   "repository": "National Archives, 1950 Population Schedules (1950census.archives.gov)",
+   "date": "1950-04-04",
+   "note": "Rose Belfiore (indexed Belfire) and her sister Carolyn in one household.",
+   "url": "https://1950census.archives.gov",
+   "file": "images/census-1950-rose-carolyn.jpg"
+  },
+  {
+   "id": "photo-town-main-street",
+   "title": "San Bartolomeo in Galdo, the main street with the bell tower of the Chiesa Madre",
+   "type": "photograph",
+   "repository": "Wikimedia Commons, photo by michele carbone, public domain",
+   "date": "2019-05-01",
+   "file": "images/town-san-bartolomeo-main-street.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:San_Bartolomeo_in_Galdo.jpg"
+  },
+  {
+   "id": "photo-chiesa-madre",
+   "title": "Chiesa Madre, San Bartolomeo in Galdo",
+   "type": "photograph",
+   "repository": "Wikimedia Commons, photo by Claudio Grumiro, CC BY-SA 3.0",
+   "date": "2013-04-15",
+   "note": "Licence: https://creativecommons.org/licenses/by-sa/3.0/",
+   "file": "images/town-chiesa-madre.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Chiesa_Madre_San_Bartolomeo_in_Galdo.jpg"
+  },
+  {
+   "id": "photo-annunziata",
+   "title": "Chiesa dell'Annunziata, San Bartolomeo in Galdo",
+   "type": "photograph",
+   "repository": "Wikimedia Commons, photo by Pere Garcia, CC0",
+   "date": "2024-02-26",
+   "file": "images/town-chiesa-annunziata.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Pgr_San_Bartolomeo_in_Galdo_-_Chiesa_dell%27Annunziata_o6o_1.jpg"
+  },
+  {
+   "id": "photo-holy-sepulchre",
+   "title": "Holy Sepulchre Cemetery, New Rochelle, main entrance",
+   "type": "photograph",
+   "repository": "Wikimedia Commons, photo by Anthony22, CC BY-SA 3.0",
+   "date": "2009-10-26",
+   "note": "Licence: https://creativecommons.org/licenses/by-sa/3.0/",
+   "file": "images/holy-sepulchre-new-rochelle.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Holy_Sepulchre_Cemetery_Main_Entrance.JPG"
+  },
+  {
+   "id": "photo-ccofd",
+   "title": "Country Club of Detroit, clubhouse veranda over the 18th green",
+   "type": "photograph",
+   "repository": "Wikimedia Commons, photo by Hu12, CC BY-SA 3.0",
+   "date": "2012-05-11",
+   "note": "Licence: https://creativecommons.org/licenses/by-sa/3.0/",
+   "file": "images/country-club-of-detroit.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:CCOFD.JPG"
+  },
+  {
+   "id": "census-1910",
+   "title": "1910 U.S. census, Westchester County, New York, New Rochelle Ward 3, ED 91, sheet 10A, lines 12 to 20",
+   "type": "census",
+   "repository": "National Archives microfilm T624, roll 1091 (FHL 1375104); Ancestry.com collection 7884, record 20230196, image 4449910_01018",
+   "date": "1910-04",
+   "note": "Indexed as Buffin and Buffiri. Antonio, 48, saloon keeper on his own account, naturalized, immigrated 1890, married 26 years, owned the house (mortgaged); Marie, 47, mother of 9 children, 9 living, immigrated 1896; Frank 11, Samuel 10, Rose 9, \"Leon\" (son) 8, Joseph 6, Marie 3, and Mattie, 18, daughter, born Italy, immigrated 1896. Address: 41 Brook Street, owned with a mortgage; dwelling 154, family 223.",
+   "file": "images/census-1910-belfiore.jpg"
+  },
+  {
+   "id": "census-1910-paternostro",
+   "title": "1910 U.S. census, Fairfield County, Connecticut, Bridgeport, ED 50, sheet 5A",
+   "type": "census",
+   "repository": "National Archives microfilm T624, roll 129 (FHL 1374142); Ancestry.com collection 7884, record 2309716, image 31111_4327332-00536",
+   "date": "1910-04",
+   "note": "Angelo Paternostro, 28, railroad foreman, immigrated 1900, married 4 years; Filomina, 23, 2 children born, 2 living; Marianna, 3, and Domenik, an infant, both born in Connecticut. Address: 35 Hallett Street, Bridgeport, rented.",
+   "file": "images/census-1910-paternostro-bridgeport.jpg"
+  },
+  {
+   "id": "census-1920-paternostro",
+   "title": "1920 U.S. census, Hartford County, Connecticut, Hartford Ward 2, ED 56, sheet 4A, lines 19 to 27",
+   "type": "census",
+   "repository": "National Archives microfilm T625, roll 182; Ancestry.com collection 6061, record 72141286, image 4294452-00749",
+   "date": "1920-01",
+   "note": "Indexed as Patersnotre. Angelo, 36, hod carrier; Philomena, 35; Marian 13, Dominick 11, Dorothy 9, Anthony 7 and Carl 4, all born in Connecticut; two roomers. Address: Goodman Place (street from the index), dwelling 63, rented.",
+   "file": "images/census-1920-paternostro-hartford.jpg"
+  },
+  {
+   "id": "census-1930-paternostro",
+   "title": "1930 U.S. census, Hartford County, Connecticut, Hartford, ED 73, sheet 11B, lines 97 to 100",
+   "type": "census",
+   "repository": "National Archives series T626 (FHL 2340000); Ancestry.com collection 6224, record 9625424, image 4531869_00619",
+   "date": "1930-04",
+   "note": "Angelo, 48, building foreman, home owned; Philomena, 42, immigrated 1896, first married at 18; Dominick F., 20, apprentice carpenter; Dorothy L., 18, insurance clerk, born Massachusetts; Anthony A., 16, and Carl A., 14, on the household list. Address: 397 Woodland Street, owned and valued at $16,500 (the street cell is blank in the index; the neighbouring lines and the 1940 entry give Woodland Street).",
+   "file": "images/census-1930-paternostro-hartford.jpg"
+  },
+  {
+   "id": "census-1940-paternostro",
+   "title": "1940 U.S. census, Hartford County, Connecticut, Hartford, ED 10-145, sheet 9A, lines 37 to 40",
+   "type": "census",
+   "repository": "National Archives microfilm T627, roll 537; Ancestry.com collection 2442, record 129994371, image m-t0627-00537-00925",
+   "date": "1940-04",
+   "note": "Indexed as Paternoster. Angelo, 56, foreman; Philomine, 52, naturalized; Dorothy, 28, office clerk; and a son indexed as Albert, 26, born Connecticut. Address: 397 Woodland Street, owned and valued at $6,000; in 1935 they already lived in Hartford.",
+   "file": "images/census-1940-paternostro-hartford.jpg"
+  },
+  {
+   "id": "census-1920-donofrio",
+   "title": "1920 U.S. census, Westchester County, New York, Yonkers Ward 10, ED 266, sheet 7A, lines 24 to 30",
+   "type": "census",
+   "repository": "National Archives microfilm T625, roll 1281; Ancestry.com collection 6061, record 87669524, image 4442111_00357",
+   "date": "1920-01",
+   "note": "Joseph Donofrio, 29, gardener for a florist; Mary, 29; Leonard 6 and Angelina 4, born New Jersey; Donald 3 and Anthony, an infant, born New York; and Joseph's brother Anthony, 21, born Italy, immigrated 1915. Address: 23 Lockwood Avenue, Yonkers, rented.",
+   "file": "images/census-1920-donofrio-yonkers.jpg"
+  },
+  {
+   "id": "census-1930-donofrio",
+   "title": "1930 U.S. census, Westchester County, New York, Yonkers, ED 382, sheet 16A, lines 28 to 34",
+   "type": "census",
+   "repository": "National Archives series T626 (FHL 2341403); Ancestry.com collection 6224, record 47242603, image 4638883_00095",
+   "date": "1930-04",
+   "note": "Joseph, 40, nursery on his own account, naturalized, first married at 22; Mary, 39, immigrated 1896, first married at 21; Leonard 17 and Angela 15, born New Jersey; Donald 13, Francis 10 and Raymond 7, born New York. Home owned. Address: 91 Buckingham Road, Yonkers, dwelling 162, family 277, owned and valued at $11,500; radio.",
+   "file": "images/census-1930-donofrio-yonkers.jpg"
+  },
+  {
+   "id": "census-1940-donofrio",
+   "title": "1940 U.S. census, Westchester County, New York, Yonkers, ED 68-77, sheet 13A, lines 33 to 38",
+   "type": "census",
+   "repository": "National Archives microfilm T627, roll 2865; Ancestry.com collection 2442, image m-t0627-02865-00591",
+   "date": "1940-04",
+   "note": "Joseph, 48, foreman; Mary, 48; Leonard, 26; Francis, 20, floor hand in a carpet mill; Raymond (indexed Ranmond), 17; and a younger daughter. In 1935 the family lived in Greenburgh. Address: Beech Street, Yonkers, rented at $40 a month (house number not in the index)."
+  },
+  {
+   "id": "census-1910-elmer",
+   "title": "1910 U.S. census, Bronx, New York City, Assembly District 33, ED 1509, sheet 10B, lines 55 to 59",
+   "type": "census",
+   "repository": "National Archives microfilm T624, roll 999 (FHL 1375012); Ancestry.com collection 7884, image 4449352_00964",
+   "date": "1910-04",
+   "note": "Thomas J. Elmer, 28, painter, born New York to Irish parents; Annie A., 24, born New York to German parents; Margaret M., 2; Thomas's mother Julia, 61, born Ireland; his brother Robert G., 31. Address: Melrose Avenue, the Bronx; family 318.",
+   "file": "images/census-1910-elmer-bronx.jpg"
+  },
+  {
+   "id": "census-1920-michael",
+   "title": "1920 U.S. census, Westchester County, New York, New Rochelle Ward 3, ED 124, sheet 2B",
+   "type": "census",
+   "repository": "National Archives microfilm T625, roll 1278; Ancestry.com collection 6061, image 4442108_00162",
+   "date": "1920-01",
+   "note": "Michael Belfiore, lodger, 34, born Italy, widowed, immigrated 1894, naturalized, manager of a bowling alley on his own account. Address: North Avenue, New Rochelle, lodging with John and Margaret J. Stephens.",
+   "file": "images/census-1920-michael-lodger.jpg"
+  },
+  {
+   "id": "census-1930-michael",
+   "title": "1930 U.S. census, Westchester County, New York, New Rochelle, ED 60-273, sheet 10A, lines 34 to 38",
+   "type": "census",
+   "repository": "National Archives series T626; Ancestry.com collection 6224, image 4638877_01006",
+   "date": "1930-04",
+   "note": "Micheal Belfiore, 47, house painter, immigrated 1894, first married at 37; Frances, 32, born New York to Irish parents, first married at 22; Dorothy, 17, born New York, father born Italy, mother born New York, manicurist in a beauty shop; Edward 9; Joseph 7. Address: 52 Brook Street, rented, dwelling 111, family 212; radio. A few doors from 41 and 54 Brook Street, where his parents had lived.",
+   "file": "images/census-1930-michael-frances.jpg"
+  },
+  {
+   "id": "census-1900-towey",
+   "title": "1900 U.S. census, Westchester County, New York, New Rochelle Ward 3, ED 96, sheet 12B",
+   "type": "census",
+   "repository": "National Archives microfilm T623, roll 1176; Ancestry.com collection 7602, image 4114939_00382",
+   "date": "1900-06",
+   "note": "Indexed as Lowey (alternate Towey). James, 33, and Margaret, 31, both with Irish parents; Frances, 2, born September 1897, New York; James, an infant; niece Nellie Kelly, 11. Address: 200 Horton Avenue, New Rochelle.",
+   "file": "images/census-1900-towey.jpg"
+  },
+  {
+   "id": "census-1910-towey",
+   "title": "1910 U.S. census, Westchester County, New York, New Rochelle Ward 1, ED 81, sheet 11B",
+   "type": "census",
+   "repository": "National Archives microfilm T624, roll 1091 (FHL 1375104); Ancestry.com collection 7884, record 20223753, image 4449910_00671",
+   "date": "1910-04",
+   "note": "James Towey, 44, born Ireland, immigrated 1887, naturalized, machine-shop laborer, married 16 years; Margaret, 42, born Ireland; Fannie, 12; James, 11; Mary, 8; John, 1. Address: 47 Oak Street, New Rochelle, rented.",
+   "file": "images/census-1910-towey.jpg"
+  },
+  {
+   "id": "index-births-1860",
+   "title": "Indice dei nati 1860, San Bartolomeo in Galdo: letters L and M, and foundlings",
+   "type": "civil record index",
+   "repository": "Archivio di Stato di Foggia, Sezione di Lucera, San Bartolomeo in Galdo, Nati 1860, Registro 1205 (Antenati, ark:/12657/an_ua36035574), images 5 and 6",
+   "date": "1860",
+   "note": "Searched for the foundling Leonardantonio: no Leonardantonio is indexed, and foundlings are listed with parents written \"N. N.\". The 1861 register, where a birth of late 1860 or early 1861 would be, is not online.",
+   "file": "images/index-births-1860-l-m.jpg",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035574"
+  },
+  {
+   "id": "index-births-1883-1885",
+   "title": "Indici dei nati 1883 and 1885, San Bartolomeo in Galdo, letter B",
+   "type": "civil record index",
+   "repository": "Archivio di Stato di Benevento, San Bartolomeo in Galdo, Nati 1883 (ark:/12657/an_ua2583974, image 309) and Nati 1885 (ark:/12657/an_ua2586327, image 314), via Antenati",
+   "date": "1883",
+   "note": "No Belfiore in either year's index, which supports the 1884 entry for Michele Antonio.",
+   "file": "images/index-births-1885-b.jpg"
+  },
+  {
+   "id": "births-1884-register-close",
+   "title": "Closing note of the 1884 births register, San Bartolomeo in Galdo",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Benevento, San Bartolomeo in Galdo, Nati 1884 (ark:/12657/an_ua2585221), image 314, via Antenati",
+   "date": "1884-12-06",
+   "note": "The principal register closed on 6 December 1884 with 417 acts, so act 440 (Michele Antonio Belfiore) was written in a supplementary register in December 1884.",
+   "file": "images/births-1884-register-closing-note.jpg"
+  },
+  {
+   "id": "nati-1855-act45",
+   "title": "Atto di nascita 1855 no. 45: a Cirelli child, father Donato, son of the late Giuseppe",
+   "type": "civil record",
+   "repository": "Archivio di Stato di Foggia, Sezione di Lucera, San Bartolomeo in Galdo, Nati 1855, act 45, image 33, via Antenati",
+   "date": "1855",
+   "note": "Father Donato Cirelli (or Girelli), 24, son of the late Giuseppe; mother Rosa Serocca (reading uncertain). A different family line from ours; kept to show it was checked.",
+   "file": "images/birth-cirelli-1855-act45.jpg"
+  },
+  {
+   "id": "nysdi-1952-michael",
+   "title": "New York State Death Index 1952: Michael Belfiore, New Rochelle, age 66, 16 Jan 1952, certificate 6429",
+   "type": "death index",
+   "repository": "New York State Department of Health, via Reclaim The Records and archive.org (New_York_State_Death_Index_1952), page 92",
+   "date": "1952-01-16",
+   "note": "Index entry; agrees with the death certificate already on this site.",
+   "file": "images/nysdi-1952-michael-belfiore.jpg",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1952"
+  },
+  {
+   "id": "census-1950-frances",
+   "title": "1950 U.S. census, Westchester County, New York, New Rochelle, ED 67-66, sheet 12",
+   "type": "census",
+   "repository": "National Archives, 1950 Population Schedules (1950census.archives.gov)",
+   "date": "1950-04-11",
+   "note": "Indexed Belfiory. Frances M. Belfiore, head, 52, food handler at a public school; Michael C., husband, 65, born Italy, house painter; Edward J., son, 29.",
+   "file": "images/census-1950-frances-michael-edward.jpg",
+   "url": "https://1950census.archives.gov"
+  },
+  {
+   "id": "census-1950-joseph-c",
+   "title": "1950 U.S. census, Westchester County, New York, New Rochelle, ED 67-67, sheet 21",
+   "type": "census",
+   "repository": "National Archives, 1950 Population Schedules (1950census.archives.gov)",
+   "date": "1950-04-10",
+   "note": "Indexed Belfire. Joseph C. Belfiore, 27, field mechanic for a lighting company, and his wife Dorothy H., 28, with their young son (living, not shown). Next door: John J. Towey, 41, lineman for a lighting company, and his wife Ida, 37, born in Connecticut, with their children (living, not shown).",
+   "file": "images/census-1950-joseph-c-dorothy.jpg",
+   "url": "https://1950census.archives.gov"
+  },
+  {
+   "id": "census-1950-samuel",
+   "title": "1950 U.S. census, Volusia County, Florida, Daytona Beach, ED 64-22A, sheet 73",
+   "type": "census",
+   "repository": "National Archives, 1950 Population Schedules (1950census.archives.gov)",
+   "date": "1950-04-10",
+   "note": "Samuel Belfore, 52, proprietor of a cocktail lounge, and his wife Louisa, 33, with their son Samuel M., 5, born in Florida.",
+   "file": "images/census-1950-samuel-louisa.jpg",
+   "url": "https://1950census.archives.gov"
+  },
+  {
+   "id": "golfdom-1960-01",
+   "title": "Golfdom, January 1960, pp. 71 to 80: national Golf Professional of the Year nominees",
+   "type": "periodical",
+   "repository": "Michigan State University Turfgrass Information Center",
+   "date": "1960-01",
+   "note": "\"Michigan: Joe Belfore, Country Club of Detroit\" among the section nominees.",
+   "file": "images/golfdom-1960-01-pro-of-year-nominees.jpg",
+   "url": "https://archive.lib.msu.edu/tic/golfd/article/1960jan71-80.pdf"
+  },
+  {
+   "id": "golfdom-1960-06",
+   "title": "Golfdom, June 1960, p. 70: \"Belfore Addresses Michigan Publinx\"",
+   "type": "periodical",
+   "repository": "Michigan State University Turfgrass Information Center",
+   "date": "1960-06",
+   "note": "Joe Belfore, pro at the CC of Detroit and president of the Michigan PGA, gave a class lesson and clinic for 300 public-course golfers at Sunnybrook CC, Detroit.",
+   "file": "images/golfdom-1960-06-belfore-clinic.jpg",
+   "url": "https://archive.lib.msu.edu/tic/golfd/article/1960jun70.pdf"
+  },
+  {
+   "id": "photo-vicolo-convento",
+   "title": "Vicolo Convento, San Bartolomeo in Galdo",
+   "type": "photograph",
+   "repository": "Wikimedia Commons, photo by Claudio Grumiro, CC BY-SA 3.0",
+   "date": "2012-10-26",
+   "note": "Licence: https://creativecommons.org/licenses/by-sa/3.0/",
+   "file": "images/town-vicolo-convento.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Vicolo_Convento_San_Bartolomeo_in_Galdo.jpg"
+  },
+  {
+   "id": "photo-map-sbg",
+   "title": "Map of the comune of San Bartolomeo in Galdo, province of Benevento",
+   "type": "map",
+   "repository": "Wikimedia Commons, map by Vonvikken, CC BY-SA 3.0 it",
+   "date": "2012-11-07",
+   "note": "Licence: https://creativecommons.org/licenses/by-sa/3.0/it/deed.en",
+   "file": "images/map-san-bartolomeo-in-galdo.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Map_of_comune_of_San_Bartolomeo_in_Galdo_(province_of_Benevento,_region_Campania,_Italy).svg"
+  },
+  {
+   "id": "photo-camp-upton-1917",
+   "title": "The arrival of the New Rochelle contingent at Camp Upton, Yaphank, 1917",
+   "type": "photograph",
+   "repository": "Library of Congress (LCCN 2016650321), photograph by F. M. Stefano, Herald photographer; via Wikimedia Commons; public domain",
+   "date": "1917",
+   "note": "Period photograph of New Rochelle's draftees. No family member has been identified in it.",
+   "file": "images/camp-upton-new-rochelle-contingent-1917.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:The_arrival_of_the_New_Rochelle_contingent_at_Camp_Upton,_Yaphank_-_Photograph_by_F.M._Stefano,_Herald_photographer._LCCN2016650321.jpg"
   }
  ]
 }

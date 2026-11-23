@@ -538,7 +538,7 @@
     function initialView() {
         var a = safeArea();
         var L1 = L.pos['leonardantonio-belfiore'], M1 = L.pos['maria-donata-circelli'];
-        var s = isMobile() ? 0.6 : clamp((a.h - a.top - a.bottom) / (L.genY[3] - L.genY[0] + CH + 40), 0.55, 0.8);
+        var s = isMobile() ? 0.6 : clamp((a.h - a.top - a.bottom) / (L.genY[4] - L.genY[0] + CH + 40), 0.55, 0.8);
         var cx = a.left + (a.w - a.left - a.right) / 2;
         var mid = (L1.x + M1.x + CW) / 2;
         S.s = s; S.tx = cx - mid * s; S.ty = a.top + 14 - (L.genY[0] - 8) * s; apply();

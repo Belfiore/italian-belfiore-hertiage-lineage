@@ -1079,3 +1079,76 @@ body {
     border-radius: 0 4px 4px 0;
 }
 .update-note strong { color: #1a5c2a; }
+
+/* ===== NOVEMBER 2026 RESEARCH SECTION ===== */
+/* Keep a story card short enough to fade in. The page reveals .discovery-card
+   and .timeline-item only once 10% of the card is on screen, so a card packed
+   with full-size scans would stay blank. */
+.discovery-card .document-image img,
+.timeline-item .document-image img {
+    max-height: 480px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: top center;
+}
+.timeline-item h4 {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin: 1.2rem 0 0.45rem;
+}
+.section-intro {
+    font-family: var(--font-body);
+    font-size: 1.08rem;
+    line-height: 1.85;
+    color: var(--ink);
+    margin: 0 0 1.4rem;
+}
+.subsection-header {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--ink);
+    margin: 2.4rem 0 0.8rem;
+    letter-spacing: 0.4px;
+}
+.gallery-group {
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin: 2.2rem 0 0.4rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--border);
+}
+.page-jump {
+    font-family: var(--font-body);
+    font-size: 1.02rem;
+    line-height: 1.7;
+    margin: 0.2rem 0 0.5rem;
+}
+.page-jump a { color: var(--gold-dark); }
+.records-added > summary,
+.ledger-note summary,
+details > summary {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+    color: var(--gold-dark);
+    cursor: pointer;
+    margin: 1.2rem 0 0.6rem;
+}
+.table-scroll {
+    overflow-x: auto;
+    margin: 1rem 0 1.6rem;
+    -webkit-overflow-scrolling: touch;
+}
+.table-scroll .data-table { margin: 0; min-width: 640px; }
+#research-2026 ~ .document-image img,
+.gallery-group + .document-image img {
+    max-height: 520px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
