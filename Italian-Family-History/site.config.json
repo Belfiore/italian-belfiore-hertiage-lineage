@@ -1,0 +1,184 @@
+{
+ "$schema": "https://raw.githubusercontent.com/Belfiore/family-site-engine/main/schema/site-config.schema.json",
+ "$comment": "Settings for the Belfiore & Circelli site, built with the family site engine (Belfiore/family-site-engine). See that repository's docs/site-config.md.",
+ "schemaVersion": 1,
+ "engine": {
+  "channel": "stable"
+ },
+ "site": {
+  "name": "Belfiore & Circelli",
+  "familyName": "the Belfiore and Circelli families",
+  "lang": "en",
+  "description": "The Belfiore and Circelli families, from San Bartolomeo in Galdo to New Rochelle and beyond."
+ },
+ "pages": {
+  "home": "index.html",
+  "tree": {
+   "file": "tree-canvas.html",
+   "title": "Interactive Family Tree: Belfiore & Circelli",
+   "description": "An interactive family tree of the Belfiore and Circelli families, from San Bartolomeo in Galdo to New Rochelle and beyond, with sourced profiles for every person.",
+   "heading": "The Family Canvas",
+   "stylesheets": [
+    "styles.css"
+   ]
+  },
+  "map": null,
+  "ask": null
+ },
+ "nav": [
+  {
+   "href": "index.html",
+   "label": "Home"
+  },
+  {
+   "href": "family-tree.html",
+   "label": "Family Tree"
+  },
+  {
+   "href": "tree-canvas.html",
+   "label": "Interactive Canvas"
+  },
+  {
+   "href": "immigration.html",
+   "label": "The Immigration"
+  },
+  {
+   "href": "golfing-brothers.html",
+   "label": "The Golfing Brothers"
+  },
+  {
+   "href": "research.html",
+   "label": "Research & Records"
+  }
+ ],
+ "head": {
+  "fonts": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap",
+  "stylesheets": [
+   "styles.css"
+  ]
+ },
+ "theme": {
+  "--pc-bg": "#f4ecdd",
+  "--pc-bg-2": "#efe5d2",
+  "--pc-paper": "#fffdf8",
+  "--pc-rule": "#d8c9ab",
+  "--pc-rule-soft": "rgba(112, 66, 20, 0.14)",
+  "--pc-ink": "#1f1d1a",
+  "--pc-ink-2": "#3d3830",
+  "--pc-muted": "#6b5537",
+  "--pc-gold": "#8a6410",
+  "--pc-accent": "#1a5c2a",
+  "--pc-accent-deep": "#0d3318",
+  "--pc-accent-light": "#2a7a3d",
+  "--pc-accent-rgb": "26, 92, 42",
+  "--pc-accent-deep-rgb": "13, 51, 24",
+  "--pc-title": "#0d3318",
+  "--pc-line": "#8f7a5a",
+  "--pc-line-direct": "#1a5c2a",
+  "--pc-focus": "#1a5c2a",
+  "--pc-shadow": "0 1px 2px rgba(40, 28, 10, 0.06), 0 6px 18px rgba(40, 28, 10, 0.07)",
+  "--pc-shadow-lift": "0 2px 4px rgba(40, 28, 10, 0.08), 0 14px 32px rgba(40, 28, 10, 0.14)",
+  "--pc-living-1": "#5b7f63",
+  "--pc-living-2": "#3f6a4a",
+  "--pc-living-3": "#2c4f35",
+  "--pc-dark": "#1f1d1a",
+  "--pc-rail-1": "#efe5d1",
+  "--pc-rail-2": "#f2e9d8",
+  "--pc-tint": "#efe6d4",
+  "--pc-tint-2": "#f1e8d6",
+  "--pc-tint-3": "#f6faf6",
+  "--pc-tint-4": "#f1ede2",
+  "--pc-cta-focus": "#b3d4bb",
+  "--pc-conf-confirmed": "#145024",
+  "--pc-conf-confirmed-line": "rgba(26, 92, 42, 0.45)",
+  "--pc-conf-confirmed-bg": "rgba(26, 92, 42, 0.06)",
+  "--pc-conf-probable": "#5f4a10",
+  "--pc-conf-probable-line": "rgba(138, 100, 16, 0.5)",
+  "--pc-conf-probable-bg": "rgba(200, 169, 122, 0.12)",
+  "--pc-conf-tradition": "#5a3a58",
+  "--pc-conf-tradition-line": "rgba(90, 58, 88, 0.4)",
+  "--pc-conf-tradition-bg": "rgba(90, 58, 88, 0.06)",
+  "--pc-conf-unverified": "#6b2f2a",
+  "--pc-conf-unverified-bg": "rgba(139, 32, 32, 0.05)",
+  "--pc-lb-bg": "rgba(18, 17, 14, 0.97)",
+  "--pc-lb-side": "#1c1b17",
+  "--pc-lb-strip": "#2a2823"
+ },
+ "data": {
+  "dir": "data"
+ },
+ "tree": {
+  "familyLabel": "Belfiore & Circelli family",
+  "directLineLabel": "Seb's direct line",
+  "kinAnchor": "maria-donata-circelli",
+  "kinLabel": "Circelli kin · relationship unproven",
+  "initialView": {
+   "ids": [
+    "maria-donata-circelli",
+    "leonardantonio-belfiore"
+   ],
+   "fromGen": 0,
+   "toGen": 4
+  },
+  "cardPhotos": "best",
+  "coupleBlocks": "auto",
+  "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
+  "rootPersonId": "seb-belfiore",
+  "generations": [
+   {
+    "generation": 0,
+    "label": "I",
+    "title": "Giuseppe's parents",
+    "range": "died before 1850"
+   },
+   {
+    "generation": 1,
+    "label": "II",
+    "title": "Circelli parents",
+    "range": "San Bartolomeo, married 1850"
+   },
+   {
+    "generation": 2,
+    "label": "III",
+    "title": "Born in Italy",
+    "range": "1860s to 1870s"
+   },
+   {
+    "generation": 3,
+    "label": "IV",
+    "title": "Italy and New Rochelle",
+    "range": "born 1880s to 1900s"
+   },
+   {
+    "generation": 4,
+    "label": "V",
+    "title": "The next generation",
+    "range": "born 1910s to 1940s"
+   },
+   {
+    "generation": 5,
+    "label": "VI",
+    "title": "Seb's parents' generation",
+    "range": ""
+   },
+   {
+    "generation": 6,
+    "label": "VII",
+    "title": "Seb's generation",
+    "range": ""
+   },
+   {
+    "generation": 7,
+    "label": "VIII",
+    "title": "The newest generation",
+    "range": ""
+   }
+  ]
+ },
+ "widget": {
+  "enabled": false
+ },
+ "publish": {
+  "exclude": []
+ }
+}

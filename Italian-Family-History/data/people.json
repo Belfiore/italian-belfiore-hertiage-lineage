@@ -1,63 +1,13 @@
 {
  "meta": {
+  "schemaVersion": 1,
   "title": "Belfiore & Circelli family",
-  "rootPersonId": "seb-belfiore",
   "updated": "2026-11-23",
   "confidenceScale": [
    "confirmed",
    "probable",
    "family tradition",
    "unverified"
-  ],
-  "generations": [
-   {
-    "generation": 0,
-    "label": "I",
-    "title": "Giuseppe's parents",
-    "range": "died before 1850"
-   },
-   {
-    "generation": 1,
-    "label": "II",
-    "title": "Circelli parents",
-    "range": "San Bartolomeo, married 1850"
-   },
-   {
-    "generation": 2,
-    "label": "III",
-    "title": "Born in Italy",
-    "range": "1860s to 1870s"
-   },
-   {
-    "generation": 3,
-    "label": "IV",
-    "title": "Italy and New Rochelle",
-    "range": "born 1880s to 1900s"
-   },
-   {
-    "generation": 4,
-    "label": "V",
-    "title": "The next generation",
-    "range": "born 1910s to 1940s"
-   },
-   {
-    "generation": 5,
-    "label": "VI",
-    "title": "Seb's parents' generation",
-    "range": ""
-   },
-   {
-    "generation": 6,
-    "label": "VII",
-    "title": "Seb's generation",
-    "range": ""
-   },
-   {
-    "generation": 7,
-    "label": "VIII",
-    "title": "The newest generation",
-    "range": ""
-   }
   ],
   "note": "Single source of truth for the interactive canvas, the drawer and the full profiles. Sources are in sources.json."
  },
@@ -7738,7 +7688,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Joe Belfore's son. In 1963 the Country Club of Detroit gave him and his brother two years of golfing privileges after their father's death.",
-   "story": "David is the son of Joe Belfore, the Country Club of Detroit professional. After Joe's death in 1963 the club's Board of Governors granted David and his brother Jeffery personal golfing privileges for two years, from November 1, 1963.[^ccd-minutes-1963] His second wife, Judith Ann Sattelmeier, died in 2023.[^gp-news-judith]\n\nThis profile shows only names and relationships because David may be living.",
+   "story": "David is the son of Joe Belfore, the Country Club of Detroit professional. After Joe's death in 1963 the club's Board of Governors granted David and his brother Jeffery personal golfing privileges for two years, from November 1, 1963.[^ccd-minutes-1963] His second wife, Judith Ann Sattelmeier, died in 2023.[^gp-news-judith]",
    "timeline": [
     {
      "date": "1963-11-01",
@@ -8174,7 +8124,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hupp Fleming's husband and the father of Lisa, Chris, John and Geoff.",
-   "story": "John Fleming married Patricia Hupp Belfore, Sammy's daughter, and is the father of their four children.[^patricia-obit] This profile shows only names and relationships because he may be living.",
+   "story": "John Fleming married Patricia Hupp Belfore, Sammy's daughter, and is the father of their four children.[^patricia-obit]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8387,7 +8337,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Samuel M. Belfore Jr.'s wife.",
-   "story": "Julia Clair Belfore is the wife of Samuel M. Belfore Jr.[^volusia-2025] This profile shows only names and relationships because she may be living.",
+   "story": "Julia Clair Belfore is the wife of Samuel M. Belfore Jr.[^volusia-2025]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8431,7 +8381,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb's father, the son of Joseph Belfiore and Dorothy Hennessey Belfiore. He grew up in the New Rochelle area.",
-   "story": "Seb's father, the son of Joseph Belfiore and Dorothy Hennessey Belfiore. He grew up in the New Rochelle area.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Seb's father, the son of Joseph Belfiore and Dorothy Hennessey Belfiore. He grew up in the New Rochelle area.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8470,7 +8420,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb's uncle, the son of Joseph and Dorothy Hennessey Belfiore. He was not yet two when his grandfather Michael died in 1952, and he supplied Michael's death certificate and Sammy's obituary for this research.",
-   "story": "Seb's uncle, the son of Joseph and Dorothy Hennessey Belfiore. He was not yet two when his grandfather Michael died in 1952, and he supplied Michael's death certificate and Sammy's obituary for this research.[^family-william]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Seb's uncle, the son of Joseph and Dorothy Hennessey Belfiore. He was not yet two when his grandfather Michael died in 1952, and he supplied Michael's death certificate and Sammy's obituary for this research.[^family-william]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8526,7 +8476,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William Belfiore's wife.",
-   "story": "William Belfiore's wife.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "William Belfiore's wife.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8577,7 +8527,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb's aunt, the daughter of Joseph and Dorothy Hennessey Belfiore.",
-   "story": "Seb's aunt, the daughter of Joseph and Dorothy Hennessey Belfiore.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "Seb's aunt, the daughter of Joseph and Dorothy Hennessey Belfiore.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8613,7 +8563,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb's aunt, the daughter of Joseph and Dorothy Hennessey Belfiore. She married Bill Carpenter.",
-   "story": "Seb's aunt, the daughter of Joseph and Dorothy Hennessey Belfiore. She married Bill Carpenter.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "Seb's aunt, the daughter of Joseph and Dorothy Hennessey Belfiore. She married Bill Carpenter.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8664,7 +8614,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Karen Carpenter's husband.",
-   "story": "Karen Carpenter's husband.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Karen Carpenter's husband.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8710,7 +8660,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "David Belfore's daughter and Joe Belfore's granddaughter.",
-   "story": "David Belfore's daughter and Joe Belfore's granddaughter.[^gp-news-judith]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "David Belfore's daughter and Joe Belfore's granddaughter.[^gp-news-judith]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8758,7 +8708,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "David Belfore's son and Joe Belfore's grandson.",
-   "story": "David Belfore's son and Joe Belfore's grandson.[^gp-news-judith]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "David Belfore's son and Joe Belfore's grandson.[^gp-news-judith]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8806,7 +8756,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "David Belfore's daughter and Joe Belfore's granddaughter.",
-   "story": "David Belfore's daughter and Joe Belfore's granddaughter.[^gp-news-judith]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "David Belfore's daughter and Joe Belfore's granddaughter.[^gp-news-judith]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8854,7 +8804,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hupp Fleming's daughter and Sammy Belfore's granddaughter.",
-   "story": "Patricia Hupp Fleming's daughter and Sammy Belfore's granddaughter.[^patricia-obit]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "Patricia Hupp Fleming's daughter and Sammy Belfore's granddaughter.[^patricia-obit]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8903,7 +8853,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.",
-   "story": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.[^patricia-obit]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.[^patricia-obit]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8939,7 +8889,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.",
-   "story": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.[^patricia-obit]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.[^patricia-obit]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -8975,7 +8925,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.",
-   "story": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.[^patricia-obit]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Patricia Hupp Fleming's son and Sammy Belfore's grandson.[^patricia-obit]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9011,7 +8961,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Robert Belfiore's son and the researcher behind this site. Through his father he descends from Leonardantonio Belfiore and Maria Donata Circelli.",
-   "story": "Robert Belfiore's son and the researcher behind this site. Through his father he descends from Leonardantonio Belfiore and Maria Donata Circelli.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Robert Belfiore's son and the researcher behind this site. Through his father he descends from Leonardantonio Belfiore and Maria Donata Circelli.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9061,7 +9011,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb's wife and Enzo's mother.",
-   "story": "Seb's wife and Enzo's mother.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "Seb's wife and Enzo's mother.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9107,7 +9057,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb's brother, Robert Belfiore's son.",
-   "story": "Seb's brother, Robert Belfiore's son.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Seb's brother, Robert Belfiore's son.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9157,7 +9107,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Alexander Belfiore's wife and Violet's mother.",
-   "story": "Alexander Belfiore's wife and Violet's mother.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "Alexander Belfiore's wife and Violet's mother.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9203,7 +9153,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Karen and Bill Carpenter's son, and Seb's first cousin.",
-   "story": "Karen and Bill Carpenter's son, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Karen and Bill Carpenter's son, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9239,7 +9189,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William and Susan Belfiore's daughter, and Seb's first cousin.",
-   "story": "William and Susan Belfiore's daughter, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "William and Susan Belfiore's daughter, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9275,7 +9225,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William and Susan Belfiore's child, and Seb's first cousin.",
-   "story": "William and Susan Belfiore's child, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because they may be living.",
+   "story": "William and Susan Belfiore's child, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9311,7 +9261,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William and Susan Belfiore's son, and Seb's first cousin.",
-   "story": "William and Susan Belfiore's son, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "William and Susan Belfiore's son, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9347,7 +9297,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William and Susan Belfiore's daughter, and Seb's first cousin.",
-   "story": "William and Susan Belfiore's daughter, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "William and Susan Belfiore's daughter, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9383,7 +9333,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William and Susan Belfiore's daughter, and Seb's first cousin.",
-   "story": "William and Susan Belfiore's daughter, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "William and Susan Belfiore's daughter, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9419,7 +9369,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William and Susan Belfiore's son, and Seb's first cousin.",
-   "story": "William and Susan Belfiore's son, and Seb's first cousin.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "William and Susan Belfiore's son, and Seb's first cousin.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9455,7 +9405,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Seb and Valeria's son.",
-   "story": "Seb and Valeria's son.[^family-knowledge]\n\nThis profile shows only names and relationships because he may be living.",
+   "story": "Seb and Valeria's son.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -9491,7 +9441,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Alexander and Lauren Belfiore's daughter.",
-   "story": "Alexander and Lauren Belfiore's daughter.[^family-knowledge]\n\nThis profile shows only names and relationships because she may be living.",
+   "story": "Alexander and Lauren Belfiore's daughter.[^family-knowledge]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11357,7 +11307,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Joseph F. Racine's wife, nee Nobrega.",
-   "story": "Cecelia is Joe Racine's wife.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Cecelia is Joe Racine's wife.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11388,8 +11338,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "joseph-racine-iii",
@@ -11408,7 +11357,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Joe and Cecelia Racine's son.",
-   "story": "Joseph is a son of Joe and Cecelia Racine.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Joseph is a son of Joe and Cecelia Racine.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11438,8 +11387,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "ann-racine",
@@ -11458,7 +11406,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Wife of Joseph Racine.",
-   "story": "Ann is the wife of Joe and Cecelia's son Joseph.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Ann is the wife of Joe and Cecelia's son Joseph.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11485,8 +11433,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "jannine-walsh",
@@ -11505,7 +11452,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Joe and Cecelia Racine's daughter.",
-   "story": "Jannine is a daughter of Joe and Cecelia Racine.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Jannine is a daughter of Joe and Cecelia Racine.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11538,8 +11485,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "edward-walsh",
@@ -11616,7 +11562,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Joe and Cecelia Racine's son.",
-   "story": "Keith is a son of Joe and Cecelia Racine.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Keith is a son of Joe and Cecelia Racine.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11646,8 +11592,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "kristin-racine",
@@ -11666,7 +11611,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Wife of Keith Racine.",
-   "story": "Kristin is Keith's wife.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Kristin is Keith's wife.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11693,8 +11638,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "william-walsh",
@@ -11713,7 +11657,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Jannine Walsh's son.",
-   "story": "William is a grandson of Joe and Cecelia Racine and, by his surname, Jannine's son.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "William is a grandson of Joe and Cecelia Racine and, by his surname, Jannine's son.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11743,8 +11687,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "olivia-walsh",
@@ -11763,7 +11706,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "William Walsh's wife.",
-   "story": "Olivia is William's wife.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Olivia is William's wife.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11790,8 +11733,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "katherine-walsh",
@@ -11810,7 +11752,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Jannine Walsh's daughter.",
-   "story": "Katherine is a granddaughter of Joe and Cecelia Racine and, by her surname, Jannine's daughter.[^obit-joseph-racine-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Katherine is a granddaughter of Joe and Cecelia Racine and, by her surname, Jannine's daughter.[^obit-joseph-racine-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11827,8 +11769,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "alexander-hendrie",
@@ -11847,7 +11788,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Drew Hendrie's husband.",
-   "story": "Alexander Hendrie is Patricia Drew Hendrie's husband.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Alexander Hendrie is Patricia Drew Hendrie's husband.[^obit-patricia-hendrie-2019-full]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11877,8 +11818,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "matthew-hendrie",
@@ -11897,7 +11837,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hendrie's son.",
-   "story": "Matthew is a son of Patricia and Butch Hendrie.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Matthew is a son of Patricia and Butch Hendrie.[^obit-patricia-hendrie-2019-full]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11927,8 +11867,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "kelly-hendrie",
@@ -11947,7 +11886,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Matthew Hendrie's wife.",
-   "story": "Kelly is Matthew's wife.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Kelly is Matthew's wife.[^obit-patricia-hendrie-2019-full]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -11974,8 +11913,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "brett-hendrie",
@@ -11994,7 +11932,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Hendrie's son.",
-   "story": "Brett is a son of Patricia and Butch Hendrie.[^obit-patricia-hendrie-2019-full]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Brett is a son of Patricia and Butch Hendrie.[^obit-patricia-hendrie-2019-full]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12011,8 +11949,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "ruthe-drew",
@@ -12031,7 +11968,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Buddy Drew's wife.",
-   "story": "Ruthe was Buddy Drew's wife, named in an index of his 2004 obituary.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Ruthe was Buddy Drew's wife, named in an index of his 2004 obituary.[^obit-index-charles-drew-2004]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12062,8 +11999,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "anthony-drew-jr",
@@ -12082,7 +12018,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Buddy Drew's son.",
-   "story": "Anthony Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Anthony Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12099,8 +12035,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "brian-drew",
@@ -12119,7 +12054,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Buddy Drew's son.",
-   "story": "Brian Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Brian Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12136,8 +12071,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "patrice-drew",
@@ -12156,7 +12090,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Buddy Drew's daughter.",
-   "story": "Patrice Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Patrice Drew is probably a child of Buddy and Ruthe Drew; an index of Buddy's 2004 obituary names him as father of Anthony, Brian and Patrice.[^obit-index-charles-drew-2004]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12173,8 +12107,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-carol-maring",
@@ -12193,7 +12126,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Dolores Saggio's daughter; grandchild of Mary Belfiore D'Onofrio.",
-   "story": "Carol Maring is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Carol Maring is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12222,8 +12155,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-carol-maring-spouse",
@@ -12242,7 +12174,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Carol Maring.",
-   "story": "Craig is named as Carol's husband in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Craig is named as Carol's husband in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12269,8 +12201,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-edward-saggio",
@@ -12289,7 +12220,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Dolores Saggio's son; grandchild of Mary Belfiore D'Onofrio.",
-   "story": "Edward Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Edward Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12318,8 +12249,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-edward-saggio-spouse",
@@ -12338,7 +12268,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Edward Saggio.",
-   "story": "Nancy is named as Edward's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Nancy is named as Edward's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12365,8 +12295,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-william-saggio",
@@ -12385,7 +12314,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Dolores Saggio's son; grandchild of Mary Belfiore D'Onofrio.",
-   "story": "William Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "William Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12414,8 +12343,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-william-saggio-spouse",
@@ -12434,7 +12362,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of William Saggio.",
-   "story": "Susan is named as William's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Susan is named as William's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12461,8 +12389,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-marthanne-mciver",
@@ -12481,7 +12408,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Dolores Saggio's daughter; grandchild of Mary Belfiore D'Onofrio.",
-   "story": "Marthanne McIver is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Marthanne McIver is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12510,8 +12437,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-marthanne-mciver-spouse",
@@ -12530,7 +12456,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Marthanne McIver.",
-   "story": "Jim is named as Marthanne's husband in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Jim is named as Marthanne's husband in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12557,8 +12483,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-steven-saggio",
@@ -12577,7 +12502,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Dolores Saggio's son; grandchild of Mary Belfiore D'Onofrio.",
-   "story": "Steven Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Steven Saggio is a child of Dolores (D'Onofrio) Saggio, named in her 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12606,8 +12531,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "saggio-steven-saggio-spouse",
@@ -12626,7 +12550,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Steven Saggio.",
-   "story": "Mary is named as Steven's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Mary is named as Steven's wife in Dolores Saggio's 2021 obituary.[^obit-dolores-saggio-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12653,8 +12577,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "raymond-saggio",
@@ -12708,7 +12631,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's wife.",
-   "story": "Sharon was Raymond's wife, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Sharon was Raymond's wife, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12735,8 +12658,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-donna-mitchell",
@@ -12755,7 +12677,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's daughter.",
-   "story": "Donna Mitchell is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Donna Mitchell is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12771,8 +12693,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-theresa-donofrio",
@@ -12791,7 +12712,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's daughter.",
-   "story": "Theresa D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Theresa D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12807,8 +12728,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-frances-donofrio",
@@ -12827,7 +12747,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's daughter.",
-   "story": "Frances D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Frances D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12843,8 +12763,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-lisa-garneau",
@@ -12863,7 +12782,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's daughter.",
-   "story": "Lisa Garneau is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Lisa Garneau is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12879,8 +12798,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-jill-kubinski",
@@ -12899,7 +12817,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's daughter.",
-   "story": "Jill Kubinski is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Jill Kubinski is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12915,8 +12833,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-mike-donofrio",
@@ -12935,7 +12852,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's son.",
-   "story": "Mike D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Mike D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12951,8 +12868,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-patrick-donofrio",
@@ -12971,7 +12887,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's son.",
-   "story": "Patrick D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Patrick D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -12987,8 +12903,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rdonofrio-gerard-donofrio",
@@ -13007,7 +12922,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Raymond D'Onofrio's son.",
-   "story": "Gerard D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Gerard D'Onofrio is probably a child of Raymond D'Onofrio, named in an index of his 2002 obituary.[^obit-index-raymond-donofrio-2002]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13023,8 +12938,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "rosalie-paternostro",
@@ -13043,7 +12957,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Carl Paternostro's wife, nee Sica.",
-   "story": "Rosalie Sica is Carl Paternostro's wife.[^obit-index-carl-paternostro-1986][^ct-marriage-carl-paternostro-1943]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Rosalie Sica is Carl Paternostro's wife.[^obit-index-carl-paternostro-1986][^ct-marriage-carl-paternostro-1943]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13073,8 +12987,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "carl-g-paternostro",
@@ -13093,7 +13006,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Carl and Rosalie Paternostro's son.",
-   "story": "Carl G. Paternostro is probably a son of Carl and Rosalie Paternostro, named in an index of Carl's 1986 obituary.[^obit-index-carl-paternostro-1986]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Carl G. Paternostro is probably a son of Carl and Rosalie Paternostro, named in an index of Carl's 1986 obituary.[^obit-index-carl-paternostro-1986]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13110,8 +13023,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "philip-j-paternostro",
@@ -13130,7 +13042,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Carl and Rosalie Paternostro's son.",
-   "story": "Philip J. Paternostro is probably a son of Carl and Rosalie Paternostro, named in an index of Carl's 1986 obituary.[^obit-index-carl-paternostro-1986]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Philip J. Paternostro is probably a son of Carl and Rosalie Paternostro, named in an index of Carl's 1986 obituary.[^obit-index-carl-paternostro-1986]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13147,8 +13059,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "jessica-belfore",
@@ -13167,7 +13078,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Gary Belfore's wife.",
-   "story": "Jessica is Gary's wife, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Jessica is Gary's wife, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13194,8 +13105,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "john-barb-husband",
@@ -13214,7 +13124,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Barb Hartman's husband.",
-   "story": "John is Barb's husband, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "John is Barb's husband, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13241,8 +13151,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "chuck-jill-husband",
@@ -13261,7 +13170,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Jill Pappas's husband.",
-   "story": "Chuck is Jill's husband, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Chuck is Jill's husband, named in Judith Belfore's 2023 obituary.[^obit-judith-belfore-2023-full][^gp-news-judith]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13288,8 +13197,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "steve-lisa-husband",
@@ -13308,7 +13216,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Lisa Fleming's husband.",
-   "story": "Patricia Hupp Fleming's 2022 obituary names her son-in-law Steve. Lisa was her only daughter, so Steve is Lisa's husband.[^obit-patricia-fleming-2022-text]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Patricia Hupp Fleming's 2022 obituary names her son-in-law Steve. Lisa was her only daughter, so Steve is Lisa's husband.[^obit-patricia-fleming-2022-text]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -13335,8 +13243,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "patrick-hennessy",
@@ -14335,7 +14242,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Frank Hennessy's son; a first cousin of Seb's father.",
-   "story": "James Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "James Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14352,8 +14259,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "hennessy-sue-ann-power",
@@ -14372,7 +14278,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Frank Hennessy's daughter; a first cousin of Seb's father.",
-   "story": "Sue Ann Power is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Sue Ann Power is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14389,8 +14295,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "hennessy-frank-hennessy",
@@ -14409,7 +14314,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Frank Hennessy's son; a first cousin of Seb's father.",
-   "story": "Frank Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Frank Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14426,8 +14331,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "hennessy-nancy-morelli",
@@ -14446,7 +14350,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Frank Hennessy's daughter; a first cousin of Seb's father.",
-   "story": "Nancy Morelli is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Nancy Morelli is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14463,8 +14367,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "hennessy-john-hennessy",
@@ -14483,7 +14386,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Frank Hennessy's son; a first cousin of Seb's father.",
-   "story": "John Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "John Hennessy is a child of Frank and Barbara Hennessy, named in Frank's 2013 obituary.[^obit-francis-hennessy-2013]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14500,8 +14403,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-laura-e-lawson",
@@ -14520,7 +14422,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Dillon's daughter; a first cousin of Seb's father.",
-   "story": "Laura E. Lawson is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Laura E. Lawson is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14550,8 +14452,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-laura-e-lawson-spouse",
@@ -14570,7 +14471,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Laura E. Lawson.",
-   "story": "Thomas is named with Laura in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Thomas is named with Laura in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14597,8 +14498,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-william-k-dillon-jr",
@@ -14617,7 +14517,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Dillon's son; a first cousin of Seb's father.",
-   "story": "William K. Dillon Jr. is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "William K. Dillon Jr. is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14647,8 +14547,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-william-k-dillon-jr-spouse",
@@ -14667,7 +14566,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of William K. Dillon Jr..",
-   "story": "Laura is named with William in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Laura is named with William in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14694,8 +14593,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-martin-p-dillon",
@@ -14714,7 +14612,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Dillon's son; a first cousin of Seb's father.",
-   "story": "Martin P. Dillon is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Martin P. Dillon is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14731,8 +14629,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-janet-d-manfre",
@@ -14751,7 +14648,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Dillon's daughter; a first cousin of Seb's father.",
-   "story": "Janet D. Manfre is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Janet D. Manfre is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14781,8 +14678,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-janet-d-manfre-spouse",
@@ -14801,7 +14697,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Janet D. Manfre.",
-   "story": "John is named with Janet in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "John is named with Janet in Patricia Dillon's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14828,8 +14724,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-fr-robert-w-dillon",
@@ -14848,7 +14743,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Patricia Dillon's son; a first cousin of Seb's father.",
-   "story": "Fr. Robert W. Dillon is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Fr. Robert W. Dillon is a child of Patricia and Bill Dillon, named in Patricia's 2021 obituary.[^obit-patricia-dillon-2021]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14865,8 +14760,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "dillon-timothy-w-dillon",
@@ -14957,7 +14851,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Anne Latino's daughter; a first cousin of Seb's father.",
-   "story": "Jo-Anne Latino is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Jo-Anne Latino is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -14987,8 +14881,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "latino-jo-anne-latino-spouse",
@@ -15007,7 +14900,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Jo-Anne Latino.",
-   "story": "Andy Levy is named as Jo-Anne's husband in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Andy Levy is named as Jo-Anne's husband in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -15034,8 +14927,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "latino-michael-latino",
@@ -15054,7 +14946,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Anne Latino's son; a first cousin of Seb's father.",
-   "story": "Michael Latino is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Michael Latino is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -15084,8 +14976,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "latino-michael-latino-spouse",
@@ -15104,7 +14995,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Michael Latino.",
-   "story": "Jackie Latino is named as Michael's wife in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Jackie Latino is named as Michael's wife in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -15131,8 +15022,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "latino-marilyn-bell",
@@ -15151,7 +15041,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Anne Latino's daughter; a first cousin of Seb's father.",
-   "story": "Marilyn Bell is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Marilyn Bell is a child of Anne and Joe Latino, named in Anne's 2024 obituary.[^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -15181,8 +15071,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "id": "latino-marilyn-bell-spouse",
@@ -15201,7 +15090,7 @@
    "immigration": null,
    "cardPlace": null,
    "summary": "Spouse of Marilyn Bell.",
-   "story": "Rex Bell is named as Marilyn's husband in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]\n\nThis profile shows only names and relationships because this person may be living.",
+   "story": "Rex Bell is named as Marilyn's husband in Anne Latino's 2024 obituary.[^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [],
@@ -15228,8 +15117,7 @@
    "isDirectLine": false,
    "photo": null,
    "portrait": null,
-   "isLiving": true,
-   "living": true
+   "isLiving": true
   },
   {
    "nameVariants": [],

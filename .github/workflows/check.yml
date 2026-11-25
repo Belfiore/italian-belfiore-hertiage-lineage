@@ -1,0 +1,18 @@
+# On a pull request: check the data, build the site with the engine and run tests/verify-canvas.js against
+# the build, without publishing anything.
+name: Check a pull request
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  site:
+    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1
+    with:
+      site-dir: Italian-Family-History
+      deploy: false
+      site-tests: |
+        node ../tests/verify-canvas.js
