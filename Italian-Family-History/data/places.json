@@ -497,8 +497,8 @@
      ],
      "confidence": "confirmed",
      "familyStatement": false,
-     "summary": "Sailed from Naples on the SS Sant'Anna, 14 November 1911. Salvatore Circelli, 42, married, line 20.",
-     "note": "New reading, needs review: last residence is Italy, S. Barto in Galdo, by ditto from the line above. Nearest relative reads as his wife Maria Circelli there. Final destination is New Rochelle, to his friend Antonio Belfiore. The arrival port and the arrival date are not on this crop.",
+     "summary": "Sailed from Naples on the SS Sant'Anna, 14 November 1911. The site reads the passenger on line 20 as Salvatore Circelli, 42, married.",
+     "note": "Line 20 is not Antonio Belfiore's own line. Antonio Belfiore is the friend in New Rochelle whom the passenger was going to join. The wife named in S. Barto in Galdo is Maria Circelli, the relative left behind. The arrival port and the arrival date are not on this crop. This reading of the friend and wife columns needs review.",
      "voyageId": "santanna-1911",
      "voyageEnd": "departure"
     }
@@ -9129,8 +9129,8 @@
      ],
      "confidence": "probable",
      "familyStatement": false,
-     "summary": "Died. Princeton, New Jersey",
-     "note": "New Jersey death index, Joseph C. Belfiore, age 71, born 1 December 1922; his Social Security record names his parents Michael Belfiore and Frances Towey. The family remembers his death in Valrico, Florida, in 1986; that memory is kept here as family tradition. Also remembered or indexed: 1986, Valrico, Florida; 1986. The record used here is the profile's death place."
+     "summary": "Died in Princeton, New Jersey, on 19 October 1994.",
+     "note": "Joseph Belfiore (1922 to 1994), son of Michael and husband of Dorothy Hennessey, died in Princeton on 19 October 1994. The New Jersey death index and his Social Security record name him, age 71, born 1 December 1922, parents Michael Belfiore and Frances Towey. The owner confirmed that the Joseph Belfiore who died in Valrico, Florida, in 1986 is a different man."
     },
     {
      "id": "pe-princeton-died-dorothy-hennessey-belfiore",

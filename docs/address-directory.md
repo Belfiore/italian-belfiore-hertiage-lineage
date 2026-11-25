@@ -82,7 +82,7 @@ Street addresses, buildings, churches, cemeteries, workplaces, military sites, p
 | 1910 | Cleveland Avenue, New Rochelle (Cleveland Avenue, New Rochelle, New York) | Lived. Cleveland Avenue | Annie Hussey Hennessy | probable | hussey-census-1910 | unknown |
 | 1910 | Cleveland Avenue, New Rochelle (Cleveland Avenue, New Rochelle, New York) | Bookkeeper in a grocery | Annie Hussey Hennessy | probable | hussey-census-1910 | unknown |
 | 1910s | Wykagyl Country Club, New Rochelle | Golf shop boy, then assistant professional, Wykagyl Country Club | Sammy Belfore | confirmed | kahn-1960, standard-star-obit | unknown |
-| 1911-11-14 | Port of Naples | Sailed from Naples on the SS Sant'Anna, 14 November 1911. Salvatore Circelli, 42, married, line 20. | Salvatore Circelli | confirmed | santanna-1911 | unknown |
+| 1911-11-14 | Port of Naples | Sailed from Naples on the SS Sant'Anna, 14 November 1911. The site reads line 20 as Salvatore Circelli, 42, married. Antonio Belfiore is the friend in New Rochelle, not the passenger. | Salvatore Circelli | confirmed | santanna-1911 | unknown |
 | 1915 | 41 Brook Street, New Rochelle (41 Brook Street, New Rochelle, New York) | Lived. 41 Brook Street (written Brooks Street) | Leonardantonio Belfiore, Maria Donata Circelli, Frank Belfore, Joseph "Joe" Belfore, Sammy Belfore, Rose Belfiore, Caroline Belfiore, Mollie Drew | probable | census-1915 | unknown |
 | 1918 | 114 Winyah Avenue, New Rochelle (114 Winyah Avenue, New Rochelle, New York) | Lived. 114 Winyah Avenue | Michael Kirtus Belfiore | confirmed | ww1-michael | unknown |
 | 1918 | 216 Hamilton Street, Bridgeport (216 Hamilton Street, Bridgeport, Connecticut) | Lived. 216 Hamilton Street | Dorothy Belfiore | confirmed | ww1-michael | unknown |
@@ -435,7 +435,9 @@ Street addresses, buildings, churches, cemeteries, workplaces, military sites, p
 | 1940 | New Rochelle, New York | Delivery boy, grocery store (while at school) | confirmed |
 | May 12, 1946 | New Rochelle, New York | Married. New Rochelle, New York | probable |
 | 1950-04-10 | 216, New Rochelle (1950 census) | 1950 census, house number 216, street not on this crop. Joseph, 27, field mechanic for a lighting company. Dorothy, 28. | probable |
-| Oct 19, 1994 | Princeton, New Jersey | Died. Princeton, New Jersey | probable |
+| Oct 19, 1994 | Princeton, New Jersey | Died in Princeton, New Jersey, on 19 October 1994. | probable |
+
+Joseph Belfiore (1922 to 1994), son of Michael and husband of Dorothy Hennessey, died in Princeton on 19 October 1994. The owner confirmed that the Joseph Belfiore who died in Valrico, Florida, in 1986 is a different man. That death is not entered here.
 
 ### Joseph D'Onofrio
 
@@ -778,7 +780,7 @@ Circelli kin. The relationship to Maria Donata's line is not proven.
 | 1898-02-26 | Port of Naples | Sailed from Naples on the SS Alsatia, 26 February 1898. Salvatore, 28, and Michele, 25, lines 8 and 9. | confirmed |
 | 1898-03-19 | Port of New York | Arrived at the Port of New York on the SS Alsatia, 19 March 1898. | confirmed |
 | 1911 (destination) | New Rochelle, New York | Lived. New Rochelle, New York | confirmed |
-| 1911-11-14 | Port of Naples | Sailed from Naples on the SS Sant'Anna, 14 November 1911. Salvatore Circelli, 42, married, line 20. | confirmed |
+| 1911-11-14 | Port of Naples | Sailed from Naples on the SS Sant'Anna, 14 November 1911. The site reads line 20 as Salvatore Circelli, 42, married. Antonio Belfiore is the friend in New Rochelle, not the passenger. | confirmed |
 
 ### Sammy Belfore
 
@@ -921,7 +923,7 @@ Circelli kin. The relationship to Maria Donata's line is not proven.
 | May 10, 2024 | New Rochelle, New York | Died. New Rochelle, New York | Anne E. Latino |  |
 | Dec 10, 1986 | Newington, Connecticut | Died. Newington, Connecticut | Carl A. Paternostro |  |
 | 2024 or 2025 | Ormond Beach, Florida | Died. Ormond Beach, Florida | Samuel M. Belfore Jr. |  |
-| Oct 19, 1994 | Princeton, New Jersey | Died. Princeton, New Jersey | Joseph Belfiore |  |
+| Oct 19, 1994 | Princeton, New Jersey | Died in Princeton, New Jersey, on 19 October 1994. | Joseph Belfiore |  |
 | Jan 5, 2008 | Princeton, New Jersey | Died. Princeton, New Jersey | Dorothy Hennessey Belfiore |  |
 | Mar 9, 1995 | Wethersfield, Connecticut | Died. Wethersfield, Connecticut | Dominick F. Paternostro |  |
 
@@ -1012,7 +1014,7 @@ Circelli kin. The relationship to Maria Donata's line is not proven.
 | --- | --- | --- | --- | --- |
 | December 1890 | Port of Naples | Sailed from Naples on the SS Hindoustan. Listed as Belfiori Leonardo, 29, laborer, line 36. | Leonardantonio Belfiore | hindoustan-1890, departure |
 | 1898-02-26 | Port of Naples | Sailed from Naples on the SS Alsatia, 26 February 1898. Salvatore, 28, and Michele, 25, lines 8 and 9. | Salvatore Circelli, Michele Circelli | alsatia-1898, departure |
-| 1911-11-14 | Port of Naples | Sailed from Naples on the SS Sant'Anna, 14 November 1911. Salvatore Circelli, 42, married, line 20. | Salvatore Circelli | santanna-1911, departure |
+| 1911-11-14 | Port of Naples | Sailed from Naples on the SS Sant'Anna, 14 November 1911. The site reads line 20 as Salvatore Circelli, 42, married. Antonio Belfiore is the friend in New Rochelle, not the passenger. | Salvatore Circelli | santanna-1911, departure |
 | 1890-12-24 | Port of New York | Arrived at the Port of New York on the SS Hindoustan, 24 December 1890. | Leonardantonio Belfiore | hindoustan-1890, arrival |
 | 1894-01-11 | Port of New York | Arrived at New York on 11 January 1894. No ship has been found. | Patrick Hennessy | hennessy-1894, arrival |
 | 1896-12-02 | Port of New York | Arrived at New York on the SS Oregon, 2 December 1896. Maria Doreta Circelli is line 413 on the Ellis Island index. | Maria Donata Circelli, Philomena "Phyl" Paternostro, Mary D'Onofrio, Michael Kirtus Belfiore | oregon-1896, arrival |
@@ -1059,7 +1061,7 @@ The 10 April 1950 census lines for Joseph C. Belfiore and Dorothy show house num
 
 Also new, on places that were already published:
 
-- Sant'Anna, 14 November 1911, line 20: last residence reads S. Barto in Galdo, nearest relative his wife Maria Circelli there, final destination New Rochelle, friend Antonio Belfiore. The profile had called those columns only partly legible. Arrival port and date are still not on the crop. Source: santanna-1911.
+- Sant'Anna, 14 November 1911, line 20: this is not Antonio Belfiore's own line. The passenger is another man (the site's transcription reads Circelli Salvatore). He was going to a friend, Antonio Belfiore, in New Rochelle. The wife named in S. Barto in Galdo is Maria Circelli. Arrival port and date are still not on the crop. Source: santanna-1911.
 - The 1863, 1860, and 1856 birth acts name the parroco of San Bartolomeo in the margin. The pages had not written the parish notice out. The church building is not named. See the parish entry above.
 - House number 216 for Joseph C. and Dorothy in the 1950 New Rochelle census. The street header is not on the saved crop. Their child is living and is not named.
 - Diocese of Ossory is on the Conahy baptism index image. The pages say Conahy. Ossory is the diocese on that index, not a separate family home.
@@ -1082,7 +1084,7 @@ Also new, on places that were already published:
 14. Strada Borgo is a reading of the 1860 twin acts and needs a second look. Maria Donata's 1863 birth-house line was not clear enough to give her that street.
 15. The parroco is named on the birth acts. The Chiesa Madre and the Annunziata are photographed, and Blessed Sacrament (15 Shea Place, Centre Avenue) and St. Joseph's (280 Washington Avenue) are named as Italian parishes. No baptism, marriage, or burial in this collection is tied to one of those buildings.
 16. Leonardantonio's burial place is unknown. Holy Sepulchre is the first place to ask. Maria Donata's death record has not been found. The 26 September 1937 state death index is the death date on her profile, in New Rochelle, with no cemetery.
-17. Joseph C. Belfiore's death entry is Princeton, New Jersey, 19 October 1994, from the state death index and his Social Security record. The family memory of Valrico, Florida, in 1986, and an unconfirmed Social Security entry for West Babylon, New York, in April 1986, stay beside that entry and are not separate places.
+17. An unconfirmed Social Security Death Index line names a Joseph Belfiore who died in April 1986 with a last residence in West Babylon, New York. It is a lead only. It is not entered as a place, and it is not tied to Joseph C. Belfiore of Princeton.
 18. Dorothy Hennessey moved to Princeton in 1994. Whether Joseph lived there, or only died there, is not spelled out.
 19. Jeffery Belfore's Fair Haven, Vermont, death in 1982 is unverified and is probably another man. It is left out. His 1963 golfing privileges at the Country Club of Detroit are entered, because the minutes name him.
 20. Lena Belfiore's birth in New Rochelle is unverified. The profile now says she is very likely Caroline. No separate Lena place is entered.
@@ -1152,6 +1154,6 @@ Also new, on places that were already published:
 | hindoustan-1890 | SS Hindoustan | Naples, December 1890, to the Port of New York, 24 December 1890. Leonardantonio Belfiore, probable. |
 | oregon-1896 | SS Oregon | Arrival at New York, 2 December 1896. Departure port not chosen. Maria Donata Circelli, confirmed. Phyl Paternostro and Mary D'Onofrio, probable. Michael Belfiore, probable, with the 1894 residence figure left open. |
 | alsatia-1898 | SS Alsatia | Naples, 26 February 1898, to the Port of New York, 19 March 1898. Salvatore and Michele Circelli, confirmed. Their link to Maria Donata is not proven. |
-| santanna-1911 | SS Sant'Anna | Sailed from Naples 14 November 1911, bound for New Rochelle. Arrival port not on the crop. Salvatore Circelli. |
+| santanna-1911 | SS Sant'Anna | Sailed from Naples 14 November 1911. The site reads the passenger on line 20 as Salvatore Circelli, bound for New Rochelle. Antonio Belfiore is the friend named there, not the passenger. Arrival port not on the crop. |
 | hennessy-1894 | ship unknown | Arrival at New York, 11 January 1894. Patrick Hennessy, probable. |
 
