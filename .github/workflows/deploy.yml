@@ -26,6 +26,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read      # the publishing step finds the built site through the Actions API
 
 concurrency:
   group: pages
@@ -33,7 +34,7 @@ concurrency:
 
 jobs:
   site:
-    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1
+    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1.0.0
     with:
       site-dir: Italian-Family-History
       engine-version: ${{ inputs.engine-version || '' }}
