@@ -1,0 +1,42 @@
+# Builds the site with the family site engine and publishes it to GitHub Pages.
+#
+# The site's files are in Italian-Family-History/. The interactive family tree comes from the shared engine,
+# Belfiore/family-site-engine, at the version this site's channel points to (engine.channel in
+# Italian-Family-History/site.config.json); the engine tells the site when that changes. The data is checked,
+# the site is built, and tests/verify-canvas.js runs against the build before anything is published. If any
+# step fails, nothing is published and the live site stays as it was.
+#
+# Only italian-lineage, the branch the live site comes from, publishes.
+# To roll back: Actions > Build and publish the site > Run workflow, with the engine version that last worked.
+name: Build and publish the site
+
+on:
+  push:
+    branches: [italian-lineage]
+  repository_dispatch:
+    types: [engine-release]
+  workflow_dispatch:
+    inputs:
+      engine-version:
+        description: Build with this engine version instead of the channel (for example 1.0.0, to roll back). Leave empty to follow the channel.
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: read      # the publishing step finds the built site through the Actions API
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  site:
+    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1.0.0
+    with:
+      site-dir: Italian-Family-History
+      engine-version: ${{ inputs.engine-version || '' }}
+      site-tests: |
+        node ../tests/verify-canvas.js

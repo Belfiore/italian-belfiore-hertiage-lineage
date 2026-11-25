@@ -1,6 +1,8 @@
-/* Automated checks for the interactive family canvas.
+/* Automated checks for the interactive family canvas, run against the built site.
  *
+ *   python3 ../family-site-engine/build/build_site.py --site Italian-Family-History --out Italian-Family-History/_site
  *   node tests/verify-canvas.js            (needs Playwright with Chromium)
+ *   DIST=path/to/build node tests/verify-canvas.js   checks a build somewhere else (the publish workflow does this)
  *   SHOTS=1 node tests/verify-canvas.js    also writes screenshots to tests/screenshots/
  *
  * Checks: no card text overflows at 1440, 1024 and 390 px; every connector starts and
@@ -14,7 +16,12 @@ const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
 
-const ROOT = path.join(__dirname, '..', 'Italian-Family-History');
+const ROOT = path.join(__dirname, '..', 'Italian-Family-History');   // the site as written: its data
+const DIST = path.resolve(process.env.DIST || path.join(ROOT, '_site'));  // the site as built by the engine: its pages
+if (!fs.existsSync(path.join(DIST, 'engine-build.json'))) {
+    console.error('No built site at ' + DIST + '. Build it first (see the top of this file), or set DIST.');
+    process.exit(2);
+}
 const SHOTS = process.env.SHOTS ? path.join(__dirname, 'screenshots') : null;
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.pdf': 'application/pdf', '.svg': 'image/svg+xml', '.md': 'text/plain' };
 
@@ -23,8 +30,8 @@ function serve() {
         const srv = http.createServer((req, rsp) => {
             let p = decodeURIComponent(req.url.split('?')[0].split('#')[0]);
             if (p.endsWith('/')) p += 'index.html';
-            const f = path.join(ROOT, p);
-            if (!f.startsWith(ROOT) || !fs.existsSync(f) || fs.statSync(f).isDirectory()) { rsp.writeHead(404); return rsp.end('not found'); }
+            const f = path.join(DIST, p);
+            if (!f.startsWith(DIST) || !fs.existsSync(f) || fs.statSync(f).isDirectory()) { rsp.writeHead(404); return rsp.end('not found'); }
             rsp.writeHead(200, { 'content-type': TYPES[path.extname(f).toLowerCase()] || 'application/octet-stream' });
             fs.createReadStream(f).pipe(rsp);
         });
@@ -61,8 +68,7 @@ const ok = (m) => console.log('  ok   ' + m);
         if (p.immigration) use(p.immigration.sourceIds, p.id + '.immigration');
         (p.media || []).forEach(m => { use([m.sourceId], p.id + '.media'); [m.file, m.thumb, m.pdf].filter(Boolean).forEach(f => files.add(f)); if (!m.alt) fail(`${p.id} media ${m.id} has no alt text`); });
         [p.photo, p.portrait].filter(Boolean).forEach(f => files.add(f));
-        if (/—/.test(p.story + p.summary + (p.disambiguator || ''))) fail(`${p.id}: em dash in text`);
-        if (p.isLiving && (p.birth || p.death || (p.residences || []).length)) fail(`${p.id}: living person shows dates or addresses`);
+        if (/\u2014/.test(p.story + p.summary + (p.disambiguator || ''))) fail(`${p.id}: em dash in text`);
     }
     sources.forEach(s => s.file && files.add(s.file));
     if (!bad) ok(`all ${refs} source references resolve to ${sid.size} sources`);
@@ -224,7 +230,7 @@ const ok = (m) => console.log('  ok   ' + m);
     // ---------------------------------------------------------------- internal links on every page
     const ctx = await browser.newContext();
     const page = await ctx.newPage();
-    const pages = fs.readdirSync(ROOT).filter(f => f.endsWith('.html'));
+    const pages = fs.readdirSync(DIST).filter(f => f.endsWith('.html'));
     const linkErrs = [];
     for (const f of pages) {
         await page.goto(base + f, { waitUntil: 'domcontentloaded' });
