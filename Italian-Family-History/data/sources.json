@@ -1535,6 +1535,24 @@
    "date": "1930-04",
    "note": "Thomas S. Hennessy, born about 1900 in New York, a lawyer, wife Margaret S., 27, no children in the household, parents born in Ireland. He had married at about 30. He is not Dorothy's father. No image was saved.",
    "url": "https://www.ancestry.com/search/collections/6224/records/46967753"
+  },
+  {
+   "id": "page-immigration",
+   "title": "The Immigration page of this site",
+   "type": "website",
+   "repository": "This site",
+   "date": "2026",
+   "file": "immigration.html",
+   "note": "Published page. Cited for Blessed Sacrament Church at 15 Shea Place (Centre Avenue), Holy Sepulchre Cemetery at 95 Kings Highway, and the statement that 46 Mechanic Street was renamed Memorial Highway and the house came down about 1960. The page's claim that the family lived at that house for 58 years is not used. The death certificate gives 58 years in New Rochelle, and the censuses put the household on other streets."
+  },
+  {
+   "id": "osm-nominatim-2026",
+   "title": "OpenStreetMap Nominatim search, 25 November 2026",
+   "type": "map",
+   "repository": "OpenStreetMap",
+   "date": "2026-11-25",
+   "url": "https://nominatim.openstreetmap.org/",
+   "note": "Used only to place a historic address or a named building, town, comune, or port on the modern map. Not a source for who lived where."
   }
  ]
 }
