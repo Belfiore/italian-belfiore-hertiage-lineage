@@ -13924,7 +13924,7 @@
    ],
    "parentLinkConfidence": "probable",
    "order": 100,
-   "isDirectLine": false,
+   "isDirectLine": true,
    "photo": "images/thumbs/hennessy-naturalization-1905.jpg",
    "portrait": null,
    "isLiving": false
@@ -15592,7 +15592,7 @@
     }
    ],
    "parentLinkConfidence": "probable",
-   "isDirectLine": false,
+   "isDirectLine": true,
    "photo": "images/thumbs/hennessy-baptism-1874-patrick.jpg",
    "portrait": null,
    "isLiving": false,
@@ -15649,7 +15649,7 @@
     }
    ],
    "parentLinkConfidence": "probable",
-   "isDirectLine": false,
+   "isDirectLine": true,
    "photo": "images/thumbs/hennessy-baptism-1874-patrick.jpg",
    "portrait": null,
    "isLiving": false,
