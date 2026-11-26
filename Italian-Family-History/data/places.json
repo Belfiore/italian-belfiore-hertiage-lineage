@@ -972,10 +972,10 @@
      "sourceIds": [
       "index-births-1884"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Birth index: Belfiore Michele Antonio di Leonardantonio, act 440.",
-     "note": "Probable identification. His American records say 15 December 1885, or 1883 on the 1942 card. The 1883 and 1885 birth indexes, letter B, show no Belfiore. This is not entered as a confirmed birth date."
+     "note": "Index line for act 440. The act itself was read in November 2026 and confirms 15 December 1884."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-leonardantonio-belfiore",
@@ -1136,9 +1136,9 @@
      "personIds": [
       "michael-belfiore"
      ],
-     "date": "Dec 15, 1885",
-     "dateStart": "1885-12-15",
-     "dateEnd": "1885-12-15",
+     "date": "Dec 15, 1884",
+     "dateStart": "1884-12-15",
+     "dateEnd": "1884-12-15",
      "datePrecision": "day",
      "approximate": false,
      "factRef": "michael-belfiore.birth",
@@ -1147,16 +1147,17 @@
       "research.html"
      ],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "birth-michele-1884-act440.jpg"
      ],
      "sourceIds": [
+      "birth-michele-1884",
       "ww1-michael",
       "death-michael-1952"
      ],
      "confidence": "confirmed",
      "familyStatement": false,
-     "summary": "Born. Italy (probably San Bartolomeo in Galdo)",
-     "note": "The WWI card and death certificate say 1885; the WWII card says 1883. His Italian birth record has not been found. The profile says Italy, probably San Bartolomeo in Galdo. The confirmed part is Italy. A probable 1884 index line is entered separately."
+     "summary": "Born. San Bartolomeo in Galdo",
+     "note": "Birth act 440 of 1884 gives 15 December 1884. His WWI card and death certificate say 1885 and his WWII card says 1883. The house is mapped separately at Vico Passaro."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-mary-donofrio",

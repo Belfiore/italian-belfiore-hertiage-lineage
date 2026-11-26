@@ -103,7 +103,7 @@ const FAMILY_DATA = {
             id: 'michael_kirtus',
             firstName: 'Michael Kirtus',
             lastName: 'Belfiore',
-            birthYear: 1885,
+            birthYear: 1884,
             deathYear: 1952,
             isLiving: false,
             primaryLocation: '46 Mechanic St, New Rochelle, NY',
