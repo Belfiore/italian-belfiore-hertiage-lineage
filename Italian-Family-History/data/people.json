@@ -9739,7 +9739,7 @@
      "note": null
     }
    ],
-   "isDirectLine": false,
+   "isDirectLine": true,
    "portrait": null,
    "isLiving": false
   },
@@ -9852,7 +9852,7 @@
     }
    ],
    "nameUncertain": true,
-   "isDirectLine": false,
+   "isDirectLine": true,
    "portrait": null,
    "isLiving": false
   },
