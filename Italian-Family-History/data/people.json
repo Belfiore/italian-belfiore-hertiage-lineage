@@ -235,6 +235,123 @@
    "isLiving": false
   },
   {
+   "id": "giovanniangelo-circelli",
+   "displayName": "Giovanniangelo Circelli",
+   "disambiguator": "Giuseppe's brother",
+   "givenNames": "Giovanniangelo",
+   "surname": "Circelli",
+   "sex": "M",
+   "generation": 1,
+   "nameVariants": [
+    {
+     "name": "Giovanni Circelli",
+     "note": "the short form, probably the father named in the 1862 birth of Pasqualantonio",
+     "sourceIds": [
+      "birth-pasqualantonio-circelli-1862"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "confidence": "confirmed",
+   "birth": {
+    "date": "1830-02-27",
+    "dateQualifier": "exact",
+    "display": "Feb 27, 1830",
+    "place": "San Bartolomeo in Galdo, Italy",
+    "sourceIds": [
+     "birth-giovanniangelo-circelli-1830"
+    ],
+    "confidence": "confirmed",
+    "note": "Birth act 51 of 1830, read on the original page. Born at home at the fifteenth hour; baptised the next day.",
+    "placeId": "san-bartolomeo-in-galdo"
+   },
+   "death": null,
+   "residences": [],
+   "occupations": [
+    {
+     "title": "Contadino (farmer)",
+     "employer": null,
+     "place": "San Bartolomeo in Galdo, Italy",
+     "years": "1855 to 1862",
+     "sourceIds": [
+      "marriage-1855-giovanniangelo-circelli",
+      "birth-pasqualantonio-circelli-1862"
+     ],
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
+    }
+   ],
+   "immigration": null,
+   "cardPlace": "San Bartolomeo in Galdo",
+   "summary": "Giuseppe Circelli's younger brother, born in San Bartolomeo in Galdo in February 1830. A farmer, he married Maria d'Andrea in 1855.",
+   "story": "Giovanniangelo Circelli was born at home in San Bartolomeo in Galdo on 27 February 1830, at the fifteenth hour, and was baptised the next day. His father Donato, a farmer of Strada Borgo Nuovo, registered the birth; his mother was Vincenza Minichiello.[^birth-giovanniangelo-circelli-1830] He was the younger brother of Giuseppe Circelli, born three years earlier to the same parents on the same street.[^birth-giuseppe-circelli-1827]\n\nHe lost his father in 1839 and his mother in 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] On 1 November 1855, aged twenty-five and working the land, he married Maria d'Andrea, twenty-one, the daughter of a farmer, Romualdo d'Andrea. The civil promise and the church wedding took place on the same day. The act names him as the son of the late Donato and the late Vincenza, and copies of the death acts of his father, his mother and his grandfather were filed with the papers.[^marriage-1855-giovanniangelo-circelli]\n\nIn March 1862 a son, Pasqualantonio, was born to a Giovanni Circelli, son of the late Donato, and his wife Maria d'Andrea, aged twenty-eight. The wife's name and age and the late father all fit Giovanniangelo, so this is very probably his son, written with the short form of his name.[^birth-pasqualantonio-circelli-1862]",
+   "timeline": [],
+   "facts": [
+    {
+     "label": "Wife",
+     "value": "Maria d'Andrea, aged 21 in 1855, daughter of Romualdo d'Andrea; married 1 November 1855",
+     "sourceIds": [
+      "marriage-1855-giovanniangelo-circelli"
+     ],
+     "confidence": "confirmed"
+    },
+    {
+     "label": "Son",
+     "value": "Pasqualantonio, born 16 March 1862 to Giovanni Circelli, son of the late Donato, and Maria d'Andrea",
+     "sourceIds": [
+      "birth-pasqualantonio-circelli-1862"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "media": [
+    {
+     "id": "birth-giovanniangelo-circelli-1830",
+     "file": "images/birth-giovanniangelo-circelli-1830-act51.jpg",
+     "thumb": "images/thumbs/birth-giovanniangelo-circelli-1830-act51.jpg",
+     "caption": "Birth act no. 51, San Bartolomeo in Galdo, February 1830: Giovanniangelo Circelli, son of Donato Circelli and Vincenza Minichiello.",
+     "type": "document",
+     "sourceId": "birth-giovanniangelo-circelli-1830",
+     "alt": "Handwritten 1830 Italian civil birth register page for Giovanniangelo Circelli"
+    },
+    {
+     "id": "marriage-1855-giovanniangelo-circelli",
+     "file": "images/marriage-giovanniangelo-circelli-1855-act44.jpg",
+     "thumb": "images/thumbs/marriage-giovanniangelo-circelli-1855-act44.jpg",
+     "caption": "Marriage promise no. 44, San Bartolomeo in Galdo, 1 November 1855: Giovanniangelo Circelli and Maria d'Andrea.",
+     "type": "document",
+     "sourceId": "marriage-1855-giovanniangelo-circelli",
+     "alt": "Handwritten 1855 Italian civil marriage register page for Giovanniangelo Circelli"
+    },
+    {
+     "id": "birth-pasqualantonio-circelli-1862",
+     "file": "images/birth-pasqualantonio-circelli-1862-act90.jpg",
+     "thumb": "images/thumbs/birth-pasqualantonio-circelli-1862-act90.jpg",
+     "caption": "Birth act no. 90, San Bartolomeo in Galdo, 16 March 1862: Pasqualantonio, son of Giovanni Circelli and Maria d'Andrea.",
+     "type": "document",
+     "sourceId": "birth-pasqualantonio-circelli-1862",
+     "alt": "Handwritten 1862 Italian civil birth register page for Pasqualantonio Circelli"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "Did Giovanniangelo and Maria have other children, and when did he die?",
+     "record": "The 1867 birth of a Maria Bartolomea Circelli to Giovanni and Maria d'Andrea appears in the Antenati name index and should be read on the page. San Bartolomeo in Galdo death registers after 1861 are not online."
+    }
+   ],
+   "relatedPages": [],
+   "parents": [
+    "donato-circelli",
+    "vincenza-minichilli"
+   ],
+   "children": [],
+   "spouses": [],
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
    "id": "marianna-mita",
    "displayName": "Anna Rita Mansolino",
    "disambiguator": "Maria Donata's mother",
@@ -748,7 +865,7 @@
    "cardPlace": "San Bartolomeo · New Rochelle",
    "photo": "images/thumbs/town-vicolo-convento.jpg",
    "summary": "A foundling who married Maria Donata Circelli in San Bartolomeo in Galdo in 1884. The working identification is that he is Anthony Belfiore, father of nine children in New Rochelle, who died there in 1938.",
-   "story": "At five minutes to ten on the morning of January 27, 1884, a twenty-three-year-old farm worker stood in the town hall of San Bartolomeo in Galdo to be married. The clerk wrote his name as Belfiore Lionardantonio. In the spaces for his parents he wrote two phrases: padre ignoto, madre ignota. Father unknown, mother unknown.[^marriage-1884]\n\nThose phrases explain the family name. A child of unknown parents had no surname to inherit, so one was given to him. In Italy such children were often left at the ruota degli esposti, the turning wheel set into the wall of a church or hospital, and the institution or the registrar chose their names.[^ctx-ruota] Some foundling surnames marked the child as abandoned, such as Esposito. Others were simply pleasant words, and Belfiore, \"beautiful flower\", reads like one of these. That is very probably how Leonardantonio came by it, although his own birth and admission records have not been found. It also means the family has no link to the noble Belfiore families of other parts of Italy. The name begins with him.[^research-md]\n\n## The wedding\n\nThe marriage act says he was born in San Bartolomeo in Galdo and lived there. His bride was Maria Donata Circelli, twenty-one, also a farm worker, whose parents were both dead. Her consent came from a council of her relatives. The banns had been read on the 13th and the 20th of January. Two town employees stood as witnesses: a municipal guard aged forty-six and the town hall usher, aged sixty-seven. When the act was read back, only the witnesses signed, \"the others being illiterate\".[^marriage-1884]\n\n## From Leonardantonio to Anthony\n\nNo record in this collection uses the name Leonardantonio after 1884. In America the children's father is Anthony or Antonio. The working identification on this site is that he is the same man. It is a strong case but not a proven one, and it rests on several records that point the same way.\n\n- **The name.** Leonardantonio joins Leonardo and Antonio. Using only Antonio, and then Anthony, is an ordinary change for an Italian immigrant.\n- **The children's records.** Michael's 1952 death certificate names his parents as Anthony Belfiore and Maria Circelli.[^death-michael-1952] Sammy's obituary calls the nine children's parents \"the late Anthony and Maria Cicelli Belfiore\".[^standard-star-obit] Indexed records give Frank's and Lena's parents as Antonio Belfiore and Maria D. Circelli.[^frank-index][^lena-index]\n- **Citizenship.** In 1918 Michael answered the citizenship question in the column for men who became citizens through their father's naturalization while still minors, writing \"Father Papers\".[^ww1-michael] His father, then, was in the United States and naturalized before Michael turned twenty-one, around 1906.\n- **A return voyage.** Earlier research found a 1909 Ellis Island manifest listing a \"Belfiore, Antonio\" from San Bartolomeo as a US citizen returning from Italy.[^manifest-1909]\n- **A death.** The New York State death index lists an Anthony Belfiore who died in New Rochelle on July 11, 1938, certificate 42184.[^ny-death-index-1938]\n\nEarlier versions of this site argued that Leonardantonio died in Italy before 1896, because Maria Donata crossed that year under her own surname. The records point the other way. Italian women kept their birth surnames in civil and travel records, so a list naming her as Circelli says nothing about her husband. And Frank, born in New Rochelle in November 1897, and Sammy, born there on Christmas Day 1899, both had a father named Anthony or Antonio.[^frank-index][^standard-star-obit]\n\n## What we do not know\n\nWhen he left San Bartolomeo, and on which ship, is unknown. The transcription of Michael's death certificate gives Michael 58 years of residence in New Rochelle, which would put Michael's arrival around 1894, two years before Maria Donata's crossing.[^death-michael-1952] Whether father and son came first is a fair question, and the 1900 census should answer it, because it asked every immigrant the year they arrived.\n\nHis burial place is also unknown. Holy Sepulchre Cemetery in New Rochelle, where Michael was buried, is the first place to ask.\n\nUpdate, November 2026. He did come to America, and early. Two days before Christmas 1890 a \"Leonardo Belfiori\" of twenty-nine, from San Bartolomeo, landed in New York on the Hindoustan.[^hindoustan-1890-manifest] In June 1900 the census found him in New Rochelle as Antonio, born in September 1861, married sixteen years, here since 1890 and already a citizen.[^census-1900] Every detail fits the young man who married Maria Donata in 1884.[^marriage-1884] Over the next thirty years the census takers wrote him down as Tony, Anthony and Antonio: a day laborer in 1900, the keeper of a saloon in 1915, a mason in 1925, and by 1920 the owner of the family home.[^census-1905][^census-1915][^census-1920][^census-1925][^census-1930]\n\nUpdate, November 2026: where the family lived. The census takers wrote down the family's front doors as well as their names. In June 1900 they rented a house at 13 Lawton Street. In 1905 they were at house 62 on a street that looks like Cottage Place. By 1910 Antonio owned 41 Brook Street, with a mortgage, and kept his saloon; the family was still at 41 Brook in 1915 and when Sammy registered for the draft in 1918. In January 1920 the census gives 54 Brook Street, again owned (the numbers on the street may have changed in between). In 1925 they were at 39 Albemarle, and by 1930 Antonio and Marie owned 55 Potter Avenue, a house the census valued at $35,000, with a radio in the parlour.[^census-1900][^census-1905][^census-1910][^census-1915][^ww1-samuel][^census-1920][^census-1925][^census-1930] Brook Street stayed in the family's life: in 1930 their son Michael was renting at 52 Brook Street, a few doors from the old home.[^census-1930-michael]\n\nUpdate, November 2026: three new pieces. First, his age. He was twenty-three at his wedding in January 1884 and still twenty-three when he registered Michael's birth that December, and twenty-nine when he landed in New York in December 1890. Put together, those ages point to a birth around January 1861.[^marriage-1884][^birth-michele-1884][^hindoustan-1890-manifest] The town's register of births for 1861 is the one year not yet online, which would explain why he has never turned up in the 1860 index.\n\nSecond, his name. In March 1882 the midwife of San Bartolomeo reported a baby girl, born dead, \"to a woman who does not consent to be named\", and the officer wrote that the child was given the name Rosa \"and the surname Belfiore\".[^birth-rosa-belfiore-1882] It suggests that in this town Belfiore was a surname the civil office gave to children whose parents were not named. Leonardantonio, recorded as son of an unknown father and an unknown mother, very likely received his surname the same way. That is a reasonable reading of the evidence, not yet a proof.\n\nThird, his American paperwork. The Westchester County Archives index lists an Antonio \"Belfiora\" (once written Zelfiora) who filed a declaration of intention in 1896 and a naturalization petition in 1899, which fits the citizen of the 1900 census and Michael's draft card, where Michael said he was a citizen through his father's papers.[^westchester-naturalization-index][^census-1900][^ww1-michael] The same archives hold a will filed in 1938 for Antonio Belfiore of New Rochelle, the year Anthony Belfiore died there.[^westchester-surrogates-index] Neither document has been seen yet; both are worth a copy request, because a will would name his children.",
+   "story": "At five minutes to ten on the morning of January 27, 1884, a twenty-three-year-old farm worker stood in the town hall of San Bartolomeo in Galdo to be married. The clerk wrote his name as Belfiore Lionardantonio. In the spaces for his parents he wrote two phrases: padre ignoto, madre ignota. Father unknown, mother unknown.[^marriage-1884]\n\nThose phrases explain the family name. A child of unknown parents had no surname to inherit, so one was given to him. In Italy such children were often left at the ruota degli esposti, the turning wheel set into the wall of a church or hospital, and the institution or the registrar chose their names.[^ctx-ruota] Some foundling surnames marked the child as abandoned, such as Esposito. Others were simply pleasant words, and Belfiore, \"beautiful flower\", reads like one of these. That is very probably how Leonardantonio came by it, although his own birth and admission records have not been found. It also means the family has no link to the noble Belfiore families of other parts of Italy. The name begins with him.[^research-md]\n\n## The wedding\n\nThe marriage act says he was born in San Bartolomeo in Galdo and lived there. His bride was Maria Donata Circelli, twenty-one, also a farm worker, whose parents were both dead. Her consent came from a council of her relatives. The banns had been read on the 13th and the 20th of January. Two town employees stood as witnesses: a municipal guard aged forty-six and the town hall usher, aged sixty-seven. When the act was read back, only the witnesses signed, \"the others being illiterate\".[^marriage-1884]\n\n## From Leonardantonio to Anthony\n\nNo record in this collection uses the name Leonardantonio after 1884. In America the children's father is Anthony or Antonio. The working identification on this site is that he is the same man. It is a strong case but not a proven one, and it rests on several records that point the same way.\n\n- **The name.** Leonardantonio joins Leonardo and Antonio. Using only Antonio, and then Anthony, is an ordinary change for an Italian immigrant.\n- **The children's records.** Michael's 1952 death certificate names his parents as Anthony Belfiore and Maria Circelli.[^death-michael-1952] Sammy's obituary calls the nine children's parents \"the late Anthony and Maria Cicelli Belfiore\".[^standard-star-obit] Indexed records give Frank's and Lena's parents as Antonio Belfiore and Maria D. Circelli.[^frank-index][^lena-index]\n- **Citizenship.** In 1918 Michael answered the citizenship question in the column for men who became citizens through their father's naturalization while still minors, writing \"Father Papers\".[^ww1-michael] His father, then, was in the United States and naturalized before Michael turned twenty-one, around 1906.\n- **A return voyage.** Earlier research found a 1909 Ellis Island manifest listing a \"Belfiore, Antonio\" from San Bartolomeo as a US citizen returning from Italy.[^manifest-1909]\n- **A death.** The New York State death index lists an Anthony Belfiore who died in New Rochelle on July 11, 1938, certificate 42184.[^ny-death-index-1938]\n\nEarlier versions of this site argued that Leonardantonio died in Italy before 1896, because Maria Donata crossed that year under her own surname. The records point the other way. Italian women kept their birth surnames in civil and travel records, so a list naming her as Circelli says nothing about her husband. And Frank, born in New Rochelle in November 1897, and Sammy, born there on Christmas Day 1899, both had a father named Anthony or Antonio.[^frank-index][^standard-star-obit]\n\n## What we do not know\n\nWhen he left San Bartolomeo, and on which ship, is unknown. The transcription of Michael's death certificate gives Michael 58 years of residence in New Rochelle, which would put Michael's arrival around 1894, two years before Maria Donata's crossing.[^death-michael-1952] Whether father and son came first is a fair question, and the 1900 census should answer it, because it asked every immigrant the year they arrived.\n\nHis burial place is also unknown. Holy Sepulchre Cemetery in New Rochelle, where Michael was buried, is the first place to ask.\n\nUpdate, November 2026. He did come to America, and early. Two days before Christmas 1890 a \"Leonardo Belfiori\" of twenty-nine, from San Bartolomeo, landed in New York on the Hindoustan.[^hindoustan-1890-manifest] In June 1900 the census found him in New Rochelle as Antonio, born in September 1861, married sixteen years, here since 1890 and already a citizen.[^census-1900] Every detail fits the young man who married Maria Donata in 1884.[^marriage-1884] Over the next thirty years the census takers wrote him down as Tony, Anthony and Antonio: a day laborer in 1900, the keeper of a saloon in 1915, a mason in 1925, and by 1920 the owner of the family home.[^census-1905][^census-1915][^census-1920][^census-1925][^census-1930]\n\nUpdate, November 2026: where the family lived. The census takers wrote down the family's front doors as well as their names. In June 1900 they rented a house at 13 Lawton Street. In 1905 they were at house 62 on a street that looks like Cottage Place. By 1910 Antonio owned 41 Brook Street, with a mortgage, and kept his saloon; the family was still at 41 Brook in 1915 and when Sammy registered for the draft in 1918. In January 1920 the census gives 54 Brook Street, again owned (the numbers on the street may have changed in between). In 1925 they were at 39 Albemarle, and by 1930 Antonio and Marie owned 55 Potter Avenue, a house the census valued at $35,000, with a radio in the parlour.[^census-1900][^census-1905][^census-1910][^census-1915][^ww1-samuel][^census-1920][^census-1925][^census-1930] Brook Street stayed in the family's life: in 1930 their son Michael was renting at 52 Brook Street, a few doors from the old home.[^census-1930-michael]\n\nUpdate, November 2026: three new pieces. First, his age. He was twenty-three at his wedding in January 1884 and still twenty-three when he registered Michael's birth that December, and twenty-nine when he landed in New York in December 1890. Put together, those ages point to a birth around January 1861.[^marriage-1884][^birth-michele-1884][^hindoustan-1890-manifest] The town's register of births for 1861 is the one year not yet online, which would explain why he has never turned up in the 1860 index.\n\nSecond, his name. In March 1882 the midwife of San Bartolomeo reported a baby girl, born dead, \"to a woman who does not consent to be named\", and the officer wrote that the child was given the name Rosa \"and the surname Belfiore\".[^birth-rosa-belfiore-1882] It suggests that in this town Belfiore was a surname the civil office gave to children whose parents were not named. Leonardantonio, recorded as son of an unknown father and an unknown mother, very likely received his surname the same way. That is a reasonable reading of the evidence, not yet a proof.\n\nThird, his American paperwork. The Westchester County Archives index lists an Antonio \"Belfiora\" (once written Zelfiora) who filed a declaration of intention in 1896 and a naturalization petition in 1899, which fits the citizen of the 1900 census and Michael's draft card, where Michael said he was a citizen through his father's papers.[^westchester-naturalization-index][^census-1900][^ww1-michael] The same archives hold a will filed in 1938 for Antonio Belfiore of New Rochelle, the year Anthony Belfiore died there.[^westchester-surrogates-index] Neither document has been seen yet; both are worth a copy request, because a will would name his children.\n\nUpdate, November 2026. An Anthony Belfiore who died on 11 July 1938 is buried at Holy Sepulchre Cemetery in New Rochelle, the same cemetery as Marie D. Belfiore. The date matches the New Rochelle death in the state index, which makes it more likely still that this is Leonardantonio.[^findagrave-anthony-belfiore][^ny-death-index-1938]",
    "timeline": [
     {
      "date": "1861-03-17",
@@ -1135,10 +1252,6 @@
      "record": "The foundling (esposti) registers for San Bartolomeo in Galdo or the province of Benevento around 1860, and his birth act in the civil register."
     },
     {
-     "question": "Where is he buried?",
-     "record": "Holy Sepulchre Cemetery, New Rochelle (written request to the cemetery office)."
-    },
-    {
      "question": "How was Margrett M. Elmer, \"niece\" in the 1920 household, related to the family?",
      "record": "Thomas J. Elmer and Annie A. Elmer's marriage record (New York City, about 1903) and Annie's parents"
     },
@@ -1395,7 +1508,7 @@
    },
    "cardPlace": "San Bartolomeo · New Rochelle",
    "summary": "Born in San Bartolomeo in Galdo around 1862, married Leonardantonio Belfiore in 1884, and crossed to New York on the SS Oregon in December 1896. She raised nine children in New Rochelle.",
-   "story": "Maria Donata Circelli could not write her name. When she married in January 1884 she was twenty-one, a farm worker, and an orphan: the clerk wrote both her parents' names after the word fu, \"the late\". With her parents dead, the consent for her marriage came from a council of her relatives.[^marriage-1884]\n\nShe was born in San Bartolomeo in Galdo, a hill town in the province of Benevento, where Circelli is one of the old family names.[^marriage-1884][^research-md] Her husband was Leonardantonio Belfiore, a foundling two years older. Their son Michele, later Michael, was born on 15 December 1884, eleven months after the wedding.[^birth-michele-1884]\n\n## The crossing\n\nOn December 2, 1896, the steamship Oregon reached New York from Genoa and Naples. On its passenger list, at line 413, was \"Circelli, Maria Doreta\". Earlier research recorded her age as 34, which agrees with the marriage act.[^oregon-1896-index] Doreta is very probably a clerk's version of Donata, and the source of the \"Maria D.\" in later records.\n\nShe traveled under her own surname. That was normal for an Italian married woman, whose legal surname did not change at marriage, and it should not be read as a sign that she was a widow. Her arrival came in the last months of the first Ellis Island station, a wooden complex that burned in June 1897. Most passenger manifests from those years were lost in the fire. Lists like hers survive because the Customs Service kept its own copies.[^ctx-ellis-nps][^ctx-ellis-foundation]\n\nWhether Michael crossed with her is not known. The full list page would show any child on the lines after hers. The page shared on this site as the Oregon list does not include her line.[^customs-list-page]\n\n## New Rochelle\n\nBy November 1897 the family was in New Rochelle, New York, where Frank was born. Sammy followed on Christmas Day 1899.[^frank-index][^standard-star-obit] In all she raised nine children who survived to be named in Sammy's obituary: Michael, Frank, Joseph and Sammy, and Rose, Caroline, Mollie, Phyl and Mary.[^standard-star-obit] Three of the sons became golf professionals.[^standard-star-obit]\n\nHer Circelli relatives used the same route. In March 1898 Salvatore and Michele Circelli arrived on the Alsatia, giving San Bartolomeo as their home, and in 1911 Salvatore gave New Rochelle as his destination.[^alsatia-1898][^santanna-1911] How they were related to her is not yet known.\n\n## What we do not know\n\nHer date and place of death have not been found. By 1972 Sammy's obituary could call his parents \"the late Anthony and Maria\".[^standard-star-obit] A New York death certificate under Maria, Mary or Marie Belfiore, or a burial record at Holy Sepulchre Cemetery in New Rochelle, would give the date, and should name her parents, which would help settle her mother's name.\n\nUpdate, November 2026. Maria Donata's own birth record has been found. On 25 September 1863, at ten in the morning, Giuseppe Circelli, a farmer of thirty-six, carried his new daughter to the town hall of San Bartolomeo in Galdo; her mother was Rita Mansolino. They named her Maria Donata, and she was baptized that same day.[^birth-maria-donata-1863] She had two older sisters, twins born in 1860.[^birth-circelli-twins-1860]\n\nShe did not cross the ocean alone. The full page of the Oregon's list shows three children with her: Michele, twelve, and two little girls written as Francesca, nine, and Anna, six.[^oregon-1896-manifest] The New Rochelle censuses show who they were: Filomena, the family's Phyl, and Mary.[^census-1900][^census-1905] By 1900 she was the mother of six living children, and the house went on filling for another eight years.[^census-1900][^census-1915] The state death index records a Marie D. Belfiore who died in New Rochelle on 26 September 1937, the day after her seventy-fourth birthday.[^nysdi-1937]\n\nIn 1910 she told the census taker she had borne nine children and that all nine were living, the same nine that the family has always counted.[^census-1910]\n\nUpdate, November 2026: her homes in New Rochelle. Maria Donata kept house at 13 Lawton Street in 1900, at house 62 in 1905, at 41 Brook Street in 1910 and 1915, at 54 Brook Street in 1920, at 39 Albemarle in 1925 and at 55 Potter Avenue, the family's own house, in 1930.[^census-1900][^census-1905][^census-1910][^census-1915][^census-1920][^census-1925][^census-1930]",
+   "story": "Maria Donata Circelli could not write her name. When she married in January 1884 she was twenty-one, a farm worker, and an orphan: the clerk wrote both her parents' names after the word fu, \"the late\". With her parents dead, the consent for her marriage came from a council of her relatives.[^marriage-1884]\n\nShe was born in San Bartolomeo in Galdo, a hill town in the province of Benevento, where Circelli is one of the old family names.[^marriage-1884][^research-md] Her husband was Leonardantonio Belfiore, a foundling two years older. Their son Michele, later Michael, was born on 15 December 1884, eleven months after the wedding.[^birth-michele-1884]\n\n## The crossing\n\nOn December 2, 1896, the steamship Oregon reached New York from Genoa and Naples. On its passenger list, at line 413, was \"Circelli, Maria Doreta\". Earlier research recorded her age as 34, which agrees with the marriage act.[^oregon-1896-index] Doreta is very probably a clerk's version of Donata, and the source of the \"Maria D.\" in later records.\n\nShe traveled under her own surname. That was normal for an Italian married woman, whose legal surname did not change at marriage, and it should not be read as a sign that she was a widow. Her arrival came in the last months of the first Ellis Island station, a wooden complex that burned in June 1897. Most passenger manifests from those years were lost in the fire. Lists like hers survive because the Customs Service kept its own copies.[^ctx-ellis-nps][^ctx-ellis-foundation]\n\nWhether Michael crossed with her is not known. The full list page would show any child on the lines after hers. The page shared on this site as the Oregon list does not include her line.[^customs-list-page]\n\n## New Rochelle\n\nBy November 1897 the family was in New Rochelle, New York, where Frank was born. Sammy followed on Christmas Day 1899.[^frank-index][^standard-star-obit] In all she raised nine children who survived to be named in Sammy's obituary: Michael, Frank, Joseph and Sammy, and Rose, Caroline, Mollie, Phyl and Mary.[^standard-star-obit] Three of the sons became golf professionals.[^standard-star-obit]\n\nHer Circelli relatives used the same route. In March 1898 Salvatore and Michele Circelli arrived on the Alsatia, giving San Bartolomeo as their home, and in 1911 Salvatore gave New Rochelle as his destination.[^alsatia-1898][^santanna-1911] How they were related to her is not yet known.\n\n## What we do not know\n\nHer date and place of death have not been found. By 1972 Sammy's obituary could call his parents \"the late Anthony and Maria\".[^standard-star-obit] A New York death certificate under Maria, Mary or Marie Belfiore, or a burial record at Holy Sepulchre Cemetery in New Rochelle, would give the date, and should name her parents, which would help settle her mother's name.\n\nUpdate, November 2026. Maria Donata's own birth record has been found. On 25 September 1863, at ten in the morning, Giuseppe Circelli, a farmer of thirty-six, carried his new daughter to the town hall of San Bartolomeo in Galdo; her mother was Rita Mansolino. They named her Maria Donata, and she was baptized that same day.[^birth-maria-donata-1863] She had two older sisters, twins born in 1860.[^birth-circelli-twins-1860]\n\nShe did not cross the ocean alone. The full page of the Oregon's list shows three children with her: Michele, twelve, and two little girls written as Francesca, nine, and Anna, six.[^oregon-1896-manifest] The New Rochelle censuses show who they were: Filomena, the family's Phyl, and Mary.[^census-1900][^census-1905] By 1900 she was the mother of six living children, and the house went on filling for another eight years.[^census-1900][^census-1915] The state death index records a Marie D. Belfiore who died in New Rochelle on 26 September 1937, the day after her seventy-fourth birthday.[^nysdi-1937]\n\nIn 1910 she told the census taker she had borne nine children and that all nine were living, the same nine that the family has always counted.[^census-1910]\n\nUpdate, November 2026: her homes in New Rochelle. Maria Donata kept house at 13 Lawton Street in 1900, at house 62 in 1905, at 41 Brook Street in 1910 and 1915, at 54 Brook Street in 1920, at 39 Albemarle in 1925 and at 55 Potter Avenue, the family's own house, in 1930.[^census-1900][^census-1905][^census-1910][^census-1915][^census-1920][^census-1925][^census-1930]\n\nUpdate, November 2026. A Find a Grave memorial for Marie D. Belfiore, born 25 September 1863 and died 26 September 1937, places her grave at Holy Sepulchre Cemetery in New Rochelle, where Michael was later buried.[^findagrave-marie-d-belfiore][^nysdi-1937]",
    "timeline": [
     {
      "date": "1862",
@@ -1658,10 +1771,6 @@
     }
    ],
    "openQuestions": [
-    {
-     "question": "When and where did she die?",
-     "record": "New York State death index under Maria, Mary or Marie Belfiore; burial records at Holy Sepulchre Cemetery, New Rochelle."
-    },
     {
      "question": "Did Michael travel with her in 1896?",
      "record": "The full SS Oregon Customs List page that contains line 413."
@@ -2782,6 +2891,174 @@
    "isLiving": false
   },
   {
+   "id": "james-towey",
+   "displayName": "James J. Towey",
+   "disambiguator": "Frances's father",
+   "givenNames": "James J.",
+   "surname": "Towey",
+   "sex": "M",
+   "generation": 2,
+   "nameVariants": [
+    {
+     "name": "Lowey",
+     "note": "as indexed in the 1900 census",
+     "sourceIds": [
+      "census-1900-towey"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "confidence": "probable",
+   "birth": {
+    "date": "1866",
+    "dateQualifier": "about",
+    "display": "about 1866",
+    "place": "Ireland",
+    "sourceIds": [
+     "census-1900-towey",
+     "findagrave-james-towey-sr"
+    ],
+    "confidence": "probable",
+    "note": "Aged 33 in June 1900. Find a Grave gives August 1866 in County Mayo, not yet backed by a record."
+   },
+   "death": {
+    "date": "1945-09-04",
+    "dateQualifier": "exact",
+    "display": "Sep 4, 1945",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "nysdi-1945-james-towey",
+     "findagrave-james-towey-sr"
+    ],
+    "confidence": "probable",
+    "note": "State death index certificate 54299, which gives his age as 73, about six years short.",
+    "placeId": "new-rochelle"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "New Rochelle",
+   "summary": "Frances Towey's father, an Irish immigrant of 1887 who worked in a New Rochelle machine shop. He died there in 1945.",
+   "story": "James Towey was born in Ireland about 1866 and came to America in 1887. In 1900 he was living at 200 Horton Avenue, New Rochelle, with his wife Margaret, their daughter Frances and a baby son James; by 1910 the family was at 47 Oak Street, and he was working in a machine shop.[^census-1900-towey][^census-1910-towey]\n\nHe died in New Rochelle on 4 September 1945.[^nysdi-1945-james-towey] A Find a Grave memorial records his burial at Holy Sepulchre Cemetery and gives his birth as August 1866 in County Mayo.[^findagrave-james-towey-sr] The state index gives his age at death as seventy-three, about six years less than the census suggests.",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [
+    {
+     "question": "Where in Ireland was he born?",
+     "record": "Find a Grave says County Mayo. His 1945 death certificate (no. 54299) or a naturalization record would confirm it."
+    }
+   ],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "frances-towey"
+   ],
+   "spouses": [
+    {
+     "id": "margaret-towey",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": "about 1897",
+     "place": null,
+     "sourceIds": [
+      "census-1900-towey",
+      "findagrave-james-towey-sr"
+     ],
+     "confidence": "probable",
+     "note": "Husband and wife in the 1900 census; Find a Grave gives the marriage year as 1897. Not in the 1897 New York State marriage index (outside New York City) under Towey."
+    }
+   ],
+   "isDirectLine": true,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
+   "id": "margaret-towey",
+   "displayName": "Margaret Towey",
+   "disambiguator": "Frances's mother",
+   "givenNames": "Margaret",
+   "surname": "Towey",
+   "sex": "F",
+   "generation": 2,
+   "nameVariants": [
+    {
+     "name": "Lowey",
+     "note": "as indexed in the 1900 census",
+     "sourceIds": [
+      "census-1900-towey"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "confidence": "probable",
+   "birth": {
+    "date": "1870",
+    "dateQualifier": "about",
+    "display": "about 1870",
+    "place": "Ireland",
+    "sourceIds": [
+     "census-1900-towey",
+     "findagrave-margaret-towey"
+    ],
+    "confidence": "probable",
+    "note": "Aged 31 in June 1900. Find a Grave gives 17 June 1870 at Kilmovee, County Mayo, not yet backed by a record."
+   },
+   "death": {
+    "date": "1938-01-24",
+    "dateQualifier": "exact",
+    "display": "Jan 24, 1938",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "nysdi-1938-margaret-towey",
+     "findagrave-margaret-towey"
+    ],
+    "confidence": "probable",
+    "note": "State death index certificate 3541.",
+    "placeId": "new-rochelle"
+   },
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "New Rochelle",
+   "summary": "Frances Towey's mother, born in Ireland about 1870. She died in New Rochelle in 1938.",
+   "story": "Margaret Towey was born in Ireland about 1870 and was the mother of Frances, James, Mary and John. In 1900 the family lived at 200 Horton Avenue, New Rochelle, with a niece, Nellie Kelly, aged eleven.[^census-1900-towey][^census-1910-towey]\n\nShe died in New Rochelle on 24 January 1938.[^nysdi-1938-margaret-towey] Her Find a Grave memorial records her burial at Holy Sepulchre Cemetery.[^findagrave-margaret-towey]",
+   "timeline": [],
+   "facts": [],
+   "media": [],
+   "openQuestions": [
+    {
+     "question": "What was her maiden name, and where was she born?",
+     "record": "Find a Grave gives Collohan and Kilmovee, County Mayo, as family tradition passed on by a memorial contributor; no record here confirms it yet. Her 1938 death certificate (no. 3541) or the couple's marriage record would."
+    }
+   ],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "frances-towey"
+   ],
+   "spouses": [
+    {
+     "id": "james-towey",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": "about 1897",
+     "place": null,
+     "sourceIds": [
+      "census-1900-towey",
+      "findagrave-margaret-towey"
+     ],
+     "confidence": "probable",
+     "note": "Husband and wife in the 1900 census; Find a Grave gives the marriage year as 1897."
+    }
+   ],
+   "isDirectLine": true,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
    "id": "frances-towey",
    "displayName": "Frances Towey",
    "disambiguator": "Seb's great-grandmother; Michael's 2nd wife",
@@ -2835,7 +3112,18 @@
      "ssdi-frances"
     ],
     "confidence": "confirmed",
-    "placeId": "new-rochelle"
+    "placeId": "new-rochelle",
+    "alternates": [
+     {
+      "date": "1967-04-15",
+      "display": "Apr 15, 1967",
+      "sourceIds": [
+       "nysdi-1967-frances-belfiore",
+       "findagrave-frances-towey-belfiore"
+      ],
+      "note": "New York State death index (certificate 32075) and Find a Grave"
+     }
+    ]
    },
    "residences": [
     {
@@ -2905,7 +3193,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle, NY",
    "summary": "An Irish-American born in New York in 1897, Michael's second wife and the mother of Edward and Joseph. She died in New Rochelle in 1967.",
-   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents' names have not been found yet. Her death certificate, which has been ordered, should give them and their birthplaces.\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 5, 1967, aged sixty-nine.[^ssdi-frances]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]",
+   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 5, 1967, aged sixty-nine.[^ssdi-frances]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]",
    "timeline": [
     {
      "date": "1897-09-17",
@@ -3030,6 +3318,25 @@
       "census-1930-michael"
      ],
      "confidence": "probable"
+    },
+    {
+     "label": "Brothers and sister, later years",
+     "value": "James A. (1899 to 1935), a detective; Mary Helen, later Mrs Walsh (1902 to 1937); and John J. (1908 to 1987)",
+     "sourceIds": [
+      "findagrave-frances-towey-belfiore",
+      "nysdi-1935-james-a-towey",
+      "nysdi-1937-mary-h-walsh"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Death date in the state index",
+     "value": "15 April 1967, certificate 32075, ten days later than the Social Security index date",
+     "sourceIds": [
+      "nysdi-1967-frances-belfiore",
+      "findagrave-frances-towey-belfiore"
+     ],
+     "confidence": "probable"
     }
    ],
    "media": [
@@ -3091,8 +3398,8 @@
    ],
    "openQuestions": [
     {
-     "question": "Who were her parents, and were they born in Ireland?",
-     "record": "Her 1967 death certificate (ordered); the 1900 and 1910 censuses for the Towey family in New Rochelle."
+     "question": "Where in Ireland did her parents come from?",
+     "record": "Find a Grave gives County Mayo for her father and Kilmovee, County Mayo, for her mother, whose maiden name it gives as Collohan. No record here confirms either yet. Their marriage is not in the 1897 New York State marriage index outside New York City under Towey; New York City, and 1896 or 1898, are next. Her 1967 death certificate (no. 32075) would name her parents."
     },
     {
      "question": "When and where did she marry Michael?",
@@ -3105,7 +3412,10 @@
      "url": "research.html"
     }
    ],
-   "parents": [],
+   "parents": [
+    "james-towey",
+    "margaret-towey"
+   ],
    "children": [
     "edward-belfiore",
     "joseph-belfiore"
@@ -3960,7 +4270,11 @@
    "openQuestions": [
     {
      "question": "Who was Dorothy's father?",
-     "record": "Of Patrick's older sons, Joseph (born about 1898) and Henry (born about 1902) are the two the ages allow. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead only. A death certificate or a 1930 obituary would test him. The New York City marriage index for 1917 to 1922 has not yet been searched."
+     "record": "Of Patrick's older sons, Joseph (born about 1898) and Henry (born about 1902) are the two the ages allow. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead only. The New York City grooms index for 1915 to 1925 has no Joseph W. Hennessy; it has a Joseph P. Hennessy (married 1921 and 1925, Manhattan) and a Henry Hennessy (married 13 June 1923, Manhattan, certificate 21513), whose brides would need checking."
+    },
+    {
+     "question": "When exactly was she born?",
+     "record": "A Find a Grave memorial gives 20 February 1922 at New Rochelle. No Dorothy appears under Hennessy or Hennessey in the 1922 New York State birth index (page 707), so she may be indexed under another surname or as an unnamed girl. Her birth certificate would settle it."
     }
    ],
    "relatedPages": [],
@@ -9875,7 +10189,7 @@
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/marriage-circelli-mansolino-1850.jpg",
    "summary": "Giuseppe Circelli's father, a farm worker in San Bartolomeo in Galdo and the oldest Circelli yet found on this line. He died on 8 November 1839.",
-   "story": "Donato Circelli is the earliest name yet found on the Circelli side of the family. He was the son of Domenico Circelli and Annamaria Catalano, and he worked the land in San Bartolomeo in Galdo.[^death-donato-circelli-1839]\n\nOn 13 February 1827, aged forty-two, he registered the birth of his son Giuseppe, born the day before to his wife Vincenza; the family lived on Strada Borgo Nuovo.[^birth-giuseppe-circelli-1827]\n\nDonato died on 8 November 1839, aged forty-six, still married to Vincenza.[^death-donato-circelli-1839] His own father Domenico, then about eighty, died two months later, on 15 January 1840.[^death-domenico-circelli-1840] Ten years on, a copy of Donato's death act was filed with the papers for Giuseppe's wedding.[^processetti-circelli-mansolino-1850]\n\nA Matteo Circelli, also \"son of the late Donato\", married in the same town in 1855, but his mother was Lucia Catalano. Because Donato was still married to Vincenza when he died, Matteo is more likely the son of another Donato Circelli; that link is not proven.[^matrimoni-1855-matteo-circelli]",
+   "story": "Donato Circelli is the earliest name yet found on the Circelli side of the family. He was the son of Domenico Circelli and Annamaria Catalano, and he worked the land in San Bartolomeo in Galdo.[^death-donato-circelli-1839]\n\nOn 13 February 1827, aged forty-two, he registered the birth of his son Giuseppe, born the day before to his wife Vincenza; the family lived on Strada Borgo Nuovo.[^birth-giuseppe-circelli-1827]\n\nDonato died on 8 November 1839, aged forty-six, still married to Vincenza.[^death-donato-circelli-1839] His own father Domenico, then about eighty, died two months later, on 15 January 1840.[^death-domenico-circelli-1840] Ten years on, a copy of Donato's death act was filed with the papers for Giuseppe's wedding.[^processetti-circelli-mansolino-1850]\n\nA Matteo Circelli, also \"son of the late Donato\", married in the same town in 1855, but his mother was Lucia Catalano. Because Donato was still married to Vincenza when he died, Matteo is more likely the son of another Donato Circelli; that link is not proven.[^matrimoni-1855-matteo-circelli]\n\nUpdate, November 2026. A second son has been found. Giovanniangelo Circelli was born on 27 February 1830 to Donato and Vincenza, and Donato, who gave his age as forty, registered the birth himself.[^birth-giovanniangelo-circelli-1830] Giovanniangelo married Maria d'Andrea in 1855.[^marriage-1855-giovanniangelo-circelli] In the same month of 1830 a second Donato Circelli, aged twenty-six, of Strada Palazzo, registered a son Giovanni born to Lucia Catalano. That younger Donato was Matteo Circelli's father, so Matteo belongs to a different Circelli family after all.[^birth-giovanni-circelli-1830][^matrimoni-1852-giovanni-circelli]",
    "timeline": [
     {
      "date": "1827-02-13",
@@ -9931,14 +10245,19 @@
    ],
    "openQuestions": [
     {
-     "question": "When and where were Donato and Vincenza born, and did they have other children?",
-     "record": "San Bartolomeo in Galdo birth registers about 1785 to 1793, and the birth indexes of 1811 to 1830, on Antenati"
+     "question": "When and where were Donato and Vincenza born, and did they have more children besides Giuseppe (1827) and Giovanniangelo (1830)?",
+     "record": "San Bartolomeo in Galdo birth registers about 1785 to 1793; the birth indexes of 1811 and 1813 to 1826, the rest of 1828 and 1829, and 1831 to 1835, on Antenati."
+    },
+    {
+     "question": "Why does his age move about?",
+     "record": "He was 42 in February 1827, 40 in February 1830 and 46 at his death in 1839. His birth act would settle it."
     }
    ],
    "relatedPages": [],
    "parents": [],
    "children": [
-    "giuseppe-circelli"
+    "giuseppe-circelli",
+    "giovanniangelo-circelli"
    ],
    "spouses": [
     {
@@ -10036,7 +10355,7 @@
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/marriage-circelli-mansolino-1850.jpg",
    "summary": "Giuseppe Circelli's mother, a spinner, daughter of Leonardo Minichillo and Elisabetta delle Donne. Widowed in 1839, she died on 18 October 1843.",
-   "story": "Vincenza was Giuseppe Circelli's mother. Her son's 1827 birth act and her own death act write her surname Minichillo; the 1850 marriage act is harder to read and looks like Minichilli.[^birth-giuseppe-circelli-1827][^marriage-circelli-mansolino-1850]\n\nShe lost her husband Donato in November 1839.[^death-donato-circelli-1839] She died on 18 October 1843, aged fifty-five, described as a spinner (filatrice) and the daughter of the late Leonardo Minichillo and Elisabetta delle Donne.[^death-vincenza-minichillo-1843] A copy of her death act was later filed with Giuseppe's wedding papers.[^processetti-circelli-mansolino-1850]",
+   "story": "Vincenza was Giuseppe Circelli's mother. Her son's 1827 birth act and her own death act write her surname Minichillo; the 1850 marriage act is harder to read and looks like Minichilli.[^birth-giuseppe-circelli-1827][^marriage-circelli-mansolino-1850]\n\nShe lost her husband Donato in November 1839.[^death-donato-circelli-1839] She died on 18 October 1843, aged fifty-five, described as a spinner (filatrice) and the daughter of the late Leonardo Minichillo and Elisabetta delle Donne.[^death-vincenza-minichillo-1843] A copy of her death act was later filed with Giuseppe's wedding papers.[^processetti-circelli-mansolino-1850]\n\nA second son, Giovanniangelo, was born to her and Donato on 27 February 1830, when she was said to be forty.[^birth-giovanniangelo-circelli-1830]",
    "timeline": [
     {
      "date": "1827-02-12",
@@ -10094,7 +10413,8 @@
    "relatedPages": [],
    "parents": [],
    "children": [
-    "giuseppe-circelli"
+    "giuseppe-circelli",
+    "giovanniangelo-circelli"
    ],
    "spouses": [
     {
@@ -10156,7 +10476,7 @@
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/marriage-circelli-palumbo-1855.jpg",
    "summary": "A Circelli of San Bartolomeo, son of a late Donato and Lucia Catalano. He is probably not Giuseppe's half-brother. Married Anna Palumbo in 1855.",
-   "story": "Matteo Circelli was twenty-one and a farmer when he married Anna Palumbo, eighteen, in San Bartolomeo on 7 January 1855. The act calls him the son of the late Donato and of Lucia Catalano, who was still living.[^matrimoni-1855-matteo-circelli] Their daughter Lucia was born a year later.[^nati-1856-circelli]\n\nGiuseppe Circelli's father was also called Donato, so the two men were once thought to be half-brothers. The death records now argue against it. Giuseppe's father Donato died on 8 November 1839, still married to Giuseppe's mother Vincenza, who outlived him until 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] Matteo was born about 1833, while that marriage was still going, to a different mother. So Matteo's father was most likely another Donato Circelli of the same town, and he is no longer linked to Giuseppe's family in the tree. Circelli was a common name in San Bartolomeo, and the two families may still have been cousins.",
+   "story": "Matteo Circelli was twenty-one and a farmer when he married Anna Palumbo, eighteen, in San Bartolomeo on 7 January 1855. The act calls him the son of the late Donato and of Lucia Catalano, who was still living.[^matrimoni-1855-matteo-circelli] Their daughter Lucia was born a year later.[^nati-1856-circelli]\n\nGiuseppe Circelli's father was also called Donato, so the two men were once thought to be half-brothers. The death records now argue against it. Giuseppe's father Donato died on 8 November 1839, still married to Giuseppe's mother Vincenza, who outlived him until 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] Matteo was born about 1833, while that marriage was still going, to a different mother. So Matteo's father was most likely another Donato Circelli of the same town, and he is no longer linked to Giuseppe's family in the tree. Circelli was a common name in San Bartolomeo, and the two families may still have been cousins.\n\nUpdate, November 2026. Matteo's own family has come into view. In February 1830 a Donato Circelli, twenty-six, living on Strada Palazzo, registered the birth of a son Giovanni to his wife Lucia Catalano, twenty-one.[^birth-giovanni-circelli-1830] In February 1852 that Giovanni, now twenty-one, married Concetta Buccione, and the act names him as the son of the late Donato and of Lucia Catalano, the same parents Matteo gave three years later.[^matrimoni-1852-giovanni-circelli] So Matteo had an older brother Giovanni, and their father was a younger Donato, born about 1804. Giuseppe's father, of Strada Borgo Nuovo, was forty-two in 1827 and had his own son Giovanniangelo in the same month of 1830.[^birth-giuseppe-circelli-1827][^birth-giovanniangelo-circelli-1830] Two Donato Circellis, each with a son called Giovanni born in February 1830, explain why the records were so easy to mix up.",
    "timeline": [
     {
      "date": "1855-01-07",
@@ -10204,6 +10524,24 @@
       "death-vincenza-minichillo-1843"
      ],
      "confidence": "probable"
+    },
+    {
+     "label": "Brother",
+     "value": "Giovanni, born February 1830 to Donato Circelli, 26, and Lucia Catalano, 21; married Concetta Buccione in 1852",
+     "sourceIds": [
+      "birth-giovanni-circelli-1830",
+      "matrimoni-1852-giovanni-circelli"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Father",
+     "value": "Donato Circelli of Strada Palazzo, aged 26 in 1830, so born about 1804; dead by 1852",
+     "sourceIds": [
+      "birth-giovanni-circelli-1830",
+      "matrimoni-1852-giovanni-circelli"
+     ],
+     "confidence": "probable"
     }
    ],
    "media": [
@@ -10219,8 +10557,8 @@
    ],
    "openQuestions": [
     {
-     "question": "Who was Matteo's father Donato, and how was he related to Giuseppe's family?",
-     "record": "Matteo's birth act (San Bartolomeo in Galdo, about 1833) and the 1855 marriage papers (processetti)"
+     "question": "How was the younger Donato, born about 1804, related to Giuseppe's father?",
+     "record": "His birth act about 1804 and his death act between 1834 and 1852 (San Bartolomeo in Galdo, Antenati), which would name his parents."
     }
    ],
    "relatedPages": [],
@@ -10603,7 +10941,12 @@
    "timeline": [],
    "facts": [],
    "media": [],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Was she the Carmella Belfiore who died in 1929?",
+     "record": "A Carmella Belfiore died at Niagara Falls on 25 October 1929 (New York State death index, certificate 63917) and is buried at Holy Sepulchre Cemetery, New Rochelle (Find a Grave memorial 324110471). The death certificate would give her age and parents. A lead only."
+    }
+   ],
    "relatedPages": [],
    "parents": [
     "leonardantonio-belfiore",
@@ -16799,8 +17142,8 @@
    ],
    "openQuestions": [
     {
-     "question": "What was her maiden name, and when did she die? A Brigida Mansolino, aged 22, daughter of Vincenzo Mansolino, married Pasquale Circelli in January 1812. Her age fits, but it is not yet known whether she is the same woman.",
-     "record": "San Bartolomeo in Galdo deaths 1812 to 1828 (for Pasquale Circelli) and marriages of 1817 and 1819, which have no index (Antenati, Lucera series)."
+     "question": "What was her maiden name, and was she Pasquale Circelli's widow? A Brigida Mansolino, aged 22, daughter of Vincenzo Mansolino, married Pasquale Circelli in January 1812. On 12 February 1814 Pasquale Circelli, 28, a farmer, registered the birth of their son Antonio, and gave Brigida's age as 24 (birth act 278 of 1814). That age fits Anna Rita's mother, who was 38 in 1829, but it does not yet prove they are the same woman.",
+     "record": "Pasquale Circelli's death act (San Bartolomeo in Galdo, about 1814 to 1821), and Francesco Mansolino's marriage, which should call his bride the widow of Pasquale if she was."
     }
    ],
    "spouses": [

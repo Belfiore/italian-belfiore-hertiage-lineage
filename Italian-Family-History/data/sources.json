@@ -1763,6 +1763,144 @@
    "date": "2026-11-26",
    "url": "https://photon.komoot.io/",
    "note": "Used only to place a street, lane, building or neighbourhood on the modern map. Not a source for who lived where."
+  },
+  {
+   "id": "birth-giovanniangelo-circelli-1830",
+   "title": "Atto di nascita no. 51: Giovanniangelo Circelli, son of Donato Circelli and Vincenza Minichiello",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, San Bartolomeo in Galdo, Stato civile della Restaurazione, Nati 1830, image 60; index image 5, line 51",
+   "date": "1830-02-27",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513",
+   "file": "images/birth-giovanniangelo-circelli-1830-act51.jpg",
+   "note": "Read on the original page in November 2026. Born 27 February 1830 at the fifteenth hour, at home. Father Donato Circelli, 40, contadino, of Strada Borgo Nuovo; mother Vincenza Minichiello, 40. Baptised the next day as Giovanniangelo."
+  },
+  {
+   "id": "marriage-1855-giovanniangelo-circelli",
+   "title": "Atto di solenne promessa di matrimonio no. 44: Giovanniangelo Circelli and Maria d'Andrea",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, San Bartolomeo in Galdo, Matrimoni 1855 (ark:/12657/an_ua36035164), image 48; index image 3",
+   "date": "1855-11-01",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035164",
+   "file": "images/marriage-giovanniangelo-circelli-1855-act44.jpg",
+   "note": "Read on the original page in November 2026. Civil promise and church celebration both 1 November 1855. Groom 25, contadino, son of the late Donato and the late Vincenza Minichilli. Bride 21, daughter of Romualdo d'Andrea, contadino, and Emanuela (surname hard to read, perhaps Pannelli). The papers filed included the death acts of the groom's father, mother and grandfather."
+  },
+  {
+   "id": "birth-pasqualantonio-circelli-1862",
+   "title": "Atto di nascita no. 90: Pasqualantonio Circelli, son of Giovanni Circelli and Maria d'Andrea",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, San Bartolomeo in Galdo, Stato civile italiano, Nati 1862 (ark:/12657/an_ua1009571), image 94",
+   "date": "1862-03-16",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua1009571",
+   "file": "images/birth-pasqualantonio-circelli-1862-act90.jpg",
+   "note": "Read on the original page in November 2026. Born 16 March 1862. Father Giovanni Circelli, son of the late Donato, about 32, contadino; mother Maria d'Andrea, 28, his wife."
+  },
+  {
+   "id": "birth-giovanni-circelli-1830",
+   "title": "Atto di nascita no. 33: Giovanni Circelli, son of Donato Circelli and Lucia Catalano",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, San Bartolomeo in Galdo, Stato civile della Restaurazione, Nati 1830 (ark:/12657/an_ua36044513), image 42",
+   "date": "1830-02-09",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513",
+   "note": "Read on the original page in November 2026. Born in February 1830 (the day is hard to read, probably the 9th). Father Donato Circelli, 26, of Strada Palazzo; mother Lucia Catalano, 21, his wife."
+  },
+  {
+   "id": "matrimoni-1852-giovanni-circelli",
+   "title": "Atto di solenne promessa di matrimonio no. 11: Giovanni Circelli and Concetta Buccione",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, San Bartolomeo in Galdo, Matrimoni 1852 (ark:/12657/an_ua36035161), image 15",
+   "date": "1852-02-05",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035161",
+   "note": "Read on the original page in November 2026. Groom 21, son of the late Donato and of Lucia Catalano. Bride Concetta Buccione, 20, daughter of Antonio Buccione."
+  },
+  {
+   "id": "findagrave-james-towey-sr",
+   "title": "Find a Grave memorial 281144260: James J. Towey Sr. (1866 to 1945)",
+   "type": "memorial",
+   "repository": "Find a Grave, Holy Sepulchre Cemetery, New Rochelle, New York",
+   "url": "https://www.findagrave.com/memorial/281144260",
+   "date": "2026-11-26",
+   "note": "Compiled memorial added 28 March 2025 by a Find a Grave contributor. Gives birth August 1866, County Mayo; death 4 September 1945, New Rochelle; burial Holy Sepulchre; wife Margaret Collohan Towey, married 1897; children Frances, James A., Mary Helen and John J. Secondary: the birth details are not yet backed by a record."
+  },
+  {
+   "id": "findagrave-margaret-towey",
+   "title": "Find a Grave memorial 281144407: Margaret Collohan Towey (1870 to 1938)",
+   "type": "memorial",
+   "repository": "Find a Grave, Holy Sepulchre Cemetery, New Rochelle, New York",
+   "url": "https://www.findagrave.com/memorial/281144407",
+   "date": "2026-11-26",
+   "note": "Compiled memorial added 28 March 2025. Gives birth 17 June 1870 at Kilmovee, County Mayo; death 24 January 1938, New Rochelle; burial Holy Sepulchre. The maiden name and birthplace are not yet backed by a record."
+  },
+  {
+   "id": "findagrave-frances-towey-belfiore",
+   "title": "Find a Grave memorial 281145747: Frances Towey Belfiore (1897 to 1967)",
+   "type": "memorial",
+   "repository": "Find a Grave, Holy Sepulchre Cemetery, New Rochelle, New York",
+   "url": "https://www.findagrave.com/memorial/281145747",
+   "date": "2026-11-26",
+   "note": "Compiled memorial added 28 March 2025. Gives birth 17 September 1897 and death 15 April 1967, both New Rochelle; burial Holy Sepulchre; parents James J. Towey Sr. and Margaret Collohan Towey; husband Michael Belfiore; siblings James A. Towey Jr. (1899 to 1935, a detective), Mary Helen Towey Walsh (1902 to 1937) and John J. Towey (1908 to 1987); son Joseph C. Belfiore."
+  },
+  {
+   "id": "findagrave-marie-d-belfiore",
+   "title": "Find a Grave memorial 328410140: Marie D. Belfiore (1863 to 1937)",
+   "type": "memorial",
+   "repository": "Find a Grave, Holy Sepulchre Cemetery, New Rochelle, New York",
+   "url": "https://www.findagrave.com/memorial/328410140",
+   "date": "2026-11-26",
+   "note": "Memorial added 18 November 2026. Birth 25 September 1863, death 26 September 1937, burial Holy Sepulchre. The birth date matches Maria Donata's Italian birth act, so the memorial may draw on family research; the burial place is the new part."
+  },
+  {
+   "id": "findagrave-anthony-belfiore",
+   "title": "Find a Grave memorial 328799813: Anthony Belfiore (died 1938)",
+   "type": "memorial",
+   "repository": "Find a Grave, Holy Sepulchre Cemetery, New Rochelle, New York",
+   "url": "https://www.findagrave.com/memorial/328799813",
+   "date": "2026-11-26",
+   "note": "Memorial added 22 November 2026. Death 11 July 1938, burial Holy Sepulchre. No birth date or family links."
+  },
+  {
+   "id": "nysdi-1945-james-towey",
+   "title": "New York State Death Index 1945: James Towey, New Rochelle, 4 Sep 1945, certificate 54299",
+   "type": "death index",
+   "repository": "New York State Department of Health death index, via Reclaim The Records",
+   "date": "1945",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1945",
+   "note": "Towey, James, age 73, 4 September 1945, New Rochelle, certificate 54299. The age is six years short of a birth in 1866. Index entry only; the certificate has not been ordered."
+  },
+  {
+   "id": "nysdi-1938-margaret-towey",
+   "title": "New York State Death Index 1938: Margaret Towey, New Rochelle, 24 Jan 1938, certificate 3541",
+   "type": "death index",
+   "repository": "New York State Department of Health death index, via Reclaim The Records",
+   "date": "1938",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1938",
+   "note": "Towey, Margaret, 24 January 1938, New Rochelle, certificate 3541. Index entry only; the certificate has not been ordered."
+  },
+  {
+   "id": "nysdi-1935-james-a-towey",
+   "title": "New York State Death Index 1935: James A. Towey, New Rochelle, 22 Jul 1935, certificate 42909",
+   "type": "death index",
+   "repository": "New York State Department of Health death index, via Reclaim The Records",
+   "date": "1935",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1935",
+   "note": "Towey, James A., 22 July 1935, New Rochelle, certificate 42909. Find a Grave gives 20 July. Index entry only; the certificate has not been ordered."
+  },
+  {
+   "id": "nysdi-1937-mary-h-walsh",
+   "title": "New York State Death Index 1937: Mary H. Walsh, New Rochelle, 18 Apr 1937, certificate 25841",
+   "type": "death index",
+   "repository": "New York State Department of Health death index, via Reclaim The Records",
+   "date": "1937",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1937",
+   "note": "Walsh, Mary H., 18 April 1937, New Rochelle, certificate 25841. Identified with Frances's sister Mary Helen by name, town and year. Index entry only; the certificate has not been ordered."
+  },
+  {
+   "id": "nysdi-1967-frances-belfiore",
+   "title": "New York State Death Index 1967: Frances T. Belfiore, 15 Apr 1967, certificate 32075",
+   "type": "death index",
+   "repository": "New York State Department of Health death index, via Reclaim The Records",
+   "date": "1967",
+   "url": "https://archive.org/details/New_York_State_Death_Index_-_collected_data_files_-_1880-2017",
+   "note": "Belfiore, Frances T., age 69, 15 April 1967, certificate 32075. Index entry only; the certificate has not been ordered."
   }
  ]
 }
