@@ -40,3 +40,4 @@ jobs:
       engine-version: ${{ inputs.engine-version || '' }}
       site-tests: |
         node ../tests/verify-canvas.js
+        node ../tests/verify-map.js

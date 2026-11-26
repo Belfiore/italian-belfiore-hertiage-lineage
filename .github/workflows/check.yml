@@ -16,3 +16,4 @@ jobs:
       deploy: false
       site-tests: |
         node ../tests/verify-canvas.js
+        node ../tests/verify-map.js

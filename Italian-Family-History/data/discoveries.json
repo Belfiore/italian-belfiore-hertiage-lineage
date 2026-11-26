@@ -1,0 +1,89 @@
+{
+ "discoveries": [
+  {
+   "id": "map-2026-11-26-vico-passaro",
+   "covers": ["place:vico-passaro-san-bartolomeo"],
+   "personIds": ["michael-belfiore"],
+   "placeIds": ["vico-passaro-san-bartolomeo"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "A lane called Vico Passaro still climbs through the old town of San Bartolomeo in Galdo, where Michael was born in 1884.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "OpenStreetMap, via Photon search", "url": "https://photon.komoot.io/"},
+   "confidence": "probable",
+   "changeNote": "The street name on Michael's birth act was a hard reading; a lane of that name today supports it."
+  },
+  {
+   "id": "map-2026-11-26-albemarle",
+   "covers": ["place:39-albemarle"],
+   "personIds": ["leonardantonio-belfiore", "maria-donata-circelli"],
+   "placeIds": ["39-albemarle"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "The family's 1925 home at 39 Albemarle is now on the map, on Albemarle Avenue in New Rochelle.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "US Census Bureau geocoder", "url": "https://geocoding.geo.census.gov/geocoder/"},
+   "confidence": "probable"
+  },
+  {
+   "id": "map-2026-11-26-west-maple",
+   "covers": ["place:251-west-maple-avenue"],
+   "personIds": ["sammy-belfore", "virginia-hupp"],
+   "placeIds": ["251-west-maple-avenue"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "Sammy and Virginia's 1930 wedding house, 251 West Maple Avenue in Birmingham, Michigan, is now pinned on today's West Maple Road.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "US Census Bureau geocoder and OpenStreetMap", "url": "https://geocoding.geo.census.gov/geocoder/"},
+   "confidence": "probable"
+  },
+  {
+   "id": "map-2026-11-26-wykagyl",
+   "covers": ["place:wykagyl-country-club"],
+   "personIds": ["sammy-belfore"],
+   "placeIds": ["wykagyl-country-club"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "Wykagyl Country Club, where Sammy started in golf as a shop boy, is now pinned at 1195 North Avenue, New Rochelle.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "US Census Bureau geocoder", "url": "https://geocoding.geo.census.gov/geocoder/"},
+   "confidence": "probable"
+  },
+  {
+   "id": "map-2026-11-26-shennecossett",
+   "covers": ["place:shenecossett"],
+   "personIds": ["sammy-belfore"],
+   "placeIds": ["shenecossett"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "Shenecossett, Sammy's 1942 club, is the Shennecossett Golf Course in Groton, Connecticut, just across the river from New London.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "OpenStreetMap Nominatim", "url": "https://nominatim.openstreetmap.org/"},
+   "confidence": "probable"
+  },
+  {
+   "id": "map-2026-11-26-kercheval",
+   "covers": ["place:kercheval-conner"],
+   "personIds": ["frank-belfore"],
+   "placeIds": ["kercheval-conner"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "Frank's 1942 workplace near Kercheval and Conner in Detroit is now on the map at that corner.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "OpenStreetMap, via Photon search", "url": "https://photon.komoot.io/"},
+   "confidence": "probable"
+  },
+  {
+   "id": "map-2026-11-26-saginaw",
+   "covers": ["place:saginaw-country-club"],
+   "personIds": ["joe-belfore"],
+   "placeIds": ["saginaw-country-club"],
+   "found": "2026-11-26",
+   "findType": "place",
+   "headline": "Saginaw Country Club, named with Joe in a 1934 newspaper headline, is now on the map at the club grounds in Saginaw Township, Michigan.",
+   "foundBy": "Stuart - Italian",
+   "source": {"text": "OpenStreetMap Nominatim", "url": "https://nominatim.openstreetmap.org/"},
+   "confidence": "probable"
+  }
+ ]
+}

@@ -1745,6 +1745,24 @@
    "date": "2014-07-15",
    "url": "http://hennessycox.blogspot.com/2014/07/westchester-county-newspaper-articles.html",
    "note": "A compiled blog of Westchester notices that may belong to this New Rochelle family, including a Patrick Hennessy at a Premium Point coachmen's picnic in August 1905, a Mary Hennessy who died on 22 December 1905 (funeral at the Church of the Blessed Sacrament, leaving a husband and four children), and a June 1914 marriage of a Patrick Hennessy to Annie Hussey at St Patrick's, Larchmont. None of these has been read on the original newspaper page. The 1914 marriage is already known from the state index (hennessy-marriage-1914). Kept as a lead only."
+  },
+  {
+   "id": "census-geocoder-2026",
+   "title": "US Census Bureau geocoder, 26 November 2026",
+   "type": "map",
+   "repository": "United States Census Bureau",
+   "date": "2026-11-26",
+   "url": "https://geocoding.geo.census.gov/geocoder/",
+   "note": "Used only to place a historic street address on the modern map, from today's census street file. Not a source for who lived where."
+  },
+  {
+   "id": "osm-photon-2026",
+   "title": "Photon search of OpenStreetMap, 26 November 2026",
+   "type": "map",
+   "repository": "OpenStreetMap (Photon by Komoot)",
+   "date": "2026-11-26",
+   "url": "https://photon.komoot.io/",
+   "note": "Used only to place a street, lane, building or neighbourhood on the modern map. Not a source for who lived where."
   }
  ]
 }

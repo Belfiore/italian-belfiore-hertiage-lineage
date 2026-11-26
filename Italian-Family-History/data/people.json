@@ -41,7 +41,8 @@
       ],
       "note": "Estimated from his age at marriage before the birth act was found"
      }
-    ]
+    ],
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": {
     "date": "1884-01-27",
@@ -52,7 +53,8 @@
      "marriage-1884"
     ],
     "confidence": "confirmed",
-    "note": "Recorded as \"il fu Giuseppe\" (the late Giuseppe) in January 1884."
+    "note": "Recorded as \"il fu Giuseppe\" (the late Giuseppe) in January 1884.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "residences": [
     {
@@ -62,7 +64,8 @@
      "sourceIds": [
       "marriage-1884"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "occupations": [
@@ -75,7 +78,8 @@
       "marriage-circelli-mansolino-1850",
       "birth-maria-donata-1863"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "immigration": null,
@@ -221,7 +225,8 @@
       "marriage-circelli-mansolino-1850"
      ],
      "confidence": "probable",
-     "note": "Named as husband and wife through their daughter's marriage act."
+     "note": "Named as husband and wife through their daughter's marriage act.",
+     "placeId": "town-hall-san-bartolomeo"
     }
    ],
    "isDirectLine": true,
@@ -312,7 +317,8 @@
      "marriage-1884"
     ],
     "confidence": "confirmed",
-    "note": "Recorded as \"la fu\" (the late) in January 1884."
+    "note": "Recorded as \"la fu\" (the late) in January 1884.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "residences": [
     {
@@ -322,7 +328,8 @@
      "sourceIds": [
       "marriage-1884"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "occupations": [],
@@ -472,7 +479,8 @@
       "marriage-circelli-mansolino-1850"
      ],
      "confidence": "probable",
-     "note": "Named as husband and wife through their daughter's marriage act."
+     "note": "Named as husband and wife through their daughter's marriage act.",
+     "placeId": "town-hall-san-bartolomeo"
     }
    ],
    "isDirectLine": true,
@@ -561,7 +569,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: Aged 23 on January 27, 1884, so born between January 1860 and January 1861."
      }
-    ]
+    ],
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": {
     "date": "1938-07-11",
@@ -572,7 +581,8 @@
      "ny-death-index-1938"
     ],
     "confidence": "probable",
-    "note": "If he is the Anthony Belfiore in the New York death index (certificate 42184). Not yet confirmed."
+    "note": "If he is the Anthony Belfiore in the New York death index (certificate 42184). Not yet confirmed.",
+    "placeId": "new-rochelle"
    },
    "residences": [
     {
@@ -582,7 +592,8 @@
      "sourceIds": [
       "marriage-1884"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     },
     {
      "place": "New Rochelle, New York",
@@ -593,7 +604,8 @@
       "standard-star-obit",
       "ny-death-index-1938"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -602,7 +614,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -620,7 +633,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -629,7 +643,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -638,7 +653,8 @@
      "sourceIds": [
       "ww1-samuel"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -647,7 +663,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -656,7 +673,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "New Rochelle, New York",
@@ -665,7 +683,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "55-potter-avenue"
     }
    ],
    "occupations": [
@@ -677,7 +696,8 @@
      "sourceIds": [
       "marriage-1884"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     },
     {
      "title": "Day laborer",
@@ -687,7 +707,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     },
     {
      "title": "Saloon keeper",
@@ -697,7 +718,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     },
     {
      "title": "Mason",
@@ -707,7 +729,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": {
@@ -1163,7 +1186,8 @@
       "marriage-1884"
      ],
      "confidence": "confirmed",
-     "note": "Act no. 16. Banns read January 13 and 20."
+     "note": "Act no. 16. Banns read January 13 and 20.",
+     "placeId": "town-hall-san-bartolomeo"
     }
    ],
    "isDirectLine": true,
@@ -1238,7 +1262,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: Aged 21 in January 1884 and 34 in December 1896, which both point to 1862."
      }
-    ]
+    ],
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": {
     "date": "1937-09-26",
@@ -1249,7 +1274,8 @@
      "nysdi-1937"
     ],
     "confidence": "probable",
-    "note": "New York State death index, \"Belfiore, Marie D.\", certificate 56678. Identified by name, initial and town; the certificate has not been read."
+    "note": "New York State death index, \"Belfiore, Marie D.\", certificate 56678. Identified by name, initial and town; the certificate has not been read.",
+    "placeId": "new-rochelle"
    },
    "residences": [
     {
@@ -1259,7 +1285,8 @@
      "sourceIds": [
       "marriage-1884"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     },
     {
      "place": "New Rochelle, New York",
@@ -1269,7 +1296,8 @@
       "frank-index",
       "standard-star-obit"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -1278,7 +1306,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -1296,7 +1325,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -1305,7 +1335,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -1314,7 +1345,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -1323,7 +1355,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "New Rochelle, New York",
@@ -1332,7 +1365,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "55-potter-avenue"
     }
    ],
    "occupations": [
@@ -1344,7 +1378,8 @@
      "sourceIds": [
       "marriage-1884"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "immigration": {
@@ -1674,7 +1709,8 @@
       "marriage-1884"
      ],
      "confidence": "confirmed",
-     "note": "Act no. 16. Banns read January 13 and 20."
+     "note": "Act no. 16. Banns read January 13 and 20.",
+     "placeId": "town-hall-san-bartolomeo"
     }
    ],
    "parentLinkConfidence": "confirmed",
@@ -1705,7 +1741,8 @@
      "santanna-1911"
     ],
     "confidence": "probable",
-    "note": "The Antenati name index gives 1 January 1869; he was 24 at his marriage in March 1893, 28 in March 1898 and 42 in November 1911."
+    "note": "The Antenati name index gives 1 January 1869; he was 24 at his marriage in March 1893, 28 in March 1898 and 42 in November 1911.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [
@@ -1716,7 +1753,8 @@
      "sourceIds": [
       "alsatia-1898"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     },
     {
      "place": "New Rochelle, New York",
@@ -1725,7 +1763,8 @@
      "sourceIds": [
       "santanna-1911"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "new-rochelle"
     }
    ],
    "occupations": [],
@@ -1877,7 +1916,8 @@
      "alsatia-1898"
     ],
     "confidence": "confirmed",
-    "note": "Aged 25 in March 1898."
+    "note": "Aged 25 in March 1898.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [
@@ -1888,7 +1928,8 @@
      "sourceIds": [
       "alsatia-1898"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "occupations": [],
@@ -2016,7 +2057,7 @@
     "dateQualifier": "exact",
     "display": "Dec 15, 1884",
     "place": "San Bartolomeo in Galdo, Benevento, Italy",
-    "placeId": "san-bartolomeo-in-galdo",
+    "placeId": "vico-passaro-san-bartolomeo",
     "sourceIds": [
      "birth-michele-1884"
     ],
@@ -2050,7 +2091,8 @@
     "sourceIds": [
      "death-michael-1952"
     ],
-    "confidence": "confirmed"
+    "confidence": "confirmed",
+    "placeId": "new-rochelle-hospital"
    },
    "residences": [
     {
@@ -2060,7 +2102,8 @@
      "sourceIds": [
       "ww1-michael"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "114-winyah-avenue"
     },
     {
      "place": "New Rochelle, NY",
@@ -2069,7 +2112,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "488-north-avenue"
     },
     {
      "place": "New Rochelle, NY",
@@ -2078,7 +2122,8 @@
      "sourceIds": [
       "ww2-michael"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "48-coligni-avenue"
     },
     {
      "place": "New Rochelle, NY",
@@ -2087,7 +2132,8 @@
      "sourceIds": [
       "death-michael-1952"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "46-mechanic-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -2096,7 +2142,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -2114,7 +2161,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -2123,7 +2171,8 @@
      "sourceIds": [
       "census-1920-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "north-avenue-new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -2132,7 +2181,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "52-brook-street"
     }
    ],
    "occupations": [
@@ -2144,7 +2194,8 @@
      "sourceIds": [
       "ww1-michael"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "8-banks-street"
     },
     {
      "title": "Painter, building trade",
@@ -2154,7 +2205,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "new-rochelle"
     },
     {
      "title": "Painter",
@@ -2164,7 +2216,8 @@
      "sourceIds": [
       "ww2-michael"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "141-chauncey-avenue"
     },
     {
      "title": "Manager, bowling alley (own business)",
@@ -2174,7 +2227,8 @@
      "sourceIds": [
       "census-1920-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     },
     {
      "title": "House painter",
@@ -2184,7 +2238,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": {
@@ -2768,7 +2823,8 @@
      "ssdi-frances",
      "census-1940"
     ],
-    "confidence": "confirmed"
+    "confidence": "confirmed",
+    "placeId": "new-york-state"
    },
    "death": {
     "date": "1967-04-05",
@@ -2778,7 +2834,8 @@
     "sourceIds": [
      "ssdi-frances"
     ],
-    "confidence": "confirmed"
+    "confidence": "confirmed",
+    "placeId": "new-rochelle"
    },
    "residences": [
     {
@@ -2788,7 +2845,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "488-north-avenue"
     },
     {
      "place": "New Rochelle, NY",
@@ -2797,7 +2855,8 @@
      "sourceIds": [
       "death-michael-1952"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "46-mechanic-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -2806,7 +2865,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "52-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -2815,7 +2875,8 @@
      "sourceIds": [
       "census-1900-towey"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "200-horton-avenue"
     },
     {
      "place": "New Rochelle, New York",
@@ -2824,7 +2885,8 @@
      "sourceIds": [
       "census-1910-towey"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "47-oak-street"
     }
    ],
    "occupations": [
@@ -2836,7 +2898,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
@@ -3103,7 +3166,8 @@
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Shown on earlier versions of the site without a source."
      }
-    ]
+    ],
+    "placeId": "new-york-state"
    },
    "death": {
     "date": "2004-09-25",
@@ -3114,7 +3178,8 @@
      "obit-index-dorothy-racine-2004",
      "numident-dorothy-racine"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "morris-township"
    },
    "residences": [
     {
@@ -3124,7 +3189,8 @@
      "sourceIds": [
       "ww1-michael"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "216-hamilton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -3133,7 +3199,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "52-brook-street"
     }
    ],
    "occupations": [
@@ -3145,7 +3212,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
@@ -3301,7 +3369,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: Aged 19 on April 3, 1940, so born between April 1920 and April 1921. Earlier versions of the site gave about 1923."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1992-02-04",
@@ -3321,7 +3390,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "488-north-avenue"
     },
     {
      "place": "New Rochelle, New York",
@@ -3330,7 +3400,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "52-brook-street"
     }
    ],
    "occupations": [],
@@ -3484,7 +3555,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: Aged 17 on April 3, 1940, so born between April 1922 and April 1923. Earlier versions of the site gave about 1928."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1994-10-19",
@@ -3515,7 +3587,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: The family places his death in Valrico, Florida. A Social Security Death Index entry for a Joseph Belfiore who died in April 1986 gives a last residence in West Babylon, New York. Whether that entry is his has not been confirmed."
      }
-    ]
+    ],
+    "placeId": "princeton"
    },
    "residences": [
     {
@@ -3525,7 +3598,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "488-north-avenue"
     },
     {
      "place": "New Rochelle, New York",
@@ -3534,7 +3608,8 @@
      "sourceIds": [
       "census-1930-michael"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "52-brook-street"
     }
    ],
    "occupations": [
@@ -3546,7 +3621,8 @@
      "sourceIds": [
       "census-1940"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
@@ -3704,7 +3780,8 @@
       "hennessy-marriage-announcement-1946"
      ],
      "confidence": "probable",
-     "note": "New York marriage index, certificate 23239, says 12 May 1946. A Standard-Star notice says 19 May and calls her Patrick J. Hennessy's daughter."
+     "note": "New York marriage index, certificate 23239, says 12 May 1946. A Standard-Star notice says 19 May and calls her Patrick J. Hennessy's daughter.",
+     "placeId": "new-rochelle"
     }
    ],
    "parentLinkConfidence": "confirmed",
@@ -3766,7 +3843,8 @@
      "hennessy-census-1940-image"
     ],
     "confidence": "probable",
-    "note": "Age 8 in 1930 and 18 in 1940. She is not in Patrick and Annie's household in 1925."
+    "note": "Age 8 in 1930 and 18 in 1940. She is not in Patrick and Annie's household in 1925.",
+    "placeId": "new-york-state"
    },
    "death": {
     "date": "2008-01-05",
@@ -3777,7 +3855,8 @@
      "obit-dorothy-2008"
     ],
     "confidence": "probable",
-    "note": "Aged 85."
+    "note": "Aged 85.",
+    "placeId": "princeton"
    },
    "residences": [],
    "occupations": [],
@@ -3904,7 +3983,8 @@
       "hennessy-marriage-announcement-1946"
      ],
      "confidence": "probable",
-     "note": "New York marriage index, certificate 23239, says 12 May 1946. A Standard-Star notice says 19 May and calls her Patrick J. Hennessy's daughter."
+     "note": "New York marriage index, certificate 23239, says 12 May 1946. A Standard-Star notice says 19 May and calls her Patrick J. Hennessy's daughter.",
+     "placeId": "new-rochelle"
     }
    ],
    "isDirectLine": true,
@@ -3956,7 +4036,8 @@
       ],
       "note": "Shown on the site before the November 2026 update."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1968-04-21",
@@ -3968,7 +4049,8 @@
      "standard-star-obit"
     ],
     "confidence": "probable",
-    "note": "His death before 1972 is confirmed by Sammy's obituary; the exact date comes from earlier research."
+    "note": "His death before 1972 is confirmed by Sammy's obituary; the exact date comes from earlier research.",
+    "placeId": "daytona-beach"
    },
    "residences": [
     {
@@ -3978,7 +4060,8 @@
      "sourceIds": [
       "golfdom-1948-02"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "daytona-beach"
     },
     {
      "place": "New Rochelle, New York",
@@ -3987,7 +4070,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4005,7 +4089,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4014,7 +4099,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4023,7 +4109,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4032,7 +4119,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "Grosse Pointe Park, Michigan",
@@ -4041,7 +4129,8 @@
      "sourceIds": [
       "ww2-frank"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "1200-grayton"
     }
    ],
    "occupations": [
@@ -4054,7 +4143,8 @@
       "golfdom-1948-02",
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "seabreeze"
     },
     {
      "title": "Worker (employer written like \"Budd Wheel\")",
@@ -4064,7 +4154,8 @@
      "sourceIds": [
       "ww2-frank"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "kercheval-conner"
     }
    ],
    "immigration": null,
@@ -4281,7 +4372,8 @@
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Shown on earlier versions of the site without a source. It conflicts with the obituary's \"native born trio\" (his mother reached New York in December 1896)."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1963-10",
@@ -4304,7 +4396,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: Dead by October 29, 1963, after a long illness. The exact date is not in this collection."
      }
-    ]
+    ],
+    "placeId": "michigan"
    },
    "residences": [
     {
@@ -4315,7 +4408,8 @@
       "standard-star-obit",
       "ccd-minutes-1963"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "grosse-pointe"
     },
     {
      "place": "Daytona Beach, Florida (winter)",
@@ -4324,7 +4418,8 @@
      "sourceIds": [
       "dbnj-1929-01-07"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "daytona-beach"
     },
     {
      "place": "New Rochelle, New York",
@@ -4333,7 +4428,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4342,7 +4438,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4351,7 +4448,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -4360,7 +4458,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "New Rochelle, New York",
@@ -4369,7 +4468,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "55-potter-avenue"
     },
     {
      "place": "Grosse Pointe Farms, Michigan",
@@ -4378,7 +4478,8 @@
      "sourceIds": [
       "ww2-joe"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "276-merriweather"
     },
     {
      "place": "Grosse Pointe Woods, Michigan",
@@ -4387,7 +4488,8 @@
      "sourceIds": [
       "census-1950-joe"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "276-grosse-pointe-woods"
     }
    ],
    "occupations": [
@@ -4399,7 +4501,8 @@
      "sourceIds": [
       "dbnj-1929-01-07"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "daytona-highlands"
     },
     {
      "title": "Head golf professional and golf shop operator",
@@ -4410,7 +4513,8 @@
       "golfing-aids-1940",
       "ccd-minutes-1963"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "country-club-of-detroit"
     }
    ],
    "immigration": null,
@@ -4859,7 +4963,8 @@
      "sourceIds": [
       "ccd-minutes-1963"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "grosse-pointe"
     },
     {
      "place": "Grosse Pointe Woods, Michigan",
@@ -4868,7 +4973,8 @@
      "sourceIds": [
       "census-1950-joe"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "276-grosse-pointe-woods"
     }
    ],
    "occupations": [
@@ -4880,7 +4986,8 @@
      "sourceIds": [
       "ccd-minutes-1963"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "country-club-of-detroit"
     }
    ],
    "immigration": null,
@@ -5021,7 +5128,8 @@
      "standard-star-obit"
     ],
     "confidence": "confirmed",
-    "note": "Daytona papers gave his age as 62 in May 1960 and 73 in February 1972, which would put his birth around 1898."
+    "note": "Daytona papers gave his age as 62 in May 1960 and 73 in February 1972, which would put his birth around 1898.",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1972-02-16",
@@ -5032,7 +5140,8 @@
      "dben-1972-02-16",
      "dben-1972-02-17"
     ],
-    "confidence": "confirmed"
+    "confidence": "confirmed",
+    "placeId": "halifax-hospital"
    },
    "residences": [
     {
@@ -5043,7 +5152,8 @@
       "standard-star-obit",
       "kahn-1960"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "new-rochelle"
     },
     {
      "place": "Duluth, Minnesota (summers)",
@@ -5053,7 +5163,8 @@
       "engagement-1930",
       "ouse-russell"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "duluth"
     },
     {
      "place": "Daytona Beach, Florida",
@@ -5063,7 +5174,8 @@
       "dbmj-1948-11-20",
       "research-notes"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "217-jessamine-boulevard"
     },
     {
      "place": "Daytona Beach, Florida",
@@ -5072,7 +5184,8 @@
      "sourceIds": [
       "dben-1972-02-16"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "11-south-hollywood-avenue"
     },
     {
      "place": "New Rochelle, New York",
@@ -5081,7 +5194,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -5099,7 +5213,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -5108,7 +5223,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -5117,7 +5233,8 @@
      "sourceIds": [
       "ww1-samuel"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -5126,7 +5243,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "Daytona Beach, Florida",
@@ -5135,7 +5253,8 @@
      "sourceIds": [
       "ww2-samuel"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "1517-south-atlantic-avenue"
     }
    ],
    "occupations": [
@@ -5148,7 +5267,8 @@
       "kahn-1960",
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "wykagyl-country-club"
     },
     {
      "title": "Head professional",
@@ -5159,7 +5279,8 @@
       "kahn-1965",
       "dben-1972-02-16"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "white-sulphur-springs"
     },
     {
      "title": "Professional",
@@ -5170,7 +5291,8 @@
       "dbnj-1929-01-07",
       "engagement-1930"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "daytona-highlands"
     },
     {
      "title": "Professional",
@@ -5181,7 +5303,8 @@
       "ouse-russell",
       "engagement-1930"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "ridgeview-country-club"
     },
     {
      "title": "Head professional",
@@ -5192,7 +5315,8 @@
       "kahn-1960",
       "dben-1972-02-16"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "daytona-beach-country-club"
     },
     {
      "title": "Pro-manager",
@@ -5203,7 +5327,8 @@
       "golfdom-1948-02",
       "dben-1972-02-16"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "seabreeze"
     },
     {
      "title": "Owner, the 19th Hole bar",
@@ -5214,7 +5339,8 @@
       "research-notes",
       "kahn-1965"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "324-seabreeze-boulevard"
     },
     {
      "title": "Golf instructor (under Alex Smith)",
@@ -5224,7 +5350,8 @@
      "sourceIds": [
       "ww1-samuel"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "wykagyl-country-club"
     },
     {
      "title": "Golf professional",
@@ -5234,7 +5361,8 @@
      "sourceIds": [
       "ww2-samuel"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "shenecossett"
     }
    ],
    "immigration": null,
@@ -5591,7 +5719,8 @@
       "engagement-1930"
      ],
      "confidence": "probable",
-     "note": "Engagement notice of May 1930. The marriage ended around 1939."
+     "note": "Engagement notice of May 1930. The marriage ended around 1939.",
+     "placeId": "251-west-maple-avenue"
     },
     {
      "id": "louisa-belfore",
@@ -5649,7 +5778,8 @@
      "sourceIds": [
       "engagement-1930"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "251-west-maple-avenue"
     },
     {
      "place": "Birmingham, Michigan",
@@ -5658,7 +5788,8 @@
      "sourceIds": [
       "ww2-samuel"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "251-west-maple-avenue"
     }
    ],
    "occupations": [],
@@ -5764,7 +5895,8 @@
       "engagement-1930"
      ],
      "confidence": "probable",
-     "note": "Engagement notice of May 1930. The marriage ended around 1939."
+     "note": "Engagement notice of May 1930. The marriage ended around 1939.",
+     "placeId": "251-west-maple-avenue"
     }
    ],
    "isDirectLine": false,
@@ -5802,7 +5934,8 @@
       "dbmj-1948-11-20",
       "research-notes"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "217-jessamine-boulevard"
     }
    ],
    "occupations": [],
@@ -5941,7 +6074,8 @@
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Birth year shown on earlier versions of the site without a source."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1994-03",
@@ -5951,7 +6085,8 @@
     "sourceIds": [
      "ssdi-numident-family"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "residences": [
     {
@@ -5961,7 +6096,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "wykagyl-gardens"
     },
     {
      "place": "New Rochelle, New York",
@@ -5979,7 +6115,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -5988,7 +6125,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -5997,7 +6135,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6006,7 +6145,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "New Rochelle, New York",
@@ -6015,7 +6155,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "55-potter-avenue"
     },
     {
      "place": "New Rochelle, New York",
@@ -6024,7 +6165,8 @@
      "sourceIds": [
       "ww2-joe"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "wykagyl-gardens"
     }
    ],
    "occupations": [
@@ -6036,7 +6178,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
@@ -6181,7 +6324,8 @@
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Birth year shown on earlier versions of the site without a source."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "1989-05-21",
@@ -6191,7 +6335,8 @@
     "sourceIds": [
      "ssdi-numident-family"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "residences": [
     {
@@ -6201,7 +6346,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "wykagyl-gardens"
     },
     {
      "place": "New Rochelle, New York",
@@ -6210,7 +6356,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6219,7 +6366,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6228,7 +6376,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6237,7 +6386,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "New Rochelle, New York",
@@ -6246,7 +6396,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "55-potter-avenue"
     }
    ],
    "occupations": [
@@ -6258,7 +6409,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
@@ -6412,7 +6564,8 @@
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Birth year shown on earlier versions of the site without a source."
      }
-    ]
+    ],
+    "placeId": "new-rochelle"
    },
    "death": null,
    "residences": [
@@ -6423,7 +6576,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "davenport-avenue"
     },
     {
      "place": "New Rochelle, New York",
@@ -6432,7 +6586,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6441,7 +6596,8 @@
      "sourceIds": [
       "census-1915"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6450,7 +6606,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6459,7 +6616,8 @@
      "sourceIds": [
       "census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "39-albemarle"
     },
     {
      "place": "New Rochelle, New York",
@@ -6468,7 +6626,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "55-potter-avenue"
     }
    ],
    "occupations": [
@@ -6480,7 +6639,8 @@
      "sourceIds": [
       "census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
@@ -6601,7 +6761,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "davenport-avenue"
     }
    ],
    "occupations": [],
@@ -6746,7 +6907,8 @@
       ],
       "note": "Shown on the site before the November 2026 update: The 1900 census gives September 1887; she was 9 on the 1896 passenger list and 18 in 1905."
      }
-    ]
+    ],
+    "placeId": "italy"
    },
    "death": {
     "date": "1972-04-22",
@@ -6757,7 +6919,8 @@
      "ct-death-index-paternostro",
      "obit-index-filomena-paternostro-1972"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "hartford"
    },
    "residences": [
     {
@@ -6767,7 +6930,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "hartford"
     },
     {
      "place": "New Rochelle, New York",
@@ -6776,7 +6940,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -6794,7 +6959,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "Bridgeport, Connecticut",
@@ -6803,7 +6969,8 @@
      "sourceIds": [
       "census-1910-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "35-hallett-street"
     },
     {
      "place": "Hartford, Connecticut",
@@ -6812,7 +6979,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -6822,7 +6990,8 @@
       "census-1930-paternostro",
       "census-1940-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [],
@@ -7023,7 +7192,8 @@
       "marriage-index-1906"
      ],
      "confidence": "probable",
-     "note": "State marriage index, certificate 1348 (both entries)."
+     "note": "State marriage index, certificate 1348 (both entries).",
+     "placeId": "new-rochelle"
     }
    ],
    "parentLinkConfidence": "confirmed",
@@ -7062,7 +7232,8 @@
      "census-1930-paternostro"
     ],
     "confidence": "probable",
-    "note": "Aged 28 in 1910, 36 in 1920, 48 in 1930 and 56 in 1940."
+    "note": "Aged 28 in 1910, 36 in 1920, 48 in 1930 and 56 in 1940.",
+    "placeId": "italy"
    },
    "death": {
     "date": "1964-03-11",
@@ -7073,7 +7244,8 @@
      "ct-death-index-paternostro",
      "numident-paternostro"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "hartford"
    },
    "residences": [
     {
@@ -7083,7 +7255,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "hartford"
     },
     {
      "place": "Bridgeport, Connecticut",
@@ -7092,7 +7265,8 @@
      "sourceIds": [
       "census-1910-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "35-hallett-street"
     },
     {
      "place": "Hartford, Connecticut",
@@ -7101,7 +7275,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -7111,7 +7286,8 @@
       "census-1930-paternostro",
       "census-1940-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [
@@ -7123,7 +7299,8 @@
      "sourceIds": [
       "census-1910-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "bridgeport"
     },
     {
      "title": "Hod carrier",
@@ -7133,7 +7310,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "hartford"
     },
     {
      "title": "Building construction foreman",
@@ -7144,7 +7322,8 @@
       "census-1930-paternostro",
       "census-1940-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "hartford"
     }
    ],
    "immigration": null,
@@ -7219,7 +7398,8 @@
       "marriage-index-1906"
      ],
      "confidence": "probable",
-     "note": "State marriage index, certificate 1348 (both entries)."
+     "note": "State marriage index, certificate 1348 (both entries).",
+     "placeId": "new-rochelle"
     }
    ],
    "isDirectLine": false,
@@ -7294,7 +7474,8 @@
       "sourceIds": [],
       "note": "Shown on the site before the November 2026 update: Birth year shown on earlier versions of the site without a source."
      }
-    ]
+    ],
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [
@@ -7305,7 +7486,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "hollywood-florida"
     },
     {
      "place": "Millburn, New Jersey",
@@ -7314,7 +7496,8 @@
      "sourceIds": [
       "donofrio-post-2010"
      ],
-     "confidence": "family tradition"
+     "confidence": "family tradition",
+     "placeId": "millburn"
     },
     {
      "place": "New Jersey",
@@ -7324,7 +7507,8 @@
       "census-1920-donofrio",
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-jersey"
     },
     {
      "place": "New Rochelle, New York",
@@ -7333,7 +7517,8 @@
      "sourceIds": [
       "census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "13-lawton-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -7351,7 +7536,8 @@
      "sourceIds": [
       "census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "41-brook-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -7360,7 +7546,8 @@
      "sourceIds": [
       "census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "54-brook-street"
     },
     {
      "place": "Yonkers, New York",
@@ -7369,7 +7556,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -7378,7 +7566,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     },
     {
      "place": "Yonkers, New York",
@@ -7387,7 +7576,8 @@
      "sourceIds": [
       "census-1940-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "beech-street-yonkers"
     }
    ],
    "occupations": [],
@@ -7546,7 +7736,8 @@
       "standard-star-obit"
      ],
      "confidence": "probable",
-     "note": "State marriage index, certificate 44565 (both entries)."
+     "note": "State marriage index, certificate 44565 (both entries).",
+     "placeId": "new-rochelle"
     }
    ],
    "parentLinkConfidence": "confirmed",
@@ -7586,7 +7777,8 @@
      "census-1940-donofrio"
     ],
     "confidence": "probable",
-    "note": "Aged 29 in January 1920, 40 in 1930 and 48 in 1940."
+    "note": "Aged 29 in January 1920, 40 in 1930 and 48 in 1940.",
+    "placeId": "italy"
    },
    "death": null,
    "residences": [
@@ -7597,7 +7789,8 @@
      "sourceIds": [
       "standard-star-obit"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "hollywood-florida"
     },
     {
      "place": "Yonkers, New York",
@@ -7606,7 +7799,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -7615,7 +7809,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     },
     {
      "place": "Yonkers, New York",
@@ -7624,7 +7819,8 @@
      "sourceIds": [
       "census-1940-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "beech-street-yonkers"
     }
    ],
    "occupations": [
@@ -7636,7 +7832,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "yonkers"
     },
     {
      "title": "Nurseryman, own business",
@@ -7646,7 +7843,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "yonkers"
     },
     {
      "title": "Foreman",
@@ -7656,7 +7854,8 @@
      "sourceIds": [
       "census-1940-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "yonkers"
     }
    ],
    "immigration": null,
@@ -7730,7 +7929,8 @@
       "standard-star-obit"
      ],
      "confidence": "probable",
-     "note": "State marriage index, certificate 44565 (both entries)."
+     "note": "State marriage index, certificate 44565 (both entries).",
+     "placeId": "new-rochelle"
     }
    ],
    "isDirectLine": false,
@@ -7921,7 +8121,8 @@
     "sourceIds": [
      "gp-news-judith"
     ],
-    "confidence": "confirmed"
+    "confidence": "confirmed",
+    "placeId": "grosse-pointe-area"
    },
    "residences": [],
    "occupations": [],
@@ -8106,7 +8307,8 @@
       ],
       "note": "Shown on the site before the November 2026 update."
      }
-    ]
+    ],
+    "placeId": "duluth"
    },
    "death": {
     "date": "2022-07-07",
@@ -8126,7 +8328,8 @@
       ],
       "note": "Shown on the site before the November 2026 update."
      }
-    ]
+    ],
+    "placeId": "atlantis"
    },
    "residences": [
     {
@@ -8137,7 +8340,8 @@
       "standard-star-obit",
       "dben-1972-02-17"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "birmingham-michigan"
     }
    ],
    "occupations": [
@@ -8339,7 +8543,8 @@
      "dbmj-1948-11-20"
     ],
     "confidence": "probable",
-    "note": "He turned four on November 20, 1948. Earlier versions of the site gave about 1935."
+    "note": "He turned four on November 20, 1948. Earlier versions of the site gave about 1935.",
+    "placeId": "daytona-beach"
    },
    "death": {
     "date": "2024",
@@ -8350,7 +8555,8 @@
      "volusia-2025"
     ],
     "confidence": "probable",
-    "note": "Inferred from a January 2025 property transfer to his wife's trust."
+    "note": "Inferred from a January 2025 property transfer to his wife's trust.",
+    "placeId": "ormond-beach"
    },
    "residences": [
     {
@@ -8361,7 +8567,8 @@
       "dbmj-1948-11-20",
       "dben-1972-02-17"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "daytona-beach"
     },
     {
      "place": "Ormond Beach, Florida",
@@ -8370,7 +8577,8 @@
      "sourceIds": [
       "volusia-2025"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "ormond-beach"
     }
    ],
    "occupations": [],
@@ -9635,7 +9843,8 @@
      "processetti-circelli-mansolino-1850"
     ],
     "confidence": "confirmed",
-    "note": "Death act 218 of 1839, registered 9 November: he died the day before, aged 46."
+    "note": "Death act 218 of 1839, registered 9 November: he died the day before, aged 46.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "residences": [
     {
@@ -9645,7 +9854,8 @@
      "sourceIds": [
       "birth-giuseppe-circelli-1827"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "occupations": [
@@ -9657,7 +9867,8 @@
      "sourceIds": [
       "birth-giuseppe-circelli-1827"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "immigration": null,
@@ -9804,7 +10015,8 @@
      "processetti-circelli-mansolino-1850"
     ],
     "confidence": "confirmed",
-    "note": "Death act 168 of 1843: died aged 55, a widow."
+    "note": "Death act 168 of 1843: died aged 55, a widow.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "residences": [],
    "occupations": [
@@ -9816,7 +10028,8 @@
      "sourceIds": [
       "death-vincenza-minichillo-1843"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "immigration": null,
@@ -9921,7 +10134,8 @@
      "matrimoni-1855-matteo-circelli"
     ],
     "confidence": "probable",
-    "note": "Aged 21 in January 1855."
+    "note": "Aged 21 in January 1855.",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [],
@@ -9934,7 +10148,8 @@
      "sourceIds": [
       "matrimoni-1855-matteo-circelli"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "immigration": null,
@@ -10037,7 +10252,8 @@
     "sourceIds": [
      "nati-1856-circelli"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [],
@@ -10125,7 +10341,8 @@
      "sourceIds": [
       "birth-michele-1884"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "immigration": null,
@@ -10204,7 +10421,8 @@
     "sourceIds": [
      "birth-circelli-twins-1860"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [],
@@ -10264,7 +10482,8 @@
     "sourceIds": [
      "birth-circelli-twins-1860"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [],
@@ -10319,7 +10538,8 @@
     "sourceIds": [
      "nati-1856-circelli"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "san-bartolomeo-in-galdo"
    },
    "death": null,
    "residences": [],
@@ -10433,7 +10653,8 @@
     "sourceIds": [
      "ssdi-numident-family"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "yonkers"
    },
    "death": {
     "date": "1991-01-27",
@@ -10453,7 +10674,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -10462,7 +10684,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     }
    ],
    "occupations": [
@@ -10474,7 +10697,8 @@
      "sourceIds": [
       "census-1940-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "yonkers"
     }
    ],
    "immigration": null,
@@ -10527,7 +10751,8 @@
     "sourceIds": [
      "ssdi-numident-family"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "2002-03-14",
@@ -10547,7 +10772,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -10556,7 +10782,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     }
    ],
    "occupations": [],
@@ -10635,7 +10862,8 @@
      "census-1940-donofrio"
     ],
     "confidence": "probable",
-    "note": "Aged 6 in January 1920, 17 in 1930 and 26 in 1940."
+    "note": "Aged 6 in January 1920, 17 in 1930 and 26 in 1940.",
+    "placeId": "new-jersey"
    },
    "death": null,
    "residences": [
@@ -10646,7 +10874,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -10655,7 +10884,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     }
    ],
    "occupations": [],
@@ -10711,7 +10941,8 @@
      "census-1930-donofrio"
     ],
     "confidence": "probable",
-    "note": "Aged 4 in January 1920 and 15 in 1930."
+    "note": "Aged 4 in January 1920 and 15 in 1930.",
+    "placeId": "new-jersey"
    },
    "death": null,
    "residences": [
@@ -10722,7 +10953,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -10731,7 +10963,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     }
    ],
    "occupations": [],
@@ -10787,7 +11020,8 @@
      "census-1930-donofrio"
     ],
     "confidence": "probable",
-    "note": "Aged 3 in January 1920 and 13 in 1930."
+    "note": "Aged 3 in January 1920 and 13 in 1930.",
+    "placeId": "new-york-state"
    },
    "death": null,
    "residences": [
@@ -10798,7 +11032,8 @@
      "sourceIds": [
       "census-1920-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "23-lockwood-avenue"
     },
     {
      "place": "Yonkers, New York",
@@ -10807,7 +11042,8 @@
      "sourceIds": [
       "census-1930-donofrio"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "91-buckingham-road"
     }
    ],
    "occupations": [],
@@ -10876,7 +11112,8 @@
     "sourceIds": [
      "obit-dolores-saggio-2021"
     ],
-    "confidence": "confirmed"
+    "confidence": "confirmed",
+    "placeId": "white-plains"
    },
    "death": {
     "date": "2021-11-15",
@@ -10945,7 +11182,8 @@
     "sourceIds": [
      "obit-patricia-hendrie-2019"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "2019-05-01",
@@ -10955,7 +11193,8 @@
     "sourceIds": [
      "obit-patricia-hendrie-2019"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "residences": [],
    "occupations": [],
@@ -11117,7 +11356,8 @@
      "census-1930-paternostro"
     ],
     "confidence": "probable",
-    "note": "Aged 3 in April 1910 and 13 in January 1920."
+    "note": "Aged 3 in April 1910 and 13 in January 1920.",
+    "placeId": "connecticut"
    },
    "death": null,
    "residences": [
@@ -11128,7 +11368,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -11137,7 +11378,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [],
@@ -11204,7 +11446,8 @@
      "numident-paternostro"
     ],
     "confidence": "probable",
-    "note": "Social Security records give 29 September 1909. He was an infant in April 1910, 11 in January 1920 and 20 in April 1930."
+    "note": "Social Security records give 29 September 1909. He was an infant in April 1910, 11 in January 1920 and 20 in April 1930.",
+    "placeId": "connecticut"
    },
    "death": {
     "date": "1995-03-09",
@@ -11215,7 +11458,8 @@
      "obit-index-dominic-paternostro-1995",
      "numident-paternostro"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "wethersfield"
    },
    "residences": [
     {
@@ -11225,7 +11469,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -11234,7 +11479,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [
@@ -11246,7 +11492,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "hartford"
     }
    ],
    "immigration": null,
@@ -11318,7 +11565,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -11327,7 +11575,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [
@@ -11339,7 +11588,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "hartford"
     },
     {
      "title": "Office clerk",
@@ -11349,7 +11599,8 @@
      "sourceIds": [
       "census-1940-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "hartford"
     }
    ],
    "immigration": null,
@@ -11413,7 +11664,8 @@
      "census-1930-paternostro"
     ],
     "confidence": "probable",
-    "note": "Aged 7 in 1920 and 16 in 1930."
+    "note": "Aged 7 in 1920 and 16 in 1930.",
+    "placeId": "connecticut"
    },
    "death": null,
    "residences": [
@@ -11424,7 +11676,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -11433,7 +11686,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [],
@@ -11489,7 +11743,8 @@
      "census-1930-paternostro"
     ],
     "confidence": "probable",
-    "note": "Aged 4 in 1920 and 14 in 1930."
+    "note": "Aged 4 in 1920 and 14 in 1930.",
+    "placeId": "connecticut"
    },
    "death": {
     "date": "1986-12-10",
@@ -11500,7 +11755,8 @@
      "obit-index-carl-paternostro-1986",
      "ct-death-index-paternostro"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "newington"
    },
    "residences": [
     {
@@ -11510,7 +11766,8 @@
      "sourceIds": [
       "census-1920-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "goodman-place-hartford"
     },
     {
      "place": "Hartford, Connecticut",
@@ -11519,7 +11776,8 @@
      "sourceIds": [
       "census-1930-paternostro"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "397-woodland-street"
     }
    ],
    "occupations": [],
@@ -11637,7 +11895,8 @@
     "sourceIds": [
      "obit-joseph-racine-2024"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "port-chester"
    },
    "death": {
     "date": "2024-11-16",
@@ -11647,7 +11906,8 @@
     "sourceIds": [
      "obit-joseph-racine-2024"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-jersey"
    },
    "residences": [],
    "occupations": [],
@@ -13708,7 +13968,8 @@
       ],
       "note": "A draft card for a Patrick Joseph Hennessy of Huguenot Street. The date does not match the baptism. The 1947 death index age of 70 agrees with this card."
      }
-    ]
+    ],
+    "placeId": "county-kilkenny"
    },
    "death": {
     "date": "1947-06-27",
@@ -13719,7 +13980,8 @@
      "nys-death-index-1947-hennessy"
     ],
     "confidence": "probable",
-    "note": "New York State death index, certificate 38983, aged 70. The certificate itself has not been read."
+    "note": "New York State death index, certificate 38983, aged 70. The certificate itself has not been read.",
+    "placeId": "new-rochelle"
    },
    "residences": [
     {
@@ -13729,7 +13991,8 @@
      "sourceIds": [
       "hennessy-census-1920"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "101-huguenot-street"
     },
     {
      "place": "New Rochelle, New York",
@@ -13738,7 +14001,8 @@
      "sourceIds": [
       "hennessy-census-1925"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "260-sidney-williams"
     },
     {
      "place": "Premium Point, New Rochelle, New York",
@@ -13748,7 +14012,8 @@
       "hennessy-census-1930",
       "hennessy-census-1930-image"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "3-fair-oaks"
     },
     {
      "place": "Premium Point, New Rochelle, New York",
@@ -13758,7 +14023,8 @@
       "hennessy-census-1940",
       "hennessy-census-1940-image"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "premium-point"
     }
    ],
    "occupations": [
@@ -13770,7 +14036,8 @@
      "sourceIds": [
       "hennessy-census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "premium-point"
     },
     {
      "title": "Chauffeur for a private family",
@@ -13782,7 +14049,8 @@
       "hennessy-census-1930",
       "hennessy-census-1940"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": {
@@ -13907,7 +14175,8 @@
       "hennessy-census-1905"
      ],
      "confidence": "probable",
-     "note": "First wife. Surname unknown. She had died by 1910."
+     "note": "First wife. Surname unknown. She had died by 1910.",
+     "placeId": "new-rochelle"
     },
     {
      "id": "annie-hussey-hennessy",
@@ -13919,7 +14188,8 @@
       "hennessy-marriage-1914"
      ],
      "confidence": "probable",
-     "note": "His second marriage. The index gives Westchester and does not name a church."
+     "note": "His second marriage. The index gives Westchester and does not name a church.",
+     "placeId": "westchester-county"
     }
    ],
    "parentLinkConfidence": "probable",
@@ -13981,7 +14251,8 @@
      "hennessy-marriage-1914"
     ],
     "confidence": "probable",
-    "note": "The 1900 census gives a birth year of 1886. She was 27 when she married in 1914, so about 1886 or 1887."
+    "note": "The 1900 census gives a birth year of 1886. She was 27 when she married in 1914, so about 1886 or 1887.",
+    "placeId": "new-york-state"
    },
    "death": null,
    "residences": [
@@ -13992,7 +14263,8 @@
      "sourceIds": [
       "hussey-census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "dean-street-mamaroneck"
     },
     {
      "place": "New Rochelle, New York",
@@ -14001,7 +14273,8 @@
      "sourceIds": [
       "hussey-census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "cleveland-avenue-new-rochelle"
     },
     {
      "place": "Premium Point, New Rochelle, New York",
@@ -14010,7 +14283,8 @@
      "sourceIds": [
       "hennessy-census-1930"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "3-fair-oaks"
     },
     {
      "place": "Premium Point, New Rochelle, New York",
@@ -14019,7 +14293,8 @@
      "sourceIds": [
       "hennessy-census-1940"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "premium-point"
     }
    ],
    "occupations": [
@@ -14031,7 +14306,8 @@
      "sourceIds": [
       "hussey-census-1910"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "cleveland-avenue-new-rochelle"
     }
    ],
    "immigration": null,
@@ -14094,7 +14370,8 @@
       "hennessy-marriage-1914"
      ],
      "confidence": "probable",
-     "note": "The index gives Westchester and does not name a church."
+     "note": "The index gives Westchester and does not name a church.",
+     "placeId": "westchester-county"
     }
    ],
    "parentLinkConfidence": "probable",
@@ -14176,7 +14453,8 @@
     "sourceIds": [
      "obit-francis-hennessy-2013"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "2013-12-30",
@@ -14186,7 +14464,8 @@
     "sourceIds": [
      "obit-francis-hennessy-2013"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "residences": [],
    "occupations": [],
@@ -14403,7 +14682,8 @@
     "sourceIds": [
      "obit-patricia-dillon-2021"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "2021-06-20",
@@ -14413,7 +14693,8 @@
     "sourceIds": [
      "obit-patricia-dillon-2021"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "monroe-new-york"
    },
    "residences": [],
    "occupations": [],
@@ -14542,7 +14823,8 @@
     "sourceIds": [
      "obit-anne-latino-2024"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "2024-05-10",
@@ -14552,7 +14834,8 @@
     "sourceIds": [
      "obit-anne-latino-2024"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "residences": [],
    "occupations": [],
@@ -15588,7 +15871,8 @@
       "hennessy-baptism-1874"
      ],
      "confidence": "probable",
-     "note": null
+     "note": null,
+     "placeId": "conahy"
     }
    ],
    "parentLinkConfidence": "probable",
@@ -15645,7 +15929,8 @@
       "hennessy-baptism-1874"
      ],
      "confidence": "probable",
-     "note": null
+     "note": null,
+     "placeId": "conahy"
     }
    ],
    "parentLinkConfidence": "probable",
@@ -15709,7 +15994,8 @@
       "hennessy-census-1905"
      ],
      "confidence": "probable",
-     "note": null
+     "note": null,
+     "placeId": "new-rochelle"
     }
    ],
    "parentLinkConfidence": "probable",
@@ -15740,7 +16026,8 @@
      "hennessy-census-1915",
      "hennessy-census-1905"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-york-state"
    },
    "death": null,
    "residences": [],
@@ -15809,7 +16096,8 @@
      "hennessy-census-1915",
      "hennessy-census-1905"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-york-state"
    },
    "death": null,
    "residences": [],
@@ -15864,7 +16152,8 @@
      "hennessy-census-1915",
      "hennessy-census-1905"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-york-state"
    },
    "death": null,
    "residences": [],
@@ -15928,7 +16217,8 @@
      "hennessy-census-1915",
      "hennessy-census-1920"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-york-state"
    },
    "death": null,
    "residences": [],
@@ -16054,7 +16344,8 @@
      "sourceIds": [
       "hussey-census-1900"
      ],
-     "confidence": "probable"
+     "confidence": "probable",
+     "placeId": "dean-street-mamaroneck"
     }
    ],
    "occupations": [],
@@ -16369,7 +16660,8 @@
       "birth-anna-rita-mansolino-1829",
       "marriage-circelli-mansolino-1850"
      ],
-     "confidence": "confirmed"
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
     }
    ],
    "summary": "Anna Rita Mansolino's father, a farm worker in San Bartolomeo in Galdo, born about 1794. He is one of Seb's 4x great-grandfathers.",
