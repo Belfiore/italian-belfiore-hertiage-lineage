@@ -1553,6 +1553,216 @@
    "date": "2026-11-25",
    "url": "https://nominatim.openstreetmap.org/",
    "note": "Used only to place a historic address or a named building, town, comune, or port on the modern map. Not a source for who lived where."
+  },
+  {
+   "id": "birth-michele-1884",
+   "title": "Atto di nascita no. 440: Michele Belfiore, son of Leonardantonio Belfiore and Maria Donata Circelli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Nati 1884 (images 18 and 19)",
+   "date": "1884-12-17",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2585221",
+   "file": "images/birth-michele-1884-act440.jpg",
+   "note": "Read on the original page in November 2026. Born 15 December 1884 at 10:15 am; registered 17 December by his father, aged 23. The name and sex lines are damaged; the Antenati name index gives Michele, son of Leonardantonio and Donata Circelli."
+  },
+  {
+   "id": "birth-antonia-circelli-1851",
+   "title": "Atto di nascita no. 13: Antonia Circelli, daughter of Giuseppe Circelli and Margarita Mansolino",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile, San Bartolomeo in Galdo, Nati 1851 (Registro 1204), image 24; index image 2",
+   "date": "1851-01-18",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044511",
+   "file": "images/birth-antonia-circelli-1851-act13.jpg",
+   "note": "Read on the original page in November 2026."
+  },
+  {
+   "id": "birth-rosa-belfiore-1882",
+   "title": "Atto di nascita no. 80: Rosa Belfiore, a stillborn child of an unnamed mother",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Nati 1882, image 54",
+   "date": "1882-03-03",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2582768",
+   "note": "Not a member of the family. Shows the town office giving the surname Belfiore to a child whose mother would not be named."
+  },
+  {
+   "id": "marriage-circelli-petrilli-1893",
+   "title": "Atto di matrimonio no. 25: Salvatore Circelli and Maria Carmela Petrilli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Matrimoni 1893, image 28",
+   "date": "1893-03-27",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2575638",
+   "file": "images/marriage-circelli-petrilli-1893-act25.jpg",
+   "note": "Read on the original page in November 2026."
+  },
+  {
+   "id": "westchester-naturalization-index",
+   "title": "Westchester County Archives, Naturalization Records Index, 1808 to 1980",
+   "type": "index",
+   "repository": "Westchester County Archives, Elmsford, New York",
+   "url": "https://recordcenter.westchestergov.com/NaturalizationsSearch.aspx",
+   "note": "Searched November 2026. Index entries only; the papers themselves have not been seen."
+  },
+  {
+   "id": "westchester-surrogates-index",
+   "title": "Westchester County Archives, Surrogate's Court records index",
+   "type": "index",
+   "repository": "Westchester County Archives, Elmsford, New York",
+   "url": "https://recordcenter.westchestergov.com/SurrogatesSearch.aspx",
+   "note": "Searched November 2026. Index entry only; the will has not been seen."
+  },
+  {
+   "id": "westchester-marriage-index",
+   "title": "Westchester County Archives, Marriage Records 1908 to 1935, personal name index",
+   "type": "index",
+   "repository": "Westchester County Archives, Elmsford, New York",
+   "url": "https://recordcenter.westchestergov.com/MarriagesSearch.aspx",
+   "note": "Searched November 2026. Both partners are listed under the same certificate number."
+  },
+  {
+   "id": "dfp-1934-michigan-open",
+   "title": "\"Jake Fassezke Beats Belfore by Stroke to Win State Open\", Detroit Free Press, 11 July 1934, p. 15",
+   "type": "newspaper",
+   "repository": "Newspapers.com clipping 12822765",
+   "date": "1934-07-11",
+   "url": "https://www.newspapers.com/article/detroit-free-press-jake-fassezke-beats-b/12822765/",
+   "note": "Headline seen; the article text has not been read."
+  },
+  {
+   "id": "paternostro-index-glastonbury",
+   "title": "Social Security and Connecticut death index entries: Dominic F., Dominick and Julia Paternostro",
+   "type": "death index",
+   "repository": "sortedbyname.com transcriptions of SSA NUMIDENT, Death Master File and Connecticut death index",
+   "date": "",
+   "url": "https://sortedbyname.com/letter_p/paternostro/index_4.html",
+   "note": "Dominic F. Paternostro, 29 Sep 1909 to 9 Mar 1995, wife Estelle Chudinski, daughter Patricia (1944 to 2001); Dominick Paternostro, 1 Dec 1910 to Oct 1986, Glastonbury; Julia Emerick Paternostro, born 2 Jul 1910 in Glastonbury, daughter of Joseph Emerick and Molly Klinchot, died 3 Jan 2006 (index_8.html). Read November 2026; Social Security numbers deliberately not copied."
+  },
+  {
+   "id": "marriages-sbg-1886-1890-circelli",
+   "title": "Atti di matrimonio 1886 no. 6 and 1890 nos. 13 and 56, San Bartolomeo in Galdo: brides and grooms whose mother was an Antonia Circelli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Matrimoni 1886 (image 8) and 1890 (images 15 and 58)",
+   "date": "1886-02-15",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2575305",
+   "note": "1890 register: https://antenati.cultura.gov.it/ark:/12657/an_ua2575463. Read on the original pages in November 2026."
+  },
+  {
+   "id": "nys-marriage-index-1919-1921",
+   "title": "New York State Marriage Index, 1919, 1920 and 1921 (outside New York City)",
+   "type": "index",
+   "repository": "New York State Department of Health index books, digitized by Reclaim The Records, Internet Archive",
+   "date": "",
+   "url": "https://archive.org/details/New_York_State_Marriage_Index_1920",
+   "note": "Read page by page in November 2026 at Bel and Tow for each year (1919 images 91 and 1496; 1920 images 98 and 1635; 1921 images 90 and 1451). No Michael Belfiore and no Frances Towey."
+  },
+  {
+   "id": "birth-anna-rita-mansolino-1829",
+   "title": "Atto di nascita no. 49: Anna Rita Mansolino, daughter of Francesco Mansolino and Brigida Mansolino",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Nati 1829 (Registro 1197), images 60 and 61; index image 2, line 49",
+   "date": "1829-02-20",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044387",
+   "file": "images/birth-anna-rita-mansolino-1829-act49.jpg",
+   "note": "Read on the original page in November 2026. Born 20 February 1829 and registered the same day by her father Francesco, 35, contadino, of Strada Macchio (reading uncertain). Mother Brigida, 38; her surname is split across a line and reads Man[s]olino. Baptism notice returned by the parish priest on 21 February."
+  },
+  {
+   "id": "birth-giuseppe-circelli-1827",
+   "title": "Atto di nascita no. 48: Giuseppe Circelli, son of Donato Circelli and Vincenza Minichillo",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Nati 1827, images 59 and 60; index image 3, line 48",
+   "date": "1827-02-13",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044385",
+   "file": "images/birth-giuseppe-circelli-1827-act48.jpg",
+   "note": "Read on the original page in November 2026. Registered 13 February 1827 by his father Donato Circelli, 42, contadino, of Strada Borgo Nuovo, who said the boy was born the day before, 12 February, at the 15th hour, in a rented house. Mother Vincenza Minichillo, 42. Baptism notice returned by the parish priest on 14 February under the name Giuseppe Circelli."
+  },
+  {
+   "id": "death-donato-circelli-1839",
+   "title": "Atto di morte no. 218: Donato Circelli, husband of Vincenza Minichillo",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Morti 1839, image 111",
+   "date": "1839-11-09",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044471",
+   "note": "Read on the original page in November 2026. Registered 9 November 1839. Donato Circelli, 46, contadino, husband of Vincenza Minichillo, son of Domenico and Annamaria Catalano, died the day before (8 November 1839). A certified copy of this act is filed with his son Giuseppe's 1850 marriage papers."
+  },
+  {
+   "id": "death-vincenza-minichillo-1843",
+   "title": "Atto di morte no. 168: Vincenza Minichillo, widow of Donato Circelli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Morti 1843, image 88",
+   "date": "1843-10-18",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044478",
+   "note": "Read on the original page in November 2026. Vincenza Minichillo, 55, widow of Donato Circelli, daughter of the late Leonardo and Elisabetta delle Donne, died 18 October 1843 at the 18th hour. A certified copy is filed with her son Giuseppe's 1850 marriage papers."
+  },
+  {
+   "id": "death-domenico-circelli-1840",
+   "title": "Atto di morte no. 8: Domenico Circelli, husband of Annamaria Catalano",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Morti 1840, image 6",
+   "date": "1840-01-15",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044472",
+   "note": "Read on the original page in November 2026. Domenico Circelli, 80, contadino, husband of Annamaria Catalano, son of the late Pasquale and Elisabetta Buontempo, died 15 January 1840. He matches the Domenico named as Donato's father in Donato's death act."
+  },
+  {
+   "id": "processetti-circelli-mansolino-1850",
+   "title": "Marriage papers (processetti) for Giuseppe Circelli and Anna Rita Mansolino, 1850",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Matrimoni, processetti 1850, images 172 to 185 (the bundle has lost its cover)",
+   "date": "1850-01-17",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36030599",
+   "note": "Read in November 2026. The bundle holds certified copies of the groom's and bride's birth acts and of the deaths of Donato Circelli (1839), Domenico Circelli (1840) and Vincenza Minichillo (1843). The volume is water damaged and the bundles are out of order."
+  },
+  {
+   "id": "nys-death-index-1947-hennessy",
+   "title": "New York State death index, 1947: Patrick J. Hennessy, New Rochelle",
+   "type": "death index",
+   "repository": "New York State Department of Health death index, 1947, page image n647. Reclaim The Records, archive.org.",
+   "date": "1947-06-27",
+   "url": "https://archive.org/details/New_York_State_Death_Index_1947",
+   "file": "images/nysdi-1947-patrick-j-hennessy.jpg",
+   "note": "The highlighted line: Patrick J. Hennessy, died 27 June 1947, New Rochelle, aged 70, certificate 38983. The age fits a birth in 1876 or 1877. The certificate itself has not been read."
+  },
+  {
+   "id": "nys-death-index-hennessy-new-rochelle",
+   "title": "New York State death index, 1916 to 1956: Hennessy deaths at New Rochelle",
+   "type": "death index",
+   "repository": "Reclaim The Records transcription of the New York State death index (outside New York City), archive.org.",
+   "url": "https://archive.org/details/reclaimtherecords-new-york-state-death-index",
+   "file": "images/nysdi-1925-1956-hennessy-new-rochelle.jpg",
+   "note": "A compiled table of eleven Hennessy or Hennessey deaths at New Rochelle, 1925 to 1956, with certificate numbers. Joseph W., 22 March 1930, certificate 16632, is a lead for Patrick's son Joseph, born about 1898; the index does not give his age. Thomas F., 18 May 1954, aged 54, fits Thomas born about 1900. Kate, 8 July 1931, is not identified. This is a derivative transcription, not the original index pages."
+  },
+  {
+   "id": "nys-marriage-index-hennessy-1917-1922",
+   "title": "New York State marriage index, 1917 to 1922: Hennessy pages",
+   "type": "marriage index",
+   "repository": "New York State Department of Health marriage index (outside New York City). Reclaim The Records, archive.org: 1917 page n688, 1918 n529 to 530, 1919 n651 to 652, 1920 n709 to 710, 1921 n636 to 637, 1922 n627.",
+   "url": "https://archive.org/details/New_York_State_Marriage_Index_1922",
+   "file": "images/marriage-index-1922-kathryn-hennessy.jpg",
+   "note": "The 1917 to 1922 books were read for a marriage of a Joseph or Henry Hennessy; none was found outside New York City. New York City marriages are in a separate index, not yet searched. The highlighted 1922 line: Kathryn Hennessy married at New Rochelle on 19 September 1922, certificate 31341. She is not yet connected to Patrick's family. The groom is indexed under his own surname with the same certificate number."
+  },
+  {
+   "id": "hennessy-westchester-blog-2014",
+   "title": "Compiled blog: Westchester newspaper notices of a Thomas and Patrick Hennessy family",
+   "type": "compiled genealogy",
+   "repository": "Sharon Kilada, 'Westchester County Newspaper articles regarding Thomas and Patrick Hennessy and Family', 15 July 2014.",
+   "date": "2014-07-15",
+   "url": "http://hennessycox.blogspot.com/2014/07/westchester-county-newspaper-articles.html",
+   "note": "A compiled blog of Westchester notices that may belong to this New Rochelle family, including a Patrick Hennessy at a Premium Point coachmen's picnic in August 1905, a Mary Hennessy who died on 22 December 1905 (funeral at the Church of the Blessed Sacrament, leaving a husband and four children), and a June 1914 marriage of a Patrick Hennessy to Annie Hussey at St Patrick's, Larchmont. None of these has been read on the original newspaper page. The 1914 marriage is already known from the state index (hennessy-marriage-1914). Kept as a lead only."
+  },
+  {
+   "id": "census-geocoder-2026",
+   "title": "US Census Bureau geocoder, 26 November 2026",
+   "type": "map",
+   "repository": "United States Census Bureau",
+   "date": "2026-11-26",
+   "url": "https://geocoding.geo.census.gov/geocoder/",
+   "note": "Used only to place a historic street address on the modern map, from today's census street file. Not a source for who lived where."
+  },
+  {
+   "id": "osm-photon-2026",
+   "title": "Photon search of OpenStreetMap, 26 November 2026",
+   "type": "map",
+   "repository": "OpenStreetMap (Photon by Komoot)",
+   "date": "2026-11-26",
+   "url": "https://photon.komoot.io/",
+   "note": "Used only to place a street, lane, building or neighbourhood on the modern map. Not a source for who lived where."
   }
  ]
 }

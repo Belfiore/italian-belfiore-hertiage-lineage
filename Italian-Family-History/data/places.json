@@ -1,28 +1,25 @@
 {
  "meta": {
   "schemaVersion": 1,
-  "startedFromBranch": "claude/engine",
-  "startedFromCommit": "f03150236c26fda794306f74516e323128ef1b34",
-  "pullRequest14": "open, not merged, head f031502",
-  "updated": "2026-11-25",
-  "homeRegion": "Italy",
-  "note": "Directory of places already in this site, plus readings from record images marked new, needs review. PR 14 was still open, so this file starts from claude/engine at f031502 rather than from italian-lineage. The map is not turned on.",
+  "updated": "2026-11-26",
+  "homeRegion": "New Rochelle and New York",
+  "note": "The places on the family map, one dataset for the whole site. Started as the address directory of 25 November 2026, brought up to date with main after pull requests 19 to 21, and checked place by place on 26 November 2026. Every place has coordinates and a coordinate source. A place whose street or building could not be found today is drawn as a circle over the town the record names, and its coordinateMethod says so.",
   "counts": {
-   "places": 104,
-   "events": 243,
-   "people": 66,
+   "places": 106,
+   "events": 255,
+   "people": 69,
    "voyages": 5,
    "published": 101,
-   "newNeedsReview": 3,
-   "inItaly": 8,
-   "outsideItaly": 96,
+   "newNeedsReview": 5,
+   "inItaly": 9,
+   "outsideItaly": 97,
    "byKind": {
     "cemetery": 4,
     "church": 6,
     "comune": 1,
     "country": 1,
     "county": 2,
-    "home": 30,
+    "home": 31,
     "hospital": 2,
     "military site": 1,
     "parish": 2,
@@ -31,21 +28,30 @@
     "registration district": 1,
     "street": 7,
     "town": 24,
-    "venue": 1,
+    "venue": 2,
     "workplace": 15
    },
    "byPrecision": {
-    "address": 32,
-    "building": 26,
+    "address": 26,
+    "building": 23,
     "comune": 1,
     "country": 1,
     "county": 2,
     "parish": 2,
     "region": 5,
     "street": 8,
-    "town": 27
-   }
-  }
+    "town": 38
+   },
+   "placesWithEvents": 101,
+   "byDrawAs": {
+    "area": 9,
+    "halo": 59,
+    "pin": 38
+   },
+   "inHomeRegion": 45
+  },
+  "mapTurnedOn": "2026-11-26",
+  "recordCropsNote": "The engine looks for record crops in images/records/. This site keeps its record images in images/, so each crop is written ../file.jpg, which the browser reads as images/file.jpg."
  },
  "places": [
   {
@@ -66,7 +72,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "yes",
@@ -103,7 +109,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -140,7 +146,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -171,8 +177,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1910-paternostro-bridgeport.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro",
@@ -221,8 +227,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -257,7 +263,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -288,7 +294,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-lucia-1856.jpg"
+      "../birth-circelli-lucia-1856.jpg"
      ],
      "sourceIds": [
       "nati-1856-circelli"
@@ -313,7 +319,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -338,7 +344,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -363,7 +369,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-maria-donata-circelli-1863.jpg"
+      "../birth-maria-donata-circelli-1863.jpg"
      ],
      "sourceIds": [
       "birth-maria-donata-1863"
@@ -396,7 +402,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -429,7 +435,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hindoustan-1890-leonardo.jpg"
+      "../hindoustan-1890-leonardo.jpg"
      ],
      "sourceIds": [
       "hindoustan-1890-manifest"
@@ -461,7 +467,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -490,7 +496,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "salvatore-circelli-santanna-1911-manifest.png"
+      "../salvatore-circelli-santanna-1911-manifest.png"
      ],
      "sourceIds": [
       "santanna-1911"
@@ -529,7 +535,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -551,26 +557,26 @@
      "personIds": [
       "giuseppe-circelli"
      ],
-     "date": "~1827",
-     "dateStart": "1827",
-     "dateEnd": "1827",
-     "datePrecision": "year",
-     "approximate": true,
+     "date": "Feb 12, 1827",
+     "dateStart": "1827-02-12",
+     "dateEnd": "1827-02-12",
+     "datePrecision": "day",
+     "approximate": false,
      "factRef": "giuseppe-circelli.birth",
      "alsoFactRefs": [],
      "pages": [
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../birth-giuseppe-circelli-1827-act48.jpg"
      ],
      "sourceIds": [
-      "marriage-circelli-mansolino-1850"
+      "birth-giuseppe-circelli-1827"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 23 in January 1850; his age is given as 30 in 1860 and 36 in 1863."
+     "note": "Birth act 48 of 1827. His parents lived on Strada Borgo Nuovo."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-marianna-mita",
@@ -578,30 +584,26 @@
      "personIds": [
       "marianna-mita"
      ],
-     "date": "~1828",
-     "dateStart": "1828",
-     "dateEnd": "1828",
-     "datePrecision": "year",
-     "approximate": true,
+     "date": "Feb 20, 1829",
+     "dateStart": "1829-02-20",
+     "dateEnd": "1829-02-20",
+     "datePrecision": "day",
+     "approximate": false,
      "factRef": "marianna-mita.birth",
      "alsoFactRefs": [],
      "pages": [
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg",
-      "birth-circelli-twins-1860-a.jpg",
-      "birth-maria-donata-circelli-1863.jpg"
+      "../birth-anna-rita-mansolino-1829-act49.jpg"
      ],
      "sourceIds": [
-      "marriage-circelli-mansolino-1850",
-      "birth-circelli-twins-1860",
-      "birth-maria-donata-1863"
+      "birth-anna-rita-mansolino-1829"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
-     "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 21 in January 1850; her age is given as 28 in 1860 and 36 in 1863."
+     "summary": "Born. San Bartolomeo in Galdo",
+     "note": "Birth act 49 of 1829. Her father lived on a street read as Strada Macchio."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-matteo-circelli",
@@ -620,7 +622,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-palumbo-1855.jpg"
+      "../marriage-circelli-palumbo-1855.jpg"
      ],
      "sourceIds": [
       "matrimoni-1855-matteo-circelli"
@@ -645,8 +647,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg",
-      "birth-maria-donata-circelli-1863.jpg"
+      "../marriage-circelli-mansolino-1850.jpg",
+      "../birth-maria-donata-circelli-1863.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850",
@@ -672,7 +674,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../marriage-circelli-mansolino-1850.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850"
@@ -697,7 +699,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../marriage-circelli-mansolino-1850.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850"
@@ -722,7 +724,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-palumbo-1855.jpg"
+      "../marriage-circelli-palumbo-1855.jpg"
      ],
      "sourceIds": [
       "matrimoni-1855-matteo-circelli"
@@ -749,7 +751,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-lucia-1856.jpg"
+      "../birth-circelli-lucia-1856.jpg"
      ],
      "sourceIds": [
       "nati-1856-circelli"
@@ -776,7 +778,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-lucia-1856.jpg"
+      "../birth-circelli-lucia-1856.jpg"
      ],
      "sourceIds": [
       "nati-1856-circelli"
@@ -803,7 +805,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -830,7 +832,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -857,8 +859,8 @@
       "research.html"
      ],
      "recordCrops": [
-      "census-1900-belfiore.jpg",
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../census-1900-belfiore.jpg",
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "census-1900",
@@ -886,7 +888,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-maria-donata-circelli-1863.jpg"
+      "../birth-maria-donata-circelli-1863.jpg"
      ],
      "sourceIds": [
       "birth-maria-donata-1863"
@@ -913,8 +915,8 @@
       "research.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png",
-      "salvatore-circelli-santanna-1911-manifest.png"
+      "../michele-salvatore-ship-list-highlighted.png",
+      "../salvatore-circelli-santanna-1911-manifest.png"
      ],
      "sourceIds": [
       "alsatia-1898",
@@ -942,7 +944,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -951,31 +953,6 @@
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo",
      "note": "Aged 25 in March 1898."
-    },
-    {
-     "id": "pe-san-bartolomeo-in-galdo-born-michael-belfiore-2",
-     "type": "born",
-     "personIds": [
-      "michael-belfiore"
-     ],
-     "date": "1884",
-     "dateStart": "1884",
-     "dateEnd": "1884",
-     "datePrecision": "year",
-     "approximate": false,
-     "factRef": "michael-belfiore.facts[6]",
-     "alsoFactRefs": [],
-     "pages": [],
-     "recordCrops": [
-      "index-michele-antonio-belfiore-1884.jpg"
-     ],
-     "sourceIds": [
-      "index-births-1884"
-     ],
-     "confidence": "probable",
-     "familyStatement": false,
-     "summary": "Birth index: Belfiore Michele Antonio di Leonardantonio, act 440.",
-     "note": "Probable identification. His American records say 15 December 1885, or 1883 on the 1942 card. The 1883 and 1885 birth indexes, letter B, show no Belfiore. This is not entered as a confirmed birth date."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-leonardantonio-belfiore",
@@ -992,7 +969,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1017,7 +994,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1042,7 +1019,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1070,7 +1047,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1095,7 +1072,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1120,7 +1097,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1129,34 +1106,6 @@
      "familyStatement": false,
      "summary": "Died. San Bartolomeo in Galdo",
      "note": "Recorded as \"la fu\" (the late) in January 1884."
-    },
-    {
-     "id": "pe-san-bartolomeo-in-galdo-born-michael-belfiore",
-     "type": "born",
-     "personIds": [
-      "michael-belfiore"
-     ],
-     "date": "Dec 15, 1885",
-     "dateStart": "1885-12-15",
-     "dateEnd": "1885-12-15",
-     "datePrecision": "day",
-     "approximate": false,
-     "factRef": "michael-belfiore.birth",
-     "alsoFactRefs": [],
-     "pages": [
-      "research.html"
-     ],
-     "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
-     ],
-     "sourceIds": [
-      "ww1-michael",
-      "death-michael-1952"
-     ],
-     "confidence": "confirmed",
-     "familyStatement": false,
-     "summary": "Born. Italy (probably San Bartolomeo in Galdo)",
-     "note": "The WWI card and death certificate say 1885; the WWII card says 1883. His Italian birth record has not been found. The profile says Italy, probably San Bartolomeo in Galdo. The confirmed part is Italy. A probable 1884 index line is entered separately."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-mary-donofrio",
@@ -1175,7 +1124,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "census-1900-belfiore.jpg"
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1900"
@@ -1200,7 +1149,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1228,7 +1177,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -1236,6 +1185,193 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. San Bartolomeo in Galdo, Italy",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-lived-donato-circelli",
+     "type": "lived",
+     "personIds": [
+      "donato-circelli"
+     ],
+     "date": "1827",
+     "dateStart": "1827",
+     "dateEnd": "1827",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "donato-circelli.residences[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-giuseppe-circelli-1827"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Living in San Bartolomeo in Galdo when his son Giuseppe was born in 1827.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-worked-donato-circelli",
+     "type": "worked",
+     "personIds": [
+      "donato-circelli"
+     ],
+     "date": "1827",
+     "dateStart": "1827",
+     "dateEnd": "1827",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "donato-circelli.occupations[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-giuseppe-circelli-1827"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "A farm worker in San Bartolomeo in Galdo, 1827, as his son Giuseppe's birth act says.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-worked-vincenza-minichilli",
+     "type": "worked",
+     "personIds": [
+      "vincenza-minichilli"
+     ],
+     "date": "1843",
+     "dateStart": "1843",
+     "dateEnd": "1843",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "vincenza-minichilli.occupations[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "death-vincenza-minichillo-1843"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "A spinner (filatrice) in San Bartolomeo in Galdo, as her 1843 death act says.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-born-antonia-circelli",
+     "type": "born",
+     "personIds": [
+      "antonia-circelli"
+     ],
+     "date": "1851-01-18",
+     "dateStart": "1851-01-18",
+     "dateEnd": "1851-01-18",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "antonia-circelli.birth",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-antonia-circelli-1851"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Born in San Bartolomeo in Galdo, Maria Donata's older sister.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-worked-antonia-circelli",
+     "type": "worked",
+     "personIds": [
+      "antonia-circelli"
+     ],
+     "date": "1884",
+     "dateStart": "1884",
+     "dateEnd": "1884",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "antonia-circelli.occupations[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-michele-1884"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "A farm worker in San Bartolomeo in Galdo in 1884, when she was the first witness at her nephew Michael's birth registration.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-lived-francesco-mansolino",
+     "type": "lived",
+     "personIds": [
+      "francesco-mansolino"
+     ],
+     "date": "1829",
+     "dateStart": "1829",
+     "dateEnd": "1850",
+     "datePrecision": "range",
+     "approximate": false,
+     "factRef": "francesco-mansolino.residences[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Living in San Bartolomeo in Galdo, 1829 to 1850.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-worked-francesco-mansolino",
+     "type": "worked",
+     "personIds": [
+      "francesco-mansolino"
+     ],
+     "date": "1829",
+     "dateStart": "1829",
+     "dateEnd": "1850",
+     "datePrecision": "range",
+     "approximate": false,
+     "factRef": "francesco-mansolino.occupations[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "A farm worker in San Bartolomeo in Galdo, 1829 to 1850.",
+     "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-lived-brigida-mansolino",
+     "type": "lived",
+     "personIds": [
+      "brigida-mansolino"
+     ],
+     "date": "1829",
+     "dateStart": "1829",
+     "dateEnd": "1850",
+     "datePrecision": "range",
+     "approximate": false,
+     "factRef": "brigida-mansolino.residences[0]",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Living in San Bartolomeo in Galdo, 1829 to 1850.",
      "note": null
     }
    ]
@@ -1250,22 +1386,25 @@
    "kind": "street",
    "address": "strada Borgo, San Bartolomeo in Galdo",
    "modernAddress": null,
-   "precision": "street",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Strada Borgo, San Bartolomeo in Galdo, Italy; Via Borgo, San Bartolomeo in Galdo, Italy.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 41.409854,
+   "lng": 15.015397,
+   "uncertaintyMetres": 700,
+   "coordinateMethod": "No street called Borgo was found on today's map (Nominatim on 2026-11-25, Photon on 2026-11-26). The circle covers the old town of San Bartolomeo in Galdo, the place the acts name.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "osm-photon-2026"
+   ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
    "standsTodaySource": null,
    "todayNote": null,
    "status": "new, needs review",
-   "significance": "A reading of the 1860 twin birth acts places the father's domicile at strada Borgo. It needs a second reading before it is treated as settled.",
+   "significance": "The Circelli family's street: Giuseppe Circelli gave strada Borgo as his home when he registered Antonia in 1851, and the 1860 twin acts appear to name it again.",
    "blurb": null,
    "blurbSourceIds": [],
    "boundary": null,
@@ -1290,7 +1429,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -1299,6 +1438,33 @@
      "familyStatement": false,
      "summary": "The 1860 twin birth acts place the father's domicile at strada Borgo.",
      "note": "New, needs review. The profiles make Maria Filomena and Maria Lucia the children of Giuseppe Circelli and Anna Rita Mansolino, and they record the birthplace as the comune. The act's domicile line reads strada Borgo. The father's given name in that line should be read again before the street is treated as settled. Witness lines on Maria Donata's 1863 act may also read strada Borgo. That line is not entered as her address."
+    },
+    {
+     "id": "pe-strada-borgo-san-bartolomeo-lived-antonia-circelli",
+     "type": "lived",
+     "personIds": [
+      "antonia-circelli",
+      "giuseppe-circelli",
+      "marianna-mita"
+     ],
+     "date": "1851-01-18",
+     "dateStart": "1851-01-18",
+     "dateEnd": "1851-01-18",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../birth-antonia-circelli-1851-act13.jpg"
+     ],
+     "sourceIds": [
+      "birth-antonia-circelli-1851"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "In January 1851 Giuseppe Circelli, registering his daughter Antonia, gave his home as strada Borgo.",
+     "note": null
     }
    ]
   },
@@ -1323,7 +1489,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1357,7 +1523,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../marriage-circelli-mansolino-1850.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850"
@@ -1385,7 +1551,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1452,7 +1618,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hennessy-baptism-1874-patrick.jpg"
+      "../hennessy-baptism-1874-patrick.jpg"
      ],
      "sourceIds": [
       "hennessy-baptism-1874"
@@ -1513,8 +1679,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-baptism-1874-patrick.jpg",
-      "hussey-marriage-1914.jpg"
+      "../hennessy-baptism-1874-patrick.jpg",
+      "../hussey-marriage-1914.jpg"
      ],
      "sourceIds": [
       "hennessy-baptism-1874",
@@ -1545,7 +1711,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1578,7 +1744,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1920.jpg"
+      "../hennessy-census-1920.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1920"
@@ -1659,15 +1825,19 @@
    "kind": "home",
    "address": "114 Winyah Avenue, New Rochelle, New York",
    "modernAddress": null,
-   "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: 114 Winyah Avenue, New Rochelle, New York; Winyah Avenue, New Rochelle, New York.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
-   "drawAs": "pin",
-   "inHomeRegion": false,
+   "precision": "town",
+   "lat": 40.911539,
+   "lng": -73.782636,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "No Winyah Avenue is on today's map of New Rochelle (Nominatim on 2026-11-25, the US Census geocoder and Photon on 2026-11-26). Today there is a Winyah Terrace in New Rochelle, which may be the same street renamed, but that is not proven. The circle covers New Rochelle, the place the draft card names.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "census-geocoder-2026",
+    "osm-photon-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1698,7 +1868,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "../michael-kirtus-belfiore-registration-card.jpeg"
      ],
      "sourceIds": [
       "ww1-michael"
@@ -1759,7 +1929,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg"
+      "../ww2-frank-belfiore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-frank"
@@ -1789,7 +1959,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1835,7 +2005,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "census-1900-belfiore.jpg"
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1900"
@@ -1865,7 +2035,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1896,7 +2066,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-WW2-Draft-Card.jpeg"
+      "../Michael-Belfiore-WW2-Draft-Card.jpeg"
      ],
      "sourceIds": [
       "ww2-michael"
@@ -1959,7 +2129,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-samuel-belfore-1942.jpg"
+      "../ww2-samuel-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-samuel"
@@ -1989,7 +2159,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2020,7 +2190,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1900-towey.jpg"
+      "../census-1900-towey.jpg"
      ],
      "sourceIds": [
       "census-1900-towey"
@@ -2081,7 +2251,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg"
+      "../ww2-frank-belfiore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-frank"
@@ -2142,7 +2312,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "../michael-kirtus-belfiore-registration-card.jpeg"
      ],
      "sourceIds": [
       "ww1-michael"
@@ -2162,15 +2332,17 @@
    "kind": "home",
    "address": "216 (street not on this sheet crop), New Rochelle, New York",
    "modernAddress": null,
-   "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "Not placed. The population lines show 216. The street header is not on the saved crop, so the number cannot be mapped.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 40.911539,
+   "lng": -73.782636,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "Not placed by street. The population line shows 216 and the street header is not on the saved crop, so the circle covers New Rochelle, the place the census names.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2204,7 +2376,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "census-1950-joseph-c-dorothy.jpg"
+      "../census-1950-joseph-c-dorothy.jpg"
      ],
      "sourceIds": [
       "census-1950-joseph-c"
@@ -2318,7 +2490,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2362,7 +2534,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio"
@@ -2386,12 +2558,15 @@
    "address": "251 West Maple Avenue",
    "modernAddress": null,
    "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: 251 West Maple Avenue, Birmingham, Michigan; West Maple Avenue, Birmingham, Michigan.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "lat": 42.546578,
+   "lng": -83.216662,
+   "uncertaintyMetres": 60,
+   "coordinateMethod": "US Census geocoder on 2026-11-26: 251 W Maple Rd, Birmingham, MI 48009. OpenStreetMap Nominatim gives the same house (42.546553, -83.216659). West Maple Avenue is today's West Maple Road. Whether the house numbers changed after 1942 has not been checked.",
+   "coordinatePrecision": "address",
+   "coordinateSourceIds": [
+    "census-geocoder-2026",
+    "osm-nominatim-2026"
+   ],
    "drawAs": "pin",
    "inHomeRegion": false,
    "country": "United States",
@@ -2473,7 +2648,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-samuel-belfore-1942.jpg"
+      "../ww2-samuel-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-samuel"
@@ -2493,15 +2668,17 @@
    "kind": "home",
    "address": "260 (street not named), New Rochelle, New York",
    "modernAddress": null,
-   "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "Not placed. The 1925 census gives the number 260 and the householder, not the street.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 40.911539,
+   "lng": -73.782636,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "Not placed by street. The 1925 census gives the number 260 and the householder, not the street, so the circle covers New Rochelle.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2532,7 +2709,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1925.jpg"
+      "../hennessy-census-1925.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1925"
@@ -2593,7 +2770,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-joe-belfore-1942.jpg"
+      "../ww2-joe-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-joe"
@@ -2613,13 +2790,15 @@
    "kind": "home",
    "address": "276 (street not read), Grosse Pointe Woods, Michigan",
    "modernAddress": null,
-   "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "Not placed. The 1950 sheet shows house number 276 and does not show the street. It may be Merriweather, but that is not read on this image.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 42.443562,
+   "lng": -82.906951,
+   "uncertaintyMetres": 1800,
+   "coordinateMethod": "Not placed by street. The 1950 sheet shows house number 276 and not the street, so the circle covers Grosse Pointe Woods (OpenStreetMap Nominatim, 2026-11-26). It may be 276 Merriweather, which is mapped separately, but the street is not read on this image.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
    "drawAs": "halo",
    "inHomeRegion": false,
    "country": "United States",
@@ -2655,7 +2834,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1950-joe-ruth-beulah.jpg"
+      "../census-1950-joe-ruth-beulah.jpg"
      ],
      "sourceIds": [
       "census-1950-joe"
@@ -2675,15 +2854,17 @@
    "kind": "home",
    "address": "3 Fair Oaks, Premium Point, New Rochelle, New York",
    "modernAddress": null,
-   "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: 3 Fair Oaks Place, New Rochelle, New York; Fair Oaks, New Rochelle, New York.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
-   "drawAs": "pin",
-   "inHomeRegion": false,
+   "precision": "street",
+   "lat": 40.915366,
+   "lng": -73.76189,
+   "uncertaintyMetres": 500,
+   "coordinateMethod": "No Fair Oaks was found on today's map (Nominatim on 2026-11-25, the US Census geocoder and Photon on 2026-11-26). The circle covers Premium Point, the private enclave the census names, at the Premium Point point already on this site.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2716,7 +2897,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1930.jpg"
+      "../hennessy-census-1930.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1930"
@@ -2743,8 +2924,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1930.jpg",
-      "hennessy-census-1930-household.jpg"
+      "../hennessy-census-1930.jpg",
+      "../hennessy-census-1930-household.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1930",
@@ -2873,7 +3054,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg"
+      "../census-1910-paternostro-bridgeport.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro"
@@ -2894,14 +3075,16 @@
    "address": "39 Albemarle, New Rochelle, New York",
    "modernAddress": null,
    "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: 39 Albemarle Avenue, New Rochelle, New York; Albemarle Avenue, New Rochelle, New York.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "lat": 40.923165,
+   "lng": -73.77484,
+   "uncertaintyMetres": 150,
+   "coordinateMethod": "US Census geocoder on 2026-11-26: 39 Albemarle Avenue (written Albermarle in the census street file), New Rochelle, NY 10801. It is the only Albemarle in New Rochelle today. The 1925 census gives no street type, and the house numbers may have changed since 1925, so this is drawn as a small circle rather than a pin.",
+   "coordinatePrecision": "address",
+   "coordinateSourceIds": [
+    "census-geocoder-2026"
+   ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2945,7 +3128,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1925-belfore.jpg"
+      "../census-1925-belfore.jpg"
      ],
      "sourceIds": [
       "census-1925"
@@ -3015,7 +3198,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro"
@@ -3043,8 +3226,8 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg",
-      "census-1940-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg",
+      "../census-1940-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro",
@@ -3078,7 +3261,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3126,7 +3309,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1910-belfiore.jpg"
+      "../census-1910-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1910"
@@ -3166,7 +3349,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1915-belfore.jpg"
+      "../census-1915-belfore.jpg"
      ],
      "sourceIds": [
       "census-1915"
@@ -3194,7 +3377,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "ww1-samuel-belfiore-1918.jpg"
+      "../ww1-samuel-belfiore-1918.jpg"
      ],
      "sourceIds": [
       "ww1-samuel"
@@ -3224,7 +3407,7 @@
     "page-immigration"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "demolished",
@@ -3291,7 +3474,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3322,7 +3505,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-towey.jpg"
+      "../census-1910-towey.jpg"
      ],
      "sourceIds": [
       "census-1910-towey"
@@ -3355,7 +3538,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3386,7 +3569,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-WW2-Draft-Card.jpeg"
+      "../Michael-Belfiore-WW2-Draft-Card.jpeg"
      ],
      "sourceIds": [
       "ww2-michael"
@@ -3416,7 +3599,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3454,7 +3637,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -3484,7 +3667,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3524,7 +3707,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -3554,7 +3737,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3606,7 +3789,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1920-belfiore.jpg"
+      "../census-1920-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1920"
@@ -3638,7 +3821,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3680,7 +3863,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -3702,15 +3885,19 @@
    "kind": "workplace",
    "address": "8 Banks Street, New Rochelle, New York",
    "modernAddress": null,
-   "precision": "address",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: 8 Banks Street, New Rochelle, New York; Banks Street, New Rochelle, New York.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
-   "drawAs": "pin",
-   "inHomeRegion": false,
+   "precision": "town",
+   "lat": 40.911539,
+   "lng": -73.782636,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "No Banks Street is on today's map of New Rochelle (Nominatim on 2026-11-25, the US Census geocoder and Photon on 2026-11-26). The circle covers New Rochelle, the place the draft card names.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "census-geocoder-2026",
+    "osm-photon-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3741,7 +3928,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "../michael-kirtus-belfiore-registration-card.jpeg"
      ],
      "sourceIds": [
       "ww1-michael"
@@ -3771,7 +3958,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3815,7 +4002,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1930-donofrio"
@@ -3904,7 +4091,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3963,7 +4150,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4058,7 +4245,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit",
@@ -4092,7 +4279,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4162,7 +4349,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg"
+      "../census-1910-paternostro-bridgeport.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro"
@@ -4182,14 +4369,17 @@
    "kind": "cemetery",
    "address": "Cedar Hill Cemetery, Birmingham, Michigan",
    "modernAddress": null,
-   "precision": "building",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Cedar Hill Cemetery, Birmingham, Michigan; Cedar Hill Cemetery, Birmingham, Oakland County, Michigan.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
-   "drawAs": "pin",
+   "precision": "town",
+   "lat": 42.546701,
+   "lng": -83.211319,
+   "uncertaintyMetres": 4000,
+   "coordinateMethod": "No Cedar Hill Cemetery was found near Birmingham, Michigan (Nominatim on 2026-11-25, Photon on 2026-11-26). The circle covers Birmingham, the place the burial record names. The cemetery itself is still to be found.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "osm-photon-2026"
+   ],
+   "drawAs": "halo",
    "inHomeRegion": false,
    "country": "United States",
    "noProvenLink": false,
@@ -4217,7 +4407,7 @@
      "dateEnd": null,
      "datePrecision": "unknown",
      "approximate": false,
-     "factRef": "patricia-hupp-fleming.facts[0]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -4239,13 +4429,16 @@
    "kind": "cemetery",
    "address": null,
    "modernAddress": null,
-   "precision": "building",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Cedar Hill Memory Gardens, Daytona Beach, Florida; Cedar Hill Memory Gardens Port Orange Florida.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 29.210815,
+   "lng": -81.022833,
+   "uncertaintyMetres": 8000,
+   "coordinateMethod": "No Cedar Hill Memory Gardens was found on today's map (Nominatim on 2026-11-25, Photon on 2026-11-26). Sammy died in the Daytona Beach area, so the wide circle covers Daytona Beach. The cemetery itself is still to be found.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "osm-photon-2026"
+   ],
    "drawAs": "halo",
    "inHomeRegion": false,
    "country": "United States",
@@ -4274,7 +4467,7 @@
      "dateEnd": null,
      "datePrecision": "unknown",
      "approximate": false,
-     "factRef": "sammy-belfore.facts[4]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -4306,7 +4499,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4337,7 +4530,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1910.jpg"
+      "../hussey-census-1910.jpg"
      ],
      "sourceIds": [
       "hussey-census-1910"
@@ -4362,7 +4555,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1910.jpg"
+      "../hussey-census-1910.jpg"
      ],
      "sourceIds": [
       "hussey-census-1910"
@@ -4423,9 +4616,9 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg",
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1910-paternostro-bridgeport.jpg",
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro",
@@ -4452,9 +4645,9 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg",
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1910-paternostro-bridgeport.jpg",
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro",
@@ -4481,8 +4674,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro",
@@ -4508,8 +4701,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro",
@@ -4575,8 +4768,8 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "joe-book-1.jpeg",
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../joe-book-1.jpeg",
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "golfing-aids-1940",
@@ -4604,7 +4797,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "joe-book-1.jpeg"
+      "../joe-book-1.jpeg"
      ],
      "sourceIds": [
       "golfing-aids-1940"
@@ -4631,7 +4824,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963"
@@ -4661,7 +4854,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963"
@@ -4691,7 +4884,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4725,7 +4918,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -4946,7 +5139,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-samuel-louisa.jpg"
+      "../census-1950-samuel-louisa.jpg"
      ],
      "sourceIds": [
       "census-1950-samuel"
@@ -4971,7 +5164,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-samuel-louisa.jpg"
+      "../census-1950-samuel-louisa.jpg"
      ],
      "sourceIds": [
       "census-1950-samuel"
@@ -4996,7 +5189,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "frank-death",
@@ -5017,13 +5210,16 @@
    "kind": "workplace",
    "address": null,
    "modernAddress": null,
-   "precision": "building",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Daytona Highlands, Daytona Beach, Florida.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 29.210815,
+   "lng": -81.022833,
+   "uncertaintyMetres": 5000,
+   "coordinateMethod": "Daytona Highlands, the 1920s golf development named in the 1929 tournament report, is not on today's map (Nominatim on 2026-11-25, Photon on 2026-11-26). The circle covers Daytona Beach.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "osm-photon-2026"
+   ],
    "drawAs": "halo",
    "inHomeRegion": false,
    "country": "United States",
@@ -5102,15 +5298,19 @@
    "kind": "street",
    "address": "Dean Street, Mamaroneck, New York",
    "modernAddress": null,
-   "precision": "street",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Dean Street, Mamaroneck, New York; Dean Street, Mamaroneck, NY.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "precision": "town",
+   "lat": 40.948731,
+   "lng": -73.733142,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "No Dean Street is on today's map of Mamaroneck (Nominatim on 2026-11-25, the US Census geocoder and Photon on 2026-11-26). Today there is a Deane Place in Mamaroneck, which may be the same street, but that is not proven. The circle covers Mamaroneck, the place the census names.",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "census-geocoder-2026",
+    "osm-photon-2026"
+   ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -5144,7 +5344,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1900.jpg"
+      "../hussey-census-1900.jpg"
      ],
      "sourceIds": [
       "hussey-census-1900"
@@ -5207,7 +5407,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "joe-book-1.jpeg"
+      "../joe-book-1.jpeg"
      ],
      "sourceIds": [
       "golfing-aids-1940"
@@ -5364,7 +5564,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro"
@@ -5486,7 +5686,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963"
@@ -5511,8 +5711,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg",
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../samme-belfiore-golfer.jpeg",
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "standard-star-obit",
@@ -5638,7 +5838,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro"
@@ -5663,7 +5863,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro"
@@ -5688,7 +5888,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro"
@@ -5713,8 +5913,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg",
-      "census-1940-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg",
+      "../census-1940-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro",
@@ -5740,7 +5940,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1940-paternostro-hartford.jpg"
+      "../census-1940-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1940-paternostro"
@@ -5792,7 +5992,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -5882,7 +6082,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -5912,7 +6112,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "yes",
@@ -5942,7 +6142,7 @@
      "dateEnd": "1952-01-19",
      "datePrecision": "day",
      "approximate": false,
-     "factRef": "michael-belfiore.facts[4]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -6011,7 +6211,7 @@
      "dateEnd": null,
      "datePrecision": "unknown",
      "approximate": false,
-     "factRef": "patricia-drew-hendrie.facts[0]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -6034,12 +6234,14 @@
    "address": "Kercheval near Conner, Detroit, Michigan",
    "modernAddress": null,
    "precision": "street",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Kercheval Avenue and Conner Avenue, Detroit, Michigan; Kercheval Avenue and Conner Street, Detroit, Michigan.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "lat": 42.37369,
+   "lng": -82.96131,
+   "uncertaintyMetres": 150,
+   "coordinateMethod": "Photon (OpenStreetMap data) on 2026-11-26: the corner of Kercheval Avenue and Conner Street, Detroit, at the Conner / Kercheval bus stops. The record says near that corner, so the circle covers the junction.",
+   "coordinatePrecision": "street",
+   "coordinateSourceIds": [
+    "osm-photon-2026"
+   ],
    "drawAs": "halo",
    "inHomeRegion": false,
    "country": "United States",
@@ -6072,7 +6274,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg"
+      "../ww2-frank-belfiore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-frank"
@@ -6102,7 +6304,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6192,8 +6394,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg",
-      "golfdom-1964-joe-belfore.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg",
+      "../golfdom-1964-joe-belfore.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963",
@@ -6313,11 +6515,11 @@
      "dateEnd": "1950",
      "datePrecision": "year",
      "approximate": true,
-     "factRef": "ruth-belfore.facts[1]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-joe-ruth-beulah.jpg"
+      "../census-1950-joe-ruth-beulah.jpg"
      ],
      "sourceIds": [
       "census-1950-joe"
@@ -6349,7 +6551,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6586,8 +6788,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -6613,8 +6815,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -6641,8 +6843,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -6729,7 +6931,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "ww1-samuel-belfiore-1918.jpg"
+      "../ww1-samuel-belfiore-1918.jpg"
      ],
      "sourceIds": [
       "ww1-samuel"
@@ -6759,7 +6961,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6792,7 +6994,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "rochellean-1926-mollie.jpg"
+      "../rochellean-1926-mollie.jpg"
      ],
      "sourceIds": [
       "rochellean-1926"
@@ -6822,7 +7024,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6884,7 +7086,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6915,7 +7117,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "frank-index",
@@ -6941,8 +7143,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg",
-      "nysdi-1938-anthony-belfiore.jpg"
+      "../samme-belfiore-golfer.jpeg",
+      "../nysdi-1938-anthony-belfiore.jpg"
      ],
      "sourceIds": [
       "frank-index",
@@ -6969,8 +7171,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg",
-      "census-1900-belfiore.jpg"
+      "../ww2-frank-belfiore-1942.jpg",
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "ww2-frank",
@@ -6996,7 +7198,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit",
@@ -7022,7 +7224,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -7047,7 +7249,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1900-belfiore.jpg"
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1900"
@@ -7072,7 +7274,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1905-belfiore.jpg"
+      "../census-1905-belfiore.jpg"
      ],
      "sourceIds": [
       "ssdi-numident-family",
@@ -7121,10 +7323,10 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-joe-belfore-1942.jpg",
-      "census-1915-belfore.jpg",
-      "census-1925-belfore.jpg",
-      "census-1930-belfiore.jpg"
+      "../ww2-joe-belfore-1942.jpg",
+      "../census-1915-belfore.jpg",
+      "../census-1925-belfore.jpg",
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "ww2-joe",
@@ -7155,7 +7357,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "marriage-index-1906-belfiore-paternoster.jpg"
+      "../marriage-index-1906-belfiore-paternoster.jpg"
      ],
      "sourceIds": [
       "marriage-index-1906"
@@ -7180,10 +7382,10 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1915-belfore.jpg",
-      "census-1920-belfiore.jpg",
-      "census-1925-belfore.jpg",
-      "census-1930-belfiore.jpg"
+      "../census-1915-belfore.jpg",
+      "../census-1920-belfiore.jpg",
+      "../census-1925-belfore.jpg",
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1915",
@@ -7211,7 +7413,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "salvatore-circelli-santanna-1911-manifest.png"
+      "../salvatore-circelli-santanna-1911-manifest.png"
      ],
      "sourceIds": [
       "santanna-1911"
@@ -7239,8 +7441,8 @@
      ],
      "pages": [],
      "recordCrops": [
-      "marriage-index-1911-belfiore-donofrio.jpg",
-      "samme-belfiore-golfer.jpeg"
+      "../marriage-index-1911-belfiore-donofrio.jpg",
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "marriage-index-1911",
@@ -7266,7 +7468,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1915-belfore.jpg"
+      "../census-1915-belfore.jpg"
      ],
      "sourceIds": [
       "census-1915"
@@ -7287,7 +7489,7 @@
      "dateEnd": "1918",
      "datePrecision": "range",
      "approximate": true,
-     "factRef": "frank-belfore.facts[1]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -7314,7 +7516,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-michael-lodger.jpg"
+      "../census-1920-michael-lodger.jpg"
      ],
      "sourceIds": [
       "census-1920-michael"
@@ -7339,9 +7541,9 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1920.jpg",
-      "hennessy-census-1930.jpg",
-      "hennessy-census-1940.jpg"
+      "../hennessy-census-1920.jpg",
+      "../hennessy-census-1930.jpg",
+      "../hennessy-census-1940.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1920",
@@ -7391,7 +7593,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "ssdi-numident-family",
@@ -7463,8 +7665,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nj-death-index-1994-joseph-c-belfiore.jpg",
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../nj-death-index-1994-joseph-c-belfiore.jpg",
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "ssaci-joseph-1922",
@@ -7514,7 +7716,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1925-belfore.jpg"
+      "../census-1925-belfore.jpg"
      ],
      "sourceIds": [
       "census-1925"
@@ -7539,7 +7741,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -7564,7 +7766,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -7589,7 +7791,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -7614,7 +7816,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -7639,7 +7841,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -7687,7 +7889,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nysdi-1937-marie-d-belfiore.jpg"
+      "../nysdi-1937-marie-d-belfiore.jpg"
      ],
      "sourceIds": [
       "nysdi-1937"
@@ -7712,7 +7914,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nysdi-1938-anthony-belfiore.jpg"
+      "../nysdi-1938-anthony-belfiore.jpg"
      ],
      "sourceIds": [
       "ny-death-index-1938"
@@ -7737,7 +7939,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -7762,7 +7964,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -7787,7 +7989,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -7838,7 +8040,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hennessy-marriage-1946-patrick.jpg"
+      "../hennessy-marriage-1946-patrick.jpg"
      ],
      "sourceIds": [
       "hennessy-marriage-index-1946",
@@ -7867,7 +8069,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1950-rose-carolyn.jpg"
+      "../census-1950-rose-carolyn.jpg"
      ],
      "sourceIds": [
       "census-1950-rose"
@@ -7894,7 +8096,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-frances-michael-edward.jpg"
+      "../census-1950-frances-michael-edward.jpg"
      ],
      "sourceIds": [
       "census-1950-frances"
@@ -8113,6 +8315,29 @@
      "familyStatement": true,
      "summary": "Grew up in the New Rochelle area.",
      "note": "This is the place already written in his profile. No street is in the site's data, and none is added."
+    },
+    {
+     "id": "pe-new-rochelle-died-patrick-hennessy",
+     "type": "died",
+     "personIds": [
+      "patrick-hennessy"
+     ],
+     "date": "1947-06-27",
+     "dateStart": "1947-06-27",
+     "dateEnd": "1947-06-27",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "patrick-hennessy.death",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "nys-death-index-1947-hennessy"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Probably died in New Rochelle, 27 June 1947, aged 70.",
+     "note": "From the New York State death index, certificate 38983. The certificate itself has not been seen, so this stays probable."
     }
    ]
   },
@@ -8136,7 +8361,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8167,8 +8392,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1900.jpg",
-      "hussey-marriage-1914.jpg"
+      "../hussey-census-1900.jpg",
+      "../hussey-marriage-1914.jpg"
      ],
      "sourceIds": [
       "hussey-census-1900",
@@ -8194,7 +8419,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "ssdi-frances",
@@ -8220,7 +8445,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg"
+      "../hennessy-census-1915.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8246,7 +8471,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg"
+      "../hennessy-census-1915.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8272,7 +8497,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg"
+      "../hennessy-census-1915.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8298,8 +8523,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg",
-      "hennessy-census-1920.jpg"
+      "../hennessy-census-1915.jpg",
+      "../hennessy-census-1920.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8325,7 +8550,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -8350,8 +8575,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -8373,11 +8598,11 @@
      "dateEnd": "1920",
      "datePrecision": "year",
      "approximate": true,
-     "factRef": "first-wife-of-michael.facts[0]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -8402,8 +8627,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1930-household.jpg",
-      "hennessy-census-1940-household.jpg"
+      "../hennessy-census-1930-household.jpg",
+      "../hennessy-census-1940-household.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1930-image",
@@ -8494,7 +8719,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8525,7 +8750,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-michael-lodger.jpg"
+      "../census-1920-michael-lodger.jpg"
      ],
      "sourceIds": [
       "census-1920-michael"
@@ -8696,7 +8921,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8758,7 +8983,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8791,8 +9016,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hindoustan-1890-leonardo.jpg",
-      "census-1900-belfiore.jpg"
+      "../hindoustan-1890-leonardo.jpg",
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "hindoustan-1890-manifest",
@@ -8822,7 +9047,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-naturalization-1905.jpg"
+      "../hennessy-naturalization-1905.jpg"
      ],
      "sourceIds": [
       "hennessy-naturalization-1905"
@@ -8857,8 +9082,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "maria doreta circelli.png",
-      "oregon-1896-manifest.jpg"
+      "../maria doreta circelli.png",
+      "../oregon-1896-manifest.jpg"
      ],
      "sourceIds": [
       "oregon-1896-index",
@@ -8891,7 +9116,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -8925,7 +9150,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8956,7 +9181,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1910.jpg"
+      "../hennessy-census-1910.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1910"
@@ -8983,7 +9208,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1940.jpg"
+      "../hennessy-census-1940.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1940"
@@ -9010,8 +9235,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1940.jpg",
-      "hennessy-census-1940-household.jpg"
+      "../hennessy-census-1940.jpg",
+      "../hennessy-census-1940-household.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1940",
@@ -9037,7 +9262,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-marriage-1946-patrick.jpg"
+      "../hennessy-marriage-1946-patrick.jpg"
      ],
      "sourceIds": [
       "hennessy-marriage-announcement-1946"
@@ -9121,7 +9346,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nj-death-index-1994-joseph-c-belfiore.jpg"
+      "../nj-death-index-1994-joseph-c-belfiore.jpg"
      ],
      "sourceIds": [
       "nj-death-1994-joseph",
@@ -9237,7 +9462,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9333,7 +9558,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "golfdom-1948-02",
@@ -9381,13 +9606,15 @@
    "address": null,
    "modernAddress": null,
    "precision": "building",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Shenecossett Country Club, Groton, Connecticut; Shenecossett Country Club Connecticut.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
-   "drawAs": "pin",
+   "lat": 41.327264,
+   "lng": -72.065608,
+   "uncertaintyMetres": 300,
+   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-26. Search: Shennecossett Golf Course, Groton. Result: Shennecossett Golf Course, 93 Plant Street, Groton, Connecticut, across the Thames River from New London. Today's map spells it with a double n.",
+   "coordinatePrecision": "building",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "halo",
    "inHomeRegion": false,
    "country": "United States",
    "noProvenLink": false,
@@ -9421,7 +9648,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "ww2-samuel-belfore-1942.jpg"
+      "../ww2-samuel-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-samuel"
@@ -9478,7 +9705,7 @@
      "dateEnd": null,
      "datePrecision": "unknown",
      "approximate": false,
-     "factRef": "edward-belfiore.facts[2]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -9512,7 +9739,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9549,7 +9776,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9576,7 +9803,7 @@
      "dateEnd": "1994",
      "datePrecision": "unknown",
      "approximate": true,
-     "factRef": "dorothy-hennessey-belfiore.facts[2]",
+     "factRef": "",
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [],
@@ -9608,14 +9835,14 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
    "standsTodaySource": null,
    "todayNote": null,
    "status": "published",
-   "significance": "Patrick Hennessy and Annie Hussey's 1914 marriage index gives the county and does not name a church.",
+   "significance": "Patrick Hennessy and Annie Hussey's 1914 marriage index gives the county and does not name a church. The county court also handled Antonio Belfiora's naturalization (1896 to 1899) and Mary D'Onofrio's (1943).",
    "blurb": null,
    "blurbSourceIds": [],
    "boundary": null,
@@ -9642,7 +9869,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hussey-marriage-1914.jpg"
+      "../hussey-marriage-1914.jpg"
      ],
      "sourceIds": [
       "hennessy-marriage-1914"
@@ -9651,6 +9878,52 @@
      "familyStatement": false,
      "summary": "Married. Westchester, New York",
      "note": "The index gives Westchester and does not name a church."
+    },
+    {
+     "id": "pe-westchester-county-naturalization-antonio-belfiore",
+     "type": "civil case",
+     "personIds": [
+      "leonardantonio-belfiore"
+     ],
+     "date": "1899",
+     "dateStart": "1899",
+     "dateEnd": "1899",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "westchester-naturalization-index"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Naturalization: Antonio \"Belfiora\" files a declaration in 1896 and a petition in 1899.",
+     "note": "Index entries only; identity with Leonardantonio is probable, not proven."
+    },
+    {
+     "id": "pe-westchester-county-naturalization-mary-donofrio",
+     "type": "civil case",
+     "personIds": [
+      "mary-donofrio"
+     ],
+     "date": "1943",
+     "dateStart": "1943",
+     "dateEnd": "1943",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "westchester-naturalization-index"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Naturalization petition of Mary (Belfiore) D'Onofrio, 1943.",
+     "note": "Index entry only."
     }
    ]
   },
@@ -9732,7 +10005,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9905,14 +10178,17 @@
    "address": null,
    "modernAddress": null,
    "precision": "building",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Wykagyl Country Club, New Rochelle, New York; Wykagyl Country Club New Rochelle NY.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
+   "lat": 40.943034,
+   "lng": -73.794753,
+   "uncertaintyMetres": 150,
+   "coordinateMethod": "US Census geocoder on 2026-11-26: 1195 North Avenue, New Rochelle, NY 10804, the club's address today. Photon puts the clubhouse at 40.943071, -73.793445. The club has been on this ground since the early 1900s; this site has not checked whether Sammy's years were spent here or at an earlier ground.",
+   "coordinatePrecision": "building",
+   "coordinateSourceIds": [
+    "census-geocoder-2026",
+    "osm-photon-2026"
+   ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9945,7 +10221,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "kahn-1960",
@@ -9973,7 +10249,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "ww1-samuel-belfiore-1918.jpg"
+      "../ww1-samuel-belfiore-1918.jpg"
      ],
      "sourceIds": [
       "ww1-samuel"
@@ -9995,15 +10271,18 @@
    "kind": "home",
    "address": "Wykagyl Gardens Apartments, New Rochelle, New York",
    "modernAddress": null,
-   "precision": "building",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-25 found no confident point for: Wykagyl Gardens, New Rochelle, New York.",
-   "coordinatePrecision": null,
-   "coordinateSourceIds": [],
-   "drawAs": "pin",
-   "inHomeRegion": false,
+   "precision": "town",
+   "lat": 40.941488,
+   "lng": -73.799022,
+   "uncertaintyMetres": 600,
+   "coordinateMethod": "The Wykagyl Gardens apartments were not found on today's map (Nominatim on 2026-11-25, Photon on 2026-11-26). The circle covers the Wykagyl neighbourhood of New Rochelle (Photon).",
+   "coordinatePrecision": "area",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "osm-photon-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10034,7 +10313,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-joe-belfore-1942.jpg"
+      "../ww2-joe-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-joe"
@@ -10062,7 +10341,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -10094,7 +10373,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10148,7 +10427,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio"
@@ -10173,7 +10452,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1930-donofrio"
@@ -10251,6 +10530,132 @@
      "familyStatement": false,
      "summary": "Grew up in Yonkers.",
      "note": "No street is given. The end of these years is not a recorded date."
+    }
+   ]
+  },
+  {
+   "id": "vico-passaro-san-bartolomeo",
+   "name": "Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
+   "historicName": "Vico Passaro",
+   "variants": [
+    "Vico Passero"
+   ],
+   "kind": "home",
+   "address": "no. 17, Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
+   "modernAddress": null,
+   "precision": "street",
+   "lat": 41.412689,
+   "lng": 15.018271,
+   "uncertaintyMetres": 75,
+   "coordinateMethod": "Photon (OpenStreetMap data) on 2026-11-26. Search: Vico Passaro, San Bartolomeo in Galdo. Result: Vico Passaro, a stepped lane in the old town. The house number 17 is not placed, so the circle covers the lane.",
+   "coordinatePrecision": "street",
+   "coordinateSourceIds": [
+    "osm-photon-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": false,
+   "country": "Italy",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": "A lane called Vico Passaro still climbs through the old town on today's map. That supports the reading of the street name on the 1884 birth act, though the house itself has not been found.",
+   "status": "new, needs review",
+   "significance": "The house where Michael was born in December 1884, at no. 17 of a lane whose name reads like Vico Passaro.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-vico-passaro-born-michael-belfiore",
+     "type": "born",
+     "personIds": [
+      "michael-belfiore"
+     ],
+     "date": "1884-12-15",
+     "dateStart": "1884-12-15",
+     "dateEnd": "1884-12-15",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "michael-belfiore.birth",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../birth-michele-1884-act440.jpg",
+      "../index-michele-antonio-belfiore-1884.jpg"
+     ],
+     "sourceIds": [
+      "birth-michele-1884",
+      "death-michael-1952",
+      "index-births-1884",
+      "ww1-michael"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Born. No. 17, Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
+     "note": "Birth act 440 of 1884 gives 15 December 1884; the index line agrees. His WWI card and death certificate say 1885 and his WWII card says 1883. The street name is hard to read on the scan, and Passaro is the best reading."
+    }
+   ]
+  },
+  {
+   "id": "saginaw-country-club",
+   "name": "Saginaw Country Club, Michigan",
+   "historicName": "Saginaw Country Club",
+   "variants": [],
+   "kind": "venue",
+   "address": "Saginaw, Michigan",
+   "modernAddress": null,
+   "precision": "building",
+   "lat": 43.417227,
+   "lng": -84.001285,
+   "uncertaintyMetres": 400,
+   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-26. Search: Saginaw Country Club. Result: Saginaw Country Club, Saginaw Charter Township, Michigan. Where the club stood in 1934 has not been checked, so this is drawn as a circle.",
+   "coordinatePrecision": "building",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": false,
+   "country": "United States",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "new, needs review",
+   "significance": "Where Joe Belfore finished one stroke behind the winner of the 1934 Michigan Open.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-saginaw-country-club-joe-belfore-1934",
+     "type": "celebrated",
+     "personIds": [
+      "joe-belfore"
+     ],
+     "date": "1934-07-10",
+     "dateStart": "1934-07-10",
+     "dateEnd": "1934-07-10",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "dfp-1934-michigan-open"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Runner-up by one stroke in the 1934 Michigan Open.",
+     "note": "Headline only; the article has not been read."
     }
    ]
   }
