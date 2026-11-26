@@ -987,6 +987,8 @@ body {
     }
     .page-link-desc { padding: 0; }
     .page-link-arrow { display: none; }
+    .line-pair { grid-template-columns: 1fr; }
+    .hero-dek { font-size: 1.08rem; }
     .tree-page {
         grid-template-columns: 1fr;
     }
@@ -1080,6 +1082,98 @@ body {
 }
 .update-note strong { color: #1a5c2a; }
 
+/* ===== HOME: TWO LINES ===== */
+.hero-intro h1.has-dek { margin-bottom: 1rem; }
+.hero-dek {
+    max-width: 40rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--ink);
+}
+.line-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    margin: 0.5rem 0 1.25rem;
+}
+.line-card {
+    background: var(--parchment);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--verde);
+    border-radius: 8px;
+    padding: 1.35rem 1.4rem 1.15rem;
+}
+.line-card.line-maternal { border-top-color: var(--gold-dark); }
+.line-card h3 {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    color: var(--ink);
+    letter-spacing: 0.4px;
+    margin-bottom: 0.35rem;
+}
+.line-names {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin-bottom: 0.8rem;
+}
+.line-card p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    margin-bottom: 0.85rem;
+}
+.line-links {
+    list-style: none;
+    margin: 0.2rem 0 0;
+    padding: 0;
+    border-top: 1px solid var(--border);
+}
+.line-links a {
+    display: block;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--border);
+    color: var(--verde-dark);
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+}
+.line-links a:hover { color: var(--gold-dark); }
+.lines-meet {
+    text-align: center;
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.25rem;
+    background: var(--parchment);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+.lines-meet .meet-year {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin-bottom: 0.35rem;
+}
+.lines-meet p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin: 0;
+}
+.whats-new {
+    margin: 0 0 2rem;
+    padding-left: 1.2rem;
+}
+.whats-new li {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 0.55rem;
+}
+
 /* ===== NOVEMBER 2026 RESEARCH SECTION ===== */
 /* Keep a story card short enough to fade in. The page reveals .discovery-card
    and .timeline-item only once 10% of the card is on screen, so a card packed
@@ -1129,6 +1223,18 @@ body {
     margin: 0.2rem 0 0.5rem;
 }
 .page-jump a { color: var(--gold-dark); }
+
+/* The two-line grid is declared after the main responsive block, so the
+   phone rule has to follow it or the two columns win on a narrow screen. */
+@media (max-width: 768px) {
+    .line-pair { grid-template-columns: 1fr; }
+    .hero-dek { font-size: 1.08rem; }
+}
+.section-header,
+.hero-intro h1,
+.lines-meet {
+    scroll-margin-top: 5.5rem;
+}
 .records-added > summary,
 .ledger-note summary,
 details > summary {
