@@ -22,7 +22,11 @@
     "styles.css"
    ]
   },
-  "map": null,
+  "map": {
+   "file": "map.html",
+   "title": "Family Map: Belfiore & Circelli",
+   "description": "Where the Belfiore and Circelli families were born, lived, married, worked, sailed and were buried, from San Bartolomeo in Galdo to New Rochelle and beyond."
+  },
   "ask": null
  },
  "nav": [
@@ -37,6 +41,10 @@
   {
    "href": "tree-canvas.html",
    "label": "Interactive Canvas"
+  },
+  {
+   "href": "map.html",
+   "label": "Family Map"
   },
   {
    "href": "immigration.html",
@@ -102,7 +110,15 @@
   "--pc-conf-unverified-bg": "rgba(139, 32, 32, 0.05)",
   "--pc-lb-bg": "rgba(18, 17, 14, 0.97)",
   "--pc-lb-side": "#1c1b17",
-  "--pc-lb-strip": "#2a2823"
+  "--pc-lb-strip": "#2a2823",
+  "--fm-bg": "#f4ecdd",
+  "--fm-paper": "#fffdf8",
+  "--fm-ink": "#1f1d1a",
+  "--fm-muted": "#6b5537",
+  "--fm-accent": "#1a5c2a",
+  "--fm-accent-deep": "#0d3318",
+  "--fm-gold": "#8a6410",
+  "--fm-rule": "#d8c9ab"
  },
  "data": {
   "dir": "data"
@@ -180,5 +196,197 @@
  },
  "publish": {
   "exclude": []
+ },
+ "map": {
+  "home": {
+   "name": "New York",
+   "bounds": [
+    [
+     -74.15,
+     40.78
+    ],
+    [
+     -73.55,
+     41.15
+    ]
+   ]
+  },
+  "historicMaps": null,
+  "families": [
+   {
+    "id": "belfiore",
+    "label": "The Belfiores",
+    "option": "The Belfiores",
+    "roots": [
+     "leonardantonio-belfiore",
+     "michael-belfiore",
+     "dorothy-belfiore-bridgeport",
+     "edward-belfiore",
+     "joseph-belfiore",
+     "dorothy-hennessey-belfiore",
+     "frank-belfore",
+     "joe-belfore",
+     "ruth-belfore",
+     "sammy-belfore",
+     "louisa-belfore",
+     "rose-belfiore",
+     "caroline-belfiore",
+     "lena-belfiore",
+     "david-belfore",
+     "jeffery-belfore",
+     "samuel-belfore-jr",
+     "julia-clair-belfore",
+     "robert-belfiore",
+     "william-belfiore",
+     "susan-belfiore",
+     "beth-belfiore",
+     "gary-belfore",
+     "seb-belfiore",
+     "valeria-belfiore",
+     "alexander-belfiore",
+     "lauren-belfiore",
+     "loredana-belfiore",
+     "dani-belfiore",
+     "ionel-belfiore",
+     "ramona-belfiore",
+     "michaela-belfiore",
+     "aidan-belfiore",
+     "enzo-belfiore",
+     "violet-belfiore",
+     "carmella-belfiore",
+     "jessica-belfore"
+    ]
+   },
+   {
+    "id": "circelli",
+    "label": "The Circellis",
+    "option": "The Circellis",
+    "roots": [
+     "giuseppe-circelli",
+     "maria-donata-circelli",
+     "salvatore-circelli",
+     "michele-circelli",
+     "donato-circelli",
+     "matteo-circelli",
+     "lucia-circelli-1856",
+     "maria-filomena-circelli",
+     "maria-lucia-circelli",
+     "michele-circelli-1856"
+    ]
+   },
+   {
+    "id": "hennessy",
+    "label": "The Hennessys",
+    "option": "The Hennessys",
+    "roots": [
+     "dorothy-hennessey-belfiore",
+     "patrick-hennessy",
+     "annie-hussey-hennessy",
+     "james-hennessy-sr",
+     "francis-hennessy",
+     "barbara-hennessy",
+     "hennessy-james-hennessy",
+     "hennessy-frank-hennessy",
+     "hennessy-john-hennessy",
+     "patrick-hennessy-conahy",
+     "mary-hennessy-first",
+     "joseph-hennessy-1898",
+     "thomas-hennessy-1900",
+     "henry-hennessy-1902",
+     "john-hennessy-1906"
+    ]
+   },
+   {
+    "id": "towey",
+    "label": "The Toweys",
+    "option": "The Toweys",
+    "roots": [
+     "frances-towey"
+    ]
+   },
+   {
+    "id": "paternostro",
+    "label": "The Paternostros",
+    "option": "The Paternostros",
+    "roots": [
+     "phyl-paternostro",
+     "angelo-paternostro",
+     "marian-paternostro",
+     "dominick-paternostro",
+     "dorothy-paternostro",
+     "anthony-paternostro",
+     "carl-paternostro",
+     "rosalie-paternostro",
+     "carl-g-paternostro",
+     "philip-j-paternostro"
+    ]
+   },
+   {
+    "id": "donofrio",
+    "label": "The D'Onofrios",
+    "option": "The D'Onofrios",
+    "roots": [
+     "mary-donofrio",
+     "joseph-donofrio",
+     "francis-donofrio",
+     "raymond-donofrio",
+     "leonard-donofrio",
+     "angelina-donofrio",
+     "donald-donofrio",
+     "sharon-donofrio",
+     "rdonofrio-theresa-donofrio",
+     "rdonofrio-frances-donofrio",
+     "rdonofrio-mike-donofrio",
+     "rdonofrio-patrick-donofrio",
+     "rdonofrio-gerard-donofrio"
+    ]
+   },
+   {
+    "id": "drew",
+    "label": "The Drews",
+    "option": "The Drews",
+    "roots": [
+     "mollie-drew",
+     "anthony-drew",
+     "charles-drew",
+     "ruthe-drew",
+     "anthony-drew-jr",
+     "brian-drew",
+     "patrice-drew"
+    ]
+   },
+   {
+    "id": "hussey",
+    "label": "The Husseys",
+    "option": "The Husseys",
+    "roots": [
+     "james-hussey",
+     "marie-dunn",
+     "theodore-hussey",
+     "mary-ellen-hussey",
+     "lizzie-hussey",
+     "frank-hussey"
+    ]
+   }
+  ],
+  "kinAnchors": [
+   {
+    "id": "leonardantonio-belfiore",
+    "name": "Leonardantonio"
+   },
+   {
+    "id": "maria-donata-circelli",
+    "name": "Maria Donata"
+   },
+   {
+    "id": "patrick-hennessy",
+    "name": "Patrick"
+   },
+   {
+    "id": "frances-towey",
+    "name": "Frances"
+   }
+  ],
+  "noscript": "The same places are written out in <a href=\"immigration.html\">The Immigration</a> and <a href=\"research.html\">Research &amp; Records</a>."
  }
 }

@@ -66,7 +66,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "yes",
@@ -103,7 +103,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -140,7 +140,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -257,7 +257,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -396,7 +396,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -529,7 +529,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1258,7 +1258,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1323,7 +1323,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1545,7 +1545,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1667,7 +1667,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1789,7 +1789,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1865,7 +1865,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1989,7 +1989,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2170,7 +2170,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2318,7 +2318,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2501,7 +2501,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2683,7 +2683,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2901,7 +2901,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3078,7 +3078,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3224,7 +3224,7 @@
     "page-immigration"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "demolished",
@@ -3291,7 +3291,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3355,7 +3355,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3416,7 +3416,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3484,7 +3484,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3554,7 +3554,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3638,7 +3638,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3710,7 +3710,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3771,7 +3771,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3904,7 +3904,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3963,7 +3963,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4092,7 +4092,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4306,7 +4306,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4691,7 +4691,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -5110,7 +5110,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -5912,7 +5912,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "yes",
@@ -6349,7 +6349,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6759,7 +6759,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6822,7 +6822,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6884,7 +6884,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8136,7 +8136,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8494,7 +8494,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8696,7 +8696,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8758,7 +8758,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8925,7 +8925,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9512,7 +9512,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9549,7 +9549,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9608,7 +9608,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9732,7 +9732,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9912,7 +9912,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10003,7 +10003,7 @@
    "coordinatePrecision": null,
    "coordinateSourceIds": [],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10094,7 +10094,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
