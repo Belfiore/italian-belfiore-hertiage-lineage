@@ -23,15 +23,15 @@
    "nameVariants": [],
    "confidence": "confirmed",
    "birth": {
-    "date": "1827-02-13",
+    "date": "1827-02-12",
     "dateQualifier": "exact",
-    "display": "Feb 13, 1827",
+    "display": "Feb 12, 1827",
     "place": "San Bartolomeo in Galdo, Italy",
     "sourceIds": [
      "birth-giuseppe-circelli-1827"
     ],
     "confidence": "confirmed",
-    "note": "Birth act 48 of 1827, read on the original page. He was 22, nearly 23, at his marriage in January 1850.",
+    "note": "Birth act 48 of 1827, read on the original page: born 12 February and registered the next day, 13 February. He was 22, nearly 23, at his marriage in January 1850.",
     "alternates": [
      {
       "date": "1827",
@@ -81,11 +81,11 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "summary": "Maria Donata's father, who lived in San Bartolomeo in Galdo and had died by January 1884. He is known from a single line in his daughter's marriage act.",
-   "story": "Giuseppe Circelli is known from one line. When his daughter Maria Donata married in January 1884, the clerk recorded her as the daughter \"del fu Giuseppe\", the late Giuseppe, who had lived in the town during his lifetime.[^marriage-1884] By then he was dead, and so was his wife.\n\nBecause neither parent was alive, the act records that consent to the marriage came from the bride's family council, the consiglio di famiglia, a group of relatives who stood in for parents who had died.[^marriage-1884]\n\nThat is all the records in this collection say about him. His age, his trade and his date of death are not known. Circelli was a common surname in San Bartolomeo in Galdo, and the town's civil registers survive on the Antenati portal, so his death record, and perhaps his marriage, should be findable there.[^research-md]\n\nUpdate, November 2026. Giuseppe's own story now begins in the town's oldest civil registers. He was twenty-three, a farmer, when he promised himself in marriage to Anna Rita Mansolino on 17 January 1850; the clerk noted that his parents, Donato Circelli and Vincenza, had both died.[^marriage-circelli-mansolino-1850] On 3 January 1860 he registered twin daughters, Maria Filomena and Maria Lucia, and on 25 September 1863, at ten in the morning, he brought his new daughter Maria Donata to be recorded. She was baptized that same day.[^birth-circelli-twins-1860][^birth-maria-donata-1863]\n\nUpdate, November 2026: his own birth act has now been found. On 13 February 1827 his father, Donato Circelli, a farm worker of forty-two from Strada Borgo Nuovo, came to the town hall to say that his wife Vincenza, also forty-two, had given birth to a boy at home that day. The boy was named Giuseppe, and the parish priest sent word the next day that he had been baptized.[^birth-giuseppe-circelli-1827] Giuseppe and his wife Anna Rita were born two years and a week apart, in the same small town.",
+   "story": "Giuseppe Circelli is known from one line. When his daughter Maria Donata married in January 1884, the clerk recorded her as the daughter \"del fu Giuseppe\", the late Giuseppe, who had lived in the town during his lifetime.[^marriage-1884] By then he was dead, and so was his wife.\n\nBecause neither parent was alive, the act records that consent to the marriage came from the bride's family council, the consiglio di famiglia, a group of relatives who stood in for parents who had died.[^marriage-1884]\n\nThat is all the records in this collection say about him. His age, his trade and his date of death are not known. Circelli was a common surname in San Bartolomeo in Galdo, and the town's civil registers survive on the Antenati portal, so his death record, and perhaps his marriage, should be findable there.[^research-md]\n\nUpdate, November 2026. Giuseppe's own story now begins in the town's oldest civil registers. He was twenty-three, a farmer, when he promised himself in marriage to Anna Rita Mansolino on 17 January 1850; the clerk noted that his parents, Donato Circelli and Vincenza, had both died.[^marriage-circelli-mansolino-1850] On 3 January 1860 he registered twin daughters, Maria Filomena and Maria Lucia, and on 25 September 1863, at ten in the morning, he brought his new daughter Maria Donata to be recorded. She was baptized that same day.[^birth-circelli-twins-1860][^birth-maria-donata-1863]\n\nUpdate, November 2026: his own birth act has now been found. On 13 February 1827 his father, Donato Circelli, a farm worker of forty-two from Strada Borgo Nuovo, came to the town hall to say that his wife Vincenza, also forty-two, had given birth to a boy the day before, 12 February, in the rented house where they lived. The boy was named Giuseppe, and the parish priest sent word the next day that he had been baptized.[^birth-giuseppe-circelli-1827] Giuseppe and his wife Anna Rita were born two years and about a week apart, in the same small town.\n\nGiuseppe lost both parents young. His father Donato died on 8 November 1839, when Giuseppe was twelve, and his mother Vincenza on 18 October 1843, when he was sixteen.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843]",
    "timeline": [
     {
-     "date": "1827-02-13",
-     "label": "Feb 13, 1827",
+     "date": "1827-02-12",
+     "label": "Feb 12, 1827",
      "event": "Born in San Bartolomeo in Galdo to Donato Circelli and Vincenza Minichillo.",
      "sourceIds": [
       "birth-giuseppe-circelli-1827"
@@ -9626,21 +9626,23 @@
     "display": "~1785",
     "place": null,
     "sourceIds": [
-     "birth-giuseppe-circelli-1827"
+     "birth-giuseppe-circelli-1827",
+     "death-donato-circelli-1839"
     ],
     "confidence": "probable",
-    "note": "Aged 42 in February 1827."
+    "note": "Aged 21 in December 1810, 42 in February 1827 and 46 at his death in 1839, so born somewhere between about 1785 and 1793."
    },
    "death": {
-    "date": null,
-    "dateQualifier": "before",
-    "display": "before 1850",
+    "date": "1839-11-08",
+    "dateQualifier": "exact",
+    "display": "Nov 8, 1839",
     "place": "San Bartolomeo in Galdo, Italy",
     "sourceIds": [
-     "marriage-circelli-mansolino-1850"
+     "death-donato-circelli-1839",
+     "processetti-circelli-mansolino-1850"
     ],
-    "confidence": "probable",
-    "note": "Called \"the late Donato\" in his son's marriage act of 17 January 1850."
+    "confidence": "confirmed",
+    "note": "Death act 218 of 1839, registered 9 November: he died the day before, aged 46."
    },
    "residences": [
     {
@@ -9668,13 +9670,13 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/marriage-circelli-mansolino-1850.jpg",
-   "summary": "Giuseppe Circelli's father, a farm worker born about 1785, the oldest Circelli yet found. He had died by January 1850.",
-   "story": "Donato Circelli is the earliest name yet found on the Circelli side of the family. When his son Giuseppe married in January 1850, the clerk wrote that Giuseppe's father Donato had already died, and so had his mother, Vincenza.[^marriage-circelli-mansolino-1850] The same words, \"son of the late Donato\", follow Giuseppe through his daughters' birth records in 1860 and 1863.[^birth-circelli-twins-1860][^birth-maria-donata-1863]\n\nA Matteo Circelli, also \"son of the late Donato\", married in the same town in 1855, but his mother was Lucia Catalano. If it is the same Donato, Matteo was Giuseppe's half-brother; that link is not proven.[^matrimoni-1855-matteo-circelli]\n\nDonato Circelli was a farm worker in San Bartolomeo in Galdo. On 13 February 1827, aged forty-two, he registered the birth of his son Giuseppe, born that day to his wife Vincenza; the family lived on Strada Borgo Nuovo.[^birth-giuseppe-circelli-1827] He had died by January 1850, when Giuseppe married.[^marriage-circelli-mansolino-1850]",
+   "summary": "Giuseppe Circelli's father, a farm worker in San Bartolomeo in Galdo and the oldest Circelli yet found on this line. He died on 8 November 1839.",
+   "story": "Donato Circelli is the earliest name yet found on the Circelli side of the family. He was the son of Domenico Circelli and Annamaria Catalano, and he worked the land in San Bartolomeo in Galdo.[^death-donato-circelli-1839]\n\nOn 13 February 1827, aged forty-two, he registered the birth of his son Giuseppe, born the day before to his wife Vincenza; the family lived on Strada Borgo Nuovo.[^birth-giuseppe-circelli-1827]\n\nDonato died on 8 November 1839, aged forty-six, still married to Vincenza.[^death-donato-circelli-1839] His own father Domenico, then about eighty, died two months later, on 15 January 1840.[^death-domenico-circelli-1840] Ten years on, a copy of Donato's death act was filed with the papers for Giuseppe's wedding.[^processetti-circelli-mansolino-1850]\n\nA Matteo Circelli, also \"son of the late Donato\", married in the same town in 1855, but his mother was Lucia Catalano. Because Donato was still married to Vincenza when he died, Matteo is more likely the son of another Donato Circelli; that link is not proven.[^matrimoni-1855-matteo-circelli]",
    "timeline": [
     {
      "date": "1827-02-13",
      "label": "Feb 13, 1827",
-     "event": "Registers the birth of his son Giuseppe.",
+     "event": "Registers the birth of his son Giuseppe, born the day before.",
      "sourceIds": [
       "birth-giuseppe-circelli-1827"
      ],
@@ -9682,14 +9684,24 @@
      "confidence": "confirmed"
     },
     {
-     "date": "1850-01-17",
-     "label": "Jan 17, 1850",
-     "event": "Named as already dead when his son Giuseppe marries Anna Rita Mansolino.",
+     "date": "1839-11-08",
+     "label": "Nov 8, 1839",
+     "event": "Dies in San Bartolomeo in Galdo, aged 46.",
      "sourceIds": [
-      "marriage-circelli-mansolino-1850"
+      "death-donato-circelli-1839"
      ],
      "kind": "life",
-     "confidence": "probable"
+     "confidence": "confirmed"
+    },
+    {
+     "date": "1840-01-15",
+     "label": "Jan 15, 1840",
+     "event": "His father Domenico Circelli dies, aged about 80.",
+     "sourceIds": [
+      "death-domenico-circelli-1840"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
     }
    ],
    "facts": [],
@@ -9715,8 +9727,8 @@
    ],
    "openQuestions": [
     {
-     "question": "When and where were Donato and Vincenza born and married?",
-     "record": "San Bartolomeo in Galdo death registers 1809 to 1849 and the 1850 marriage's supporting papers (processetti), on Antenati"
+     "question": "When and where were Donato and Vincenza born, and did they have other children?",
+     "record": "San Bartolomeo in Galdo birth registers about 1785 to 1793, and the birth indexes of 1811 to 1830, on Antenati"
     }
    ],
    "relatedPages": [],
@@ -9767,6 +9779,14 @@
       "birth-giuseppe-circelli-1827"
      ],
      "confidence": "probable"
+    },
+    {
+     "name": "Vincenza Minichillo",
+     "note": "as written in her 1843 death act",
+     "sourceIds": [
+      "death-vincenza-minichillo-1843"
+     ],
+     "confidence": "confirmed"
     }
    ],
    "confidence": "confirmed",
@@ -9776,35 +9796,69 @@
     "display": "~1785",
     "place": null,
     "sourceIds": [
-     "birth-giuseppe-circelli-1827"
+     "birth-giuseppe-circelli-1827",
+     "death-vincenza-minichillo-1843"
     ],
     "confidence": "probable",
-    "note": "Aged 42 in February 1827."
+    "note": "Aged 42 in February 1827 and 55 at her death in 1843, so born about 1785 to 1788."
    },
    "death": {
-    "date": null,
-    "dateQualifier": "before",
-    "display": "before 1850",
+    "date": "1843-10-18",
+    "dateQualifier": "exact",
+    "display": "Oct 18, 1843",
     "place": "San Bartolomeo in Galdo, Italy",
     "sourceIds": [
-     "marriage-circelli-mansolino-1850"
+     "death-vincenza-minichillo-1843",
+     "processetti-circelli-mansolino-1850"
     ],
-    "confidence": "probable"
+    "confidence": "confirmed",
+    "note": "Death act 168 of 1843: died aged 55, a widow."
    },
    "residences": [],
-   "occupations": [],
+   "occupations": [
+    {
+     "title": "Spinner (filatrice)",
+     "employer": null,
+     "place": "San Bartolomeo in Galdo",
+     "years": "1843",
+     "sourceIds": [
+      "death-vincenza-minichillo-1843"
+     ],
+     "confidence": "confirmed"
+    }
+   ],
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/marriage-circelli-mansolino-1850.jpg",
-   "summary": "Giuseppe Circelli's mother, born about 1785. Her surname is written Minichillo in 1827 and is hard to read in 1850; she had died by then.",
-   "story": "Vincenza was Giuseppe Circelli's mother. The 1850 marriage act calls her \"the late Vincenza\", and her surname looks like Minichilli, though the handwriting is hard to read and the spelling may change once another record is found.[^marriage-circelli-mansolino-1850]",
+   "summary": "Giuseppe Circelli's mother, a spinner, daughter of Leonardo Minichillo and Elisabetta delle Donne. Widowed in 1839, she died on 18 October 1843.",
+   "story": "Vincenza was Giuseppe Circelli's mother. Her son's 1827 birth act and her own death act write her surname Minichillo; the 1850 marriage act is harder to read and looks like Minichilli.[^birth-giuseppe-circelli-1827][^marriage-circelli-mansolino-1850]\n\nShe lost her husband Donato in November 1839.[^death-donato-circelli-1839] She died on 18 October 1843, aged fifty-five, described as a spinner (filatrice) and the daughter of the late Leonardo Minichillo and Elisabetta delle Donne.[^death-vincenza-minichillo-1843] A copy of her death act was later filed with Giuseppe's wedding papers.[^processetti-circelli-mansolino-1850]",
    "timeline": [
     {
-     "date": "1827-02-13",
-     "label": "Feb 13, 1827",
-     "event": "Her son Giuseppe is born.",
+     "date": "1827-02-12",
+     "label": "Feb 12, 1827",
+     "event": "Her son Giuseppe is born, on 12 February.",
      "sourceIds": [
       "birth-giuseppe-circelli-1827"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    },
+    {
+     "date": "1839-11-08",
+     "label": "Nov 8, 1839",
+     "event": "Her husband Donato dies.",
+     "sourceIds": [
+      "death-donato-circelli-1839"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    },
+    {
+     "date": "1843-10-18",
+     "label": "Oct 18, 1843",
+     "event": "Dies in San Bartolomeo in Galdo, aged 55.",
+     "sourceIds": [
+      "death-vincenza-minichillo-1843"
      ],
      "kind": "life",
      "confidence": "confirmed"

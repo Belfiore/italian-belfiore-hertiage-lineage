@@ -1671,7 +1671,43 @@
    "date": "1827-02-13",
    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044385",
    "file": "images/birth-giuseppe-circelli-1827-act48.jpg",
-   "note": "Read on the original page in November 2026. Born 13 February 1827 in the family house and registered the same day by his father Donato Circelli, 42, contadino, of Strada Borgo Nuovo. Mother Vincenza Minichillo, 42. Baptism notice returned by the parish priest on 14 February under the name Giuseppe Circelli."
+   "note": "Read on the original page in November 2026. Registered 13 February 1827 by his father Donato Circelli, 42, contadino, of Strada Borgo Nuovo, who said the boy was born the day before, 12 February, at the 15th hour, in a rented house. Mother Vincenza Minichillo, 42. Baptism notice returned by the parish priest on 14 February under the name Giuseppe Circelli."
+  },
+  {
+   "id": "death-donato-circelli-1839",
+   "title": "Atto di morte no. 218: Donato Circelli, husband of Vincenza Minichillo",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Morti 1839, image 111",
+   "date": "1839-11-09",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044471",
+   "note": "Read on the original page in November 2026. Registered 9 November 1839. Donato Circelli, 46, contadino, husband of Vincenza Minichillo, son of Domenico and Annamaria Catalano, died the day before (8 November 1839). A certified copy of this act is filed with his son Giuseppe's 1850 marriage papers."
+  },
+  {
+   "id": "death-vincenza-minichillo-1843",
+   "title": "Atto di morte no. 168: Vincenza Minichillo, widow of Donato Circelli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Morti 1843, image 88",
+   "date": "1843-10-18",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044478",
+   "note": "Read on the original page in November 2026. Vincenza Minichillo, 55, widow of Donato Circelli, daughter of the late Leonardo and Elisabetta delle Donne, died 18 October 1843 at the 18th hour. A certified copy is filed with her son Giuseppe's 1850 marriage papers."
+  },
+  {
+   "id": "death-domenico-circelli-1840",
+   "title": "Atto di morte no. 8: Domenico Circelli, husband of Annamaria Catalano",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Morti 1840, image 6",
+   "date": "1840-01-15",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044472",
+   "note": "Read on the original page in November 2026. Domenico Circelli, 80, contadino, husband of Annamaria Catalano, son of the late Pasquale and Elisabetta Buontempo, died 15 January 1840. He matches the Domenico named as Donato's father in Donato's death act."
+  },
+  {
+   "id": "processetti-circelli-mansolino-1850",
+   "title": "Marriage papers (processetti) for Giuseppe Circelli and Anna Rita Mansolino, 1850",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile della Restaurazione, San Bartolomeo in Galdo, Matrimoni, processetti 1850, images 172 to 185 (the bundle has lost its cover)",
+   "date": "1850-01-17",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36030599",
+   "note": "Read in November 2026. The bundle holds certified copies of the groom's and bride's birth acts and of the deaths of Donato Circelli (1839), Domenico Circelli (1840) and Vincenza Minichillo (1843). The volume is water damaged and the bundles are out of order."
   }
  ]
 }
