@@ -551,26 +551,26 @@
      "personIds": [
       "giuseppe-circelli"
      ],
-     "date": "~1827",
-     "dateStart": "1827",
-     "dateEnd": "1827",
-     "datePrecision": "year",
-     "approximate": true,
+     "date": "Feb 12, 1827",
+     "dateStart": "1827-02-12",
+     "dateEnd": "1827-02-12",
+     "datePrecision": "day",
+     "approximate": false,
      "factRef": "giuseppe-circelli.birth",
      "alsoFactRefs": [],
      "pages": [
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "birth-giuseppe-circelli-1827-act48.jpg"
      ],
      "sourceIds": [
-      "marriage-circelli-mansolino-1850"
+      "birth-giuseppe-circelli-1827"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 23 in January 1850; his age is given as 30 in 1860 and 36 in 1863."
+     "note": "Birth act 48 of 1827. His parents lived on Strada Borgo Nuovo."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-marianna-mita",
@@ -578,30 +578,26 @@
      "personIds": [
       "marianna-mita"
      ],
-     "date": "~1828",
-     "dateStart": "1828",
-     "dateEnd": "1828",
-     "datePrecision": "year",
-     "approximate": true,
+     "date": "Feb 20, 1829",
+     "dateStart": "1829-02-20",
+     "dateEnd": "1829-02-20",
+     "datePrecision": "day",
+     "approximate": false,
      "factRef": "marianna-mita.birth",
      "alsoFactRefs": [],
      "pages": [
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg",
-      "birth-circelli-twins-1860-a.jpg",
-      "birth-maria-donata-circelli-1863.jpg"
+      "birth-anna-rita-mansolino-1829-act49.jpg"
      ],
      "sourceIds": [
-      "marriage-circelli-mansolino-1850",
-      "birth-circelli-twins-1860",
-      "birth-maria-donata-1863"
+      "birth-anna-rita-mansolino-1829"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
-     "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 21 in January 1850; her age is given as 28 in 1860 and 36 in 1863."
+     "summary": "Born. San Bartolomeo in Galdo",
+     "note": "Birth act 49 of 1829. Her father lived on a street read as Strada Macchio."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-matteo-circelli",
@@ -972,10 +968,10 @@
      "sourceIds": [
       "index-births-1884"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Birth index: Belfiore Michele Antonio di Leonardantonio, act 440.",
-     "note": "Probable identification. His American records say 15 December 1885, or 1883 on the 1942 card. The 1883 and 1885 birth indexes, letter B, show no Belfiore. This is not entered as a confirmed birth date."
+     "note": "Index line for act 440. The act itself was read in November 2026 and confirms 15 December 1884."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-leonardantonio-belfiore",
@@ -1136,9 +1132,9 @@
      "personIds": [
       "michael-belfiore"
      ],
-     "date": "Dec 15, 1885",
-     "dateStart": "1885-12-15",
-     "dateEnd": "1885-12-15",
+     "date": "Dec 15, 1884",
+     "dateStart": "1884-12-15",
+     "dateEnd": "1884-12-15",
      "datePrecision": "day",
      "approximate": false,
      "factRef": "michael-belfiore.birth",
@@ -1147,16 +1143,17 @@
       "research.html"
      ],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "birth-michele-1884-act440.jpg"
      ],
      "sourceIds": [
+      "birth-michele-1884",
       "ww1-michael",
       "death-michael-1952"
      ],
      "confidence": "confirmed",
      "familyStatement": false,
-     "summary": "Born. Italy (probably San Bartolomeo in Galdo)",
-     "note": "The WWI card and death certificate say 1885; the WWII card says 1883. His Italian birth record has not been found. The profile says Italy, probably San Bartolomeo in Galdo. The confirmed part is Italy. A probable 1884 index line is entered separately."
+     "summary": "Born. San Bartolomeo in Galdo",
+     "note": "Birth act 440 of 1884 gives 15 December 1884. His WWI card and death certificate say 1885 and his WWII card says 1883. The house is mapped separately at Vico Passaro."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-mary-donofrio",
@@ -1265,7 +1262,7 @@
    "standsTodaySource": null,
    "todayNote": null,
    "status": "new, needs review",
-   "significance": "A reading of the 1860 twin birth acts places the father's domicile at strada Borgo. It needs a second reading before it is treated as settled.",
+   "significance": "The Circelli family's street: Giuseppe Circelli gave strada Borgo as his home when he registered Antonia in 1851, and the 1860 twin acts appear to name it again.",
    "blurb": null,
    "blurbSourceIds": [],
    "boundary": null,
@@ -1299,6 +1296,33 @@
      "familyStatement": false,
      "summary": "The 1860 twin birth acts place the father's domicile at strada Borgo.",
      "note": "New, needs review. The profiles make Maria Filomena and Maria Lucia the children of Giuseppe Circelli and Anna Rita Mansolino, and they record the birthplace as the comune. The act's domicile line reads strada Borgo. The father's given name in that line should be read again before the street is treated as settled. Witness lines on Maria Donata's 1863 act may also read strada Borgo. That line is not entered as her address."
+    },
+    {
+     "id": "pe-strada-borgo-san-bartolomeo-lived-antonia-circelli",
+     "type": "lived",
+     "personIds": [
+      "antonia-circelli",
+      "giuseppe-circelli",
+      "marianna-mita"
+     ],
+     "date": "1851-01-18",
+     "dateStart": "1851-01-18",
+     "dateEnd": "1851-01-18",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "birth-antonia-circelli-1851-act13.jpg"
+     ],
+     "sourceIds": [
+      "birth-antonia-circelli-1851"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "In January 1851 Giuseppe Circelli, registering his daughter Antonia, gave his home as strada Borgo.",
+     "note": null
     }
    ]
   },
@@ -9615,7 +9639,7 @@
    "standsTodaySource": null,
    "todayNote": null,
    "status": "published",
-   "significance": "Patrick Hennessy and Annie Hussey's 1914 marriage index gives the county and does not name a church.",
+   "significance": "Patrick Hennessy and Annie Hussey's 1914 marriage index gives the county and does not name a church. The county court also handled Antonio Belfiora's naturalization (1896 to 1899) and Mary D'Onofrio's (1943).",
    "blurb": null,
    "blurbSourceIds": [],
    "boundary": null,
@@ -9651,6 +9675,52 @@
      "familyStatement": false,
      "summary": "Married. Westchester, New York",
      "note": "The index gives Westchester and does not name a church."
+    },
+    {
+     "id": "pe-westchester-county-naturalization-antonio-belfiore",
+     "type": "civil case",
+     "personIds": [
+      "leonardantonio-belfiore"
+     ],
+     "date": "1899",
+     "dateStart": "1899",
+     "dateEnd": "1899",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "westchester-naturalization-index"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Naturalization: Antonio \"Belfiora\" files a declaration in 1896 and a petition in 1899.",
+     "note": "Index entries only; identity with Leonardantonio is probable, not proven."
+    },
+    {
+     "id": "pe-westchester-county-naturalization-mary-donofrio",
+     "type": "civil case",
+     "personIds": [
+      "mary-donofrio"
+     ],
+     "date": "1943",
+     "dateStart": "1943",
+     "dateEnd": "1943",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "westchester-naturalization-index"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Naturalization petition of Mary (Belfiore) D'Onofrio, 1943.",
+     "note": "Index entry only."
     }
    ]
   },
@@ -10251,6 +10321,126 @@
      "familyStatement": false,
      "summary": "Grew up in Yonkers.",
      "note": "No street is given. The end of these years is not a recorded date."
+    }
+   ]
+  },
+  {
+   "id": "vico-passaro-san-bartolomeo",
+   "name": "Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
+   "historicName": "Vico Passaro",
+   "variants": [
+    "Vico Passero"
+   ],
+   "kind": "home",
+   "address": "no. 17, Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
+   "modernAddress": null,
+   "precision": "town",
+   "lat": 41.409854,
+   "lng": 15.015397,
+   "uncertaintyMetres": 500,
+   "coordinateMethod": "No point found for the lane; drawn at the town centre (the San Bartolomeo in Galdo point) with a wide circle.",
+   "coordinatePrecision": "town",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
+   "country": "Italy",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "new, needs review",
+   "significance": "The house where Michael was born in December 1884, at no. 17 of a lane whose name reads like Vico Passaro.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-vico-passaro-born-michael-belfiore",
+     "type": "born",
+     "personIds": [
+      "michael-belfiore"
+     ],
+     "date": "1884-12-15",
+     "dateStart": "1884-12-15",
+     "dateEnd": "1884-12-15",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "michael-belfiore.birth",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "birth-michele-1884-act440.jpg"
+     ],
+     "sourceIds": [
+      "birth-michele-1884"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Born. No. 17, Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
+     "note": "The street name is hard to read on the scan; Passaro is the best reading."
+    }
+   ]
+  },
+  {
+   "id": "saginaw-country-club",
+   "name": "Saginaw Country Club, Michigan",
+   "historicName": "Saginaw Country Club",
+   "variants": [],
+   "kind": "venue",
+   "address": "Saginaw, Michigan",
+   "modernAddress": null,
+   "precision": "town",
+   "lat": 43.4195,
+   "lng": -83.9508,
+   "uncertaintyMetres": 5000,
+   "coordinateMethod": "Drawn at the city of Saginaw, Michigan (approximate); the club was not geocoded.",
+   "coordinatePrecision": "city",
+   "coordinateSourceIds": [],
+   "drawAs": "halo",
+   "inHomeRegion": false,
+   "country": "United States",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "new, needs review",
+   "significance": "Where Joe Belfore finished one stroke behind the winner of the 1934 Michigan Open.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-saginaw-country-club-joe-belfore-1934",
+     "type": "celebrated",
+     "personIds": [
+      "joe-belfore"
+     ],
+     "date": "1934-07-10",
+     "dateStart": "1934-07-10",
+     "dateEnd": "1934-07-10",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "dfp-1934-michigan-open"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Runner-up by one stroke in the 1934 Michigan Open.",
+     "note": "Headline only; the article has not been read."
     }
    ]
   }
