@@ -5,6 +5,9 @@
  "engine": {
   "channel": "stable"
  },
+ "timeline": {
+  "enabled": true
+ },
  "site": {
   "name": "Belfiore & Circelli",
   "familyName": "the Belfiore and Circelli families",
