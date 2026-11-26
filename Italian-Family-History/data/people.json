@@ -9734,8 +9734,7 @@
    "relatedPages": [],
    "parents": [],
    "children": [
-    "giuseppe-circelli",
-    "matteo-circelli"
+    "giuseppe-circelli"
    ],
    "spouses": [
     {
@@ -9913,7 +9912,7 @@
   {
    "id": "matteo-circelli",
    "displayName": "Matteo Circelli",
-   "disambiguator": "possible half-brother of Giuseppe",
+   "disambiguator": "Circelli of San Bartolomeo, not linked",
    "givenNames": "Matteo",
    "surname": "Circelli",
    "sex": "M",
@@ -9948,8 +9947,8 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/marriage-circelli-palumbo-1855.jpg",
-   "summary": "Possibly Giuseppe's half-brother: also a son of \"the late Donato\", but by Lucia Catalano. Married Anna Palumbo in 1855.",
-   "story": "Matteo Circelli was twenty-one and a farmer when he married Anna Palumbo, eighteen, in San Bartolomeo on 7 January 1855. The act calls him the son of the late Donato and of Lucia Catalano, who was still living.[^matrimoni-1855-matteo-circelli] Their daughter Lucia was born a year later.[^nati-1856-circelli]\n\nGiuseppe Circelli was also a son of a late Donato, but his mother was Vincenza. If the two Donatos are one man, Matteo was Giuseppe's younger half-brother. This is a lead, not a proven link.",
+   "summary": "A Circelli of San Bartolomeo, son of a late Donato and Lucia Catalano. He is probably not Giuseppe's half-brother. Married Anna Palumbo in 1855.",
+   "story": "Matteo Circelli was twenty-one and a farmer when he married Anna Palumbo, eighteen, in San Bartolomeo on 7 January 1855. The act calls him the son of the late Donato and of Lucia Catalano, who was still living.[^matrimoni-1855-matteo-circelli] Their daughter Lucia was born a year later.[^nati-1856-circelli]\n\nGiuseppe Circelli's father was also called Donato, so the two men were once thought to be half-brothers. The death records now argue against it. Giuseppe's father Donato died on 8 November 1839, still married to Giuseppe's mother Vincenza, who outlived him until 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] Matteo was born about 1833, while that marriage was still going, to a different mother. So Matteo's father was most likely another Donato Circelli of the same town, and he is no longer linked to Giuseppe's family in the tree. Circelli was a common name in San Bartolomeo, and the two families may still have been cousins.",
    "timeline": [
     {
      "date": "1855-01-07",
@@ -9988,6 +9987,15 @@
       "matrimoni-1855-matteo-circelli"
      ],
      "confidence": "probable"
+    },
+    {
+     "label": "Note",
+     "value": "Probably the son of a different Donato Circelli: Giuseppe's father died in 1839, still married to Vincenza",
+     "sourceIds": [
+      "death-donato-circelli-1839",
+      "death-vincenza-minichillo-1843"
+     ],
+     "confidence": "probable"
     }
    ],
    "media": [
@@ -10003,19 +10011,16 @@
    ],
    "openQuestions": [
     {
-     "question": "Was Matteo's father the same Donato as Giuseppe's?",
-     "record": "Donato Circelli's death act and both men's birth acts (San Bartolomeo in Galdo, 1820s and 1830s)"
+     "question": "Who was Matteo's father Donato, and how was he related to Giuseppe's family?",
+     "record": "Matteo's birth act (San Bartolomeo in Galdo, about 1833) and the 1855 marriage papers (processetti)"
     }
    ],
    "relatedPages": [],
-   "parents": [
-    "donato-circelli"
-   ],
+   "parents": [],
    "children": [
     "lucia-circelli-1856"
    ],
    "spouses": [],
-   "parentLinkConfidence": "unverified",
    "order": 1,
    "isDirectLine": false,
    "portrait": null,
