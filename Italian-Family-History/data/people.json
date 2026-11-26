@@ -158,11 +158,11 @@
    "openQuestions": [
     {
      "question": "When did he die, and what was his age and occupation?",
-     "record": "His death act in the San Bartolomeo in Galdo civil registers (Antenati portal), searching backwards from 1884."
+     "record": "His death act, between September 1863 and January 1884. San Bartolomeo in Galdo death registers for 1861 to 1935 are not on Antenati, so it has to come from the Archivio di Stato di Benevento or the town hall."
     },
     {
      "question": "Was he related to the Circellis who emigrated to New Rochelle?",
-     "record": "Birth acts of Maria Donata's siblings, which would name Giuseppe as father."
+     "record": "Birth acts of Maria Donata's siblings, which would name Giuseppe as father. The Westchester County incorporation index shows Giovanni Circelli (1904) and Matteo and Michele Circelli (1913) among the founders of Italian clubs in New Rochelle."
     }
    ],
    "relatedPages": [
@@ -389,7 +389,11 @@
     },
     {
      "question": "When did she die?",
-     "record": "Death acts of San Bartolomeo in Galdo before 1884 (Antenati portal)."
+     "record": "Her death act, between September 1863 and January 1884; the death registers for those years are not on Antenati (Archivio di Stato di Benevento)."
+    },
+    {
+     "question": "When was she born, and who were her parents?",
+     "record": "Births of about 1826 to 1830 in San Bartolomeo in Galdo (Antenati, Lucera series). The 1827, 1828 and 1829 indexes were checked under M in November 2026 without a match; the A and R entries (Anna, Rita) still need reading."
     }
    ],
    "relatedPages": [
@@ -2517,7 +2521,7 @@
     },
     {
      "question": "When did he marry Frances Towey?",
-     "record": "New York marriage index, about 1918 to 1921."
+     "record": "Not in the New York State marriage index for 1919, 1920 or 1921 (read page by page in November 2026), nor in New York City's. Look next at Connecticut town clerks (Bridgeport, Greenwich, Stamford) and New Jersey, 1920."
     }
    ],
    "relatedPages": [
@@ -2975,7 +2979,7 @@
     },
     {
      "question": "When and where did she marry Michael?",
-     "record": "New York marriage index, about 1918 to 1921; St. Joseph's or Blessed Sacrament parish records in New Rochelle."
+     "record": "Not in the New York State marriage index for 1919, 1920 or 1921 (read page by page in November 2026), nor in New York City's. Look next at Connecticut town clerks (Bridgeport, Greenwich, Stamford) and New Jersey, 1920. Parish registers in New Rochelle are still worth asking."
     }
    ],
    "relatedPages": [
@@ -6938,6 +6942,10 @@
     {
      "question": "When did she marry, and did she have children?",
      "record": "Connecticut marriage records; the 1940 and 1950 censuses of Hartford."
+    },
+    {
+     "question": "Where is her Italian birth act?",
+     "record": "San Bartolomeo in Galdo births for 1887 to 1891 are not on Antenati, so her act (September 1887) has to come from the Archivio di Stato di Benevento or the town hall."
     }
    ],
    "relatedPages": [
@@ -7455,6 +7463,10 @@
     {
      "question": "When was she born, and when did she marry?",
      "record": "New York marriage indexes; the 1910 and 1920 censuses of New Rochelle."
+    },
+    {
+     "question": "Where is her Italian birth act?",
+     "record": "San Bartolomeo in Galdo births for 1887 to 1891 are not on Antenati, so her act (about 1889) has to come from the Archivio di Stato di Benevento or the town hall."
     }
    ],
    "relatedPages": [
@@ -9926,7 +9938,7 @@
    "cardPlace": "San Bartolomeo in Galdo",
    "photo": "images/thumbs/birth-antonia-circelli-1851-act13.jpg",
    "summary": "The eldest known child of Giuseppe Circelli and Anna Rita Mansolino, born in January 1851. In 1884 she stood witness at the birth of her nephew Michael.",
-   "story": "On 18 January 1851 Giuseppe Circelli, a farm worker of twenty-four whose father Donato had died, came before the mayor of San Bartolomeo with a baby girl born to his wife Margarita Mansolino, twenty-three. They lived on strada Borgo. The girl was named Antonia.[^birth-antonia-circelli-1851] She was twelve years older than her sister Maria Donata.\n\nShe appears once more, as a grown woman. When her nephew Michael was registered on 17 December 1884, the first witness was \"Circelli Antonia fu Giuseppe\", thirty-three, a farm worker: the right name, the right father, already dead by then, and the right age.[^birth-michele-1884] Choosing her suggests the Circelli family stayed close to Maria Donata after she married Leonardantonio. Whom Antonia married, and whether she stayed in Italy, is not yet known.",
+   "story": "On 18 January 1851 Giuseppe Circelli, a farm worker of twenty-four whose father Donato had died, came before the mayor of San Bartolomeo with a baby girl born to his wife Margarita Mansolino, twenty-three. They lived on strada Borgo. The girl was named Antonia.[^birth-antonia-circelli-1851] She was twelve years older than her sister Maria Donata.\n\nShe appears once more, as a grown woman. When her nephew Michael was registered on 17 December 1884, the first witness was \"Circelli Antonia fu Giuseppe\", thirty-three, a farm worker: the right name, the right father, already dead by then, and the right age.[^birth-michele-1884] Choosing her suggests the Circelli family stayed close to Maria Donata after she married Leonardantonio. Whom Antonia married, and whether she stayed in Italy, is not yet known. The town had several women named Antonia Circelli. The marriages of 1886 and 1890 that carry the name turned out to be weddings of their children, not hers.[^marriages-sbg-1886-1890-circelli]",
    "timeline": [
     {
      "date": "1851-01-18",
@@ -9964,7 +9976,7 @@
    "openQuestions": [
     {
      "question": "Whom did she marry?",
-     "record": "San Bartolomeo in Galdo marriages on Antenati; the name index lists Antonia Circelli marriages in 1886 and 1890 that have not yet been read."
+     "record": "San Bartolomeo in Galdo marriages for the years not online (1878 to 1883, 1885, 1887 to 1889, 1891 and 1892), from the Archivio di Stato di Benevento. The 1886 and 1890 entries were read in November 2026 and belong to other women of the same name."
     }
    ],
    "relatedPages": [],
@@ -10987,17 +10999,18 @@
    ],
    "confidence": "probable",
    "birth": {
-    "date": "1909",
-    "dateQualifier": "about",
-    "display": "~1909",
+    "date": "1909-09-29",
+    "dateQualifier": "exact",
+    "display": "Sep 29, 1909",
     "place": "Connecticut",
     "sourceIds": [
      "census-1910-paternostro",
      "census-1920-paternostro",
-     "census-1930-paternostro"
+     "census-1930-paternostro",
+     "numident-paternostro"
     ],
     "confidence": "probable",
-    "note": "An infant in April 1910, 11 in January 1920 and 20 in April 1930."
+    "note": "Social Security records give 29 September 1909. He was an infant in April 1910, 11 in January 1920 and 20 in April 1930."
    },
    "death": {
     "date": "1995-03-09",
@@ -11046,7 +11059,7 @@
    "cardPlace": "Hartford, CT",
    "photo": "images/thumbs/census-1920-paternostro-hartford.jpg",
    "summary": "A child of Phyl (Filomena) and Angelo Paternostro, born in Connecticut.",
-   "story": "Dominick was born in Connecticut about 1909 and was a baby in Bridgeport in 1910. In 1930, at twenty, he was learning the carpenter's trade in Hartford.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro]\n\nDominic F. Paternostro, born in Bridgeport on 29 September 1909, died in Wethersfield on 9 March 1995, aged 85.[^obit-index-dominic-paternostro-1995][^numident-paternostro]",
+   "story": "Dominick was born in Connecticut about 1909 and was a baby in Bridgeport in 1910. In 1930, at twenty, he was learning the carpenter's trade in Hartford.[^census-1910-paternostro][^census-1920-paternostro][^census-1930-paternostro]\n\nDominic F. Paternostro, born in Bridgeport on 29 September 1909, died in Wethersfield on 9 March 1995, aged 85.[^obit-index-dominic-paternostro-1995][^numident-paternostro]\n\nHe married Estelle Chudinski, and their daughter Patricia Estelle was born in Hartford in 1944; she died in 2001.[^paternostro-index-glastonbury] A Domenick Paternostro who married Julia A. Emerick in Westchester County in 1933 is probably a different man. Julia came from Glastonbury, Connecticut, and she and a Dominick Paternostro born in December 1910 both ended their lives there.[^westchester-marriage-index][^paternostro-index-glastonbury]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -11060,7 +11073,12 @@
      "alt": "Handwritten 1920 census lines for the Paternostro family of Hartford"
     }
    ],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Does his 1995 obituary name Angelo and Phyl as his parents?",
+     "record": "Hartford Courant, 10 March 1995, page image (library or newspaper archive)."
+    }
+   ],
    "relatedPages": [],
    "parents": [
     "angelo-paternostro",
