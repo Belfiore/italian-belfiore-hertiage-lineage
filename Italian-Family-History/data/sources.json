@@ -1553,6 +1553,78 @@
    "date": "2026-11-25",
    "url": "https://nominatim.openstreetmap.org/",
    "note": "Used only to place a historic address or a named building, town, comune, or port on the modern map. Not a source for who lived where."
+  },
+  {
+   "id": "birth-michele-1884",
+   "title": "Atto di nascita no. 440: Michele Belfiore, son of Leonardantonio Belfiore and Maria Donata Circelli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Nati 1884 (images 18 and 19)",
+   "date": "1884-12-17",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2585221",
+   "file": "images/birth-michele-1884-act440.jpg",
+   "note": "Read on the original page in November 2026. Born 15 December 1884 at 10:15 am; registered 17 December by his father, aged 23. The name and sex lines are damaged; the Antenati name index gives Michele, son of Leonardantonio and Donata Circelli."
+  },
+  {
+   "id": "birth-antonia-circelli-1851",
+   "title": "Atto di nascita no. 13: Antonia Circelli, daughter of Giuseppe Circelli and Margarita Mansolino",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, Stato civile, San Bartolomeo in Galdo, Nati 1851 (Registro 1204), image 24; index image 2",
+   "date": "1851-01-18",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044511",
+   "file": "images/birth-antonia-circelli-1851-act13.jpg",
+   "note": "Read on the original page in November 2026."
+  },
+  {
+   "id": "birth-rosa-belfiore-1882",
+   "title": "Atto di nascita no. 80: Rosa Belfiore, a stillborn child of an unnamed mother",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Nati 1882, image 54",
+   "date": "1882-03-03",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2582768",
+   "note": "Not a member of the family. Shows the town office giving the surname Belfiore to a child whose mother would not be named."
+  },
+  {
+   "id": "marriage-circelli-petrilli-1893",
+   "title": "Atto di matrimonio no. 25: Salvatore Circelli and Maria Carmela Petrilli",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Matrimoni 1893, image 28",
+   "date": "1893-03-27",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2575638",
+   "file": "images/marriage-circelli-petrilli-1893-act25.jpg",
+   "note": "Read on the original page in November 2026."
+  },
+  {
+   "id": "westchester-naturalization-index",
+   "title": "Westchester County Archives, Naturalization Records Index, 1808 to 1980",
+   "type": "index",
+   "repository": "Westchester County Archives, Elmsford, New York",
+   "url": "https://recordcenter.westchestergov.com/NaturalizationsSearch.aspx",
+   "note": "Searched November 2026. Index entries only; the papers themselves have not been seen."
+  },
+  {
+   "id": "westchester-surrogates-index",
+   "title": "Westchester County Archives, Surrogate's Court records index",
+   "type": "index",
+   "repository": "Westchester County Archives, Elmsford, New York",
+   "url": "https://recordcenter.westchestergov.com/SurrogatesSearch.aspx",
+   "note": "Searched November 2026. Index entry only; the will has not been seen."
+  },
+  {
+   "id": "westchester-marriage-index",
+   "title": "Westchester County Archives, Marriage Records 1908 to 1935, personal name index",
+   "type": "index",
+   "repository": "Westchester County Archives, Elmsford, New York",
+   "url": "https://recordcenter.westchestergov.com/MarriagesSearch.aspx",
+   "note": "Searched November 2026. Both partners are listed under the same certificate number."
+  },
+  {
+   "id": "dfp-1934-michigan-open",
+   "title": "\"Jake Fassezke Beats Belfore by Stroke to Win State Open\", Detroit Free Press, 11 July 1934, p. 15",
+   "type": "newspaper",
+   "repository": "Newspapers.com clipping 12822765",
+   "date": "1934-07-11",
+   "url": "https://www.newspapers.com/article/detroit-free-press-jake-fassezke-beats-b/12822765/",
+   "note": "Headline seen; the article text has not been read."
   }
  ]
 }

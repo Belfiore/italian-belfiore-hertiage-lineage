@@ -2,7 +2,7 @@
  "meta": {
   "schemaVersion": 1,
   "title": "Belfiore & Circelli family",
-  "updated": "2026-11-23",
+  "updated": "2026-11-26",
   "confidenceScale": [
    "confirmed",
    "probable",
@@ -176,6 +176,7 @@
     "vincenza-minichilli"
    ],
    "children": [
+    "antonia-circelli",
     "maria-donata-circelli",
     "maria-filomena-circelli",
     "maria-lucia-circelli"
@@ -240,6 +241,14 @@
       "birth-circelli-twins-1860"
      ],
      "confidence": "probable"
+    },
+    {
+     "name": "Margarita Mansolino",
+     "note": "as written in her daughter Antonia's 1851 birth act; Rita is the short form of Margherita",
+     "sourceIds": [
+      "birth-antonia-circelli-1851"
+     ],
+     "confidence": "probable"
     }
    ],
    "confidence": "probable",
@@ -282,7 +291,7 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "summary": "Maria Donata's mother. Records from 1850, 1860 and 1863 name her Anna Rita (or Rita) Mansolino; earlier research on this site read her name as Marianna Mita.",
-   "story": "Maria Donata's marriage act of January 1884 names her mother with the word fu, \"the late\", and records that she too had lived in San Bartolomeo in Galdo.[^marriage-1884]\n\nHer name needs care. Earlier research on this site gave it as Marianna Mita.[^research-md] A close reading of the scan for this profile does not clearly support Marianna: the handwriting looks more like Mansolina or Marsolina, followed by a short surname that reads as Mita. Old Italian civil hands are hard to read, and a second record would settle it. Until then the tree keeps \"Marianna Mita\" and marks the name as uncertain.[^marriage-1884]\n\nNothing else is known about her yet: not her age, her parents, or when she died.\n\nUpdate, November 2026. Three more records have now been found, and they help with her name. When she married Giuseppe Circelli on 17 January 1850 she was Anna Rita Mansolino, twenty-one, the daughter of Francesco Mansolino, a farmer, and of Brigida.[^marriage-circelli-mansolino-1850] Ten years later she was \"Rita Manzolino\" when her twin girls were born, and \"Rita Mansolino\" again at Maria Donata's birth in 1863.[^birth-circelli-twins-1860][^birth-maria-donata-1863] That fits the fresh reading of the 1884 act above, which saw \"Mansolina\" in the handwriting. The tree now shows her as Anna Rita Mansolino and keeps Marianna Mita as the name earlier research gave her.",
+   "story": "Maria Donata's marriage act of January 1884 names her mother with the word fu, \"the late\", and records that she too had lived in San Bartolomeo in Galdo.[^marriage-1884]\n\nHer name needs care. Earlier research on this site gave it as Marianna Mita.[^research-md] A close reading of the scan for this profile does not clearly support Marianna: the handwriting looks more like Mansolina or Marsolina, followed by a short surname that reads as Mita. Old Italian civil hands are hard to read, and a second record would settle it. Until then the tree keeps \"Marianna Mita\" and marks the name as uncertain.[^marriage-1884]\n\nNothing else is known about her yet: not her age, her parents, or when she died.\n\nUpdate, November 2026. Three more records have now been found, and they help with her name. When she married Giuseppe Circelli on 17 January 1850 she was Anna Rita Mansolino, twenty-one, the daughter of Francesco Mansolino, a farmer, and of Brigida.[^marriage-circelli-mansolino-1850] Ten years later she was \"Rita Manzolino\" when her twin girls were born, and \"Rita Mansolino\" again at Maria Donata's birth in 1863.[^birth-circelli-twins-1860][^birth-maria-donata-1863] That fits the fresh reading of the 1884 act above, which saw \"Mansolina\" in the handwriting. The tree now shows her as Anna Rita Mansolino and keeps Marianna Mita as the name earlier research gave her.\n\nUpdate, November 2026: in January 1851 her husband registered their daughter Antonia and named the mother as Margarita Mansolino, twenty-three.[^birth-antonia-circelli-1851] Rita is the usual short form of Margherita, the husband and the age agree, so Margarita, Anna Rita and Rita are the same woman. Antonia is the eldest child of the marriage found so far.",
    "timeline": [
     {
      "date": "1884-01-27",
@@ -391,6 +400,7 @@
    ],
    "parents": [],
    "children": [
+    "antonia-circelli",
     "maria-donata-circelli",
     "maria-filomena-circelli",
     "maria-lucia-circelli"
@@ -658,7 +668,7 @@
    "cardPlace": "San Bartolomeo · New Rochelle",
    "photo": "images/thumbs/town-vicolo-convento.jpg",
    "summary": "A foundling who married Maria Donata Circelli in San Bartolomeo in Galdo in 1884. The working identification is that he is Anthony Belfiore, father of nine children in New Rochelle, who died there in 1938.",
-   "story": "At five minutes to ten on the morning of January 27, 1884, a twenty-three-year-old farm worker stood in the town hall of San Bartolomeo in Galdo to be married. The clerk wrote his name as Belfiore Lionardantonio. In the spaces for his parents he wrote two phrases: padre ignoto, madre ignota. Father unknown, mother unknown.[^marriage-1884]\n\nThose phrases explain the family name. A child of unknown parents had no surname to inherit, so one was given to him. In Italy such children were often left at the ruota degli esposti, the turning wheel set into the wall of a church or hospital, and the institution or the registrar chose their names.[^ctx-ruota] Some foundling surnames marked the child as abandoned, such as Esposito. Others were simply pleasant words, and Belfiore, \"beautiful flower\", reads like one of these. That is very probably how Leonardantonio came by it, although his own birth and admission records have not been found. It also means the family has no link to the noble Belfiore families of other parts of Italy. The name begins with him.[^research-md]\n\n## The wedding\n\nThe marriage act says he was born in San Bartolomeo in Galdo and lived there. His bride was Maria Donata Circelli, twenty-one, also a farm worker, whose parents were both dead. Her consent came from a council of her relatives. The banns had been read on the 13th and the 20th of January. Two town employees stood as witnesses: a municipal guard aged forty-six and the town hall usher, aged sixty-seven. When the act was read back, only the witnesses signed, \"the others being illiterate\".[^marriage-1884]\n\n## From Leonardantonio to Anthony\n\nNo record in this collection uses the name Leonardantonio after 1884. In America the children's father is Anthony or Antonio. The working identification on this site is that he is the same man. It is a strong case but not a proven one, and it rests on several records that point the same way.\n\n- **The name.** Leonardantonio joins Leonardo and Antonio. Using only Antonio, and then Anthony, is an ordinary change for an Italian immigrant.\n- **The children's records.** Michael's 1952 death certificate names his parents as Anthony Belfiore and Maria Circelli.[^death-michael-1952] Sammy's obituary calls the nine children's parents \"the late Anthony and Maria Cicelli Belfiore\".[^standard-star-obit] Indexed records give Frank's and Lena's parents as Antonio Belfiore and Maria D. Circelli.[^frank-index][^lena-index]\n- **Citizenship.** In 1918 Michael answered the citizenship question in the column for men who became citizens through their father's naturalization while still minors, writing \"Father Papers\".[^ww1-michael] His father, then, was in the United States and naturalized before Michael turned twenty-one, around 1906.\n- **A return voyage.** Earlier research found a 1909 Ellis Island manifest listing a \"Belfiore, Antonio\" from San Bartolomeo as a US citizen returning from Italy.[^manifest-1909]\n- **A death.** The New York State death index lists an Anthony Belfiore who died in New Rochelle on July 11, 1938, certificate 42184.[^ny-death-index-1938]\n\nEarlier versions of this site argued that Leonardantonio died in Italy before 1896, because Maria Donata crossed that year under her own surname. The records point the other way. Italian women kept their birth surnames in civil and travel records, so a list naming her as Circelli says nothing about her husband. And Frank, born in New Rochelle in November 1897, and Sammy, born there on Christmas Day 1899, both had a father named Anthony or Antonio.[^frank-index][^standard-star-obit]\n\n## What we do not know\n\nWhen he left San Bartolomeo, and on which ship, is unknown. The transcription of Michael's death certificate gives Michael 58 years of residence in New Rochelle, which would put Michael's arrival around 1894, two years before Maria Donata's crossing.[^death-michael-1952] Whether father and son came first is a fair question, and the 1900 census should answer it, because it asked every immigrant the year they arrived.\n\nHis burial place is also unknown. Holy Sepulchre Cemetery in New Rochelle, where Michael was buried, is the first place to ask.\n\nUpdate, November 2026. He did come to America, and early. Two days before Christmas 1890 a \"Leonardo Belfiori\" of twenty-nine, from San Bartolomeo, landed in New York on the Hindoustan.[^hindoustan-1890-manifest] In June 1900 the census found him in New Rochelle as Antonio, born in September 1861, married sixteen years, here since 1890 and already a citizen.[^census-1900] Every detail fits the young man who married Maria Donata in 1884.[^marriage-1884] Over the next thirty years the census takers wrote him down as Tony, Anthony and Antonio: a day laborer in 1900, the keeper of a saloon in 1915, a mason in 1925, and by 1920 the owner of the family home.[^census-1905][^census-1915][^census-1920][^census-1925][^census-1930]\n\nUpdate, November 2026: where the family lived. The census takers wrote down the family's front doors as well as their names. In June 1900 they rented a house at 13 Lawton Street. In 1905 they were at house 62 on a street that looks like Cottage Place. By 1910 Antonio owned 41 Brook Street, with a mortgage, and kept his saloon; the family was still at 41 Brook in 1915 and when Sammy registered for the draft in 1918. In January 1920 the census gives 54 Brook Street, again owned (the numbers on the street may have changed in between). In 1925 they were at 39 Albemarle, and by 1930 Antonio and Marie owned 55 Potter Avenue, a house the census valued at $35,000, with a radio in the parlour.[^census-1900][^census-1905][^census-1910][^census-1915][^ww1-samuel][^census-1920][^census-1925][^census-1930] Brook Street stayed in the family's life: in 1930 their son Michael was renting at 52 Brook Street, a few doors from the old home.[^census-1930-michael]",
+   "story": "At five minutes to ten on the morning of January 27, 1884, a twenty-three-year-old farm worker stood in the town hall of San Bartolomeo in Galdo to be married. The clerk wrote his name as Belfiore Lionardantonio. In the spaces for his parents he wrote two phrases: padre ignoto, madre ignota. Father unknown, mother unknown.[^marriage-1884]\n\nThose phrases explain the family name. A child of unknown parents had no surname to inherit, so one was given to him. In Italy such children were often left at the ruota degli esposti, the turning wheel set into the wall of a church or hospital, and the institution or the registrar chose their names.[^ctx-ruota] Some foundling surnames marked the child as abandoned, such as Esposito. Others were simply pleasant words, and Belfiore, \"beautiful flower\", reads like one of these. That is very probably how Leonardantonio came by it, although his own birth and admission records have not been found. It also means the family has no link to the noble Belfiore families of other parts of Italy. The name begins with him.[^research-md]\n\n## The wedding\n\nThe marriage act says he was born in San Bartolomeo in Galdo and lived there. His bride was Maria Donata Circelli, twenty-one, also a farm worker, whose parents were both dead. Her consent came from a council of her relatives. The banns had been read on the 13th and the 20th of January. Two town employees stood as witnesses: a municipal guard aged forty-six and the town hall usher, aged sixty-seven. When the act was read back, only the witnesses signed, \"the others being illiterate\".[^marriage-1884]\n\n## From Leonardantonio to Anthony\n\nNo record in this collection uses the name Leonardantonio after 1884. In America the children's father is Anthony or Antonio. The working identification on this site is that he is the same man. It is a strong case but not a proven one, and it rests on several records that point the same way.\n\n- **The name.** Leonardantonio joins Leonardo and Antonio. Using only Antonio, and then Anthony, is an ordinary change for an Italian immigrant.\n- **The children's records.** Michael's 1952 death certificate names his parents as Anthony Belfiore and Maria Circelli.[^death-michael-1952] Sammy's obituary calls the nine children's parents \"the late Anthony and Maria Cicelli Belfiore\".[^standard-star-obit] Indexed records give Frank's and Lena's parents as Antonio Belfiore and Maria D. Circelli.[^frank-index][^lena-index]\n- **Citizenship.** In 1918 Michael answered the citizenship question in the column for men who became citizens through their father's naturalization while still minors, writing \"Father Papers\".[^ww1-michael] His father, then, was in the United States and naturalized before Michael turned twenty-one, around 1906.\n- **A return voyage.** Earlier research found a 1909 Ellis Island manifest listing a \"Belfiore, Antonio\" from San Bartolomeo as a US citizen returning from Italy.[^manifest-1909]\n- **A death.** The New York State death index lists an Anthony Belfiore who died in New Rochelle on July 11, 1938, certificate 42184.[^ny-death-index-1938]\n\nEarlier versions of this site argued that Leonardantonio died in Italy before 1896, because Maria Donata crossed that year under her own surname. The records point the other way. Italian women kept their birth surnames in civil and travel records, so a list naming her as Circelli says nothing about her husband. And Frank, born in New Rochelle in November 1897, and Sammy, born there on Christmas Day 1899, both had a father named Anthony or Antonio.[^frank-index][^standard-star-obit]\n\n## What we do not know\n\nWhen he left San Bartolomeo, and on which ship, is unknown. The transcription of Michael's death certificate gives Michael 58 years of residence in New Rochelle, which would put Michael's arrival around 1894, two years before Maria Donata's crossing.[^death-michael-1952] Whether father and son came first is a fair question, and the 1900 census should answer it, because it asked every immigrant the year they arrived.\n\nHis burial place is also unknown. Holy Sepulchre Cemetery in New Rochelle, where Michael was buried, is the first place to ask.\n\nUpdate, November 2026. He did come to America, and early. Two days before Christmas 1890 a \"Leonardo Belfiori\" of twenty-nine, from San Bartolomeo, landed in New York on the Hindoustan.[^hindoustan-1890-manifest] In June 1900 the census found him in New Rochelle as Antonio, born in September 1861, married sixteen years, here since 1890 and already a citizen.[^census-1900] Every detail fits the young man who married Maria Donata in 1884.[^marriage-1884] Over the next thirty years the census takers wrote him down as Tony, Anthony and Antonio: a day laborer in 1900, the keeper of a saloon in 1915, a mason in 1925, and by 1920 the owner of the family home.[^census-1905][^census-1915][^census-1920][^census-1925][^census-1930]\n\nUpdate, November 2026: where the family lived. The census takers wrote down the family's front doors as well as their names. In June 1900 they rented a house at 13 Lawton Street. In 1905 they were at house 62 on a street that looks like Cottage Place. By 1910 Antonio owned 41 Brook Street, with a mortgage, and kept his saloon; the family was still at 41 Brook in 1915 and when Sammy registered for the draft in 1918. In January 1920 the census gives 54 Brook Street, again owned (the numbers on the street may have changed in between). In 1925 they were at 39 Albemarle, and by 1930 Antonio and Marie owned 55 Potter Avenue, a house the census valued at $35,000, with a radio in the parlour.[^census-1900][^census-1905][^census-1910][^census-1915][^ww1-samuel][^census-1920][^census-1925][^census-1930] Brook Street stayed in the family's life: in 1930 their son Michael was renting at 52 Brook Street, a few doors from the old home.[^census-1930-michael]\n\nUpdate, November 2026: three new pieces. First, his age. He was twenty-three at his wedding in January 1884 and still twenty-three when he registered Michael's birth that December, and twenty-nine when he landed in New York in December 1890. Put together, those ages point to a birth around January 1861.[^marriage-1884][^birth-michele-1884][^hindoustan-1890-manifest] The town's register of births for 1861 is the one year not yet online, which would explain why he has never turned up in the 1860 index.\n\nSecond, his name. In March 1882 the midwife of San Bartolomeo reported a baby girl, born dead, \"to a woman who does not consent to be named\", and the officer wrote that the child was given the name Rosa \"and the surname Belfiore\".[^birth-rosa-belfiore-1882] It suggests that in this town Belfiore was a surname the civil office gave to children whose parents were not named. Leonardantonio, recorded as son of an unknown father and an unknown mother, very likely received his surname the same way. That is a reasonable reading of the evidence, not yet a proof.\n\nThird, his American paperwork. The Westchester County Archives index lists an Antonio \"Belfiora\" (once written Zelfiora) who filed a declaration of intention in 1896 and a naturalization petition in 1899, which fits the citizen of the 1900 census and Michael's draft card, where Michael said he was a citizen through his father's papers.[^westchester-naturalization-index][^census-1900][^ww1-michael] The same archives hold a will filed in 1938 for Antonio Belfiore of New Rochelle, the year Anthony Belfiore died there.[^westchester-surrogates-index] Neither document has been seen yet; both are worth a copy request, because a will would name his children.",
    "timeline": [
     {
      "date": "1861-03-17",
@@ -691,12 +701,11 @@
      "confidence": "confirmed"
     },
     {
-     "date": "1885-12-15",
-     "label": "Dec 1883 or 1885",
-     "event": "Son Michele (Michael) born in Italy.",
+     "date": "1884-12-15",
+     "label": "Dec 15, 1884",
+     "event": "Son Michele (Michael) born at home in San Bartolomeo; Leonardantonio registers him two days later.",
      "sourceIds": [
-      "ww1-michael",
-      "ww2-michael"
+      "birth-michele-1884"
      ],
      "kind": "life",
      "confidence": "confirmed"
@@ -732,11 +741,11 @@
      "confidence": "probable"
     },
     {
-     "date": "1906",
-     "label": "by c. 1906",
-     "event": "Naturalized as a US citizen, before Michael came of age.",
+     "date": "1899",
+     "label": "1896 to 1899",
+     "event": "As Antonio \"Belfiora\", files his declaration of intention (1896) and his naturalization petition (1899) in Westchester County.",
      "sourceIds": [
-      "ww1-michael"
+      "westchester-naturalization-index"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -797,6 +806,16 @@
      "event": "Keeping a saloon in New Rochelle; Maria Donata reports nine children born, all nine living.",
      "sourceIds": [
       "census-1910"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1938-07",
+     "label": "1938",
+     "event": "A will for Antonio Belfiore of New Rochelle is filed with the Westchester Surrogate's Court.",
+     "sourceIds": [
+      "westchester-surrogates-index"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -1025,7 +1044,7 @@
    "openQuestions": [
     {
      "question": "Is Leonardantonio the Anthony Belfiore of New Rochelle?",
-     "record": "Anthony Belfiore's naturalization file (NARA, New York) should give his birthplace and date of arrival; his 1938 death certificate (no. 42184) should give his age and record his parents as unknown."
+     "record": "The 1899 naturalization petition of Antonio Belfiora and the 1938 will of Antonio Belfiore, both at the Westchester County Archives (copy request), and his 1938 death certificate (no. 42184)."
     },
     {
      "question": "When did he come to America, and did Michael come with him?",
@@ -1042,6 +1061,10 @@
     {
      "question": "How was Margrett M. Elmer, \"niece\" in the 1920 household, related to the family?",
      "record": "Thomas J. Elmer and Annie A. Elmer's marriage record (New York City, about 1903) and Annie's parents"
+    },
+    {
+     "question": "When exactly was he born, and who found him?",
+     "record": "The 1861 births register and the foundling (esposti) register of San Bartolomeo in Galdo, held by the Archivio di Stato di Benevento; not online."
     }
    ],
    "relatedPages": [
@@ -1616,16 +1639,17 @@
    "nameVariants": [],
    "confidence": "probable",
    "birth": {
-    "date": "1869",
-    "dateQualifier": "about",
-    "display": "~1869",
+    "date": "1869-01-01",
+    "dateQualifier": "exact",
+    "display": "Jan 1, 1869",
     "place": "San Bartolomeo in Galdo",
     "sourceIds": [
+     "marriage-circelli-petrilli-1893",
      "alsatia-1898",
      "santanna-1911"
     ],
-    "confidence": "confirmed",
-    "note": "Aged 28 in March 1898 and 42 in November 1911."
+    "confidence": "probable",
+    "note": "The Antenati name index gives 1 January 1869; he was 24 at his marriage in March 1893, 28 in March 1898 and 42 in November 1911."
    },
    "death": null,
    "residences": [
@@ -1661,8 +1685,18 @@
    },
    "cardPlace": "San Bartolomeo · New Rochelle",
    "summary": "A man from San Bartolomeo in Galdo who crossed with Michele Circelli in 1898 and was bound for New Rochelle in 1911. Probably a relative of Maria Donata, but the link is unproven.",
-   "story": "Salvatore Circelli crossed from Naples on the Alsatia, which sailed on February 26, 1898, and reached New York on March 19. He was twenty-eight and could not read or write. On the next line was Michele Circelli, twenty-five. Several men from San Bartolomeo were listed together on that page, and the clerk wrote the town as \"S. Bartolomeo in Calore\".[^alsatia-1898][^alsatia-1898-index]\n\nThirteen years later he crossed again. The Sant'Anna left Naples on November 14, 1911, carrying a married Salvatore Circelli, forty-two, whose final destination was New Rochelle, New York.[^santanna-1911] His two ages agree on a birth around 1869, and the second voyage ties a Circelli of San Bartolomeo directly to the town where Maria Donata's family lived.\n\n## How was he related to Maria Donata?\n\nEarlier research called him her brother or cousin. An online index of San Bartolomeo births lists a Salvatore born on January 1, 1869, and a Michele born on March 12, 1871, both sons of Leonardo Circelli and Rosa Pacifico.[^italyheritage-circelli] If those are the two men on the Alsatia, they were not Maria Donata's brothers, because her parents were Giuseppe Circelli and his wife. They could be cousins. The ages do not match perfectly for Michele, and the index has not been checked against the registers, so the relationship stays open.",
+   "story": "Salvatore Circelli crossed from Naples on the Alsatia, which sailed on February 26, 1898, and reached New York on March 19. He was twenty-eight and could not read or write. On the next line was Michele Circelli, twenty-five. Several men from San Bartolomeo were listed together on that page, and the clerk wrote the town as \"S. Bartolomeo in Calore\".[^alsatia-1898][^alsatia-1898-index]\n\nThirteen years later he crossed again. The Sant'Anna left Naples on November 14, 1911, carrying a married Salvatore Circelli, forty-two, whose final destination was New Rochelle, New York.[^santanna-1911] His two ages agree on a birth around 1869, and the second voyage ties a Circelli of San Bartolomeo directly to the town where Maria Donata's family lived.\n\n## How was he related to Maria Donata?\n\nEarlier research called him her brother or cousin. An online index of San Bartolomeo births lists a Salvatore born on January 1, 1869, and a Michele born on March 12, 1871, both sons of Leonardo Circelli and Rosa Pacifico.[^italyheritage-circelli] If those are the two men on the Alsatia, they were not Maria Donata's brothers, because her parents were Giuseppe Circelli and his wife. They could be cousins. The ages do not match perfectly for Michele, and the index has not been checked against the registers, so the relationship stays open.\n\nUpdate, November 2026: his marriage act has now been read on the original page. On 27 March 1893 Salvatore Circelli, twenty-four, a farm worker born in San Bartolomeo, son of Leonardo and Rosa Pacifico, married Maria Carmela Petrilli, sixteen, daughter of Michele Petrilli. Salvatore signed his own name.[^marriage-circelli-petrilli-1893] That confirms what the online index said about his parents, so he was not Maria Donata's brother. Children named Donato (1894) and Maria Bambina (1897) followed in the town's registers. His wife's name fits the \"Maria Circelli\" given as his wife on the 1911 crossing, so he is very likely the same Salvatore. Whether Leonardo Circelli was a brother or cousin of Maria Donata's father Giuseppe is still open.",
    "timeline": [
+    {
+     "date": "1893-03-27",
+     "label": "Mar 27, 1893",
+     "event": "Marries Maria Carmela Petrilli, sixteen, in San Bartolomeo in Galdo.",
+     "sourceIds": [
+      "marriage-circelli-petrilli-1893"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    },
     {
      "date": "1898-03-19",
      "label": "Mar 19, 1898",
@@ -1732,6 +1766,15 @@
      "sourceId": "santanna-1911",
      "alt": "SS Sant'Anna passenger manifest of November 1911 with the line for Salvatore Circelli highlighted",
      "transcription": "LIST OR MANIFEST OF ALIEN PASSENGERS FOR THE UNITED STATES.\nS.S. Sant'Anna, sailing from Naples, November 14th, 1911.\n\nLine 20. Circelli Salvatore. Age 42. Male. Married. Final destination: N.Y., New Rochelle.\nOther columns on this line (last residence and nearest relative) are only partly legible in this copy."
+    },
+    {
+     "id": "marriage-circelli-petrilli-1893-act25",
+     "file": "images/marriage-circelli-petrilli-1893-act25.jpg",
+     "thumb": "images/thumbs/marriage-circelli-petrilli-1893-act25.jpg",
+     "caption": "Marriage act no. 25 of 1893: Salvatore Circelli and Maria Carmela Petrilli. The box marks the entry.",
+     "type": "document",
+     "sourceId": "marriage-circelli-petrilli-1893",
+     "alt": "Handwritten 1893 Italian civil marriage register page with act 25 boxed in red"
     }
    ],
    "openQuestions": [
@@ -1890,11 +1933,11 @@
    "nameVariants": [
     {
      "name": "Michele Belfiore",
-     "note": "probable Italian birth name; not yet found in a record",
+     "note": "his Italian birth name, from his 1884 birth act and its index",
      "sourceIds": [
-      "research-md"
+      "birth-michele-1884"
      ],
-     "confidence": "probable"
+     "confidence": "confirmed"
     },
     {
      "name": "Michal Kirtus Belfiore",
@@ -1913,17 +1956,26 @@
    ],
    "confidence": "confirmed",
    "birth": {
-    "date": "1885-12-15",
+    "date": "1884-12-15",
     "dateQualifier": "exact",
-    "display": "Dec 15, 1885",
-    "place": "Italy (probably San Bartolomeo in Galdo)",
+    "display": "Dec 15, 1884",
+    "place": "San Bartolomeo in Galdo, Benevento, Italy",
+    "placeId": "san-bartolomeo-in-galdo",
     "sourceIds": [
-     "ww1-michael",
-     "death-michael-1952"
+     "birth-michele-1884"
     ],
     "confidence": "confirmed",
-    "note": "The WWI card and death certificate say 1885; the WWII card says 1883. His Italian birth record has not been found.",
+    "note": "Birth act 440 of 1884, read on the original page: born at 10:15 in the morning in the family house, no. 17 of a lane read as Vico Passaro (reading uncertain).",
     "alternates": [
+     {
+      "date": "1885-12-15",
+      "display": "Dec 15, 1885",
+      "sourceIds": [
+       "ww1-michael",
+       "death-michael-1952"
+      ],
+      "note": "WWI draft card and death certificate"
+     },
      {
       "date": "1883-12-15",
       "display": "Dec 15, 1883",
@@ -2092,7 +2144,7 @@
    },
    "cardPlace": "New Rochelle, NY",
    "summary": "The eldest son and the only one of the four brothers born in Italy. A house painter in New Rochelle for most of his life, married twice, and Seb's great-grandfather.",
-   "story": "Michael Kirtus Belfiore registered for the draft on September 12, 1918, the day the United States called up every man from 18 to 45.[^ctx-ww1-draft] The registrar described him as of medium height and medium build, with brown eyes and black hair. He was thirty-two, a painter, living at 114 Winyah Avenue in New Rochelle and working for an employer whose name reads as Witmark, at 8 Banks Street.[^ww1-michael]\n\nTwo answers on that card matter more than the rest. For citizenship he wrote \"Father Papers\", in the column for men who became citizens through a father's naturalization before they turned twenty-one. And as his nearest relative he named \"(Child) Dorothy Belfiore\" of 216 Hamilton Street, Bridgeport, Connecticut.[^ww1-michael] He signed the card himself: Michael, then a word he struck out, then Belfiore, with Kirtus written underneath.\n\n## Born in Italy\n\nHe was born on December 15, but the year depends on the record. The 1918 card says 1885, and so does the transcription of his death certificate. His 1942 card says 1883.[^ww1-michael][^death-michael-1952][^ww2-michael] The 1940 census gives his age as 55, which fits 1884 or 1885.[^census-1940] His parents married in January 1884, so 1885 is the easier fit, but only his Italian birth record, probably under the name Michele, will settle it. It has not been found.\n\nHe was the only one of the four brothers born in Italy.[^standard-star-obit] When he crossed is unknown. His death certificate gives 58 years of residence, which would mean about 1894.[^death-michael-1952] The 1940 census recorded him as naturalized, which matches the 1918 card: he became a citizen through his father.[^census-1940][^ww1-michael]\n\n## Two marriages\n\nDorothy, the child named on the 1918 card, was living in Bridgeport, apart from her father. Family knowledge holds that she was the daughter of an earlier marriage. The first wife's name is not known.[^family-knowledge]\n\nHis second wife was Frances Towey, an Irish-American born in New York in 1897.[^ssdi-frances][^family-knowledge] In April 1940 the census found them at 488 North Avenue, New Rochelle, with their sons Edward, nineteen, and Joseph, seventeen. Michael had left school after seventh grade. He was out of work and had been looking for thirty-six weeks; in 1939 he had worked sixteen weeks as a building painter and earned $200. Frances worked twenty hours a week in a high school cafeteria and had earned $420. Joseph, still in school, worked as a grocery delivery boy.[^census-1940]\n\n## The non-golfing brother\n\nWhile his three younger brothers became golf professionals at clubs from Daytona Beach to Grosse Pointe, Michael stayed in New Rochelle and painted. Sammy's obituary called him \"their non-golfing brother\".[^standard-star-obit]\n\nIn April 1942 he registered again, in the \"old man's registration\" for men born between 1877 and 1897.[^ctx-ww2-fourth] He lived at 48 Coligni Avenue and had no telephone. His employer was Alfred A. Last of 141 Chauncey Avenue. The person who would always know his address was \"Wife, same address\".[^ww2-michael]\n\nHe died at New Rochelle Hospital on January 16, 1952, of arteriosclerotic heart disease, and was buried at Holy Sepulchre Cemetery three days later. Frances was the informant on his death certificate. His last address was 46 Mechanic Street.[^death-michael-1952] His grandson William, Seb's uncle, was not yet two.[^family-william]\n\nUpdate, November 2026. Michael crossed with his mother on the Oregon in December 1896, a boy of twelve listed as Michele.[^oregon-1896-manifest] In Italy, the 1884 birth index for San Bartolomeo lists \"Belfiore Michele Antonio, son of Leonardantonio\" as act 440, a number beyond the 417 acts of the main register, so the act sits in a supplementary register that is not online.[^index-births-1884] His cards and censuses give 1883 and 1885, so the act itself, once it can be read, should settle his year.\n\nTwo more censuses tell us about the years between his marriages. In January 1920 Michael was a widower of thirty-four, lodging with a family in New Rochelle and managing a bowling alley of his own; the same census also lists a \"Mike\", thirty-six, at his parents' home, very likely the same man counted twice.[^census-1920-michael][^census-1920] By 1930 he was married to Frances, working again as a house painter, with Dorothy, seventeen, and the boys Edward and Joseph at home.[^census-1930-michael] On that census he gave his age at first marriage as thirty-seven, which seems to describe his marriage to Frances about 1920 rather than his first.\n\nUpdate, November 2026: Michael's addresses. In 1900 and 1905 he lived with his parents on Lawton Street and at house 62. In 1920, a widower, he lodged on North Avenue with John and Margaret Stephens; twenty years later his own family lived at 488 North Avenue. In 1930 he, Frances and the children rented 52 Brook Street, a few doors from 41 and 54 Brook, where his parents had lived.[^census-1900][^census-1905][^census-1920-michael][^census-1930-michael][^census-1940] In 1950 the census found him, aged sixty-five, at home with Frances and Edward.[^census-1950-frances]",
+   "story": "Michael Kirtus Belfiore registered for the draft on September 12, 1918, the day the United States called up every man from 18 to 45.[^ctx-ww1-draft] The registrar described him as of medium height and medium build, with brown eyes and black hair. He was thirty-two, a painter, living at 114 Winyah Avenue in New Rochelle and working for an employer whose name reads as Witmark, at 8 Banks Street.[^ww1-michael]\n\nTwo answers on that card matter more than the rest. For citizenship he wrote \"Father Papers\", in the column for men who became citizens through a father's naturalization before they turned twenty-one. And as his nearest relative he named \"(Child) Dorothy Belfiore\" of 216 Hamilton Street, Bridgeport, Connecticut.[^ww1-michael] He signed the card himself: Michael, then a word he struck out, then Belfiore, with Kirtus written underneath.\n\n## Born in Italy\n\nHe was born on December 15, but the year depends on the record. The 1918 card says 1885, and so does the transcription of his death certificate. His 1942 card says 1883.[^ww1-michael][^death-michael-1952][^ww2-michael] The 1940 census gives his age as 55, which fits 1884 or 1885.[^census-1940] His parents married in January 1884, so 1885 is the easier fit, but only his Italian birth record, probably under the name Michele, will settle it. It has not been found.\n\nHe was the only one of the four brothers born in Italy.[^standard-star-obit] When he crossed is unknown. His death certificate gives 58 years of residence, which would mean about 1894.[^death-michael-1952] The 1940 census recorded him as naturalized, which matches the 1918 card: he became a citizen through his father.[^census-1940][^ww1-michael]\n\n## Two marriages\n\nDorothy, the child named on the 1918 card, was living in Bridgeport, apart from her father. Family knowledge holds that she was the daughter of an earlier marriage. The first wife's name is not known.[^family-knowledge]\n\nHis second wife was Frances Towey, an Irish-American born in New York in 1897.[^ssdi-frances][^family-knowledge] In April 1940 the census found them at 488 North Avenue, New Rochelle, with their sons Edward, nineteen, and Joseph, seventeen. Michael had left school after seventh grade. He was out of work and had been looking for thirty-six weeks; in 1939 he had worked sixteen weeks as a building painter and earned $200. Frances worked twenty hours a week in a high school cafeteria and had earned $420. Joseph, still in school, worked as a grocery delivery boy.[^census-1940]\n\n## The non-golfing brother\n\nWhile his three younger brothers became golf professionals at clubs from Daytona Beach to Grosse Pointe, Michael stayed in New Rochelle and painted. Sammy's obituary called him \"their non-golfing brother\".[^standard-star-obit]\n\nIn April 1942 he registered again, in the \"old man's registration\" for men born between 1877 and 1897.[^ctx-ww2-fourth] He lived at 48 Coligni Avenue and had no telephone. His employer was Alfred A. Last of 141 Chauncey Avenue. The person who would always know his address was \"Wife, same address\".[^ww2-michael]\n\nHe died at New Rochelle Hospital on January 16, 1952, of arteriosclerotic heart disease, and was buried at Holy Sepulchre Cemetery three days later. Frances was the informant on his death certificate. His last address was 46 Mechanic Street.[^death-michael-1952] His grandson William, Seb's uncle, was not yet two.[^family-william]\n\nUpdate, November 2026. Michael crossed with his mother on the Oregon in December 1896, a boy of twelve listed as Michele.[^oregon-1896-manifest] In Italy, the 1884 birth index for San Bartolomeo lists \"Belfiore Michele Antonio, son of Leonardantonio\" as act 440, a number beyond the 417 acts of the main register, so the act sits in a supplementary register that is not online.[^index-births-1884] His cards and censuses give 1883 and 1885, so the act itself, once it could be read, would settle his year.\n\nTwo more censuses tell us about the years between his marriages. In January 1920 Michael was a widower of thirty-four, lodging with a family in New Rochelle and managing a bowling alley of his own; the same census also lists a \"Mike\", thirty-six, at his parents' home, very likely the same man counted twice.[^census-1920-michael][^census-1920] By 1930 he was married to Frances, working again as a house painter, with Dorothy, seventeen, and the boys Edward and Joseph at home.[^census-1930-michael] On that census he gave his age at first marriage as thirty-seven, which seems to describe his marriage to Frances about 1920 rather than his first.\n\nUpdate, November 2026: Michael's addresses. In 1900 and 1905 he lived with his parents on Lawton Street and at house 62. In 1920, a widower, he lodged on North Avenue with John and Margaret Stephens; twenty years later his own family lived at 488 North Avenue. In 1930 he, Frances and the children rented 52 Brook Street, a few doors from 41 and 54 Brook, where his parents had lived.[^census-1900][^census-1905][^census-1920-michael][^census-1930-michael][^census-1940] In 1950 the census found him, aged sixty-five, at home with Frances and Edward.[^census-1950-frances]\n\nUpdate, November 2026: Michael's birth act has been found and read. It is act 440 of the 1884 births, and it turned out to be online after all, on the 18th page of the register as Antenati now shows it. On 17 December 1884 his father Leonardantonio, twenty-three and a farm worker, came to the town hall to report that his wife Donata Circelli had given birth to a boy at a quarter past ten in the morning of 15 December, at home, at number 17 of a lane whose name reads like Vico Passaro.[^birth-michele-1884] So Michael was born on 15 December 1884, the date his draft cards remembered, in the year that sits between the two years they gave. One of the two witnesses was Antonia Circelli, daughter of the late Giuseppe: his mother's elder sister, his aunt. Nobody in the room but the officer could write.",
    "timeline": [
     {
      "date": "1885-12-15",
@@ -2432,13 +2484,29 @@
      "type": "document",
      "sourceId": "nysdi-1952-michael",
      "alt": "Typed 1952 death index entry"
+    },
+    {
+     "id": "birth-michele-1884-act440",
+     "file": "images/birth-michele-1884-act440.jpg",
+     "thumb": "images/thumbs/birth-michele-1884-act440.jpg",
+     "caption": "Michael's birth act, no. 440, San Bartolomeo in Galdo, 17 December 1884. The box marks his entry.",
+     "type": "document",
+     "sourceId": "birth-michele-1884",
+     "alt": "Handwritten 1884 Italian civil birth register page with act 440 boxed in red",
+     "transcription": "Num. 440. [Year 1884, 17 December, 10:40 am, before Giuseppe De Paola, assessore delegato.] Appeared Belfiore Leonardantonio, aged 23, contadino, living in Sambartolomeo, who declared that at 10:15 am on the 15th of this month, in the house at Vico Passaro(?) no. 17, a child was born to Circelli [Donata], contadina, his wife. [Name and sex lines damaged; the index reads Michele.] Witnesses: Circelli Antonia fu Giuseppe, 33, contadina, and Popolillo Antonio fu Giovanni, 65, serviente comunale. Read to all; signed by the officer alone, the others being unable to write.",
+     "translation": "On 17 December 1884 Leonardantonio Belfiore, a 23-year-old farm worker, reported that his wife Donata Circelli had given birth to a son at home on 15 December. The witnesses were Antonia Circelli, daughter of the late Giuseppe, and the town messenger Antonio Popolillo."
+    },
+    {
+     "id": "birth-michele-1884-act440-witnesses",
+     "file": "images/birth-michele-1884-act440-witnesses.jpg",
+     "thumb": "images/thumbs/birth-michele-1884-act440-witnesses.jpg",
+     "caption": "The end of act 440 on the next page: the witnesses Antonia Circelli and Antonio Popolillo.",
+     "type": "document",
+     "sourceId": "birth-michele-1884",
+     "alt": "Second page of the 1884 birth act 440 with the witness lines boxed"
     }
    ],
    "openQuestions": [
-    {
-     "question": "Was he born in 1883 or 1885?",
-     "record": "His birth act (as Michele Belfiore) in the San Bartolomeo in Galdo registers, December 1883 and December 1885."
-    },
     {
      "question": "When did he arrive, and with whom?",
      "record": "The 1900 census of New Rochelle (year of immigration); passenger lists around 1894 to 1896."
@@ -2450,10 +2518,6 @@
     {
      "question": "When did he marry Frances Towey?",
      "record": "New York marriage index, about 1918 to 1921."
-    },
-    {
-     "question": "Was he born in December 1883, 1884 or 1885?",
-     "record": "Act 440 of the 1884 births, in a supplementary register of San Bartolomeo in Galdo that is not online (Archivio di Stato di Benevento)"
     }
    ],
    "relatedPages": [
@@ -4303,7 +4367,7 @@
    "photo": "images/thumbs/avatar-joe.jpg",
    "portrait": "images/thumbs/portrait-joe.jpg",
    "summary": "Head professional at the Country Club of Detroit for many years, author of Golfing Aids (1940), and by earlier research a two-time Michigan PGA champion. Not to be confused with his nephew Joseph, Seb's grandfather.",
-   "story": "In 1940 the professional at the Country Club of Detroit published a slim green booklet of lessons, priced at twenty-five cents. The title page reads Golfing Aids, by Joe Belfore, Professional, Country Club of Detroit. One surviving copy is signed \"Sincerely, Joe Belfore, Detroit, Michigan, April 4, 1940\", beside a photograph of the author in a white shirt and tie, his chin resting on his hand. It opens with the grip and stance, and its pages show him demonstrating the drive and a fairway wood.[^golfing-aids-1940] That copy came from the PGA REACH collection and was sold in 2025 with a letter of provenance signed by Bob Denney, the PGA of America's historian emeritus.[^pga-reach-letter-2025]\n\nJoe was one of three Belfiore brothers from New Rochelle who became golf professionals, at a time when most professionals and club makers in America were from abroad, \"usually Scotch\", as Sammy's obituary put it.[^standard-star-obit] Like Sammy, he wrote the name Belfore.\n\n## Florida winters, Michigan summers\n\nIn January 1929 he was working as a professional at Daytona Highlands in Florida, the same club as Sammy. At a tournament at Mount Plymouth that month, his pairing finished on 150, level with Sammy's.[^dbnj-1929-01-07] Like many northern club professionals, he seems to have worked in Florida for the winter season.\n\nHis main post was the Country Club of Detroit in Grosse Pointe Farms, Michigan, where he was head professional and ran the golf shop.[^golfing-aids-1940][^ccd-minutes-1963] Earlier research, drawing on the Michigan PGA's centennial history, records that he won the Michigan PGA championship in 1933 and 1937 and served as president of the Michigan PGA in 1959 and 1960. The same research found him in the field for the 1927 Metropolitan Open with Walter Hagen and Gene Sarazen, and in Golfdom magazine in January 1934.[^mipga-centennial][^nyt-1927][^golfdom-1934-01] In May 1948 the Daytona Beach papers reported that he had qualified for the PGA tournament at St. Louis.[^dbmj-1948-05-21]\n\n## 1963\n\nJoe died in 1963 after a long illness. On October 29 the club's Board of Governors set up a committee to find a professional \"for the position of Golf Professional left vacant by the death of Joe Belfore\". Mrs. Belfore had written the board a letter of appreciation. The board voted her $750 \"as a gift to her\" to help with debts from his illness, let her keep the golf shop open through Christmas until January 2, 1964, and paid his assistant, Danny Bianco, to carry on through the winter. It also gave his two sons, David and Joseph F. Jr., known as Jeffery, two years of personal golfing privileges at the club.[^ccd-minutes-1963]\n\n## Two Josephs\n\nThis Joe is Seb's great-great-uncle. Seb's grandfather, also Joseph, was the son of Joe's brother Michael. Earlier versions of this site said the younger Joseph was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it.\n\nUpdate, November 2026. Joe's draft card gives his full name, Joseph Francis Belfore, and his birthday, 5 February 1904, in New Rochelle; the person who would always know his address was his sister, Miss Rose Belfore, back home.[^ww2-joe] He had turned professional young: the 1925 census already lists him, at twenty-one, as a golf pro, and in 1931 a Washington paper noted \"young Joe Belfore of New Rochelle\" finishing third in the West Coast Open.[^census-1925][^evening-star-1931-03-01] He went on to win the Michigan PGA Championship in 1933 and 1937, served as the section's president in 1959 and 1960, and was twice its Professional of the Year.[^mipga-records] In the spring of 1941 Golfdom noted that the Joe Belfores were admiring a new baby boy.[^golfdom-1941-04] He died in October 1963 after a long illness; Golfdom's tribute followed in January.[^ccd-minutes-1963][^obit-index-joe-1963][^golfdom-1964-01]\n\nUpdate, November 2026: Joe's home and more from Golfdom. Joe's 1942 card gives his home as 276 Merriweather in Grosse Pointe Farms, telephone Niagara 3226, and the club at 330 Country Club Drive; the 1950 census taker wrote the same house number, 276, beside his name. His brother Frank wrote \"200 Merriweather\" for him on his own card, probably a slip of memory.[^ww2-joe][^census-1950-joe][^ww2-frank] Golfdom kept noticing him: in October 1933, on Al Watrous's testimonial day at Oakland Hills, Joe partnered Watrous against Horton Smith and Frank Walsh and lost only on the 18th green, then spoke at the dinner that evening; in January 1960 he was Michigan's nominee for national Golf Professional of the Year; and that June, as president of the Michigan PGA, he gave a lesson and clinic for three hundred public-course golfers.[^golfdom-1934-01][^golfdom-1960-01][^golfdom-1960-06]\n\nHis obituary in the Detroit Free Press of 25 October 1963, as indexed, gives his death as 21 October 1963 in Grosse Pointe Farms and names his wife Ruth and his sons David and Jeff.[^obit-index-joe-belfore-1963-survivors]",
+   "story": "In 1940 the professional at the Country Club of Detroit published a slim green booklet of lessons, priced at twenty-five cents. The title page reads Golfing Aids, by Joe Belfore, Professional, Country Club of Detroit. One surviving copy is signed \"Sincerely, Joe Belfore, Detroit, Michigan, April 4, 1940\", beside a photograph of the author in a white shirt and tie, his chin resting on his hand. It opens with the grip and stance, and its pages show him demonstrating the drive and a fairway wood.[^golfing-aids-1940] That copy came from the PGA REACH collection and was sold in 2025 with a letter of provenance signed by Bob Denney, the PGA of America's historian emeritus.[^pga-reach-letter-2025]\n\nJoe was one of three Belfiore brothers from New Rochelle who became golf professionals, at a time when most professionals and club makers in America were from abroad, \"usually Scotch\", as Sammy's obituary put it.[^standard-star-obit] Like Sammy, he wrote the name Belfore.\n\n## Florida winters, Michigan summers\n\nIn January 1929 he was working as a professional at Daytona Highlands in Florida, the same club as Sammy. At a tournament at Mount Plymouth that month, his pairing finished on 150, level with Sammy's.[^dbnj-1929-01-07] Like many northern club professionals, he seems to have worked in Florida for the winter season.\n\nHis main post was the Country Club of Detroit in Grosse Pointe Farms, Michigan, where he was head professional and ran the golf shop.[^golfing-aids-1940][^ccd-minutes-1963] Earlier research, drawing on the Michigan PGA's centennial history, records that he won the Michigan PGA championship in 1933 and 1937 and served as president of the Michigan PGA in 1959 and 1960. The same research found him in the field for the 1927 Metropolitan Open with Walter Hagen and Gene Sarazen, and in Golfdom magazine in January 1934.[^mipga-centennial][^nyt-1927][^golfdom-1934-01] In May 1948 the Daytona Beach papers reported that he had qualified for the PGA tournament at St. Louis.[^dbmj-1948-05-21]\n\n## 1963\n\nJoe died in 1963 after a long illness. On October 29 the club's Board of Governors set up a committee to find a professional \"for the position of Golf Professional left vacant by the death of Joe Belfore\". Mrs. Belfore had written the board a letter of appreciation. The board voted her $750 \"as a gift to her\" to help with debts from his illness, let her keep the golf shop open through Christmas until January 2, 1964, and paid his assistant, Danny Bianco, to carry on through the winter. It also gave his two sons, David and Joseph F. Jr., known as Jeffery, two years of personal golfing privileges at the club.[^ccd-minutes-1963]\n\n## Two Josephs\n\nThis Joe is Seb's great-great-uncle. Seb's grandfather, also Joseph, was the son of Joe's brother Michael. Earlier versions of this site said the younger Joseph was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it.\n\nUpdate, November 2026. Joe's draft card gives his full name, Joseph Francis Belfore, and his birthday, 5 February 1904, in New Rochelle; the person who would always know his address was his sister, Miss Rose Belfore, back home.[^ww2-joe] He had turned professional young: the 1925 census already lists him, at twenty-one, as a golf pro, and in 1931 a Washington paper noted \"young Joe Belfore of New Rochelle\" finishing third in the West Coast Open.[^census-1925][^evening-star-1931-03-01] He went on to win the Michigan PGA Championship in 1933 and 1937, served as the section's president in 1959 and 1960, and was twice its Professional of the Year.[^mipga-records] In the spring of 1941 Golfdom noted that the Joe Belfores were admiring a new baby boy.[^golfdom-1941-04] He died in October 1963 after a long illness; Golfdom's tribute followed in January.[^ccd-minutes-1963][^obit-index-joe-1963][^golfdom-1964-01]\n\nUpdate, November 2026: Joe's home and more from Golfdom. Joe's 1942 card gives his home as 276 Merriweather in Grosse Pointe Farms, telephone Niagara 3226, and the club at 330 Country Club Drive; the 1950 census taker wrote the same house number, 276, beside his name. His brother Frank wrote \"200 Merriweather\" for him on his own card, probably a slip of memory.[^ww2-joe][^census-1950-joe][^ww2-frank] Golfdom kept noticing him: in October 1933, on Al Watrous's testimonial day at Oakland Hills, Joe partnered Watrous against Horton Smith and Frank Walsh and lost only on the 18th green, then spoke at the dinner that evening; in January 1960 he was Michigan's nominee for national Golf Professional of the Year; and that June, as president of the Michigan PGA, he gave a lesson and clinic for three hundred public-course golfers.[^golfdom-1934-01][^golfdom-1960-01][^golfdom-1960-06]\n\nHis obituary in the Detroit Free Press of 25 October 1963, as indexed, gives his death as 21 October 1963 in Grosse Pointe Farms and names his wife Ruth and his sons David and Jeff.[^obit-index-joe-belfore-1963-survivors]\n\nUpdate, November 2026: in July 1934, between his two Michigan PGA titles, a \"Belfore\" came within one stroke of winning the Michigan Open at Saginaw Country Club. The Detroit Free Press headline the next morning read \"Jake Fassezke Beats Belfore by Stroke to Win State Open\".[^dfp-1934-michigan-open] Joe, then the professional at the Country Club of Detroit, is almost certainly the Belfore meant, though the article itself has not yet been read.",
    "timeline": [
     {
      "date": "1927-05-25",
@@ -4421,6 +4485,16 @@
      "event": "Registers for the draft, naming his sister Rose as the person who will always know his address.",
      "sourceIds": [
       "ww2-joe"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1934-07-10",
+     "label": "Jul 10, 1934",
+     "event": "Finishes one stroke behind Jake Fassezke in the Michigan Open at Saginaw Country Club.",
+     "sourceIds": [
+      "dfp-1934-michigan-open"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -7275,7 +7349,7 @@
    },
    "cardPlace": "Hollywood, FL",
    "summary": "One of the five Belfiore sisters. She married Joseph D'Onofrio and in 1972 lived in Hollywood, Florida.",
-   "story": "Mary is listed in her brother Sammy's obituaries as \"Mrs. Joseph (Mary) D'Onofrio of Hollywood, Fla.\" and \"Mrs. Mary D'Onofrio\".[^standard-star-obit][^dben-1972-02-17] Nothing else about her is documented here yet.\n\nUpdate, November 2026. Mary was born in San Bartolomeo in October 1889 and crossed on the Oregon at six, listed as Anna.[^census-1900][^oregon-1896-manifest] On 10 December 1911 she married Joseph (Giuseppe) D'Onofrio in New Rochelle.[^marriage-index-1911] The D'Onofrio family remembers that the couple settled in Millburn, New Jersey, and raised six children: Leonard, Angelina, Frank, Donald, Raymond and Dolores.[^donofrio-post-2010] Two of their sons' Social Security records name their mother as Mary Belfore or Belfiore.[^ssdi-numident-family]\n\nThe censuses fill in the family's homes. Their two eldest, Leonard and Angelina, were born in New Jersey, which fits the D'Onofrio family's memory of New Jersey; by 1920 the family was in Yonkers, where they stayed through 1940, owning their home by 1930.[^census-1920-donofrio][^census-1930-donofrio][^census-1940-donofrio] The family's memory of Millburn is kept here too: the censuses have not yet found them there, but it may belong to the New Jersey years or to later life.[^donofrio-post-2010] In 1910, just before her marriage, Mary seems to appear at home as \"Mattie, daughter, eighteen, born in Italy, came in 1896\"; with Michael and Phyl living elsewhere, that makes exactly the nine children her mother reported.[^census-1910]\n\nUpdate, November 2026: Mary's homes. In 1920 Mary and Joseph rented at 23 Lockwood Avenue, Yonkers; by 1930 they owned 91 Buckingham Road; and in 1940 they rented on Beech Street.[^census-1920-donofrio][^census-1930-donofrio][^census-1940-donofrio]",
+   "story": "Mary is listed in her brother Sammy's obituaries as \"Mrs. Joseph (Mary) D'Onofrio of Hollywood, Fla.\" and \"Mrs. Mary D'Onofrio\".[^standard-star-obit][^dben-1972-02-17] Nothing else about her is documented here yet.\n\nUpdate, November 2026. Mary was born in San Bartolomeo in October 1889 and crossed on the Oregon at six, listed as Anna.[^census-1900][^oregon-1896-manifest] On 10 December 1911 she married Joseph (Giuseppe) D'Onofrio in New Rochelle.[^marriage-index-1911] The D'Onofrio family remembers that the couple settled in Millburn, New Jersey, and raised six children: Leonard, Angelina, Frank, Donald, Raymond and Dolores.[^donofrio-post-2010] Two of their sons' Social Security records name their mother as Mary Belfore or Belfiore.[^ssdi-numident-family]\n\nThe censuses fill in the family's homes. Their two eldest, Leonard and Angelina, were born in New Jersey, which fits the D'Onofrio family's memory of New Jersey; by 1920 the family was in Yonkers, where they stayed through 1940, owning their home by 1930.[^census-1920-donofrio][^census-1930-donofrio][^census-1940-donofrio] The family's memory of Millburn is kept here too: the censuses have not yet found them there, but it may belong to the New Jersey years or to later life.[^donofrio-post-2010] In 1910, just before her marriage, Mary seems to appear at home as \"Mattie, daughter, eighteen, born in Italy, came in 1896\"; with Michael and Phyl living elsewhere, that makes exactly the nine children her mother reported.[^census-1910]\n\nUpdate, November 2026: Mary's homes. In 1920 Mary and Joseph rented at 23 Lockwood Avenue, Yonkers; by 1930 they owned 91 Buckingham Road; and in 1940 they rented on Beech Street.[^census-1920-donofrio][^census-1930-donofrio][^census-1940-donofrio]\n\nUpdate, November 2026: the Westchester County Archives index also lists her wedding, as Maria Belfiore and Giuseppe D'Onofrio, under one certificate number in 1911.[^westchester-marriage-index] And it lists a naturalization petition of 1943 by Mary D'Onofrio, with her maiden name Belfiore beside it.[^westchester-naturalization-index] That is a telling detail. As a child she had most likely become an American through her father's naturalization in 1899, but under the law of 1907 an American woman who married a foreign citizen lost her own citizenship. Joseph did not file his first papers until 1922, so Mary, who had lived in America since the age of six, had to apply in her own name. The petition itself, not yet seen, should give her birth date and place and her arrival in 1896.",
    "timeline": [
     {
      "date": "1972-02",
@@ -7313,6 +7387,16 @@
      "event": "Living in Yonkers with Joseph, four children and Joseph's brother Anthony.",
      "sourceIds": [
       "census-1920-donofrio"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1943",
+     "label": "1943",
+     "event": "Files her own naturalization petition in Westchester County as Mary (Belfiore) D'Onofrio.",
+     "sourceIds": [
+      "westchester-naturalization-index"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -9793,6 +9877,110 @@
    "isLiving": false
   },
   {
+   "id": "antonia-circelli",
+   "displayName": "Antonia Circelli",
+   "disambiguator": "Maria Donata's elder sister",
+   "givenNames": "Antonia",
+   "surname": "Circelli",
+   "sex": "F",
+   "generation": 2,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "birth": {
+    "date": "1851-01-18",
+    "dateQualifier": "exact",
+    "display": "Jan 18, 1851",
+    "place": "San Bartolomeo in Galdo, Italy",
+    "placeId": "san-bartolomeo-in-galdo",
+    "sourceIds": [
+     "birth-antonia-circelli-1851"
+    ],
+    "confidence": "confirmed",
+    "note": "Birth act 13 of 1851. Her father lived on strada Borgo."
+   },
+   "death": null,
+   "residences": [
+    {
+     "place": "San Bartolomeo in Galdo, Italy",
+     "placeId": "strada-borgo-san-bartolomeo",
+     "address": "strada Borgo",
+     "years": "1851",
+     "sourceIds": [
+      "birth-antonia-circelli-1851"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "occupations": [
+    {
+     "title": "Farm worker (contadina)",
+     "place": "San Bartolomeo in Galdo",
+     "years": "1884",
+     "sourceIds": [
+      "birth-michele-1884"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "immigration": null,
+   "cardPlace": "San Bartolomeo in Galdo",
+   "photo": "images/thumbs/birth-antonia-circelli-1851-act13.jpg",
+   "summary": "The eldest known child of Giuseppe Circelli and Anna Rita Mansolino, born in January 1851. In 1884 she stood witness at the birth of her nephew Michael.",
+   "story": "On 18 January 1851 Giuseppe Circelli, a farm worker of twenty-four whose father Donato had died, came before the mayor of San Bartolomeo with a baby girl born to his wife Margarita Mansolino, twenty-three. They lived on strada Borgo. The girl was named Antonia.[^birth-antonia-circelli-1851] She was twelve years older than her sister Maria Donata.\n\nShe appears once more, as a grown woman. When her nephew Michael was registered on 17 December 1884, the first witness was \"Circelli Antonia fu Giuseppe\", thirty-three, a farm worker: the right name, the right father, already dead by then, and the right age.[^birth-michele-1884] Choosing her suggests the Circelli family stayed close to Maria Donata after she married Leonardantonio. Whom Antonia married, and whether she stayed in Italy, is not yet known.",
+   "timeline": [
+    {
+     "date": "1851-01-18",
+     "label": "Jan 18, 1851",
+     "event": "Born in San Bartolomeo in Galdo; her father registers her the same day.",
+     "sourceIds": [
+      "birth-antonia-circelli-1851"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    },
+    {
+     "date": "1884-12-17",
+     "label": "Dec 17, 1884",
+     "event": "Witness at the registration of her nephew Michele (Michael) Belfiore.",
+     "sourceIds": [
+      "birth-michele-1884"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    }
+   ],
+   "facts": [],
+   "media": [
+    {
+     "id": "birth-antonia-circelli-1851-act13",
+     "file": "images/birth-antonia-circelli-1851-act13.jpg",
+     "thumb": "images/thumbs/birth-antonia-circelli-1851-act13.jpg",
+     "caption": "Antonia Circelli's birth act, no. 13, 18 January 1851. The box marks her entry.",
+     "type": "document",
+     "sourceId": "birth-antonia-circelli-1851",
+     "alt": "Handwritten 1851 Italian civil birth register page with act 13 boxed in red"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "Whom did she marry?",
+     "record": "San Bartolomeo in Galdo marriages on Antenati; the name index lists Antonia Circelli marriages in 1886 and 1890 that have not yet been read."
+    }
+   ],
+   "relatedPages": [],
+   "parents": [
+    "giuseppe-circelli",
+    "marianna-mita"
+   ],
+   "children": [],
+   "spouses": [],
+   "parentLinkConfidence": "confirmed",
+   "order": 0,
+   "isDirectLine": false,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
    "id": "maria-filomena-circelli",
    "displayName": "Maria Filomena Circelli",
    "disambiguator": "twin; Maria Donata's older sister",
@@ -9847,7 +10035,7 @@
    "children": [],
    "spouses": [],
    "parentLinkConfidence": "confirmed",
-   "order": 0,
+   "order": 1,
    "isDirectLine": false,
    "portrait": null,
    "isLiving": false
@@ -9902,7 +10090,7 @@
    "children": [],
    "spouses": [],
    "parentLinkConfidence": "confirmed",
-   "order": 1,
+   "order": 2,
    "isDirectLine": false,
    "portrait": null,
    "isLiving": false
