@@ -22,7 +22,15 @@
     "styles.css"
    ]
   },
-  "map": null,
+  "map": {
+   "file": "map.html",
+   "title": "Family Map | Belfiore & Circelli",
+   "description": "An interactive map of where the Belfiore and Circelli families were born, lived, married, worked, died and were buried, from San Bartolomeo in Galdo to New Rochelle and beyond, with a timeline you can play.",
+   "heading": "The Family Map",
+   "stylesheets": [
+    "styles.css"
+   ]
+  },
   "ask": null
  },
  "nav": [
@@ -37,6 +45,10 @@
   {
    "href": "tree-canvas.html",
    "label": "Interactive Canvas"
+  },
+  {
+   "href": "map.html",
+   "label": "Family Map"
   },
   {
    "href": "immigration.html",
@@ -102,7 +114,17 @@
   "--pc-conf-unverified-bg": "rgba(139, 32, 32, 0.05)",
   "--pc-lb-bg": "rgba(18, 17, 14, 0.97)",
   "--pc-lb-side": "#1c1b17",
-  "--pc-lb-strip": "#2a2823"
+  "--pc-lb-strip": "#2a2823",
+  "--fm-bg": "#f4ecdd",
+  "--fm-bg-2": "#efe5d2",
+  "--fm-paper": "#fffdf8",
+  "--fm-rule": "#d8c9ab",
+  "--fm-ink": "#1f1d1a",
+  "--fm-ink-2": "#3d3830",
+  "--fm-muted": "#6b5537",
+  "--fm-gold": "#8a6410",
+  "--fm-accent": "#1a5c2a",
+  "--fm-accent-deep": "#0d3318"
  },
  "data": {
   "dir": "data"
@@ -180,5 +202,261 @@
  },
  "publish": {
   "exclude": []
+ },
+ "map": {
+  "home": {
+   "name": "New Rochelle and New York",
+   "bounds": [
+    [
+     -74.3,
+     40.55
+    ],
+    [
+     -73.3,
+     41.35
+    ]
+   ]
+  },
+  "historicMaps": null,
+  "branches": [
+   {
+    "id": "belfiore",
+    "label": "The Belfiores of New Rochelle",
+    "pages": [
+     "immigration.html",
+     "golfing-brothers.html"
+    ],
+    "default": true
+   },
+   {
+    "id": "circelli",
+    "label": "The Circellis of San Bartolomeo",
+    "pages": [],
+    "people": [
+     "antonia-circelli",
+     "brigida-mansolino",
+     "donato-circelli",
+     "francesco-mansolino",
+     "giuseppe-circelli",
+     "lucia-circelli-1856",
+     "maria-filomena-circelli",
+     "maria-lucia-circelli",
+     "marianna-mita",
+     "matteo-circelli",
+     "michele-circelli",
+     "michele-circelli-1856",
+     "salvatore-circelli",
+     "vincenza-minichilli"
+    ]
+   },
+   {
+    "id": "hennessy",
+    "label": "The Hennessys of New Rochelle (Dorothy's family)",
+    "pages": [],
+    "people": [
+     "anne-latino",
+     "annie-hussey-hennessy",
+     "barbara-hennessy",
+     "catherine-cullen",
+     "dillon-fr-robert-w-dillon",
+     "dillon-janet-d-manfre",
+     "dillon-janet-d-manfre-spouse",
+     "dillon-laura-e-lawson",
+     "dillon-laura-e-lawson-spouse",
+     "dillon-martin-p-dillon",
+     "dillon-pamela-a-dillon",
+     "dillon-timothy-w-dillon",
+     "dillon-william-k-dillon-jr",
+     "dillon-william-k-dillon-jr-spouse",
+     "francis-hennessy",
+     "frank-hussey",
+     "hennessy-frank-hennessy",
+     "hennessy-james-hennessy",
+     "hennessy-john-hennessy",
+     "hennessy-nancy-morelli",
+     "hennessy-sue-ann-power",
+     "henry-hennessy-1902",
+     "james-hennessy-sr",
+     "james-hussey",
+     "john-hennessy-1906",
+     "joseph-hennessy-1898",
+     "joseph-latino",
+     "kate-brennan",
+     "latino-jo-anne-latino",
+     "latino-jo-anne-latino-spouse",
+     "latino-marilyn-bell",
+     "latino-marilyn-bell-spouse",
+     "latino-michael-latino",
+     "latino-michael-latino-spouse",
+     "lizzie-hussey",
+     "maria-martin",
+     "mary-ellen-hussey",
+     "mary-hennessy-first",
+     "patricia-dillon",
+     "patrick-hennessy",
+     "patrick-hennessy-conahy",
+     "theodore-hussey",
+     "thomas-hennessy-1900",
+     "william-dillon-sr"
+    ]
+   },
+   {
+    "id": "paternostro",
+    "label": "The Paternostros (Phyllis's family)",
+    "pages": [],
+    "people": [
+     "angelo-paternostro",
+     "anthony-paternostro",
+     "carl-g-paternostro",
+     "carl-paternostro",
+     "dominick-paternostro",
+     "dorothy-paternostro",
+     "marian-paternostro",
+     "philip-j-paternostro",
+     "phyl-paternostro",
+     "rosalie-paternostro"
+    ]
+   },
+   {
+    "id": "donofrio",
+    "label": "The D'Onofrios (Mary's family)",
+    "pages": [],
+    "people": [
+     "angelina-donofrio",
+     "dolores-donofrio",
+     "donald-donofrio",
+     "francis-donofrio",
+     "joseph-donofrio",
+     "leonard-donofrio",
+     "mary-donofrio",
+     "raymond-donofrio",
+     "raymond-saggio",
+     "rdonofrio-donna-mitchell",
+     "rdonofrio-frances-donofrio",
+     "rdonofrio-gerard-donofrio",
+     "rdonofrio-jill-kubinski",
+     "rdonofrio-lisa-garneau",
+     "rdonofrio-mike-donofrio",
+     "rdonofrio-patrick-donofrio",
+     "rdonofrio-theresa-donofrio",
+     "saggio-carol-maring",
+     "saggio-carol-maring-spouse",
+     "saggio-edward-saggio",
+     "saggio-edward-saggio-spouse",
+     "saggio-marthanne-mciver",
+     "saggio-marthanne-mciver-spouse",
+     "saggio-steven-saggio",
+     "saggio-steven-saggio-spouse",
+     "saggio-william-saggio",
+     "saggio-william-saggio-spouse",
+     "sharon-donofrio"
+    ]
+   },
+   {
+    "id": "drew",
+    "label": "The Drews (Mollie's family)",
+    "pages": [],
+    "people": [
+     "alexander-hendrie",
+     "anthony-drew",
+     "anthony-drew-jr",
+     "brett-hendrie",
+     "brian-drew",
+     "charles-drew",
+     "kelly-hendrie",
+     "matthew-hendrie",
+     "mollie-drew",
+     "patrice-drew",
+     "patricia-drew-hendrie",
+     "ruthe-drew"
+    ]
+   }
+  ],
+  "kinAnchors": [
+   {
+    "id": "seb-belfiore",
+    "name": "Seb"
+   },
+   {
+    "id": "leonardantonio-belfiore",
+    "name": "Leonardantonio"
+   },
+   {
+    "id": "patrick-hennessy",
+    "name": "Patrick"
+   }
+  ],
+  "families": [
+   {
+    "id": "seb",
+    "label": "Seb's family",
+    "option": "Seb's family (Belfiore, Circelli and Towey)",
+    "roots": [
+     "seb-belfiore"
+    ]
+   },
+   {
+    "id": "leonardantonio",
+    "label": "Leonardantonio and Maria Donata's family",
+    "option": "Leonardantonio and Maria Donata's children and their forebears",
+    "roots": [
+     "michael-belfiore",
+     "frank-belfore",
+     "joe-belfore",
+     "sammy-belfore",
+     "rose-belfiore",
+     "caroline-belfiore",
+     "mollie-drew",
+     "phyl-paternostro",
+     "mary-donofrio",
+     "lena-belfiore",
+     "carmella-belfiore"
+    ]
+   },
+   {
+    "id": "hennessy",
+    "label": "Dorothy's Hennessy family",
+    "option": "Dorothy's Hennessy family",
+    "roots": [
+     "dorothy-hennessey-belfiore",
+     "joseph-hennessy-1898",
+     "thomas-hennessy-1900",
+     "henry-hennessy-1902",
+     "john-hennessy-1906",
+     "james-hennessy-sr",
+     "francis-hennessy",
+     "catherine-cullen",
+     "maria-martin",
+     "patricia-dillon",
+     "anne-latino"
+    ]
+   },
+   {
+    "id": "paternostro",
+    "label": "The Paternostros",
+    "option": "Phyllis's family (Paternostro)",
+    "roots": [
+     "marian-paternostro",
+     "dominick-paternostro",
+     "dorothy-paternostro",
+     "anthony-paternostro",
+     "carl-paternostro"
+    ]
+   },
+   {
+    "id": "donofrio",
+    "label": "The D'Onofrios",
+    "option": "Mary's family (D'Onofrio)",
+    "roots": [
+     "leonard-donofrio",
+     "angelina-donofrio",
+     "francis-donofrio",
+     "donald-donofrio",
+     "raymond-donofrio",
+     "dolores-donofrio"
+    ]
+   }
+  ],
+  "noscript": "The same places are told in <a href=\"immigration.html\">The Immigration</a>, <a href=\"golfing-brothers.html\">The Golfing Brothers</a> and <a href=\"research.html\">Research &amp; Records</a>."
  }
 }
