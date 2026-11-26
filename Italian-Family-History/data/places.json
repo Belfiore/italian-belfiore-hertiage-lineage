@@ -1373,6 +1373,56 @@
      "familyStatement": false,
      "summary": "Living in San Bartolomeo in Galdo, 1829 to 1850.",
      "note": null
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-born-giovanniangelo-circelli",
+     "type": "born",
+     "personIds": [
+      "giovanniangelo-circelli"
+     ],
+     "date": "Feb 27, 1830",
+     "dateStart": "1830-02-27",
+     "dateEnd": "1830-02-27",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "giovanniangelo-circelli.birth",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../birth-giovanniangelo-circelli-1830-act51.jpg"
+     ],
+     "sourceIds": [
+      "birth-giovanniangelo-circelli-1830"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Born. San Bartolomeo in Galdo, Italy",
+     "note": "Birth act 51 of 1830. His parents lived on Strada Borgo Nuovo."
+    },
+    {
+     "id": "pe-san-bartolomeo-in-galdo-married-giovanniangelo-circelli",
+     "type": "married",
+     "personIds": [
+      "giovanniangelo-circelli"
+     ],
+     "date": "Nov 1, 1855",
+     "dateStart": "1855-11-01",
+     "dateEnd": "1855-11-01",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../marriage-giovanniangelo-circelli-1855-act44.jpg"
+     ],
+     "sourceIds": [
+      "marriage-1855-giovanniangelo-circelli"
+     ],
+     "confidence": "confirmed",
+     "familyStatement": false,
+     "summary": "Married Maria d'Andrea. San Bartolomeo in Galdo",
+     "note": "Marriage promise act 44 of 1855; church wedding the same day."
     }
    ]
   },
@@ -6222,6 +6272,121 @@
      "familyStatement": false,
      "summary": "Buried. Holy Sepulchre Cemetery, New Rochelle",
      "note": null
+    },
+    {
+     "id": "pe-holy-sepulchre-buried-maria-donata-circelli",
+     "type": "buried",
+     "personIds": [
+      "maria-donata-circelli"
+     ],
+     "date": "Holy Sepulchre Cemetery, New Rochelle",
+     "dateStart": null,
+     "dateEnd": null,
+     "datePrecision": "unknown",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "findagrave-marie-d-belfiore"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Buried at Holy Sepulchre Cemetery.",
+     "note": "Find a Grave memorial 328410140 (Marie D. Belfiore). Burial date not given."
+    },
+    {
+     "id": "pe-holy-sepulchre-buried-leonardantonio-belfiore",
+     "type": "buried",
+     "personIds": [
+      "leonardantonio-belfiore"
+     ],
+     "date": "Holy Sepulchre Cemetery, New Rochelle",
+     "dateStart": null,
+     "dateEnd": null,
+     "datePrecision": "unknown",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "findagrave-anthony-belfiore"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Buried at Holy Sepulchre Cemetery.",
+     "note": "Find a Grave memorial 328799813 (Anthony Belfiore, died 11 July 1938). Burial date not given."
+    },
+    {
+     "id": "pe-holy-sepulchre-buried-frances-towey",
+     "type": "buried",
+     "personIds": [
+      "frances-towey"
+     ],
+     "date": "Holy Sepulchre Cemetery, New Rochelle",
+     "dateStart": null,
+     "dateEnd": null,
+     "datePrecision": "unknown",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "findagrave-frances-towey-belfiore"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Buried at Holy Sepulchre Cemetery.",
+     "note": "Find a Grave memorial 281145747. Burial date not given."
+    },
+    {
+     "id": "pe-holy-sepulchre-buried-james-towey",
+     "type": "buried",
+     "personIds": [
+      "james-towey"
+     ],
+     "date": "Holy Sepulchre Cemetery, New Rochelle",
+     "dateStart": null,
+     "dateEnd": null,
+     "datePrecision": "unknown",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "findagrave-james-towey-sr"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Buried at Holy Sepulchre Cemetery.",
+     "note": "Find a Grave memorial 281144260."
+    },
+    {
+     "id": "pe-holy-sepulchre-buried-margaret-towey",
+     "type": "buried",
+     "personIds": [
+      "margaret-towey"
+     ],
+     "date": "Holy Sepulchre Cemetery, New Rochelle",
+     "dateStart": null,
+     "dateEnd": null,
+     "datePrecision": "unknown",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "findagrave-margaret-towey"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Buried at Holy Sepulchre Cemetery.",
+     "note": "Find a Grave memorial 281144407."
     }
    ]
   },
@@ -8338,6 +8503,52 @@
      "familyStatement": false,
      "summary": "Probably died in New Rochelle, 27 June 1947, aged 70.",
      "note": "From the New York State death index, certificate 38983. The certificate itself has not been seen, so this stays probable."
+    },
+    {
+     "id": "pe-new-rochelle-died-james-towey",
+     "type": "died",
+     "personIds": [
+      "james-towey"
+     ],
+     "date": "Sep 4, 1945",
+     "dateStart": "1945-09-04",
+     "dateEnd": "1945-09-04",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "james-towey.death",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "nysdi-1945-james-towey"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Died. New Rochelle, New York",
+     "note": null
+    },
+    {
+     "id": "pe-new-rochelle-died-margaret-towey",
+     "type": "died",
+     "personIds": [
+      "margaret-towey"
+     ],
+     "date": "Jan 24, 1938",
+     "dateStart": "1938-01-24",
+     "dateEnd": "1938-01-24",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "margaret-towey.death",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "nysdi-1938-margaret-towey"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Died. New Rochelle, New York",
+     "note": null
     }
    ]
   },
