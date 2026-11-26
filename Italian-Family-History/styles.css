@@ -1152,3 +1152,6 @@ details > summary {
     max-width: 100%;
     object-fit: contain;
 }
+
+/* Family map: the engine draws its place clusters in its own red; keep them in this site's green. */
+.mk-c { background: radial-gradient(circle at 35% 30%, #2a7a3d, var(--fm-accent-deep, #0d3318)); box-shadow: 0 0 0 4px rgba(26, 92, 42, .16), 0 3px 8px rgba(20, 30, 10, .35); }

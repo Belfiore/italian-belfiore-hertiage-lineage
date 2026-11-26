@@ -2,7 +2,7 @@
  "meta": {
   "schemaVersion": 1,
   "updated": "2026-11-26",
-  "homeRegion": "Italy",
+  "homeRegion": "New Rochelle and New York",
   "note": "The places on the family map, one dataset for the whole site. Started as the address directory of 25 November 2026, brought up to date with main after pull requests 19 to 21, and checked place by place on 26 November 2026. Every place has coordinates and a coordinate source. A place whose street or building could not be found today is drawn as a circle over the town the record names, and its coordinateMethod says so.",
   "counts": {
    "places": 106,
@@ -47,9 +47,11 @@
     "area": 9,
     "halo": 59,
     "pin": 38
-   }
+   },
+   "inHomeRegion": 45
   },
-  "mapTurnedOn": "2026-11-26"
+  "mapTurnedOn": "2026-11-26",
+  "recordCropsNote": "The engine looks for record crops in images/records/. This site keeps its record images in images/, so each crop is written ../file.jpg, which the browser reads as images/file.jpg."
  },
  "places": [
   {
@@ -70,7 +72,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "yes",
@@ -107,7 +109,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -144,7 +146,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -175,8 +177,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1910-paternostro-bridgeport.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro",
@@ -225,8 +227,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -261,7 +263,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -292,7 +294,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-lucia-1856.jpg"
+      "../birth-circelli-lucia-1856.jpg"
      ],
      "sourceIds": [
       "nati-1856-circelli"
@@ -317,7 +319,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -342,7 +344,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -367,7 +369,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-maria-donata-circelli-1863.jpg"
+      "../birth-maria-donata-circelli-1863.jpg"
      ],
      "sourceIds": [
       "birth-maria-donata-1863"
@@ -400,7 +402,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -433,7 +435,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hindoustan-1890-leonardo.jpg"
+      "../hindoustan-1890-leonardo.jpg"
      ],
      "sourceIds": [
       "hindoustan-1890-manifest"
@@ -465,7 +467,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -494,7 +496,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "salvatore-circelli-santanna-1911-manifest.png"
+      "../salvatore-circelli-santanna-1911-manifest.png"
      ],
      "sourceIds": [
       "santanna-1911"
@@ -533,7 +535,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -566,7 +568,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-giuseppe-circelli-1827-act48.jpg"
+      "../birth-giuseppe-circelli-1827-act48.jpg"
      ],
      "sourceIds": [
       "birth-giuseppe-circelli-1827"
@@ -593,7 +595,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-anna-rita-mansolino-1829-act49.jpg"
+      "../birth-anna-rita-mansolino-1829-act49.jpg"
      ],
      "sourceIds": [
       "birth-anna-rita-mansolino-1829"
@@ -620,7 +622,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-palumbo-1855.jpg"
+      "../marriage-circelli-palumbo-1855.jpg"
      ],
      "sourceIds": [
       "matrimoni-1855-matteo-circelli"
@@ -645,8 +647,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg",
-      "birth-maria-donata-circelli-1863.jpg"
+      "../marriage-circelli-mansolino-1850.jpg",
+      "../birth-maria-donata-circelli-1863.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850",
@@ -672,7 +674,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../marriage-circelli-mansolino-1850.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850"
@@ -697,7 +699,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../marriage-circelli-mansolino-1850.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850"
@@ -722,7 +724,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-palumbo-1855.jpg"
+      "../marriage-circelli-palumbo-1855.jpg"
      ],
      "sourceIds": [
       "matrimoni-1855-matteo-circelli"
@@ -749,7 +751,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-lucia-1856.jpg"
+      "../birth-circelli-lucia-1856.jpg"
      ],
      "sourceIds": [
       "nati-1856-circelli"
@@ -776,7 +778,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-lucia-1856.jpg"
+      "../birth-circelli-lucia-1856.jpg"
      ],
      "sourceIds": [
       "nati-1856-circelli"
@@ -803,7 +805,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -830,7 +832,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -857,8 +859,8 @@
       "research.html"
      ],
      "recordCrops": [
-      "census-1900-belfiore.jpg",
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../census-1900-belfiore.jpg",
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "census-1900",
@@ -886,7 +888,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "birth-maria-donata-circelli-1863.jpg"
+      "../birth-maria-donata-circelli-1863.jpg"
      ],
      "sourceIds": [
       "birth-maria-donata-1863"
@@ -913,8 +915,8 @@
       "research.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png",
-      "salvatore-circelli-santanna-1911-manifest.png"
+      "../michele-salvatore-ship-list-highlighted.png",
+      "../salvatore-circelli-santanna-1911-manifest.png"
      ],
      "sourceIds": [
       "alsatia-1898",
@@ -942,7 +944,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -967,7 +969,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -992,7 +994,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1017,7 +1019,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1045,7 +1047,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1070,7 +1072,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1095,7 +1097,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1122,7 +1124,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "census-1900-belfiore.jpg"
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1900"
@@ -1147,7 +1149,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1175,7 +1177,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -1395,7 +1397,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1427,7 +1429,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-circelli-twins-1860-a.jpg"
+      "../birth-circelli-twins-1860-a.jpg"
      ],
      "sourceIds": [
       "birth-circelli-twins-1860"
@@ -1454,7 +1456,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-antonia-circelli-1851-act13.jpg"
+      "../birth-antonia-circelli-1851-act13.jpg"
      ],
      "sourceIds": [
       "birth-antonia-circelli-1851"
@@ -1487,7 +1489,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1521,7 +1523,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "../marriage-circelli-mansolino-1850.jpg"
      ],
      "sourceIds": [
       "marriage-circelli-mansolino-1850"
@@ -1549,7 +1551,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "attodi-nascita-maria-circelli-marriage-certificate2.png"
+      "../attodi-nascita-maria-circelli-marriage-certificate2.png"
      ],
      "sourceIds": [
       "marriage-1884"
@@ -1616,7 +1618,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hennessy-baptism-1874-patrick.jpg"
+      "../hennessy-baptism-1874-patrick.jpg"
      ],
      "sourceIds": [
       "hennessy-baptism-1874"
@@ -1677,8 +1679,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-baptism-1874-patrick.jpg",
-      "hussey-marriage-1914.jpg"
+      "../hennessy-baptism-1874-patrick.jpg",
+      "../hussey-marriage-1914.jpg"
      ],
      "sourceIds": [
       "hennessy-baptism-1874",
@@ -1709,7 +1711,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1742,7 +1744,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1920.jpg"
+      "../hennessy-census-1920.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1920"
@@ -1827,7 +1829,7 @@
    "lat": 40.911539,
    "lng": -73.782636,
    "uncertaintyMetres": 2500,
-   "coordinateMethod": "No Winyah Avenue is on today's map of New Rochelle (Nominatim on 2026-11-25, the US Census geocoder and Photon on 2026-11-26). Today there is a Winyah Terrace near North Avenue, which may be the same street renamed, but that is not proven. The circle covers New Rochelle, the place the draft card names.",
+   "coordinateMethod": "No Winyah Avenue is on today's map of New Rochelle (Nominatim on 2026-11-25, the US Census geocoder and Photon on 2026-11-26). Today there is a Winyah Terrace in New Rochelle, which may be the same street renamed, but that is not proven. The circle covers New Rochelle, the place the draft card names.",
    "coordinatePrecision": "area",
    "coordinateSourceIds": [
     "osm-nominatim-2026",
@@ -1835,7 +1837,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -1866,7 +1868,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "../michael-kirtus-belfiore-registration-card.jpeg"
      ],
      "sourceIds": [
       "ww1-michael"
@@ -1927,7 +1929,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg"
+      "../ww2-frank-belfiore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-frank"
@@ -1957,7 +1959,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2003,7 +2005,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "census-1900-belfiore.jpg"
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1900"
@@ -2033,7 +2035,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2064,7 +2066,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-WW2-Draft-Card.jpeg"
+      "../Michael-Belfiore-WW2-Draft-Card.jpeg"
      ],
      "sourceIds": [
       "ww2-michael"
@@ -2127,7 +2129,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-samuel-belfore-1942.jpg"
+      "../ww2-samuel-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-samuel"
@@ -2157,7 +2159,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2188,7 +2190,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1900-towey.jpg"
+      "../census-1900-towey.jpg"
      ],
      "sourceIds": [
       "census-1900-towey"
@@ -2249,7 +2251,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg"
+      "../ww2-frank-belfiore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-frank"
@@ -2310,7 +2312,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "../michael-kirtus-belfiore-registration-card.jpeg"
      ],
      "sourceIds": [
       "ww1-michael"
@@ -2340,7 +2342,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2374,7 +2376,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "census-1950-joseph-c-dorothy.jpg"
+      "../census-1950-joseph-c-dorothy.jpg"
      ],
      "sourceIds": [
       "census-1950-joseph-c"
@@ -2488,7 +2490,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2532,7 +2534,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio"
@@ -2646,7 +2648,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-samuel-belfore-1942.jpg"
+      "../ww2-samuel-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-samuel"
@@ -2676,7 +2678,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2707,7 +2709,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1925.jpg"
+      "../hennessy-census-1925.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1925"
@@ -2768,7 +2770,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-joe-belfore-1942.jpg"
+      "../ww2-joe-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-joe"
@@ -2832,7 +2834,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1950-joe-ruth-beulah.jpg"
+      "../census-1950-joe-ruth-beulah.jpg"
      ],
      "sourceIds": [
       "census-1950-joe"
@@ -2862,7 +2864,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -2895,7 +2897,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1930.jpg"
+      "../hennessy-census-1930.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1930"
@@ -2922,8 +2924,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1930.jpg",
-      "hennessy-census-1930-household.jpg"
+      "../hennessy-census-1930.jpg",
+      "../hennessy-census-1930-household.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1930",
@@ -3052,7 +3054,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg"
+      "../census-1910-paternostro-bridgeport.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro"
@@ -3082,7 +3084,7 @@
     "census-geocoder-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3126,7 +3128,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1925-belfore.jpg"
+      "../census-1925-belfore.jpg"
      ],
      "sourceIds": [
       "census-1925"
@@ -3196,7 +3198,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro"
@@ -3224,8 +3226,8 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg",
-      "census-1940-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg",
+      "../census-1940-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro",
@@ -3259,7 +3261,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3307,7 +3309,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1910-belfiore.jpg"
+      "../census-1910-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1910"
@@ -3347,7 +3349,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1915-belfore.jpg"
+      "../census-1915-belfore.jpg"
      ],
      "sourceIds": [
       "census-1915"
@@ -3375,7 +3377,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "ww1-samuel-belfiore-1918.jpg"
+      "../ww1-samuel-belfiore-1918.jpg"
      ],
      "sourceIds": [
       "ww1-samuel"
@@ -3405,7 +3407,7 @@
     "page-immigration"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "demolished",
@@ -3472,7 +3474,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3503,7 +3505,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-towey.jpg"
+      "../census-1910-towey.jpg"
      ],
      "sourceIds": [
       "census-1910-towey"
@@ -3536,7 +3538,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3567,7 +3569,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-WW2-Draft-Card.jpeg"
+      "../Michael-Belfiore-WW2-Draft-Card.jpeg"
      ],
      "sourceIds": [
       "ww2-michael"
@@ -3597,7 +3599,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3635,7 +3637,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -3665,7 +3667,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3705,7 +3707,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -3735,7 +3737,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3787,7 +3789,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1920-belfiore.jpg"
+      "../census-1920-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1920"
@@ -3819,7 +3821,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3861,7 +3863,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -3895,7 +3897,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -3926,7 +3928,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "michael-kirtus-belfiore-registration-card.jpeg"
+      "../michael-kirtus-belfiore-registration-card.jpeg"
      ],
      "sourceIds": [
       "ww1-michael"
@@ -3956,7 +3958,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4000,7 +4002,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1930-donofrio"
@@ -4089,7 +4091,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4148,7 +4150,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4243,7 +4245,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit",
@@ -4277,7 +4279,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4347,7 +4349,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg"
+      "../census-1910-paternostro-bridgeport.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro"
@@ -4497,7 +4499,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4528,7 +4530,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1910.jpg"
+      "../hussey-census-1910.jpg"
      ],
      "sourceIds": [
       "hussey-census-1910"
@@ -4553,7 +4555,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1910.jpg"
+      "../hussey-census-1910.jpg"
      ],
      "sourceIds": [
       "hussey-census-1910"
@@ -4614,9 +4616,9 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg",
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1910-paternostro-bridgeport.jpg",
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro",
@@ -4643,9 +4645,9 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1910-paternostro-bridgeport.jpg",
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1910-paternostro-bridgeport.jpg",
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1910-paternostro",
@@ -4672,8 +4674,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro",
@@ -4699,8 +4701,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg",
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg",
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro",
@@ -4766,8 +4768,8 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "joe-book-1.jpeg",
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../joe-book-1.jpeg",
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "golfing-aids-1940",
@@ -4795,7 +4797,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "joe-book-1.jpeg"
+      "../joe-book-1.jpeg"
      ],
      "sourceIds": [
       "golfing-aids-1940"
@@ -4822,7 +4824,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963"
@@ -4852,7 +4854,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963"
@@ -4882,7 +4884,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -4916,7 +4918,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -5137,7 +5139,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-samuel-louisa.jpg"
+      "../census-1950-samuel-louisa.jpg"
      ],
      "sourceIds": [
       "census-1950-samuel"
@@ -5162,7 +5164,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-samuel-louisa.jpg"
+      "../census-1950-samuel-louisa.jpg"
      ],
      "sourceIds": [
       "census-1950-samuel"
@@ -5187,7 +5189,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "frank-death",
@@ -5308,7 +5310,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -5342,7 +5344,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1900.jpg"
+      "../hussey-census-1900.jpg"
      ],
      "sourceIds": [
       "hussey-census-1900"
@@ -5405,7 +5407,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "joe-book-1.jpeg"
+      "../joe-book-1.jpeg"
      ],
      "sourceIds": [
       "golfing-aids-1940"
@@ -5562,7 +5564,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro"
@@ -5684,7 +5686,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963"
@@ -5709,8 +5711,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg",
-      "frank-belfore-michigan-golfcourse.jpg"
+      "../samme-belfiore-golfer.jpeg",
+      "../frank-belfore-michigan-golfcourse.jpg"
      ],
      "sourceIds": [
       "standard-star-obit",
@@ -5836,7 +5838,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-paternostro-hartford.jpg"
+      "../census-1920-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1920-paternostro"
@@ -5861,7 +5863,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro"
@@ -5886,7 +5888,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro"
@@ -5911,8 +5913,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-paternostro-hartford.jpg",
-      "census-1940-paternostro-hartford.jpg"
+      "../census-1930-paternostro-hartford.jpg",
+      "../census-1940-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1930-paternostro",
@@ -5938,7 +5940,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1940-paternostro-hartford.jpg"
+      "../census-1940-paternostro-hartford.jpg"
      ],
      "sourceIds": [
       "census-1940-paternostro"
@@ -5990,7 +5992,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -6080,7 +6082,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -6110,7 +6112,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "yes",
@@ -6272,7 +6274,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg"
+      "../ww2-frank-belfiore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-frank"
@@ -6302,7 +6304,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6392,8 +6394,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "frank-belfore-michigan-golfcourse.jpg",
-      "golfdom-1964-joe-belfore.jpg"
+      "../frank-belfore-michigan-golfcourse.jpg",
+      "../golfdom-1964-joe-belfore.jpg"
      ],
      "sourceIds": [
       "ccd-minutes-1963",
@@ -6517,7 +6519,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-joe-ruth-beulah.jpg"
+      "../census-1950-joe-ruth-beulah.jpg"
      ],
      "sourceIds": [
       "census-1950-joe"
@@ -6549,7 +6551,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6786,8 +6788,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -6813,8 +6815,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -6841,8 +6843,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -6929,7 +6931,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "ww1-samuel-belfiore-1918.jpg"
+      "../ww1-samuel-belfiore-1918.jpg"
      ],
      "sourceIds": [
       "ww1-samuel"
@@ -6959,7 +6961,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -6992,7 +6994,7 @@
       "research.html"
      ],
      "recordCrops": [
-      "rochellean-1926-mollie.jpg"
+      "../rochellean-1926-mollie.jpg"
      ],
      "sourceIds": [
       "rochellean-1926"
@@ -7022,7 +7024,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -7084,7 +7086,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -7115,7 +7117,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "frank-index",
@@ -7141,8 +7143,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg",
-      "nysdi-1938-anthony-belfiore.jpg"
+      "../samme-belfiore-golfer.jpeg",
+      "../nysdi-1938-anthony-belfiore.jpg"
      ],
      "sourceIds": [
       "frank-index",
@@ -7169,8 +7171,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-frank-belfiore-1942.jpg",
-      "census-1900-belfiore.jpg"
+      "../ww2-frank-belfiore-1942.jpg",
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "ww2-frank",
@@ -7196,7 +7198,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit",
@@ -7222,7 +7224,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -7247,7 +7249,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1900-belfiore.jpg"
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1900"
@@ -7272,7 +7274,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1905-belfiore.jpg"
+      "../census-1905-belfiore.jpg"
      ],
      "sourceIds": [
       "ssdi-numident-family",
@@ -7321,10 +7323,10 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-joe-belfore-1942.jpg",
-      "census-1915-belfore.jpg",
-      "census-1925-belfore.jpg",
-      "census-1930-belfiore.jpg"
+      "../ww2-joe-belfore-1942.jpg",
+      "../census-1915-belfore.jpg",
+      "../census-1925-belfore.jpg",
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "ww2-joe",
@@ -7355,7 +7357,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "marriage-index-1906-belfiore-paternoster.jpg"
+      "../marriage-index-1906-belfiore-paternoster.jpg"
      ],
      "sourceIds": [
       "marriage-index-1906"
@@ -7380,10 +7382,10 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1915-belfore.jpg",
-      "census-1920-belfiore.jpg",
-      "census-1925-belfore.jpg",
-      "census-1930-belfiore.jpg"
+      "../census-1915-belfore.jpg",
+      "../census-1920-belfiore.jpg",
+      "../census-1925-belfore.jpg",
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1915",
@@ -7411,7 +7413,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "salvatore-circelli-santanna-1911-manifest.png"
+      "../salvatore-circelli-santanna-1911-manifest.png"
      ],
      "sourceIds": [
       "santanna-1911"
@@ -7439,8 +7441,8 @@
      ],
      "pages": [],
      "recordCrops": [
-      "marriage-index-1911-belfiore-donofrio.jpg",
-      "samme-belfiore-golfer.jpeg"
+      "../marriage-index-1911-belfiore-donofrio.jpg",
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "marriage-index-1911",
@@ -7466,7 +7468,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1915-belfore.jpg"
+      "../census-1915-belfore.jpg"
      ],
      "sourceIds": [
       "census-1915"
@@ -7514,7 +7516,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-michael-lodger.jpg"
+      "../census-1920-michael-lodger.jpg"
      ],
      "sourceIds": [
       "census-1920-michael"
@@ -7539,9 +7541,9 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1920.jpg",
-      "hennessy-census-1930.jpg",
-      "hennessy-census-1940.jpg"
+      "../hennessy-census-1920.jpg",
+      "../hennessy-census-1930.jpg",
+      "../hennessy-census-1940.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1920",
@@ -7591,7 +7593,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "ssdi-numident-family",
@@ -7663,8 +7665,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nj-death-index-1994-joseph-c-belfiore.jpg",
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../nj-death-index-1994-joseph-c-belfiore.jpg",
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "ssaci-joseph-1922",
@@ -7714,7 +7716,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1925-belfore.jpg"
+      "../census-1925-belfore.jpg"
      ],
      "sourceIds": [
       "census-1925"
@@ -7739,7 +7741,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -7764,7 +7766,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -7789,7 +7791,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -7814,7 +7816,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -7839,7 +7841,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-belfiore.jpg"
+      "../census-1930-belfiore.jpg"
      ],
      "sourceIds": [
       "census-1930"
@@ -7887,7 +7889,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nysdi-1937-marie-d-belfiore.jpg"
+      "../nysdi-1937-marie-d-belfiore.jpg"
      ],
      "sourceIds": [
       "nysdi-1937"
@@ -7912,7 +7914,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nysdi-1938-anthony-belfiore.jpg"
+      "../nysdi-1938-anthony-belfiore.jpg"
      ],
      "sourceIds": [
       "ny-death-index-1938"
@@ -7937,7 +7939,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -7962,7 +7964,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -7987,7 +7989,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "census-1940"
@@ -8038,7 +8040,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hennessy-marriage-1946-patrick.jpg"
+      "../hennessy-marriage-1946-patrick.jpg"
      ],
      "sourceIds": [
       "hennessy-marriage-index-1946",
@@ -8067,7 +8069,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "census-1950-rose-carolyn.jpg"
+      "../census-1950-rose-carolyn.jpg"
      ],
      "sourceIds": [
       "census-1950-rose"
@@ -8094,7 +8096,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1950-frances-michael-edward.jpg"
+      "../census-1950-frances-michael-edward.jpg"
      ],
      "sourceIds": [
       "census-1950-frances"
@@ -8359,7 +8361,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8390,8 +8392,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hussey-census-1900.jpg",
-      "hussey-marriage-1914.jpg"
+      "../hussey-census-1900.jpg",
+      "../hussey-marriage-1914.jpg"
      ],
      "sourceIds": [
       "hussey-census-1900",
@@ -8417,7 +8419,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "Michael-Belfiore-Census-1940-painter.jpeg"
+      "../Michael-Belfiore-Census-1940-painter.jpeg"
      ],
      "sourceIds": [
       "ssdi-frances",
@@ -8443,7 +8445,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg"
+      "../hennessy-census-1915.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8469,7 +8471,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg"
+      "../hennessy-census-1915.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8495,7 +8497,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg"
+      "../hennessy-census-1915.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8521,8 +8523,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1915.jpg",
-      "hennessy-census-1920.jpg"
+      "../hennessy-census-1915.jpg",
+      "../hennessy-census-1920.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1915",
@@ -8548,7 +8550,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -8573,8 +8575,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg",
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg",
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio",
@@ -8600,7 +8602,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-michael-frances.jpg"
+      "../census-1930-michael-frances.jpg"
      ],
      "sourceIds": [
       "census-1930-michael"
@@ -8625,8 +8627,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1930-household.jpg",
-      "hennessy-census-1940-household.jpg"
+      "../hennessy-census-1930-household.jpg",
+      "../hennessy-census-1940-household.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1930-image",
@@ -8717,7 +8719,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8748,7 +8750,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-michael-lodger.jpg"
+      "../census-1920-michael-lodger.jpg"
      ],
      "sourceIds": [
       "census-1920-michael"
@@ -8919,7 +8921,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -8981,7 +8983,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9014,8 +9016,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hindoustan-1890-leonardo.jpg",
-      "census-1900-belfiore.jpg"
+      "../hindoustan-1890-leonardo.jpg",
+      "../census-1900-belfiore.jpg"
      ],
      "sourceIds": [
       "hindoustan-1890-manifest",
@@ -9045,7 +9047,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-naturalization-1905.jpg"
+      "../hennessy-naturalization-1905.jpg"
      ],
      "sourceIds": [
       "hennessy-naturalization-1905"
@@ -9080,8 +9082,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "maria doreta circelli.png",
-      "oregon-1896-manifest.jpg"
+      "../maria doreta circelli.png",
+      "../oregon-1896-manifest.jpg"
      ],
      "sourceIds": [
       "oregon-1896-index",
@@ -9114,7 +9116,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "michele-salvatore-ship-list-highlighted.png"
+      "../michele-salvatore-ship-list-highlighted.png"
      ],
      "sourceIds": [
       "alsatia-1898"
@@ -9148,7 +9150,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9179,7 +9181,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-census-1910.jpg"
+      "../hennessy-census-1910.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1910"
@@ -9206,7 +9208,7 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1940.jpg"
+      "../hennessy-census-1940.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1940"
@@ -9233,8 +9235,8 @@
       "immigration.html"
      ],
      "recordCrops": [
-      "hennessy-census-1940.jpg",
-      "hennessy-census-1940-household.jpg"
+      "../hennessy-census-1940.jpg",
+      "../hennessy-census-1940-household.jpg"
      ],
      "sourceIds": [
       "hennessy-census-1940",
@@ -9260,7 +9262,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "hennessy-marriage-1946-patrick.jpg"
+      "../hennessy-marriage-1946-patrick.jpg"
      ],
      "sourceIds": [
       "hennessy-marriage-announcement-1946"
@@ -9344,7 +9346,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "nj-death-index-1994-joseph-c-belfiore.jpg"
+      "../nj-death-index-1994-joseph-c-belfiore.jpg"
      ],
      "sourceIds": [
       "nj-death-1994-joseph",
@@ -9460,7 +9462,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9556,7 +9558,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "golfdom-1948-02",
@@ -9646,7 +9648,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "ww2-samuel-belfore-1942.jpg"
+      "../ww2-samuel-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-samuel"
@@ -9737,7 +9739,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9774,7 +9776,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9833,7 +9835,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "area",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -9867,7 +9869,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "hussey-marriage-1914.jpg"
+      "../hussey-marriage-1914.jpg"
      ],
      "sourceIds": [
       "hennessy-marriage-1914"
@@ -10003,7 +10005,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10186,7 +10188,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "pin",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10219,7 +10221,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "kahn-1960",
@@ -10247,7 +10249,7 @@
       "golfing-brothers.html"
      ],
      "recordCrops": [
-      "ww1-samuel-belfiore-1918.jpg"
+      "../ww1-samuel-belfiore-1918.jpg"
      ],
      "sourceIds": [
       "ww1-samuel"
@@ -10280,7 +10282,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10311,7 +10313,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "ww2-joe-belfore-1942.jpg"
+      "../ww2-joe-belfore-1942.jpg"
      ],
      "sourceIds": [
       "ww2-joe"
@@ -10339,7 +10341,7 @@
      ],
      "pages": [],
      "recordCrops": [
-      "samme-belfiore-golfer.jpeg"
+      "../samme-belfiore-golfer.jpeg"
      ],
      "sourceIds": [
       "standard-star-obit"
@@ -10371,7 +10373,7 @@
     "osm-nominatim-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": false,
+   "inHomeRegion": true,
    "country": "United States",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10425,7 +10427,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1920-donofrio-yonkers.jpg"
+      "../census-1920-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1920-donofrio"
@@ -10450,7 +10452,7 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "census-1930-donofrio-yonkers.jpg"
+      "../census-1930-donofrio-yonkers.jpg"
      ],
      "sourceIds": [
       "census-1930-donofrio"
@@ -10551,7 +10553,7 @@
     "osm-photon-2026"
    ],
    "drawAs": "halo",
-   "inHomeRegion": true,
+   "inHomeRegion": false,
    "country": "Italy",
    "noProvenLink": false,
    "standsToday": "unknown",
@@ -10582,8 +10584,8 @@
      "alsoFactRefs": [],
      "pages": [],
      "recordCrops": [
-      "birth-michele-1884-act440.jpg",
-      "index-michele-antonio-belfiore-1884.jpg"
+      "../birth-michele-1884-act440.jpg",
+      "../index-michele-antonio-belfiore-1884.jpg"
      ],
      "sourceIds": [
       "birth-michele-1884",
