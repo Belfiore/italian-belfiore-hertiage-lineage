@@ -551,26 +551,26 @@
      "personIds": [
       "giuseppe-circelli"
      ],
-     "date": "~1827",
-     "dateStart": "1827",
-     "dateEnd": "1827",
-     "datePrecision": "year",
-     "approximate": true,
+     "date": "Feb 13, 1827",
+     "dateStart": "1827-02-13",
+     "dateEnd": "1827-02-13",
+     "datePrecision": "day",
+     "approximate": false,
      "factRef": "giuseppe-circelli.birth",
      "alsoFactRefs": [],
      "pages": [
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg"
+      "birth-giuseppe-circelli-1827-act48.jpg"
      ],
      "sourceIds": [
-      "marriage-circelli-mansolino-1850"
+      "birth-giuseppe-circelli-1827"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 23 in January 1850; his age is given as 30 in 1860 and 36 in 1863."
+     "note": "Birth act 48 of 1827. His parents lived on Strada Borgo Nuovo."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-marianna-mita",
