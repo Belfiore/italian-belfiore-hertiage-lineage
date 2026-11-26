@@ -34,9 +34,10 @@ concurrency:
 
 jobs:
   site:
-    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1.0.1
+    uses: Belfiore/family-site-engine/.github/workflows/build-site.yml@v1.1.0
     with:
       site-dir: Italian-Family-History
       engine-version: ${{ inputs.engine-version || '' }}
       site-tests: |
         node ../tests/verify-canvas.js
+        node ../tests/verify-map.js
