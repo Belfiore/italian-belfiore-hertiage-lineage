@@ -251,19 +251,28 @@
      "confidence": "probable"
     }
    ],
-   "confidence": "probable",
+   "confidence": "confirmed",
    "birth": {
-    "date": "1828",
-    "dateQualifier": "about",
-    "display": "~1828",
+    "date": "1829-02-20",
+    "dateQualifier": "exact",
+    "display": "Feb 20, 1829",
     "place": "San Bartolomeo in Galdo, Italy",
+    "placeId": "san-bartolomeo-in-galdo",
     "sourceIds": [
-     "marriage-circelli-mansolino-1850",
-     "birth-circelli-twins-1860",
-     "birth-maria-donata-1863"
+     "birth-anna-rita-mansolino-1829"
     ],
-    "confidence": "probable",
-    "note": "Aged 21 in January 1850; her age is given as 28 in 1860 and 36 in 1863."
+    "confidence": "confirmed",
+    "note": "Birth act 49 of 1829, read on the original page. Her later ages (21 in January 1850, 23 in January 1851, 28 in 1860, 36 in 1863) run a year or two high after 1850.",
+    "alternates": [
+     {
+      "date": "1828",
+      "display": "~1828",
+      "sourceIds": [
+       "marriage-circelli-mansolino-1850"
+      ],
+      "note": "Estimated from her age at marriage before the birth act was found"
+     }
+    ]
    },
    "death": {
     "date": "1884-01-27",
@@ -291,8 +300,18 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "summary": "Maria Donata's mother. Records from 1850, 1860 and 1863 name her Anna Rita (or Rita) Mansolino; earlier research on this site read her name as Marianna Mita.",
-   "story": "Maria Donata's marriage act of January 1884 names her mother with the word fu, \"the late\", and records that she too had lived in San Bartolomeo in Galdo.[^marriage-1884]\n\nHer name needs care. Earlier research on this site gave it as Marianna Mita.[^research-md] A close reading of the scan for this profile does not clearly support Marianna: the handwriting looks more like Mansolina or Marsolina, followed by a short surname that reads as Mita. Old Italian civil hands are hard to read, and a second record would settle it. Until then the tree keeps \"Marianna Mita\" and marks the name as uncertain.[^marriage-1884]\n\nNothing else is known about her yet: not her age, her parents, or when she died.\n\nUpdate, November 2026. Three more records have now been found, and they help with her name. When she married Giuseppe Circelli on 17 January 1850 she was Anna Rita Mansolino, twenty-one, the daughter of Francesco Mansolino, a farmer, and of Brigida.[^marriage-circelli-mansolino-1850] Ten years later she was \"Rita Manzolino\" when her twin girls were born, and \"Rita Mansolino\" again at Maria Donata's birth in 1863.[^birth-circelli-twins-1860][^birth-maria-donata-1863] That fits the fresh reading of the 1884 act above, which saw \"Mansolina\" in the handwriting. The tree now shows her as Anna Rita Mansolino and keeps Marianna Mita as the name earlier research gave her.\n\nUpdate, November 2026: in January 1851 her husband registered their daughter Antonia and named the mother as Margarita Mansolino, twenty-three.[^birth-antonia-circelli-1851] Rita is the usual short form of Margherita, the husband and the age agree, so Margarita, Anna Rita and Rita are the same woman. Antonia is the eldest child of the marriage found so far.",
+   "story": "Maria Donata's marriage act of January 1884 names her mother with the word fu, \"the late\", and records that she too had lived in San Bartolomeo in Galdo.[^marriage-1884]\n\nHer name needs care. Earlier research on this site gave it as Marianna Mita.[^research-md] A close reading of the scan for this profile does not clearly support Marianna: the handwriting looks more like Mansolina or Marsolina, followed by a short surname that reads as Mita. Old Italian civil hands are hard to read, and a second record would settle it. Until then the tree keeps \"Marianna Mita\" and marks the name as uncertain.[^marriage-1884]\n\nNothing else is known about her yet: not her age, her parents, or when she died.\n\nUpdate, November 2026. Three more records have now been found, and they help with her name. When she married Giuseppe Circelli on 17 January 1850 she was Anna Rita Mansolino, twenty-one, the daughter of Francesco Mansolino, a farmer, and of Brigida.[^marriage-circelli-mansolino-1850] Ten years later she was \"Rita Manzolino\" when her twin girls were born, and \"Rita Mansolino\" again at Maria Donata's birth in 1863.[^birth-circelli-twins-1860][^birth-maria-donata-1863] That fits the fresh reading of the 1884 act above, which saw \"Mansolina\" in the handwriting. The tree now shows her as Anna Rita Mansolino and keeps Marianna Mita as the name earlier research gave her.\n\nUpdate, November 2026: in January 1851 her husband registered their daughter Antonia and named the mother as Margarita Mansolino, twenty-three.[^birth-antonia-circelli-1851] Rita is the usual short form of Margherita, the husband and the age agree, so Margarita, Anna Rita and Rita are the same woman. Antonia is the eldest child of the marriage found so far.\n\nUpdate, November 2026: her own birth act has now been found. On 20 February 1829 her father, Francesco Mansolino, a farm worker of thirty-five, came to the town hall and declared that his wife Brigida, thirty-eight, had given birth to a daughter that morning. The baby was named Anna Rita, and the parish priest sent word the next day that she had been baptized under that name.[^birth-anna-rita-mansolino-1829] So Anna Rita was her baptismal name, and Rita and Margarita were what the clerks later wrote.",
    "timeline": [
+    {
+     "date": "1829-02-20",
+     "label": "Feb 20, 1829",
+     "event": "Born in San Bartolomeo in Galdo to Francesco Mansolino and Brigida.",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    },
     {
      "date": "1884-01-27",
      "label": "Jan 27, 1884",
@@ -362,6 +381,15 @@
    ],
    "media": [
     {
+     "id": "birth-anna-rita-mansolino-1829",
+     "file": "images/birth-anna-rita-mansolino-1829-act49.jpg",
+     "thumb": "images/thumbs/birth-anna-rita-mansolino-1829-act49.jpg",
+     "caption": "Birth act no. 49, San Bartolomeo in Galdo, 20 February 1829: Anna Rita Mansolino, daughter of Francesco Mansolino and Brigida.",
+     "type": "document",
+     "sourceId": "birth-anna-rita-mansolino-1829",
+     "alt": "Handwritten 1829 Italian civil birth register page for Anna Rita Mansolino"
+    },
+    {
      "id": "marriage-1884",
      "file": "images/attodi-nascita-maria-circelli-marriage-certificate2.png",
      "thumb": "images/thumbs/marriage-1884.jpg",
@@ -384,16 +412,8 @@
    ],
    "openQuestions": [
     {
-     "question": "What was her first name?",
-     "record": "Maria Donata's birth act (about 1862) or Maria Donata's own death certificate, either of which should name her mother."
-    },
-    {
      "question": "When did she die?",
      "record": "Her death act, between September 1863 and January 1884; the death registers for those years are not on Antenati (Archivio di Stato di Benevento)."
-    },
-    {
-     "question": "When was she born, and who were her parents?",
-     "record": "Births of about 1826 to 1830 in San Bartolomeo in Galdo (Antenati, Lucera series). The 1827, 1828 and 1829 indexes were checked under M in November 2026 without a match; the A and R entries (Anna, Rita) still need reading."
     }
    ],
    "relatedPages": [
@@ -402,7 +422,10 @@
      "url": "immigration.html"
     }
    ],
-   "parents": [],
+   "parents": [
+    "francesco-mansolino",
+    "brigida-mansolino"
+   ],
    "children": [
     "antonia-circelli",
     "maria-donata-circelli",
@@ -426,7 +449,8 @@
    "isDirectLine": true,
    "photo": "images/thumbs/marriage-1884.jpg",
    "portrait": null,
-   "isLiving": false
+   "isLiving": false,
+   "parentLinkConfidence": "confirmed"
   },
   {
    "id": "leonardantonio-belfiore",
@@ -16058,6 +16082,231 @@
    "disambiguator": "Annie's brother",
    "summary": "Child of James Hussey and Marie Dunn, and a sibling of Annie.",
    "story": "Frank was a brother of Annie Hussey, age 16, on Dean Street in Mamaroneck in 1900.[^hussey-census-1900]"
+  },
+  {
+   "id": "francesco-mansolino",
+   "displayName": "Francesco Mansolino",
+   "disambiguator": "Anna Rita's father",
+   "givenNames": "Francesco",
+   "surname": "Mansolino",
+   "sex": "M",
+   "generation": 0,
+   "nameVariants": [],
+   "confidence": "confirmed",
+   "residences": [
+    {
+     "place": "San Bartolomeo in Galdo, Italy",
+     "address": null,
+     "years": "1829 to 1850",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
+    }
+   ],
+   "immigration": null,
+   "cardPlace": "San Bartolomeo in Galdo",
+   "photo": "images/thumbs/birth-anna-rita-mansolino-1829-act49.jpg",
+   "facts": [],
+   "media": [
+    {
+     "id": "birth-anna-rita-mansolino-1829",
+     "file": "images/birth-anna-rita-mansolino-1829-act49.jpg",
+     "thumb": "images/thumbs/birth-anna-rita-mansolino-1829-act49.jpg",
+     "caption": "Birth act of their daughter Anna Rita, San Bartolomeo in Galdo, 20 February 1829 (act 49).",
+     "type": "document",
+     "sourceId": "birth-anna-rita-mansolino-1829",
+     "alt": "Handwritten 1829 Italian civil birth register page for Anna Rita Mansolino"
+    }
+   ],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "marianna-mita"
+   ],
+   "isDirectLine": true,
+   "portrait": null,
+   "isLiving": false,
+   "birth": {
+    "date": "1794",
+    "dateQualifier": "about",
+    "display": "~1794",
+    "place": null,
+    "sourceIds": [
+     "birth-anna-rita-mansolino-1829"
+    ],
+    "confidence": "probable",
+    "note": "Aged 35 in February 1829."
+   },
+   "death": null,
+   "occupations": [
+    {
+     "title": "Farm worker (contadino)",
+     "employer": null,
+     "place": "San Bartolomeo in Galdo",
+     "years": "1829 to 1850",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "confirmed"
+    }
+   ],
+   "summary": "Anna Rita Mansolino's father, a farm worker in San Bartolomeo in Galdo, born about 1794. He is one of Seb's 4x great-grandfathers.",
+   "story": "Francesco Mansolino was a farm worker in San Bartolomeo in Galdo. On 20 February 1829, aged thirty-five, he went to the town hall to register the birth of his daughter Anna Rita, born that morning to his wife Brigida. He lived then on a street whose name reads as Strada Macchio.[^birth-anna-rita-mansolino-1829] He could not sign his name.\n\nHe was still living in January 1850, when Anna Rita married Giuseppe Circelli and the act named him as her father, a contadino, without the word \"late\".[^marriage-circelli-mansolino-1850]",
+   "timeline": [
+    {
+     "date": "1829-02-20",
+     "label": "Feb 20, 1829",
+     "event": "Registers the birth of his daughter Anna Rita.",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    },
+    {
+     "date": "1850-01-17",
+     "label": "Jan 17, 1850",
+     "event": "Named, still living, at Anna Rita's marriage to Giuseppe Circelli.",
+     "sourceIds": [
+      "marriage-circelli-mansolino-1850"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "When were Francesco and Brigida born and married, and who were their parents?",
+     "record": "San Bartolomeo in Galdo births of about 1790 to 1795 and marriages of about 1810 to 1828 (Antenati, Lucera series)."
+    },
+    {
+     "question": "When did he die?",
+     "record": "San Bartolomeo in Galdo deaths after 1850 (Antenati to 1860; later years at the Archivio di Stato di Benevento)."
+    }
+   ],
+   "spouses": [
+    {
+     "id": "brigida-mansolino",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "brigida-mansolino",
+   "displayName": "Brigida Mansolino",
+   "disambiguator": "Anna Rita's mother",
+   "givenNames": "Brigida",
+   "surname": "Mansolino",
+   "sex": "F",
+   "generation": 0,
+   "nameVariants": [
+    {
+     "name": "Brigida Man[s]olino",
+     "note": "her surname is split across a line in the 1829 act; the 1850 act also writes Mansolino",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "confidence": "confirmed",
+   "residences": [
+    {
+     "place": "San Bartolomeo in Galdo, Italy",
+     "address": null,
+     "years": "1829 to 1850",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829",
+      "marriage-circelli-mansolino-1850"
+     ],
+     "confidence": "confirmed",
+     "placeId": "san-bartolomeo-in-galdo"
+    }
+   ],
+   "immigration": null,
+   "cardPlace": "San Bartolomeo in Galdo",
+   "photo": "images/thumbs/birth-anna-rita-mansolino-1829-act49.jpg",
+   "facts": [],
+   "media": [
+    {
+     "id": "birth-anna-rita-mansolino-1829",
+     "file": "images/birth-anna-rita-mansolino-1829-act49.jpg",
+     "thumb": "images/thumbs/birth-anna-rita-mansolino-1829-act49.jpg",
+     "caption": "Birth act of their daughter Anna Rita, San Bartolomeo in Galdo, 20 February 1829 (act 49).",
+     "type": "document",
+     "sourceId": "birth-anna-rita-mansolino-1829",
+     "alt": "Handwritten 1829 Italian civil birth register page for Anna Rita Mansolino"
+    }
+   ],
+   "relatedPages": [],
+   "parents": [],
+   "children": [
+    "marianna-mita"
+   ],
+   "isDirectLine": true,
+   "portrait": null,
+   "isLiving": false,
+   "nameUncertain": true,
+   "birth": {
+    "date": "1791",
+    "dateQualifier": "about",
+    "display": "~1791",
+    "place": null,
+    "sourceIds": [
+     "birth-anna-rita-mansolino-1829"
+    ],
+    "confidence": "probable",
+    "note": "Aged 38 in February 1829."
+   },
+   "death": null,
+   "occupations": [],
+   "summary": "Anna Rita Mansolino's mother, born about 1791. Her own family name may also have been Mansolino. She is one of Seb's 4x great-grandmothers.",
+   "story": "Brigida was Francesco Mansolino's wife and the mother of Anna Rita, born on 20 February 1829 when Brigida was thirty-eight.[^birth-anna-rita-mansolino-1829] In the birth act her surname is split across the end of a line and reads as Man- and then solino, so she may have been a Mansolino by birth too, perhaps a cousin of her husband. The 1850 marriage act of her daughter also gives her as Brigida Mansolino.[^marriage-circelli-mansolino-1850] Her maiden name needs one more record to be sure.",
+   "timeline": [
+    {
+     "date": "1829-02-20",
+     "label": "Feb 20, 1829",
+     "event": "Daughter Anna Rita is born.",
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829"
+     ],
+     "kind": "life",
+     "confidence": "confirmed"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "What was her maiden name, and when did she die?",
+     "record": "Her marriage act to Francesco (about 1810 to 1828) and her death act, San Bartolomeo in Galdo (Antenati, Lucera series)."
+    }
+   ],
+   "spouses": [
+    {
+     "id": "francesco-mansolino",
+     "order": 1,
+     "marriageDate": null,
+     "marriageDisplay": null,
+     "place": null,
+     "sourceIds": [
+      "birth-anna-rita-mansolino-1829"
+     ],
+     "confidence": "confirmed",
+     "note": null
+    }
+   ]
   }
  ]
 }

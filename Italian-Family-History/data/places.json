@@ -578,30 +578,26 @@
      "personIds": [
       "marianna-mita"
      ],
-     "date": "~1828",
-     "dateStart": "1828",
-     "dateEnd": "1828",
-     "datePrecision": "year",
-     "approximate": true,
+     "date": "Feb 20, 1829",
+     "dateStart": "1829-02-20",
+     "dateEnd": "1829-02-20",
+     "datePrecision": "day",
+     "approximate": false,
      "factRef": "marianna-mita.birth",
      "alsoFactRefs": [],
      "pages": [
       "research.html"
      ],
      "recordCrops": [
-      "marriage-circelli-mansolino-1850.jpg",
-      "birth-circelli-twins-1860-a.jpg",
-      "birth-maria-donata-circelli-1863.jpg"
+      "birth-anna-rita-mansolino-1829-act49.jpg"
      ],
      "sourceIds": [
-      "marriage-circelli-mansolino-1850",
-      "birth-circelli-twins-1860",
-      "birth-maria-donata-1863"
+      "birth-anna-rita-mansolino-1829"
      ],
-     "confidence": "probable",
+     "confidence": "confirmed",
      "familyStatement": false,
-     "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 21 in January 1850; her age is given as 28 in 1860 and 36 in 1863."
+     "summary": "Born. San Bartolomeo in Galdo",
+     "note": "Birth act 49 of 1829. Her father lived on a street read as Strada Macchio."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-matteo-circelli",
