@@ -3784,7 +3784,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle area",
    "summary": "Joseph's wife and Seb's grandmother, remembered as Irish-American. Not the same person as Dorothy Belfiore of Bridgeport, Michael's daughter.",
-   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nNo document about her is in this collection yet, so her dates and places are not shown.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nDorothy was one of seven children of Patrick Hennessy and Annie Hussey of New Rochelle: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Her sister Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nFamily story. Dorothy's mother died young, and she was raised by her grandfather Patrick Hennessy and his second wife, Annie.[^family-knowledge]\n\nUpdate, November 2026. The paper agrees with that story, and it does not yet name her father. She is missing from Patrick and Annie's house in 1925. In 1930 the census writes her as G-Daughter, age 8, born in New York, with a father and a mother who were both born in New York. In 1940 she is the grandchild, age 18. When she married Joseph C. Belfiore in May 1946, the New Rochelle paper called her Miss Dorothy Eleanore Hennessy, daughter of Patrick J. Hennessy, of Premium Point. The state index says 12 May 1946, certificate 23239. Another index line calls her father Joseph P. Hennessy. That line is kept, and it is not followed. Of Patrick's older sons, Joseph and Henry are the two the ages allow. Thomas, a lawyer with no children in 1930, is not her father. No father is drawn on the tree.[^hennessy-census-1925][^hennessy-census-1930-image][^hennessy-census-1940-image][^hennessy-marriage-announcement-1946][^hennessy-marriage-index-1946][^hennessy-marriage-index-joseph-p][^hennessy-thomas-1930]",
+   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nFamily story. Dorothy's mother died young, and she was raised by her grandfather Patrick Hennessy and his second wife, Annie.[^family-knowledge]\n\nUpdate, November 2026. The paper agrees with that story, and it does not yet name her father. She is missing from Patrick and Annie's house in 1925. In 1930 the census writes her as G-Daughter, age 8, born in New York, with a father and a mother who were both born in New York. In 1940 she is the grandchild, age 18. Patrick was born in Ireland, so those parental birthplaces do not fit him as her father. When she married Joseph C. Belfiore in May 1946, the New Rochelle paper called her Miss Dorothy Eleanore Hennessy, daughter of Patrick J. Hennessy, of Premium Point. The state index says 12 May 1946, certificate 23239. Another index line calls her father Joseph P. Hennessy. That line is kept, and it is not followed. Of Patrick's older sons, Joseph and Henry are the two the ages allow. Thomas, a lawyer with no children in 1930, is not her father. Later obituaries of Annie's children name Dorothy as a sister, among seven Hennessy children raised together: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023. The tree does not draw Patrick and Annie as her parents, and it does not name a father who is not yet proved.[^hennessy-census-1925][^hennessy-census-1930-image][^hennessy-census-1940-image][^hennessy-marriage-announcement-1946][^hennessy-marriage-index-1946][^hennessy-marriage-index-joseph-p][^hennessy-thomas-1930][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead for her father, not a proved identification. The index does not give his age.[^nys-death-index-hennessy-new-rochelle]",
    "timeline": [],
    "facts": [
     {
@@ -3880,19 +3880,12 @@
    ],
    "openQuestions": [
     {
-     "question": "When and where was she born, and who were her parents?",
-     "record": "Her marriage record with Joseph; the 1950 census; her death record."
-    },
-    {
-     "question": "Which of Patrick's sons was Dorothy's father?",
-     "record": "A birth record or a marriage of Joseph or Henry Hennessy around 1920 to 1922. Thomas is ruled out."
+     "question": "Who was Dorothy's father?",
+     "record": "Of Patrick's older sons, Joseph (born about 1898) and Henry (born about 1902) are the two the ages allow. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead only. A death certificate or a 1930 obituary would test him. The New York City marriage index for 1917 to 1922 has not yet been searched."
     }
    ],
    "relatedPages": [],
-   "parents": [
-    "patrick-hennessy",
-    "annie-hussey-hennessy"
-   ],
+   "parents": [],
    "children": [
     "robert-belfiore",
     "william-belfiore",
@@ -13655,7 +13648,7 @@
   {
    "id": "patrick-hennessy",
    "displayName": "Patrick Hennessy",
-   "disambiguator": "Raised Dorothy; Seb's great-grandfather",
+   "disambiguator": "Raised Dorothy; probably her grandfather",
    "givenNames": "Patrick",
    "surname": "Hennessy",
    "sex": "M",
@@ -13697,7 +13690,7 @@
      "hennessy-marriage-1914"
     ],
     "confidence": "probable",
-    "note": "A Conahy baptism of 12 April 1874 names the same parents as his 1914 marriage. A draft card gives 18 April 1877 and is kept aside.",
+    "note": "A Conahy baptism of 12 April 1874 names the same parents as his 1914 marriage. A draft card gives 18 April 1877, and the 1947 death index age of 70 agrees with that later year. Both dates are kept.",
     "alternates": [
      {
       "date": "1874-04-12",
@@ -13713,11 +13706,21 @@
       "sourceIds": [
        "hennessy-wwi-draft"
       ],
-      "note": "A draft card for a Patrick Joseph Hennessy of Huguenot Street. The date does not match the baptism, so it may be another man."
+      "note": "A draft card for a Patrick Joseph Hennessy of Huguenot Street. The date does not match the baptism. The 1947 death index age of 70 agrees with this card."
      }
     ]
    },
-   "death": null,
+   "death": {
+    "date": "1947-06-27",
+    "dateQualifier": "exact",
+    "display": "Jun 27, 1947",
+    "place": "New Rochelle, New York",
+    "sourceIds": [
+     "nys-death-index-1947-hennessy"
+    ],
+    "confidence": "probable",
+    "note": "New York State death index, certificate 38983, aged 70. The certificate itself has not been read."
+   },
    "residences": [
     {
      "place": "New Rochelle, New York",
@@ -13794,8 +13797,8 @@
     "note": "Declaration of intention: arrived New York on 11 January 1894. No passenger list for that day has been found. Naturalized 18 October 1905."
    },
    "cardPlace": "Premium Point, New Rochelle",
-   "summary": "Seb's great-grandfather. He and Annie Hussey raised Dorothy. The censuses list her as their granddaughter.",
-   "story": "Patrick Hennessy and Annie Hussey were the parents of Dorothy, Seb's grandmother, and of at least six more children, all raised in New Rochelle. Three of their children's obituaries name them.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Patrick was very probably the child baptised on 12 April 1874 at Conahy, County Kilkenny, son of Patrick Hennessy and Kate Brennan. Those are the parents named when he married Anna Marie Hussey on 17 June 1914.[^hennessy-baptism-1874][^hennessy-marriage-1914]\n\nHe arrived in New York on 11 January 1894. He declared his intention on 15 September 1905 and was naturalized on 18 October 1905. No passenger list for that January day has been found.[^hennessy-naturalization-1905]\n\nHis first wife was Mary, surname not yet known. She is with him in 1905, and by 1910 he was a widower at Premium Point. Their sons were Joseph, Thomas, Henry, and John, called Jack.[^hennessy-census-1905][^hennessy-census-1910][^hennessy-census-1915]\n\nIn 1910 his work was with the horses at Premium Point. In 1920 he owned 101 Huguenot Street, a chauffeur for a private family, and he told the census taker that his native tongue was Irish. In 1925 he lived at number 260, in the house of his employer Sidney Williams. In 1930 he and Annie were at 3 Fair Oaks, Premium Point, and in 1940 they were still on Premium Point.[^hennessy-census-1910][^hennessy-census-1920][^hennessy-census-1925][^hennessy-census-1930][^hennessy-census-1940]\n\nA draft card for a Patrick Joseph Hennessy of Huguenot Street gives a birthday of 18 April 1877. That date does not fit the baptism, so the card is kept aside and is not used as his birthday.[^hennessy-wwi-draft]",
+   "summary": "He and Annie Hussey raised Dorothy. The censuses list her as their granddaughter, so he is probably Seb's great-great-grandfather, not her father.",
+   "story": "Family story, and the census, say that Patrick and his second wife Annie raised Dorothy, Seb's grandmother, after Dorothy's mother died young. The 1930 and 1940 censuses list Dorothy as their granddaughter. They also give her parents' birthplaces as New York. Patrick himself was born in Ireland, so he is not her father on those records. Later obituaries of Annie's children name Dorothy as a sister; that family language is kept beside the census, not in place of it.[^family-knowledge][^hennessy-census-1930-image][^hennessy-census-1940-image][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Patrick was very probably the child baptised on 12 April 1874 at Conahy, County Kilkenny, son of Patrick Hennessy and Kate Brennan. Those are the parents named when he married Anna Marie Hussey on 17 June 1914.[^hennessy-baptism-1874][^hennessy-marriage-1914]\n\nHe arrived in New York on 11 January 1894. He declared his intention on 15 September 1905 and was naturalized on 18 October 1905. No passenger list for that January day has been found.[^hennessy-naturalization-1905]\n\nHis first wife was Mary, surname not yet known. She is with him in 1905, and by 1910 he was a widower at Premium Point. Their sons were Joseph, Thomas, Henry, and John, called Jack.[^hennessy-census-1905][^hennessy-census-1910][^hennessy-census-1915]\n\nIn 1910 his work was with the horses at Premium Point. In 1920 he owned 101 Huguenot Street, a chauffeur for a private family, and he told the census taker that his native tongue was Irish. In 1925 he lived at number 260, in the house of his employer Sidney Williams. In 1930 he and Annie were at 3 Fair Oaks, Premium Point, and in 1940 they were still on Premium Point.[^hennessy-census-1910][^hennessy-census-1920][^hennessy-census-1925][^hennessy-census-1930][^hennessy-census-1940]\n\nA draft card for a Patrick Joseph Hennessy of Huguenot Street gives a birthday of 18 April 1877. That date does not fit the baptism, so the card has been kept as another reading, not as his birthday. A New York State death index entry for Patrick J. Hennessy, died 27 June 1947 at New Rochelle, aged 70, certificate 38983, is probably his. Aged 70 that June fits a birth in 1876 or 1877, which agrees with the draft card and not with the 1874 baptism. Both dates are kept until the death certificate, or another record, settles the year.[^hennessy-wwi-draft][^nys-death-index-1947-hennessy]",
    "timeline": [],
    "facts": [
     {
@@ -13811,6 +13814,14 @@
      "value": "Declared his intention 15 September 1905; naturalized 18 October 1905",
      "sourceIds": [
       "hennessy-naturalization-1905"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Died",
+     "value": "27 June 1947, New Rochelle, aged 70 (certificate 38983)",
+     "sourceIds": [
+      "nys-death-index-1947-hennessy"
      ],
      "confidence": "probable"
     }
@@ -13851,9 +13862,23 @@
      "type": "document",
      "sourceId": "hennessy-census-1920",
      "alt": "Ancestry transcription of the 1920 census for Patrick Hennesey"
+    },
+    {
+     "id": "death-index-1947",
+     "file": "images/nysdi-1947-patrick-j-hennessy.jpg",
+     "thumb": "images/thumbs/nysdi-1947-patrick-j-hennessy.jpg",
+     "caption": "New York State death index, 1947, the highlighted line: Patrick J. Hennessy, died 27 June 1947, New Rochelle, aged 70, certificate 38983. Reclaim The Records, page image n647.",
+     "type": "document",
+     "sourceId": "nys-death-index-1947-hennessy",
+     "alt": "New York State death index 1947, highlighted line for Patrick J. Hennessy of New Rochelle, certificate 38983"
     }
    ],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Was he born in 1874 or in 1877?",
+     "record": "The Conahy baptism of 12 April 1874 names the same parents as his 1914 marriage. A draft card gives 18 April 1877, and the 1947 death index says he was 70, which agrees with about 1877. New York death certificate 38983 (not ordered; it would need a yes) may name an age, parents and an informant."
+    }
+   ],
    "relatedPages": [],
    "parents": [
     "patrick-hennessy-conahy",
@@ -13864,7 +13889,6 @@
     "thomas-hennessy-1900",
     "henry-hennessy-1902",
     "john-hennessy-1906",
-    "dorothy-hennessey-belfiore",
     "james-hennessy-sr",
     "francis-hennessy",
     "catherine-cullen",
@@ -13908,7 +13932,7 @@
   {
    "id": "annie-hussey-hennessy",
    "displayName": "Annie Hussey Hennessy",
-   "disambiguator": "Raised Dorothy; nee Hussey",
+   "disambiguator": "Raised Dorothy; Patrick's second wife, nee Hussey",
    "givenNames": "Anna Marie",
    "surname": "Hennessy",
    "sex": "F",
@@ -14012,8 +14036,8 @@
    ],
    "immigration": null,
    "cardPlace": null,
-   "summary": "Anna Marie Hussey, Seb's great-grandmother. She and Patrick raised Dorothy.",
-   "story": "Annie (also Anna) Hussey married Patrick Hennessy. Her children's obituaries give her maiden name, Hussey.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Annie was Anna Marie Hussey, born in New York about 1886 or 1887, daughter of James Hussey and Marie Dunn, both born in Ireland. In 1900 she was on Dean Street in Mamaroneck with her mother Maria and her brothers and sisters Theodore, Mary Ellen, Lizzie (indexed as Sizzie), and Frank. In 1910 she was a bookkeeper in a grocery on Cleveland Avenue in New Rochelle, in her sister's Chapman household, and an aunt, Annie Dunne, was in the house. She married Patrick on 17 June 1914.[^hussey-census-1900][^hussey-census-1910][^hennessy-marriage-1914]",
+   "summary": "Anna Marie Hussey, Patrick's second wife. She and Patrick raised Dorothy. The censuses list Dorothy as their granddaughter.",
+   "story": "Annie (also Anna) Hussey married Patrick Hennessy. Her children's obituaries give her maiden name, Hussey.[^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Annie was Anna Marie Hussey, born in New York about 1886 or 1887, daughter of James Hussey and Marie Dunn, both born in Ireland. In 1900 she was on Dean Street in Mamaroneck with her mother Maria and her brothers and sisters Theodore, Mary Ellen, Lizzie (indexed as Sizzie), and Frank. In 1910 she was a bookkeeper in a grocery on Cleveland Avenue in New Rochelle, in her sister's Chapman household, and an aunt, Annie Dunne, was in the house. She married Patrick on 17 June 1914.[^hussey-census-1900][^hussey-census-1910][^hennessy-marriage-1914]\n\nFamily story, and the census, say that Annie and Patrick raised Dorothy after Dorothy's mother died young. The 1930 and 1940 censuses list Dorothy as their granddaughter, not their daughter. Later obituaries of Annie's own children name Dorothy as a sister; that family language is kept beside the census.[^family-knowledge][^hennessy-census-1930-image][^hennessy-census-1940-image][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]",
    "timeline": [],
    "facts": [],
    "media": [
@@ -14052,7 +14076,6 @@
     "marie-dunn"
    ],
    "children": [
-    "dorothy-hennessey-belfiore",
     "james-hennessy-sr",
     "francis-hennessy",
     "catherine-cullen",
@@ -15661,7 +15684,12 @@
    "timeline": [],
    "facts": [],
    "media": [],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Is the Mary Hennessy who died on 22 December 1905 Patrick's first wife?",
+     "record": "The original newspaper page, if it can be found on a free site, or a New Rochelle death record for December 1905. A compiled blog is the only source so far."
+    }
+   ],
    "relatedPages": [],
    "parents": [],
    "children": [
@@ -15697,7 +15725,7 @@
    "generation": 3,
    "disambiguator": "Patrick's first wife, surname unknown",
    "summary": "Patrick Hennessy's first wife. Her surname has not been found. She had died by 1910.",
-   "story": "Mary, surname not yet known, is Patrick's wife on the 1905 New York state census, with sons Joseph, Thomas, and Henry. By the 1910 census he was a widower, so she had died. No death record for her has been found.[^hennessy-census-1905][^hennessy-census-1910]",
+   "story": "Mary, surname not yet known, is Patrick's wife on the 1905 New York state census, with sons Joseph, Thomas, and Henry. By the 1910 census he was a widower, so she had died. No death record for her has been found.[^hennessy-census-1905][^hennessy-census-1910]\n\nUpdate, November 2026. A compiled family blog transcribes a Westchester notice of a Mary Hennessy who died on 22 December 1905, with a funeral at the Church of the Blessed Sacrament, leaving a husband and four children. That would fit Patrick's first wife, who had died by the 1910 census, but the original newspaper page has not been seen, so it is a lead only.[^hennessy-westchester-blog-2014]",
    "nameUncertain": false
   },
   {
@@ -15730,9 +15758,23 @@
      "type": "document",
      "sourceId": "hennessy-census-1915",
      "alt": "Ancestry transcription of the 1915 New York census listing Patrick Hennessy's sons"
+    },
+    {
+     "id": "nys-death-index-table",
+     "file": "images/nysdi-1925-1956-hennessy-new-rochelle.jpg",
+     "thumb": "images/thumbs/nysdi-1925-1956-hennessy-new-rochelle.jpg",
+     "caption": "Hennessy or Hennessey deaths at New Rochelle, 1925 to 1956, from a Reclaim The Records transcription of the New York State death index. The Joseph W. line, 22 March 1930, certificate 16632, is highlighted. The index does not give his age.",
+     "type": "document",
+     "sourceId": "nys-death-index-hennessy-new-rochelle",
+     "alt": "Table of Hennessy deaths at New Rochelle, 1925 to 1956, with Joseph W., 22 March 1930, highlighted"
     }
    ],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Is Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, this Joseph, and was he Dorothy's father?",
+     "record": "New York death certificate 16632, or an obituary in the Standard-Star around 22 March 1930, would give his age and parents. Not ordered."
+    }
+   ],
    "relatedPages": [],
    "parents": [
     "patrick-hennessy",
@@ -15753,7 +15795,7 @@
    "generation": 4,
    "disambiguator": "Patrick's son by his first marriage",
    "summary": "Son of Patrick Hennessy and his first wife, Mary.",
-   "story": "Joseph was a son of Patrick and Mary. He is 6 on the 1905 census and 16 in 1915, so he was born about 1898 or 1899, in New York. He is one of the two sons the records leave open as Dorothy's father. Nothing here names him as that father.[^hennessy-census-1905][^hennessy-census-1915]"
+   "story": "Joseph was a son of Patrick and Mary. He is 6 on the 1905 census and 16 in 1915, so he was born about 1898 or 1899, in New York. He is one of the two sons the records leave open as Dorothy's father. Nothing here names him as that father.[^hennessy-census-1905][^hennessy-census-1915]\n\nUpdate, November 2026. A New York State death index entry for Joseph W. Hennessy, died 22 March 1930 at New Rochelle, certificate 16632, is a lead only. The index does not give his age, so the identity is not proved. A death certificate or a 1930 obituary would test him. No marriage of a Joseph Hennessy was found in the New York State marriage index (outside New York City) for 1917 to 1922. The New York City marriage index for those years has not yet been searched.[^nys-death-index-hennessy-new-rochelle][^nys-marriage-index-hennessy-1917-1922]"
   },
   {
    "nameVariants": [],
@@ -15808,7 +15850,7 @@
    "generation": 4,
    "disambiguator": "Patrick's son; not Dorothy's father",
    "summary": "Son of Patrick Hennessy and his first wife, Mary.",
-   "story": "Thomas was a son of Patrick and Mary, born about 1900. A Thomas S. Hennessy, a lawyer in New Rochelle in 1930, had a wife Margaret and no children, and had married at about thirty. He is not Dorothy's father.[^hennessy-census-1915][^hennessy-thomas-1930]"
+   "story": "Thomas was a son of Patrick and Mary, born about 1900. A Thomas S. Hennessy, a lawyer in New Rochelle in 1930, had a wife Margaret and no children, and had married at about thirty. He is not Dorothy's father.[^hennessy-census-1915][^hennessy-thomas-1930]\n\nUpdate, November 2026. A New York State death index entry for Thomas F. Hennessy, died 18 May 1954 at New Rochelle, aged 54, certificate 33458, would fit a birth about 1900. It is a lead only, until the certificate or an obituary is read.[^nys-death-index-hennessy-new-rochelle]"
   },
   {
    "nameVariants": [],
@@ -15863,7 +15905,7 @@
    "generation": 4,
    "disambiguator": "Patrick's son by his first marriage",
    "summary": "Son of Patrick Hennessy and his first wife, Mary.",
-   "story": "Henry was a son of Patrick and Mary, about 3 in 1905 and 13 in 1915, so born about 1902. He is the other son the records leave open as Dorothy's father. Nothing here names him as that father.[^hennessy-census-1905][^hennessy-census-1915]"
+   "story": "Henry was a son of Patrick and Mary, about 3 in 1905 and 13 in 1915, so born about 1902. He is the other son the records leave open as Dorothy's father. Nothing here names him as that father.[^hennessy-census-1905][^hennessy-census-1915]\n\nUpdate, November 2026. No marriage of a Henry Hennessy was found in the New York State marriage index (outside New York City) for 1917 to 1922. The New York City marriage index for those years has not yet been searched.[^nys-marriage-index-hennessy-1917-1922]"
   },
   {
    "nameVariants": [
