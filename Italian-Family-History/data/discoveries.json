@@ -381,6 +381,46 @@
     "url": "https://www.ancestry.com/search/collections/6224/"
    },
    "confidence": "probable"
+  },
+  {
+   "id": "r27b-frances-1920-bookkeeper",
+   "covers": [
+    "occupation:frances-towey:bookkeeper-in-a-department-store:"
+   ],
+   "personIds": [
+    "frances-towey"
+   ],
+   "placeIds": [
+    "new-rochelle"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "In the 1920 census Frances Towey, 22 and still single, was a department store bookkeeper living with her family on Mechanic Street.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "1920 U.S. census, New Rochelle Ward 2 (Ancestry)",
+    "url": "https://www.ancestry.com/search/collections/6061/"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27b-margaret-maiden-name",
+   "covers": [
+    "fact:margaret-towey:maiden-name"
+   ],
+   "personIds": [
+    "margaret-towey"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Her youngest son's 1987 obituary index names Frances's mother as Margaret Coolahan, matching the Collohan maiden name on her memorial.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "Obituary index for her youngest son, 1987 (Ancestry); Find a Grave 281144407",
+    "url": "https://www.findagrave.com/memorial/281144407"
+   },
+   "confidence": "probable"
   }
  ]
 }

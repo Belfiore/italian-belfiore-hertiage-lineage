@@ -3049,7 +3049,18 @@
     "note": "State death index certificate 54299, which gives his age as 73, about six years short.",
     "placeId": "new-rochelle"
    },
-   "residences": [],
+   "residences": [
+    {
+     "place": "New Rochelle, New York",
+     "address": "Mechanic Street",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
+    }
+   ],
    "occupations": [],
    "immigration": null,
    "cardPlace": "New Rochelle",
@@ -3105,6 +3116,23 @@
       "census-1900-towey"
      ],
      "confidence": "probable"
+    },
+    {
+     "name": "Margaret Collohan",
+     "note": "maiden name on her Find a Grave memorial; her son John's obituary index spells it Coolahan",
+     "sourceIds": [
+      "findagrave-margaret-towey",
+      "obit-index-john-j-towey-1987"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "name": "Margaret M. Towey",
+     "note": "1920 census",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable"
     }
    ],
    "confidence": "probable",
@@ -3133,18 +3161,39 @@
     "note": "State death index certificate 3541.",
     "placeId": "new-rochelle"
    },
-   "residences": [],
+   "residences": [
+    {
+     "place": "New Rochelle, New York",
+     "address": "Mechanic Street",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
+    }
+   ],
    "occupations": [],
    "immigration": null,
    "cardPlace": "New Rochelle",
    "summary": "Frances Towey's mother, born in Ireland about 1870. She died in New Rochelle in 1938.",
-   "story": "Margaret Towey was born in Ireland about 1870 and was the mother of Frances, James, Mary and John. In 1900 the family lived at 200 Horton Avenue, New Rochelle, with a niece, Nellie Kelly, aged eleven.[^census-1900-towey][^census-1910-towey]\n\nShe died in New Rochelle on 24 January 1938.[^nysdi-1938-margaret-towey] Her Find a Grave memorial records her burial at Holy Sepulchre Cemetery.[^findagrave-margaret-towey]",
+   "story": "Margaret Towey was born in Ireland about 1870 and was the mother of Frances, James, Mary and John. In 1900 the family lived at 200 Horton Avenue, New Rochelle, with a niece, Nellie Kelly, aged eleven.[^census-1900-towey][^census-1910-towey]\n\nShe died in New Rochelle on 24 January 1938.[^nysdi-1938-margaret-towey] Her Find a Grave memorial records her burial at Holy Sepulchre Cemetery.[^findagrave-margaret-towey]\n\nHer maiden name was very probably Collohan. Her Find a Grave memorial gives it that way, and her son John's obituary index, written up when he died in 1987, names her as Margaret Coolahan.[^findagrave-margaret-towey][^obit-index-john-j-towey-1987] In 1920 she and James, both fifty, were living on Mechanic Street with all four of their children.[^census-1920-towey]",
    "timeline": [],
-   "facts": [],
+   "facts": [
+    {
+     "label": "Maiden name",
+     "value": "Collohan, spelled Coolahan in her son John J. Towey's 1987 obituary index. Two later sources agree; no Irish record has been read yet",
+     "sourceIds": [
+      "findagrave-margaret-towey",
+      "obit-index-john-j-towey-1987"
+     ],
+     "confidence": "probable"
+    }
+   ],
    "media": [],
    "openQuestions": [
     {
-     "question": "What was her maiden name, and where was she born?",
+     "question": "Was she born a Collohan in Kilmovee, County Mayo, and when?",
      "record": "Find a Grave gives Collohan and Kilmovee, County Mayo, as family tradition passed on by a memorial contributor; no record here confirms it yet. Her 1938 death certificate (no. 3541) or the couple's marriage record would."
     }
    ],
@@ -3201,6 +3250,14 @@
      "note": "1910 census",
      "sourceIds": [
       "census-1910-towey"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "name": "Fannie A. Towey",
+     "note": "1920 census",
+     "sourceIds": [
+      "census-1920-towey"
      ],
      "confidence": "probable"
     }
@@ -3293,9 +3350,30 @@
      ],
      "confidence": "probable",
      "placeId": "47-oak-street"
+    },
+    {
+     "place": "New Rochelle, New York",
+     "address": "Mechanic Street, with her parents",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "occupations": [
+    {
+     "title": "Bookkeeper in a department store",
+     "employer": null,
+     "place": "New Rochelle",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
+    },
     {
      "title": "Cafeteria worker",
      "employer": "a high school",
@@ -3311,7 +3389,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle, NY",
    "summary": "An Irish-American born in New York in 1897, Michael's second wife and the mother of Edward and Joseph. She died in New Rochelle in 1967.",
-   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 15, 1967, aged sixty-nine.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, 27 November 2026. Her death date has been rechecked. The state death index and Find a Grave both say 15 April 1967, and the Social Security index, read again, gives only April 1967. The 5 April date this page used before has no record behind it, so 15 April now leads.[^ssdi-ancestry-frances-belfiore]",
+   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 15, 1967, aged sixty-nine.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, 27 November 2026. Her death date has been rechecked. The state death index and Find a Grave both say 15 April 1967, and the Social Security index, read again, gives only April 1967. The 5 April date this page used before has no record behind it, so 15 April now leads.[^ssdi-ancestry-frances-belfiore]\n\nUpdate, 27 November 2026. In January 1920 the census taker found Fannie, as the family called her, still single at twenty-two and living at home on Mechanic Street with her parents, her brothers James and John and her sister Mary. She was working as a bookkeeper in a department store. She married Michael Belfiore later that year or soon after.[^census-1920-towey]",
    "timeline": [
     {
      "date": "1897-09-17",
@@ -3324,6 +3402,16 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1900-06",
+     "label": "Jun 1900",
+     "event": "Aged 2, in New Rochelle with her parents James and Margaret Towey.",
+     "sourceIds": [
+      "census-1900-towey"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1920",
      "label": "c. 1920",
      "event": "Son Edward born.",
@@ -3334,6 +3422,16 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1920-01",
+     "label": "Jan 1920",
+     "event": "Single, aged 22, keeping the books for a department store and living with her parents and siblings on Mechanic Street.",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1922",
      "label": "c. 1922",
      "event": "Son Joseph born.",
@@ -3342,6 +3440,16 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
+    },
+    {
+     "date": "1930-04",
+     "label": "Apr 1930",
+     "event": "Married to Michael, with Dorothy, Edward and Joseph at home.",
+     "sourceIds": [
+      "census-1930-michael"
+     ],
+     "kind": "life",
+     "confidence": "probable"
     },
     {
      "date": "1940-04-03",
@@ -3370,26 +3478,6 @@
      "sourceIds": [
       "nysdi-1967-frances-belfiore",
       "findagrave-frances-towey-belfiore"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1900-06",
-     "label": "Jun 1900",
-     "event": "Aged 2, in New Rochelle with her parents James and Margaret Towey.",
-     "sourceIds": [
-      "census-1900-towey"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1930-04",
-     "label": "Apr 1930",
-     "event": "Married to Michael, with Dorothy, Edward and Joseph at home.",
-     "sourceIds": [
-      "census-1930-michael"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -3426,15 +3514,17 @@
      "value": "James, Mary and John",
      "sourceIds": [
       "census-1900-towey",
-      "census-1910-towey"
+      "census-1910-towey",
+      "census-1920-towey"
      ],
      "confidence": "probable"
     },
     {
      "label": "Marriage to Michael",
-     "value": "About 1920, when she was about 22",
+     "value": "About 1920, when she was about 22. She was still single, living with her parents, when the census taker came in January 1920",
      "sourceIds": [
-      "census-1930-michael"
+      "census-1930-michael",
+      "census-1920-towey"
      ],
      "confidence": "probable"
     },
