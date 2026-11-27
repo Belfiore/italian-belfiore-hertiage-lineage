@@ -8277,9 +8277,9 @@
      "personIds": [
       "frances-towey"
      ],
-     "date": "Apr 5, 1967",
-     "dateStart": "1967-04-05",
-     "dateEnd": "1967-04-05",
+     "date": "Apr 15, 1967",
+     "dateStart": "1967-04-15",
+     "dateEnd": "1967-04-15",
      "datePrecision": "day",
      "approximate": false,
      "factRef": "frances-towey.death",
@@ -8287,9 +8287,10 @@
      "pages": [],
      "recordCrops": [],
      "sourceIds": [
-      "ssdi-frances"
+      "nysdi-1967-frances-belfiore",
+      "findagrave-frances-towey-belfiore"
      ],
-     "confidence": "confirmed",
+     "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
      "note": null

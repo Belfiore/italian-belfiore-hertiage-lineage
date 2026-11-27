@@ -1901,6 +1901,72 @@
    "date": "1967",
    "url": "https://archive.org/details/New_York_State_Death_Index_-_collected_data_files_-_1880-2017",
    "note": "Belfiore, Frances T., age 69, 15 April 1967, certificate 32075. Index entry only; the certificate has not been ordered."
+  },
+  {
+   "id": "birth-vincenzo-antonio-circelli-1816",
+   "title": "Atto di nascita no. 16: Vincenzo Antonio, son of Donato Circelli and Vincenza Minichello",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Foggia, sezione di Lucera, San Bartolomeo in Galdo, Stato civile napoleonico, Nati 1816 (Registro 1194), image 10, left page; index an_ua36038030 image 7, line 16",
+   "date": "1816-01-17",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36038033",
+   "file": "images/birth-vincenzo-antonio-circelli-1816-act16.jpg",
+   "note": "Read on the original page in November 2026. Registered 17 January 1816 at the sixteenth hour by the father, Donato Circelli (written Cirelli), 26, contadino; the boy was born at home that day at the fifteenth hour to his lawful wife Vincenza Minichello, and named Vincenzo Antonio."
+  },
+  {
+   "id": "birth-maria-bartolomea-circelli-1867",
+   "title": "Atto di nascita no. 220: Maria Bartolomea, daughter of Giovanni Circelli and Maria D'Andrea",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Nati 1867, image 134",
+   "date": "1867-09-23",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2578405",
+   "file": "images/birth-maria-bartolomea-circelli-1867-act220.jpg",
+   "note": "Read on the original page in November 2026. Registered 24 September 1867 by Giovanni Circelli, son of the late Donato, 37, contadino; born the day before at the tenth hour to his wife Maria D'Andrea, at home."
+  },
+  {
+   "id": "marriage-circelli-circelli-1890",
+   "title": "Atto di matrimonio no. 20: Michele Circelli and Maria Bartolomea Circelli, 8 February 1890",
+   "type": "civil record",
+   "repository": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, San Bartolomeo in Galdo, Matrimoni 1890, image 22",
+   "date": "1890-02-08",
+   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2575509",
+   "file": "images/marriage-circelli-circelli-1890-act20.jpg",
+   "note": "Read on the original page in November 2026. Groom Michele Circelli, 21, contadino, son of Giuseppe (living in America) and the late Maria Giovanna Sangregorio. Bride Maria Bartolomea Circelli, 22, contadina, daughter of Giovanni, living in San Bartolomeo, and of Maria D'Andrea, living there. The groom's father is a different Giuseppe from Maria Donata's father."
+  },
+  {
+   "id": "nyc-birth-index-dorothy-hennessy-1922",
+   "title": "New York City Birth Index: Dorothy E Hennessy, 20 Feb 1922, Manhattan",
+   "type": "birth index",
+   "repository": "Ancestry, New York, New York, U.S., Birth Index, 1910 to 1965 (collection 61457)",
+   "date": "1922-02-20",
+   "url": "https://www.ancestry.com/search/collections/61457/",
+   "note": "Index entry only (no parents or certificate number shown in the index as read). Seen on Ancestry on 27 November 2026, record 1632943. A Brooklyn Dorothy born 26 Oct 1922 is a different child."
+  },
+  {
+   "id": "ny-county-marriage-maria-belfiore",
+   "title": "New York County Marriages index: Maria Belfiore, parents Antonio Belfiore and Maria D. Circelli",
+   "type": "marriage index",
+   "repository": "Ancestry, New York, U.S., County Marriages, 1847 to 1848, 1908 to 1936 (collection 61377), from FamilySearch film 001031488",
+   "date": "1911",
+   "url": "https://www.ancestry.com/search/collections/61377/",
+   "note": "Index entry only, seen 27 November 2026 (record 1500772809). It lists Maria D. Circelli with spouse Antonio Belfiore and child Maria Belfiore, which reads as the bride's parents on Maria's own marriage record. Very probably her 1911 Westchester marriage to Giuseppe D'Onofrio; the image has not been read."
+  },
+  {
+   "id": "ssdi-ancestry-frances-belfiore",
+   "title": "Social Security Death Index: Frances Belfiore, born 17 Sep 1897, died April 1967",
+   "type": "death index",
+   "repository": "Ancestry, U.S., Social Security Death Index, 1935 to 2014 (collection 3693)",
+   "date": "1967-04",
+   "url": "https://www.ancestry.com/search/collections/3693/",
+   "note": "Seen 27 November 2026. Gives the month of death only, April 1967. The number is not reproduced here."
+  },
+  {
+   "id": "census-1930-hennessy-ancestry",
+   "title": "1930 census, New Rochelle, Premium Point: Patrick Hennessey household",
+   "type": "census",
+   "repository": "Ancestry, 1930 United States Federal Census (collection 6224), record 46944667",
+   "date": "1930-04",
+   "url": "https://www.ancestry.com/search/collections/6224/",
+   "note": "Patrick 52, born about 1878, chauffeur, immigrated 1890, naturalized; age at first marriage 21. Wife Annie M. 43; children; granddaughter Dorothy 8."
   }
  ]
 }

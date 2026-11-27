@@ -64,7 +64,7 @@ const personData = {
         description: `Frances M. Towey was born September 17, 1897, in New York — likely New Rochelle. She was Michael's second wife — he had been previously married and had a daughter, Dorothy, before Frances. With Michael, Frances had two sons: Edward ("Eddie") and Joseph (Seb's grandfather). The Towey surname is definitively Irish, deriving from the Gaelic Ó Tuathaigh. The Towey sept traces to County Mayo, concentrated around Ballaghaderreen on the Mayo/Roscommon border. Irish-Italian marriages were rare before World War II — a 1920s study found Irish New Yorkers were more likely to marry a German Jew than an Italian. Shared Catholic faith was the primary bridge. Frances lived at 46 Mechanic Street and was the informant on Michael's death certificate, listed as "Frances M. Belfiore." Her brother was John J. Towey (~1909, also New Rochelle). She died April 5, 1967, in New Rochelle, aged 69. Her death certificate has been ordered.`,
         details: {
             "Born": "September 17, 1897, New York",
-            "Died": "April 5, 1967, New Rochelle, NY",
+            "Died": "April 15, 1967, New Rochelle, NY",
             "SSN": "120-26-7124",
             "Children": "Edward (Eddie), Joseph (Seb's grandfather)",
             "Irish Origin": "Towey — County Mayo/Roscommon, Ballaghaderreen area",

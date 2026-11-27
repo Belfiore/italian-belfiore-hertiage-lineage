@@ -2,7 +2,7 @@
  "meta": {
   "schemaVersion": 1,
   "title": "Belfiore & Circelli family",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "confidenceScale": [
    "confirmed",
    "probable",
@@ -235,6 +235,86 @@
    "isLiving": false
   },
   {
+   "id": "vincenzo-antonio-circelli",
+   "displayName": "Vincenzo Antonio Circelli",
+   "disambiguator": "Giuseppe's elder brother",
+   "givenNames": "Vincenzo Antonio",
+   "surname": "Circelli",
+   "sex": "M",
+   "generation": 1,
+   "nameVariants": [
+    {
+     "name": "Vincenzo Cirelli",
+     "note": "as written in the 1816 birth index",
+     "sourceIds": [
+      "birth-vincenzo-antonio-circelli-1816"
+     ],
+     "confidence": "confirmed"
+    }
+   ],
+   "confidence": "confirmed",
+   "birth": {
+    "date": "1816-01-17",
+    "dateQualifier": "exact",
+    "display": "Jan 17, 1816",
+    "place": "San Bartolomeo in Galdo, Italy",
+    "sourceIds": [
+     "birth-vincenzo-antonio-circelli-1816"
+    ],
+    "confidence": "confirmed",
+    "note": "Birth act 16 of 1816, read on the original page. Born at home at the fifteenth hour and registered the same day.",
+    "placeId": "san-bartolomeo-in-galdo"
+   },
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "San Bartolomeo in Galdo",
+   "summary": "The earliest child yet found of Donato Circelli and Vincenza Minichillo, born in San Bartolomeo in Galdo in January 1816, eleven years before his brother Giuseppe.",
+   "story": "Vincenzo Antonio Circelli was born at home in San Bartolomeo in Galdo on 17 January 1816, at the fifteenth hour. That same afternoon his father, Donato Circelli, a farmer of twenty-six, carried the news to the mayor, and the clerk wrote that the boy was born to Donato's lawful wife, Vincenza Minichello.[^birth-vincenzo-antonio-circelli-1816]\n\nDonato and Vincenza had married at the end of December 1810, so Vincenzo Antonio came five years into the marriage. He was the elder brother of Giuseppe, born in 1827, and of Giovanniangelo, born in 1830.[^birth-giuseppe-circelli-1827][^birth-giovanniangelo-circelli-1830] The other Donato Circelli of the town was only a boy in 1816, so the father here is our Donato.\n\nWhat became of him is not yet known. His marriage, if he married, would be in the San Bartolomeo registers of the 1830s or 1840s.",
+   "timeline": [],
+   "facts": [
+    {
+     "label": "Brothers",
+     "value": "Giuseppe (born 1827) and Giovanniangelo (born 1830), sons of the same parents",
+     "sourceIds": [
+      "birth-vincenzo-antonio-circelli-1816",
+      "birth-giuseppe-circelli-1827",
+      "birth-giovanniangelo-circelli-1830"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "media": [
+    {
+     "id": "birth-vincenzo-antonio-circelli-1816",
+     "file": "images/birth-vincenzo-antonio-circelli-1816-act16.jpg",
+     "thumb": "images/thumbs/birth-vincenzo-antonio-circelli-1816-act16.jpg",
+     "caption": "Birth act no. 16, San Bartolomeo in Galdo, 17 January 1816 (left page, boxed): Vincenzo Antonio, son of Donato Circelli and Vincenza Minichello.",
+     "type": "document",
+     "sourceId": "birth-vincenzo-antonio-circelli-1816",
+     "alt": "Handwritten 1816 Italian civil birth register page for Vincenzo Antonio Circelli, the act boxed in yellow"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "Did Vincenzo Antonio marry, and when did he die?",
+     "record": "San Bartolomeo in Galdo marriage registers of about 1836 to 1850 on Antenati, read act by act; the 1839 to 1843 death acts of his parents may also name him."
+    }
+   ],
+   "relatedPages": [],
+   "parents": [
+    "donato-circelli",
+    "vincenza-minichilli"
+   ],
+   "children": [],
+   "spouses": [],
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
    "id": "giovanniangelo-circelli",
    "displayName": "Giovanniangelo Circelli",
    "disambiguator": "Giuseppe's brother",
@@ -245,9 +325,10 @@
    "nameVariants": [
     {
      "name": "Giovanni Circelli",
-     "note": "the short form, probably the father named in the 1862 birth of Pasqualantonio",
+     "note": "the short form, used for the father in the 1862 and 1867 births of Pasqualantonio and Maria Bartolomea",
      "sourceIds": [
-      "birth-pasqualantonio-circelli-1862"
+      "birth-pasqualantonio-circelli-1862",
+      "birth-maria-bartolomea-circelli-1867"
      ],
      "confidence": "probable"
     }
@@ -284,7 +365,7 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "summary": "Giuseppe Circelli's younger brother, born in San Bartolomeo in Galdo in February 1830. A farmer, he married Maria d'Andrea in 1855.",
-   "story": "Giovanniangelo Circelli was born at home in San Bartolomeo in Galdo on 27 February 1830, at the fifteenth hour, and was baptised the next day. His father Donato, a farmer of Strada Borgo Nuovo, registered the birth; his mother was Vincenza Minichiello.[^birth-giovanniangelo-circelli-1830] He was the younger brother of Giuseppe Circelli, born three years earlier to the same parents on the same street.[^birth-giuseppe-circelli-1827]\n\nHe lost his father in 1839 and his mother in 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] On 1 November 1855, aged twenty-five and working the land, he married Maria d'Andrea, twenty-one, the daughter of a farmer, Romualdo d'Andrea. The civil promise and the church wedding took place on the same day. The act names him as the son of the late Donato and the late Vincenza, and copies of the death acts of his father, his mother and his grandfather were filed with the papers.[^marriage-1855-giovanniangelo-circelli]\n\nIn March 1862 a son, Pasqualantonio, was born to a Giovanni Circelli, son of the late Donato, and his wife Maria d'Andrea, aged twenty-eight. The wife's name and age and the late father all fit Giovanniangelo, so this is very probably his son, written with the short form of his name.[^birth-pasqualantonio-circelli-1862]",
+   "story": "Giovanniangelo Circelli was born at home in San Bartolomeo in Galdo on 27 February 1830, at the fifteenth hour, and was baptised the next day. His father Donato, a farmer of Strada Borgo Nuovo, registered the birth; his mother was Vincenza Minichiello.[^birth-giovanniangelo-circelli-1830] He was the younger brother of Giuseppe Circelli, born three years earlier to the same parents on the same street.[^birth-giuseppe-circelli-1827]\n\nHe lost his father in 1839 and his mother in 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] On 1 November 1855, aged twenty-five and working the land, he married Maria d'Andrea, twenty-one, the daughter of a farmer, Romualdo d'Andrea. The civil promise and the church wedding took place on the same day. The act names him as the son of the late Donato and the late Vincenza, and copies of the death acts of his father, his mother and his grandfather were filed with the papers.[^marriage-1855-giovanniangelo-circelli]\n\nIn March 1862 a son, Pasqualantonio, was born to a Giovanni Circelli, son of the late Donato, and his wife Maria d'Andrea, aged twenty-eight. The wife's name and age and the late father all fit Giovanniangelo, so this is very probably his son, written with the short form of his name.[^birth-pasqualantonio-circelli-1862]\n\nUpdate, November 2026. A daughter, Maria Bartolomea, was born at home on 23 September 1867. Her father registered her the next day as Giovanni Circelli, son of the late Donato, a farmer of thirty-seven, and her mother was his wife Maria D'Andrea.[^birth-maria-bartolomea-circelli-1867] Thirty-seven in 1867 fits a birth in 1830, and the wife's name settles it: this is Giovanniangelo again. On 8 February 1890 Maria Bartolomea, twenty-two, married a young farmer, Michele Circelli, in San Bartolomeo. The act says her father Giovanni and her mother Maria were both living in the town, so Giovanniangelo was still alive at about sixty.[^marriage-circelli-circelli-1890] He also had an elder brother, Vincenzo Antonio, born in 1816.[^birth-vincenzo-antonio-circelli-1816]",
    "timeline": [],
    "facts": [
     {
@@ -300,6 +381,22 @@
      "value": "Pasqualantonio, born 16 March 1862 to Giovanni Circelli, son of the late Donato, and Maria d'Andrea",
      "sourceIds": [
       "birth-pasqualantonio-circelli-1862"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Daughter",
+     "value": "Maria Bartolomea, born 23 September 1867 to Giovanni Circelli, son of the late Donato, 37, and Maria D'Andrea",
+     "sourceIds": [
+      "birth-maria-bartolomea-circelli-1867"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Living in 1890",
+     "value": "He and Maria D'Andrea were both alive in San Bartolomeo when Maria Bartolomea married Michele Circelli on 8 February 1890",
+     "sourceIds": [
+      "marriage-circelli-circelli-1890"
      ],
      "confidence": "probable"
     }
@@ -331,12 +428,30 @@
      "type": "document",
      "sourceId": "birth-pasqualantonio-circelli-1862",
      "alt": "Handwritten 1862 Italian civil birth register page for Pasqualantonio Circelli"
+    },
+    {
+     "id": "birth-maria-bartolomea-circelli-1867",
+     "file": "images/birth-maria-bartolomea-circelli-1867-act220.jpg",
+     "thumb": "images/thumbs/birth-maria-bartolomea-circelli-1867-act220.jpg",
+     "caption": "Birth act no. 220, San Bartolomeo in Galdo, 24 September 1867 (boxed): Maria Bartolomea, daughter of Giovanni Circelli, son of the late Donato, and Maria D'Andrea.",
+     "type": "document",
+     "sourceId": "birth-maria-bartolomea-circelli-1867",
+     "alt": "Handwritten 1867 Italian civil birth register page for Maria Bartolomea Circelli, the act boxed in yellow"
+    },
+    {
+     "id": "marriage-circelli-circelli-1890",
+     "file": "images/marriage-circelli-circelli-1890-act20.jpg",
+     "thumb": "images/thumbs/marriage-circelli-circelli-1890-act20.jpg",
+     "caption": "Marriage act no. 20, San Bartolomeo in Galdo, 8 February 1890 (boxed): Michele Circelli and Maria Bartolomea Circelli, daughter of Giovanni and Maria D'Andrea.",
+     "type": "document",
+     "sourceId": "marriage-circelli-circelli-1890",
+     "alt": "Printed and handwritten 1890 Italian civil marriage register page for Michele and Maria Bartolomea Circelli, the act boxed in yellow"
     }
    ],
    "openQuestions": [
     {
-     "question": "Did Giovanniangelo and Maria have other children, and when did he die?",
-     "record": "The 1867 birth of a Maria Bartolomea Circelli to Giovanni and Maria d'Andrea appears in the Antenati name index and should be read on the page. San Bartolomeo in Galdo death registers after 1861 are not online."
+     "question": "When did Giovanniangelo and Maria die, and did they have more children?",
+     "record": "Both were alive in February 1890. San Bartolomeo death registers after 1861 are not on Antenati; the comune or the Archivio di Stato di Benevento would hold them."
     }
    ],
    "relatedPages": [],
@@ -3098,32 +3213,35 @@
     "place": "New York",
     "sourceIds": [
      "ssdi-frances",
-     "census-1940"
+     "census-1940",
+     "ssdi-ancestry-frances-belfiore"
     ],
     "confidence": "confirmed",
     "placeId": "new-york-state"
    },
    "death": {
-    "date": "1967-04-05",
+    "date": "1967-04-15",
     "dateQualifier": "exact",
-    "display": "Apr 5, 1967",
+    "display": "Apr 15, 1967",
     "place": "New Rochelle, New York",
     "sourceIds": [
-     "ssdi-frances"
+     "nysdi-1967-frances-belfiore",
+     "findagrave-frances-towey-belfiore",
+     "ssdi-ancestry-frances-belfiore"
     ],
-    "confidence": "confirmed",
+    "confidence": "probable",
     "placeId": "new-rochelle",
     "alternates": [
      {
-      "date": "1967-04-15",
-      "display": "Apr 15, 1967",
+      "date": "1967-04-05",
+      "display": "Apr 5, 1967",
       "sourceIds": [
-       "nysdi-1967-frances-belfiore",
-       "findagrave-frances-towey-belfiore"
+       "ssdi-frances"
       ],
-      "note": "New York State death index (certificate 32075) and Find a Grave"
+      "note": "The date shown earlier on this site and on the Research page; no index found so far gives it"
      }
-    ]
+    ],
+    "note": "The New York State death index (certificate 32075, age 69) and Find a Grave both give 15 April 1967. The Social Security index gives April 1967 with no day. The certificate has not been read."
    },
    "residences": [
     {
@@ -3193,7 +3311,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle, NY",
    "summary": "An Irish-American born in New York in 1897, Michael's second wife and the mother of Edward and Joseph. She died in New Rochelle in 1967.",
-   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 5, 1967, aged sixty-nine.[^ssdi-frances]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]",
+   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 15, 1967, aged sixty-nine.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, 27 November 2026. Her death date has been rechecked. The state death index and Find a Grave both say 15 April 1967, and the Social Security index, read again, gives only April 1967. The 5 April date this page used before has no record behind it, so 15 April now leads.[^ssdi-ancestry-frances-belfiore]",
    "timeline": [
     {
      "date": "1897-09-17",
@@ -3246,14 +3364,15 @@
      "confidence": "confirmed"
     },
     {
-     "date": "1967-04-05",
-     "label": "Apr 5, 1967",
+     "date": "1967-04-15",
+     "label": "Apr 15, 1967",
      "event": "Dies in New Rochelle.",
      "sourceIds": [
-      "ssdi-frances"
+      "nysdi-1967-frances-belfiore",
+      "findagrave-frances-towey-belfiore"
      ],
      "kind": "life",
-     "confidence": "confirmed"
+     "confidence": "probable"
     },
     {
      "date": "1900-06",
@@ -3331,7 +3450,7 @@
     },
     {
      "label": "Death date in the state index",
-     "value": "15 April 1967, certificate 32075, ten days later than the Social Security index date",
+     "value": "15 April 1967, certificate 32075; Find a Grave agrees, and the Social Security index gives April 1967 with no day. The earlier 5 April has no source, so 15 April now leads",
      "sourceIds": [
       "nysdi-1967-frances-belfiore",
       "findagrave-frances-towey-belfiore"
@@ -4144,17 +4263,17 @@
    ],
    "confidence": "probable",
    "birth": {
-    "date": "1922",
-    "dateQualifier": "about",
-    "display": "about 1922",
-    "place": "New York",
+    "date": "1922-02-20",
+    "dateQualifier": "exact",
+    "display": "Feb 20, 1922",
+    "place": "Manhattan, New York City",
     "sourceIds": [
+     "nyc-birth-index-dorothy-hennessy-1922",
      "hennessy-census-1930-image",
      "hennessy-census-1940-image"
     ],
     "confidence": "probable",
-    "note": "Age 8 in 1930 and 18 in 1940. She is not in Patrick and Annie's household in 1925.",
-    "placeId": "new-york-state"
+    "note": "The New York City birth index gives Dorothy E Hennessy, born 20 February 1922 in Manhattan, and Find a Grave gives the same day. Her obituary says New Rochelle, so the place is not settled. Age 8 in 1930 and 18 in 1940 agree."
    },
    "death": {
     "date": "2008-01-05",
@@ -4173,7 +4292,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle area",
    "summary": "Joseph's wife and Seb's grandmother, remembered as Irish-American. Not the same person as Dorothy Belfiore of Bridgeport, Michael's daughter.",
-   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nFamily story. Dorothy's mother died young, and she was raised by her grandfather Patrick Hennessy and his second wife, Annie.[^family-knowledge]\n\nUpdate, November 2026. The paper agrees with that story, and it does not yet name her father. She is missing from Patrick and Annie's house in 1925. In 1930 the census writes her as G-Daughter, age 8, born in New York, with a father and a mother who were both born in New York. In 1940 she is the grandchild, age 18. Patrick was born in Ireland, so those parental birthplaces do not fit him as her father. When she married Joseph C. Belfiore in May 1946, the New Rochelle paper called her Miss Dorothy Eleanore Hennessy, daughter of Patrick J. Hennessy, of Premium Point. The state index says 12 May 1946, certificate 23239. Another index line calls her father Joseph P. Hennessy. That line is kept, and it is not followed. Of Patrick's older sons, Joseph and Henry are the two the ages allow. Thomas, a lawyer with no children in 1930, is not her father. Later obituaries of Annie's children name Dorothy as a sister, among seven Hennessy children raised together: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023. The tree does not draw Patrick and Annie as her parents, and it does not name a father who is not yet proved.[^hennessy-census-1925][^hennessy-census-1930-image][^hennessy-census-1940-image][^hennessy-marriage-announcement-1946][^hennessy-marriage-index-1946][^hennessy-marriage-index-joseph-p][^hennessy-thomas-1930][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead for her father, not a proved identification. The index does not give his age.[^nys-death-index-hennessy-new-rochelle]",
+   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nFamily story. Dorothy's mother died young, and she was raised by her grandfather Patrick Hennessy and his second wife, Annie.[^family-knowledge]\n\nUpdate, November 2026. The paper agrees with that story, and it does not yet name her father. She is missing from Patrick and Annie's house in 1925. In 1930 the census writes her as G-Daughter, age 8, born in New York, with a father and a mother who were both born in New York. In 1940 she is the grandchild, age 18. Patrick was born in Ireland, so those parental birthplaces do not fit him as her father. When she married Joseph C. Belfiore in May 1946, the New Rochelle paper called her Miss Dorothy Eleanore Hennessy, daughter of Patrick J. Hennessy, of Premium Point. The state index says 12 May 1946, certificate 23239. Another index line calls her father Joseph P. Hennessy. That line is kept, and it is not followed. Of Patrick's older sons, Joseph and Henry are the two the ages allow. Thomas, a lawyer with no children in 1930, is not her father. Later obituaries of Annie's children name Dorothy as a sister, among seven Hennessy children raised together: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023. The tree does not draw Patrick and Annie as her parents, and it does not name a father who is not yet proved.[^hennessy-census-1925][^hennessy-census-1930-image][^hennessy-census-1940-image][^hennessy-marriage-announcement-1946][^hennessy-marriage-index-1946][^hennessy-marriage-index-joseph-p][^hennessy-thomas-1930][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead for her father, not a proved identification. The index does not give his age.[^nys-death-index-hennessy-new-rochelle]\n\nUpdate, 27 November 2026. Dorothy's birth has been found in the New York City birth index: Dorothy E Hennessy, born 20 February 1922 in Manhattan. That is the same day Find a Grave gives, and it explains why she was missing from the state index, which leaves out the city. Her obituary says she was born in New Rochelle, so the birthplace stays an open question until the certificate is seen.[^nyc-birth-index-dorothy-hennessy-1922]",
    "timeline": [],
    "facts": [
     {
@@ -7961,7 +8080,16 @@
      "confidence": "probable"
     }
    ],
-   "facts": [],
+   "facts": [
+    {
+     "label": "Parents on her marriage record",
+     "value": "Antonio Belfiore and Maria D. Circelli, as indexed from her marriage record (very probably her 1911 marriage to Giuseppe D'Onofrio)",
+     "sourceIds": [
+      "ny-county-marriage-maria-belfiore"
+     ],
+     "confidence": "probable"
+    }
+   ],
    "media": [
     {
      "id": "obit-sammy",
@@ -10142,10 +10270,11 @@
     "place": null,
     "sourceIds": [
      "birth-giuseppe-circelli-1827",
-     "death-donato-circelli-1839"
+     "death-donato-circelli-1839",
+     "birth-vincenzo-antonio-circelli-1816"
     ],
     "confidence": "probable",
-    "note": "Aged 21 in December 1810, 42 in February 1827 and 46 at his death in 1839, so born somewhere between about 1785 and 1793."
+    "note": "Aged 21 in December 1810, 42 in February 1827 and 46 at his death in 1839, so born somewhere between about 1785 and 1793. He was 26 when his son Vincenzo Antonio was born in January 1816, which points to about 1790."
    },
    "death": {
     "date": "1839-11-08",
@@ -10256,6 +10385,7 @@
    "relatedPages": [],
    "parents": [],
    "children": [
+    "vincenzo-antonio-circelli",
     "giuseppe-circelli",
     "giovanniangelo-circelli"
    ],
@@ -10413,6 +10543,7 @@
    "relatedPages": [],
    "parents": [],
    "children": [
+    "vincenzo-antonio-circelli",
     "giuseppe-circelli",
     "giovanniangelo-circelli"
    ],
@@ -14433,6 +14564,14 @@
      "value": "27 June 1947, New Rochelle, aged 70 (certificate 38983)",
      "sourceIds": [
       "nys-death-index-1947-hennessy"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "First marriage",
+     "value": "About 1898 or 1899: the 1930 census gives his age at first marriage as 21",
+     "sourceIds": [
+      "census-1930-hennessy-ancestry"
      ],
      "confidence": "probable"
     }

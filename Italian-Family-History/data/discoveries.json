@@ -236,6 +236,151 @@
    "foundBy": "Stuart - Italian",
    "source": {"text": "Find a Grave memorial 328799813", "url": "https://www.findagrave.com/memorial/328799813"},
    "confidence": "probable"
+  },
+  {
+   "id": "r27-vincenzo-antonio-birth",
+   "covers": [
+    "person:vincenzo-antonio-circelli",
+    "birth:vincenzo-antonio-circelli",
+    "parent:vincenzo-antonio-circelli:donato-circelli",
+    "parent:vincenzo-antonio-circelli:vincenza-minichilli"
+   ],
+   "personIds": [
+    "vincenzo-antonio-circelli",
+    "donato-circelli",
+    "vincenza-minichilli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
+   "found": "2026-11-27",
+   "findType": "person",
+   "headline": "Found the 1816 birth of Vincenzo Antonio Circelli, the earliest known child of Donato Circelli and Vincenza Minichillo and an elder brother of Giuseppe.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "San Bartolomeo in Galdo, Nati 1816, act 16 (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36038033"
+   },
+   "confidence": "confirmed"
+  },
+  {
+   "id": "r27-maria-bartolomea-birth",
+   "covers": [
+    "fact:giovanniangelo-circelli:daughter"
+   ],
+   "personIds": [
+    "giovanniangelo-circelli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Read the 1867 birth act of Maria Bartolomea Circelli, whose father Giovanni, son of the late Donato and aged 37, is Giovanniangelo.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "San Bartolomeo in Galdo, Nati 1867, act 220 (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2578405"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27-giovanniangelo-living-1890",
+   "covers": [
+    "fact:giovanniangelo-circelli:living-in-1890"
+   ],
+   "personIds": [
+    "giovanniangelo-circelli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Found Maria Bartolomea Circelli's 1890 marriage, which shows her parents Giovanniangelo and Maria D'Andrea were both still living.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "San Bartolomeo in Galdo, Matrimoni 1890, act 20 (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2575509"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27-frances-death-date",
+   "covers": [
+    "death:frances-towey"
+   ],
+   "personIds": [
+    "frances-towey"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "correction",
+   "headline": "Rechecked Frances Towey Belfiore's death date: two indexes say 15 April 1967 and nothing supports 5 April, so 15 April now leads.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "NYS death index cert 32075; Find a Grave 281145747; Social Security Death Index",
+    "url": "https://www.findagrave.com/memorial/281145747/frances-belfiore"
+   },
+   "confidence": "probable",
+   "changeNote": "Earlier the site led with 5 April 1967 and showed 15 April as an alternate. Now 15 April leads and 5 April is the alternate."
+  },
+  {
+   "id": "r27-dorothy-birth",
+   "covers": [
+    "birth:dorothy-hennessey-belfiore"
+   ],
+   "personIds": [
+    "dorothy-hennessey-belfiore"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Found Dorothy Hennessy's birth in the New York City index: 20 February 1922, Manhattan, the same day Find a Grave gives.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "New York City Birth Index 1910 to 1965 (Ancestry)",
+    "url": "https://www.ancestry.com/search/collections/61457/"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27-mary-marriage-parents",
+   "covers": [
+    "fact:mary-donofrio:parents-on-her-marriage-record"
+   ],
+   "personIds": [
+    "mary-donofrio"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Found Mary Belfiore's marriage record indexed with her parents' names, Antonio Belfiore and Maria D. Circelli.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "New York County Marriages index (Ancestry), FamilySearch film 001031488",
+    "url": "https://www.ancestry.com/search/collections/61377/"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27-patrick-first-marriage",
+   "covers": [
+    "fact:patrick-hennessy:first-marriage"
+   ],
+   "personIds": [
+    "patrick-hennessy"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "The 1930 census says Patrick J. Hennessy first married at 21, about 1898 or 1899, which fits a son Joseph born about 1898.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "1930 United States census, New Rochelle (Ancestry)",
+    "url": "https://www.ancestry.com/search/collections/6224/"
+   },
+   "confidence": "probable"
   }
  ]
 }
