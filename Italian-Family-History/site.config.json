@@ -8,19 +8,44 @@
  "timeline": {
   "enabled": true
  },
+ "language": {
+  "default": "en",
+  "available": [
+   "en",
+   "de"
+  ]
+ },
+ "visitor": {
+  "enabled": true,
+  "scope": "living",
+  "livingPhotos": false,
+  "welcome": true,
+  "question": "Who are you in this family?",
+  "question_de": "Wer sind Sie in dieser Familie?",
+  "lead": "Find your name, and the tree will open where you sit in it.",
+  "lead_de": "Suchen Sie Ihren Namen, und der Stammbaum öffnet sich dort, wo Sie in der Familie stehen.",
+  "skipLabel": "I am just looking",
+  "skipLabel_de": "Ich schaue mich nur um"
+ },
  "site": {
   "name": "Belfiore & Circelli",
+  "name_de": "Belfiore & Circelli",
   "familyName": "the Belfiore and Circelli families",
+  "familyName_de": "die Familien Belfiore und Circelli",
   "lang": "en",
-  "description": "The Belfiore and Circelli families, from San Bartolomeo in Galdo to New Rochelle and beyond."
+  "description": "The Belfiore and Circelli families, from San Bartolomeo in Galdo to New Rochelle and beyond.",
+  "description_de": "Die Familien Belfiore und Circelli, von San Bartolomeo in Galdo nach New Rochelle und weiter."
  },
  "pages": {
   "home": "index.html",
   "tree": {
    "file": "tree-canvas.html",
    "title": "Interactive Family Tree: Belfiore & Circelli",
+   "title_de": "Interaktiver Stammbaum: Belfiore & Circelli",
    "description": "An interactive family tree of the Belfiore and Circelli families, from San Bartolomeo in Galdo to New Rochelle and beyond, with sourced profiles for every person.",
+   "description_de": "Ein interaktiver Stammbaum der Familien Belfiore und Circelli, von San Bartolomeo in Galdo nach New Rochelle und weiter, mit belegten Lebensläufen für jede Person.",
    "heading": "The Family Canvas",
+   "heading_de": "Die Familientafel",
    "stylesheets": [
     "styles.css"
    ]
@@ -28,8 +53,11 @@
   "map": {
    "file": "map.html",
    "title": "Family Map | Belfiore & Circelli",
+   "title_de": "Familienkarte | Belfiore & Circelli",
    "description": "An interactive map of where the Belfiore and Circelli families were born, lived, married, worked, died and were buried, from San Bartolomeo in Galdo to New Rochelle and beyond, with a timeline you can play.",
+   "description_de": "Eine interaktive Karte der Orte, an denen die Familien Belfiore und Circelli geboren wurden, lebten, heirateten, arbeiteten, starben und begraben wurden, von San Bartolomeo in Galdo nach New Rochelle und weiter, mit einer Zeitlinie zum Abspielen.",
    "heading": "The Family Map",
+   "heading_de": "Die Familienkarte",
    "stylesheets": [
     "styles.css"
    ]
@@ -39,31 +67,38 @@
  "nav": [
   {
    "href": "index.html",
-   "label": "Home"
+   "label": "Home",
+   "label_de": "Startseite"
   },
   {
    "href": "family-tree.html",
-   "label": "Family Tree"
+   "label": "Family Tree",
+   "label_de": "Stammbaum"
   },
   {
    "href": "tree-canvas.html",
-   "label": "Interactive Canvas"
+   "label": "Interactive Canvas",
+   "label_de": "Interaktive Tafel"
   },
   {
    "href": "map.html",
-   "label": "Family Map"
+   "label": "Family Map",
+   "label_de": "Familienkarte"
   },
   {
    "href": "immigration.html",
-   "label": "The Immigration"
+   "label": "The Immigration",
+   "label_de": "Die Einwanderung"
   },
   {
    "href": "golfing-brothers.html",
-   "label": "The Golfing Brothers"
+   "label": "The Golfing Brothers",
+   "label_de": "Die Golfbrüder"
   },
   {
    "href": "research.html",
-   "label": "Research & Records"
+   "label": "Research & Records",
+   "label_de": "Forschung und Quellen"
   }
  ],
  "head": {
@@ -134,9 +169,12 @@
  },
  "tree": {
   "familyLabel": "Belfiore & Circelli family",
+  "familyLabel_de": "Familie Belfiore & Circelli",
   "directLineLabel": "Seb's direct line",
+  "directLineLabel_de": "Sebs direkte Linie",
   "kinAnchor": "maria-donata-circelli",
   "kinLabel": "Circelli kin · relationship unproven",
+  "kinLabel_de": "Circelli-Verwandte · Verbindung nicht belegt",
   "initialView": {
    "ids": [
     "maria-donata-circelli",
@@ -148,55 +186,69 @@
   "cardPhotos": "best",
   "coupleBlocks": "auto",
   "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
+  "noscript_de": "Die <a href=\"family-tree.html\">Listenansicht des Stammbaums</a> funktioniert auch ohne.",
   "rootPersonId": "seb-belfiore",
   "generations": [
    {
     "generation": 0,
     "label": "I",
     "title": "Giuseppe's parents",
-    "range": "died before 1850"
+    "range": "died before 1850",
+    "title_de": "Giuseppes Eltern",
+    "range_de": "gestorben vor 1850"
    },
    {
     "generation": 1,
     "label": "II",
     "title": "Circelli parents",
-    "range": "San Bartolomeo, married 1850"
+    "range": "San Bartolomeo, married 1850",
+    "title_de": "Die Eltern Circelli",
+    "range_de": "San Bartolomeo, geheiratet 1850"
    },
    {
     "generation": 2,
     "label": "III",
     "title": "Born in Italy",
-    "range": "1860s to 1870s"
+    "range": "1860s to 1870s",
+    "title_de": "In Italien geboren",
+    "range_de": "1860er bis 1870er Jahre"
    },
    {
     "generation": 3,
     "label": "IV",
     "title": "Italy and New Rochelle",
-    "range": "born 1880s to 1900s"
+    "range": "born 1880s to 1900s",
+    "title_de": "Italien und New Rochelle",
+    "range_de": "geboren von den 1880er bis zu den 1900er Jahren"
    },
    {
     "generation": 4,
     "label": "V",
     "title": "The next generation",
-    "range": "born 1910s to 1940s"
+    "range": "born 1910s to 1940s",
+    "title_de": "Die nächste Generation",
+    "range_de": "geboren von den 1910er bis zu den 1940er Jahren"
    },
    {
     "generation": 5,
     "label": "VI",
     "title": "Seb's parents' generation",
-    "range": ""
+    "range": "",
+    "title_de": "Die Generation von Sebs Eltern"
    },
    {
     "generation": 6,
     "label": "VII",
     "title": "Seb's generation",
-    "range": ""
+    "range": "",
+    "title_de": "Sebs Generation"
    },
    {
     "generation": 7,
     "label": "VIII",
     "title": "The newest generation",
-    "range": ""
+    "range": "",
+    "title_de": "Die jüngste Generation"
    }
   ]
  },
@@ -218,7 +270,8 @@
      -73.3,
      41.35
     ]
-   ]
+   ],
+   "name_de": "New Rochelle und New York"
   },
   "historicMaps": null,
   "branches": [
@@ -396,7 +449,9 @@
     "option": "Seb's family (Belfiore, Circelli and Towey)",
     "roots": [
      "seb-belfiore"
-    ]
+    ],
+    "label_de": "Sebs Familie",
+    "option_de": "Sebs Familie (Belfiore, Circelli und Towey)"
    },
    {
     "id": "leonardantonio",
@@ -414,7 +469,9 @@
      "mary-donofrio",
      "lena-belfiore",
      "carmella-belfiore"
-    ]
+    ],
+    "label_de": "Die Familie von Leonardantonio und Maria Donata",
+    "option_de": "Die Kinder von Leonardantonio und Maria Donata und deren Vorfahren"
    },
    {
     "id": "hennessy",
@@ -432,7 +489,9 @@
      "maria-martin",
      "patricia-dillon",
      "anne-latino"
-    ]
+    ],
+    "label_de": "Dorothys Familie Hennessy",
+    "option_de": "Dorothys Familie Hennessy"
    },
    {
     "id": "paternostro",
@@ -444,7 +503,9 @@
      "dorothy-paternostro",
      "anthony-paternostro",
      "carl-paternostro"
-    ]
+    ],
+    "label_de": "Die Paternostros",
+    "option_de": "Phyllis' Familie (Paternostro)"
    },
    {
     "id": "donofrio",
@@ -457,9 +518,12 @@
      "donald-donofrio",
      "raymond-donofrio",
      "dolores-donofrio"
-    ]
+    ],
+    "label_de": "Die D'Onofrios",
+    "option_de": "Marys Familie (D'Onofrio)"
    }
   ],
-  "noscript": "The same places are told in <a href=\"immigration.html\">The Immigration</a>, <a href=\"golfing-brothers.html\">The Golfing Brothers</a> and <a href=\"research.html\">Research &amp; Records</a>."
+  "noscript": "The same places are told in <a href=\"immigration.html\">The Immigration</a>, <a href=\"golfing-brothers.html\">The Golfing Brothers</a> and <a href=\"research.html\">Research &amp; Records</a>.",
+  "noscript_de": "Dieselben Orte werden erzählt in <a href=\"immigration.html\">Die Einwanderung</a>, <a href=\"golfing-brothers.html\">Die Golfbrüder</a> und <a href=\"research.html\">Forschung und Quellen</a>."
  }
 }

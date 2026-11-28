@@ -76,6 +76,7 @@ const ok = (m) => console.log('  ok   ' + m);
     // ---------------------------------------------------------------- canvas at three widths
     for (const [w, h] of [[1440, 900], [1024, 768], [390, 844]]) {
         const ctx = await browser.newContext({ viewport: { width: w, height: h }, hasTouch: w < 800, isMobile: w < 800 });
+        await ctx.addInitScript(() => { try { localStorage.setItem('fs.visitor.v1:/', JSON.stringify({ v: 1, id: null, skipped: true, at: '2026-11-28' })); } catch (e) {} });
         const page = await ctx.newPage();
         const errs = [];
         page.on('pageerror', e => errs.push(e.message));
@@ -169,6 +170,16 @@ const ok = (m) => console.log('  ok   ' + m);
             await page.evaluate(() => { history.pushState('', '', location.pathname); dispatchEvent(new HashChangeEvent('hashchange')); });
             if (routeErrs.length) routeErrs.forEach(e => fail('route: ' + e)); else ok(`all ${people.length} #/person/ routes open the full story in the expanded panel`);
 
+            // Confidence badges stay off (owner decision). The data still holds the grades.
+            await page.evaluate(() => { location.hash = '#/person/michael-belfiore'; });
+            await page.waitForFunction(() => window.__tree.S.drawerFor === 'michael-belfiore' && document.querySelector('#drawerBody .pf-badges'), null, { timeout: 4000 });
+            const conf = await page.evaluate(() => ({
+                badge: document.querySelector('#drawerBody .pf-badges').textContent,
+                heads: Array.from(document.querySelectorAll('#drawerBody thead th')).map(t => t.textContent)
+            }));
+            if (/Overall:/.test(conf.badge) || conf.heads.includes('Confidence')) fail('confidence badges are showing, and this site leaves them off');
+            else ok('confidence badges stay off the profile');
+
             // lightbox opens with alt text and a transcription where one exists
             await page.evaluate(() => { location.hash = '#/person/leonardantonio-belfiore'; });
             await page.waitForTimeout(400);
@@ -229,6 +240,7 @@ const ok = (m) => console.log('  ok   ' + m);
 
     // ---------------------------------------------------------------- internal links on every page
     const ctx = await browser.newContext();
+    await ctx.addInitScript(() => { try { localStorage.setItem('fs.visitor.v1:/', JSON.stringify({ v: 1, id: null, skipped: true, at: '2026-11-28' })); } catch (e) {} });
     const page = await ctx.newPage();
     const pages = fs.readdirSync(DIST).filter(f => f.endsWith('.html'));
     const linkErrs = [];

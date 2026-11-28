@@ -15,7 +15,7 @@ The site's files are in `Italian-Family-History/`. The interactive family tree (
 | `tests/verify-canvas.js` | Checks of the family canvas, run against every build before it is published |
 | `docs/` | The canvas audit |
 
-On every push to `main`, GitHub Actions checks the data, builds the site with the engine version this site's channel points to (`engine.channel`: `stable`), runs `tests/verify-canvas.js` against the build, and publishes it. If anything fails, nothing is published and the live site stays as it was. A pull request gets the same checks without publishing.
+On every push to `main`, GitHub Actions checks the data, builds the site with the engine version this site's channel points to (`engine.channel`: `stable`), runs `tests/verify-canvas.js` and `tests/verify-map.js` against the build, and publishes it. The reusable workflow is pinned at `build-site.yml@v1.5.0`. If anything fails, nothing is published and the live site stays as it was. A pull request gets the same checks without publishing.
 
 ## Changing the site
 

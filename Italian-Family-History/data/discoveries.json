@@ -17,10 +17,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "OpenStreetMap, via Photon search",
-    "url": "https://photon.komoot.io/"
+    "url": "https://photon.komoot.io/",
+    "text_de": "OpenStreetMap, über die Photon-Suche"
    },
    "confidence": "probable",
-   "changeNote": "The street name on Michael's birth act was a hard reading; a lane of that name today supports it."
+   "changeNote": "The street name on Michael's birth act was a hard reading; a lane of that name today supports it.",
+   "headline_de": "Eine Gasse namens Vico Passaro steigt noch immer durch die Altstadt von San Bartolomeo in Galdo hinauf, wo Michael 1884 geboren wurde.",
+   "changeNote_de": "Der Straßenname auf Michaels Geburtsakt war schwer zu lesen; eine Gasse, die heute diesen Namen trägt, stützt diese Lesung."
   },
   {
    "id": "map-2026-11-26-albemarle",
@@ -40,9 +43,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "US Census Bureau geocoder",
-    "url": "https://geocoding.geo.census.gov/geocoder/"
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "text_de": "Geokodierer des US Census Bureau"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Das Wohnhaus der Familie im Jahr 1925, 39 Albemarle, steht nun auf der Karte, an der Albemarle Avenue in New Rochelle."
   },
   {
    "id": "map-2026-11-26-west-maple",
@@ -62,9 +67,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "US Census Bureau geocoder and OpenStreetMap",
-    "url": "https://geocoding.geo.census.gov/geocoder/"
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "text_de": "Geokodierer des US Census Bureau und OpenStreetMap"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Das Haus der Hochzeit von Sammy und Virginia im Jahr 1930, 251 West Maple Avenue in Birmingham, Michigan, ist nun auf der heutigen West Maple Road markiert."
   },
   {
    "id": "map-2026-11-26-wykagyl",
@@ -83,9 +90,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "US Census Bureau geocoder",
-    "url": "https://geocoding.geo.census.gov/geocoder/"
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "text_de": "Geokodierer des US Census Bureau"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Der Wykagyl Country Club, wo Sammy als Junge im Shop mit dem Golf begann, ist nun bei 1195 North Avenue, New Rochelle, markiert."
   },
   {
    "id": "map-2026-11-26-shennecossett",
@@ -104,9 +113,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "OpenStreetMap Nominatim",
-    "url": "https://nominatim.openstreetmap.org/"
+    "url": "https://nominatim.openstreetmap.org/",
+    "text_de": "OpenStreetMap Nominatim"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Shenecossett, Sammys Club im Jahr 1942, ist der Shennecossett Golf Course in Groton, Connecticut, gleich auf der anderen Seite des Flusses von New London."
   },
   {
    "id": "map-2026-11-26-kercheval",
@@ -125,9 +136,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "OpenStreetMap, via Photon search",
-    "url": "https://photon.komoot.io/"
+    "url": "https://photon.komoot.io/",
+    "text_de": "OpenStreetMap, über die Photon-Suche"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Franks Arbeitsstelle im Jahr 1942, nahe Kercheval und Conner in Detroit, steht nun auf der Karte an dieser Ecke."
   },
   {
    "id": "map-2026-11-26-saginaw",
@@ -146,9 +159,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "OpenStreetMap Nominatim",
-    "url": "https://nominatim.openstreetmap.org/"
+    "url": "https://nominatim.openstreetmap.org/",
+    "text_de": "OpenStreetMap Nominatim"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Der Saginaw Country Club, der 1934 in einer Zeitungsüberschrift zusammen mit Joe genannt wurde, steht nun auf der Karte auf dem Gelände des Clubs in Saginaw Township, Michigan."
   },
   {
    "id": "rb-2026-11-26-giovanniangelo-birth",
@@ -174,11 +189,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Birth act 51 of 1830, San Bartolomeo in Galdo (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513",
+    "text_de": "Geburtsakt 51 von 1830, San Bartolomeo in Galdo (Antenati)"
    },
    "confidence": "confirmed",
    "image": "images/thumbs/birth-giovanniangelo-circelli-1830-act51.jpg",
-   "imageAlt": "Handwritten 1830 birth register page for Giovanniangelo Circelli"
+   "imageAlt": "Handwritten 1830 birth register page for Giovanniangelo Circelli",
+   "headline_de": "Giuseppe Circelli hatte einen jüngeren Bruder: Giovanniangelo, geboren am 27. Februar 1830 zu Hause in San Bartolomeo in Galdo als Sohn von Donato Circelli und Vincenza Minichiello."
   },
   {
    "id": "rb-2026-11-26-giovanniangelo-marriage",
@@ -200,11 +217,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Marriage promise act 44 of 1855, San Bartolomeo in Galdo (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035164"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035164",
+    "text_de": "Akt des Eheversprechens 44 von 1855, San Bartolomeo in Galdo (Antenati)"
    },
    "confidence": "confirmed",
    "image": "images/thumbs/marriage-giovanniangelo-circelli-1855-act44.jpg",
-   "imageAlt": "Handwritten 1855 marriage register page for Giovanniangelo Circelli"
+   "imageAlt": "Handwritten 1855 marriage register page for Giovanniangelo Circelli",
+   "headline_de": "Giovanniangelo Circelli, ein fünfundzwanzigjähriger Bauer, heiratete Maria d'Andrea am 1. November 1855 in San Bartolomeo in Galdo, mit den Sterbeakten seiner Eltern als Beilagen."
   },
   {
    "id": "rb-2026-11-26-pasqualantonio",
@@ -224,11 +243,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Birth act 90 of 1862, San Bartolomeo in Galdo (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua1009571"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua1009571",
+    "text_de": "Geburtsakt 90 von 1862, San Bartolomeo in Galdo (Antenati)"
    },
    "confidence": "probable",
    "image": "images/thumbs/birth-pasqualantonio-circelli-1862-act90.jpg",
-   "imageAlt": "Handwritten 1862 birth register page for Pasqualantonio Circelli"
+   "imageAlt": "Handwritten 1862 birth register page for Pasqualantonio Circelli",
+   "headline_de": "Ein Sohn, Pasqualantonio, geboren am 16. März 1862 als Kind von Giovanni Circelli und Maria d'Andrea, ist sehr wahrscheinlich der Sohn von Giovanniangelo: dieselbe Ehefrau, derselbe verstorbene Vater Donato."
   },
   {
    "id": "rb-2026-11-26-two-donatos",
@@ -249,10 +270,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Birth act 33 of 1830 and marriage act 11 of 1852, San Bartolomeo in Galdo (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513",
+    "text_de": "Geburtsakt 33 von 1830 und Heiratsakt 11 von 1852, San Bartolomeo in Galdo (Antenati)"
    },
    "confidence": "probable",
-   "changeNote": "Confirms the November 2026 decision to unlink Matteo from Giuseppe's father."
+   "changeNote": "Confirms the November 2026 decision to unlink Matteo from Giuseppe's father.",
+   "headline_de": "Es gab zwei Männer namens Donato Circelli: ein jüngerer, geboren um 1804, war der Vater von Matteo und von einem Giovanni, der im Februar 1830 von Lucia Catalano geboren wurde.",
+   "changeNote_de": "Bestätigt die Entscheidung vom November 2026, die Verknüpfung von Matteo mit Giuseppes Vater aufzuheben."
   },
   {
    "id": "rb-2026-11-26-towey-parents",
@@ -280,9 +304,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "1900 and 1910 U.S. censuses, New Rochelle; Find a Grave memorials 281144260 and 281144407",
-    "url": "https://www.findagrave.com/memorial/281144260"
+    "url": "https://www.findagrave.com/memorial/281144260",
+    "text_de": "U.S. Volkszählungen 1900 und 1910, New Rochelle; Find a Grave, Gedenkeinträge 281144260 und 281144407"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Die in Ireland geborenen Eltern von Frances Towey, James und Margaret Towey, haben nun eigene Plätze im Stammbaum."
   },
   {
    "id": "rb-2026-11-26-james-towey-death",
@@ -302,9 +328,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "New York State death index 1945, certificate 54299; Find a Grave memorial 281144260",
-    "url": "https://www.findagrave.com/memorial/281144260"
+    "url": "https://www.findagrave.com/memorial/281144260",
+    "text_de": "New York State Sterbeindex 1945, Zertifikat 54299; Find a Grave, Gedenkeintrag 281144260"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "James Towey, der Vater von Frances, starb am 4. September 1945 in New Rochelle und ist auf dem Holy Sepulchre Cemetery begraben."
   },
   {
    "id": "rb-2026-11-26-margaret-towey-birth",
@@ -324,9 +352,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "1900 U.S. census, New Rochelle; Find a Grave memorial 281144407",
-    "url": "https://www.findagrave.com/memorial/281144407"
+    "url": "https://www.findagrave.com/memorial/281144407",
+    "text_de": "U.S. Volkszählung 1900, New Rochelle; Find a Grave, Gedenkeintrag 281144407"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Margaret Towey wurde um 1870 in Ireland geboren, und ihr Grab ist auf dem Holy Sepulchre Cemetery in New Rochelle, zusammen mit ihrem Mann James."
   },
   {
    "id": "rb-2026-11-26-margaret-towey-death",
@@ -346,9 +376,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "New York State death index 1938, certificate 3541; Find a Grave memorial 281144407",
-    "url": "https://www.findagrave.com/memorial/281144407"
+    "url": "https://www.findagrave.com/memorial/281144407",
+    "text_de": "New York State Sterbeindex 1938, Zertifikat 3541; Find a Grave, Gedenkeintrag 281144407"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Margaret Towey, die Mutter von Frances, starb am 24. Januar 1938 in New Rochelle."
   },
   {
    "id": "rb-2026-11-26-towey-siblings",
@@ -365,9 +397,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "New York State death index 1935 and 1937; Find a Grave memorial 281145747",
-    "url": "https://www.findagrave.com/memorial/281145747"
+    "url": "https://www.findagrave.com/memorial/281145747",
+    "text_de": "New York State Sterbeindex 1935 und 1937; Find a Grave, Gedenkeintrag 281145747"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Der Bruder von Frances, James, ein Detektiv, starb 1935, und ihre Schwester Mary Helen Walsh 1937; ihr jüngster Bruder lebte bis 1987."
   },
   {
    "id": "rb-2026-11-26-frances-death-date",
@@ -387,10 +421,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "New York State death index 1967, certificate 32075; Find a Grave memorial 281145747",
-    "url": "https://www.findagrave.com/memorial/281145747"
+    "url": "https://www.findagrave.com/memorial/281145747",
+    "text_de": "New York State Sterbeindex 1967, Zertifikat 32075; Find a Grave, Gedenkeintrag 281145747"
    },
    "confidence": "probable",
-   "changeNote": "The Social Security index date of 5 April 1967 is kept as the main date until the certificate is read."
+   "changeNote": "The Social Security index date of 5 April 1967 is kept as the main date until the certificate is read.",
+   "headline_de": "Der Sterbeindex des Staates setzt den Tod von Frances Towey Belfiore auf den 15. April 1967, zehn Tage nach dem Datum, das wir hatten, und sie ist auf dem Holy Sepulchre begraben.",
+   "changeNote_de": "Das Datum 5. April 1967 aus dem Index der Social Security bleibt das Hauptdatum, bis die Urkunde gelesen ist."
   },
   {
    "id": "rb-2026-11-26-maria-donata-burial",
@@ -409,9 +446,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Find a Grave memorial 328410140",
-    "url": "https://www.findagrave.com/memorial/328410140"
+    "url": "https://www.findagrave.com/memorial/328410140",
+    "text_de": "Find a Grave, Gedenkeintrag 328410140"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Maria Donata Circelli Belfiore, die 1937 starb, ist auf dem Holy Sepulchre Cemetery in New Rochelle begraben."
   },
   {
    "id": "rb-2026-11-26-leonardantonio-burial",
@@ -430,9 +469,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Find a Grave memorial 328799813",
-    "url": "https://www.findagrave.com/memorial/328799813"
+    "url": "https://www.findagrave.com/memorial/328799813",
+    "text_de": "Find a Grave, Gedenkeintrag 328799813"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Ein Anthony Belfiore, der am 11. Juli 1938 starb, ist auf dem Holy Sepulchre begraben, dem Friedhof, auf dem Marie D. Belfiore und Michael liegen, was die Annahme stärkt, dass er Leonardantonio ist."
   },
   {
    "id": "r27-vincenzo-antonio-birth",
@@ -456,9 +497,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "San Bartolomeo in Galdo, Nati 1816, act 16 (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36038033"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36038033",
+    "text_de": "San Bartolomeo in Galdo, Nati 1816, Akt 16 (Antenati)"
    },
-   "confidence": "confirmed"
+   "confidence": "confirmed",
+   "headline_de": "Gefunden wurde die Geburt 1816 von Vincenzo Antonio Circelli, dem frühesten bekannten Kind von Donato Circelli und Vincenza Minichillo und einem älteren Bruder von Giuseppe."
   },
   {
    "id": "r27-maria-bartolomea-birth",
@@ -477,9 +520,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "San Bartolomeo in Galdo, Nati 1867, act 220 (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2578405"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2578405",
+    "text_de": "San Bartolomeo in Galdo, Nati 1867, Akt 220 (Antenati)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Gelesen wurde der Geburtsakt von Maria Bartolomea Circelli aus dem Jahr 1867, deren Vater Giovanni, Sohn des verstorbenen Donato und 37 Jahre alt, Giovanniangelo ist."
   },
   {
    "id": "r27-giovanniangelo-living-1890",
@@ -498,9 +543,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "San Bartolomeo in Galdo, Matrimoni 1890, act 20 (Antenati)",
-    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2575509"
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2575509",
+    "text_de": "San Bartolomeo in Galdo, Matrimoni 1890, Akt 20 (Antenati)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Gefunden wurde die Heirat von Maria Bartolomea Circelli 1890, aus der hervorgeht, dass ihre Eltern Giovanniangelo und Maria D'Andrea beide noch lebten."
   },
   {
    "id": "r27-frances-death-date",
@@ -517,10 +564,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "NYS death index cert 32075; Find a Grave 281145747; Social Security Death Index",
-    "url": "https://www.findagrave.com/memorial/281145747/frances-belfiore"
+    "url": "https://www.findagrave.com/memorial/281145747/frances-belfiore",
+    "text_de": "NYS Sterbeindex, Zertifikat 32075; Find a Grave 281145747; Social Security Death Index"
    },
    "confidence": "probable",
-   "changeNote": "Earlier the site led with 5 April 1967 and showed 15 April as an alternate. Now 15 April leads and 5 April is the alternate."
+   "changeNote": "Earlier the site led with 5 April 1967 and showed 15 April as an alternate. Now 15 April leads and 5 April is the alternate.",
+   "headline_de": "Das Todesdatum von Frances Towey Belfiore wurde erneut geprüft: zwei Verzeichnisse nennen den 15. April 1967, und nichts stützt den 5. April, also führt nun der 15. April.",
+   "changeNote_de": "Zuvor führte die Website den 5. April 1967 an und zeigte den 15. April als Alternative. Nun führt der 15. April, und der 5. April ist die Alternative."
   },
   {
    "id": "r27-dorothy-birth",
@@ -537,9 +587,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "New York City Birth Index 1910 to 1965 (Ancestry)",
-    "url": "https://www.ancestry.com/search/collections/61457/"
+    "url": "https://www.ancestry.com/search/collections/61457/",
+    "text_de": "Geburtsindex von New York City, 1910 bis 1965 (Ancestry)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Gefunden wurde die Geburt von Dorothy Hennessy im Index von New York City: 20. Februar 1922, Manhattan, derselbe Tag, den Find a Grave angibt."
   },
   {
    "id": "r27-mary-marriage-parents",
@@ -556,9 +608,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "New York County Marriages index (Ancestry), FamilySearch film 001031488",
-    "url": "https://www.ancestry.com/search/collections/61377/"
+    "url": "https://www.ancestry.com/search/collections/61377/",
+    "text_de": "Heiratsindex von New York County (Ancestry), FamilySearch-Film 001031488"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Gefunden wurde der Heiratseintrag von Mary Belfiore, im Index geführt mit den Namen ihrer Eltern, Antonio Belfiore und Maria D. Circelli."
   },
   {
    "id": "r27-patrick-first-marriage",
@@ -575,9 +629,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "1930 United States census, New Rochelle (Ancestry)",
-    "url": "https://www.ancestry.com/search/collections/6224/"
+    "url": "https://www.ancestry.com/search/collections/6224/",
+    "text_de": "Volkszählung der United States 1930, New Rochelle (Ancestry)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Die Volkszählung von 1930 gibt an, dass Patrick J. Hennessy mit 21 zum ersten Mal heiratete, um 1898 oder 1899, was zu einem Sohn Joseph passt, der um 1898 geboren wurde."
   },
   {
    "id": "r27b-frances-1920-bookkeeper",
@@ -596,9 +652,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "1920 U.S. census, New Rochelle Ward 2 (Ancestry)",
-    "url": "https://www.ancestry.com/search/collections/6061/"
+    "url": "https://www.ancestry.com/search/collections/6061/",
+    "text_de": "U.S. Volkszählung 1920, New Rochelle Ward 2 (Ancestry)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "In der Volkszählung von 1920 war Frances Towey, 22 Jahre alt und noch ledig, Buchhalterin in einem Kaufhaus und lebte mit ihrer Familie in der Mechanic Street."
   },
   {
    "id": "r27b-margaret-maiden-name",
@@ -615,9 +673,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Obituary index for her youngest son, 1987 (Ancestry); Find a Grave 281144407",
-    "url": "https://www.findagrave.com/memorial/281144407"
+    "url": "https://www.findagrave.com/memorial/281144407",
+    "text_de": "Nachrufindex für ihren jüngsten Sohn, 1987 (Ancestry); Find a Grave 281144407"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Der Nachrufindex ihres jüngsten Sohnes von 1987 gibt die Mutter von Frances als Margaret Coolahan an, passend zum Mädchennamen Collohan auf ihrem Gedenkeintrag."
   },
   {
    "id": "r27c-ruth-oDonnell-wedding",
@@ -638,11 +698,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Vogue, 1 March 1935, p. 126, Good Weddings, Duluth (Internet Archive page image)",
-    "url": "https://archive.org/download/vogue-1930-1939/1930-1939/1935/Vogue%20v85n05%20%281935-03-01%29_jp2.zip/Vogue%20v85n05%20%281935-03-01%29_jp2%2FVogue%20v85n05%20%281935-03-01%29_0151.jp2&ext=jpg"
+    "url": "https://archive.org/download/vogue-1930-1939/1930-1939/1935/Vogue%20v85n05%20%281935-03-01%29_jp2.zip/Vogue%20v85n05%20%281935-03-01%29_jp2%2FVogue%20v85n05%20%281935-03-01%29_0151.jp2&ext=jpg",
+    "text_de": "Vogue, 1. März 1935, S. 126, Good Weddings, Duluth (Seitenbild im Internet Archive)"
    },
    "confidence": "probable",
    "image": "images/vogue-1935-belfore-odonnell.jpg",
-   "imageAlt": "Vogue, 1 March 1935, page 126: the Duluth wedding notice for Belfore-O'Donnell"
+   "imageAlt": "Vogue, 1 March 1935, page 126: the Duluth wedding notice for Belfore-O'Donnell",
+   "headline_de": "Die Ausgabe der Vogue vom 1. März 1935, S. 126, nennt als Frau von Joe Ruth Hartman O'Donnell und datiert die Hochzeit auf den 20. November 1934, unter Duluth."
   },
   {
    "id": "r27c-joe-sunningdale",
@@ -662,11 +724,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "The New York Times, 17 September 1927, tournament list (Internet Archive leaf 11)",
-    "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438/page/n11/mode/1up"
+    "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438/page/n11/mode/1up",
+    "text_de": "The New York Times, 17. September 1927, Turnierliste (Internet Archive, Blatt 11)"
    },
    "confidence": "probable",
    "image": "images/nyt-1927-09-17-joe-belfore-sunningdale.jpg",
-   "imageAlt": "New York Times, 17 September 1927: the line Joe Belfore, Sunningdale, score 81"
+   "imageAlt": "New York Times, 17 September 1927: the line Joe Belfore, Sunningdale, score 81",
+   "headline_de": "The New York Times druckte Joe von 1927 bis 1929 als „Joe Belfore, Sunningdale“. Dieser Club ist der Sunningdale Country Club in der Gegend von Scarsdale in New York, nicht der Club in England."
   },
   {
    "id": "r27c-joe-pat-circelli",
@@ -683,11 +747,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "The New York Times, 26 September 1929, p. 20 (Internet Archive leaf 18)",
-    "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0/page/n18/mode/1up"
+    "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0/page/n18/mode/1up",
+    "text_de": "The New York Times, 26. September 1929, S. 20 (Internet Archive, Blatt 18)"
    },
    "confidence": "probable",
    "image": "images/nyt-1929-09-26-joe-belfore-pat-circelli.jpg",
-   "imageAlt": "New York Times, 26 September 1929: Joe Belfore, Sunningdale, directly above Pat Circelli, unattached"
+   "imageAlt": "New York Times, 26 September 1929: Joe Belfore, Sunningdale, directly above Pat Circelli, unattached",
+   "headline_de": "Eine Turnierliste der Times von 1929 druckt Joe Belfore, Sunningdale, eine Zeile über Pat Circelli, unattached; sie tragen denselben Nachnamen wie Joes Mutter, und es ist keine Verwandtschaft bekannt."
   },
   {
    "id": "r27c-joseph-navy-calverton",
@@ -707,11 +773,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "VA Nationwide Gravesite Locator",
-    "url": "https://gravelocator.cem.va.gov/ngl/"
+    "url": "https://gravelocator.cem.va.gov/ngl/",
+    "text_de": "Landesweite Gräbersuche des VA"
    },
    "confidence": "probable",
    "image": "images/calverton-national-cemetery-sign.jpg",
-   "imageAlt": "Entrance sign at Calverton National Cemetery, Long Island, where Joseph C. Belfiore is buried"
+   "imageAlt": "Entrance sign at Calverton National Cemetery, Long Island, where Joseph C. Belfiore is buried",
+   "headline_de": "Die Gräbersuche von Veterans Affairs führt Joseph C. Belfiore als Veteran der Navy aus dem Zweiten Weltkrieg (ARM1), begraben auf dem Calverton National Cemetery, mit Geburts- und Sterbedaten, die zu seinem Eintrag im Sterbeindex des Staates passen."
   },
   {
    "id": "r27c-hennessy-1929-notice",
@@ -729,9 +797,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "The New York Times, 7 October 1929, death notices (Internet Archive scan)",
-    "url": "https://archive.org/details/sim_new-york-times_1929-10-07_79_26189_0"
+    "url": "https://archive.org/details/sim_new-york-times_1929-10-07_79_26189_0",
+    "text_de": "The New York Times, 7. Oktober 1929, Todesanzeigen (Scan im Internet Archive)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Eine Todesanzeige der New York Times vom 7. Oktober 1929 zeigt, dass Joseph Patrick, der Sohn von Patrick Hennessy, gerade gestorben war und vier Kinder hinterließ, was ihn zum wahrscheinlichsten Vater von Dorothy macht (weiterhin eine Schlussfolgerung)."
   },
   {
    "id": "r27c-towey-1932-detective",
@@ -748,9 +818,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Victoria Daily Times, 11 June 1932 (Internet Archive scan)",
-    "url": "https://archive.org/details/victoriadailytimes19320611"
+    "url": "https://archive.org/details/victoriadailytimes19320611",
+    "text_de": "Victoria Daily Times, 11. Juni 1932 (Scan im Internet Archive)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Im Juni 1932 nahmen „Detectives Towey and Campbell“ aus New Rochelle den Taxifahrer fest, der im Fall Lindbergh befragt wurde; Towey ist sehr wahrscheinlich James, der Bruder von Frances."
   },
   {
    "id": "r27c-bartolomeo-circelli-bugler",
@@ -765,9 +837,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Gazzetta Ferrarese, 28 February 1885 (Internet Archive scan)",
-    "url": "https://archive.org/details/IEI0104322_1885_00049"
+    "url": "https://archive.org/details/IEI0104322_1885_00049",
+    "text_de": "Gazzetta Ferrarese, 28. Februar 1885 (Scan im Internet Archive)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Eine Geschichte aus dem Heimatort: 1884 gewann ein Hornist aus San Bartolomeo namens Bartolomeo Circelli in Naples eine Medaille, weil er das Wüten eines Soldaten stoppte, und 1885 wurde er daheim bei einer Straßenschlägerei getötet. Es ist keine Verbindung zu unseren Familien Circelli bekannt."
   },
   {
    "id": "r27d-michael-matoika",
@@ -784,9 +858,11 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "Fold3 index, U.S. Army WWI Transport Service passenger lists (image not opened)",
-    "url": null
+    "url": null,
+    "text_de": "Fold3-Index, Passagierlisten des U.S. Army WWI Transport Service (Bild nicht geöffnet)"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "headline_de": "Ein Fold3-Index, noch nicht die Liste selbst, nennt Michael K. Belfiore auf der Princess Matoika bei der Abfahrt von Newport News am 20. Dezember 1918, mit Toney Belfiore aus New Rochelle als seiner Kontaktperson."
   },
   {
    "id": "r27d-edward-ww2-draft",
@@ -806,11 +882,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "WWII draft card, Edward Joseph Belfiore (Fold3 image)",
-    "url": "https://www.fold3.com/image/671576624/belfiore-edward-joseph-page-1-us-wwii-draft-registration-cards-1940"
+    "url": "https://www.fold3.com/image/671576624/belfiore-edward-joseph-page-1-us-wwii-draft-registration-cards-1940",
+    "text_de": "WWII-Musterungskarte, Edward Joseph Belfiore (Fold3-Bild)"
    },
    "confidence": "probable",
    "image": "images/ww2-edward-belfiore-draft.jpg",
-   "imageAlt": "Edward Joseph Belfiore's World War II draft card, about 1945, with a private contact line covered"
+   "imageAlt": "Edward Joseph Belfiore's World War II draft card, about 1945, with a private contact line covered",
+   "headline_de": "Die Musterungskarte von Edward Joseph Belfiore aus dem Zweiten Weltkrieg, ausgefüllt mit 24 Jahren, also um 1945, findet ihn in der 48 Coligni Avenue und arbeitslos nach seinem Dienst in der Army."
   },
   {
    "id": "r27d-joseph-curties-draft",
@@ -829,11 +907,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "WWII draft card, Joseph Curties Belfiore (Fold3 image)",
-    "url": "https://www.fold3.com/image/671576627/belfiore-joseph-curties-page-1-us-wwii-draft-registration-cards-1940"
+    "url": "https://www.fold3.com/image/671576627/belfiore-joseph-curties-page-1-us-wwii-draft-registration-cards-1940",
+    "text_de": "WWII-Musterungskarte, Joseph Curties Belfiore (Fold3-Bild)"
    },
    "confidence": "probable",
    "image": "images/ww2-joseph-curties-belfiore-draft.jpg",
-   "imageAlt": "World War II draft card for Joseph Curties Belfiore, age 19, of 48 Coligni Avenue, New Rochelle"
+   "imageAlt": "World War II draft card for Joseph Curties Belfiore, age 19, of 48 Coligni Avenue, New Rochelle",
+   "headline_de": "Die Musterungskarte von Joseph C. Belfiore aus dem Zweiten Weltkrieg schreibt seinen Mittelnamen als Curties, gibt das Haus der Familie als 48 Coligni Avenue an und nennt seine Mutter Frances als Kontaktperson."
   },
   {
    "id": "r27d-patrick-wwi-draft-image",
@@ -852,11 +932,13 @@
    "foundBy": "Stuart - Italian",
    "source": {
     "text": "WWI draft card, Patrick Joseph Hennessy, 13 September 1918 (Fold3 image)",
-    "url": "https://www.fold3.com/image/567398567/hennessy-patrick-joseph-page-1-us-wwi-draft-registration-cards-1917-1918"
+    "url": "https://www.fold3.com/image/567398567/hennessy-patrick-joseph-page-1-us-wwi-draft-registration-cards-1917-1918",
+    "text_de": "WWI-Musterungskarte, Patrick Joseph Hennessy, 13. September 1918 (Fold3-Bild)"
    },
    "confidence": "probable",
    "image": "images/ww1-patrick-hennessy-draft.jpg",
-   "imageAlt": "Front and back of the 1918 draft card for Patrick Joseph Hennessy of 87 Huguenot Street, New Rochelle"
+   "imageAlt": "Front and back of the 1918 draft card for Patrick Joseph Hennessy of 87 Huguenot Street, New Rochelle",
+   "headline_de": "Ein Fold3-Bild der Musterungskarte von 1918 für Patrick Joseph Hennessy zeigt ihn als Chauffeur mit Wohnsitz 87 Huguenot Street, New Rochelle. Die Zuordnung bleibt wahrscheinlich, weil der Geburtstag auf der Karte nicht mit der Taufe von 1874 übereinstimmt."
   },
   {
    "id": "r27-belfore-brothers-ruth-gehrig-photo",
@@ -873,12 +955,15 @@
    "headline": "A family photograph shows Joe and Sammy Belfore with Babe Ruth and Lou Gehrig.",
    "foundBy": "Sebastian",
    "source": {
-    "text": "Family collection, shared by Sebastian Belfiore, 27 November 2026. Identities as given by the family, left to right: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. Evening Star (Washington, DC), 1 March 1931, p. 71, reports young Joe Belfore of New Rochelle third in the Florida West Coast Open at Belleair, a tournament Babe Ruth also entered."
+    "text": "Family collection, shared by Sebastian Belfiore, 27 November 2026. Identities as given by the family, left to right: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. Evening Star (Washington, DC), 1 March 1931, p. 71, reports young Joe Belfore of New Rochelle third in the Florida West Coast Open at Belleair, a tournament Babe Ruth also entered.",
+    "text_de": "Familiensammlung, weitergegeben von Sebastian Belfiore, 27. November 2026. Identitäten nach Angabe der Familie, von links nach rechts: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig und ein nicht identifizierter Mann, wahrscheinlich kein Belfore. Evening Star (Washington, DC), 1. März 1931, S. 71, berichtet, der junge Joe Belfore aus New Rochelle sei beim Florida West Coast Open in Belleair, einem Turnier, bei dem auch Babe Ruth antrat, Dritter gewesen."
    },
    "confidence": "family tradition",
    "image": "images/belfore-brothers-babe-ruth-lou-gehrig.jpg",
    "imageAlt": "Sepia family photograph of five men in golf clothes standing on grass in front of trees, identified by the family, left to right, as Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man.",
-   "changeNote": "The photograph is family-provided. Identifications, left to right, are by the family: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. The date is unknown. No site golf source names the man on the far right."
+   "changeNote": "The photograph is family-provided. Identifications, left to right, are by the family: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. The date is unknown. No site golf source names the man on the far right.",
+   "headline_de": "Ein Familienfoto zeigt Joe und Sammy Belfore mit Babe Ruth und Lou Gehrig.",
+   "changeNote_de": "Das Foto stammt von der Familie. Die Zuordnungen, von links nach rechts, stammen von der Familie: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig und ein nicht identifizierter Mann, wahrscheinlich kein Belfore. Das Datum ist unbekannt. Keine Golfquelle auf dieser Website nennt den Mann ganz rechts."
   }
  ]
 }
