@@ -1985,6 +1985,78 @@
    "date": "1987-03-13",
    "url": "https://www.ancestry.com/search/",
    "note": "Seen 27 November 2026. Gives his birth as 19 December 1908 and his parents as James J. Towey and Margaret Towey (Coolahan). Find a Grave gives 19 November 1908."
+  },
+  {
+   "id": "vogue-1935-03-01",
+   "title": "'Good Weddings', Vogue, 1 March 1935 (vol. 85, no. 5): Belfore-O'Donnell, Duluth",
+   "type": "magazine",
+   "repository": "Internet Archive, Vogue 1930 to 1939 collection (scan of the March 1 1935 issue)",
+   "date": "1935-03-01",
+   "url": "https://archive.org/details/vogue-1930-1939",
+   "note": "Read in the scan's text on 27 November 2026. The Duluth entry reads: 'Belfore-O'Donnell: On November 20, Mr. Joseph Francis Belfore, of Detroit, Michigan, son of Mr. and Mrs. Anthony Belfore, of New Rochelle, New York, and Miss Ruth Hartman O'Donnell, daughter of Mrs. Tracy Hartman O'Donnell.' The year is not printed in the entry; it is Nov 1934 from the issue date and the list's place in it."
+  },
+  {
+   "id": "nyt-1927-09-17",
+   "title": "Golf scores, The New York Times, 17 September 1927: 'Joe Belfore, Sunningdale'",
+   "type": "newspaper",
+   "repository": "Internet Archive, The New York Times 1927-09-17 (vol. 76, no. 25438)",
+   "date": "1927-09-17",
+   "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438",
+   "note": "Read in the scan's text on 27 November 2026. The first of more than a dozen Times lists, from September 1927 to September 1929, that print him as Joe Belfore of Sunningdale. Only a snippet of the page was read."
+  },
+  {
+   "id": "nyt-1929-09-06",
+   "title": "Metropolitan golf championship report, The New York Times, 6 September 1929",
+   "type": "newspaper",
+   "repository": "Internet Archive, The New York Times 1929-09-06 (vol. 78, no. 26158)",
+   "date": "1929-09-06",
+   "url": "https://archive.org/details/sim_new-york-times_1929-09-06_78_26158",
+   "note": "Read in the scan's text on 27 November 2026. A snippet places Joe Belfore of Sunningdale in a close match at the Metropolitan championship: 'Belfore was driving magnificently.' The Chicago Daily Tribune of the same day says the winner won 2 and 1."
+  },
+  {
+   "id": "nyt-1929-09-26",
+   "title": "Golf scores, The New York Times, 26 September 1929: Joe Belfore, Sunningdale, and Pat Circelli, unattached",
+   "type": "newspaper",
+   "repository": "Internet Archive, The New York Times 1929-09-26 (vol. 79, no. 26178)",
+   "date": "1929-09-26",
+   "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0",
+   "note": "Read in the scan's text on 27 November 2026. The field list prints 'Joe Belfore, Sunningdale' and, on the next line, 'Pat Circelli, unattached'."
+  },
+  {
+   "id": "nyt-1929-10-07-hennessy",
+   "title": "Death notice: Hennessy, Joseph Patrick, The New York Times, 7 October 1929",
+   "type": "death notice",
+   "repository": "Internet Archive, The New York Times 1929-10-07 (vol. 79, no. 26189)",
+   "date": "1929-10-07",
+   "url": "https://archive.org/details/sim_new-york-times_1929-10-07_79_26189_0",
+   "note": "Read in the scan's text on 27 November 2026. 'HENNESSY, Joseph Patrick, son of Patrick Joseph Hennessy of Premium Point, New Rochelle; he is also survived by four children and three brothers, Thomas, Francis, John and Henry. Funeral from All Saints Church on Tuesday morning at 10 o'clock. Interment Calvary Cemetery.' The notice gives no date of death. The Times indexed it again on 8 October."
+  },
+  {
+   "id": "va-gravesite-joseph-c-belfiore",
+   "title": "U.S. Department of Veterans Affairs Nationwide Gravesite Locator: Joseph C. Belfiore, ARM1, U.S. Navy",
+   "type": "burial record",
+   "repository": "VA Nationwide Gravesite Locator (public search)",
+   "date": "1994-10-19",
+   "url": "https://gravelocator.cem.va.gov/ngl/",
+   "note": "Searched 27 November 2026. Joseph C. Belfiore, ARM1, U.S. Navy, World War II, born 12/01/1922, died 10/19/1994, buried at Calverton National Cemetery, Section 66, Site 3739. Name, birth date and death date all match the New Jersey death index entry. Other Belfiore, Towey and Hennessy results were checked and are different men."
+  },
+  {
+   "id": "victoria-daily-times-1932-06-11",
+   "title": "Press report on the arrest of Ernest Brinkert in New Rochelle, Victoria Daily Times, 11 June 1932",
+   "type": "newspaper",
+   "repository": "Internet Archive, Victoria Daily Times 1932-06-11 (the Edmonton Bulletin of the same day carries the same story)",
+   "date": "1932-06-11",
+   "url": "https://archive.org/details/victoriadailytimes19320611",
+   "note": "Read in the scan's text on 27 November 2026. 'Ernest Brinkert was arrested in New Rochelle at 10.45 o'clock last night by Detectives Towey and Campbell.' No first name is given for Towey."
+  },
+  {
+   "id": "gazzetta-ferrarese-1885-02-28",
+   "title": "Telegram from Naples, Gazzetta Ferrarese, 28 February 1885: the killing of Bartolomeo Circelli at San Bartolomeo in Galdo",
+   "type": "newspaper",
+   "repository": "Internet Archive, Gazzetta Ferrarese 1885, issue 00049 (IEI0104322_1885_00049)",
+   "date": "1885-02-28",
+   "url": "https://archive.org/details/IEI0104322_1885_00049",
+   "note": "Read in the scan's text on 27 November 2026. 'A San Bartolomeo in Galdo ieri notte venne assassinato a colpi di bastone Bartolomeo Circelli, il valoroso ex trombettiere del 49 fanteria.' The regiment is misprinted: the 1884 reports say the 19th. It recalls that he arrested the soldier Misdea at the Pizzofalcone barracks and stopped the killing. Later reports differ on the cause."
   }
  ]
 }

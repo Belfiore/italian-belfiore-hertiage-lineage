@@ -543,8 +543,10 @@
    "todayNote": null,
    "status": "published",
    "significance": "The comune where the Circelli and Belfiore lines were born, married, and registered in the stato civile.",
-   "blurb": null,
-   "blurbSourceIds": [],
+   "blurb": "A town story, with no proven family link. In April 1884 a bugler of the 19th Infantry from San Bartolomeo, Bartolomeo Circelli, stopped a soldier named Misdea in the Pizzofalcone barracks in Naples and was awarded a medal for it. He was clubbed to death in a street fight back home in February 1885. Whether he belonged to our Circelli families is not known.",
+   "blurbSourceIds": [
+    "gazzetta-ferrarese-1885-02-28"
+   ],
    "boundary": null,
    "historicMap": null,
    "images": [],

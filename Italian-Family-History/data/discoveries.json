@@ -421,6 +421,144 @@
     "url": "https://www.findagrave.com/memorial/281144407"
    },
    "confidence": "probable"
+  },
+  {
+   "id": "r27c-ruth-oDonnell-wedding",
+   "covers": [
+    "fact:ruth-belfore:maiden-name",
+    "event:joe-belfore:nov-20-1934:1934-11-20"
+   ],
+   "personIds": [
+    "joe-belfore",
+    "ruth-belfore"
+   ],
+   "placeIds": [
+    "duluth"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Vogue's March 1935 wedding list names Joe's wife as Ruth Hartman O'Donnell and dates their wedding to November 20, 1934, under Duluth.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "Vogue, March 1 1935, 'Good Weddings' (Internet Archive scan)",
+    "url": "https://archive.org/details/vogue-1930-1939"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27c-joe-sunningdale",
+   "covers": [
+    "occupation:joe-belfore:golf-professional:sunningdale-country-club",
+    "event:joe-belfore:sep-1927:1927-09-17"
+   ],
+   "personIds": [
+    "joe-belfore"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "The New York Times printed Joe as 'Joe Belfore, Sunningdale' in tournament lists from September 1927 to September 1929, his club years before Florida and Michigan.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "The New York Times, 17 September 1927 to 26 September 1929 (Internet Archive scans)",
+    "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27c-joe-pat-circelli",
+   "covers": [
+    "event:joe-belfore:sep-1929:1929-09-26"
+   ],
+   "personIds": [
+    "joe-belfore"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "connection",
+   "headline": "A 1929 Times tournament list prints Joe Belfore of Sunningdale one line above Pat Circelli of New Rochelle, who shares the surname of Joe's mother; no kinship is known.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "The New York Times, 26 September 1929 (Internet Archive scan)",
+    "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27c-joseph-navy-calverton",
+   "covers": [
+    "fact:joseph-belfiore:military-service",
+    "fact:joseph-belfiore:burial"
+   ],
+   "personIds": [
+    "joseph-belfiore"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "The Veterans Affairs gravesite locator lists Joseph C. Belfiore as a Second World War Navy veteran (ARM1) buried at Calverton National Cemetery, with birth and death dates that match his state death index entry.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "VA Nationwide Gravesite Locator",
+    "url": "https://gravelocator.cem.va.gov/ngl/"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27c-hennessy-1929-notice",
+   "covers": [
+    "death:joseph-hennessy-1898",
+    "fact:joseph-hennessy-1898:death-notice"
+   ],
+   "personIds": [
+    "joseph-hennessy-1898"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "A New York Times death notice of October 7, 1929 shows that Patrick Hennessy's son Joseph Patrick had just died, leaving four children, which makes him the likeliest father of Dorothy (still a deduction).",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "The New York Times, 7 October 1929, death notices (Internet Archive scan)",
+    "url": "https://archive.org/details/sim_new-york-times_1929-10-07_79_26189_0"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27c-towey-1932-detective",
+   "covers": [
+    "fact:frances-towey:her-brother-in-the-news-1932"
+   ],
+   "personIds": [
+    "frances-towey"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "In June 1932 'Detectives Towey and Campbell' of New Rochelle arrested the cab driver questioned in the Lindbergh case; Towey is very probably Frances's brother James.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "Victoria Daily Times, 11 June 1932 (Internet Archive scan)",
+    "url": "https://archive.org/details/victoriadailytimes19320611"
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27c-bartolomeo-circelli-bugler",
+   "covers": [],
+   "personIds": [],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
+   "found": "2026-11-27",
+   "findType": "place",
+   "headline": "A hometown story: in 1884 a San Bartolomeo bugler named Bartolomeo Circelli won a medal in Naples for stopping a soldier's rampage, and he was killed in a street fight at home in 1885. No link to our Circelli families is known.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "Gazzetta Ferrarese, 28 February 1885 (Internet Archive scan)",
+    "url": "https://archive.org/details/IEI0104322_1885_00049"
+   },
+   "confidence": "probable"
   }
  ]
 }
