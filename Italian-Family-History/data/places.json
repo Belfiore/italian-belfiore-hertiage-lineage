@@ -11700,6 +11700,198 @@
    ],
    "country_de": "Vereinigte Staaten",
    "significance_de": "Die Musterungskarte von Patrick Joseph Hennessy von 1918 nennt 87 Huguenot Street als seinen Wohnsitz und als Adresse seiner Frau Anna, als er Chauffeur auf Premium Point war."
+  },
+  {
+   "id": "cortlandt-manor",
+   "name": "Cortlandt Manor, New York",
+   "historicName": "Cortlandt Manor, New York",
+   "variants": [],
+   "kind": "town",
+   "address": null,
+   "modernAddress": null,
+   "precision": "town",
+   "lat": 41.28,
+   "lng": -73.87,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "Wikipedia coordinates for Cortlandt Manor, New York (a hamlet in the Town of Cortlandt), read on 2026-11-28. Town-level point only.",
+   "coordinatePrecision": "town",
+   "coordinateSourceIds": [
+    "wikipedia-coordinates-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
+   "country": "United States",
+   "country_de": "Vereinigte Staaten",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "published",
+   "significance": "Charles 'Buddy' Drew's 2004 obituary index entry calls him 'of Cortlandt Manor'.",
+   "significance_de": "Der Eintrag im Nachrufindex von 2004 nennt Charles 'Buddy' Drew 'aus Cortlandt Manor'.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-cortlandt-manor-lived-charles-drew",
+     "type": "lived",
+     "personIds": [
+      "charles-drew"
+     ],
+     "date": "2004",
+     "dateStart": "2004",
+     "dateEnd": "2004",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "obit-index-charles-drew-2004"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Lived. Cortlandt Manor, New York",
+     "note": "His home at his death in May 2004, from an obituary index entry. Not his place of death, which the index does not give.",
+     "summary_de": "Lebte. Cortlandt Manor, New York",
+     "note_de": "Sein Wohnort bei seinem Tod im Mai 2004, nach einem Eintrag im Nachrufindex. Nicht sein Sterbeort, den der Index nicht nennt."
+    }
+   ]
+  },
+  {
+   "id": "greenburgh",
+   "name": "Greenburgh, New York",
+   "historicName": "Greenburgh, New York",
+   "variants": [],
+   "kind": "town",
+   "address": null,
+   "modernAddress": null,
+   "precision": "town",
+   "lat": 41.0461704,
+   "lng": -73.7900977,
+   "uncertaintyMetres": 2500,
+   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-28. Search: Greenburgh, New York, USA. Result: Town of Greenburgh, Westchester County, New York, United States (administrative boundary). Town-level point only.",
+   "coordinatePrecision": "town",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": true,
+   "country": "United States",
+   "country_de": "Vereinigte Staaten",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "published",
+   "significance": "The 1940 census says the D'Onofrio household lived in Greenburgh in 1935.",
+   "significance_de": "Die Volkszählung von 1940 sagt, dass der Haushalt D'Onofrio 1935 in Greenburgh wohnte.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-greenburgh-lived-joseph-donofrio",
+     "type": "lived",
+     "personIds": [
+      "joseph-donofrio",
+      "mary-donofrio",
+      "francis-donofrio",
+      "raymond-donofrio"
+     ],
+     "date": "1935",
+     "dateStart": "1935",
+     "dateEnd": "1935",
+     "datePrecision": "year",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "census-1940-donofrio"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Lived. Greenburgh, New York",
+     "note": "The 1940 census residence-in-1935 question. No street or house is given.",
+     "summary_de": "Lebte. Greenburgh, New York",
+     "note_de": "Die Frage nach dem Wohnort 1935 in der Volkszählung von 1940. Keine Straße und kein Haus angegeben."
+    }
+   ]
+  },
+  {
+   "id": "newport-news",
+   "name": "Newport News, Virginia",
+   "historicName": "Newport News, Virginia",
+   "variants": [],
+   "kind": "port",
+   "address": null,
+   "modernAddress": null,
+   "precision": "city",
+   "lat": 36.9775016,
+   "lng": -76.42977,
+   "uncertaintyMetres": 5000,
+   "coordinateMethod": "OpenStreetMap Nominatim on 2026-11-28. Search: Newport News, Virginia, USA. Result: Newport News, Virginia, United States (administrative boundary). City-level point only; the pier is not identified.",
+   "coordinatePrecision": "city",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "halo",
+   "inHomeRegion": false,
+   "country": "United States",
+   "country_de": "Vereinigte Staaten",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "published",
+   "significance": "Port of departure of the Army transport Princess Matoika on 20 December 1918, on which an index lists a Michael K. Belfiore.",
+   "significance_de": "Abfahrtshafen des Armeetransporters Princess Matoika am 20. Dezember 1918, auf dem ein Index einen Michael K. Belfiore nennt.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-newport-news-sailed-michael-belfiore",
+     "type": "sailed",
+     "personIds": [
+      "michael-belfiore"
+     ],
+     "date": "20 December 1918",
+     "dateStart": "1918-12-20",
+     "dateEnd": "1918-12-20",
+     "datePrecision": "day",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "army-transport-princess-matoika-1918"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Sailed from Newport News on the Army transport Princess Matoika.",
+     "note": "Index line only; the list image has not been opened. The contact, Toney Belfiore of New Rochelle, is almost certainly his father. A lead for his First World War service.",
+     "summary_de": "Ausgelaufen von Newport News auf dem Armeetransporter Princess Matoika.",
+     "note_de": "Nur eine Indexzeile; das Bild der Liste wurde nicht geöffnet. Der Kontakt, Toney Belfiore aus New Rochelle, ist fast sicher sein Vater. Ein Hinweis auf seinen Dienst im Ersten Weltkrieg."
+    }
+   ]
   }
  ]
 }
