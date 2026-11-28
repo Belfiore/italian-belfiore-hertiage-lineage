@@ -8,7 +8,7 @@
  * The map is the shared engine map (site.config.json "map" block), not a one-off.
  * Checks: every place has coordinates and a coordinate source; every map event cites sources that exist; no em
  * or en dashes; every placeId resolves; no living person has a place except the two already mapped, and Seb has
- * none; every place with events is drawn; the filters, family choices, person search, timeline, list view and
+ * none; every place with events is drawn; the filters, family choices, person search, Timeline mode (events on the track and in the list), list view and
  * "Not yet on the map" tray work; a place panel shows sources and links to profiles; no page errors at three widths.
  */
 const http = require('http');
@@ -79,6 +79,11 @@ function serve() {
     const ids = new Set(); const dup = [];
     places.forEach(p => (p.events || []).forEach(e => { if (ids.has(e.id)) dup.push(e.id); ids.add(e.id); }));
     check(!dup.length, 'every place event id is used once', dup.join(', '));
+    const voyageIds = new Set();
+    people.forEach(p => (p.voyages || []).forEach(v => voyageIds.add(v.id)));
+    const danglingVoyages = [];
+    places.forEach(pl => (pl.events || []).forEach(e => { if (e.voyageId && !voyageIds.has(e.voyageId)) danglingVoyages.push(e.id + ' ' + e.voyageId); }));
+    check(!danglingVoyages.length, 'every voyageId on a map event exists on a person\'s voyages', danglingVoyages.join('; '));
 
     const srv = await serve();
     const base = 'http://127.0.0.1:' + srv.address().port + '/';
@@ -120,6 +125,30 @@ function serve() {
     check(['born', 'married', 'lived', 'worked', 'died', 'buried', 'sailed'].every(g => st.groups.includes(g)), 'event-type filters are there', st.groups.join(','));
     check(['seb', 'leonardantonio', 'hennessy', 'paternostro', 'donofrio'].every(f => st.fam.includes(f)), 'the family filter offers Seb\'s, Leonardantonio and Maria Donata\'s, the Hennessy, Paternostro and D\'Onofrio families', st.fam.join(','));
     check(st.timeline, 'the timeline and its Play button are there');
+    const tlErrsBefore = errors.length;
+    await page.click('#tab-timeline');
+    await page.waitForTimeout(1500);
+    const tl = await page.evaluate(() => {
+        const list = document.getElementById('tlList');
+        const rail = document.getElementById('rail');
+        const beats = (FM.timeline && FM.timeline.beats) || [];
+        return {
+            mode: document.getElementById('fm') && document.getElementById('fm').dataset.mode,
+            beats: beats.length,
+            listN: list ? list.querySelectorAll('li.el').length : 0,
+            listText: list ? list.innerText : '',
+            ticks: rail ? rail.querySelectorAll('.tk, .tk-dec').length : 0,
+            missingVoyages: (FM.DATA.events || []).filter(e => e.voyageId && !e.voyage).map(e => e.id + ' ' + e.voyageId)
+        };
+    });
+    const tlErrs = errors.slice(tlErrsBefore);
+    check(tl.mode === 'timeline' && !tlErrs.length, 'Timeline mode opens without a page error', tlErrs.slice(0, 3).join(' | '));
+    check(!tl.missingVoyages.length, 'every sailed event with a voyageId has its voyage attached', tl.missingVoyages.join('; '));
+    check(tl.beats > 0 && tl.listN > 0, `the Every event list shows timeline events (${tl.beats} beats, ${tl.listN} rows)`);
+    check(tl.ticks > 0, `the timeline track has year ticks or events (${tl.ticks})`);
+    check(/Leonardantonio|Hindoustan|Belfiore/.test(tl.listText), 'the timeline list names a known person or voyage', tl.listText.slice(0, 200));
+    await page.click('#tab-explore');
+    await page.waitForTimeout(400);
     const sbg = await page.evaluate(() => (FM.DATA.placeEvents['vico-passaro-san-bartolomeo'] || []).map(e => e.personIds.join('+') + ':' + e.type + ':' + e.dateStart));
     check(sbg.some(s => /michael-belfiore:born:1884-12-15/.test(s)), "Michael's birth is drawn at Vico Passaro, 15 Dec 1884", sbg.join(' '));
     const mb = await page.evaluate(() => FM.DATA.events.filter(e => e.type === 'born' && e.personIds.includes('michael-belfiore')).length);
