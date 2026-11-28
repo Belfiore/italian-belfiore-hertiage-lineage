@@ -2315,6 +2315,16 @@
    "file": "images/belfore-brothers-babe-ruth-lou-gehrig.jpg",
    "note": "Identities as given by the family, left to right: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. The date is unknown. No site golf source names the man on the far right.",
    "note_de": "Identitäten nach Angabe der Familie, von links nach rechts: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig und ein nicht identifizierter Mann, wahrscheinlich kein Belfore. Das Datum ist unbekannt. Keine Golfquelle dieser Website nennt den Mann ganz rechts."
+  },
+  {
+   "id": "wikipedia-coordinates-2026",
+   "title": "Wikipedia article coordinates (geographic coordinates of a place article)",
+   "type": "gazetteer",
+   "repository": "Wikipedia, via the MediaWiki coordinates API",
+   "date": "2026-11-28",
+   "url": "https://en.wikipedia.org/wiki/Cortlandt_Manor,_New_York",
+   "note": "Used for a town-level point where OpenStreetMap search returned only a road or a historic house of a similar name.",
+   "note_de": "Verwendet für einen Punkt auf Ortsebene, wo die OpenStreetMap-Suche nur eine Straße oder ein historisches Haus ähnlichen Namens fand."
   }
  ]
 }

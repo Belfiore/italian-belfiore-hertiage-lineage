@@ -967,7 +967,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -1776,7 +1777,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -2789,7 +2791,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -5221,7 +5224,8 @@
     ],
     "confidence": "probable",
     "note": "The New York City birth index gives Dorothy E Hennessy, born 20 February 1922 in Manhattan, and Find a Grave gives the same day. Her obituary says New Rochelle, so the place is not settled. Age 8 in 1930 and 18 in 1940 agree.",
-    "note_de": "Der Geburtsindex von New York City gibt Dorothy E Hennessy an, geboren am 20. Februar 1922 in Manhattan, und Find a Grave gibt denselben Tag an. Ihr Nachruf sagt New Rochelle, der Ort ist also nicht entschieden. Alter 8 im Jahr 1930 und 18 im Jahr 1940 stimmen überein."
+    "note_de": "Der Geburtsindex von New York City gibt Dorothy E Hennessy an, geboren am 20. Februar 1922 in Manhattan, und Find a Grave gibt denselben Tag an. Ihr Nachruf sagt New Rochelle, der Ort ist also nicht entschieden. Alter 8 im Jahr 1930 und 18 im Jahr 1940 stimmen überein.",
+    "placeId": "new-york-state"
    },
    "death": {
     "date": "2008-01-05",
@@ -5494,7 +5498,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -6962,7 +6967,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -7999,7 +8005,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -8914,7 +8921,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -9571,7 +9579,8 @@
      "sourceIds": [
       "census-1905"
      ],
-     "confidence": "unverified"
+     "confidence": "unverified",
+     "placeId": "new-rochelle"
     },
     {
      "place": "New Rochelle, New York",
@@ -13746,11 +13755,13 @@
     "date": "1944-06-28",
     "dateQualifier": "exact",
     "display": "Jun 28, 1944",
-    "place": null,
+    "place": "New Rochelle, New York",
     "sourceIds": [
-     "ssdi-numident-family"
+     "ssdi-numident-family",
+     "obit-index-charles-drew-2004"
     ],
-    "confidence": "probable"
+    "confidence": "probable",
+    "placeId": "new-rochelle"
    },
    "death": {
     "date": "2004-05-06",
