@@ -88,7 +88,9 @@
    "type": "draft registration",
    "repository": "NARA, Selective Service System (WWI), M1509; Local Board for the City of New Rochelle",
    "date": "1918-09-12",
-   "file": "images/michael-kirtus-belfiore-registration-card.jpeg"
+   "file": "images/michael-kirtus-belfiore-registration-card.jpeg",
+   "url": "https://www.fold3.com/image/567396033/belfiore-michael-kirtus-page-1-us-wwi-draft-registration-cards-1917-1918",
+   "note": "Fold3 image of the same card viewed 27 November 2026: painter, employer read as Witmark or Wetmark, at 8 Banks Street, New Rochelle; nearest relative his child Dorothy, then in Bridgeport."
   },
   {
    "id": "ww2-michael",
@@ -96,7 +98,9 @@
    "type": "draft registration",
    "repository": "NARA, Selective Service System, Fourth Registration",
    "date": "1942-04-27",
-   "file": "images/Michael-Belfiore-WW2-Draft-Card.jpeg"
+   "file": "images/Michael-Belfiore-WW2-Draft-Card.jpeg",
+   "url": "https://www.fold3.com/image/580225338/belfiore-michael-page-1-us-wwii-old-mans-draft-registration-cards-1942",
+   "note": "Fold3 image of the same card viewed 27 November 2026 confirms 48 Coligni Avenue and the birth date 15 December 1883, which remains a conflicting American reading; the Italian birth act gives 15 December 1884."
   },
   {
    "id": "census-1940",
@@ -1523,9 +1527,10 @@
    "title": "World War I draft card: Patrick Joseph Hennessy, born 18 April 1877",
    "type": "draft card",
    "repository": "Ancestry.com collection 6482, record 8491713",
-   "date": "1917",
-   "note": "A Patrick Joseph Hennessy, born 18 April 1877, of 87 Huguenot Street, New Rochelle, spouse written Inna. The birthday does not match the 1874 baptism. Kept as an unresolved other reading, not as his birth date. No image was saved.",
-   "url": "https://www.ancestry.com/search/collections/6482/records/8491713"
+   "date": "1918-09-13",
+   "note": "Card image read on Fold3, 27 November 2026. Patrick Joseph Hennessy, serial 317, order 4013, age 41, born 18 April 1877, naturalized, of 87 Huguenot Street, New Rochelle. Chauffeur for an employer read as John D. Agor, Premium Point. Nearest relative Anna Hennessy, wife, same address. Registered 13 September 1918, Local Board for the City of New Rochelle. Medium height, slender build, blue eyes, brown hair. The birthday does not match the 1874 Conahy baptism, so the card is kept as a probable identification, not as a settled birth date. An earlier reading of 17 Huguenot Street was a misreading of 87.",
+   "url": "https://www.fold3.com/image/567398567/hennessy-patrick-joseph-page-1-us-wwi-draft-registration-cards-1917-1918",
+   "file": "images/ww1-patrick-hennessy-draft.jpg"
   },
   {
    "id": "hennessy-thomas-1930",
@@ -1988,12 +1993,13 @@
   },
   {
    "id": "vogue-1935-03-01",
-   "title": "'Good Weddings', Vogue, 1 March 1935 (vol. 85, no. 5): Belfore-O'Donnell, Duluth",
+   "title": "'Good Weddings', Vogue, 1 March 1935 (vol. 85, no. 5), p. 126: Belfore-O'Donnell, Duluth",
    "type": "magazine",
    "repository": "Internet Archive, Vogue 1930 to 1939 collection (scan of the March 1 1935 issue)",
    "date": "1935-03-01",
-   "url": "https://archive.org/details/vogue-1930-1939",
-   "note": "Read in the scan's text on 27 November 2026. The Duluth entry reads: 'Belfore-O'Donnell: On November 20, Mr. Joseph Francis Belfore, of Detroit, Michigan, son of Mr. and Mrs. Anthony Belfore, of New Rochelle, New York, and Miss Ruth Hartman O'Donnell, daughter of Mrs. Tracy Hartman O'Donnell.' The year is not printed in the entry; it is Nov 1934 from the issue date and the list's place in it."
+   "url": "https://archive.org/download/vogue-1930-1939/1930-1939/1935/Vogue%20v85n05%20%281935-03-01%29_jp2.zip/Vogue%20v85n05%20%281935-03-01%29_jp2%2FVogue%20v85n05%20%281935-03-01%29_0151.jp2&ext=jpg",
+   "note": "Printed page 126 (Internet Archive leaf 151) of the 1 March 1935 issue, Society, Weddings, Duluth. The notice reads: 'Belfore-O'Donnell: On November 20, Mr. Joseph Francis Belfore, of Detroit, Michigan, son of Mr. and Mrs. Anthony Belfore, of New Rochelle, New York, and Miss Ruth Hartman O'Donnell, daughter of Mrs. Tracy Hartman O'Donnell.' The year is not printed in the entry; it is November 1934 from the issue date. Direct page image and the issue PDF are both on the Internet Archive. PDF: https://archive.org/details/vogue-1930-1939/1930-1939%2F1935%2FVogue%20v85n05%20%281935-03-01%29.pdf",
+   "file": "images/vogue-1935-belfore-odonnell.jpg"
   },
   {
    "id": "nyt-1927-09-17",
@@ -2001,8 +2007,9 @@
    "type": "newspaper",
    "repository": "Internet Archive, The New York Times 1927-09-17 (vol. 76, no. 25438)",
    "date": "1927-09-17",
-   "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438",
-   "note": "Read in the scan's text on 27 November 2026. The first of more than a dozen Times lists, from September 1927 to September 1929, that print him as Joe Belfore of Sunningdale. Only a snippet of the page was read."
+   "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438/page/n11/mode/1up",
+   "note": "Crop from leaf 11 of the Internet Archive scan of the 17 September 1927 Times, a tournament field list. The line reads 'Joe Belfore, Sunningdale' with a score of 81. Sunningdale here is Sunningdale Country Club in the Scarsdale area of Westchester, New York, not the club in England.",
+   "file": "images/nyt-1927-09-17-joe-belfore-sunningdale.jpg"
   },
   {
    "id": "nyt-1929-09-06",
@@ -2019,8 +2026,9 @@
    "type": "newspaper",
    "repository": "Internet Archive, The New York Times 1929-09-26 (vol. 79, no. 26178)",
    "date": "1929-09-26",
-   "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0",
-   "note": "Read in the scan's text on 27 November 2026. The field list prints 'Joe Belfore, Sunningdale' and, on the next line, 'Pat Circelli, unattached'."
+   "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0/page/n18/mode/1up",
+   "note": "Crop from leaf 18 of the Internet Archive scan (printed page 20) of the 26 September 1929 Times. The list prints 'Joe Belfore, Sunningdale' and, on the next line, 'Pat Circelli, unattached'.",
+   "file": "images/nyt-1929-09-26-joe-belfore-pat-circelli.jpg"
   },
   {
    "id": "nyt-1929-10-07-hennessy",
@@ -2057,6 +2065,44 @@
    "date": "1885-02-28",
    "url": "https://archive.org/details/IEI0104322_1885_00049",
    "note": "Read in the scan's text on 27 November 2026. 'A San Bartolomeo in Galdo ieri notte venne assassinato a colpi di bastone Bartolomeo Circelli, il valoroso ex trombettiere del 49 fanteria.' The regiment is misprinted: the 1884 reports say the 19th. It recalls that he arrested the soldier Misdea at the Pizzofalcone barracks and stopped the killing. Later reports differ on the cause."
+  },
+  {
+   "id": "ww2-edward",
+   "title": "World War II draft registration card: Edward Joseph Belfiore, serial T-22997, New Rochelle",
+   "type": "draft registration",
+   "repository": "NARA, Selective Service System, WWII draft cards, 1940 to 1947, via Fold3",
+   "date": "1945",
+   "url": "https://www.fold3.com/image/671576624/belfiore-edward-joseph-page-1-us-wwii-draft-registration-cards-1940",
+   "file": "images/ww2-edward-belfiore-draft.jpg",
+   "note": "Image viewed 27 November 2026. Edward Joseph Belfiore, age 24, born 21 March 1921 in New Rochelle, living at 48 Coligni Avenue, telephone none, unemployed. Age 24 with that birthday places the card in 1945, after his Army service (November 1941 to November 1945). The name and address of a private person listed as a contact have been covered on the image used on this site."
+  },
+  {
+   "id": "ww2-joseph-curties",
+   "title": "World War II draft registration card: Joseph Curties Belfiore, serial 198, order 12415, New Rochelle",
+   "type": "draft registration",
+   "repository": "NARA, Selective Service System, WWII draft cards, 1940 to 1947, via Fold3",
+   "date": "1941-12",
+   "url": "https://www.fold3.com/image/671576627/belfiore-joseph-curties-page-1-us-wwii-draft-registration-cards-1940",
+   "file": "images/ww2-joseph-curties-belfiore-draft.jpg",
+   "note": "Image viewed 27 November 2026. The card writes his middle name as Curties. Born 1 December 1922 in New Rochelle, age 19, so about December 1941. Residence 48 Coligni Avenue; contact Mrs. Frances Belfiore, same address. Employer J. M. Joyce, 237 Overlook Road; place of work 35 Winthrop Avenue, New Rochelle. He signed Joseph Curties Belfiore."
+  },
+  {
+   "id": "army-transport-princess-matoika-1918",
+   "title": "U.S. Army WWI Transport Service passenger list (index): Michael K. Belfiore, Princess Matoika, 20 December 1918",
+   "type": "passenger list index",
+   "repository": "Fold3 index of NARA Army WWI Transport Service passenger lists",
+   "date": "1918-12-20",
+   "note": "Index-level only; the list image was not opened. The index names Belfiore, Michael K, on the Princess Matoika, departed 20 December 1918 from Newport News, with contact Belfiore, Toney, New Rochelle. Toney is very probably his father Antonio (Anthony). This is a lead for WWI service, not a read of the original list."
+  },
+  {
+   "id": "photo-calverton-sign",
+   "title": "Entrance sign, Calverton National Cemetery, Calverton, New York",
+   "type": "photograph",
+   "repository": "United States Department of Veterans Affairs, via Wikimedia Commons; public domain",
+   "date": "2008-04-14",
+   "file": "images/calverton-national-cemetery-sign.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Calverton_National_Cemetery_sign.jpg",
+   "note": "Photograph from the Department of Veterans Affairs, dated 14 April 2008. Public domain. Used as a place photograph for Joseph C. Belfiore's burial, not as a portrait."
   }
  ]
 }

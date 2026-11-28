@@ -2,239 +2,436 @@
  "discoveries": [
   {
    "id": "map-2026-11-26-vico-passaro",
-   "covers": ["place:vico-passaro-san-bartolomeo"],
-   "personIds": ["michael-belfiore"],
-   "placeIds": ["vico-passaro-san-bartolomeo"],
+   "covers": [
+    "place:vico-passaro-san-bartolomeo"
+   ],
+   "personIds": [
+    "michael-belfiore"
+   ],
+   "placeIds": [
+    "vico-passaro-san-bartolomeo"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "A lane called Vico Passaro still climbs through the old town of San Bartolomeo in Galdo, where Michael was born in 1884.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "OpenStreetMap, via Photon search", "url": "https://photon.komoot.io/"},
+   "source": {
+    "text": "OpenStreetMap, via Photon search",
+    "url": "https://photon.komoot.io/"
+   },
    "confidence": "probable",
    "changeNote": "The street name on Michael's birth act was a hard reading; a lane of that name today supports it."
   },
   {
    "id": "map-2026-11-26-albemarle",
-   "covers": ["place:39-albemarle"],
-   "personIds": ["leonardantonio-belfiore", "maria-donata-circelli"],
-   "placeIds": ["39-albemarle"],
+   "covers": [
+    "place:39-albemarle"
+   ],
+   "personIds": [
+    "leonardantonio-belfiore",
+    "maria-donata-circelli"
+   ],
+   "placeIds": [
+    "39-albemarle"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "The family's 1925 home at 39 Albemarle is now on the map, on Albemarle Avenue in New Rochelle.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "US Census Bureau geocoder", "url": "https://geocoding.geo.census.gov/geocoder/"},
+   "source": {
+    "text": "US Census Bureau geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/"
+   },
    "confidence": "probable"
   },
   {
    "id": "map-2026-11-26-west-maple",
-   "covers": ["place:251-west-maple-avenue"],
-   "personIds": ["sammy-belfore", "virginia-hupp"],
-   "placeIds": ["251-west-maple-avenue"],
+   "covers": [
+    "place:251-west-maple-avenue"
+   ],
+   "personIds": [
+    "sammy-belfore",
+    "virginia-hupp"
+   ],
+   "placeIds": [
+    "251-west-maple-avenue"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "Sammy and Virginia's 1930 wedding house, 251 West Maple Avenue in Birmingham, Michigan, is now pinned on today's West Maple Road.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "US Census Bureau geocoder and OpenStreetMap", "url": "https://geocoding.geo.census.gov/geocoder/"},
+   "source": {
+    "text": "US Census Bureau geocoder and OpenStreetMap",
+    "url": "https://geocoding.geo.census.gov/geocoder/"
+   },
    "confidence": "probable"
   },
   {
    "id": "map-2026-11-26-wykagyl",
-   "covers": ["place:wykagyl-country-club"],
-   "personIds": ["sammy-belfore"],
-   "placeIds": ["wykagyl-country-club"],
+   "covers": [
+    "place:wykagyl-country-club"
+   ],
+   "personIds": [
+    "sammy-belfore"
+   ],
+   "placeIds": [
+    "wykagyl-country-club"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "Wykagyl Country Club, where Sammy started in golf as a shop boy, is now pinned at 1195 North Avenue, New Rochelle.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "US Census Bureau geocoder", "url": "https://geocoding.geo.census.gov/geocoder/"},
+   "source": {
+    "text": "US Census Bureau geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/"
+   },
    "confidence": "probable"
   },
   {
    "id": "map-2026-11-26-shennecossett",
-   "covers": ["place:shenecossett"],
-   "personIds": ["sammy-belfore"],
-   "placeIds": ["shenecossett"],
+   "covers": [
+    "place:shenecossett"
+   ],
+   "personIds": [
+    "sammy-belfore"
+   ],
+   "placeIds": [
+    "shenecossett"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "Shenecossett, Sammy's 1942 club, is the Shennecossett Golf Course in Groton, Connecticut, just across the river from New London.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "OpenStreetMap Nominatim", "url": "https://nominatim.openstreetmap.org/"},
+   "source": {
+    "text": "OpenStreetMap Nominatim",
+    "url": "https://nominatim.openstreetmap.org/"
+   },
    "confidence": "probable"
   },
   {
    "id": "map-2026-11-26-kercheval",
-   "covers": ["place:kercheval-conner"],
-   "personIds": ["frank-belfore"],
-   "placeIds": ["kercheval-conner"],
+   "covers": [
+    "place:kercheval-conner"
+   ],
+   "personIds": [
+    "frank-belfore"
+   ],
+   "placeIds": [
+    "kercheval-conner"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "Frank's 1942 workplace near Kercheval and Conner in Detroit is now on the map at that corner.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "OpenStreetMap, via Photon search", "url": "https://photon.komoot.io/"},
+   "source": {
+    "text": "OpenStreetMap, via Photon search",
+    "url": "https://photon.komoot.io/"
+   },
    "confidence": "probable"
   },
   {
    "id": "map-2026-11-26-saginaw",
-   "covers": ["place:saginaw-country-club"],
-   "personIds": ["joe-belfore"],
-   "placeIds": ["saginaw-country-club"],
+   "covers": [
+    "place:saginaw-country-club"
+   ],
+   "personIds": [
+    "joe-belfore"
+   ],
+   "placeIds": [
+    "saginaw-country-club"
+   ],
    "found": "2026-11-26",
    "findType": "place",
    "headline": "Saginaw Country Club, named with Joe in a 1934 newspaper headline, is now on the map at the club grounds in Saginaw Township, Michigan.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "OpenStreetMap Nominatim", "url": "https://nominatim.openstreetmap.org/"},
+   "source": {
+    "text": "OpenStreetMap Nominatim",
+    "url": "https://nominatim.openstreetmap.org/"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-giovanniangelo-birth",
-   "covers": ["person:giovanniangelo-circelli", "birth:giovanniangelo-circelli", "parent:giovanniangelo-circelli:donato-circelli", "parent:giovanniangelo-circelli:vincenza-minichilli", "document:giovanniangelo-circelli:604b9e49e9"],
-   "personIds": ["giovanniangelo-circelli", "giuseppe-circelli", "donato-circelli", "vincenza-minichilli"],
-   "placeIds": ["san-bartolomeo-in-galdo"],
+   "covers": [
+    "person:giovanniangelo-circelli",
+    "birth:giovanniangelo-circelli",
+    "parent:giovanniangelo-circelli:donato-circelli",
+    "parent:giovanniangelo-circelli:vincenza-minichilli",
+    "document:giovanniangelo-circelli:604b9e49e9"
+   ],
+   "personIds": [
+    "giovanniangelo-circelli",
+    "giuseppe-circelli",
+    "donato-circelli",
+    "vincenza-minichilli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
    "found": "2026-11-26",
    "findType": "person",
    "headline": "Giuseppe Circelli had a younger brother: Giovanniangelo, born at home in San Bartolomeo in Galdo on 27 February 1830 to Donato Circelli and Vincenza Minichiello.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "Birth act 51 of 1830, San Bartolomeo in Galdo (Antenati)", "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513"},
+   "source": {
+    "text": "Birth act 51 of 1830, San Bartolomeo in Galdo (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513"
+   },
    "confidence": "confirmed",
    "image": "images/thumbs/birth-giovanniangelo-circelli-1830-act51.jpg",
    "imageAlt": "Handwritten 1830 birth register page for Giovanniangelo Circelli"
   },
   {
    "id": "rb-2026-11-26-giovanniangelo-marriage",
-   "covers": ["fact:giovanniangelo-circelli:wife", "occupation:giovanniangelo-circelli:contadino-farmer:", "placeevent:san-bartolomeo-in-galdo:pe-san-bartolomeo-in-galdo-married-giovanniangelo-circelli", "document:giovanniangelo-circelli:6fe1a416b9"],
-   "personIds": ["giovanniangelo-circelli"],
-   "placeIds": ["san-bartolomeo-in-galdo"],
+   "covers": [
+    "fact:giovanniangelo-circelli:wife",
+    "occupation:giovanniangelo-circelli:contadino-farmer:",
+    "placeevent:san-bartolomeo-in-galdo:pe-san-bartolomeo-in-galdo-married-giovanniangelo-circelli",
+    "document:giovanniangelo-circelli:6fe1a416b9"
+   ],
+   "personIds": [
+    "giovanniangelo-circelli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "Giovanniangelo Circelli, a farmer of twenty-five, married Maria d'Andrea in San Bartolomeo in Galdo on 1 November 1855, with his parents' death acts filed alongside.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "Marriage promise act 44 of 1855, San Bartolomeo in Galdo (Antenati)", "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035164"},
+   "source": {
+    "text": "Marriage promise act 44 of 1855, San Bartolomeo in Galdo (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36035164"
+   },
    "confidence": "confirmed",
    "image": "images/thumbs/marriage-giovanniangelo-circelli-1855-act44.jpg",
    "imageAlt": "Handwritten 1855 marriage register page for Giovanniangelo Circelli"
   },
   {
    "id": "rb-2026-11-26-pasqualantonio",
-   "covers": ["fact:giovanniangelo-circelli:son", "document:giovanniangelo-circelli:65aae45e1b"],
-   "personIds": ["giovanniangelo-circelli"],
-   "placeIds": ["san-bartolomeo-in-galdo"],
+   "covers": [
+    "fact:giovanniangelo-circelli:son",
+    "document:giovanniangelo-circelli:65aae45e1b"
+   ],
+   "personIds": [
+    "giovanniangelo-circelli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "A son, Pasqualantonio, born on 16 March 1862 to Giovanni Circelli and Maria d'Andrea, is very probably Giovanniangelo's: same wife, same late father Donato.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "Birth act 90 of 1862, San Bartolomeo in Galdo (Antenati)", "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua1009571"},
+   "source": {
+    "text": "Birth act 90 of 1862, San Bartolomeo in Galdo (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua1009571"
+   },
    "confidence": "probable",
    "image": "images/thumbs/birth-pasqualantonio-circelli-1862-act90.jpg",
    "imageAlt": "Handwritten 1862 birth register page for Pasqualantonio Circelli"
   },
   {
    "id": "rb-2026-11-26-two-donatos",
-   "covers": ["fact:matteo-circelli:brother", "fact:matteo-circelli:father"],
-   "personIds": ["matteo-circelli", "donato-circelli"],
-   "placeIds": ["san-bartolomeo-in-galdo"],
+   "covers": [
+    "fact:matteo-circelli:brother",
+    "fact:matteo-circelli:father"
+   ],
+   "personIds": [
+    "matteo-circelli",
+    "donato-circelli"
+   ],
+   "placeIds": [
+    "san-bartolomeo-in-galdo"
+   ],
    "found": "2026-11-26",
    "findType": "connection",
    "headline": "There were two Donato Circellis: a younger one, born about 1804, was the father of Matteo and of a Giovanni born in February 1830 to Lucia Catalano.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "Birth act 33 of 1830 and marriage act 11 of 1852, San Bartolomeo in Galdo (Antenati)", "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513"},
+   "source": {
+    "text": "Birth act 33 of 1830 and marriage act 11 of 1852, San Bartolomeo in Galdo (Antenati)",
+    "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua36044513"
+   },
    "confidence": "probable",
    "changeNote": "Confirms the November 2026 decision to unlink Matteo from Giuseppe's father."
   },
   {
    "id": "rb-2026-11-26-towey-parents",
-   "covers": ["person:james-towey", "person:margaret-towey", "birth:james-towey", "birth:margaret-towey", "parent:frances-towey:james-towey", "parent:frances-towey:margaret-towey", "spouse:james-towey:margaret-towey", "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-james-towey"],
-   "personIds": ["james-towey", "margaret-towey", "frances-towey"],
-   "placeIds": ["new-rochelle"],
+   "covers": [
+    "person:james-towey",
+    "person:margaret-towey",
+    "birth:james-towey",
+    "birth:margaret-towey",
+    "parent:frances-towey:james-towey",
+    "parent:frances-towey:margaret-towey",
+    "spouse:james-towey:margaret-towey",
+    "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-james-towey"
+   ],
+   "personIds": [
+    "james-towey",
+    "margaret-towey",
+    "frances-towey"
+   ],
+   "placeIds": [
+    "new-rochelle"
+   ],
    "found": "2026-11-26",
    "findType": "person",
    "headline": "Frances Towey's Irish-born parents, James and Margaret Towey, now have their own places in the tree.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "1900 and 1910 U.S. censuses, New Rochelle; Find a Grave memorials 281144260 and 281144407", "url": "https://www.findagrave.com/memorial/281144260"},
+   "source": {
+    "text": "1900 and 1910 U.S. censuses, New Rochelle; Find a Grave memorials 281144260 and 281144407",
+    "url": "https://www.findagrave.com/memorial/281144260"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-james-towey-death",
-   "covers": ["death:james-towey"],
-   "personIds": ["james-towey"],
-   "placeIds": ["new-rochelle", "holy-sepulchre"],
+   "covers": [
+    "death:james-towey"
+   ],
+   "personIds": [
+    "james-towey"
+   ],
+   "placeIds": [
+    "new-rochelle",
+    "holy-sepulchre"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "James Towey, Frances's father, died in New Rochelle on 4 September 1945 and is buried at Holy Sepulchre Cemetery.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "New York State death index 1945, certificate 54299; Find a Grave memorial 281144260", "url": "https://www.findagrave.com/memorial/281144260"},
+   "source": {
+    "text": "New York State death index 1945, certificate 54299; Find a Grave memorial 281144260",
+    "url": "https://www.findagrave.com/memorial/281144260"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-margaret-towey-birth",
-   "covers": ["birth:margaret-towey", "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-margaret-towey"],
-   "personIds": ["margaret-towey"],
-   "placeIds": ["holy-sepulchre"],
+   "covers": [
+    "birth:margaret-towey",
+    "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-margaret-towey"
+   ],
+   "personIds": [
+    "margaret-towey"
+   ],
+   "placeIds": [
+    "holy-sepulchre"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "Margaret Towey was born in Ireland about 1870, and her grave is at Holy Sepulchre Cemetery in New Rochelle with her husband James.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "1900 U.S. census, New Rochelle; Find a Grave memorial 281144407", "url": "https://www.findagrave.com/memorial/281144407"},
+   "source": {
+    "text": "1900 U.S. census, New Rochelle; Find a Grave memorial 281144407",
+    "url": "https://www.findagrave.com/memorial/281144407"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-margaret-towey-death",
-   "covers": ["death:margaret-towey"],
-   "personIds": ["margaret-towey"],
-   "placeIds": ["new-rochelle", "holy-sepulchre"],
+   "covers": [
+    "death:margaret-towey"
+   ],
+   "personIds": [
+    "margaret-towey"
+   ],
+   "placeIds": [
+    "new-rochelle",
+    "holy-sepulchre"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "Margaret Towey, Frances's mother, died in New Rochelle on 24 January 1938 ",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "New York State death index 1938, certificate 3541; Find a Grave memorial 281144407", "url": "https://www.findagrave.com/memorial/281144407"},
+   "source": {
+    "text": "New York State death index 1938, certificate 3541; Find a Grave memorial 281144407",
+    "url": "https://www.findagrave.com/memorial/281144407"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-towey-siblings",
-   "covers": ["fact:frances-towey:brothers-and-sister-later-years"],
-   "personIds": ["frances-towey"],
+   "covers": [
+    "fact:frances-towey:brothers-and-sister-later-years"
+   ],
+   "personIds": [
+    "frances-towey"
+   ],
    "placeIds": [],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "Frances's brother James, a detective, died in 1935 and her sister Mary Helen Walsh in 1937; her youngest brother lived until 1987.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "New York State death index 1935 and 1937; Find a Grave memorial 281145747", "url": "https://www.findagrave.com/memorial/281145747"},
+   "source": {
+    "text": "New York State death index 1935 and 1937; Find a Grave memorial 281145747",
+    "url": "https://www.findagrave.com/memorial/281145747"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-frances-death-date",
-   "covers": ["fact:frances-towey:death-date-in-the-state-index", "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-frances-towey"],
-   "personIds": ["frances-towey"],
-   "placeIds": ["holy-sepulchre"],
+   "covers": [
+    "fact:frances-towey:death-date-in-the-state-index",
+    "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-frances-towey"
+   ],
+   "personIds": [
+    "frances-towey"
+   ],
+   "placeIds": [
+    "holy-sepulchre"
+   ],
    "found": "2026-11-26",
    "findType": "correction",
    "headline": "The state death index dates Frances Towey Belfiore's death to 15 April 1967, ten days after the date we had, and she is buried at Holy Sepulchre.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "New York State death index 1967, certificate 32075; Find a Grave memorial 281145747", "url": "https://www.findagrave.com/memorial/281145747"},
+   "source": {
+    "text": "New York State death index 1967, certificate 32075; Find a Grave memorial 281145747",
+    "url": "https://www.findagrave.com/memorial/281145747"
+   },
    "confidence": "probable",
    "changeNote": "The Social Security index date of 5 April 1967 is kept as the main date until the certificate is read."
   },
   {
    "id": "rb-2026-11-26-maria-donata-burial",
-   "covers": ["placeevent:holy-sepulchre:pe-holy-sepulchre-buried-maria-donata-circelli"],
-   "personIds": ["maria-donata-circelli"],
-   "placeIds": ["holy-sepulchre"],
+   "covers": [
+    "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-maria-donata-circelli"
+   ],
+   "personIds": [
+    "maria-donata-circelli"
+   ],
+   "placeIds": [
+    "holy-sepulchre"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "Maria Donata Circelli Belfiore, who died in 1937, is buried at Holy Sepulchre Cemetery in New Rochelle.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "Find a Grave memorial 328410140", "url": "https://www.findagrave.com/memorial/328410140"},
+   "source": {
+    "text": "Find a Grave memorial 328410140",
+    "url": "https://www.findagrave.com/memorial/328410140"
+   },
    "confidence": "probable"
   },
   {
    "id": "rb-2026-11-26-leonardantonio-burial",
-   "covers": ["placeevent:holy-sepulchre:pe-holy-sepulchre-buried-leonardantonio-belfiore"],
-   "personIds": ["leonardantonio-belfiore"],
-   "placeIds": ["holy-sepulchre"],
+   "covers": [
+    "placeevent:holy-sepulchre:pe-holy-sepulchre-buried-leonardantonio-belfiore"
+   ],
+   "personIds": [
+    "leonardantonio-belfiore"
+   ],
+   "placeIds": [
+    "holy-sepulchre"
+   ],
    "found": "2026-11-26",
    "findType": "record",
    "headline": "An Anthony Belfiore who died on 11 July 1938 is buried at Holy Sepulchre, the cemetery where Marie D. Belfiore and Michael lie, which strengthens the case that he is Leonardantonio.",
    "foundBy": "Stuart - Italian",
-   "source": {"text": "Find a Grave memorial 328799813", "url": "https://www.findagrave.com/memorial/328799813"},
+   "source": {
+    "text": "Find a Grave memorial 328799813",
+    "url": "https://www.findagrave.com/memorial/328799813"
+   },
    "confidence": "probable"
   },
   {
@@ -437,13 +634,15 @@
    ],
    "found": "2026-11-27",
    "findType": "record",
-   "headline": "Vogue's March 1935 wedding list names Joe's wife as Ruth Hartman O'Donnell and dates their wedding to November 20, 1934, under Duluth.",
+   "headline": "Vogue's 1 March 1935 issue, p. 126, names Joe's wife as Ruth Hartman O'Donnell and dates their wedding to November 20, 1934, under Duluth.",
    "foundBy": "Stuart - Italian",
    "source": {
-    "text": "Vogue, March 1 1935, 'Good Weddings' (Internet Archive scan)",
-    "url": "https://archive.org/details/vogue-1930-1939"
+    "text": "Vogue, 1 March 1935, p. 126, Good Weddings, Duluth (Internet Archive page image)",
+    "url": "https://archive.org/download/vogue-1930-1939/1930-1939/1935/Vogue%20v85n05%20%281935-03-01%29_jp2.zip/Vogue%20v85n05%20%281935-03-01%29_jp2%2FVogue%20v85n05%20%281935-03-01%29_0151.jp2&ext=jpg"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "image": "images/vogue-1935-belfore-odonnell.jpg",
+   "imageAlt": "Vogue, 1 March 1935, page 126: the Duluth wedding notice for Belfore-O'Donnell"
   },
   {
    "id": "r27c-joe-sunningdale",
@@ -454,16 +653,20 @@
    "personIds": [
     "joe-belfore"
    ],
-   "placeIds": [],
+   "placeIds": [
+    "sunningdale-country-club"
+   ],
    "found": "2026-11-27",
    "findType": "record",
-   "headline": "The New York Times printed Joe as 'Joe Belfore, Sunningdale' in tournament lists from September 1927 to September 1929, his club years before Florida and Michigan.",
+   "headline": "The New York Times printed Joe as 'Joe Belfore, Sunningdale' from 1927 to 1929. That club is Sunningdale Country Club in the Scarsdale area of New York, not the club in England.",
    "foundBy": "Stuart - Italian",
    "source": {
-    "text": "The New York Times, 17 September 1927 to 26 September 1929 (Internet Archive scans)",
-    "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438"
+    "text": "The New York Times, 17 September 1927, tournament list (Internet Archive leaf 11)",
+    "url": "https://archive.org/details/sim_new-york-times_1927-09-17_76_25438/page/n11/mode/1up"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "image": "images/nyt-1927-09-17-joe-belfore-sunningdale.jpg",
+   "imageAlt": "New York Times, 17 September 1927: the line Joe Belfore, Sunningdale, score 81"
   },
   {
    "id": "r27c-joe-pat-circelli",
@@ -476,13 +679,15 @@
    "placeIds": [],
    "found": "2026-11-27",
    "findType": "connection",
-   "headline": "A 1929 Times tournament list prints Joe Belfore of Sunningdale one line above Pat Circelli of New Rochelle, who shares the surname of Joe's mother; no kinship is known.",
+   "headline": "A 1929 Times tournament list prints Joe Belfore, Sunningdale, one line above Pat Circelli, unattached; they share a surname with Joe's mother, and no kinship is known.",
    "foundBy": "Stuart - Italian",
    "source": {
-    "text": "The New York Times, 26 September 1929 (Internet Archive scan)",
-    "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0"
+    "text": "The New York Times, 26 September 1929, p. 20 (Internet Archive leaf 18)",
+    "url": "https://archive.org/details/sim_new-york-times_1929-09-26_79_26178_0/page/n18/mode/1up"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "image": "images/nyt-1929-09-26-joe-belfore-pat-circelli.jpg",
+   "imageAlt": "New York Times, 26 September 1929: Joe Belfore, Sunningdale, directly above Pat Circelli, unattached"
   },
   {
    "id": "r27c-joseph-navy-calverton",
@@ -493,7 +698,9 @@
    "personIds": [
     "joseph-belfiore"
    ],
-   "placeIds": [],
+   "placeIds": [
+    "calverton-national-cemetery"
+   ],
    "found": "2026-11-27",
    "findType": "record",
    "headline": "The Veterans Affairs gravesite locator lists Joseph C. Belfiore as a Second World War Navy veteran (ARM1) buried at Calverton National Cemetery, with birth and death dates that match his state death index entry.",
@@ -502,7 +709,9 @@
     "text": "VA Nationwide Gravesite Locator",
     "url": "https://gravelocator.cem.va.gov/ngl/"
    },
-   "confidence": "probable"
+   "confidence": "probable",
+   "image": "images/calverton-national-cemetery-sign.jpg",
+   "imageAlt": "Entrance sign at Calverton National Cemetery, Long Island, where Joseph C. Belfiore is buried"
   },
   {
    "id": "r27c-hennessy-1929-notice",
@@ -559,6 +768,95 @@
     "url": "https://archive.org/details/IEI0104322_1885_00049"
    },
    "confidence": "probable"
+  },
+  {
+   "id": "r27d-michael-matoika",
+   "covers": [
+    "fact:michael-belfiore:troop-transport-december-1918"
+   ],
+   "personIds": [
+    "michael-belfiore"
+   ],
+   "placeIds": [],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "A Fold3 index, not yet the list itself, names Michael K. Belfiore on the Princess Matoika, leaving Newport News on 20 December 1918, with Toney Belfiore of New Rochelle as his contact.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "Fold3 index, U.S. Army WWI Transport Service passenger lists (image not opened)",
+    "url": null
+   },
+   "confidence": "probable"
+  },
+  {
+   "id": "r27d-edward-ww2-draft",
+   "covers": [
+    "residence:edward-belfiore:48-coligni-avenue:about-1945",
+    "event:edward-belfiore:about-1945:1945"
+   ],
+   "personIds": [
+    "edward-belfiore"
+   ],
+   "placeIds": [
+    "48-coligni-avenue"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Edward Joseph Belfiore's World War II draft card, filled out at age 24, so about 1945, finds him at 48 Coligni Avenue and unemployed after his Army service.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "WWII draft card, Edward Joseph Belfiore (Fold3 image)",
+    "url": "https://www.fold3.com/image/671576624/belfiore-edward-joseph-page-1-us-wwii-draft-registration-cards-1940"
+   },
+   "confidence": "probable",
+   "image": "images/ww2-edward-belfiore-draft.jpg",
+   "imageAlt": "Edward Joseph Belfiore's World War II draft card, about 1945, with a private contact line covered"
+  },
+  {
+   "id": "r27d-joseph-curties-draft",
+   "covers": [
+    "fact:joseph-belfiore:military-service"
+   ],
+   "personIds": [
+    "joseph-belfiore"
+   ],
+   "placeIds": [
+    "48-coligni-avenue"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "Joseph C. Belfiore's World War II draft card writes his middle name as Curties, gives the family home as 48 Coligni Avenue, and names his mother Frances as his contact.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "WWII draft card, Joseph Curties Belfiore (Fold3 image)",
+    "url": "https://www.fold3.com/image/671576627/belfiore-joseph-curties-page-1-us-wwii-draft-registration-cards-1940"
+   },
+   "confidence": "probable",
+   "image": "images/ww2-joseph-curties-belfiore-draft.jpg",
+   "imageAlt": "World War II draft card for Joseph Curties Belfiore, age 19, of 48 Coligni Avenue, New Rochelle"
+  },
+  {
+   "id": "r27d-patrick-wwi-draft-image",
+   "covers": [
+    "residence:patrick-hennessy:87-huguenot-street:1918"
+   ],
+   "personIds": [
+    "patrick-hennessy"
+   ],
+   "placeIds": [
+    "87-huguenot-street"
+   ],
+   "found": "2026-11-27",
+   "findType": "record",
+   "headline": "A Fold3 image of the 1918 draft card for Patrick Joseph Hennessy shows him as a chauffeur living at 87 Huguenot Street, New Rochelle. The identification stays probable, because the birthday on the card does not match the 1874 baptism.",
+   "foundBy": "Stuart - Italian",
+   "source": {
+    "text": "WWI draft card, Patrick Joseph Hennessy, 13 September 1918 (Fold3 image)",
+    "url": "https://www.fold3.com/image/567398567/hennessy-patrick-joseph-page-1-us-wwi-draft-registration-cards-1917-1918"
+   },
+   "confidence": "probable",
+   "image": "images/ww1-patrick-hennessy-draft.jpg",
+   "imageAlt": "Front and back of the 1918 draft card for Patrick Joseph Hennessy of 87 Huguenot Street, New Rochelle"
   }
  ]
 }
