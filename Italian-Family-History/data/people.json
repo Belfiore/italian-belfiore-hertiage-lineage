@@ -2,7 +2,7 @@
  "meta": {
   "schemaVersion": 1,
   "title": "Belfiore & Circelli family",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "confidenceScale": [
    "confirmed",
    "probable",
@@ -235,6 +235,86 @@
    "isLiving": false
   },
   {
+   "id": "vincenzo-antonio-circelli",
+   "displayName": "Vincenzo Antonio Circelli",
+   "disambiguator": "Giuseppe's elder brother",
+   "givenNames": "Vincenzo Antonio",
+   "surname": "Circelli",
+   "sex": "M",
+   "generation": 1,
+   "nameVariants": [
+    {
+     "name": "Vincenzo Cirelli",
+     "note": "as written in the 1816 birth index",
+     "sourceIds": [
+      "birth-vincenzo-antonio-circelli-1816"
+     ],
+     "confidence": "confirmed"
+    }
+   ],
+   "confidence": "confirmed",
+   "birth": {
+    "date": "1816-01-17",
+    "dateQualifier": "exact",
+    "display": "Jan 17, 1816",
+    "place": "San Bartolomeo in Galdo, Italy",
+    "sourceIds": [
+     "birth-vincenzo-antonio-circelli-1816"
+    ],
+    "confidence": "confirmed",
+    "note": "Birth act 16 of 1816, read on the original page. Born at home at the fifteenth hour and registered the same day.",
+    "placeId": "san-bartolomeo-in-galdo"
+   },
+   "death": null,
+   "residences": [],
+   "occupations": [],
+   "immigration": null,
+   "cardPlace": "San Bartolomeo in Galdo",
+   "summary": "The earliest child yet found of Donato Circelli and Vincenza Minichillo, born in San Bartolomeo in Galdo in January 1816, eleven years before his brother Giuseppe.",
+   "story": "Vincenzo Antonio Circelli was born at home in San Bartolomeo in Galdo on 17 January 1816, at the fifteenth hour. That same afternoon his father, Donato Circelli, a farmer of twenty-six, carried the news to the mayor, and the clerk wrote that the boy was born to Donato's lawful wife, Vincenza Minichello.[^birth-vincenzo-antonio-circelli-1816]\n\nDonato and Vincenza had married at the end of December 1810, so Vincenzo Antonio came five years into the marriage. He was the elder brother of Giuseppe, born in 1827, and of Giovanniangelo, born in 1830.[^birth-giuseppe-circelli-1827][^birth-giovanniangelo-circelli-1830] The other Donato Circelli of the town was only a boy in 1816, so the father here is our Donato.\n\nWhat became of him is not yet known. His marriage, if he married, would be in the San Bartolomeo registers of the 1830s or 1840s.",
+   "timeline": [],
+   "facts": [
+    {
+     "label": "Brothers",
+     "value": "Giuseppe (born 1827) and Giovanniangelo (born 1830), sons of the same parents",
+     "sourceIds": [
+      "birth-vincenzo-antonio-circelli-1816",
+      "birth-giuseppe-circelli-1827",
+      "birth-giovanniangelo-circelli-1830"
+     ],
+     "confidence": "probable"
+    }
+   ],
+   "media": [
+    {
+     "id": "birth-vincenzo-antonio-circelli-1816",
+     "file": "images/birth-vincenzo-antonio-circelli-1816-act16.jpg",
+     "thumb": "images/thumbs/birth-vincenzo-antonio-circelli-1816-act16.jpg",
+     "caption": "Birth act no. 16, San Bartolomeo in Galdo, 17 January 1816 (left page, boxed): Vincenzo Antonio, son of Donato Circelli and Vincenza Minichello.",
+     "type": "document",
+     "sourceId": "birth-vincenzo-antonio-circelli-1816",
+     "alt": "Handwritten 1816 Italian civil birth register page for Vincenzo Antonio Circelli, the act boxed in yellow"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "Did Vincenzo Antonio marry, and when did he die?",
+     "record": "San Bartolomeo in Galdo marriage registers of about 1836 to 1850 on Antenati, read act by act; the 1839 to 1843 death acts of his parents may also name him."
+    }
+   ],
+   "relatedPages": [],
+   "parents": [
+    "donato-circelli",
+    "vincenza-minichilli"
+   ],
+   "children": [],
+   "spouses": [],
+   "isDirectLine": false,
+   "photo": null,
+   "portrait": null,
+   "isLiving": false
+  },
+  {
    "id": "giovanniangelo-circelli",
    "displayName": "Giovanniangelo Circelli",
    "disambiguator": "Giuseppe's brother",
@@ -245,9 +325,10 @@
    "nameVariants": [
     {
      "name": "Giovanni Circelli",
-     "note": "the short form, probably the father named in the 1862 birth of Pasqualantonio",
+     "note": "the short form, used for the father in the 1862 and 1867 births of Pasqualantonio and Maria Bartolomea",
      "sourceIds": [
-      "birth-pasqualantonio-circelli-1862"
+      "birth-pasqualantonio-circelli-1862",
+      "birth-maria-bartolomea-circelli-1867"
      ],
      "confidence": "probable"
     }
@@ -284,7 +365,7 @@
    "immigration": null,
    "cardPlace": "San Bartolomeo in Galdo",
    "summary": "Giuseppe Circelli's younger brother, born in San Bartolomeo in Galdo in February 1830. A farmer, he married Maria d'Andrea in 1855.",
-   "story": "Giovanniangelo Circelli was born at home in San Bartolomeo in Galdo on 27 February 1830, at the fifteenth hour, and was baptised the next day. His father Donato, a farmer of Strada Borgo Nuovo, registered the birth; his mother was Vincenza Minichiello.[^birth-giovanniangelo-circelli-1830] He was the younger brother of Giuseppe Circelli, born three years earlier to the same parents on the same street.[^birth-giuseppe-circelli-1827]\n\nHe lost his father in 1839 and his mother in 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] On 1 November 1855, aged twenty-five and working the land, he married Maria d'Andrea, twenty-one, the daughter of a farmer, Romualdo d'Andrea. The civil promise and the church wedding took place on the same day. The act names him as the son of the late Donato and the late Vincenza, and copies of the death acts of his father, his mother and his grandfather were filed with the papers.[^marriage-1855-giovanniangelo-circelli]\n\nIn March 1862 a son, Pasqualantonio, was born to a Giovanni Circelli, son of the late Donato, and his wife Maria d'Andrea, aged twenty-eight. The wife's name and age and the late father all fit Giovanniangelo, so this is very probably his son, written with the short form of his name.[^birth-pasqualantonio-circelli-1862]",
+   "story": "Giovanniangelo Circelli was born at home in San Bartolomeo in Galdo on 27 February 1830, at the fifteenth hour, and was baptised the next day. His father Donato, a farmer of Strada Borgo Nuovo, registered the birth; his mother was Vincenza Minichiello.[^birth-giovanniangelo-circelli-1830] He was the younger brother of Giuseppe Circelli, born three years earlier to the same parents on the same street.[^birth-giuseppe-circelli-1827]\n\nHe lost his father in 1839 and his mother in 1843.[^death-donato-circelli-1839][^death-vincenza-minichillo-1843] On 1 November 1855, aged twenty-five and working the land, he married Maria d'Andrea, twenty-one, the daughter of a farmer, Romualdo d'Andrea. The civil promise and the church wedding took place on the same day. The act names him as the son of the late Donato and the late Vincenza, and copies of the death acts of his father, his mother and his grandfather were filed with the papers.[^marriage-1855-giovanniangelo-circelli]\n\nIn March 1862 a son, Pasqualantonio, was born to a Giovanni Circelli, son of the late Donato, and his wife Maria d'Andrea, aged twenty-eight. The wife's name and age and the late father all fit Giovanniangelo, so this is very probably his son, written with the short form of his name.[^birth-pasqualantonio-circelli-1862]\n\nUpdate, November 2026. A daughter, Maria Bartolomea, was born at home on 23 September 1867. Her father registered her the next day as Giovanni Circelli, son of the late Donato, a farmer of thirty-seven, and her mother was his wife Maria D'Andrea.[^birth-maria-bartolomea-circelli-1867] Thirty-seven in 1867 fits a birth in 1830, and the wife's name settles it: this is Giovanniangelo again. On 8 February 1890 Maria Bartolomea, twenty-two, married a young farmer, Michele Circelli, in San Bartolomeo. The act says her father Giovanni and her mother Maria were both living in the town, so Giovanniangelo was still alive at about sixty.[^marriage-circelli-circelli-1890] He also had an elder brother, Vincenzo Antonio, born in 1816.[^birth-vincenzo-antonio-circelli-1816]",
    "timeline": [],
    "facts": [
     {
@@ -300,6 +381,22 @@
      "value": "Pasqualantonio, born 16 March 1862 to Giovanni Circelli, son of the late Donato, and Maria d'Andrea",
      "sourceIds": [
       "birth-pasqualantonio-circelli-1862"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Daughter",
+     "value": "Maria Bartolomea, born 23 September 1867 to Giovanni Circelli, son of the late Donato, 37, and Maria D'Andrea",
+     "sourceIds": [
+      "birth-maria-bartolomea-circelli-1867"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Living in 1890",
+     "value": "He and Maria D'Andrea were both alive in San Bartolomeo when Maria Bartolomea married Michele Circelli on 8 February 1890",
+     "sourceIds": [
+      "marriage-circelli-circelli-1890"
      ],
      "confidence": "probable"
     }
@@ -331,12 +428,30 @@
      "type": "document",
      "sourceId": "birth-pasqualantonio-circelli-1862",
      "alt": "Handwritten 1862 Italian civil birth register page for Pasqualantonio Circelli"
+    },
+    {
+     "id": "birth-maria-bartolomea-circelli-1867",
+     "file": "images/birth-maria-bartolomea-circelli-1867-act220.jpg",
+     "thumb": "images/thumbs/birth-maria-bartolomea-circelli-1867-act220.jpg",
+     "caption": "Birth act no. 220, San Bartolomeo in Galdo, 24 September 1867 (boxed): Maria Bartolomea, daughter of Giovanni Circelli, son of the late Donato, and Maria D'Andrea.",
+     "type": "document",
+     "sourceId": "birth-maria-bartolomea-circelli-1867",
+     "alt": "Handwritten 1867 Italian civil birth register page for Maria Bartolomea Circelli, the act boxed in yellow"
+    },
+    {
+     "id": "marriage-circelli-circelli-1890",
+     "file": "images/marriage-circelli-circelli-1890-act20.jpg",
+     "thumb": "images/thumbs/marriage-circelli-circelli-1890-act20.jpg",
+     "caption": "Marriage act no. 20, San Bartolomeo in Galdo, 8 February 1890 (boxed): Michele Circelli and Maria Bartolomea Circelli, daughter of Giovanni and Maria D'Andrea.",
+     "type": "document",
+     "sourceId": "marriage-circelli-circelli-1890",
+     "alt": "Printed and handwritten 1890 Italian civil marriage register page for Michele and Maria Bartolomea Circelli, the act boxed in yellow"
     }
    ],
    "openQuestions": [
     {
-     "question": "Did Giovanniangelo and Maria have other children, and when did he die?",
-     "record": "The 1867 birth of a Maria Bartolomea Circelli to Giovanni and Maria d'Andrea appears in the Antenati name index and should be read on the page. San Bartolomeo in Galdo death registers after 1861 are not online."
+     "question": "When did Giovanniangelo and Maria die, and did they have more children?",
+     "record": "Both were alive in February 1890. San Bartolomeo death registers after 1861 are not on Antenati; the comune or the Archivio di Stato di Benevento would hold them."
     }
    ],
    "relatedPages": [],
@@ -2364,7 +2479,7 @@
    },
    "cardPlace": "New Rochelle, NY",
    "summary": "The eldest son and the only one of the four brothers born in Italy. A house painter in New Rochelle for most of his life, married twice, and Seb's great-grandfather.",
-   "story": "Michael Kirtus Belfiore registered for the draft on September 12, 1918, the day the United States called up every man from 18 to 45.[^ctx-ww1-draft] The registrar described him as of medium height and medium build, with brown eyes and black hair. He was thirty-two, a painter, living at 114 Winyah Avenue in New Rochelle and working for an employer whose name reads as Witmark, at 8 Banks Street.[^ww1-michael]\n\nTwo answers on that card matter more than the rest. For citizenship he wrote \"Father Papers\", in the column for men who became citizens through a father's naturalization before they turned twenty-one. And as his nearest relative he named \"(Child) Dorothy Belfiore\" of 216 Hamilton Street, Bridgeport, Connecticut.[^ww1-michael] He signed the card himself: Michael, then a word he struck out, then Belfiore, with Kirtus written underneath.\n\n## Born in Italy\n\nHe was born on 15 December 1884 at a quarter past ten in the morning, in the family house at no. 17 of a lane whose name reads as Vico Passaro, in San Bartolomeo in Galdo. Two days later his father Leonardantonio, twenty-three, carried him to the town hall to be registered.[^birth-michele-1884] His American papers never quite agreed: the 1918 card and the transcription of his death certificate say 1885, and his 1942 card says 1883.[^ww1-michael][^death-michael-1952][^ww2-michael] The Italian act, written down two days after he was born, settles it.\n\nHe was the only one of the four brothers born in Italy.[^standard-star-obit] When he crossed is unknown. His death certificate gives 58 years of residence, which would mean about 1894.[^death-michael-1952] The 1940 census recorded him as naturalized, which matches the 1918 card: he became a citizen through his father.[^census-1940][^ww1-michael]\n\n## Two marriages\n\nDorothy, the child named on the 1918 card, was living in Bridgeport, apart from her father. Family knowledge holds that she was the daughter of an earlier marriage. The first wife's name is not known.[^family-knowledge]\n\nHis second wife was Frances Towey, an Irish-American born in New York in 1897.[^ssdi-frances][^family-knowledge] In April 1940 the census found them at 488 North Avenue, New Rochelle, with their sons Edward, nineteen, and Joseph, seventeen. Michael had left school after seventh grade. He was out of work and had been looking for thirty-six weeks; in 1939 he had worked sixteen weeks as a building painter and earned $200. Frances worked twenty hours a week in a high school cafeteria and had earned $420. Joseph, still in school, worked as a grocery delivery boy.[^census-1940]\n\n## The non-golfing brother\n\nWhile his three younger brothers became golf professionals at clubs from Daytona Beach to Grosse Pointe, Michael stayed in New Rochelle and painted. Sammy's obituary called him \"their non-golfing brother\".[^standard-star-obit]\n\nIn April 1942 he registered again, in the \"old man's registration\" for men born between 1877 and 1897.[^ctx-ww2-fourth] He lived at 48 Coligni Avenue and had no telephone. His employer was Alfred A. Last of 141 Chauncey Avenue. The person who would always know his address was \"Wife, same address\".[^ww2-michael]\n\nHe died at New Rochelle Hospital on January 16, 1952, of arteriosclerotic heart disease, and was buried at Holy Sepulchre Cemetery three days later. Frances was the informant on his death certificate. His last address was 46 Mechanic Street.[^death-michael-1952] His grandson William, Seb's uncle, was not yet two.[^family-william]\n\nUpdate, November 2026. Michael crossed with his mother on the Oregon in December 1896, a boy of twelve listed as Michele.[^oregon-1896-manifest] In Italy, the 1884 birth index for San Bartolomeo lists \"Belfiore Michele Antonio, son of Leonardantonio\" as act 440, a number beyond the 417 acts of the main register, so the act sits in a supplementary register that is not online.[^index-births-1884] His cards and censuses give 1883 and 1885, so the act itself, once it could be read, would settle his year.\n\nTwo more censuses tell us about the years between his marriages. In January 1920 Michael was a widower of thirty-four, lodging with a family in New Rochelle and managing a bowling alley of his own; the same census also lists a \"Mike\", thirty-six, at his parents' home, very likely the same man counted twice.[^census-1920-michael][^census-1920] By 1930 he was married to Frances, working again as a house painter, with Dorothy, seventeen, and the boys Edward and Joseph at home.[^census-1930-michael] On that census he gave his age at first marriage as thirty-seven, which seems to describe his marriage to Frances about 1920 rather than his first.\n\nUpdate, November 2026: Michael's addresses. In 1900 and 1905 he lived with his parents on Lawton Street and at house 62. In 1920, a widower, he lodged on North Avenue with John and Margaret Stephens; twenty years later his own family lived at 488 North Avenue. In 1930 he, Frances and the children rented 52 Brook Street, a few doors from 41 and 54 Brook, where his parents had lived.[^census-1900][^census-1905][^census-1920-michael][^census-1930-michael][^census-1940] In 1950 the census found him, aged sixty-five, at home with Frances and Edward.[^census-1950-frances]\n\nUpdate, November 2026: Michael's birth act has been found and read. It is act 440 of the 1884 births, and it turned out to be online after all, on the 18th page of the register as Antenati now shows it. On 17 December 1884 his father Leonardantonio, twenty-three and a farm worker, came to the town hall to report that his wife Donata Circelli had given birth to a boy at a quarter past ten in the morning of 15 December, at home, at number 17 of a lane whose name reads like Vico Passaro.[^birth-michele-1884] So Michael was born on 15 December 1884, the date his draft cards remembered, in the year that sits between the two years they gave. One of the two witnesses was Antonia Circelli, daughter of the late Giuseppe: his mother's elder sister, his aunt. Nobody in the room but the officer could write.",
+   "story": "Michael Kirtus Belfiore registered for the draft on September 12, 1918, the day the United States called up every man from 18 to 45.[^ctx-ww1-draft] The registrar described him as of medium height and medium build, with brown eyes and black hair. He was thirty-two, a painter, living at 114 Winyah Avenue in New Rochelle and working for an employer whose name reads as Witmark, at 8 Banks Street.[^ww1-michael]\n\nTwo answers on that card matter more than the rest. For citizenship he wrote \"Father Papers\", in the column for men who became citizens through a father's naturalization before they turned twenty-one. And as his nearest relative he named \"(Child) Dorothy Belfiore\" of 216 Hamilton Street, Bridgeport, Connecticut.[^ww1-michael] He signed the card himself: Michael, then a word he struck out, then Belfiore, with Kirtus written underneath.\n\n## Born in Italy\n\nHe was born on 15 December 1884 at a quarter past ten in the morning, in the family house at no. 17 of a lane whose name reads as Vico Passaro, in San Bartolomeo in Galdo. Two days later his father Leonardantonio, twenty-three, carried him to the town hall to be registered.[^birth-michele-1884] His American papers never quite agreed: the 1918 card and the transcription of his death certificate say 1885, and his 1942 card says 1883.[^ww1-michael][^death-michael-1952][^ww2-michael] The Italian act, written down two days after he was born, settles it.\n\nHe was the only one of the four brothers born in Italy.[^standard-star-obit] When he crossed is unknown. His death certificate gives 58 years of residence, which would mean about 1894.[^death-michael-1952] The 1940 census recorded him as naturalized, which matches the 1918 card: he became a citizen through his father.[^census-1940][^ww1-michael]\n\n## Two marriages\n\nDorothy, the child named on the 1918 card, was living in Bridgeport, apart from her father. Family knowledge holds that she was the daughter of an earlier marriage. The first wife's name is not known.[^family-knowledge]\n\nHis second wife was Frances Towey, an Irish-American born in New York in 1897.[^ssdi-frances][^family-knowledge] In April 1940 the census found them at 488 North Avenue, New Rochelle, with their sons Edward, nineteen, and Joseph, seventeen. Michael had left school after seventh grade. He was out of work and had been looking for thirty-six weeks; in 1939 he had worked sixteen weeks as a building painter and earned $200. Frances worked twenty hours a week in a high school cafeteria and had earned $420. Joseph, still in school, worked as a grocery delivery boy.[^census-1940]\n\n## The non-golfing brother\n\nWhile his three younger brothers became golf professionals at clubs from Daytona Beach to Grosse Pointe, Michael stayed in New Rochelle and painted. Sammy's obituary called him \"their non-golfing brother\".[^standard-star-obit]\n\nIn April 1942 he registered again, in the \"old man's registration\" for men born between 1877 and 1897.[^ctx-ww2-fourth] He lived at 48 Coligni Avenue and had no telephone. His employer was Alfred A. Last of 141 Chauncey Avenue. The person who would always know his address was \"Wife, same address\".[^ww2-michael]\n\nHe died at New Rochelle Hospital on January 16, 1952, of arteriosclerotic heart disease, and was buried at Holy Sepulchre Cemetery three days later. Frances was the informant on his death certificate. His last address was 46 Mechanic Street.[^death-michael-1952] His grandson William, Seb's uncle, was not yet two.[^family-william]\n\nUpdate, November 2026. Michael crossed with his mother on the Oregon in December 1896, a boy of twelve listed as Michele.[^oregon-1896-manifest] In Italy, the 1884 birth index for San Bartolomeo lists \"Belfiore Michele Antonio, son of Leonardantonio\" as act 440, a number beyond the 417 acts of the main register, so the act sits in a supplementary register that is not online.[^index-births-1884] His cards and censuses give 1883 and 1885, so the act itself, once it could be read, would settle his year.\n\nTwo more censuses tell us about the years between his marriages. In January 1920 Michael was a widower of thirty-four, lodging with a family in New Rochelle and managing a bowling alley of his own; the same census also lists a \"Mike\", thirty-six, at his parents' home, very likely the same man counted twice.[^census-1920-michael][^census-1920] By 1930 he was married to Frances, working again as a house painter, with Dorothy, seventeen, and the boys Edward and Joseph at home.[^census-1930-michael] On that census he gave his age at first marriage as thirty-seven, which seems to describe his marriage to Frances about 1920 rather than his first.\n\nUpdate, November 2026: Michael's addresses. In 1900 and 1905 he lived with his parents on Lawton Street and at house 62. In 1920, a widower, he lodged on North Avenue with John and Margaret Stephens; twenty years later his own family lived at 488 North Avenue. In 1930 he, Frances and the children rented 52 Brook Street, a few doors from 41 and 54 Brook, where his parents had lived.[^census-1900][^census-1905][^census-1920-michael][^census-1930-michael][^census-1940] In 1950 the census found him, aged sixty-five, at home with Frances and Edward.[^census-1950-frances]\n\nUpdate, November 2026: Michael's birth act has been found and read. It is act 440 of the 1884 births, and it turned out to be online after all, on the 18th page of the register as Antenati now shows it. On 17 December 1884 his father Leonardantonio, twenty-three and a farm worker, came to the town hall to report that his wife Donata Circelli had given birth to a boy at a quarter past ten in the morning of 15 December, at home, at number 17 of a lane whose name reads like Vico Passaro.[^birth-michele-1884] So Michael was born on 15 December 1884, the date his draft cards remembered, in the year that sits between the two years they gave. One of the two witnesses was Antonia Circelli, daughter of the late Giuseppe: his mother's elder sister, his aunt. Nobody in the room but the officer could write.\n\nUpdate, 27 November 2026. A Fold3 index to the Army's First World War transport lists names Michael K. Belfiore as a passenger on the Princess Matoika, which left Newport News on 20 December 1918. His contact is given as Toney Belfiore of New Rochelle, almost certainly his father Antonio. This is an index line only; the list itself has not been opened, so it is a lead for his wartime service, not a full reading of the record.[^army-transport-princess-matoika-1918]",
    "timeline": [
     {
      "date": "1884-12-15",
@@ -2387,6 +2502,16 @@
      ],
      "kind": "life",
      "confidence": "unverified"
+    },
+    {
+     "date": "1896-12-02",
+     "label": "Dec 2, 1896",
+     "event": "Arrives at New York on the Oregon, aged 12, with his mother and two sisters.",
+     "sourceIds": [
+      "oregon-1896-manifest"
+     ],
+     "kind": "life",
+     "confidence": "probable"
     },
     {
      "date": "1918-09-12",
@@ -2419,6 +2544,16 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1918-12-20",
+     "label": "Dec 1918",
+     "event": "Named on an index to the Princess Matoika's Army transport list, sailing from Newport News, with Toney Belfiore of New Rochelle as his contact. The list image has not been read.",
+     "sourceIds": [
+      "army-transport-princess-matoika-1918"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1920",
      "label": "c. 1920",
      "event": "Son Edward born in New York, to Michael and Frances.",
@@ -2429,6 +2564,16 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1920-01",
+     "label": "Jan 1920",
+     "event": "A widower, lodging in New Rochelle and running a bowling alley.",
+     "sourceIds": [
+      "census-1920-michael"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1922",
      "label": "c. 1922",
      "event": "Son Joseph born in New York.",
@@ -2437,6 +2582,16 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
+    },
+    {
+     "date": "1930-04",
+     "label": "Apr 1930",
+     "event": "At home in New Rochelle with Frances, his daughter Dorothy and their sons Edward and Joseph.",
+     "sourceIds": [
+      "census-1930-michael"
+     ],
+     "kind": "life",
+     "confidence": "probable"
     },
     {
      "date": "1940-04-03",
@@ -2477,36 +2632,6 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
-    },
-    {
-     "date": "1896-12-02",
-     "label": "Dec 2, 1896",
-     "event": "Arrives at New York on the Oregon, aged 12, with his mother and two sisters.",
-     "sourceIds": [
-      "oregon-1896-manifest"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1920-01",
-     "label": "Jan 1920",
-     "event": "A widower, lodging in New Rochelle and running a bowling alley.",
-     "sourceIds": [
-      "census-1920-michael"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1930-04",
-     "label": "Apr 1930",
-     "event": "At home in New Rochelle with Frances, his daughter Dorothy and their sons Edward and Joseph.",
-     "sourceIds": [
-      "census-1930-michael"
-     ],
-     "kind": "life",
-     "confidence": "probable"
     }
    ],
    "facts": [
@@ -2581,6 +2706,14 @@
      "value": "About 1920 (their ages at first marriage in 1930)",
      "sourceIds": [
       "census-1930-michael"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Troop transport, December 1918",
+     "value": "A Fold3 index to Army WWI transport lists names Michael K. Belfiore on the Princess Matoika, departing Newport News on 20 December 1918, with contact Toney Belfiore of New Rochelle, very probably his father. Index-level only; the list itself has not been read",
+     "sourceIds": [
+      "army-transport-princess-matoika-1918"
      ],
      "confidence": "probable"
     }
@@ -2934,7 +3067,18 @@
     "note": "State death index certificate 54299, which gives his age as 73, about six years short.",
     "placeId": "new-rochelle"
    },
-   "residences": [],
+   "residences": [
+    {
+     "place": "New Rochelle, New York",
+     "address": "Mechanic Street",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
+    }
+   ],
    "occupations": [],
    "immigration": null,
    "cardPlace": "New Rochelle",
@@ -2990,6 +3134,23 @@
       "census-1900-towey"
      ],
      "confidence": "probable"
+    },
+    {
+     "name": "Margaret Collohan",
+     "note": "maiden name on her Find a Grave memorial; her son John's obituary index spells it Coolahan",
+     "sourceIds": [
+      "findagrave-margaret-towey",
+      "obit-index-john-j-towey-1987"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "name": "Margaret M. Towey",
+     "note": "1920 census",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable"
     }
    ],
    "confidence": "probable",
@@ -3018,18 +3179,39 @@
     "note": "State death index certificate 3541.",
     "placeId": "new-rochelle"
    },
-   "residences": [],
+   "residences": [
+    {
+     "place": "New Rochelle, New York",
+     "address": "Mechanic Street",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
+    }
+   ],
    "occupations": [],
    "immigration": null,
    "cardPlace": "New Rochelle",
    "summary": "Frances Towey's mother, born in Ireland about 1870. She died in New Rochelle in 1938.",
-   "story": "Margaret Towey was born in Ireland about 1870 and was the mother of Frances, James, Mary and John. In 1900 the family lived at 200 Horton Avenue, New Rochelle, with a niece, Nellie Kelly, aged eleven.[^census-1900-towey][^census-1910-towey]\n\nShe died in New Rochelle on 24 January 1938.[^nysdi-1938-margaret-towey] Her Find a Grave memorial records her burial at Holy Sepulchre Cemetery.[^findagrave-margaret-towey]",
+   "story": "Margaret Towey was born in Ireland about 1870 and was the mother of Frances, James, Mary and John. In 1900 the family lived at 200 Horton Avenue, New Rochelle, with a niece, Nellie Kelly, aged eleven.[^census-1900-towey][^census-1910-towey]\n\nShe died in New Rochelle on 24 January 1938.[^nysdi-1938-margaret-towey] Her Find a Grave memorial records her burial at Holy Sepulchre Cemetery.[^findagrave-margaret-towey]\n\nHer maiden name was very probably Collohan. Her Find a Grave memorial gives it that way, and her son John's obituary index, written up when he died in 1987, names her as Margaret Coolahan.[^findagrave-margaret-towey][^obit-index-john-j-towey-1987] In 1920 she and James, both fifty, were living on Mechanic Street with all four of their children.[^census-1920-towey]",
    "timeline": [],
-   "facts": [],
+   "facts": [
+    {
+     "label": "Maiden name",
+     "value": "Collohan, spelled Coolahan in her son John J. Towey's 1987 obituary index. Two later sources agree; no Irish record has been read yet",
+     "sourceIds": [
+      "findagrave-margaret-towey",
+      "obit-index-john-j-towey-1987"
+     ],
+     "confidence": "probable"
+    }
+   ],
    "media": [],
    "openQuestions": [
     {
-     "question": "What was her maiden name, and where was she born?",
+     "question": "Was she born a Collohan in Kilmovee, County Mayo, and when?",
      "record": "Find a Grave gives Collohan and Kilmovee, County Mayo, as family tradition passed on by a memorial contributor; no record here confirms it yet. Her 1938 death certificate (no. 3541) or the couple's marriage record would."
     }
    ],
@@ -3088,6 +3270,14 @@
       "census-1910-towey"
      ],
      "confidence": "probable"
+    },
+    {
+     "name": "Fannie A. Towey",
+     "note": "1920 census",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable"
     }
    ],
    "confidence": "confirmed",
@@ -3098,32 +3288,35 @@
     "place": "New York",
     "sourceIds": [
      "ssdi-frances",
-     "census-1940"
+     "census-1940",
+     "ssdi-ancestry-frances-belfiore"
     ],
     "confidence": "confirmed",
     "placeId": "new-york-state"
    },
    "death": {
-    "date": "1967-04-05",
+    "date": "1967-04-15",
     "dateQualifier": "exact",
-    "display": "Apr 5, 1967",
+    "display": "Apr 15, 1967",
     "place": "New Rochelle, New York",
     "sourceIds": [
-     "ssdi-frances"
+     "nysdi-1967-frances-belfiore",
+     "findagrave-frances-towey-belfiore",
+     "ssdi-ancestry-frances-belfiore"
     ],
-    "confidence": "confirmed",
+    "confidence": "probable",
     "placeId": "new-rochelle",
     "alternates": [
      {
-      "date": "1967-04-15",
-      "display": "Apr 15, 1967",
+      "date": "1967-04-05",
+      "display": "Apr 5, 1967",
       "sourceIds": [
-       "nysdi-1967-frances-belfiore",
-       "findagrave-frances-towey-belfiore"
+       "ssdi-frances"
       ],
-      "note": "New York State death index (certificate 32075) and Find a Grave"
+      "note": "The date shown earlier on this site and on the Research page; no index found so far gives it"
      }
-    ]
+    ],
+    "note": "The New York State death index (certificate 32075, age 69) and Find a Grave both give 15 April 1967. The Social Security index gives April 1967 with no day. The certificate has not been read."
    },
    "residences": [
     {
@@ -3175,9 +3368,30 @@
      ],
      "confidence": "probable",
      "placeId": "47-oak-street"
+    },
+    {
+     "place": "New Rochelle, New York",
+     "address": "Mechanic Street, with her parents",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "occupations": [
+    {
+     "title": "Bookkeeper in a department store",
+     "employer": null,
+     "place": "New Rochelle",
+     "years": "1920",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
+    },
     {
      "title": "Cafeteria worker",
      "employer": "a high school",
@@ -3193,7 +3407,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle, NY",
    "summary": "An Irish-American born in New York in 1897, Michael's second wife and the mother of Edward and Joseph. She died in New Rochelle in 1967.",
-   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 5, 1967, aged sixty-nine.[^ssdi-frances]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]",
+   "story": "Frances Towey was born on September 17, 1897, in New York.[^ssdi-frances][^census-1940] Towey is an Irish surname, and the family remembers her as Irish-American.[^family-knowledge] Her parents were James and Margaret Towey, both born in Ireland.[^census-1900-towey]\n\nShe married Michael Belfiore, who was about twelve years older and had a daughter from an earlier marriage. The date is not known, but their son Edward was born around 1920.[^census-1940]\n\nIn April 1940 she was forty-two, had finished eighth grade, and was working twenty hours a week in a high school cafeteria. She had earned $420 the year before, more than Michael, who was out of work. The family lived at 488 North Avenue, New Rochelle, with their sons Edward and Joseph.[^census-1940]\n\nWhen Michael died in January 1952, she gave the details for his death certificate as Frances M. Belfiore, of 46 Mechanic Street.[^death-michael-1952] She died in New Rochelle on April 15, 1967, aged sixty-nine.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, November 2026. Her parents have been found. Frances, called Fannie as a girl, was the eldest child of James Towey, an Irish immigrant who came in 1887 and worked in a machine shop, and his Irish-born wife Margaret. The 1900 census gives her birth as September 1897 in New York, and she grew up in New Rochelle with her brothers James and John and her sister Mary.[^census-1900-towey][^census-1910-towey] She married Michael about 1920, when she was about twenty-two, and became stepmother to his daughter Dorothy.[^census-1930-michael]\n\nUpdate, November 2026: the Towey homes, and a brother next door. In 1900 the Toweys lived at 200 Horton Avenue and in 1910 at 47 Oak Street, both in New Rochelle; in 1930 Frances and Michael rented 52 Brook Street.[^census-1900-towey][^census-1910-towey][^census-1930-michael] In April 1950 her son Joseph and his wife Dorothy had a John J. Towey, forty-one, as their next-door neighbour. Frances's youngest brother John was one year old in 1910, which fits a man of forty-one in 1950, so this was very probably her brother: uncle and nephew living side by side.[^census-1910-towey][^census-1950-joseph-c] In 1950 Frances herself was working as a food handler at a public school.[^census-1950-frances]\n\nUpdate, November 2026: the Towey family's last years. Her father James died in New Rochelle in September 1945 and her mother Margaret in January 1938.[^nysdi-1945-james-towey][^nysdi-1938-margaret-towey] Frances outlived two of her siblings by thirty years: her brother James, a detective, died in July 1935, and her sister Mary Helen, by then Mrs Walsh, in April 1937.[^nysdi-1935-james-a-towey][^nysdi-1937-mary-h-walsh][^findagrave-frances-towey-belfiore] The state death index dates Frances's own death to 15 April 1967, not 5 April, and her Find a Grave memorial agrees. She is buried at Holy Sepulchre Cemetery in New Rochelle, with Michael and her parents.[^nysdi-1967-frances-belfiore][^findagrave-frances-towey-belfiore]\n\nUpdate, 27 November 2026. Her death date has been rechecked. The state death index and Find a Grave both say 15 April 1967, and the Social Security index, read again, gives only April 1967. The 5 April date this page used before has no record behind it, so 15 April now leads.[^ssdi-ancestry-frances-belfiore]\n\nUpdate, 27 November 2026. In January 1920 the census taker found Fannie, as the family called her, still single at twenty-two and living at home on Mechanic Street with her parents, her brothers James and John and her sister Mary. She was working as a bookkeeper in a department store. She married Michael Belfiore later that year or soon after.[^census-1920-towey]\n\nUpdate, 27 November 2026. A small piece of news history sits beside her brother's name. On the night of June 10, 1932, the press reported, Ernest Brinkert, the New Jersey cab driver questioned over the Lindbergh kidnapping, was arrested in New Rochelle by 'Detectives Towey and Campbell' at North and Sickles Avenues. The reports give no first name. James A. Towey was the New Rochelle detective in the family, so it is very probably he, though a Michael Towey, no known relation, also served on the New Rochelle police in 1918.[^victoria-daily-times-1932-06-11]",
    "timeline": [
     {
      "date": "1897-09-17",
@@ -3206,6 +3420,16 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1900-06",
+     "label": "Jun 1900",
+     "event": "Aged 2, in New Rochelle with her parents James and Margaret Towey.",
+     "sourceIds": [
+      "census-1900-towey"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1920",
      "label": "c. 1920",
      "event": "Son Edward born.",
@@ -3216,6 +3440,16 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1920-01",
+     "label": "Jan 1920",
+     "event": "Single, aged 22, keeping the books for a department store and living with her parents and siblings on Mechanic Street.",
+     "sourceIds": [
+      "census-1920-towey"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1922",
      "label": "c. 1922",
      "event": "Son Joseph born.",
@@ -3224,6 +3458,16 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
+    },
+    {
+     "date": "1930-04",
+     "label": "Apr 1930",
+     "event": "Married to Michael, with Dorothy, Edward and Joseph at home.",
+     "sourceIds": [
+      "census-1930-michael"
+     ],
+     "kind": "life",
+     "confidence": "probable"
     },
     {
      "date": "1940-04-03",
@@ -3246,31 +3490,12 @@
      "confidence": "confirmed"
     },
     {
-     "date": "1967-04-05",
-     "label": "Apr 5, 1967",
+     "date": "1967-04-15",
+     "label": "Apr 15, 1967",
      "event": "Dies in New Rochelle.",
      "sourceIds": [
-      "ssdi-frances"
-     ],
-     "kind": "life",
-     "confidence": "confirmed"
-    },
-    {
-     "date": "1900-06",
-     "label": "Jun 1900",
-     "event": "Aged 2, in New Rochelle with her parents James and Margaret Towey.",
-     "sourceIds": [
-      "census-1900-towey"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1930-04",
-     "label": "Apr 1930",
-     "event": "Married to Michael, with Dorothy, Edward and Joseph at home.",
-     "sourceIds": [
-      "census-1930-michael"
+      "nysdi-1967-frances-belfiore",
+      "findagrave-frances-towey-belfiore"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -3307,15 +3532,17 @@
      "value": "James, Mary and John",
      "sourceIds": [
       "census-1900-towey",
-      "census-1910-towey"
+      "census-1910-towey",
+      "census-1920-towey"
      ],
      "confidence": "probable"
     },
     {
      "label": "Marriage to Michael",
-     "value": "About 1920, when she was about 22",
+     "value": "About 1920, when she was about 22. She was still single, living with her parents, when the census taker came in January 1920",
      "sourceIds": [
-      "census-1930-michael"
+      "census-1930-michael",
+      "census-1920-towey"
      ],
      "confidence": "probable"
     },
@@ -3331,10 +3558,18 @@
     },
     {
      "label": "Death date in the state index",
-     "value": "15 April 1967, certificate 32075, ten days later than the Social Security index date",
+     "value": "15 April 1967, certificate 32075; Find a Grave agrees, and the Social Security index gives April 1967 with no day. The earlier 5 April has no source, so 15 April now leads",
      "sourceIds": [
       "nysdi-1967-frances-belfiore",
       "findagrave-frances-towey-belfiore"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Her brother in the news, 1932",
+     "value": "Press reports of 11 June 1932 name 'Detectives Towey and Campbell' of the New Rochelle police in the arrest of Ernest Brinkert, the cab driver questioned in the Lindbergh kidnapping inquiry. No first name is printed; her brother James A. was the family's detective, so it is very probably him",
+     "sourceIds": [
+      "victoria-daily-times-1932-06-11"
      ],
      "confidence": "probable"
     }
@@ -3712,13 +3947,23 @@
      ],
      "confidence": "probable",
      "placeId": "52-brook-street"
+    },
+    {
+     "place": "New Rochelle, New York",
+     "address": "48 Coligni Avenue",
+     "years": "about 1945",
+     "sourceIds": [
+      "ww2-edward"
+     ],
+     "confidence": "probable",
+     "placeId": "48-coligni-avenue"
     }
    ],
    "occupations": [],
    "immigration": null,
    "cardPlace": "New Rochelle, NY",
    "summary": "Michael and Frances's elder son, born in New York around 1920. In April 1940 he was nineteen and looking for his first job.",
-   "story": "Edward Belfiore appears in one record in this collection. On April 3, 1940, the census taker found him at 488 North Avenue, New Rochelle, with his parents Michael and Frances and his younger brother Joseph. He was nineteen and single, had completed two years of high school, and was out of school. He was listed as a \"new worker\", looking for his first job, and had earned nothing in 1939.[^census-1940]\n\nHis age places his birth between April 1920 and April 1921, in New York. Earlier versions of this site gave about 1923.\n\nHe would have been of draft age during the Second World War, and should have registered in 1941 or 1942. Nothing after 1940 has been found yet.\n\nUpdate, November 2026. Edward was born on 21 March 1921. He served in the Army through the whole of the Second World War, from November 1941 to November 1945, and came home a corporal. He died on 4 February 1992 and rests in the Southern Nevada Veterans Memorial Cemetery at Boulder City.[^ssdi-numident-family][^edward-va-burial]",
+   "story": "Edward Belfiore appears in one record in this collection. On April 3, 1940, the census taker found him at 488 North Avenue, New Rochelle, with his parents Michael and Frances and his younger brother Joseph. He was nineteen and single, had completed two years of high school, and was out of school. He was listed as a \"new worker\", looking for his first job, and had earned nothing in 1939.[^census-1940]\n\nHis age places his birth between April 1920 and April 1921, in New York. Earlier versions of this site gave about 1923.\n\nHe would have been of draft age during the Second World War.\n\nUpdate, November 2026. Edward was born on 21 March 1921. He served in the Army through the whole of the Second World War, from November 1941 to November 1945, and came home a corporal. He died on 4 February 1992 and rests in the Southern Nevada Veterans Memorial Cemetery at Boulder City.[^ssdi-numident-family][^edward-va-burial]\n\nUpdate, 27 November 2026. His World War II draft card, filled out at age 24, so about 1945, finds him back at 48 Coligni Avenue, the family house, and unemployed. That fits the end of his Army service in November 1945. The card confirms the birthday already on record, 21 March 1921, in New Rochelle.[^ww2-edward]",
    "timeline": [
     {
      "date": "1920",
@@ -3739,6 +3984,17 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
+    },
+    {
+     "date": "1945",
+     "label": "about 1945",
+     "event": "Registers for the draft at age 24 from 48 Coligni Avenue, after his Army service, and gives his occupation as unemployed.",
+     "sourceIds": [
+      "ww2-edward"
+     ],
+     "kind": "life",
+     "confidence": "probable",
+     "placeId": "48-coligni-avenue"
     }
    ],
    "facts": [
@@ -3786,13 +4042,18 @@
      "type": "document",
      "sourceId": "census-1950-frances",
      "alt": "1950 census lines"
+    },
+    {
+     "id": "ww2-edward",
+     "file": "images/ww2-edward-belfiore-draft.jpg",
+     "thumb": "images/thumbs/ww2-edward-belfiore-draft.jpg",
+     "caption": "Edward Joseph Belfiore's World War II draft card, about 1945, 48 Coligni Avenue, New Rochelle. The name and address of a private person listed as a contact have been covered.",
+     "type": "document",
+     "sourceId": "ww2-edward",
+     "alt": "World War II draft registration card for Edward Joseph Belfiore, age 24, of 48 Coligni Avenue, New Rochelle, with a private contact line covered"
     }
    ],
    "openQuestions": [
-    {
-     "question": "Did he serve in the Second World War?",
-     "record": "His WWII draft registration card (1940 to 1942) and any enlistment record."
-    },
     {
      "question": "Where did he live after 1940, and when did he die?",
      "record": "The 1950 census of New Rochelle; the Social Security Death Index."
@@ -3839,6 +4100,14 @@
      "note": "1950 census and later records",
      "sourceIds": [
       "nj-death-1994-joseph"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "name": "Joseph Curties Belfiore",
+     "note": "middle name as written on his WWII draft card; he signed the same way",
+     "sourceIds": [
+      "ww2-joseph-curties"
      ],
      "confidence": "probable"
     }
@@ -3920,6 +4189,16 @@
      ],
      "confidence": "probable",
      "placeId": "52-brook-street"
+    },
+    {
+     "place": "New Rochelle, New York",
+     "address": "48 Coligni Avenue",
+     "years": "about December 1941",
+     "sourceIds": [
+      "ww2-joseph-curties"
+     ],
+     "confidence": "probable",
+     "placeId": "48-coligni-avenue"
     }
    ],
    "occupations": [
@@ -3933,12 +4212,23 @@
      ],
      "confidence": "confirmed",
      "placeId": "new-rochelle"
+    },
+    {
+     "title": "Employee",
+     "employer": "J. M. Joyce, 237 Overlook Road",
+     "place": "35 Winthrop Avenue, New Rochelle",
+     "years": "about 1941",
+     "sourceIds": [
+      "ww2-joseph-curties"
+     ],
+     "confidence": "probable",
+     "placeId": "new-rochelle"
     }
    ],
    "immigration": null,
    "cardPlace": "New Rochelle · Florida",
    "summary": "Michael and Frances's younger son and Seb's grandfather, born in New York around 1922. He married Dorothy Hennessey and raised four children. Not Joe Belfore the golfer, his uncle.",
-   "story": "In April 1940 Joseph Belfiore was seventeen, in his second year of high school, and working fourteen hours a week as a delivery boy for a grocery store. He lived with his parents, Michael and Frances, and his brother Edward at 488 North Avenue in New Rochelle.[^census-1940]\n\nThat census age places his birth between April 1922 and April 1923, in New York. Earlier versions of this site gave about 1928, without a source. The census is better evidence, and the dates shown here follow it.\n\n## Two Josephs\n\nThe family has two men named Joseph in consecutive generations, and they are easy to mix up. Joe Belfore the golfer, head professional at the Country Club of Detroit, was Michael's brother. This Joseph was Michael's son. Earlier versions of this site said he was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it. The golfer used the spelling Belfore; this Joseph kept Belfiore.\n\n## Family\n\nHe married Dorothy Hennessey, who is remembered as Irish-American. They had four children: Robert, Seb's father; William; Karen; and Beth.[^family-knowledge]\n\nHe died in 1986. The family places his death in Valrico, Florida. A Social Security Death Index entry for a Joseph Belfiore who died in April 1986 gives a last residence in West Babylon, New York, and a number issued in Maryland. That entry has not been confirmed as his, and the two places need reconciling.[^family-knowledge][^ssdi-joseph]\n\nUpdate, November 2026. Joseph was born on 1 December 1922 in New Rochelle. His first Social Security application, made at fifteen, gives his name as Joseph Anthony and his parents as Michael Belfiore and Frances Towey; later forms show him as Joseph C.[^ssaci-joseph-1922] The New Jersey death index records a Joseph C. Belfiore, born that same day, who died in Princeton on 19 October 1994, the year his wife Dorothy moved there.[^nj-death-1994-joseph][^obit-dorothy-2008] The family's memory of Valrico, Florida stays with his story as family tradition.\n\nUpdate, November 2026. In 1930, aged seven, Joseph lived with his parents at 52 Brook Street.[^census-1930-michael] In April 1950 he was twenty-seven, a field mechanic for a lighting company, married to Dorothy and living in New Rochelle; next door lived John J. Towey, a lineman for a lighting company, who was very probably his uncle, his mother's youngest brother. Perhaps the uncle helped the nephew into the trade.[^census-1950-joseph-c][^census-1910-towey]",
+   "story": "In April 1940 Joseph Belfiore was seventeen, in his second year of high school, and working fourteen hours a week as a delivery boy for a grocery store. He lived with his parents, Michael and Frances, and his brother Edward at 488 North Avenue in New Rochelle.[^census-1940]\n\nThat census age places his birth between April 1922 and April 1923, in New York. Earlier versions of this site gave about 1928, without a source. The census is better evidence, and the dates shown here follow it.\n\n## Two Josephs\n\nThe family has two men named Joseph in consecutive generations, and they are easy to mix up. Joe Belfore the golfer, head professional at the Country Club of Detroit, was Michael's brother. This Joseph was Michael's son. Earlier versions of this site said he was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it. The golfer used the spelling Belfore; this Joseph kept Belfiore.\n\n## Family\n\nHe married Dorothy Hennessey, who is remembered as Irish-American. They had four children: Robert, Seb's father; William; Karen; and Beth.[^family-knowledge]\n\nHe died in 1986. The family places his death in Valrico, Florida. A Social Security Death Index entry for a Joseph Belfiore who died in April 1986 gives a last residence in West Babylon, New York, and a number issued in Maryland. That entry has not been confirmed as his, and the two places need reconciling.[^family-knowledge][^ssdi-joseph]\n\nUpdate, November 2026. Joseph was born on 1 December 1922 in New Rochelle. His first Social Security application, made at fifteen, gives his name as Joseph Anthony and his parents as Michael Belfiore and Frances Towey; later forms show him as Joseph C.[^ssaci-joseph-1922] The New Jersey death index records a Joseph C. Belfiore, born that same day, who died in Princeton on 19 October 1994, the year his wife Dorothy moved there.[^nj-death-1994-joseph][^obit-dorothy-2008] The family's memory of Valrico, Florida stays with his story as family tradition.\n\nUpdate, November 2026. In 1930, aged seven, Joseph lived with his parents at 52 Brook Street.[^census-1930-michael] In April 1950 he was twenty-seven, a field mechanic for a lighting company, married to Dorothy and living in New Rochelle; next door lived John J. Towey, a lineman for a lighting company, who was very probably his uncle, his mother's youngest brother. Perhaps the uncle helped the nephew into the trade.[^census-1950-joseph-c][^census-1910-towey]\n\nUpdate, 27 November 2026. The Veterans Affairs gravesite locator lists a Joseph C. Belfiore, born 12/01/1922 and died 10/19/1994, who served in the U.S. Navy in the Second World War as an ARM1 and is buried at Calverton National Cemetery on Long Island, in Section 66.[^va-gravesite-joseph-c-belfiore] The birth and death dates match the New Jersey death index exactly, so this is very probably him. It answers the old question about his war service, and it fits the family's years on Long Island.\n\nUpdate, 27 November 2026. His World War II draft card, filled out at nineteen, writes his middle name as Curties and gives the family home as 48 Coligni Avenue, the same address as his father's 1942 card. He named his mother Frances as the person who would always know his address, and he was working for J. M. Joyce on Overlook Road, at 35 Winthrop Avenue.[^ww2-joseph-curties]",
    "timeline": [
     {
      "date": "1922",
@@ -3961,6 +4251,17 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1941-12",
+     "label": "Dec 1941",
+     "event": "Registers for the draft at age 19 from 48 Coligni Avenue, naming his mother Frances as his contact, and writes his middle name as Curties.",
+     "sourceIds": [
+      "ww2-joseph-curties"
+     ],
+     "kind": "life",
+     "confidence": "probable",
+     "placeId": "48-coligni-avenue"
+    },
+    {
      "date": "1952-01-16",
      "label": "Jan 1952",
      "event": "His father Michael dies.",
@@ -3977,6 +4278,16 @@
      "sourceIds": [
       "family-knowledge",
       "ssdi-joseph"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1994-10",
+     "label": "Oct 1994",
+     "event": "Listed as buried at Calverton National Cemetery on Long Island; the Veterans Affairs locator gives the same birth and death dates as the state index.",
+     "sourceIds": [
+      "va-gravesite-joseph-c-belfiore"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -4007,6 +4318,22 @@
       "ccd-minutes-1963"
      ],
      "confidence": "confirmed"
+    },
+    {
+     "label": "Military service",
+     "value": "U.S. Navy in the Second World War, listed as ARM1 (an aviation radioman first class) by the Veterans Affairs gravesite locator",
+     "sourceIds": [
+      "va-gravesite-joseph-c-belfiore"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Burial",
+     "value": "Calverton National Cemetery, Long Island, Section 66, Site 3739",
+     "sourceIds": [
+      "va-gravesite-joseph-c-belfiore"
+     ],
+     "confidence": "probable"
     }
    ],
    "media": [
@@ -4046,6 +4373,24 @@
      "type": "document",
      "sourceId": "census-1930-michael",
      "alt": "1930 census page"
+    },
+    {
+     "id": "ww2-joseph-curties",
+     "file": "images/ww2-joseph-curties-belfiore-draft.jpg",
+     "thumb": "images/thumbs/ww2-joseph-curties-belfiore-draft.jpg",
+     "caption": "Joseph Curties Belfiore's World War II draft card, about December 1941, 48 Coligni Avenue, New Rochelle.",
+     "type": "document",
+     "sourceId": "ww2-joseph-curties",
+     "alt": "World War II draft registration card for Joseph Curties Belfiore, age 19, of 48 Coligni Avenue, New Rochelle"
+    },
+    {
+     "id": "photo-calverton-sign",
+     "file": "images/calverton-national-cemetery-sign.jpg",
+     "thumb": "images/thumbs/calverton-national-cemetery-sign.jpg",
+     "caption": "The entrance sign at Calverton National Cemetery, Long Island, where Joseph C. Belfiore is buried (Section 66, Site 3739). Department of Veterans Affairs, 2008, public domain.",
+     "type": "document",
+     "sourceId": "photo-calverton-sign",
+     "alt": "Wooden entrance sign for Calverton National Cemetery, a Department of Veterans Affairs photograph"
     }
    ],
    "openQuestions": [
@@ -4058,8 +4403,8 @@
      "record": "New York marriage indexes, 1940s."
     },
     {
-     "question": "Did he serve in the Second World War?",
-     "record": "His WWII draft registration card (1940 to 1942)."
+     "question": "When and where did he serve in the Navy?",
+     "record": "His WWII draft registration card and Navy service record (NPRC, free to next of kin); the Calverton burial record may give his dates of service."
     }
    ],
    "relatedPages": [
@@ -4144,17 +4489,17 @@
    ],
    "confidence": "probable",
    "birth": {
-    "date": "1922",
-    "dateQualifier": "about",
-    "display": "about 1922",
-    "place": "New York",
+    "date": "1922-02-20",
+    "dateQualifier": "exact",
+    "display": "Feb 20, 1922",
+    "place": "Manhattan, New York City",
     "sourceIds": [
+     "nyc-birth-index-dorothy-hennessy-1922",
      "hennessy-census-1930-image",
      "hennessy-census-1940-image"
     ],
     "confidence": "probable",
-    "note": "Age 8 in 1930 and 18 in 1940. She is not in Patrick and Annie's household in 1925.",
-    "placeId": "new-york-state"
+    "note": "The New York City birth index gives Dorothy E Hennessy, born 20 February 1922 in Manhattan, and Find a Grave gives the same day. Her obituary says New Rochelle, so the place is not settled. Age 8 in 1930 and 18 in 1940 agree."
    },
    "death": {
     "date": "2008-01-05",
@@ -4173,7 +4518,7 @@
    "immigration": null,
    "cardPlace": "New Rochelle area",
    "summary": "Joseph's wife and Seb's grandmother, remembered as Irish-American. Not the same person as Dorothy Belfiore of Bridgeport, Michael's daughter.",
-   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nFamily story. Dorothy's mother died young, and she was raised by her grandfather Patrick Hennessy and his second wife, Annie.[^family-knowledge]\n\nUpdate, November 2026. The paper agrees with that story, and it does not yet name her father. She is missing from Patrick and Annie's house in 1925. In 1930 the census writes her as G-Daughter, age 8, born in New York, with a father and a mother who were both born in New York. In 1940 she is the grandchild, age 18. Patrick was born in Ireland, so those parental birthplaces do not fit him as her father. When she married Joseph C. Belfiore in May 1946, the New Rochelle paper called her Miss Dorothy Eleanore Hennessy, daughter of Patrick J. Hennessy, of Premium Point. The state index says 12 May 1946, certificate 23239. Another index line calls her father Joseph P. Hennessy. That line is kept, and it is not followed. Of Patrick's older sons, Joseph and Henry are the two the ages allow. Thomas, a lawyer with no children in 1930, is not her father. Later obituaries of Annie's children name Dorothy as a sister, among seven Hennessy children raised together: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023. The tree does not draw Patrick and Annie as her parents, and it does not name a father who is not yet proved.[^hennessy-census-1925][^hennessy-census-1930-image][^hennessy-census-1940-image][^hennessy-marriage-announcement-1946][^hennessy-marriage-index-1946][^hennessy-marriage-index-joseph-p][^hennessy-thomas-1930][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead for her father, not a proved identification. The index does not give his age.[^nys-death-index-hennessy-new-rochelle]",
+   "story": "Dorothy Hennessey married Joseph Belfiore, Michael's son, and was the mother of Robert, William, Karen and Beth. The family remembers her as Irish-American.[^family-knowledge]\n\nShe shares a name with an earlier Dorothy Belfiore: Michael's daughter from his first marriage, who was living in Bridgeport in 1918. They are different women. This Dorothy is Seb's grandmother.\n\nUpdate, November 2026. Dorothy's obituary in Princeton's Town Topics says she was born in New Rochelle, lived most of her life in Babylon, Long Island, and worked twenty-five years for the Town of Babylon. She moved to Princeton in 1994 and died there on 5 January 2008, aged eighty-five, the widow of Joseph C. Belfiore.[^obit-dorothy-2008]\n\nUpdate, November 2026. The 1950 census shows Dorothy, twenty-eight, and Joseph, twenty-seven, keeping house in New Rochelle.[^census-1950-joseph-c]\n\nFamily story. Dorothy's mother died young, and she was raised by her grandfather Patrick Hennessy and his second wife, Annie.[^family-knowledge]\n\nUpdate, November 2026. The paper agrees with that story, and it does not yet name her father. She is missing from Patrick and Annie's house in 1925. In 1930 the census writes her as G-Daughter, age 8, born in New York, with a father and a mother who were both born in New York. In 1940 she is the grandchild, age 18. Patrick was born in Ireland, so those parental birthplaces do not fit him as her father. When she married Joseph C. Belfiore in May 1946, the New Rochelle paper called her Miss Dorothy Eleanore Hennessy, daughter of Patrick J. Hennessy, of Premium Point. The state index says 12 May 1946, certificate 23239. Another index line calls her father Joseph P. Hennessy. That line is kept, and it is not followed. Of Patrick's older sons, Joseph and Henry are the two the ages allow. Thomas, a lawyer with no children in 1930, is not her father. Later obituaries of Annie's children name Dorothy as a sister, among seven Hennessy children raised together: James, Frank, Catherine, Dorothy, Anne, Maria and Patricia. Anne remembered that the sisters stayed close all their lives and went to the theater and out to lunch together. Anne, the last of them, celebrated her 100th birthday in 2023. The tree does not draw Patrick and Annie as her parents, and it does not name a father who is not yet proved.[^hennessy-census-1925][^hennessy-census-1930-image][^hennessy-census-1940-image][^hennessy-marriage-announcement-1946][^hennessy-marriage-index-1946][^hennessy-marriage-index-joseph-p][^hennessy-thomas-1930][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead for her father, not a proved identification. The index does not give his age.[^nys-death-index-hennessy-new-rochelle]\n\nUpdate, 27 November 2026. Dorothy's birth has been found in the New York City birth index: Dorothy E Hennessy, born 20 February 1922 in Manhattan. That is the same day Find a Grave gives, and it explains why she was missing from the state index, which leaves out the city. Her obituary says she was born in New Rochelle, so the birthplace stays an open question until the certificate is seen.[^nyc-birth-index-dorothy-hennessy-1922]\n\nUpdate, 27 November 2026. A new piece sits beside the 1946 index line that names Joseph P. Hennessy as her father. The New York Times of October 7, 1929 carries the death notice of Joseph Patrick Hennessy, Patrick's son, survived by four children.[^nyt-1929-10-07-hennessy] The New York City marriage index has a Joseph P. Hennessy marrying Ruth F. Boos in Manhattan on January 5, 1921, thirteen months before Dorothy was born in Manhattan.[^hennessy-marriage-index-joseph-p] And in the census of April 1930, six months after his death, Dorothy appears as a granddaughter in Patrick's house. Together these make Joseph Patrick the likeliest father, and they fit the family story that her mother died young. It is still a deduction: the tree does not draw the link, and a certificate would be needed to prove it.",
    "timeline": [],
    "facts": [
     {
@@ -4269,8 +4614,8 @@
    ],
    "openQuestions": [
     {
-     "question": "Who was Dorothy's father?",
-     "record": "Of Patrick's older sons, Joseph (born about 1898) and Henry (born about 1902) are the two the ages allow. Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, certificate 16632, is a lead only. The New York City grooms index for 1915 to 1925 has no Joseph W. Hennessy; it has a Joseph P. Hennessy (married 1921 and 1925, Manhattan) and a Henry Hennessy (married 13 June 1923, Manhattan, certificate 21513), whose brides would need checking."
+     "question": "Was Dorothy's father Joseph Patrick Hennessy, who died in October 1929?",
+     "record": "The pieces now line up, but no one record names him as her father: a 1946 index line names Joseph P. Hennessy; the New York City index has a Joseph P. Hennessy marrying Ruth F. Boos in Manhattan on 5 January 1921, thirteen months before her birth there; and his 1929 death notice fits her being a grandchild in the house in April 1930. Her birth certificate or his death certificate would settle it."
     },
     {
      "question": "When exactly was she born?",
@@ -4829,6 +5174,19 @@
      ],
      "confidence": "confirmed",
      "placeId": "country-club-of-detroit"
+    },
+    {
+     "title": "Golf professional",
+     "employer": "Sunningdale Country Club",
+     "place": "Sunningdale Country Club, Scarsdale area, New York",
+     "years": "1927 to 1929",
+     "sourceIds": [
+      "nyt-1927-09-17",
+      "nyt-1929-09-26"
+     ],
+     "confidence": "probable",
+     "placeId": "sunningdale-country-club",
+     "note": "Printed as 'Joe Belfore, Sunningdale' in the Times. This is Sunningdale Country Club in the Scarsdale area of Westchester, New York, not the club in England."
     }
    ],
    "immigration": null,
@@ -4836,8 +5194,18 @@
    "photo": "images/thumbs/avatar-joe.jpg",
    "portrait": "images/thumbs/portrait-joe.jpg",
    "summary": "Head professional at the Country Club of Detroit for many years, author of Golfing Aids (1940), and by earlier research a two-time Michigan PGA champion. Not to be confused with his nephew Joseph, Seb's grandfather.",
-   "story": "In 1940 the professional at the Country Club of Detroit published a slim green booklet of lessons, priced at twenty-five cents. The title page reads Golfing Aids, by Joe Belfore, Professional, Country Club of Detroit. One surviving copy is signed \"Sincerely, Joe Belfore, Detroit, Michigan, April 4, 1940\", beside a photograph of the author in a white shirt and tie, his chin resting on his hand. It opens with the grip and stance, and its pages show him demonstrating the drive and a fairway wood.[^golfing-aids-1940] That copy came from the PGA REACH collection and was sold in 2025 with a letter of provenance signed by Bob Denney, the PGA of America's historian emeritus.[^pga-reach-letter-2025]\n\nJoe was one of three Belfiore brothers from New Rochelle who became golf professionals, at a time when most professionals and club makers in America were from abroad, \"usually Scotch\", as Sammy's obituary put it.[^standard-star-obit] Like Sammy, he wrote the name Belfore.\n\n## Florida winters, Michigan summers\n\nIn January 1929 he was working as a professional at Daytona Highlands in Florida, the same club as Sammy. At a tournament at Mount Plymouth that month, his pairing finished on 150, level with Sammy's.[^dbnj-1929-01-07] Like many northern club professionals, he seems to have worked in Florida for the winter season.\n\nHis main post was the Country Club of Detroit in Grosse Pointe Farms, Michigan, where he was head professional and ran the golf shop.[^golfing-aids-1940][^ccd-minutes-1963] Earlier research, drawing on the Michigan PGA's centennial history, records that he won the Michigan PGA championship in 1933 and 1937 and served as president of the Michigan PGA in 1959 and 1960. The same research found him in the field for the 1927 Metropolitan Open with Walter Hagen and Gene Sarazen, and in Golfdom magazine in January 1934.[^mipga-centennial][^nyt-1927][^golfdom-1934-01] In May 1948 the Daytona Beach papers reported that he had qualified for the PGA tournament at St. Louis.[^dbmj-1948-05-21]\n\n## 1963\n\nJoe died in 1963 after a long illness. On October 29 the club's Board of Governors set up a committee to find a professional \"for the position of Golf Professional left vacant by the death of Joe Belfore\". Mrs. Belfore had written the board a letter of appreciation. The board voted her $750 \"as a gift to her\" to help with debts from his illness, let her keep the golf shop open through Christmas until January 2, 1964, and paid his assistant, Danny Bianco, to carry on through the winter. It also gave his two sons, David and Joseph F. Jr., known as Jeffery, two years of personal golfing privileges at the club.[^ccd-minutes-1963]\n\n## Two Josephs\n\nThis Joe is Seb's great-great-uncle. Seb's grandfather, also Joseph, was the son of Joe's brother Michael. Earlier versions of this site said the younger Joseph was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it.\n\nUpdate, November 2026. Joe's draft card gives his full name, Joseph Francis Belfore, and his birthday, 5 February 1904, in New Rochelle; the person who would always know his address was his sister, Miss Rose Belfore, back home.[^ww2-joe] He had turned professional young: the 1925 census already lists him, at twenty-one, as a golf pro, and in 1931 a Washington paper noted \"young Joe Belfore of New Rochelle\" finishing third in the West Coast Open.[^census-1925][^evening-star-1931-03-01] He went on to win the Michigan PGA Championship in 1933 and 1937, served as the section's president in 1959 and 1960, and was twice its Professional of the Year.[^mipga-records] In the spring of 1941 Golfdom noted that the Joe Belfores were admiring a new baby boy.[^golfdom-1941-04] He died in October 1963 after a long illness; Golfdom's tribute followed in January.[^ccd-minutes-1963][^obit-index-joe-1963][^golfdom-1964-01]\n\nUpdate, November 2026: Joe's home and more from Golfdom. Joe's 1942 card gives his home as 276 Merriweather in Grosse Pointe Farms, telephone Niagara 3226, and the club at 330 Country Club Drive; the 1950 census taker wrote the same house number, 276, beside his name. His brother Frank wrote \"200 Merriweather\" for him on his own card, probably a slip of memory.[^ww2-joe][^census-1950-joe][^ww2-frank] Golfdom kept noticing him: in October 1933, on Al Watrous's testimonial day at Oakland Hills, Joe partnered Watrous against Horton Smith and Frank Walsh and lost only on the 18th green, then spoke at the dinner that evening; in January 1960 he was Michigan's nominee for national Golf Professional of the Year; and that June, as president of the Michigan PGA, he gave a lesson and clinic for three hundred public-course golfers.[^golfdom-1934-01][^golfdom-1960-01][^golfdom-1960-06]\n\nHis obituary in the Detroit Free Press of 25 October 1963, as indexed, gives his death as 21 October 1963 in Grosse Pointe Farms and names his wife Ruth and his sons David and Jeff.[^obit-index-joe-belfore-1963-survivors]\n\nUpdate, November 2026: in July 1934, between his two Michigan PGA titles, a \"Belfore\" came within one stroke of winning the Michigan Open at Saginaw Country Club. The Detroit Free Press headline the next morning read \"Jake Fassezke Beats Belfore by Stroke to Win State Open\".[^dfp-1934-michigan-open] Joe, then the professional at the Country Club of Detroit, is almost certainly the Belfore meant, though the article itself has not yet been read.",
+   "story": "In 1940 the professional at the Country Club of Detroit published a slim green booklet of lessons, priced at twenty-five cents. The title page reads Golfing Aids, by Joe Belfore, Professional, Country Club of Detroit. One surviving copy is signed \"Sincerely, Joe Belfore, Detroit, Michigan, April 4, 1940\", beside a photograph of the author in a white shirt and tie, his chin resting on his hand. It opens with the grip and stance, and its pages show him demonstrating the drive and a fairway wood.[^golfing-aids-1940] That copy came from the PGA REACH collection and was sold in 2025 with a letter of provenance signed by Bob Denney, the PGA of America's historian emeritus.[^pga-reach-letter-2025]\n\nJoe was one of three Belfiore brothers from New Rochelle who became golf professionals, at a time when most professionals and club makers in America were from abroad, \"usually Scotch\", as Sammy's obituary put it.[^standard-star-obit] Like Sammy, he wrote the name Belfore.\n\n## Florida winters, Michigan summers\n\nIn January 1929 he was working as a professional at Daytona Highlands in Florida, the same club as Sammy. At a tournament at Mount Plymouth that month, his pairing finished on 150, level with Sammy's.[^dbnj-1929-01-07] Like many northern club professionals, he seems to have worked in Florida for the winter season.\n\nHis main post was the Country Club of Detroit in Grosse Pointe Farms, Michigan, where he was head professional and ran the golf shop.[^golfing-aids-1940][^ccd-minutes-1963] Earlier research, drawing on the Michigan PGA's centennial history, records that he won the Michigan PGA championship in 1933 and 1937 and served as president of the Michigan PGA in 1959 and 1960. The same research found him in the field for the 1927 Metropolitan Open with Walter Hagen and Gene Sarazen, and in Golfdom magazine in January 1934.[^mipga-centennial][^nyt-1927][^golfdom-1934-01] In May 1948 the Daytona Beach papers reported that he had qualified for the PGA tournament at St. Louis.[^dbmj-1948-05-21]\n\n## 1963\n\nJoe died in 1963 after a long illness. On October 29 the club's Board of Governors set up a committee to find a professional \"for the position of Golf Professional left vacant by the death of Joe Belfore\". Mrs. Belfore had written the board a letter of appreciation. The board voted her $750 \"as a gift to her\" to help with debts from his illness, let her keep the golf shop open through Christmas until January 2, 1964, and paid his assistant, Danny Bianco, to carry on through the winter. It also gave his two sons, David and Joseph F. Jr., known as Jeffery, two years of personal golfing privileges at the club.[^ccd-minutes-1963]\n\n## Two Josephs\n\nThis Joe is Seb's great-great-uncle. Seb's grandfather, also Joseph, was the son of Joe's brother Michael. Earlier versions of this site said the younger Joseph was named after this uncle, following the Italian custom of naming sons after relatives. That is likely, but no record states it.\n\nUpdate, November 2026. Joe's draft card gives his full name, Joseph Francis Belfore, and his birthday, 5 February 1904, in New Rochelle; the person who would always know his address was his sister, Miss Rose Belfore, back home.[^ww2-joe] He had turned professional young: the 1925 census already lists him, at twenty-one, as a golf pro, and in 1931 a Washington paper noted \"young Joe Belfore of New Rochelle\" finishing third in the West Coast Open.[^census-1925][^evening-star-1931-03-01] He went on to win the Michigan PGA Championship in 1933 and 1937, served as the section's president in 1959 and 1960, and was twice its Professional of the Year.[^mipga-records] In the spring of 1941 Golfdom noted that the Joe Belfores were admiring a new baby boy.[^golfdom-1941-04] He died in October 1963 after a long illness; Golfdom's tribute followed in January.[^ccd-minutes-1963][^obit-index-joe-1963][^golfdom-1964-01]\n\nUpdate, November 2026: Joe's home and more from Golfdom. Joe's 1942 card gives his home as 276 Merriweather in Grosse Pointe Farms, telephone Niagara 3226, and the club at 330 Country Club Drive; the 1950 census taker wrote the same house number, 276, beside his name. His brother Frank wrote \"200 Merriweather\" for him on his own card, probably a slip of memory.[^ww2-joe][^census-1950-joe][^ww2-frank] Golfdom kept noticing him: in October 1933, on Al Watrous's testimonial day at Oakland Hills, Joe partnered Watrous against Horton Smith and Frank Walsh and lost only on the 18th green, then spoke at the dinner that evening; in January 1960 he was Michigan's nominee for national Golf Professional of the Year; and that June, as president of the Michigan PGA, he gave a lesson and clinic for three hundred public-course golfers.[^golfdom-1934-01][^golfdom-1960-01][^golfdom-1960-06]\n\nHis obituary in the Detroit Free Press of 25 October 1963, as indexed, gives his death as 21 October 1963 in Grosse Pointe Farms and names his wife Ruth and his sons David and Jeff.[^obit-index-joe-belfore-1963-survivors]\n\nUpdate, November 2026: in July 1934, between his two Michigan PGA titles, a \"Belfore\" came within one stroke of winning the Michigan Open at Saginaw Country Club. The Detroit Free Press headline the next morning read \"Jake Fassezke Beats Belfore by Stroke to Win State Open\".[^dfp-1934-michigan-open] Joe, then the professional at the Country Club of Detroit, is almost certainly the Belfore meant, though the article itself has not yet been read.\n\n## A wedding in Duluth\n\nUpdate, 27 November 2026. The March 1, 1935 Vogue, on page 126, ran a column called Good Weddings, with a Duluth entry for Joe. 'On November 20,' it says, 'Mr. Joseph Francis Belfore, of Detroit, Michigan, son of Mr. and Mrs. Anthony Belfore, of New Rochelle, New York, and Miss Ruth Hartman O'Donnell, daughter of Mrs. Tracy Hartman O'Donnell.' The year is left out of the entry, but the issue date makes it 1934. It gives his middle name, Francis, and it shows that both his parents were alive that November; Maria Donata died in 1937 and Anthony in 1938.[^vogue-1935-03-01]\n\n## New York years\n\nBefore Florida and Michigan, the New York Times printed him in its tournament lists as Joe Belfore of Sunningdale, from September 1927 to September 1929. That Sunningdale is Sunningdale Country Club in the Scarsdale area of Westchester, New York, a few miles from New Rochelle, not the club of the same name in England.[^nyt-1927-09-17] The clipping that shows him best is from the Metropolitan championship in early September 1929, which says he 'was driving magnificently' in a close match.[^nyt-1929-09-06] On September 26, 1929, the list prints Joe Belfore, Sunningdale, and, on the next line, Pat Circelli, unattached, a golfer who shared his mother's maiden name. No record says the two were related.[^nyt-1929-09-26]",
    "timeline": [
+    {
+     "date": "1925-06-01",
+     "label": "Jun 1925",
+     "event": "The census lists him at 21 as a golf professional.",
+     "sourceIds": [
+      "census-1925"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
     {
      "date": "1927-05-25",
      "label": "May 1927",
@@ -4847,6 +5215,17 @@
      ],
      "kind": "life",
      "confidence": "probable"
+    },
+    {
+     "date": "1927-09-17",
+     "label": "Sep 1927",
+     "event": "The New York Times prints him as Joe Belfore of Sunningdale Country Club, in the Scarsdale area of New York, in a tournament field, the first of many such lists through 1929.",
+     "sourceIds": [
+      "nyt-1927-09-17"
+     ],
+     "kind": "life",
+     "confidence": "probable",
+     "placeId": "sunningdale-country-club"
     },
     {
      "date": "1929-01-07",
@@ -4859,11 +5238,61 @@
      "confidence": "confirmed"
     },
     {
+     "date": "1929-09-06",
+     "label": "Sep 1929",
+     "event": "In a close match at the Metropolitan championship, the Times says 'Belfore was driving magnificently.' The winner won 2 and 1.",
+     "sourceIds": [
+      "nyt-1929-09-06"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1929-09-26",
+     "label": "Sep 1929",
+     "event": "Listed in a tournament field as Joe Belfore, Sunningdale, one line above Pat Circelli, unattached. No kinship between the two is known.",
+     "sourceIds": [
+      "nyt-1929-09-26"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1931-03-01",
+     "label": "Mar 1931",
+     "event": "Finishes third in the West Coast Open in Florida.",
+     "sourceIds": [
+      "evening-star-1931-03-01"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
      "date": "1933",
      "label": "1933",
      "event": "Michigan PGA champion (per earlier research).",
      "sourceIds": [
       "mipga-centennial"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1934-07-10",
+     "label": "Jul 10, 1934",
+     "event": "Finishes one stroke behind Jake Fassezke in the Michigan Open at Saginaw Country Club.",
+     "sourceIds": [
+      "dfp-1934-michigan-open"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1934-11-20",
+     "label": "Nov 20, 1934",
+     "event": "Marries Ruth Hartman O'Donnell; Vogue lists the wedding under Duluth. His parents were both still living.",
+     "sourceIds": [
+      "vogue-1935-03-01"
      ],
      "kind": "life",
      "confidence": "probable"
@@ -4887,6 +5316,26 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
+    },
+    {
+     "date": "1941-04",
+     "label": "Apr 1941",
+     "event": "Golfdom notes that \"the Joe Belfores\" are admiring a baby boy.",
+     "sourceIds": [
+      "golfdom-1941-04"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
+    {
+     "date": "1942",
+     "label": "1942",
+     "event": "Registers for the draft, naming his sister Rose as the person who will always know his address.",
+     "sourceIds": [
+      "ww2-joe"
+     ],
+     "kind": "life",
+     "confidence": "probable"
     },
     {
      "date": "1948-05-20",
@@ -4917,56 +5366,6 @@
      ],
      "kind": "life",
      "confidence": "confirmed"
-    },
-    {
-     "date": "1925-06-01",
-     "label": "Jun 1925",
-     "event": "The census lists him at 21 as a golf professional.",
-     "sourceIds": [
-      "census-1925"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1931-03-01",
-     "label": "Mar 1931",
-     "event": "Finishes third in the West Coast Open in Florida.",
-     "sourceIds": [
-      "evening-star-1931-03-01"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1941-04",
-     "label": "Apr 1941",
-     "event": "Golfdom notes that \"the Joe Belfores\" are admiring a baby boy.",
-     "sourceIds": [
-      "golfdom-1941-04"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1942",
-     "label": "1942",
-     "event": "Registers for the draft, naming his sister Rose as the person who will always know his address.",
-     "sourceIds": [
-      "ww2-joe"
-     ],
-     "kind": "life",
-     "confidence": "probable"
-    },
-    {
-     "date": "1934-07-10",
-     "label": "Jul 10, 1934",
-     "event": "Finishes one stroke behind Jake Fassezke in the Michigan Open at Saginaw Country Club.",
-     "sourceIds": [
-      "dfp-1934-michigan-open"
-     ],
-     "kind": "life",
-     "confidence": "probable"
     }
    ],
    "facts": [
@@ -5032,6 +5431,31 @@
      "value": "32 years, 30 as head professional",
      "sourceIds": [
       "golfdom-1964-01"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Wedding",
+     "value": "20 November 1934, to Ruth Hartman O'Donnell, in Vogue's Duluth wedding list, 1 March 1935, p. 126. Vogue calls him 'Joseph Francis Belfore, of Detroit, son of Mr. and Mrs. Anthony Belfore, of New Rochelle'",
+     "sourceIds": [
+      "vogue-1935-03-01"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Middle name",
+     "value": "Francis (Vogue, 1935)",
+     "sourceIds": [
+      "vogue-1935-03-01"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "New York club years",
+     "value": "Printed as 'Joe Belfore, Sunningdale' in New York Times tournament lists from September 1927 to September 1929. Sunningdale is Sunningdale Country Club in the Scarsdale area of New York, not the club in England.",
+     "sourceIds": [
+      "nyt-1927-09-17",
+      "nyt-1929-09-26"
      ],
      "confidence": "probable"
     }
@@ -5199,6 +5623,33 @@
      "type": "document",
      "sourceId": "census-1950-joe",
      "alt": "1950 census lines"
+    },
+    {
+     "id": "vogue-1935-wedding",
+     "file": "images/vogue-1935-belfore-odonnell.jpg",
+     "thumb": "images/thumbs/vogue-1935-belfore-odonnell.jpg",
+     "caption": "Vogue, 1 March 1935, p. 126. The Duluth notice for Belfore-O'Donnell.",
+     "type": "document",
+     "sourceId": "vogue-1935-03-01",
+     "alt": "Printed wedding notice headed Duluth, Belfore-O'Donnell, from Vogue, 1 March 1935, page 126, naming Joseph Francis Belfore of Detroit and Ruth Hartman O'Donnell"
+    },
+    {
+     "id": "nyt-1927-sunningdale",
+     "file": "images/nyt-1927-09-17-joe-belfore-sunningdale.jpg",
+     "thumb": "images/thumbs/nyt-1927-09-17-joe-belfore-sunningdale.jpg",
+     "caption": "The New York Times, 17 September 1927: 'Joe Belfore, Sunningdale', score 81, in a tournament field.",
+     "type": "document",
+     "sourceId": "nyt-1927-09-17",
+     "alt": "Crop of a New York Times tournament list from 17 September 1927 showing the line Joe Belfore, Sunningdale, score 81"
+    },
+    {
+     "id": "nyt-1929-circelli",
+     "file": "images/nyt-1929-09-26-joe-belfore-pat-circelli.jpg",
+     "thumb": "images/thumbs/nyt-1929-09-26-joe-belfore-pat-circelli.jpg",
+     "caption": "The New York Times, 26 September 1929, p. 20: 'Joe Belfore, Sunningdale' and, on the next line, 'Pat Circelli, unattached'.",
+     "type": "document",
+     "sourceId": "nyt-1929-09-26",
+     "alt": "Crop of a New York Times tournament list from 26 September 1929 showing Joe Belfore, Sunningdale, directly above Pat Circelli, unattached"
     }
    ],
    "openQuestions": [
@@ -5207,8 +5658,8 @@
      "record": "The 1900 and 1910 censuses of New Rochelle; his Michigan death certificate (1963), which should give his birth date and parents."
     },
     {
-     "question": "What was his wife's name, and when did they marry?",
-     "record": "His Michigan death certificate and obituary (1963); Michigan or New York marriage records."
+     "question": "Where exactly did Joe and Ruth marry, and who were the O'Donnells?",
+     "record": "A Minnesota marriage record for 1934, or a Duluth newspaper wedding notice for November 1934. Vogue's list does not print the year."
     },
     {
      "question": "Do the Michigan PGA dates check out?",
@@ -5233,14 +5684,16 @@
     {
      "id": "ruth-belfore",
      "order": 1,
-     "marriageDate": null,
-     "marriageDisplay": null,
-     "place": null,
+     "marriageDate": "1934-11-20",
+     "marriageDisplay": "Nov 20, 1934",
+     "place": "Duluth, Minnesota",
      "sourceIds": [
-      "ccd-minutes-1963"
+      "ccd-minutes-1963",
+      "vogue-1935-03-01"
      ],
-     "confidence": "confirmed",
-     "note": "Her first name is unverified."
+     "confidence": "probable",
+     "note": "Vogue's 'Good Weddings' list for Duluth, March 1 1935: Mr. Joseph Francis Belfore of Detroit, son of Mr. and Mrs. Anthony Belfore of New Rochelle, and Miss Ruth Hartman O'Donnell. The entry prints November 20 and no year; the issue date makes it 1934.",
+     "placeId": "duluth"
     }
    ],
    "parentLinkConfidence": "confirmed",
@@ -5264,6 +5717,14 @@
      "sourceIds": [
       "ccd-minutes-1963"
      ]
+    },
+    {
+     "name": "Ruth Hartman O'Donnell",
+     "note": "her name on the 1935 Vogue wedding list",
+     "sourceIds": [
+      "vogue-1935-03-01"
+     ],
+     "confidence": "probable"
     }
    ],
    "confidence": "probable",
@@ -5306,9 +5767,19 @@
    ],
    "immigration": null,
    "cardPlace": "Grosse Pointe, MI",
-   "summary": "Joe's wife and the mother of David and Jeffery. The 1963 club minutes call her only Mrs. Belfore; the first name Ruth was on earlier versions of the tree without a source.",
-   "story": "The only document about Joe's wife in this collection is the Country Club of Detroit's board minutes of October 29, 1963, written after Joe's death. They call her Mrs. Belfore. She had sent the board a letter of appreciation. The board voted her $750 as a gift, to help with the debts left by her husband's long illness, and agreed that she could keep the golf shop open through the Christmas season, until January 2, 1964.[^ccd-minutes-1963]\n\nThe minutes name her sons as David and Joseph F. Jr., known as Jeffery.[^ccd-minutes-1963] Earlier versions of the tree gave her first name as Ruth, but no source for it is recorded, so it is marked as unverified here.\n\nUpdate, November 2026. In 1950 Ruth's mother, Beulah M. Burdick, a widow born in Wisconsin, was living with Joe and Ruth in Grosse Pointe Woods; Ruth herself was born in Minnesota.[^census-1950-joe]",
+   "summary": "Joe's wife and the mother of David and Jeffery. Vogue's 1935 wedding list names her as Ruth Hartman O'Donnell, of Duluth.",
+   "story": "The only document about Joe's wife in this collection is the Country Club of Detroit's board minutes of October 29, 1963, written after Joe's death. They call her Mrs. Belfore. She had sent the board a letter of appreciation. The board voted her $750 as a gift, to help with the debts left by her husband's long illness, and agreed that she could keep the golf shop open through the Christmas season, until January 2, 1964.[^ccd-minutes-1963]\n\nThe minutes name her sons as David and Joseph F. Jr., known as Jeffery.[^ccd-minutes-1963] Earlier versions of the tree gave her first name as Ruth without a source; a wedding list now backs it up (see below).\n\nUpdate, November 2026. In 1950 Ruth's mother, Beulah M. Burdick, a widow born in Wisconsin, was living with Joe and Ruth in Grosse Pointe Woods; Ruth herself was born in Minnesota.[^census-1950-joe]\n\nUpdate, 27 November 2026. Her first name is now sourced. Vogue's Good Weddings column of March 1, 1935 lists, under Duluth, the marriage on November 20 of Mr. Joseph Francis Belfore of Detroit and Miss Ruth Hartman O'Donnell, daughter of Mrs. Tracy Hartman O'Donnell. That gives her maiden name, O'Donnell, and fits the Minnesota birthplace in the 1950 census.[^vogue-1935-03-01] It does not match her 1950 mother's name, Beulah Burdick, so the likeliest reading is that her mother married again; no record says so yet.",
    "timeline": [
+    {
+     "date": "1934-11-20",
+     "label": "Nov 20, 1934",
+     "event": "Miss Ruth Hartman O'Donnell marries Joe Belfore; Vogue lists the wedding under Duluth.",
+     "sourceIds": [
+      "vogue-1935-03-01"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    },
     {
      "date": "1963-10-29",
      "label": "Oct 29, 1963",
@@ -5323,9 +5794,11 @@
    "facts": [
     {
      "label": "First name",
-     "value": "Ruth (unverified)",
-     "sourceIds": [],
-     "confidence": "unverified"
+     "value": "Ruth, from the Vogue wedding list of 1935",
+     "sourceIds": [
+      "vogue-1935-03-01"
+     ],
+     "confidence": "probable"
     },
     {
      "label": "Birthplace",
@@ -5337,9 +5810,26 @@
     },
     {
      "label": "Mother",
-     "value": "Beulah M. Burdick, living with Joe and Ruth in 1950",
+     "value": "Beulah M. Burdick, living with Joe and Ruth in 1950. Vogue instead names 'Mrs. Tracy Hartman O'Donnell' as Ruth's mother in 1934, so Mrs. Burdick was very likely a remarriage; that is not proved",
      "sourceIds": [
-      "census-1950-joe"
+      "census-1950-joe",
+      "vogue-1935-03-01"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Maiden name",
+     "value": "O'Donnell. Vogue prints Miss Ruth Hartman O'Donnell",
+     "sourceIds": [
+      "vogue-1935-03-01"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Married",
+     "value": "20 November 1934 (year from the issue date), listed under Duluth",
+     "sourceIds": [
+      "vogue-1935-03-01"
      ],
      "confidence": "probable"
     }
@@ -5363,12 +5853,21 @@
      "type": "document",
      "sourceId": "census-1950-joe",
      "alt": "1950 census lines"
+    },
+    {
+     "id": "vogue-1935-wedding",
+     "file": "images/vogue-1935-belfore-odonnell.jpg",
+     "thumb": "images/thumbs/vogue-1935-belfore-odonnell.jpg",
+     "caption": "Vogue, 1 March 1935, p. 126. The Duluth notice names her as Miss Ruth Hartman O'Donnell.",
+     "type": "document",
+     "sourceId": "vogue-1935-03-01",
+     "alt": "Printed wedding notice headed Duluth, Belfore-O'Donnell, from Vogue, 1 March 1935, page 126, naming Ruth Hartman O'Donnell"
     }
    ],
    "openQuestions": [
     {
-     "question": "What was her name, and when did she die?",
-     "record": "Joe's 1963 obituary or death certificate; Grosse Pointe News obituaries."
+     "question": "When did Ruth die, and who were the O'Donnells of Duluth?",
+     "record": "Joe's 1963 obituary; Grosse Pointe News obituaries; Duluth newspapers for November 1934. Was Beulah Burdick her mother under a later name?"
     }
    ],
    "relatedPages": [
@@ -5386,14 +5885,16 @@
     {
      "id": "joe-belfore",
      "order": 1,
-     "marriageDate": null,
-     "marriageDisplay": null,
-     "place": null,
+     "marriageDate": "1934-11-20",
+     "marriageDisplay": "Nov 20, 1934",
+     "place": "Duluth, Minnesota",
      "sourceIds": [
-      "ccd-minutes-1963"
+      "ccd-minutes-1963",
+      "vogue-1935-03-01"
      ],
-     "confidence": "confirmed",
-     "note": "Her first name is unverified."
+     "confidence": "probable",
+     "note": "Vogue, March 1 1935. The entry prints November 20 and no year.",
+     "placeId": "duluth"
     }
    ],
    "isDirectLine": false,
@@ -7961,7 +8462,16 @@
      "confidence": "probable"
     }
    ],
-   "facts": [],
+   "facts": [
+    {
+     "label": "Parents on her marriage record",
+     "value": "Antonio Belfiore and Maria D. Circelli, as indexed from her marriage record (very probably her 1911 marriage to Giuseppe D'Onofrio)",
+     "sourceIds": [
+      "ny-county-marriage-maria-belfiore"
+     ],
+     "confidence": "probable"
+    }
+   ],
    "media": [
     {
      "id": "obit-sammy",
@@ -10142,10 +10652,11 @@
     "place": null,
     "sourceIds": [
      "birth-giuseppe-circelli-1827",
-     "death-donato-circelli-1839"
+     "death-donato-circelli-1839",
+     "birth-vincenzo-antonio-circelli-1816"
     ],
     "confidence": "probable",
-    "note": "Aged 21 in December 1810, 42 in February 1827 and 46 at his death in 1839, so born somewhere between about 1785 and 1793."
+    "note": "Aged 21 in December 1810, 42 in February 1827 and 46 at his death in 1839, so born somewhere between about 1785 and 1793. He was 26 when his son Vincenzo Antonio was born in January 1816, which points to about 1790."
    },
    "death": {
     "date": "1839-11-08",
@@ -10256,6 +10767,7 @@
    "relatedPages": [],
    "parents": [],
    "children": [
+    "vincenzo-antonio-circelli",
     "giuseppe-circelli",
     "giovanniangelo-circelli"
    ],
@@ -10413,6 +10925,7 @@
    "relatedPages": [],
    "parents": [],
    "children": [
+    "vincenzo-antonio-circelli",
     "giuseppe-circelli",
     "giovanniangelo-circelli"
    ],
@@ -14368,6 +14881,16 @@
      ],
      "confidence": "probable",
      "placeId": "premium-point"
+    },
+    {
+     "place": "New Rochelle, New York",
+     "address": "87 Huguenot Street",
+     "years": "1918",
+     "sourceIds": [
+      "hennessy-wwi-draft"
+     ],
+     "confidence": "probable",
+     "placeId": "87-huguenot-street"
     }
    ],
    "occupations": [
@@ -14409,7 +14932,7 @@
    },
    "cardPlace": "Premium Point, New Rochelle",
    "summary": "He and Annie Hussey raised Dorothy. The censuses list her as their granddaughter, so he is probably Seb's great-great-grandfather, not her father.",
-   "story": "Family story, and the census, say that Patrick and his second wife Annie raised Dorothy, Seb's grandmother, after Dorothy's mother died young. The 1930 and 1940 censuses list Dorothy as their granddaughter. They also give her parents' birthplaces as New York. Patrick himself was born in Ireland, so he is not her father on those records. Later obituaries of Annie's children name Dorothy as a sister; that family language is kept beside the census, not in place of it.[^family-knowledge][^hennessy-census-1930-image][^hennessy-census-1940-image][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Patrick was very probably the child baptised on 12 April 1874 at Conahy, County Kilkenny, son of Patrick Hennessy and Kate Brennan. Those are the parents named when he married Anna Marie Hussey on 17 June 1914.[^hennessy-baptism-1874][^hennessy-marriage-1914]\n\nHe arrived in New York on 11 January 1894. He declared his intention on 15 September 1905 and was naturalized on 18 October 1905. No passenger list for that January day has been found.[^hennessy-naturalization-1905]\n\nHis first wife was Mary, surname not yet known. She is with him in 1905, and by 1910 he was a widower at Premium Point. Their sons were Joseph, Thomas, Henry, and John, called Jack.[^hennessy-census-1905][^hennessy-census-1910][^hennessy-census-1915]\n\nIn 1910 his work was with the horses at Premium Point. In 1920 he owned 101 Huguenot Street, a chauffeur for a private family, and he told the census taker that his native tongue was Irish. In 1925 he lived at number 260, in the house of his employer Sidney Williams. In 1930 he and Annie were at 3 Fair Oaks, Premium Point, and in 1940 they were still on Premium Point.[^hennessy-census-1910][^hennessy-census-1920][^hennessy-census-1925][^hennessy-census-1930][^hennessy-census-1940]\n\nA draft card for a Patrick Joseph Hennessy of Huguenot Street gives a birthday of 18 April 1877. That date does not fit the baptism, so the card has been kept as another reading, not as his birthday. A New York State death index entry for Patrick J. Hennessy, died 27 June 1947 at New Rochelle, aged 70, certificate 38983, is probably his. Aged 70 that June fits a birth in 1876 or 1877, which agrees with the draft card and not with the 1874 baptism. Both dates are kept until the death certificate, or another record, settles the year.[^hennessy-wwi-draft][^nys-death-index-1947-hennessy]",
+   "story": "Family story, and the census, say that Patrick and his second wife Annie raised Dorothy, Seb's grandmother, after Dorothy's mother died young. The 1930 and 1940 censuses list Dorothy as their granddaughter. They also give her parents' birthplaces as New York. Patrick himself was born in Ireland, so he is not her father on those records. Later obituaries of Annie's children name Dorothy as a sister; that family language is kept beside the census, not in place of it.[^family-knowledge][^hennessy-census-1930-image][^hennessy-census-1940-image][^obit-patricia-dillon-2021][^obit-francis-hennessy-2013][^obit-anne-latino-2024]\n\nUpdate, November 2026. Patrick was very probably the child baptised on 12 April 1874 at Conahy, County Kilkenny, son of Patrick Hennessy and Kate Brennan. Those are the parents named when he married Anna Marie Hussey on 17 June 1914.[^hennessy-baptism-1874][^hennessy-marriage-1914]\n\nHe arrived in New York on 11 January 1894. He declared his intention on 15 September 1905 and was naturalized on 18 October 1905. No passenger list for that January day has been found.[^hennessy-naturalization-1905]\n\nHis first wife was Mary, surname not yet known. She is with him in 1905, and by 1910 he was a widower at Premium Point. Their sons were Joseph, Thomas, Henry, and John, called Jack.[^hennessy-census-1905][^hennessy-census-1910][^hennessy-census-1915]\n\nIn 1910 his work was with the horses at Premium Point. In 1920 he owned 101 Huguenot Street, a chauffeur for a private family, and he told the census taker that his native tongue was Irish. In 1925 he lived at number 260, in the house of his employer Sidney Williams. In 1930 he and Annie were at 3 Fair Oaks, Premium Point, and in 1940 they were still on Premium Point.[^hennessy-census-1910][^hennessy-census-1920][^hennessy-census-1925][^hennessy-census-1930][^hennessy-census-1940]\n\nA draft card for a Patrick Joseph Hennessy of Huguenot Street gives a birthday of 18 April 1877. That date does not fit the baptism, so the card has been kept as another reading, not as his birthday. A New York State death index entry for Patrick J. Hennessy, died 27 June 1947 at New Rochelle, aged 70, certificate 38983, is probably his. Aged 70 that June fits a birth in 1876 or 1877, which agrees with the draft card and not with the 1874 baptism. Both dates are kept until the death certificate, or another record, settles the year.[^hennessy-wwi-draft][^nys-death-index-1947-hennessy]\n\nUpdate, 27 November 2026. The 1918 draft card itself has now been read from a Fold3 image. It gives 87 Huguenot Street, not 17, as his home and as Anna's address, and it is dated 13 September 1918. He was a chauffeur at Premium Point. The card remains a probable identification, because the birthday on it, 18 April 1877, still does not match the 1874 baptism.[^hennessy-wwi-draft]",
    "timeline": [],
    "facts": [
     {
@@ -14433,6 +14956,14 @@
      "value": "27 June 1947, New Rochelle, aged 70 (certificate 38983)",
      "sourceIds": [
       "nys-death-index-1947-hennessy"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "First marriage",
+     "value": "About 1898 or 1899: the 1930 census gives his age at first marriage as 21",
+     "sourceIds": [
+      "census-1930-hennessy-ancestry"
      ],
      "confidence": "probable"
     }
@@ -14482,6 +15013,15 @@
      "type": "document",
      "sourceId": "nys-death-index-1947-hennessy",
      "alt": "New York State death index 1947, highlighted line for Patrick J. Hennessy of New Rochelle, certificate 38983"
+    },
+    {
+     "id": "hennessy-wwi-draft",
+     "file": "images/ww1-patrick-hennessy-draft.jpg",
+     "thumb": "images/thumbs/ww1-patrick-hennessy-draft.jpg",
+     "caption": "World War I draft card, 13 September 1918: Patrick Joseph Hennessy of 87 Huguenot Street, New Rochelle, a chauffeur. A probable identification.",
+     "type": "document",
+     "sourceId": "hennessy-wwi-draft",
+     "alt": "Front and back of a 1918 World War I draft registration card for Patrick Joseph Hennessy of 87 Huguenot Street, New Rochelle"
     }
    ],
    "openQuestions": [
@@ -16372,13 +16912,51 @@
     "confidence": "probable",
     "placeId": "new-york-state"
    },
-   "death": null,
+   "death": {
+    "date": "1929-10",
+    "dateQualifier": "about",
+    "display": "early Oct 1929",
+    "place": null,
+    "sourceIds": [
+     "nyt-1929-10-07-hennessy"
+    ],
+    "confidence": "probable",
+    "note": "A New York Times death notice of 7 October 1929 for Joseph Patrick Hennessy, son of Patrick Joseph Hennessy of Premium Point, New Rochelle. It gives no date or place of death; the funeral was the next morning, at All Saints Church, with burial at Calvary Cemetery."
+   },
    "residences": [],
    "occupations": [],
    "immigration": null,
    "cardPlace": "New Rochelle, New York",
-   "timeline": [],
-   "facts": [],
+   "timeline": [
+    {
+     "date": "1929-10",
+     "label": "Oct 1929",
+     "event": "Dies; the Times notice of October 7 names his father, his four children and his brothers Thomas, Francis, John and Henry.",
+     "sourceIds": [
+      "nyt-1929-10-07-hennessy"
+     ],
+     "kind": "life",
+     "confidence": "probable"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Death notice",
+     "value": "The New York Times, 7 October 1929: 'HENNESSY, Joseph Patrick, son of Patrick Joseph Hennessy of Premium Point, New Rochelle; he is also survived by four children and three brothers, Thomas, Francis, John and Henry.'",
+     "sourceIds": [
+      "nyt-1929-10-07-hennessy"
+     ],
+     "confidence": "probable"
+    },
+    {
+     "label": "Marriages (index lines, not read as records)",
+     "value": "Joseph P. Hennessy to Ruth F. Boos, Manhattan, 5 January 1921; Joseph P. Hennessy to Mary Egan, Manhattan, 25 January 1925",
+     "sourceIds": [
+      "hennessy-marriage-index-joseph-p"
+     ],
+     "confidence": "unverified"
+    }
+   ],
    "media": [
     {
      "id": "census-1915",
@@ -16401,8 +16979,12 @@
    ],
    "openQuestions": [
     {
-     "question": "Is Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, this Joseph, and was he Dorothy's father?",
-     "record": "New York death certificate 16632, or an obituary in the Standard-Star around 22 March 1930, would give his age and parents. Not ordered."
+     "question": "Was Joseph Patrick Dorothy's father, and who were his four children?",
+     "record": "A New York City death certificate for early October 1929, Calvary Cemetery's burial record, and the 1921 New York City marriage certificate to Ruth F. Boos. Not ordered."
+    },
+    {
+     "question": "Is Joseph W. Hennessy, who died at New Rochelle on 22 March 1930, a different man?",
+     "record": "New York death certificate 16632. The 1929 notice makes it much less likely that he is Patrick's son, because Patrick's son was already dead."
     }
    ],
    "relatedPages": [],
@@ -16424,8 +17006,8 @@
    "sex": "M",
    "generation": 4,
    "disambiguator": "Patrick's son by his first marriage",
-   "summary": "Son of Patrick Hennessy and his first wife, Mary.",
-   "story": "Joseph was a son of Patrick and Mary. He is 6 on the 1905 census and 16 in 1915, so he was born about 1898 or 1899, in New York. He is one of the two sons the records leave open as Dorothy's father. Nothing here names him as that father.[^hennessy-census-1905][^hennessy-census-1915]\n\nUpdate, November 2026. A New York State death index entry for Joseph W. Hennessy, died 22 March 1930 at New Rochelle, certificate 16632, is a lead only. The index does not give his age, so the identity is not proved. A death certificate or a 1930 obituary would test him. No marriage of a Joseph Hennessy was found in the New York State marriage index (outside New York City) for 1917 to 1922. The New York City marriage index for those years has not yet been searched.[^nys-death-index-hennessy-new-rochelle][^nys-marriage-index-hennessy-1917-1922]"
+   "summary": "Son of Patrick Hennessy and his first wife, Mary. A New York Times death notice of October 1929 names Joseph Patrick as Patrick's son, so he very probably died young, and he is the likeliest father of Dorothy.",
+   "story": "Joseph was a son of Patrick and Mary. He is 6 on the 1905 census and 16 in 1915, so he was born about 1898 or 1899, in New York. He is one of the two sons the records leave open as Dorothy's father. Nothing here names him as that father.[^hennessy-census-1905][^hennessy-census-1915]\n\nUpdate, November 2026. A New York State death index entry for Joseph W. Hennessy, died 22 March 1930 at New Rochelle, certificate 16632, is a lead only. The index does not give his age, so the identity is not proved. A death certificate or a 1930 obituary would test him. No marriage of a Joseph Hennessy was found in the New York State marriage index (outside New York City) for 1917 to 1922. The New York City marriage index for those years has not yet been searched.[^nys-death-index-hennessy-new-rochelle][^nys-marriage-index-hennessy-1917-1922]\n\nUpdate, 27 November 2026. The New York Times of October 7, 1929 carries a death notice for Joseph Patrick Hennessy, 'son of Patrick Joseph Hennessy of Premium Point, New Rochelle', who 'is also survived by four children and three brothers, Thomas, Francis, John and Henry.' The funeral was from All Saints Church the next morning, with burial at Calvary Cemetery.[^nyt-1929-10-07-hennessy] The father's address and the brothers' names match this family, so the notice is very probably about this Joseph, who would have been about thirty-one. That makes the March 1930 death of a Joseph W. an unlikely fit, because Patrick's Joseph was already gone by the time of the April 1930 census."
   },
   {
    "nameVariants": [],

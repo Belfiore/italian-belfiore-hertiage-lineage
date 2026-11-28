@@ -543,8 +543,10 @@
    "todayNote": null,
    "status": "published",
    "significance": "The comune where the Circelli and Belfiore lines were born, married, and registered in the stato civile.",
-   "blurb": null,
-   "blurbSourceIds": [],
+   "blurb": "A town story, with no proven family link. In April 1884 a bugler of the 19th Infantry from San Bartolomeo, Bartolomeo Circelli, stopped a soldier named Misdea in the Pizzofalcone barracks in Naples and was awarded a medal for it. He was clubbed to death in a street fight back home in February 1885. Whether he belonged to our Circelli families is not known.",
+   "blurbSourceIds": [
+    "gazzetta-ferrarese-1885-02-28"
+   ],
    "boundary": null,
    "historicMap": null,
    "images": [],
@@ -3628,6 +3630,56 @@
      "familyStatement": false,
      "summary": "Lived. 48 Coligni Avenue",
      "note": null
+    },
+    {
+     "id": "pe-48-coligni-avenue-lived-edward-belfiore",
+     "type": "lived",
+     "personIds": [
+      "edward-belfiore"
+     ],
+     "date": "about 1945",
+     "dateStart": "1945",
+     "dateEnd": "1945",
+     "datePrecision": "year",
+     "approximate": true,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../ww2-edward-belfiore-draft.jpg"
+     ],
+     "sourceIds": [
+      "ww2-edward"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Lived. 48 Coligni Avenue, about 1945",
+     "note": "His WWII draft card, filled out at age 24, gives this address."
+    },
+    {
+     "id": "pe-48-coligni-avenue-lived-joseph-belfiore",
+     "type": "lived",
+     "personIds": [
+      "joseph-belfiore"
+     ],
+     "date": "about December 1941",
+     "dateStart": "1941-12",
+     "dateEnd": "1941-12",
+     "datePrecision": "month",
+     "approximate": true,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../ww2-joseph-curties-belfiore-draft.jpg"
+     ],
+     "sourceIds": [
+      "ww2-joseph-curties"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Lived. 48 Coligni Avenue, about December 1941",
+     "note": "His WWII draft card, filled out at age 19, gives this address and names his mother Frances as his contact."
     }
    ]
   },
@@ -8277,9 +8329,9 @@
      "personIds": [
       "frances-towey"
      ],
-     "date": "Apr 5, 1967",
-     "dateStart": "1967-04-05",
-     "dateEnd": "1967-04-05",
+     "date": "Apr 15, 1967",
+     "dateStart": "1967-04-15",
+     "dateEnd": "1967-04-15",
      "datePrecision": "day",
      "approximate": false,
      "factRef": "frances-towey.death",
@@ -8287,9 +8339,10 @@
      "pages": [],
      "recordCrops": [],
      "sourceIds": [
-      "ssdi-frances"
+      "nysdi-1967-frances-belfiore",
+      "findagrave-frances-towey-belfiore"
      ],
-     "confidence": "confirmed",
+     "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
      "note": null
@@ -10867,6 +10920,196 @@
      "familyStatement": false,
      "summary": "Runner-up by one stroke in the 1934 Michigan Open.",
      "note": "Headline only; the article has not been read."
+    }
+   ]
+  },
+  {
+   "id": "sunningdale-country-club",
+   "name": "Sunningdale Country Club, Scarsdale area, New York",
+   "historicName": "Sunningdale",
+   "variants": [
+    "Sunningdale Country Club",
+    "Sunningdale, Scarsdale"
+   ],
+   "kind": "workplace",
+   "address": "Sunningdale Country Club, Sundale Place, Greenville, New York 10583",
+   "modernAddress": "The course is in Greenville, near Hartsdale, in the Scarsdale postal area (ZIP 10583).",
+   "precision": "building",
+   "lat": 41.0105687,
+   "lng": -73.8197824,
+   "uncertaintyMetres": 80,
+   "coordinateMethod": "OpenStreetMap Nominatim on 27 November 2026. Search: Sunningdale Country Club, New York. Result: Sunningdale Country Club, Sundale Place, Greenville, Town of Greenburgh, Westchester County, New York, 10583, United States (golf_course). Photon gives the same point and names Rock Hill Lane, Hartsdale.",
+   "coordinatePrecision": "golf_course",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026",
+    "osm-photon-2026"
+   ],
+   "drawAs": "pin",
+   "inHomeRegion": true,
+   "country": "United States",
+   "noProvenLink": false,
+   "standsToday": "yes",
+   "standsTodaySource": null,
+   "todayNote": "The club still operates in the Scarsdale postal area of Westchester. It is not the Sunningdale club in England.",
+   "status": "published",
+   "significance": "The New York Times printed Joe Belfore as 'Joe Belfore, Sunningdale' in tournament lists from 1927 to 1929, his club years before Florida and Michigan.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-sunningdale-country-club-worked-joe-belfore",
+     "type": "worked",
+     "personIds": [
+      "joe-belfore"
+     ],
+     "date": "1927 to 1929",
+     "dateStart": "1927-09",
+     "dateEnd": "1929-09",
+     "datePrecision": "month",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../nyt-1927-09-17-joe-belfore-sunningdale.jpg"
+     ],
+     "sourceIds": [
+      "nyt-1927-09-17",
+      "nyt-1929-09-26"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Worked. Sunningdale Country Club, 1927 to 1929",
+     "note": "Printed as Joe Belfore, Sunningdale, in Times tournament lists. The lists do not give his exact job title at the club."
+    }
+   ]
+  },
+  {
+   "id": "calverton-national-cemetery",
+   "name": "Calverton National Cemetery, Calverton, New York",
+   "historicName": "Calverton National Cemetery",
+   "variants": [
+    "Calverton National Cemetery, Long Island"
+   ],
+   "kind": "cemetery",
+   "address": "Calverton National Cemetery, 210, Wading River, Town of Riverhead, Suffolk County, New York 11933",
+   "modernAddress": null,
+   "precision": "building",
+   "lat": 40.9317465,
+   "lng": -72.8143565,
+   "uncertaintyMetres": 80,
+   "coordinateMethod": "OpenStreetMap Nominatim on 27 November 2026. Search: Calverton National Cemetery, New York. Result: Calverton National Cemetery, 210, Wading River, Town of Riverhead, Suffolk County, New York, 11933, United States (cemetery).",
+   "coordinatePrecision": "cemetery",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "pin",
+   "inHomeRegion": false,
+   "country": "United States",
+   "noProvenLink": false,
+   "standsToday": "yes",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "published",
+   "significance": "Joseph C. Belfiore, who served in the Navy in the Second World War, is buried here in Section 66, Site 3739.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-calverton-national-cemetery-buried-joseph-belfiore",
+     "type": "buried",
+     "personIds": [
+      "joseph-belfiore"
+     ],
+     "date": "October 1994",
+     "dateStart": "1994-10",
+     "dateEnd": "1994-10",
+     "datePrecision": "month",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [],
+     "sourceIds": [
+      "va-gravesite-joseph-c-belfiore"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Buried. Calverton National Cemetery, Section 66, Site 3739",
+     "note": "The Veterans Affairs gravesite locator gives the same birth and death dates as the New Jersey death index."
+    }
+   ]
+  },
+  {
+   "id": "87-huguenot-street",
+   "name": "87 Huguenot Street, New Rochelle",
+   "historicName": "87 Huguenot St",
+   "variants": [
+    "87 Huguenot Street"
+   ],
+   "kind": "home",
+   "address": "87 Huguenot Street, New Rochelle, New York",
+   "modernAddress": null,
+   "precision": "address",
+   "lat": 40.9133381,
+   "lng": -73.7762913,
+   "uncertaintyMetres": 60,
+   "coordinateMethod": "OpenStreetMap Nominatim on 27 November 2026. Search: 87 Huguenot Street, New Rochelle, New York. Two house results were returned a short way apart. The pin uses the first: 87, Huguenot Street, Homestead Park, New Rochelle, Westchester County, New York, 10801, United States (house).",
+   "coordinatePrecision": "house",
+   "coordinateSourceIds": [
+    "osm-nominatim-2026"
+   ],
+   "drawAs": "pin",
+   "inHomeRegion": true,
+   "country": "United States",
+   "noProvenLink": false,
+   "standsToday": "unknown",
+   "standsTodaySource": null,
+   "todayNote": null,
+   "status": "published",
+   "significance": "Patrick Joseph Hennessy's 1918 draft card gives 87 Huguenot Street as his home, and his wife Anna's address, when he was a chauffeur at Premium Point.",
+   "blurb": null,
+   "blurbSourceIds": [],
+   "boundary": null,
+   "historicMap": null,
+   "images": [],
+   "streetView": null,
+   "streetViewReason": null,
+   "events": [
+    {
+     "id": "pe-87-huguenot-street-lived-patrick-hennessy",
+     "type": "lived",
+     "personIds": [
+      "patrick-hennessy"
+     ],
+     "date": "1918",
+     "dateStart": "1918-09",
+     "dateEnd": "1918-09",
+     "datePrecision": "month",
+     "approximate": false,
+     "factRef": "",
+     "alsoFactRefs": [],
+     "pages": [],
+     "recordCrops": [
+      "../ww1-patrick-hennessy-draft.jpg"
+     ],
+     "sourceIds": [
+      "hennessy-wwi-draft"
+     ],
+     "confidence": "probable",
+     "familyStatement": false,
+     "summary": "Lived. 87 Huguenot Street, September 1918",
+     "note": "The card is a probable identification of Dorothy's grandfather."
     }
    ]
   }
