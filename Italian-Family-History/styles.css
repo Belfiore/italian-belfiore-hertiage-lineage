@@ -1261,3 +1261,33 @@ details > summary {
 
 /* Family map: the engine draws its place clusters in its own red; keep them in this site's green. */
 .mk-c { background: radial-gradient(circle at 35% 30%, #2a7a3d, var(--fm-accent-deep, #0d3318)); box-shadow: 0 0 0 4px rgba(26, 92, 42, .16), 0 3px 8px rgba(20, 30, 10, .35); }
+
+/* Featured family photograph: lead image on the home page and The Golfing Brothers */
+.hero-intro:has(+ .featured-photo) {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.document-image.featured-photo {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+.document-image.featured-photo img {
+    width: 100%;
+    max-height: 52vh;
+    object-fit: contain;
+}
+.document-image .photo-credit {
+    display: block;
+    font-style: normal;
+    margin-top: 0.35rem;
+    font-size: 0.88rem;
+}
+.featured-lead {
+    font-family: var(--font-body);
+    font-size: 1.12rem;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0 auto 2.75rem;
+    max-width: 40rem;
+    color: var(--ink);
+}
