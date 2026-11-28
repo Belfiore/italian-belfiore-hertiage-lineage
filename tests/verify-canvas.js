@@ -86,6 +86,14 @@ const ok = (m) => console.log('  ok   ' + m);
         await page.waitForTimeout(400);
         if (errs.length) fail(`${w}px: page errors: ${errs.join(' | ')}`); else ok(`${w}px: no page errors`);
 
+        // a first visit asks who you are; the checks below run as "just looking" (Seb's tree)
+        const hasWho = !!(await page.$('#who'));   // engines before 1.1.0 have no picker
+        if (!hasWho) ok(`${w}px: engine without the "Who are you?" picker`);
+        else if (await page.isVisible('#who')) {
+            await page.click('#whoSkip'); await page.waitForTimeout(200);
+            if (await page.isVisible('#who')) fail(`${w}px: "Just looking" did not close the Who are you? picker`); else ok(`${w}px: first visit asks "Who are you?", and "Just looking" closes it`);
+        } else fail(`${w}px: a first visit should ask "Who are you?"`);
+
         const over = await page.evaluate(() => {
             const out = [];
             document.querySelectorAll('.card').forEach(c => {
@@ -212,6 +220,31 @@ const ok = (m) => console.log('  ok   ' + m);
             if (col.exp || !col.open || col.hash) errsP.push('Escape should return to the summary and clear the hash');
             if (errsP.length) errsP.forEach(e => fail(`${w}px panel: ${e}`)); else ok(`${w}px: story button stays visible, expands in place, arrows and previous/next work`);
             await page.keyboard.press('Escape');
+        }
+
+        // choosing who you are makes the cards, the panel and the stories speak to you
+        if (hasWho) {
+            const errsV = [];
+            await page.click('#youBtn'); await page.waitForTimeout(150);
+            await page.fill('#whoInput', 'gary bel'); await page.waitForTimeout(150);
+            const first = await page.$eval('#whoResults li', li => li.innerText);
+            if (!/Gary Belfore/.test(first)) errsV.push('typing "gary bel" did not offer Gary Belfore first');
+            await page.keyboard.press('Enter'); await page.waitForTimeout(500);
+            if (await page.isVisible('#who')) errsV.push('choosing a name did not close the picker');
+            if ((await page.textContent('#youName')).trim() !== 'Gary Belfore') errsV.push('"You are" does not show Gary Belfore');
+            const rel = await page.evaluate(() => document.querySelector('.card[data-id="leonardantonio-belfiore"] .c-rel').textContent);
+            if (rel !== 'Great-grandfather') errsV.push(`Leonardantonio's card says "${rel}" to Gary, expected Great-grandfather`);
+            if (!(await page.evaluate(() => document.querySelector('.card[data-id="gary-belfore"]').classList.contains('is-viewpoint')))) errsV.push("Gary's own card is not marked as you");
+            const story = await page.evaluate(() => window.__tree.personalize(window.__tree.D.byId['joseph-belfiore'].story, 'joseph-belfiore'));
+            if (!/Robert, your second cousin;/.test(story)) errsV.push("Joseph's story does not call Robert Gary's second cousin");
+            const self = await page.evaluate(() => { window.__tree.setViewer('robert-belfiore'); return window.__tree.personalize(window.__tree.D.byId['joseph-belfiore'].story, 'joseph-belfiore'); });
+            if (!/Robert \(you\);/.test(self)) errsV.push('read by Robert, his father\'s story should say "Robert (you)"');
+            const unlinked = await page.evaluate(() => { window.__tree.setViewer('gary-belfore'); return window.__tree.personalize(window.__tree.D.byId['patrick-hennessy'].disambiguator, 'patrick-hennessy'); });
+            if (!/Seb's great-grandfather/.test(unlinked)) errsV.push('a relationship with no link to the reader should keep its original words');
+            const overV = await page.evaluate(() => Array.from(document.querySelectorAll('.card .c-foot')).filter(n => n.scrollWidth > n.clientWidth + 1).map(n => n.closest('.card').dataset.id));
+            if (overV.length) errsV.push('card feet overflow with relationships shown: ' + overV.slice(0, 5).join(', '));
+            await page.evaluate(() => window.__tree.setViewer(null));
+            if (errsV.length) errsV.forEach(e => fail(`${w}px who are you: ${e}`)); else ok(`${w}px: choosing who you are turns the cards, panel and stories to you`);
         }
 
         if (SHOTS) {
