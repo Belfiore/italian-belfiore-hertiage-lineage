@@ -89,7 +89,9 @@
    "images": [],
    "streetView": null,
    "streetViewReason": null,
-   "events": []
+   "events": [],
+   "country_de": "Italien",
+   "significance_de": "Die Mutterkirche des Ortes, fotografiert für die Forschungsseite. Keine Familientaufe und keine Familienheirat in dieser Sammlung nennt dieses Gebäude."
   },
   {
    "id": "chiesa-annunziata-san-bartolomeo",
@@ -126,7 +128,10 @@
    "images": [],
    "streetView": null,
    "streetViewReason": null,
-   "events": []
+   "events": [],
+   "country_de": "Italien",
+   "significance_de": "Eine Kirche im Ort, fotografiert für die Forschungsseite. Kein Familienritus in dieser Sammlung nennt sie.",
+   "todayNote_de": "Ein Foto von 2024 auf der Forschungsseite zeigt die Kirche. Eine Kartensuche von 2026 beschriftet das Gebäude als Ex chiesa dell'Annunziata, deshalb ist hier nicht geklärt, ob es noch in Gebrauch ist."
   },
   {
    "id": "italy",
@@ -187,7 +192,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Italy",
-     "note": "Aged 28 in 1910, 36 in 1920, 48 in 1930 and 56 in 1940."
+     "note": "Aged 28 in 1910, 36 in 1920, 48 in 1930 and 56 in 1940.",
+     "summary_de": "Geboren. Italien",
+     "note_de": "1910 28 Jahre alt, 1920 36, 1930 48 und 1940 56."
     },
     {
      "id": "pe-italy-born-phyl-paternostro",
@@ -210,7 +217,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. Italien"
     },
     {
      "id": "pe-italy-born-joseph-donofrio",
@@ -238,9 +246,14 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Italy",
-     "note": "Aged 29 in January 1920, 40 in 1930 and 48 in 1940."
+     "note": "Aged 29 in January 1920, 40 in 1930 and 48 in 1940.",
+     "summary_de": "Geboren. Italien",
+     "note_de": "Im Januar 1920 29 Jahre alt, 1930 40 und 1940 48."
     }
-   ]
+   ],
+   "name_de": "Italien",
+   "country_de": "Italien",
+   "significance_de": "Mehrere Geburten und Überfahrten sind nur als Italien verzeichnet, der Ort wahrscheinlich oder noch offen."
   },
   {
    "id": "parish-san-bartolomeo",
@@ -302,7 +315,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "The parroco of San Bartolomeo certified that baptism was administered.",
-     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used."
+     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used.",
+     "summary_de": "Der parroco von San Bartolomeo bescheinigte, dass die Taufe gespendet wurde.",
+     "note_de": "Neu, Prüfung nötig. Der Rand nennt den parroco und das Sakrament. Der Tag der Taufe, getrennt vom Tag, an dem die Anzeige zurückkam, braucht eine zweite Lesung, deshalb wird nur das Jahr verwendet."
     },
     {
      "id": "pe-parish-san-bartolomeo-baptised-maria-filomena-circelli",
@@ -327,7 +342,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "The parroco of San Bartolomeo certified that baptism was administered.",
-     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used."
+     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used.",
+     "summary_de": "Der parroco von San Bartolomeo bescheinigte, dass die Taufe gespendet wurde.",
+     "note_de": "Neu, Prüfung nötig. Der Rand nennt den parroco und das Sakrament. Der Tag der Taufe, getrennt vom Tag, an dem die Anzeige zurückkam, braucht eine zweite Lesung, deshalb wird nur das Jahr verwendet."
     },
     {
      "id": "pe-parish-san-bartolomeo-baptised-maria-lucia-circelli",
@@ -352,7 +369,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "The parroco of San Bartolomeo certified that baptism was administered.",
-     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used."
+     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used.",
+     "summary_de": "Der parroco von San Bartolomeo bescheinigte, dass die Taufe gespendet wurde.",
+     "note_de": "Neu, Prüfung nötig. Der Rand nennt den parroco und das Sakrament. Der Tag der Taufe, getrennt vom Tag, an dem die Anzeige zurückkam, braucht eine zweite Lesung, deshalb wird nur das Jahr verwendet."
     },
     {
      "id": "pe-parish-san-bartolomeo-baptised-maria-donata-circelli",
@@ -377,9 +396,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "The parroco of San Bartolomeo certified that baptism was administered.",
-     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used."
+     "note": "New, needs review. The margin names the parroco and the sacrament. The day of the baptism, as distinct from the day the notice was returned, needs a second reading, so only the year is used.",
+     "summary_de": "Der parroco von San Bartolomeo bescheinigte, dass die Taufe gespendet wurde.",
+     "note_de": "Neu, Prüfung nötig. Der Rand nennt den parroco und das Sakrament. Der Tag der Taufe, getrennt vom Tag, an dem die Anzeige zurückkam, braucht eine zweite Lesung, deshalb wird nur das Jahr verwendet."
     }
-   ]
+   ],
+   "country_de": "Italien",
+   "significance_de": "Die Geburtsakten nennen den parroco von San Bartolomeo am Rand, wo er bescheinigte, dass die Taufe gespendet worden war. Die Akten nennen das Kirchengebäude nicht."
   },
   {
    "id": "port-of-naples",
@@ -445,7 +468,9 @@
      "summary": "Sailed from Naples on the SS Hindoustan. Listed as Belfiori Leonardo, 29, laborer, line 36.",
      "note": "The manifest is sworn at Naples on 1 December 1890. Last residence is by ditto marks and is read as S. Bartolomeo, the same reading already on his profile. Arrival at New York was 24 December 1890.",
      "voyageId": "hindoustan-1890",
-     "voyageEnd": "departure"
+     "voyageEnd": "departure",
+     "summary_de": "Ausgelaufen von Naples auf der SS Hindoustan. Eingetragen als Belfiori Leonardo, 29, Arbeiter, Zeile 36.",
+     "note_de": "Die Passagierliste ist am 1. Dezember 1890 in Naples beeidet. Der letzte Wohnsitz ist durch Wiederholungszeichen angegeben und wird als S. Bartolomeo gelesen, dieselbe Lesung wie schon auf seinem Profil. Die Ankunft in New York war am 24. Dezember 1890."
     },
     {
      "id": "pe-port-of-naples-sailed-salvatore-circelli",
@@ -477,7 +502,9 @@
      "summary": "Sailed from Naples on the SS Alsatia, 26 February 1898. Salvatore, 28, and Michele, 25, lines 8 and 9.",
      "note": "Last residence on the list is written S. Bartolomeo in Calore, a clerk's spelling of San Bartolomeo in Galdo.",
      "voyageId": "alsatia-1898",
-     "voyageEnd": "departure"
+     "voyageEnd": "departure",
+     "summary_de": "Ausgelaufen von Naples auf der SS Alsatia, 26. Februar 1898. Salvatore, 28, und Michele, 25, Zeilen 8 und 9.",
+     "note_de": "Der letzte Wohnsitz auf der Liste ist als S. Bartolomeo in Calore geschrieben, die Schreibweise eines Schreibers für San Bartolomeo in Galdo."
     },
     {
      "id": "pe-port-of-naples-sailed-salvatore-circelli-2",
@@ -506,9 +533,13 @@
      "summary": "Sailed from Naples on the SS Sant'Anna, 14 November 1911. The site reads the passenger on line 20 as Salvatore Circelli, 42, married.",
      "note": "Line 20 is not Antonio Belfiore's own line. Antonio Belfiore is the friend in New Rochelle whom the passenger was going to join. The wife named in S. Barto in Galdo is Maria Circelli, the relative left behind. The arrival port and the arrival date are not on this crop. This reading of the friend and wife columns needs review.",
      "voyageId": "santanna-1911",
-     "voyageEnd": "departure"
+     "voyageEnd": "departure",
+     "summary_de": "Ausgelaufen von Naples auf der SS Sant'Anna, 14. November 1911. Die Seite liest den Passagier in Zeile 20 als Salvatore Circelli, 42, verheiratet.",
+     "note_de": "Zeile 20 ist nicht Antonio Belfiores eigene Zeile. Antonio Belfiore ist der Freund in New Rochelle, zu dem der Passagier wollte. Die in S. Barto in Galdo genannte Ehefrau ist Maria Circelli, die zurückgelassene Verwandte. Ankunftshafen und Ankunftsdatum stehen nicht auf diesem Ausschnitt. Diese Lesung der Spalten für Freund und Ehefrau muss geprüft werden."
     }
-   ]
+   ],
+   "country_de": "Italien",
+   "significance_de": "Die Passagierlisten der Hindoustan, der Alsatia und der Sant'Anna sagen, die Schiffe seien von Naples ausgelaufen."
   },
   {
    "id": "san-bartolomeo-in-galdo",
@@ -578,7 +609,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Birth act 48 of 1827. His parents lived on Strada Borgo Nuovo."
+     "note": "Birth act 48 of 1827. His parents lived on Strada Borgo Nuovo.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien",
+     "note_de": "Geburtsakt 48 von 1827. Seine Eltern wohnten in der Strada Borgo Nuovo."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-marianna-mita",
@@ -605,7 +638,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo",
-     "note": "Birth act 49 of 1829. Her father lived on a street read as Strada Macchio."
+     "note": "Birth act 49 of 1829. Her father lived on a street read as Strada Macchio.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo",
+     "note_de": "Geburtsakt 49 von 1829. Ihr Vater wohnte in einer Straße, die als Strada Macchio gelesen wird."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-matteo-circelli",
@@ -632,7 +667,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Aged 21 in January 1855."
+     "note": "Aged 21 in January 1855.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien",
+     "note_de": "Im Januar 1855 21 Jahre alt."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-giuseppe-circelli",
@@ -659,7 +696,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Contadino (farmer)",
-     "note": null
+     "note": null,
+     "summary_de": "Contadino (Bauer)"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-died-donato-circelli",
@@ -684,7 +722,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. San Bartolomeo in Galdo, Italy",
-     "note": "Called \"the late Donato\" in his son's marriage act of 17 January 1850."
+     "note": "Called \"the late Donato\" in his son's marriage act of 17 January 1850.",
+     "summary_de": "Gestorben. San Bartolomeo in Galdo, Italien",
+     "note_de": "In der Heiratsakte seines Sohnes vom 17. Januar 1850 „der verstorbene Donato“ genannt."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-died-vincenza-minichilli",
@@ -709,7 +749,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-matteo-circelli",
@@ -734,7 +775,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Contadino (farmer)",
-     "note": null
+     "note": null,
+     "summary_de": "Contadino (Bauer)"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-lucia-circelli-1856",
@@ -761,7 +803,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-michele-circelli-1856",
@@ -788,7 +831,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-maria-filomena-circelli",
@@ -815,7 +859,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-maria-lucia-circelli",
@@ -842,7 +887,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-leonardantonio-belfiore",
@@ -871,7 +917,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Benevento, Italy",
-     "note": "The 1900 census gives September 1861; his age of 23 in January 1884 points to 1860."
+     "note": "The 1900 census gives September 1861; his age of 23 in January 1884 points to 1860.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Benevento, Italien",
+     "note_de": "Die Volkszählung von 1900 nennt September 1861; sein Alter von 23 Jahren im Januar 1884 deutet auf 1860."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-maria-donata-circelli",
@@ -898,7 +946,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Benevento, Italy",
-     "note": "Birth act 191 of 1863, found through the register's alphabetical index. Her father Giuseppe Circelli presented her; her mother was Rita Mansolino."
+     "note": "Birth act 191 of 1863, found through the register's alphabetical index. Her father Giuseppe Circelli presented her; her mother was Rita Mansolino.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Benevento, Italien",
+     "note_de": "Geburtsakt 191 von 1863, gefunden über das alphabetische Register. Ihr Vater Giuseppe Circelli stellte sie vor; ihre Mutter war Rita Mansolino."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-salvatore-circelli",
@@ -927,7 +977,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo",
-     "note": "Aged 28 in March 1898 and 42 in November 1911."
+     "note": "Aged 28 in March 1898 and 42 in November 1911.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo",
+     "note_de": "Im März 1898 28 Jahre alt und im November 1911 42."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-michele-circelli",
@@ -954,7 +1006,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo",
-     "note": "Aged 25 in March 1898."
+     "note": "Aged 25 in March 1898.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo",
+     "note_de": "Im März 1898 25 Jahre alt."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-leonardantonio-belfiore",
@@ -979,7 +1033,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-leonardantonio-belfiore",
@@ -1004,7 +1059,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Farm worker (contadino)",
-     "note": null
+     "note": null,
+     "summary_de": "Landarbeiter (contadino)"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-maria-donata-circelli",
@@ -1029,7 +1085,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Farm worker (contadina)",
-     "note": null
+     "note": null,
+     "summary_de": "Landarbeiterin (contadina)"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-giuseppe-circelli",
@@ -1057,7 +1114,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. San Bartolomeo in Galdo, Benevento, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. San Bartolomeo in Galdo, Benevento, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-died-giuseppe-circelli",
@@ -1082,7 +1140,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Died. San Bartolomeo in Galdo",
-     "note": "Recorded as \"il fu Giuseppe\" (the late Giuseppe) in January 1884."
+     "note": "Recorded as \"il fu Giuseppe\" (the late Giuseppe) in January 1884.",
+     "summary_de": "Gestorben. San Bartolomeo in Galdo",
+     "note_de": "Im Januar 1884 verzeichnet als „il fu Giuseppe“ (der verstorbene Giuseppe)."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-died-marianna-mita",
@@ -1107,7 +1167,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Died. San Bartolomeo in Galdo",
-     "note": "Recorded as \"la fu\" (the late) in January 1884."
+     "note": "Recorded as \"la fu\" (the late) in January 1884.",
+     "summary_de": "Gestorben. San Bartolomeo in Galdo",
+     "note_de": "Im Januar 1884 verzeichnet als „la fu“ (die Verstorbene)."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-mary-donofrio",
@@ -1134,7 +1196,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "The 1900 census gives October 1889; she was 6 on the 1896 passenger list."
+     "note": "The 1900 census gives October 1889; she was 6 on the 1896 passenger list.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien",
+     "note_de": "Die Volkszählung von 1900 nennt Oktober 1889; auf der Passagierliste von 1896 war sie 6."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-maria-donata-circelli",
@@ -1159,7 +1223,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-salvatore-circelli",
@@ -1187,7 +1252,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. San Bartolomeo in Galdo, Italy",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. San Bartolomeo in Galdo, Italien"
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-donato-circelli",
@@ -1210,7 +1276,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Living in San Bartolomeo in Galdo when his son Giuseppe was born in 1827.",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte 1827 in San Bartolomeo in Galdo, als sein Sohn Giuseppe geboren wurde."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-donato-circelli",
@@ -1233,7 +1300,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "A farm worker in San Bartolomeo in Galdo, 1827, as his son Giuseppe's birth act says.",
-     "note": null
+     "note": null,
+     "summary_de": "Landarbeiter in San Bartolomeo in Galdo, 1827, wie die Geburtsakte seines Sohnes Giuseppe sagt."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-vincenza-minichilli",
@@ -1256,7 +1324,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "A spinner (filatrice) in San Bartolomeo in Galdo, as her 1843 death act says.",
-     "note": null
+     "note": null,
+     "summary_de": "Spinnerin (filatrice) in San Bartolomeo in Galdo, wie ihre Sterbeakte von 1843 sagt."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-antonia-circelli",
@@ -1279,7 +1348,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born in San Bartolomeo in Galdo, Maria Donata's older sister.",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren in San Bartolomeo in Galdo, die ältere Schwester von Maria Donata."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-antonia-circelli",
@@ -1302,7 +1372,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "A farm worker in San Bartolomeo in Galdo in 1884, when she was the first witness at her nephew Michael's birth registration.",
-     "note": null
+     "note": null,
+     "summary_de": "Landarbeiterin in San Bartolomeo in Galdo im Jahr 1884, als sie bei der Geburtsanmeldung ihres Neffen Michael die erste Zeugin war."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-francesco-mansolino",
@@ -1326,7 +1397,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Living in San Bartolomeo in Galdo, 1829 to 1850.",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte in San Bartolomeo in Galdo, 1829 bis 1850."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-worked-francesco-mansolino",
@@ -1350,7 +1422,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "A farm worker in San Bartolomeo in Galdo, 1829 to 1850.",
-     "note": null
+     "note": null,
+     "summary_de": "Landarbeiter in San Bartolomeo in Galdo, 1829 bis 1850."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-lived-brigida-mansolino",
@@ -1374,7 +1447,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Living in San Bartolomeo in Galdo, 1829 to 1850.",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte in San Bartolomeo in Galdo, 1829 bis 1850."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-born-giovanniangelo-circelli",
@@ -1399,7 +1473,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. San Bartolomeo in Galdo, Italy",
-     "note": "Birth act 51 of 1830. His parents lived on Strada Borgo Nuovo."
+     "note": "Birth act 51 of 1830. His parents lived on Strada Borgo Nuovo.",
+     "summary_de": "Geboren. San Bartolomeo in Galdo, Italien",
+     "note_de": "Geburtsakt 51 von 1830. Seine Eltern wohnten in der Strada Borgo Nuovo."
     },
     {
      "id": "pe-san-bartolomeo-in-galdo-married-giovanniangelo-circelli",
@@ -1424,9 +1500,14 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Married Maria d'Andrea. San Bartolomeo in Galdo",
-     "note": "Marriage promise act 44 of 1855; church wedding the same day."
+     "note": "Marriage promise act 44 of 1855; church wedding the same day.",
+     "summary_de": "Heiratete Maria d'Andrea. San Bartolomeo in Galdo",
+     "note_de": "Akt des Eheversprechens 44 von 1855; kirchliche Trauung am selben Tag."
     }
-   ]
+   ],
+   "country_de": "Italien",
+   "blurb_de": "Eine Geschichte aus dem Ort, ohne belegte Familienverbindung. Im April 1884 hielt ein Hornist des 19th Infantry aus San Bartolomeo, Bartolomeo Circelli, in der Kaserne von Pizzofalcone in Naples einen Soldaten namens Misdea auf und wurde dafür mit einer Medaille ausgezeichnet. Im Februar 1885 wurde er zu Hause in einem Straßenkampf erschlagen. Ob er zu unseren Familien Circelli gehörte, ist nicht bekannt.",
+   "significance_de": "Das comune, in dem die Linien Circelli und Belfiore geboren, verheiratet und im stato civile eingetragen wurden."
   },
   {
    "id": "strada-borgo-san-bartolomeo",
@@ -1489,7 +1570,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "The 1860 twin birth acts place the father's domicile at strada Borgo.",
-     "note": "New, needs review. The profiles make Maria Filomena and Maria Lucia the children of Giuseppe Circelli and Anna Rita Mansolino, and they record the birthplace as the comune. The act's domicile line reads strada Borgo. The father's given name in that line should be read again before the street is treated as settled. Witness lines on Maria Donata's 1863 act may also read strada Borgo. That line is not entered as her address."
+     "note": "New, needs review. The profiles make Maria Filomena and Maria Lucia the children of Giuseppe Circelli and Anna Rita Mansolino, and they record the birthplace as the comune. The act's domicile line reads strada Borgo. The father's given name in that line should be read again before the street is treated as settled. Witness lines on Maria Donata's 1863 act may also read strada Borgo. That line is not entered as her address.",
+     "summary_de": "Die Zwillingsgeburtsakten von 1860 setzen den Wohnsitz des Vaters in die strada Borgo.",
+     "note_de": "Neu, Prüfung nötig. Die Profile führen Maria Filomena und Maria Lucia als Kinder von Giuseppe Circelli und Anna Rita Mansolino, und sie verzeichnen den Geburtsort als das comune. Die Wohnsitzzeile des Akts lautet strada Borgo. Der Vorname des Vaters in dieser Zeile sollte noch einmal gelesen werden, bevor die Straße als gesichert gilt. Zeugenzeilen auf dem Akt von Maria Donata von 1863 könnten ebenfalls strada Borgo lauten. Diese Zeile ist nicht als ihre Adresse eingetragen."
     },
     {
      "id": "pe-strada-borgo-san-bartolomeo-lived-antonia-circelli",
@@ -1516,9 +1599,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "In January 1851 Giuseppe Circelli, registering his daughter Antonia, gave his home as strada Borgo.",
-     "note": null
+     "note": null,
+     "summary_de": "Im Januar 1851 gab Giuseppe Circelli, als er seine Tochter Antonia anmeldete, seinen Wohnsitz als strada Borgo an."
     }
-   ]
+   ],
+   "country_de": "Italien",
+   "significance_de": "Die Straße der Familie Circelli: Giuseppe Circelli gab strada Borgo als seinen Wohnsitz an, als er 1851 Antonia anmeldete, und die Zwillingsakten von 1860 scheinen sie erneut zu nennen."
   },
   {
    "id": "town-hall-san-bartolomeo",
@@ -1583,7 +1669,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. San Bartolomeo in Galdo",
-     "note": "Named as husband and wife through their daughter's marriage act. The profile names the comune. The act was received by the stato civile at the casa comunale."
+     "note": "Named as husband and wife through their daughter's marriage act. The profile names the comune. The act was received by the stato civile at the casa comunale.",
+     "summary_de": "Heiratete. San Bartolomeo in Galdo",
+     "note_de": "Als Ehemann und Ehefrau genannt durch die Heiratsakte ihrer Tochter. Das Profil nennt das comune. Der Akt wurde vom stato civile in der casa comunale entgegengenommen."
     },
     {
      "id": "pe-town-hall-san-bartolomeo-married-leonardantonio-belfiore",
@@ -1611,9 +1699,13 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Married. Town hall, San Bartolomeo in Galdo",
-     "note": "Act no. 16. Banns read January 13 and 20."
+     "note": "Act no. 16. Banns read January 13 and 20.",
+     "summary_de": "Heiratete. Town hall, San Bartolomeo in Galdo",
+     "note_de": "Akt Nr. 16. Aufgebot verlesen am 13. und 20. Januar."
     }
-   ]
+   ],
+   "country_de": "Italien",
+   "significance_de": "Standesamtliche Heiraten wurden hier eingetragen, darunter Leonardantonio Belfiore und Maria Donata Circelli am 27. Januar 1884."
   },
   {
    "id": "conahy",
@@ -1678,9 +1770,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. Conahy, County Kilkenny",
-     "note": null
+     "note": null,
+     "summary_de": "Heiratete. Conahy, County Kilkenny"
     }
-   ]
+   ],
+   "country_de": "Irland",
+   "significance_de": "Patrick Hennessy wurde hier am 12. April 1874 getauft, Sohn von Patrick Hennessy und Kate Brennan, in der Diözese Ossory."
   },
   {
    "id": "county-kilkenny",
@@ -1741,9 +1836,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. County Kilkenny, Ireland",
-     "note": "A Conahy baptism of 12 April 1874 names the same parents as his 1914 marriage. A draft card gives 18 April 1877 and is kept aside."
+     "note": "A Conahy baptism of 12 April 1874 names the same parents as his 1914 marriage. A draft card gives 18 April 1877 and is kept aside.",
+     "summary_de": "Geboren. County Kilkenny, Irland",
+     "note_de": "Eine Taufe in Conahy vom 12. April 1874 nennt dieselben Eltern wie seine Heirat von 1914. Eine Musterungskarte nennt den 18. April 1877 und wird beiseitegestellt."
     }
-   ]
+   ],
+   "country_de": "Irland",
+   "significance_de": "Die Absichtserklärung von Patrick Hennessy von 1905 nennt County Kilkenny als seinen Geburtsort."
   },
   {
    "id": "101-huguenot-street",
@@ -1804,9 +1903,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 101 Huguenot Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 101 Huguenot Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1920 war Patrick Hennessy Eigentümer von 101 Huguenot Street, und er war Chauffeur. Er gab bei der Volkszählung Irisch als Muttersprache an."
   },
   {
    "id": "11-south-hollywood-avenue",
@@ -1863,9 +1965,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 11 South Hollywood Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 11 South Hollywood Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys letztes Zuhause. Er starb am 16. Februar 1972, als er hier wohnte."
   },
   {
    "id": "114-winyah-avenue",
@@ -1928,9 +2033,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 114 Winyah Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 114 Winyah Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Musterungskarte von Michael Kirtus Belfiore vom 12. September 1918 nennt dies als seinen Wohnsitz. Eine ältere Lesung als Murray Avenue war eine Fehllesung der Karte."
   },
   {
    "id": "1200-grayton",
@@ -1989,9 +2097,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 1200 Grayton",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 1200 Grayton"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Musterungskarte von Frank Belfore vom 16. Februar 1942 nennt 1200 Grayton, Grosse Pointe Park.",
+   "todayNote_de": "Die Musterungskarte schreibt Grayton und nennt keine Straßenart."
   },
   {
    "id": "13-lawton-street",
@@ -2065,9 +2177,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 13 Lawton Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 13 Lawton Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1900 findet hier Antonio, einen eingebürgerten Tagelöhner, und den Haushalt."
   },
   {
    "id": "141-chauncey-avenue",
@@ -2126,9 +2241,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Painter, Alfred A. Last, 141 Chauncey Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Maler, Alfred A. Last, 141 Chauncey Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1942 malte Michael für Alfred A. Last in der 141 Chauncey Avenue."
   },
   {
    "id": "1517-south-atlantic-avenue",
@@ -2189,9 +2307,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 1517 South Atlantic Avenue (mail to Box 3603)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 1517 South Atlantic Avenue (Post an Box 3603)"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Musterungskarte von Sammy vom 16. Februar 1942 nennt diesen Wohnsitz, mit Post an Box 3603."
   },
   {
    "id": "200-horton-avenue",
@@ -2250,9 +2371,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 200 Horton Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 200 Horton Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1900 findet hier Frances Towey, 2 Jahre alt, mit ihren Eltern James und Margaret Towey."
   },
   {
    "id": "200-merriweather",
@@ -2311,9 +2435,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Named as Frank's contact at 200 Merriweather.",
-     "note": "Joe's own card of about the same time says 276 Merriweather. Both numbers are published. They are not merged."
+     "note": "Joe's own card of about the same time says 276 Merriweather. Both numbers are published. They are not merged.",
+     "summary_de": "Genannt als Kontaktperson von Frank in der 200 Merriweather.",
+     "note_de": "Joes eigene Karte aus etwa derselben Zeit sagt 276 Merriweather. Beide Nummern sind veröffentlicht. Sie sind nicht zusammengeführt."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Franks Karte vom Februar 1942 nennt als seine Kontaktperson Joseph Belfiore in der 200 Merriweather. Joes eigene Karte sagt 276."
   },
   {
    "id": "216-hamilton-street",
@@ -2372,9 +2500,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 216 Hamilton Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 216 Hamilton Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Am 12. September 1918 nannte Michael sein Kind Dorothy Belfiore, von dieser Adresse, als seine nächste Angehörige."
   },
   {
    "id": "216-new-rochelle-1950",
@@ -2436,9 +2567,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "1950 census, house number 216, street not on this crop. Joseph, 27, field mechanic for a lighting company. Dorothy, 28.",
-     "note": "New, needs review. The saved image shows 216 on the population line. It does not show the street. Their young son is living and is not named here."
+     "note": "New, needs review. The saved image shows 216 on the population line. It does not show the street. Their young son is living and is not named here.",
+     "summary_de": "Volkszählung 1950, Hausnummer 216, Straße nicht auf diesem Ausschnitt. Joseph, 27, Außendienstmechaniker einer Beleuchtungsfirma. Dorothy, 28.",
+     "note_de": "Neu, Prüfung nötig. Das gespeicherte Bild zeigt 216 auf der Personenzeile. Es zeigt die Straße nicht. Ihr kleiner Sohn lebt und wird hier nicht genannt."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Zeilen der Volkszählung vom 10. April 1950 für Joseph C. Belfiore und Dorothy zeigen die Hausnummer 216. Die Straße steht nicht auf diesem Ausschnitt."
   },
   {
    "id": "217-jessamine-boulevard",
@@ -2496,7 +2631,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 217 Jessamine Boulevard",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 217 Jessamine Boulevard"
     },
     {
      "id": "pe-217-jessamine-boulevard-lived-sammy-belfore",
@@ -2520,9 +2656,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 217 Jessamine Boulevard",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 217 Jessamine Boulevard"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Louisa gab hier am 20. November 1948 die Feier zum vierten Geburtstag von Samuel M. Belfore Jr. Ein Verzeichnis führt Sam und Louisa, Golfprofi, in diesem Haus."
   },
   {
    "id": "23-lockwood-avenue",
@@ -2594,9 +2733,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 23 Lockwood Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 23 Lockwood Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1920 findet Joseph und Mary D'Onofrio zur Miete in der 23 Lockwood Avenue."
   },
   {
    "id": "251-west-maple-avenue",
@@ -2657,7 +2799,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. her mother's home, 251 West Maple Avenue (the notice says Detroit)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. das Haus ihrer Mutter, 251 West Maple Avenue (die Anzeige sagt Detroit)"
     },
     {
      "id": "pe-251-west-maple-avenue-married-sammy-belfore",
@@ -2683,7 +2826,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. Her mother's home, 251 West Maple Avenue",
-     "note": "Engagement notice of May 1930. The marriage ended around 1939."
+     "note": "Engagement notice of May 1930. The marriage ended around 1939.",
+     "summary_de": "Heiratete. Das Haus ihrer Mutter, 251 West Maple Avenue",
+     "note_de": "Verlobungsanzeige vom Mai 1930. Die Ehe endete um 1939."
     },
     {
      "id": "pe-251-west-maple-avenue-lived-virginia-hupp-2",
@@ -2708,9 +2853,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 251 West Maple Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 251 West Maple Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Das Haus der Mutter von Virginia Hupp. Die Hochzeit war hier für Ende Juni 1930 geplant.",
+   "todayNote_de": "Die Verlobungsanzeige vom Mai 1930 sagt Detroit. Sammys Karte von 1942 sagt Birmingham, Michigan, für Mrs. Virginia H. Belfore unter dieser Nummer."
   },
   {
    "id": "260-sidney-williams",
@@ -2769,9 +2918,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 260 (in Sidney Williams's household)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 260 (im Haushalt von Sidney Williams)"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1925 war Patrick Hennessy im Haushalt seines Arbeitgebers Sidney Williams unter der Nummer 260."
   },
   {
    "id": "276-merriweather",
@@ -2830,9 +2982,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 276 Merriweather",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 276 Merriweather"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Musterungskarte von Joe Belfore von 1942 nennt seinen Wohnsitz als 276 Merriweather, Grosse Pointe Farms.",
+   "todayNote_de": "Joes eigene Karte sagt 276. Franks Karte, aus demselben Monat, nennt für Joseph eine Kontaktadresse 200 Merriweather."
   },
   {
    "id": "276-grosse-pointe-woods",
@@ -2894,9 +3050,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. house number 276 (street not read)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Hausnummer 276 (Straße nicht gelesen)"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung vom 14. April 1950 führt Joseph F. Belfore, Ruth und Beulah M. Burdick unter der Hausnummer 276 in Grosse Pointe Woods."
   },
   {
    "id": "3-fair-oaks",
@@ -2957,7 +3116,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 3 Fair Oaks",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 3 Fair Oaks"
     },
     {
      "id": "pe-3-fair-oaks-lived-patrick-hennessy",
@@ -2986,9 +3146,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 3 Fair Oaks",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 3 Fair Oaks"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1930 findet Patrick und Annie in 3 Fair Oaks, mit Dorothy, 8 Jahre, eingetragen als Enkelin.",
+   "todayNote_de": "Die Volkszählung schreibt Fair Oaks und nennt keine Straßenart."
   },
   {
    "id": "324-seabreeze-boulevard",
@@ -3050,9 +3214,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Owner, the 19th Hole bar",
-     "note": null
+     "note": null,
+     "summary_de": "Eigentümer, die Bar 19th Hole"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy war hier Eigentümer der Bar 19th Hole. Ein Verzeichnis von 1951 führt Belfore's Sammy 19th Hole unter dieser Adresse."
   },
   {
    "id": "35-hallett-street",
@@ -3114,9 +3281,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 35 Hallett Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 35 Hallett Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1910 findet Angelo und Filomena Paternostro zur Miete in der 35 Hallett Street."
   },
   {
    "id": "39-albemarle",
@@ -3188,9 +3358,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 39 Albemarle",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 39 Albemarle"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von New York von 1925 setzt den Haushalt in die 39 Albemarle.",
+   "todayNote_de": "Die Volkszählung von 1925 schreibt 39 Albemarle und nennt keine Straßenart. Eine heutige Suche findet Albemarle Avenue. Diese Entsprechung ist durch den Wortlaut der Volkszählung nicht bestätigt."
   },
   {
    "id": "397-woodland-street",
@@ -3258,7 +3432,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 397 Woodland Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 397 Woodland Street"
     },
     {
      "id": "pe-397-woodland-street-lived-phyl-paternostro",
@@ -3288,9 +3463,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 397 Woodland Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 397 Woodland Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1930 gehörte den Paternostros die 397 Woodland Street, und 1940 waren sie noch dort."
   },
   {
    "id": "41-brook-street",
@@ -3369,7 +3547,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 41 Brook Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 41 Brook Street"
     },
     {
      "id": "pe-41-brook-street-lived-leonardantonio-belfiore-2",
@@ -3409,7 +3588,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 41 Brook Street (written Brooks Street)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 41 Brook Street (geschrieben Brooks Street)"
     },
     {
      "id": "pe-41-brook-street-lived-leonardantonio-belfiore-3",
@@ -3437,9 +3617,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 41 Brook Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 41 Brook Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Antonio betrieb hier einen Saloon. Die Volkszählung von 1915 schreibt Brooks Street. Sammys Musterungskarte von 1918 nennt 41 Brook."
   },
   {
    "id": "46-mechanic-street",
@@ -3504,9 +3687,13 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 46 Mechanic Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 46 Mechanic Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Michael starb 1952 als Bewohner der 46 Mechanic Street. Frances, unter derselben Adresse, war die Auskunftsperson.",
+   "todayNote_de": "Die Seite „Die Einwanderung“ sagt, die Straße sei in Memorial Highway umbenannt worden und das Haus um 1960 abgerissen worden. Dieselbe Seite sagt, die Familie habe hier 58 Jahre gelebt. Diese 58 Jahre sind die Zeit in New Rochelle auf Michaels Sterbeurkunde, nicht die Jahre in diesem Haus. Die Volkszählungen setzen den Haushalt in andere Straßen."
   },
   {
    "id": "47-oak-street",
@@ -3565,9 +3752,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 47 Oak Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 47 Oak Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1910 findet die Familie Towey in der 47 Oak Street."
   },
   {
    "id": "48-coligni-avenue",
@@ -3629,7 +3819,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 48 Coligni Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 48 Coligni Avenue"
     },
     {
      "id": "pe-48-coligni-avenue-lived-edward-belfiore",
@@ -3654,7 +3845,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 48 Coligni Avenue, about 1945",
-     "note": "His WWII draft card, filled out at age 24, gives this address."
+     "note": "His WWII draft card, filled out at age 24, gives this address.",
+     "summary_de": "Lebte. 48 Coligni Avenue, um 1945",
+     "note_de": "Seine Musterungskarte aus dem Zweiten Weltkrieg, ausgefüllt im Alter von 24 Jahren, nennt diese Adresse."
     },
     {
      "id": "pe-48-coligni-avenue-lived-joseph-belfiore",
@@ -3679,9 +3872,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 48 Coligni Avenue, about December 1941",
-     "note": "His WWII draft card, filled out at age 19, gives this address and names his mother Frances as his contact."
+     "note": "His WWII draft card, filled out at age 19, gives this address and names his mother Frances as his contact.",
+     "summary_de": "Lebte. 48 Coligni Avenue, um Dezember 1941",
+     "note_de": "Seine Musterungskarte aus dem Zweiten Weltkrieg, ausgefüllt im Alter von 19 Jahren, nennt diese Adresse und gibt seine Mutter Frances als Kontaktperson an."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Michaels Musterungskarte vom April 1942 schreibt Coligini Avenue. Die Straße heißt Coligni Avenue."
   },
   {
    "id": "488-north-avenue",
@@ -3747,9 +3944,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. 488 North Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 488 North Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1940 findet Michael, Frances, Edward und Joseph in der 488 North Avenue."
   },
   {
    "id": "52-brook-street",
@@ -3817,9 +4017,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 52 Brook Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 52 Brook Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1930 waren Michael, Frances, Dorothy, Edward und Joseph in der 52 Brook Street."
   },
   {
    "id": "54-brook-street",
@@ -3899,9 +4102,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 54 Brook Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 54 Brook Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1920 setzt den Haushalt von Antonio und Marie in die 54 Brook Street."
   },
   {
    "id": "55-potter-avenue",
@@ -3973,9 +4179,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 55 Potter Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 55 Potter Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1930 gehörte die 55 Potter Avenue Antonio und Marie. Die Volkszählung setzt den Wert des Hauses mit 35.000 Dollar an."
   },
   {
    "id": "8-banks-street",
@@ -4038,9 +4247,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Painter, Witmark (reading uncertain), 8 Banks Street",
-     "note": null
+     "note": null,
+     "summary_de": "Maler, Witmark (Lesung unsicher), 8 Banks Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Michaels Karte von 1918 nennt seinen Arbeitgeber, der Name liest sich als Witmark oder Wetmark, in der 8 Banks Street. Eine ältere Lesung als Dante Street war eine Fehllesung."
   },
   {
    "id": "91-buckingham-road",
@@ -4112,9 +4324,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 91 Buckingham Road",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. 91 Buckingham Road"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1930 gehörte die 91 Buckingham Road Joseph und Mary, im Wert von 11.500 Dollar."
   },
   {
    "id": "atlantis",
@@ -4171,9 +4386,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Atlantis, Florida",
-     "note": "Also remembered or indexed: Jan 1, 2022. The record used here is the profile's death place."
+     "note": "Also remembered or indexed: Jan 1, 2022. The record used here is the profile's death place.",
+     "summary_de": "Gestorben. Atlantis, Florida",
+     "note_de": "Auch erinnert oder verzeichnet: 1. Jan. 2022. Die hier verwendete Angabe ist der Sterbeort des Profils."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Nachruf auf Patricia Hupp Fleming, wie er auf ihrem Profil verwendet wird, setzt ihren Tod nach Atlantis. Die Seite „Die Golfbrüder“ sagt Birmingham."
   },
   {
    "id": "babylon",
@@ -4230,9 +4449,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived most of her life in Babylon, Long Island.",
-     "note": "The 1950 census still finds her in New Rochelle, so the Babylon years are not pushed back before that census."
+     "note": "The 1950 census still finds her in New Rochelle, so the Babylon years are not pushed back before that census.",
+     "summary_de": "Lebte den größten Teil ihres Lebens in Babylon, Long Island.",
+     "note_de": "Die Volkszählung von 1950 findet sie noch in New Rochelle, deshalb werden die Jahre in Babylon nicht vor diese Volkszählung zurückdatiert."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Nachruf auf Dorothy Hennessey sagt, sie habe den größten Teil ihres Lebens in Babylon gelebt und für die Stadt gearbeitet."
   },
   {
    "id": "beech-street-yonkers",
@@ -4292,9 +4515,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Beech Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Beech Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1940 setzt den Haushalt D'Onofrio in die Beech Street. Keine Hausnummer wurde ins Profil übernommen."
   },
   {
    "id": "birmingham-michigan",
@@ -4356,9 +4582,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Birmingham, Michigan",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Birmingham, Michigan"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Adresse von Virginia Hupp von 1942 und die Beisetzung von Patricia Fleming liegen in Birmingham."
   },
   {
    "id": "blessed-sacrament",
@@ -4398,7 +4627,9 @@
    "images": [],
    "streetView": null,
    "streetViewReason": null,
-   "events": []
+   "events": [],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Seite „Die Einwanderung“ nennt diese Steinkirche, 1897 fertiggestellt, als Pfarrei für die wachsende italienische Bevölkerung. Keine Taufe und keine Heirat in dieser Sammlung ist bisher damit verbunden. Friedhofsanfragen zu Holy Sepulchre wurden an diese Adresse verwiesen."
   },
   {
    "id": "bridgeport",
@@ -4459,9 +4690,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Railroad foreman",
-     "note": null
+     "note": null,
+     "summary_de": "Vorarbeiter bei der Eisenbahn"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Dorothy Belfiore, Michaels Tochter, lebte 1918 in Bridgeport, und die Paternostros waren 1910 dort."
   },
   {
    "id": "cedar-hill-cemetery-birmingham",
@@ -4519,9 +4753,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Buried. Cedar Hill Cemetery, Birmingham, Michigan",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben. Cedar Hill Cemetery, Birmingham, Michigan"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Patricia Hupp Fleming wurde auf dem Cedar Hill Cemetery in Birmingham begraben."
   },
   {
    "id": "cedar-hill-memory-gardens",
@@ -4579,9 +4816,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Buried. Cedar Hill Memory Gardens",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben. Cedar Hill Memory Gardens"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys Nachruf aus Daytona sagt, er sei auf dem Cedar Hill Memory Gardens begraben worden, nach einem Requiem in der Our Lady of Lourdes."
   },
   {
    "id": "cleveland-avenue-new-rochelle",
@@ -4640,7 +4880,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Cleveland Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Cleveland Avenue"
     },
     {
      "id": "pe-cleveland-avenue-new-rochelle-worked-annie-hussey-hennessy",
@@ -4665,9 +4906,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Bookkeeper in a grocery",
-     "note": null
+     "note": null,
+     "summary_de": "Buchhalterin in einem Lebensmittelgeschäft"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1910 führte Annie Hussey die Bücher eines Lebensmittelgeschäfts in der Cleveland Avenue, im Chapman-Haushalt ihrer Schwester."
   },
   {
    "id": "connecticut",
@@ -4730,7 +4974,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Connecticut",
-     "note": "Aged 3 in April 1910 and 13 in January 1920."
+     "note": "Aged 3 in April 1910 and 13 in January 1920.",
+     "summary_de": "Geboren. Connecticut",
+     "note_de": "Im April 1910 3 Jahre alt und im Januar 1920 13."
     },
     {
      "id": "pe-connecticut-born-dominick-paternostro",
@@ -4759,7 +5005,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Connecticut",
-     "note": "An infant in April 1910, 11 in January 1920 and 20 in April 1930."
+     "note": "An infant in April 1910, 11 in January 1920 and 20 in April 1930.",
+     "summary_de": "Geboren. Connecticut",
+     "note_de": "Im April 1910 ein Säugling, im Januar 1920 11 Jahre und im April 1930 20 Jahre alt."
     },
     {
      "id": "pe-connecticut-born-anthony-paternostro",
@@ -4786,7 +5034,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Connecticut",
-     "note": "Aged 7 in 1920 and 16 in 1930."
+     "note": "Aged 7 in 1920 and 16 in 1930.",
+     "summary_de": "Geboren. Connecticut",
+     "note_de": "1920 7 Jahre alt und 1930 16."
     },
     {
      "id": "pe-connecticut-born-carl-paternostro",
@@ -4813,9 +5063,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Connecticut",
-     "note": "Aged 4 in 1920 and 14 in 1930."
+     "note": "Aged 4 in 1920 and 14 in 1930.",
+     "summary_de": "Geboren. Connecticut",
+     "note_de": "1920 4 Jahre alt und 1930 14."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Geburten, die nur als Connecticut verzeichnet sind, ohne Stadt."
   },
   {
    "id": "country-club-of-detroit",
@@ -4880,7 +5134,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Head golf professional and golf shop operator, Country Club of Detroit",
-     "note": null
+     "note": null,
+     "summary_de": "Head-Golfprofessional und Betreiber des Golfshops, Country Club of Detroit"
     },
     {
      "id": "pe-country-club-of-detroit-photographed-joe-belfore",
@@ -4907,7 +5162,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Signed portrait in Golfing Aids, Detroit, 4 April 1940.",
-     "note": null
+     "note": null,
+     "summary_de": "Signiertes Porträt in Golfing Aids, Detroit, 4. April 1940."
     },
     {
      "id": "pe-country-club-of-detroit-worked-ruth-belfore",
@@ -4934,7 +5190,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Kept the golf shop open after Joe's death, Country Club of Detroit",
-     "note": null
+     "note": null,
+     "summary_de": "Führte den Golfshop nach Joes Tod weiter, Country Club of Detroit"
     },
     {
      "id": "pe-country-club-of-detroit-celebrated-david-belfore",
@@ -4964,9 +5221,13 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "The club granted David and Jeffery two years of personal golfing privileges after Joe's death.",
-     "note": null
+     "note": null,
+     "summary_de": "Der Club gewährte David und Jeffery nach Joes Tod zwei Jahre persönliches Spielrecht."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joe Belfore war hier etwa 30 Jahre Head-Professional. Der Vorstand tagte am 29. Oktober 1963 nach seinem Tod.",
+   "todayNote_de": "Joes Karte von 1942 nennt 330 Country Club Drive. Eine Kartensuche von 2026 setzt das Clubhaus auf 220 Country Club Drive. Die überlieferte Adresse bleibt 330. Die neue Nummer muss geprüft werden, bevor der Club als neu nummeriert gilt."
   },
   {
    "id": "davenport-avenue",
@@ -5028,9 +5289,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Davenport Avenue",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Davenport Avenue"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys Nachruf von 1972 setzt Mollie und Anthony Drew in die Davenport Avenue. Eine Hausnummer ist nicht genannt."
   },
   {
    "id": "daytona-beach-country-club",
@@ -5090,9 +5354,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Head professional, Daytona Beach Country Club",
-     "note": null
+     "note": null,
+     "summary_de": "Head-Professional, Daytona Beach Country Club"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy war hier Head-Professional, und 1946 organisierte er eine Exhibition mit Demaret, Hogan, Snead und Nelson."
   },
   {
    "id": "daytona-beach",
@@ -5152,7 +5419,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Daytona Beach, Florida (winter)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Daytona Beach, Florida (Winter)"
     },
     {
      "id": "pe-daytona-beach-born-samuel-belfore-jr",
@@ -5175,7 +5443,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Daytona Beach, Florida (probably)",
-     "note": "He turned four on November 20, 1948. Earlier versions of the site gave about 1935."
+     "note": "He turned four on November 20, 1948. Earlier versions of the site gave about 1935.",
+     "summary_de": "Geboren. Daytona Beach, Florida (wahrscheinlich)",
+     "note_de": "Er wurde am 20. November 1948 vier Jahre alt. Frühere Fassungen der Seite nannten etwa 1935."
     },
     {
      "id": "pe-daytona-beach-lived-frank-belfore",
@@ -5198,7 +5468,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Daytona Beach, Florida",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Daytona Beach, Florida"
     },
     {
      "id": "pe-daytona-beach-lived-samuel-belfore-jr",
@@ -5222,7 +5493,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Daytona Beach, Florida",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Daytona Beach, Florida"
     },
     {
      "id": "pe-daytona-beach-lived-sammy-belfore",
@@ -5249,7 +5521,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "1950 census in Daytona Beach. Sammy, proprietor of a cocktail lounge, with Louisa and Samuel M., age 5. Street not on this crop.",
-     "note": null
+     "note": null,
+     "summary_de": "Volkszählung 1950 in Daytona Beach. Sammy, Inhaber einer Cocktail-Lounge, mit Louisa und Samuel M., 5 Jahre. Straße nicht auf diesem Ausschnitt."
     },
     {
      "id": "pe-daytona-beach-worked-sammy-belfore",
@@ -5274,7 +5547,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Proprietor of a cocktail lounge.",
-     "note": "The census does not name the lounge. It may be the 19th Hole, which a 1951 directory puts at 324 Seabreeze Boulevard, but this line does not say so."
+     "note": "The census does not name the lounge. It may be the 19th Hole, which a 1951 directory puts at 324 Seabreeze Boulevard, but this line does not say so.",
+     "summary_de": "Inhaber einer Cocktail-Lounge.",
+     "note_de": "Die Volkszählung nennt die Lounge nicht. Es könnte die 19th Hole sein, die ein Verzeichnis von 1951 in die 324 Seabreeze Boulevard setzt, aber diese Zeile sagt das nicht."
     },
     {
      "id": "pe-daytona-beach-died-frank-belfore",
@@ -5300,9 +5575,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Daytona Beach, Florida",
-     "note": "His death before 1972 is confirmed by Sammy's obituary; the exact date comes from earlier research."
+     "note": "His death before 1972 is confirmed by Sammy's obituary; the exact date comes from earlier research.",
+     "summary_de": "Gestorben. Daytona Beach, Florida",
+     "note_de": "Sein Tod vor 1972 ist durch Sammys Nachruf bestätigt; das genaue Datum stammt aus früherer Forschung."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy, Frank und Joe arbeiteten hier die Wintergolfsaison, und Sammy lebte bis zu seinem Tod in der Stadt."
   },
   {
    "id": "daytona-highlands",
@@ -5362,7 +5641,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Golf professional, Daytona Highlands",
-     "note": null
+     "note": null,
+     "summary_de": "Golfprofessional, Daytona Highlands"
     },
     {
      "id": "pe-daytona-highlands-worked-sammy-belfore",
@@ -5388,9 +5668,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Professional, Daytona Highlands",
-     "note": null
+     "note": null,
+     "summary_de": "Professional, Daytona Highlands"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joe und Sammy waren im Januar 1929 Professionals von Daytona Highlands beim Turnier in Mount Plymouth."
   },
   {
    "id": "dean-street-mamaroneck",
@@ -5454,9 +5737,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Dean Street",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Dean Street"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "1900 war Annie Hussey in der Dean Street mit ihrer Mutter Maria und ihren Geschwistern."
   },
   {
    "id": "detroit",
@@ -5517,9 +5803,13 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Signed a copy of Golfing Aids in Detroit.",
-     "note": "The title page calls him professional at the Country Club of Detroit. The signature names Detroit."
+     "note": "The title page calls him professional at the Country Club of Detroit. The signature names Detroit.",
+     "summary_de": "Signierte ein Exemplar von Golfing Aids in Detroit.",
+     "note_de": "Die Titelseite nennt ihn Professional am Country Club of Detroit. Die Unterschrift nennt Detroit."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joe signierte 1940 Golfing Aids in Detroit, und eine Anzeige setzt das Haus der Mutter von Virginia Hupp nach Detroit."
   },
   {
    "id": "duluth",
@@ -5577,7 +5867,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Duluth, Minnesota (summers)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Duluth, Minnesota (Sommer)"
     },
     {
      "id": "pe-duluth-born-patricia-hupp-fleming",
@@ -5600,9 +5891,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Duluth, Minnesota",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. Duluth, Minnesota"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy arbeitete die Sommer über im Ridgeview Country Club in Duluth, und Patricia Hupp Fleming wurde dort geboren."
   },
   {
    "id": "goodman-place-hartford",
@@ -5674,9 +5968,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Goodman Place",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Goodman Place"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählung von 1920 setzt die Familie Paternostro nach Goodman Place. Die Hausnummer steht nicht in der gespeicherten Lesung."
   },
   {
    "id": "grosse-pointe-area",
@@ -5733,9 +6030,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Died. Grosse Pointe area, Michigan",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Grosse Pointe area, Michigan"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Tod von Judith Ann Sattelmeier im Jahr 2023 ist nur als Grosse Pointe area verzeichnet."
   },
   {
    "id": "grosse-pointe",
@@ -5796,7 +6096,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Grosse Pointe, Michigan",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Grosse Pointe, Michigan"
     },
     {
      "id": "pe-grosse-pointe-lived-joe-belfore",
@@ -5823,9 +6124,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Grosse Pointe, Michigan",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Grosse Pointe, Michigan"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Nachruf auf Joe Belfore und die Clubprotokolle setzen ihn bis 1963 nach Grosse Pointe."
   },
   {
    "id": "halifax-hospital",
@@ -5885,9 +6189,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Died. Halifax District Hospital, Daytona Beach, Florida",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Halifax District Hospital, Daytona Beach, Florida"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy Belfore starb hier in den frühen Stunden des 16. Februar 1972, nach einem Schlaganfall."
   },
   {
    "id": "hartford",
@@ -5948,7 +6255,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Hod carrier",
-     "note": null
+     "note": null,
+     "summary_de": "Mörtelträger"
     },
     {
      "id": "pe-hartford-worked-dominick-paternostro",
@@ -5973,7 +6281,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Apprentice carpenter",
-     "note": null
+     "note": null,
+     "summary_de": "Zimmermannslehrling"
     },
     {
      "id": "pe-hartford-worked-dorothy-paternostro",
@@ -5998,7 +6307,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Insurance clerk",
-     "note": null
+     "note": null,
+     "summary_de": "Versicherungsangestellte"
     },
     {
      "id": "pe-hartford-worked-angelo-paternostro-2",
@@ -6025,7 +6335,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Building construction foreman",
-     "note": null
+     "note": null,
+     "summary_de": "Bauführer"
     },
     {
      "id": "pe-hartford-worked-dorothy-paternostro-2",
@@ -6050,7 +6361,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Office clerk",
-     "note": null
+     "note": null,
+     "summary_de": "Büroangestellte"
     },
     {
      "id": "pe-hartford-died-angelo-paternostro",
@@ -6074,7 +6386,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Hartford, Connecticut",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Hartford, Connecticut"
     },
     {
      "id": "pe-hartford-lived-phyl-paternostro",
@@ -6102,7 +6415,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Hartford, Connecticut",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Hartford, Connecticut"
     },
     {
      "id": "pe-hartford-died-phyl-paternostro",
@@ -6126,9 +6440,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Hartford, Connecticut",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Hartford, Connecticut"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Phyl und Angelo Paternostro zogen ab 1920 ihre Familie in Hartford groß."
   },
   {
    "id": "hollywood-florida",
@@ -6192,9 +6509,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Hollywood, Florida",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Hollywood, Florida"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys Nachruf von 1972 setzt Mary und Joseph D'Onofrio nach Hollywood, Florida."
   },
   {
    "id": "holy-sepulchre",
@@ -6254,7 +6574,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Buried. Holy Sepulchre Cemetery, New Rochelle, January 19, 1952",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben. Holy Sepulchre Cemetery, New Rochelle, 19. Januar 1952"
     },
     {
      "id": "pe-holy-sepulchre-buried-francis-hennessy",
@@ -6277,7 +6598,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery."
     },
     {
      "id": "pe-holy-sepulchre-buried-patricia-dillon",
@@ -6300,7 +6622,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery."
     },
     {
      "id": "pe-holy-sepulchre-buried-patricia-drew-hendrie",
@@ -6323,7 +6646,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried. Holy Sepulchre Cemetery, New Rochelle",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben. Holy Sepulchre Cemetery, New Rochelle"
     },
     {
      "id": "pe-holy-sepulchre-buried-maria-donata-circelli",
@@ -6346,7 +6670,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": "Find a Grave memorial 328410140 (Marie D. Belfiore). Burial date not given."
+     "note": "Find a Grave memorial 328410140 (Marie D. Belfiore). Burial date not given.",
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery.",
+     "note_de": "Find a Grave memorial 328410140 (Marie D. Belfiore). Beisetzungsdatum nicht angegeben."
     },
     {
      "id": "pe-holy-sepulchre-buried-leonardantonio-belfiore",
@@ -6369,7 +6695,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": "Find a Grave memorial 328799813 (Anthony Belfiore, died 11 July 1938). Burial date not given."
+     "note": "Find a Grave memorial 328799813 (Anthony Belfiore, died 11 July 1938). Burial date not given.",
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery.",
+     "note_de": "Find a Grave memorial 328799813 (Anthony Belfiore, gestorben am 11. Juli 1938). Beisetzungsdatum nicht angegeben."
     },
     {
      "id": "pe-holy-sepulchre-buried-frances-towey",
@@ -6392,7 +6720,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": "Find a Grave memorial 281145747. Burial date not given."
+     "note": "Find a Grave memorial 281145747. Burial date not given.",
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery.",
+     "note_de": "Find a Grave memorial 281145747. Beisetzungsdatum nicht angegeben."
     },
     {
      "id": "pe-holy-sepulchre-buried-james-towey",
@@ -6415,7 +6745,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": "Find a Grave memorial 281144260."
+     "note": "Find a Grave memorial 281144260.",
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery.",
+     "note_de": "Find a Grave memorial 281144260."
     },
     {
      "id": "pe-holy-sepulchre-buried-margaret-towey",
@@ -6438,9 +6770,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried at Holy Sepulchre Cemetery.",
-     "note": "Find a Grave memorial 281144407."
+     "note": "Find a Grave memorial 281144407.",
+     "summary_de": "Begraben auf dem Holy Sepulchre Cemetery.",
+     "note_de": "Find a Grave memorial 281144407."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Michael Belfiore wurde hier am 19. Januar 1952 begraben. Auch Patricia Drew Hendrie und Francis Hennessy ruhen hier. Die Seite „Die Einwanderung“ nennt 95 Kings Highway."
   },
   {
    "id": "kercheval-conner",
@@ -6499,9 +6835,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Worker (employer written like \"Budd Wheel\")",
-     "note": null
+     "note": null,
+     "summary_de": "Arbeiter (Arbeitgeber geschrieben wie „Budd Wheel“)"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Franks Karte von 1942 nennt als Arbeitsstätte Kercheval near Conner. Der Arbeitgebername liest sich wie Budd Wheel."
   },
   {
    "id": "manhattan-college",
@@ -6558,9 +6897,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Studied electrical engineering at Manhattan College.",
-     "note": null
+     "note": null,
+     "summary_de": "Studierte Elektrotechnik am Manhattan College."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joseph F. Racine studierte Elektrotechnik am Manhattan College."
   },
   {
    "id": "michigan",
@@ -6622,9 +6964,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Michigan (probably)",
-     "note": "Dead by October 29, 1963, after a long illness (club minutes). Obituaries are indexed in Detroit papers on 23 and 25 October 1963 and in New Rochelle on 23 October. Golfdom reported his death in January 1964. Also remembered or indexed: 1963. The record used here is the profile's death place."
+     "note": "Dead by October 29, 1963, after a long illness (club minutes). Obituaries are indexed in Detroit papers on 23 and 25 October 1963 and in New Rochelle on 23 October. Golfdom reported his death in January 1964. Also remembered or indexed: 1963. The record used here is the profile's death place.",
+     "summary_de": "Gestorben. Michigan (wahrscheinlich)",
+     "note_de": "Spätestens am 29. Oktober 1963 verstorben, nach langer Krankheit (Clubprotokolle). Nachrufe sind in Detroit-Zeitungen am 23. und 25. Oktober 1963 und in New Rochelle am 23. Oktober verzeichnet. Golfdom meldete seinen Tod im Januar 1964. Auch erinnert oder verzeichnet: 1963. Die hier verwendete Angabe ist der Sterbeort des Profils."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Tod von Joe Belfore im Oktober 1963 ist nur als Michigan verzeichnet, wahrscheinlich."
   },
   {
    "id": "millburn",
@@ -6683,9 +7029,12 @@
      "confidence": "family tradition",
      "familyStatement": true,
      "summary": "Lived. Millburn, New Jersey",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Millburn, New Jersey"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Familie D'Onofrio erinnert Millburn als Familienwohnsitz. Für dieses Haus liegt kein Volkszählungsjahr in der Sammlung."
   },
   {
    "id": "minnesota",
@@ -6744,9 +7093,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Birthplace Minnesota, from the 1950 census.",
-     "note": null
+     "note": null,
+     "summary_de": "Geburtsort Minnesota, nach der Volkszählung von 1950."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Volkszählungszeile von Ruth Belfore von 1950 nennt Minnesota als ihren Geburtsort."
   },
   {
    "id": "monroe-new-york",
@@ -6805,7 +7157,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived in Monroe for almost 60 years.",
-     "note": "The obituary says almost 60 years. The start year is not a recorded date."
+     "note": "The obituary says almost 60 years. The start year is not a recorded date.",
+     "summary_de": "Lebte fast 60 Jahre in Monroe.",
+     "note_de": "Der Nachruf sagt fast 60 Jahre. Das Anfangsjahr ist kein belegtes Datum."
     },
     {
      "id": "pe-monroe-new-york-died-patricia-dillon",
@@ -6828,9 +7182,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Monroe, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Monroe, New York"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Patricia Dillon lebte fast 60 Jahre in Monroe und starb dort."
   },
   {
    "id": "morris-township",
@@ -6888,9 +7245,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Morris Township, New Jersey",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Morris Township, New Jersey"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Dorothy Belfiore, später Dorothy Florence Racine, starb am 25. September 2004 in Morris Township."
   },
   {
    "id": "mount-plymouth",
@@ -6952,9 +7312,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Daytona Highlands professionals at the Mount Plymouth tournament.",
-     "note": null
+     "note": null,
+     "summary_de": "Professionals von Daytona Highlands beim Turnier in Mount Plymouth."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Am 7. Januar 1929 führte die Daytona-Zeitung Joe und Sammy beim Turnier in Mount Plymouth auf."
   },
   {
    "id": "new-jersey",
@@ -7015,7 +7378,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. New Jersey",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. New Jersey"
     },
     {
      "id": "pe-new-jersey-born-leonard-donofrio",
@@ -7043,7 +7407,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Jersey",
-     "note": "Aged 6 in January 1920, 17 in 1930 and 26 in 1940."
+     "note": "Aged 6 in January 1920, 17 in 1930 and 26 in 1940.",
+     "summary_de": "Geboren. New Jersey",
+     "note_de": "Im Januar 1920 6 Jahre alt, 1930 17 und 1940 26."
     },
     {
      "id": "pe-new-jersey-born-angelina-donofrio",
@@ -7070,7 +7436,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Jersey",
-     "note": "Aged 4 in January 1920 and 15 in 1930."
+     "note": "Aged 4 in January 1920 and 15 in 1930.",
+     "summary_de": "Geboren. New Jersey",
+     "note_de": "Im Januar 1920 4 Jahre alt und 1930 15."
     },
     {
      "id": "pe-new-jersey-died-joseph-f-racine",
@@ -7093,9 +7461,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Jersey",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Jersey"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die frühen Geburten der Kinder D'Onofrio und der Tod von Joseph F. Racine sind nur als New Jersey verzeichnet."
   },
   {
    "id": "new-london",
@@ -7156,9 +7527,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Registered before Local Exemption Board Division No. 9 in New London. The card is stamped for the Local Board of New Rochelle, and his home on the card is 41 Brook Street.",
-     "note": null
+     "note": null,
+     "summary_de": "Gemeldet vor dem Local Exemption Board Division No. 9 in New London. Die Karte ist für das Local Board of New Rochelle gestempelt, und sein Wohnsitz auf der Karte ist 41 Brook Street."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys Musterungskarte von 1918 wurde in New London gestempelt, und 1942 arbeitete er dort in einem Club."
   },
   {
    "id": "new-rochelle-high-school",
@@ -7219,9 +7593,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Graduated from New Rochelle High School.",
-     "note": null
+     "note": null,
+     "summary_de": "Abschluss an der New Rochelle High School."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Mollie Drew machte 1926 ihren Abschluss an der New Rochelle High School. Ihre Seite steht in The Rochellean."
   },
   {
    "id": "new-rochelle-hospital",
@@ -7278,9 +7655,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Died. New Rochelle Hospital, New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle Hospital, New Rochelle, New York"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Michael Kirtus Belfiore starb hier am 16. Januar 1952."
   },
   {
    "id": "new-rochelle",
@@ -7343,7 +7723,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-lived-leonardantonio-belfiore",
@@ -7371,7 +7752,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-born-frank-belfore",
@@ -7398,7 +7780,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "His 1942 draft card gives 31 October 1897; the 1900 census and an index give November 1897."
+     "note": "His 1942 draft card gives 31 October 1897; the 1900 census and an index give November 1897.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "Seine Musterungskarte von 1942 nennt den 31. Oktober 1897; die Volkszählung von 1900 und ein Index nennen November 1897."
     },
     {
      "id": "pe-new-rochelle-lived-sammy-belfore",
@@ -7424,7 +7808,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. New Rochelle, NY",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. New Rochelle, NY"
     },
     {
      "id": "pe-new-rochelle-born-sammy-belfore",
@@ -7449,7 +7834,9 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "Daytona papers gave his age as 62 in May 1960 and 73 in February 1972, which would put his birth around 1898."
+     "note": "Daytona papers gave his age as 62 in May 1960 and 73 in February 1972, which would put his birth around 1898.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "Daytona-Zeitungen nannten sein Alter mit 62 im Mai 1960 und mit 73 im Februar 1972, was die Geburt auf etwa 1898 legen würde."
     },
     {
      "id": "pe-new-rochelle-worked-leonardantonio-belfiore",
@@ -7474,7 +7861,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Day laborer",
-     "note": null
+     "note": null,
+     "summary_de": "Tagelöhner"
     },
     {
      "id": "pe-new-rochelle-born-rose-belfiore",
@@ -7500,7 +7888,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "Social Security records give 3 June 1900; she was 5 in the 1905 census."
+     "note": "Social Security records give 3 June 1900; she was 5 in the 1905 census.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "Die Unterlagen der Social Security nennen den 3. Juni 1900; in der Volkszählung von 1905 war sie 5."
     },
     {
      "id": "pe-new-rochelle-born-caroline-belfiore",
@@ -7523,7 +7913,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-born-joe-belfore",
@@ -7554,7 +7945,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "His draft card gives 5 February 1904; his census ages roughly agree."
+     "note": "His draft card gives 5 February 1904; his census ages roughly agree.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "Seine Musterungskarte nennt den 5. Februar 1904; die Altersangaben der Volkszählungen stimmen ungefähr überein."
     },
     {
      "id": "pe-new-rochelle-married-angelo-paternostro",
@@ -7582,7 +7975,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. New Rochelle, New York",
-     "note": "State marriage index, certificate 1348 (both entries)."
+     "note": "State marriage index, certificate 1348 (both entries).",
+     "summary_de": "Heiratete. New Rochelle, New York",
+     "note_de": "Staatlicher Heiratsindex, Urkunde 1348 (beide Einträge)."
     },
     {
      "id": "pe-new-rochelle-born-mollie-drew",
@@ -7613,7 +8008,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "Aged 9 in 1915, 12 in January 1920 and 18 in 1925."
+     "note": "Aged 9 in 1915, 12 in January 1920 and 18 in 1925.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "1915 9 Jahre alt, im Januar 1920 12 und 1925 18."
     },
     {
      "id": "pe-new-rochelle-lived-salvatore-circelli",
@@ -7638,7 +8035,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-married-joseph-donofrio",
@@ -7668,7 +8066,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. New Rochelle, New York",
-     "note": "State marriage index, certificate 44565 (both entries)."
+     "note": "State marriage index, certificate 44565 (both entries).",
+     "summary_de": "Heiratete. New Rochelle, New York",
+     "note_de": "Staatlicher Heiratsindex, Urkunde 44565 (beide Einträge)."
     },
     {
      "id": "pe-new-rochelle-worked-leonardantonio-belfiore-2",
@@ -7693,7 +8093,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Saloon keeper",
-     "note": null
+     "note": null,
+     "summary_de": "Saloonwirt"
     },
     {
      "id": "pe-new-rochelle-served-frank-belfore",
@@ -7716,7 +8117,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Named on New Rochelle's World War I Honor Roll.",
-     "note": "The honor roll places him in the city's list. It does not say where he served."
+     "note": "The honor roll places him in the city's list. It does not say where he served.",
+     "summary_de": "Genannt auf der Ehrenliste von New Rochelle zum Ersten Weltkrieg.",
+     "note_de": "Die Ehrenliste setzt ihn auf die Liste der Stadt. Sie sagt nicht, wo er diente."
     },
     {
      "id": "pe-new-rochelle-worked-michael-belfiore-2",
@@ -7741,7 +8144,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Manager, bowling alley (own business)",
-     "note": null
+     "note": null,
+     "summary_de": "Leiter, Bowlingbahn (eigenes Geschäft)"
     },
     {
      "id": "pe-new-rochelle-worked-patrick-hennessy",
@@ -7770,7 +8174,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Chauffeur for a private family",
-     "note": null
+     "note": null,
+     "summary_de": "Chauffeur einer Privatfamilie"
     },
     {
      "id": "pe-new-rochelle-born-francis-hennessy",
@@ -7793,7 +8198,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-born-edward-belfiore",
@@ -7819,7 +8225,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "Social Security records give 21 March 1921; he was 19 in April 1940."
+     "note": "Social Security records give 21 March 1921; he was 19 in April 1940.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "Die Unterlagen der Social Security nennen den 21. März 1921; im April 1940 war er 19."
     },
     {
      "id": "pe-new-rochelle-born-dorothy-hennessey-belfiore",
@@ -7842,7 +8250,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Her Princeton obituary says she was born in New Rochelle.",
-     "note": "Her census birthplace is New York, the state. The obituary names the city. Both are kept."
+     "note": "Her census birthplace is New York, the state. The obituary names the city. Both are kept.",
+     "summary_de": "Ihr Nachruf aus Princeton sagt, sie sei in New Rochelle geboren.",
+     "note_de": "Ihr Geburtsort in der Volkszählung ist New York, der Bundesstaat. Der Nachruf nennt die Stadt. Beides bleibt erhalten."
     },
     {
      "id": "pe-new-rochelle-born-raymond-donofrio",
@@ -7865,7 +8275,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-born-joseph-belfiore",
@@ -7893,7 +8304,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": "Social Security and the New Jersey death index both give 1 December 1922."
+     "note": "Social Security and the New Jersey death index both give 1 December 1922.",
+     "summary_de": "Geboren. New Rochelle, New York",
+     "note_de": "Social Security und der Sterbeindex von New Jersey nennen beide den 1. Dezember 1922."
     },
     {
      "id": "pe-new-rochelle-born-anne-latino",
@@ -7916,7 +8329,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-worked-leonardantonio-belfiore-3",
@@ -7941,7 +8355,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Mason",
-     "note": null
+     "note": null,
+     "summary_de": "Maurer"
     },
     {
      "id": "pe-new-rochelle-worked-caroline-belfiore",
@@ -7966,7 +8381,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Dressmaker",
-     "note": null
+     "note": null,
+     "summary_de": "Schneiderin"
     },
     {
      "id": "pe-new-rochelle-worked-dorothy-belfiore-bridgeport",
@@ -7991,7 +8407,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Manicurist, beauty shop",
-     "note": null
+     "note": null,
+     "summary_de": "Maniküre, Kosmetiksalon"
     },
     {
      "id": "pe-new-rochelle-worked-michael-belfiore-3",
@@ -8016,7 +8433,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "House painter",
-     "note": null
+     "note": null,
+     "summary_de": "Anstreicher"
     },
     {
      "id": "pe-new-rochelle-worked-mollie-drew",
@@ -8041,7 +8459,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Stenographer",
-     "note": null
+     "note": null,
+     "summary_de": "Stenotypistin"
     },
     {
      "id": "pe-new-rochelle-worked-rose-belfiore",
@@ -8066,7 +8485,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Stenographer",
-     "note": null
+     "note": null,
+     "summary_de": "Stenotypistin"
     },
     {
      "id": "pe-new-rochelle-born-patricia-dillon",
@@ -8089,7 +8509,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-died-maria-donata-circelli",
@@ -8114,7 +8535,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": "New York State death index, \"Belfiore, Marie D.\", certificate 56678. Identified by name, initial and town; the certificate has not been read."
+     "note": "New York State death index, \"Belfiore, Marie D.\", certificate 56678. Identified by name, initial and town; the certificate has not been read.",
+     "summary_de": "Gestorben. New Rochelle, New York",
+     "note_de": "Sterbeindex des Staates New York, „Belfiore, Marie D.“, Urkunde 56678. Identifiziert über Name, Initiale und Ort; die Urkunde ist nicht gelesen worden."
     },
     {
      "id": "pe-new-rochelle-died-leonardantonio-belfiore",
@@ -8139,7 +8562,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": "If he is the Anthony Belfiore in the New York death index (certificate 42184). Not yet confirmed."
+     "note": "If he is the Anthony Belfiore in the New York death index (certificate 42184). Not yet confirmed.",
+     "summary_de": "Gestorben. New Rochelle, New York",
+     "note_de": "Falls er der Anthony Belfiore im Sterbeindex von New York ist (Urkunde 42184). Noch nicht bestätigt."
     },
     {
      "id": "pe-new-rochelle-worked-frances-towey",
@@ -8164,7 +8589,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Cafeteria worker, a high school",
-     "note": null
+     "note": null,
+     "summary_de": "Cafeteria-Angestellte, Highschool"
     },
     {
      "id": "pe-new-rochelle-worked-joseph-belfiore",
@@ -8189,7 +8615,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Delivery boy, grocery store (while at school)",
-     "note": null
+     "note": null,
+     "summary_de": "Austräger, Lebensmittelgeschäft (während der Schulzeit)"
     },
     {
      "id": "pe-new-rochelle-worked-michael-belfiore",
@@ -8214,7 +8641,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Painter, building trade",
-     "note": null
+     "note": null,
+     "summary_de": "Maler, Baugewerbe"
     },
     {
      "id": "pe-new-rochelle-born-patricia-drew-hendrie",
@@ -8237,7 +8665,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-married-dorothy-hennessey-belfiore",
@@ -8266,7 +8695,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. New Rochelle, New York",
-     "note": "New York marriage index, certificate 23239, says 12 May 1946. A Standard-Star notice says 19 May and calls her Patrick J. Hennessy's daughter."
+     "note": "New York marriage index, certificate 23239, says 12 May 1946. A Standard-Star notice says 19 May and calls her Patrick J. Hennessy's daughter.",
+     "summary_de": "Heiratete. New Rochelle, New York",
+     "note_de": "Der Heiratsindex von New York, Urkunde 23239, sagt den 12. Mai 1946. Eine Anzeige im Standard-Star sagt den 19. Mai und nennt sie die Tochter von Patrick J. Hennessy."
     },
     {
      "id": "pe-new-rochelle-lived-rose-belfiore",
@@ -8294,7 +8725,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "1950 census, Rose and Carolyn sharing a home in New Rochelle. Street not on this crop.",
-     "note": null
+     "note": null,
+     "summary_de": "Volkszählung 1950, Rose und Carolyn teilten sich ein Zuhause in New Rochelle. Die Straße steht nicht auf diesem Ausschnitt."
     },
     {
      "id": "pe-new-rochelle-lived-frances-towey",
@@ -8321,7 +8753,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "1950 census in New Rochelle. Frances, food handler at a public school. Michael, house painter. Edward, 29, in the household. Street not on this crop.",
-     "note": null
+     "note": null,
+     "summary_de": "Volkszählung 1950 in New Rochelle. Frances, Küchenhilfe an einer öffentlichen Schule. Michael, Anstreicher. Edward, 29, im Haushalt. Die Straße steht nicht auf diesem Ausschnitt."
     },
     {
      "id": "pe-new-rochelle-died-frances-towey",
@@ -8345,7 +8778,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-died-caroline-belfiore",
@@ -8368,7 +8802,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York (area)",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York (Umgebung)"
     },
     {
      "id": "pe-new-rochelle-died-rose-belfiore",
@@ -8391,7 +8826,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York (area)",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York (Umgebung)"
     },
     {
      "id": "pe-new-rochelle-worked-francis-hennessy",
@@ -8414,7 +8850,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "New Rochelle firefighter for more than 35 years.",
-     "note": "No firehouse is named."
+     "note": "No firehouse is named.",
+     "summary_de": "Feuerwehrmann von New Rochelle für mehr als 35 Jahre.",
+     "note_de": "Kein Feuerwehrhaus ist genannt."
     },
     {
      "id": "pe-new-rochelle-died-francis-hennessy",
@@ -8437,7 +8875,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-died-patricia-drew-hendrie",
@@ -8460,7 +8899,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-died-anne-latino",
@@ -8483,7 +8923,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-married-mary-hennessy-first",
@@ -8509,7 +8950,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Heiratete. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-lived-robert-belfiore",
@@ -8532,7 +8974,9 @@
      "confidence": "family tradition",
      "familyStatement": true,
      "summary": "Grew up in the New Rochelle area.",
-     "note": "This is the place already written in his profile. No street is in the site's data, and none is added."
+     "note": "This is the place already written in his profile. No street is in the site's data, and none is added.",
+     "summary_de": "Wuchs in der Gegend von New Rochelle auf.",
+     "note_de": "Das ist der Ort, der schon in seinem Profil steht. In den Daten der Seite ist keine Straße, und keine wird hinzugefügt."
     },
     {
      "id": "pe-new-rochelle-died-patrick-hennessy",
@@ -8555,7 +8999,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Probably died in New Rochelle, 27 June 1947, aged 70.",
-     "note": "From the New York State death index, certificate 38983. The certificate itself has not been seen, so this stays probable."
+     "note": "From the New York State death index, certificate 38983. The certificate itself has not been seen, so this stays probable.",
+     "summary_de": "Starb wahrscheinlich am 27. Juni 1947 in New Rochelle, im Alter von 70 Jahren.",
+     "note_de": "Aus dem Sterbeindex des Staates New York, Urkunde 38983. Die Urkunde selbst ist nicht eingesehen worden, deshalb bleibt dies wahrscheinlich."
     },
     {
      "id": "pe-new-rochelle-died-james-towey",
@@ -8578,7 +9024,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York"
     },
     {
      "id": "pe-new-rochelle-died-margaret-towey",
@@ -8601,9 +9048,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. New Rochelle, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. New Rochelle, New York"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die amerikanische Heimat der Familie Belfiore seit den 1890er Jahren, und der Familien Hennessy und Towey."
   },
   {
    "id": "new-york-state",
@@ -8666,7 +9116,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": "The 1900 census gives a birth year of 1886. She was 27 when she married in 1914, so about 1886 or 1887."
+     "note": "The 1900 census gives a birth year of 1886. She was 27 when she married in 1914, so about 1886 or 1887.",
+     "summary_de": "Geboren. New York",
+     "note_de": "Die Volkszählung von 1900 nennt das Geburtsjahr 1886. Bei der Heirat 1914 war sie 27, also etwa 1886 oder 1887."
     },
     {
      "id": "pe-new-york-state-born-frances-towey",
@@ -8692,7 +9144,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New York"
     },
     {
      "id": "pe-new-york-state-born-joseph-hennessy-1898",
@@ -8718,7 +9171,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New York"
     },
     {
      "id": "pe-new-york-state-born-thomas-hennessy-1900",
@@ -8744,7 +9198,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New York"
     },
     {
      "id": "pe-new-york-state-born-henry-hennessy-1902",
@@ -8770,7 +9225,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New York"
     },
     {
      "id": "pe-new-york-state-born-john-hennessy-1906",
@@ -8797,7 +9253,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. New York"
     },
     {
      "id": "pe-new-york-state-born-dorothy-belfiore-bridgeport",
@@ -8822,7 +9279,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": "Aged 17 in April 1930; born in New York, father born in Italy, mother born in New York."
+     "note": "Aged 17 in April 1930; born in New York, father born in Italy, mother born in New York.",
+     "summary_de": "Geboren. New York",
+     "note_de": "Im April 1930 17 Jahre alt; geboren in New York, der Vater in Italien geboren, die Mutter in New York geboren."
     },
     {
      "id": "pe-new-york-state-born-donald-donofrio",
@@ -8849,7 +9308,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": "Aged 3 in January 1920 and 13 in 1930."
+     "note": "Aged 3 in January 1920 and 13 in 1930.",
+     "summary_de": "Geboren. New York",
+     "note_de": "Im Januar 1920 3 Jahre alt und 1930 13."
     },
     {
      "id": "pe-new-york-state-born-first-wife-of-michael",
@@ -8874,7 +9335,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Birthplace New York, from her daughter Dorothy's 1930 census line.",
-     "note": "Her name is not known. This is the state only."
+     "note": "Her name is not known. This is the state only.",
+     "summary_de": "Geburtsort New York, aus der Volkszählungszeile ihrer Tochter Dorothy von 1930.",
+     "note_de": "Ihr Name ist nicht bekannt. Dies ist nur der Bundesstaat."
     },
     {
      "id": "pe-new-york-state-born-dorothy-hennessey-belfiore",
@@ -8901,9 +9364,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. New York",
-     "note": "Age 8 in 1930 and 18 in 1940. She is not in Patrick and Annie's household in 1925."
+     "note": "Age 8 in 1930 and 18 in 1940. She is not in Patrick and Annie's household in 1925.",
+     "summary_de": "Geboren. New York",
+     "note_de": "1930 8 Jahre alt und 1940 18. Im Jahr 1925 ist sie nicht im Haushalt von Patrick und Annie."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Geburtsorte in Volkszählungen, die nur New York nennen, den Bundesstaat, und keine Stadt."
   },
   {
    "id": "newington",
@@ -8961,9 +9428,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Newington, Connecticut",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Newington, Connecticut"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Carl Paternostro starb in Newington."
   },
   {
    "id": "north-avenue-new-rochelle",
@@ -9022,9 +9492,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. North Avenue (a lodger with John and Margaret J. Stephens)",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. North Avenue (als Untermieter bei John und Margaret J. Stephens)"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Im Januar 1920 wohnte Michael, ein Witwer, als Untermieter in der North Avenue bei John und Margaret J. Stephens. Die Hausnummer steht nicht im Profil."
   },
   {
    "id": "ormond-beach",
@@ -9081,7 +9554,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Ormond Beach, Florida",
-     "note": "Inferred from a January 2025 property transfer to his wife's trust."
+     "note": "Inferred from a January 2025 property transfer to his wife's trust.",
+     "summary_de": "Gestorben. Ormond Beach, Florida",
+     "note_de": "Erschlossen aus einer Grundstücksübertragung vom Januar 2025 an den Trust seiner Frau."
     },
     {
      "id": "pe-ormond-beach-lived-samuel-belfore-jr",
@@ -9104,9 +9579,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Ormond Beach, Florida",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Ormond Beach, Florida"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Samuel M. Belfore Jr. ist zuletzt in Ormond Beach verzeichnet."
   },
   {
    "id": "our-lady-of-lourdes",
@@ -9163,9 +9641,13 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Requiem Mass at Our Lady of Lourdes Church.",
-     "note": "The obituary names the church and not a street. The paper is the Daytona Beach Evening News."
+     "note": "The obituary names the church and not a street. The paper is the Daytona Beach Evening News.",
+     "summary_de": "Requiem in der Our Lady of Lourdes Church.",
+     "note_de": "Der Nachruf nennt die Kirche und keine Straße. Die Zeitung ist die Daytona Beach Evening News."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys Nachruf aus Daytona sagt, ein Requiem sei in der Our Lady of Lourdes Church gelesen worden. Der Satz wiederholt die Stadt nicht. Die Zeitung ist die Daytona Beach Evening News."
   },
   {
    "id": "port-chester",
@@ -9222,9 +9704,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Port Chester, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. Port Chester, New York"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joseph F. Racine wurde 1940 in Port Chester geboren."
   },
   {
    "id": "port-of-new-york",
@@ -9292,7 +9777,9 @@
      "summary": "Arrived at the Port of New York on the SS Hindoustan, 24 December 1890.",
      "note": "This is before the Ellis Island station opened in January 1892. The 1900 census says he came in 1890 and was already naturalized.",
      "voyageId": "hindoustan-1890",
-     "voyageEnd": "arrival"
+     "voyageEnd": "arrival",
+     "summary_de": "Ankunft im Port of New York auf der SS Hindoustan, 24. Dezember 1890.",
+     "note_de": "Das liegt vor der Eröffnung der Station Ellis Island im Januar 1892. Die Volkszählung von 1900 sagt, er sei 1890 gekommen und bereits eingebürgert gewesen."
     },
     {
      "id": "pe-port-of-new-york-sailed-patrick-hennessy",
@@ -9321,7 +9808,9 @@
      "summary": "Arrived at New York on 11 January 1894. No ship has been found.",
      "note": "From his declaration of intention. No passenger list for that day is in the collection.",
      "voyageId": "hennessy-1894",
-     "voyageEnd": "arrival"
+     "voyageEnd": "arrival",
+     "summary_de": "Ankunft in New York am 11. Januar 1894. Kein Schiff ist gefunden worden.",
+     "note_de": "Aus seiner Absichtserklärung. Für diesen Tag ist keine Passagierliste in der Sammlung."
     },
     {
      "id": "pe-port-of-new-york-sailed-maria-donata-circelli",
@@ -9358,7 +9847,9 @@
      "summary": "Arrived at New York on the SS Oregon, 2 December 1896. Maria Doreta Circelli is line 413 on the Ellis Island index.",
      "note": "The index says the ship came from Genoa and Naples. It does not say which port this family boarded. The research page reads the manifest party as Maria, 34, with Michele, 12, Francesca (Filomena), 9, and Anna (Mary), 6. Michael's own immigration field still has no ship: 58 years of residence at his death would point to about 1894. Phyl and Mary are probable. Michael on this ship is probable, from that manifest reading, and needs to stay beside the 1894 possibility.",
      "voyageId": "oregon-1896",
-     "voyageEnd": "arrival"
+     "voyageEnd": "arrival",
+     "summary_de": "Ankunft in New York auf der SS Oregon, 2. Dezember 1896. Maria Doreta Circelli ist Zeile 413 im Index von Ellis Island.",
+     "note_de": "Der Index sagt, das Schiff sei aus Genoa und Naples gekommen. Er sagt nicht, in welchem Hafen diese Familie an Bord ging. Die Forschungsseite liest die Gruppe auf der Passagierliste als Maria, 34, mit Michele, 12, Francesca (Filomena), 9, und Anna (Mary), 6. Michaels eigenes Einwanderungsfeld nennt noch kein Schiff: 58 Wohnjahre bei seinem Tod würden auf etwa 1894 deuten. Phyl und Mary sind wahrscheinlich. Michael auf diesem Schiff ist wahrscheinlich, nach dieser Lesung der Passagierliste, und muss neben der Möglichkeit von 1894 stehen bleiben."
     },
     {
      "id": "pe-port-of-new-york-sailed-salvatore-circelli",
@@ -9390,9 +9881,12 @@
      "summary": "Arrived at the Port of New York on the SS Alsatia, 19 March 1898.",
      "note": null,
      "voyageId": "alsatia-1898",
-     "voyageEnd": "arrival"
+     "voyageEnd": "arrival",
+     "summary_de": "Ankunft im Port of New York auf der SS Alsatia, 19. März 1898."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Ankunftshafen auf den Passagierlisten der Familie. Ellis Island war ab 1892 die Einwanderungsstation. Die Hindoustan kam im Dezember 1890 an, bevor diese Station eröffnete."
   },
   {
    "id": "premium-point",
@@ -9453,7 +9947,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Hostler, or a man who worked with horses, at Premium Point",
-     "note": null
+     "note": null,
+     "summary_de": "Stallknecht, oder ein Mann, der mit Pferden arbeitete, auf Premium Point"
     },
     {
      "id": "pe-premium-point-lived-annie-hussey-hennessy",
@@ -9480,7 +9975,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Premium Point",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Premium Point"
     },
     {
      "id": "pe-premium-point-lived-patrick-hennessy",
@@ -9509,7 +10005,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Premium Point",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Premium Point"
     },
     {
      "id": "pe-premium-point-lived-dorothy-hennessey-belfiore",
@@ -9534,9 +10031,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "A 10 May 1946 marriage notice gives her residence as Premium Point.",
-     "note": null
+     "note": null,
+     "summary_de": "Eine Heiratsanzeige vom 10. Mai 1946 nennt ihren Wohnsitz als Premium Point."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Patrick Hennessy arbeitete hier schon 1910 mit Pferden, und die Familie war 1940 noch auf dem Point."
   },
   {
    "id": "princeton",
@@ -9593,7 +10093,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Moved to Princeton in 1994.",
-     "note": "Her husband Joseph C. Belfiore died in Princeton on 19 October 1994. The obituary says she moved in 1994. It does not say he had a separate Princeton home of his own."
+     "note": "Her husband Joseph C. Belfiore died in Princeton on 19 October 1994. The obituary says she moved in 1994. It does not say he had a separate Princeton home of his own.",
+     "summary_de": "Zog 1994 nach Princeton.",
+     "note_de": "Ihr Mann Joseph C. Belfiore starb am 19. Oktober 1994 in Princeton. Der Nachruf sagt, sie sei 1994 zugezogen. Er sagt nicht, dass er ein eigenes, getrenntes Zuhause in Princeton gehabt habe."
     },
     {
      "id": "pe-princeton-died-joseph-belfiore",
@@ -9619,7 +10121,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died in Princeton, New Jersey, on 19 October 1994.",
-     "note": "Joseph Belfiore (1922 to 1994), son of Michael and husband of Dorothy Hennessey, died in Princeton on 19 October 1994. The New Jersey death index and his Social Security record name him, age 71, born 1 December 1922, parents Michael Belfiore and Frances Towey. The owner confirmed that the Joseph Belfiore who died in Valrico, Florida, in 1986 is a different man."
+     "note": "Joseph Belfiore (1922 to 1994), son of Michael and husband of Dorothy Hennessey, died in Princeton on 19 October 1994. The New Jersey death index and his Social Security record name him, age 71, born 1 December 1922, parents Michael Belfiore and Frances Towey. The owner confirmed that the Joseph Belfiore who died in Valrico, Florida, in 1986 is a different man.",
+     "summary_de": "Starb am 19. Oktober 1994 in Princeton, New Jersey.",
+     "note_de": "Joseph Belfiore (1922 bis 1994), Sohn von Michael und Ehemann von Dorothy Hennessey, starb am 19. Oktober 1994 in Princeton. Der Sterbeindex von New Jersey und sein Eintrag bei der Social Security nennen ihn, 71 Jahre alt, geboren am 1. Dezember 1922, Eltern Michael Belfiore und Frances Towey. Der Inhaber bestätigte, dass der Joseph Belfiore, der 1986 in Valrico, Florida, starb, ein anderer Mann ist."
     },
     {
      "id": "pe-princeton-died-dorothy-hennessey-belfiore",
@@ -9642,9 +10146,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Princeton, New Jersey",
-     "note": "Aged 85."
+     "note": "Aged 85.",
+     "summary_de": "Gestorben. Princeton, New Jersey",
+     "note_de": "85 Jahre alt."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joseph C. Belfiore starb hier am 19. Oktober 1994, und Dorothy Hennessey Belfiore starb hier am 5. Januar 2008."
   },
   {
    "id": "ridgeview-country-club",
@@ -9704,9 +10212,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Professional, Ridgeview Country Club",
-     "note": null
+     "note": null,
+     "summary_de": "Professional, Ridgeview Country Club"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy war in den Sommern der Professional im Ridgeview in Duluth. Eine ältere Seite hatte Ridgeview nach Westchester gesetzt. Die Russell-Biografie verortet ihn in Duluth."
   },
   {
    "id": "sacred-heart-monroe",
@@ -9743,7 +10254,9 @@
    "images": [],
    "streetView": null,
    "streetViewReason": null,
-   "events": []
+   "events": [],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Nachruf auf Patricia Dillon sagt, sie sei der Sacred Heart Church in Monroe sehr verbunden gewesen, wo sie fast 60 Jahre lebte."
   },
   {
    "id": "seabreeze",
@@ -9803,7 +10316,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Pro-manager, Seabreeze Golf & Tennis Club",
-     "note": null
+     "note": null,
+     "summary_de": "Pro-Manager, Seabreeze Golf & Tennis Club"
     },
     {
      "id": "pe-seabreeze-worked-frank-belfore",
@@ -9831,7 +10345,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Golf professional; ran the golf shop, Seabreeze Golf & Tennis Club",
-     "note": null
+     "note": null,
+     "summary_de": "Golfprofessional; führte den Golfshop, Seabreeze Golf & Tennis Club"
     },
     {
      "id": "pe-seabreeze-photographed-sammy-belfore",
@@ -9857,9 +10372,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Photographed together in the Seabreeze golf shop. The caption reads Sammy Belfore and (R) brother Frank.",
-     "note": null
+     "note": null,
+     "summary_de": "Zusammen fotografiert im Golfshop von Seabreeze. Die Bildunterschrift lautet: Sammy Belfore and (R) brother Frank."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy war Pro-Manager, als der Club wiedereröffnete, und Frank führte den Golfshop. Ein Foto von 1948 zeigt die beiden Brüder im Shop."
   },
   {
    "id": "shenecossett",
@@ -9920,9 +10438,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Golf professional, Shenecossett Country Club",
-     "note": null
+     "note": null,
+     "summary_de": "Golfprofessional, Shenecossett Country Club"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammys Musterungskarte von 1942 sagt, er sei Golfprofessional im Shenecossett Country Club gewesen."
   },
   {
    "id": "southern-nevada-veterans-cemetery",
@@ -9979,9 +10500,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried. Southern Nevada Veterans Memorial Cemetery, Boulder City, Nevada",
-     "note": null
+     "note": null,
+     "summary_de": "Begraben. Southern Nevada Veterans Memorial Cemetery, Boulder City, Nevada"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Edward Belfiore, Korporal der Army von 1941 bis 1945, ruht hier."
   },
   {
    "id": "st-josephs-new-rochelle",
@@ -10020,7 +10544,9 @@
    "images": [],
    "streetView": null,
    "streetViewReason": null,
-   "events": []
+   "events": [],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Forschungsbericht nennt St. Joseph's, gegründet 1901, die italienische Pfarrei: zuerst eine Holzkapelle in der 4th Street, dann die Backsteinkirche in der Washington Avenue. Kein Familienritus in dieser Sammlung ist damit verbunden."
   },
   {
    "id": "town-of-babylon",
@@ -10077,9 +10603,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Worked twenty-five years for the Town of Babylon.",
-     "note": null
+     "note": null,
+     "summary_de": "Arbeitete fünfundzwanzig Jahre für die Town of Babylon."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Nachruf auf Dorothy Hennessey sagt, sie habe fünfundzwanzig Jahre für die Town of Babylon gearbeitet."
   },
   {
    "id": "westchester-county",
@@ -10141,7 +10670,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Married. Westchester, New York",
-     "note": "The index gives Westchester and does not name a church."
+     "note": "The index gives Westchester and does not name a church.",
+     "summary_de": "Heiratete. Westchester, New York",
+     "note_de": "Der Index nennt Westchester und keine Kirche."
     },
     {
      "id": "pe-westchester-county-naturalization-antonio-belfiore",
@@ -10164,7 +10695,9 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Naturalization: Antonio \"Belfiora\" files a declaration in 1896 and a petition in 1899.",
-     "note": "Index entries only; identity with Leonardantonio is probable, not proven."
+     "note": "Index entries only; identity with Leonardantonio is probable, not proven.",
+     "summary_de": "Einbürgerung: Antonio „Belfiora“ reicht 1896 eine Absichtserklärung und 1899 einen Antrag ein.",
+     "note_de": "Nur Indexeinträge; die Identität mit Leonardantonio ist wahrscheinlich, nicht belegt."
     },
     {
      "id": "pe-westchester-county-naturalization-mary-donofrio",
@@ -10187,9 +10720,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Naturalization petition of Mary (Belfiore) D'Onofrio, 1943.",
-     "note": "Index entry only."
+     "note": "Index entry only.",
+     "summary_de": "Einbürgerungsantrag von Mary (Belfiore) D'Onofrio, 1943.",
+     "note_de": "Nur ein Indexeintrag."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Der Heiratsindex von 1914 für Patrick Hennessy und Annie Hussey nennt das County und keine Kirche. Das Gericht des Countys bearbeitete auch die Einbürgerung von Antonio Belfiora (1896 bis 1899) und die von Mary D'Onofrio (1943)."
   },
   {
    "id": "wethersfield",
@@ -10247,9 +10784,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Died. Wethersfield, Connecticut",
-     "note": null
+     "note": null,
+     "summary_de": "Gestorben. Wethersfield, Connecticut"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Dominick Paternostro starb in Wethersfield."
   },
   {
    "id": "white-plains",
@@ -10306,9 +10846,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. White Plains, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. White Plains, New York"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Dolores D'Onofrio wurde in White Plains geboren."
   },
   {
    "id": "white-sulphur-springs",
@@ -10368,9 +10911,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Head professional, White Sulphur Springs",
-     "note": null
+     "note": null,
+     "summary_de": "Head-Professional, White Sulphur Springs"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy war in den 1920er Jahren Head-Professional in White Sulphur Springs. Die Angabe nennt weder die Straße noch das Gebäude des Clubs."
   },
   {
    "id": "wright-patterson",
@@ -10427,9 +10973,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Served in the Air Force at Wright-Patterson.",
-     "note": null
+     "note": null,
+     "summary_de": "Diente in der Air Force in Wright-Patterson."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joseph F. Racine diente von 1962 bis 1965 in der Air Force in Wright-Patterson."
   },
   {
    "id": "wykagyl-country-club",
@@ -10494,7 +11043,8 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Golf shop boy, then assistant professional, Wykagyl Country Club",
-     "note": null
+     "note": null,
+     "summary_de": "Junge im Golfshop, dann Assistant-Professional, Wykagyl Country Club"
     },
     {
      "id": "pe-wykagyl-country-club-worked-sammy-belfore-2",
@@ -10521,9 +11071,12 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Golf instructor (under Alex Smith), Wykagyl",
-     "note": null
+     "note": null,
+     "summary_de": "Golflehrer (unter Alex Smith), Wykagyl"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Sammy begann hier im Golfshop unter Alex Smith, und 1918 nennt seine Musterungskarte Wykagyl als seine Arbeitsstätte."
   },
   {
    "id": "wykagyl-gardens",
@@ -10585,7 +11138,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. Wykagyl Gardens Apartments",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Wykagyl Gardens Apartments"
     },
     {
      "id": "pe-wykagyl-gardens-lived-rose-belfiore",
@@ -10613,9 +11167,12 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Lived. Wykagyl Gardens",
-     "note": null
+     "note": null,
+     "summary_de": "Lebte. Wykagyl Gardens"
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Rose und Caroline wohnten in Wykagyl Gardens. Joes Karte von 1942 nennt seine Schwester Rose in den Wykagyl Gardens Apartments."
   },
   {
    "id": "yonkers",
@@ -10674,7 +11231,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Born. Yonkers, New York",
-     "note": null
+     "note": null,
+     "summary_de": "Geboren. Yonkers, New York"
     },
     {
      "id": "pe-yonkers-worked-joseph-donofrio",
@@ -10699,7 +11257,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Gardener, florist",
-     "note": null
+     "note": null,
+     "summary_de": "Gärtner, Florist"
     },
     {
      "id": "pe-yonkers-worked-joseph-donofrio-2",
@@ -10724,7 +11283,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Nurseryman, own business",
-     "note": null
+     "note": null,
+     "summary_de": "Baumschulgärtner, eigenes Geschäft"
     },
     {
      "id": "pe-yonkers-worked-francis-donofrio",
@@ -10747,7 +11307,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Floor hand, carpet mill",
-     "note": null
+     "note": null,
+     "summary_de": "Fabrikarbeiter, Teppichfabrik"
     },
     {
      "id": "pe-yonkers-worked-joseph-donofrio-3",
@@ -10770,7 +11331,8 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Foreman",
-     "note": null
+     "note": null,
+     "summary_de": "Vorarbeiter"
     },
     {
      "id": "pe-yonkers-lived-joseph-f-racine",
@@ -10793,9 +11355,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Grew up in Yonkers.",
-     "note": "No street is given. The end of these years is not a recorded date."
+     "note": "No street is given. The end of these years is not a recorded date.",
+     "summary_de": "Wuchs in Yonkers auf.",
+     "note_de": "Keine Straße ist genannt. Das Ende dieser Jahre ist kein belegtes Datum."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Mary und Joseph D'Onofrio ließen sich in Yonkers nieder, und Joseph F. Racine wuchs dort auf."
   },
   {
    "id": "vico-passaro-san-bartolomeo",
@@ -10860,9 +11426,14 @@
      "confidence": "confirmed",
      "familyStatement": false,
      "summary": "Born. No. 17, Vico Passaro (reading uncertain), San Bartolomeo in Galdo",
-     "note": "Birth act 440 of 1884 gives 15 December 1884; the index line agrees. His WWI card and death certificate say 1885 and his WWII card says 1883. The street name is hard to read on the scan, and Passaro is the best reading."
+     "note": "Birth act 440 of 1884 gives 15 December 1884; the index line agrees. His WWI card and death certificate say 1885 and his WWII card says 1883. The street name is hard to read on the scan, and Passaro is the best reading.",
+     "summary_de": "Geboren. No. 17, Vico Passaro (Lesung unsicher), San Bartolomeo in Galdo",
+     "note_de": "Geburtsakt 440 von 1884 nennt den 15. Dezember 1884; die Indexzeile stimmt überein. Seine Karte aus dem Ersten Weltkrieg und die Sterbeurkunde sagen 1885, und seine Karte aus dem Zweiten Weltkrieg sagt 1883. Der Straßenname ist auf dem Scan schwer zu lesen, und Passaro ist die beste Lesung."
     }
-   ]
+   ],
+   "country_de": "Italien",
+   "significance_de": "Das Haus, in dem Michael im Dezember 1884 geboren wurde, No. 17 einer Gasse, deren Name sich wie Vico Passaro liest.",
+   "todayNote_de": "Eine Gasse namens Vico Passaro führt auf der heutigen Karte noch durch die Altstadt hinauf. Das stützt die Lesung des Straßennamens auf der Geburtsakte von 1884, auch wenn das Haus selbst nicht gefunden worden ist."
   },
   {
    "id": "saginaw-country-club",
@@ -10919,9 +11490,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Runner-up by one stroke in the 1934 Michigan Open.",
-     "note": "Headline only; the article has not been read."
+     "note": "Headline only; the article has not been read.",
+     "summary_de": "Zweiter mit einem Schlag Rückstand bei der Michigan Open von 1934.",
+     "note_de": "Nur die Schlagzeile; der Artikel ist nicht gelesen worden."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Wo Joe Belfore mit einem Schlag Rückstand hinter dem Sieger der Michigan Open von 1934 abschloss."
   },
   {
    "id": "sunningdale-country-club",
@@ -10985,9 +11560,14 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Worked. Sunningdale Country Club, 1927 to 1929",
-     "note": "Printed as Joe Belfore, Sunningdale, in Times tournament lists. The lists do not give his exact job title at the club."
+     "note": "Printed as Joe Belfore, Sunningdale, in Times tournament lists. The lists do not give his exact job title at the club.",
+     "summary_de": "Arbeitete. Sunningdale Country Club, 1927 bis 1929",
+     "note_de": "Gedruckt als Joe Belfore, Sunningdale, in den Turnierlisten der Times. Die Listen nennen seine genaue Berufsbezeichnung im Club nicht."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die New York Times druckte Joe Belfore als „Joe Belfore, Sunningdale“ in Turnierlisten von 1927 bis 1929, seine Clubjahre vor Florida und Michigan.",
+   "todayNote_de": "Der Club ist noch in Betrieb, im Postbezirk Scarsdale von Westchester. Es ist nicht der Club Sunningdale in England."
   },
   {
    "id": "calverton-national-cemetery",
@@ -11046,9 +11626,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Buried. Calverton National Cemetery, Section 66, Site 3739",
-     "note": "The Veterans Affairs gravesite locator gives the same birth and death dates as the New Jersey death index."
+     "note": "The Veterans Affairs gravesite locator gives the same birth and death dates as the New Jersey death index.",
+     "summary_de": "Begraben. Calverton National Cemetery, Section 66, Site 3739",
+     "note_de": "Der Gravesite Locator von Veterans Affairs nennt dieselben Geburts- und Sterbedaten wie der Sterbeindex von New Jersey."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Joseph C. Belfiore, der im Zweiten Weltkrieg in der Navy diente, ist hier begraben, in Section 66, Site 3739."
   },
   {
    "id": "87-huguenot-street",
@@ -11109,9 +11693,13 @@
      "confidence": "probable",
      "familyStatement": false,
      "summary": "Lived. 87 Huguenot Street, September 1918",
-     "note": "The card is a probable identification of Dorothy's grandfather."
+     "note": "The card is a probable identification of Dorothy's grandfather.",
+     "summary_de": "Lebte. 87 Huguenot Street, September 1918",
+     "note_de": "Die Karte ist eine wahrscheinliche Identifizierung von Dorothys Großvater."
     }
-   ]
+   ],
+   "country_de": "Vereinigte Staaten",
+   "significance_de": "Die Musterungskarte von Patrick Joseph Hennessy von 1918 nennt 87 Huguenot Street als seinen Wohnsitz und als Adresse seiner Frau Anna, als er Chauffeur auf Premium Point war."
   }
  ]
 }

@@ -87,16 +87,19 @@ function serve() {
     places.forEach(pl => (pl.events || []).forEach(e => { if (e.voyageId && !voyageIds.has(e.voyageId)) danglingVoyages.push(e.id + ' ' + e.voyageId); }));
     check(!danglingVoyages.length, 'every voyageId on a map event exists on a person\'s voyages', danglingVoyages.join('; '));
     const disc = fs.readFileSync(path.join(DIST, 'discoveries.html'), 'utf8');
-    check(/class="tl-conf"[^>]*>Confirmed</.test(disc) && /class="tl-conf"[^>]*>Probable</.test(disc), 'Discoveries still shows Confirmed and Probable (timeline.showConfidence)');
+    check(!/class="tl-conf"/.test(disc), 'Discoveries does not draw confidence labels');
     check(/class="tl-source" href="https:\/\/antenati\.cultura\.gov\.it\//.test(disc), 'a Discoveries source with a web address is a link');
+    check(disc.includes('id="tl-lang-de"'), 'Discoveries has a German copy of the page');
     const builtCfg = fs.readFileSync(path.join(DIST, 'site-config.js'), 'utf8');
-    check(!/"language"\s*:/.test(builtCfg) && !/"access"\s*:/.test(builtCfg) && !/"visitor"\s*:/.test(builtCfg), 'language, private access and visitor identity stay off');
+    check(/"visitor"/.test(builtCfg) && /"language"/.test(builtCfg) && !/"access"/.test(builtCfg), 'visitor identity and English plus German are on, and the password gate stays off');
 
     const srv = await serve();
     const base = 'http://127.0.0.1:' + srv.address().port + '/';
     const browser = await chromium.launch({ args: GL_ARGS });
     if (SHOTS) fs.mkdirSync(SHOTS, { recursive: true });
+    const skipVisitor = () => { try { localStorage.setItem('fs.visitor.v1:/', JSON.stringify({ v: 1, id: null, skipped: true, at: '2026-11-28' })); } catch (e) {} };
     const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+    await ctx.addInitScript(skipVisitor);
     const page = await ctx.newPage();
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));
@@ -271,8 +274,38 @@ function serve() {
     await page.keyboard.press('Escape');
     await page.waitForTimeout(300);
 
+    const deCtx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+    await deCtx.addInitScript(() => {
+        try {
+            localStorage.setItem('fs.visitor.v1:/', JSON.stringify({ v: 1, id: null, skipped: true, at: '2026-11-28' }));
+            localStorage.setItem('fse-language', 'de');
+        } catch (e) {}
+    });
+    const de = await deCtx.newPage();
+    await de.goto(base + 'tree-canvas.html#/person/michael-belfiore');
+    await de.waitForFunction(() => window.__tree && __tree.S.drawerFor === 'michael-belfiore' && document.querySelector('#drawerBody .pf-story, #drawerBody .story, #drawerBody p'), null, { timeout: 20000 });
+    const deStory = await de.evaluate(() => document.querySelector('#drawerBody').innerText);
+    check(/Musterung/.test(deStory) && !/registered for the draft/.test(deStory), 'Michael\'s profile is in German when DE is chosen', deStory.slice(0, 180));
+    await de.waitForFunction(() => /familienkarte/i.test(document.querySelector('nav.main-nav').innerText), null, { timeout: 5000 });
+    check(true, 'the navigation uses the German labels');
+    await de.goto(base + 'discoveries.html');
+    await de.waitForFunction(() => [...document.querySelectorAll('.tl-root .tl-headline')].some(h => /steigt noch immer/.test(h.textContent)), null, { timeout: 5000 });
+    check(true, 'Discoveries headlines are in German');
+    await de.goto(base + 'map.html?place=41-brook-street');
+    await de.waitForFunction(() => window.FM && FM.ready, null, { timeout: 30000 });
+    await de.waitForTimeout(600);
+    await de.selectOption('#vpSel', 'seb-belfiore');
+    const deRel = await de.evaluate(() => {
+        const c = document.querySelector('#panelBody .chip[data-person="leonardantonio-belfiore"] .chip-vp');
+        return c ? c.textContent : '';
+    });
+    check(/Urgroßvater|Ururgroßvater/.test(deRel), 'the map\'s German relationship matches the tree\'s words', deRel);
+    await deCtx.close();
+
     for (const [w, h] of [[1440, 900], [820, 1180], [390, 844]]) {
-        const p2 = await (await browser.newContext({ viewport: { width: w, height: h } })).newPage();
+        const ctxW = await browser.newContext({ viewport: { width: w, height: h } });
+        await ctxW.addInitScript(skipVisitor);
+        const p2 = await ctxW.newPage();
         const errs = [];
         p2.on('pageerror', e => errs.push(e.message));
         await p2.route('**/*', r => r.request().url().startsWith(base) ? r.continue() : r.abort());
