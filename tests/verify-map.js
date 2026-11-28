@@ -10,6 +10,8 @@
  * or en dashes; every placeId resolves; no living person has a place except the two already mapped, and Seb has
  * none; every place with events is drawn; the filters, family choices, person search, Timeline mode (events on the track and in the list), list view and
  * "Not yet on the map" tray work; a place panel shows sources and links to profiles; no page errors at three widths.
+ * Engine 1.5: no "No Street View" message, "Relationships to" agrees with the tree, a census image opens in the
+ * source drawer, and Discoveries still shows confidence and source links.
  */
 const http = require('http');
 const fs = require('fs');
@@ -84,6 +86,11 @@ function serve() {
     const danglingVoyages = [];
     places.forEach(pl => (pl.events || []).forEach(e => { if (e.voyageId && !voyageIds.has(e.voyageId)) danglingVoyages.push(e.id + ' ' + e.voyageId); }));
     check(!danglingVoyages.length, 'every voyageId on a map event exists on a person\'s voyages', danglingVoyages.join('; '));
+    const disc = fs.readFileSync(path.join(DIST, 'discoveries.html'), 'utf8');
+    check(/class="tl-conf"[^>]*>Confirmed</.test(disc) && /class="tl-conf"[^>]*>Probable</.test(disc), 'Discoveries still shows Confirmed and Probable (timeline.showConfidence)');
+    check(/class="tl-source" href="https:\/\/antenati\.cultura\.gov\.it\//.test(disc), 'a Discoveries source with a web address is a link');
+    const builtCfg = fs.readFileSync(path.join(DIST, 'site-config.js'), 'utf8');
+    check(!/"language"\s*:/.test(builtCfg) && !/"access"\s*:/.test(builtCfg) && !/"visitor"\s*:/.test(builtCfg), 'language, private access and visitor identity stay off');
 
     const srv = await serve();
     const base = 'http://127.0.0.1:' + srv.address().port + '/';
@@ -187,6 +194,82 @@ function serve() {
     const listMissing = drawable.filter(id => !list.includes(PL[id].name));
     check(!listMissing.length, 'the list view names every place', listMissing.join(', '));
     await page.keyboard.press('Escape');
+
+    console.log('Engine 1.5');
+    const sv = await page.evaluate(() => {
+        const out = { text: false, nosv: false, places: 0 };
+        Object.keys(FM.DATA.places).forEach(id => {
+            FM.openPlace(id, { push: false });
+            const body = document.getElementById('panelBody');
+            out.places++;
+            if (body && /No Street View/i.test(body.textContent)) out.text = true;
+            if (body && body.querySelector('.pn-nosv, .ec-nosv')) out.nosv = true;
+        });
+        return out;
+    });
+    check(sv.places > 10 && !sv.text && !sv.nosv, `no place panel says "No Street View" (${sv.places} places)`);
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(200);
+    const vp0 = await page.evaluate(() => ({
+        box: !document.getElementById('vpBox').hidden,
+        value: document.getElementById('vpSel').value,
+        label: (document.querySelector('#vpBox label') || {}).textContent,
+        first: (document.querySelector('#vpSel option') || {}).textContent,
+        inKey: !!document.querySelector('#key #vpBox')
+    }));
+    check(vp0.box && vp0.value === '' && vp0.label === 'Relationships to' && vp0.first === 'No one' && vp0.inKey, 'Relationships to sits in the key, with nobody chosen', JSON.stringify(vp0));
+    await page.evaluate(() => FM.openPlace('41-brook-street', { push: false }));
+    await page.waitForTimeout(200);
+    check(await page.evaluate(() => document.querySelectorAll('.chip-vp').length) === 0, 'with nobody chosen, name chips have no relationship words');
+    await page.selectOption('#vpSel', 'seb-belfiore');
+    await page.waitForTimeout(300);
+    const relIds = ['leonardantonio-belfiore', 'michael-belfiore', 'maria-donata-circelli', 'frances-towey', 'joe-belfore', 'seb-belfiore'];
+    const rels = await page.evaluate(ids => { const o = {}; ids.forEach(id => { o[id] = FM.rel.of(id); }); return o; }, relIds);
+    const chip = await page.evaluate(() => {
+        const c = document.querySelector('#panelBody .chip[data-person="leonardantonio-belfiore"]');
+        const vp = c && c.querySelector('.chip-vp');
+        return vp ? vp.textContent : '';
+    });
+    check(rels['leonardantonio-belfiore'] && chip.replace(/^\W+/, '') === 'your ' + rels['leonardantonio-belfiore'], 'Leonardantonio\'s chip says what he is to Seb', JSON.stringify({ rel: rels['leonardantonio-belfiore'], chip }));
+    check(rels['seb-belfiore'] === null, 'Seb has no relationship to himself');
+    check(await page.evaluate(() => localStorage.getItem('tc_viewpoint')) === 'seb-belfiore', 'the choice is kept where the tree page reads it');
+    await page.goto(base + 'tree-canvas.html');
+    await page.waitForFunction(() => window.__tree && document.getElementById('viewpoint') && document.getElementById('viewpoint').value === 'seb-belfiore', null, { timeout: 20000 });
+    const mism = [];
+    for (const id of relIds) {
+        if (id === 'seb-belfiore') continue;
+        await page.evaluate(pid => { location.hash = '#/person/' + pid; }, id);
+        await page.waitForFunction(pid => window.__tree.S.drawerFor === pid && document.querySelector('#drawerBody .pf-name'), id, { timeout: 4000 });
+        const txt = await page.evaluate(() => {
+            const d = [...document.querySelectorAll('#drawerBody .dr-rel, #drawerBody .pf-variants')].find(x => x.classList.contains('dr-rel') || /Relationship to/.test(x.textContent));
+            if (!d) return null;
+            return d.classList.contains('dr-rel') ? d.lastChild.textContent : d.textContent.replace(/^[^:]*:\s*/, '');
+        });
+        const want = rels[id];
+        if (!want || !txt || txt.toLowerCase() !== want.toLowerCase()) mism.push(id + ': map "' + want + '" tree "' + txt + '"');
+    }
+    check(!mism.length, 'the map and the tree give the same words for Leonardantonio, Michael, Maria Donata, Frances and Joe', mism.join(' | '));
+    await page.goto(base + 'map.html?place=41-brook-street');
+    await page.waitForFunction(() => window.FM && FM.ready, null, { timeout: 30000 });
+    await page.waitForTimeout(800);
+    const census = page.locator('#panelBody .pn-src a.sp-link', { hasText: '1910 U.S. census' });
+    check(await census.count() > 0, 'the 1910 census is a source title link');
+    await census.first().hover();
+    await page.waitForTimeout(550);
+    const card = await page.evaluate(() => {
+        const c = document.getElementById('sp-card');
+        return { shown: !!(c && !c.hidden), img: !!(c && c.querySelector('.sp-thumb img')), title: c && (c.querySelector('.sp-t') || {}).textContent };
+    });
+    check(card.shown && card.img && /1910 U.S. census/.test(card.title || ''), 'hovering the census shows a card with the page image', JSON.stringify(card));
+    await census.first().click();
+    await page.waitForTimeout(500);
+    const drawer = await page.evaluate(() => {
+        const d = document.querySelector('.sp-drawer');
+        return { open: !!(d && !d.hidden && d.classList.contains('is-open')), img: !!(d && d.querySelector('.sp-d-img img')), title: (document.getElementById('sp-d-title') || {}).textContent || '' };
+    });
+    check(drawer.open && drawer.img && /1910 U.S. census/.test(drawer.title), 'clicking the census opens it in the drawer', JSON.stringify(drawer));
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(300);
 
     for (const [w, h] of [[1440, 900], [820, 1180], [390, 844]]) {
         const p2 = await (await browser.newContext({ viewport: { width: w, height: h } })).newPage();

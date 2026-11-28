@@ -6,7 +6,8 @@
   "channel": "stable"
  },
  "timeline": {
-  "enabled": true
+  "enabled": true,
+  "showConfidence": true
  },
  "site": {
   "name": "Belfiore & Circelli",
@@ -147,6 +148,7 @@
   },
   "cardPhotos": "best",
   "coupleBlocks": "auto",
+  "showConfidence": true,
   "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
   "rootPersonId": "seb-belfiore",
   "generations": [

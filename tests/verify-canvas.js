@@ -169,6 +169,16 @@ const ok = (m) => console.log('  ok   ' + m);
             await page.evaluate(() => { history.pushState('', '', location.pathname); dispatchEvent(new HashChangeEvent('hashchange')); });
             if (routeErrs.length) routeErrs.forEach(e => fail('route: ' + e)); else ok(`all ${people.length} #/person/ routes open the full story in the expanded panel`);
 
+            // Engine 1.4 hides confidence unless the site asks for it. This site always showed it.
+            await page.evaluate(() => { location.hash = '#/person/michael-belfiore'; });
+            await page.waitForFunction(() => window.__tree.S.drawerFor === 'michael-belfiore' && document.querySelector('#drawerBody .pf-badges'), null, { timeout: 4000 });
+            const conf = await page.evaluate(() => ({
+                badge: document.querySelector('#drawerBody .pf-badges').textContent,
+                heads: Array.from(document.querySelectorAll('#drawerBody thead th')).map(t => t.textContent)
+            }));
+            if (!/Overall: confirmed/.test(conf.badge) || !conf.heads.includes('Confidence')) fail('Michael\'s profile is missing "Overall: confirmed" or the Confidence column (tree.showConfidence)');
+            else ok('confidence stays on the profile: Overall: confirmed, and the facts table has a Confidence column');
+
             // lightbox opens with alt text and a transcription where one exists
             await page.evaluate(() => { location.hash = '#/person/leonardantonio-belfiore'; });
             await page.waitForTimeout(400);
