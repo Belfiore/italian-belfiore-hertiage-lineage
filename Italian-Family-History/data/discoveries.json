@@ -857,6 +857,28 @@
    "confidence": "probable",
    "image": "images/ww1-patrick-hennessy-draft.jpg",
    "imageAlt": "Front and back of the 1918 draft card for Patrick Joseph Hennessy of 87 Huguenot Street, New Rochelle"
+  },
+  {
+   "id": "r27-belfore-brothers-ruth-gehrig-photo",
+   "covers": [
+    "photo:joe-belfore:0f04e1c382",
+    "photo:sammy-belfore:0f04e1c382"
+   ],
+   "personIds": [
+    "joe-belfore",
+    "sammy-belfore"
+   ],
+   "found": "2026-11-27",
+   "findType": "photo",
+   "headline": "A family photograph shows Joe and Sammy Belfore with Babe Ruth and Lou Gehrig.",
+   "foundBy": "Sebastian",
+   "source": {
+    "text": "Family collection, shared by Sebastian Belfiore, 27 November 2026. Identities as given by the family, left to right: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. Evening Star (Washington, DC), 1 March 1931, p. 71, reports young Joe Belfore of New Rochelle third in the Florida West Coast Open at Belleair, a tournament Babe Ruth also entered."
+   },
+   "confidence": "family tradition",
+   "image": "images/belfore-brothers-babe-ruth-lou-gehrig.jpg",
+   "imageAlt": "Sepia family photograph of five men in golf clothes standing on grass in front of trees, identified by the family, left to right, as Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man.",
+   "changeNote": "The photograph is family-provided. Identifications, left to right, are by the family: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. The date is unknown. No site golf source names the man on the far right."
   }
  ]
 }

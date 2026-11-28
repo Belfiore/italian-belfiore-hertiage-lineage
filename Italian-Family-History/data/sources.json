@@ -862,7 +862,7 @@
    "type": "newspaper",
    "repository": "Evening Star; copy at historyworm.com",
    "date": "1931-03-01",
-   "note": "\"Young Joe Belfore of New Rochelle\" third in the West Coast Open, Florida."
+   "note": "\"Young Joe Belfore of New Rochelle\" third in the West Coast Open at Belleair, Florida, with rounds of 68 and 74. The same sports page reports that Babe Ruth teed off in the tournament on 28 February 1931."
   },
   {
    "id": "obit-index-joe-1963",
@@ -2103,6 +2103,15 @@
    "file": "images/calverton-national-cemetery-sign.jpg",
    "url": "https://commons.wikimedia.org/wiki/File:Calverton_National_Cemetery_sign.jpg",
    "note": "Photograph from the Department of Veterans Affairs, dated 14 April 2008. Public domain. Used as a place photograph for Joseph C. Belfiore's burial, not as a portrait."
+  },
+  {
+   "id": "belfore-brothers-ruth-gehrig-photo",
+   "title": "Family photograph: Joe and Sammy Belfore with Babe Ruth and Lou Gehrig",
+   "type": "photograph",
+   "repository": "Family collection, shared by Sebastian Belfiore",
+   "date": null,
+   "file": "images/belfore-brothers-babe-ruth-lou-gehrig.jpg",
+   "note": "Identities as given by the family, left to right: Joe Belfore, Sammy Belfore, Babe Ruth, Lou Gehrig and an unidentified man, probably not a Belfore. The date is unknown. No site golf source names the man on the far right."
   }
  ]
 }
